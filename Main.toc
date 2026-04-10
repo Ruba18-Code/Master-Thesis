@@ -1,0 +1,32 @@
+\babel@toc {english}{}\relax 
+\contentsline {section}{\numberline {1}Introduction \& Motivation}{iv}{section.0.1}%
+\contentsline {section}{\numberline {2}Design of Vapor Cells}{iv}{section.0.2}%
+\contentsline {subsection}{\numberline {2.1}Initial Considerations \& Constraints}{iv}{subsection.0.2.1}%
+\contentsline {subsection}{\numberline {2.2}General Design of Individual LWVCs}{iv}{subsection.0.2.2}%
+\contentsline {subsection}{\numberline {2.3}Wafer-Level Approach}{iv}{subsection.0.2.3}%
+\contentsline {subsection}{\numberline {2.4}Real Examples}{iv}{subsection.0.2.4}%
+\contentsline {section}{\numberline {3}Fabrication Methods}{iv}{section.0.3}%
+\contentsline {subsection}{\numberline {3.1}Initial Considerations \& Constraints}{iv}{subsection.0.3.1}%
+\contentsline {subsection}{\numberline {3.2}Types of Glasses \& Quality Requirements}{iv}{subsection.0.3.2}%
+\contentsline {subsection}{\numberline {3.3}Femtolaser Laser}{iv}{subsection.0.3.3}%
+\contentsline {subsection}{\numberline {3.4}Optical Contact Bonding}{iv}{subsection.0.3.4}%
+\contentsline {subsubsection}{\numberline {3.4.1}Introduction}{iv}{subsubsection.0.3.4.1}%
+\contentsline {subsubsection}{\numberline {3.4.2}Chemical Cleaning \& Activation}{iv}{subsubsection.0.3.4.2}%
+\contentsline {subsubsection}{\numberline {3.4.3}Plasma-Activated Bonding}{iv}{subsubsection.0.3.4.3}%
+\contentsline {subsection}{\numberline {3.5}Annealing}{vi}{subsection.0.3.5}%
+\contentsline {subsubsection}{\numberline {3.5.1}Annealing pressure}{vii}{subsubsection.0.3.5.1}%
+\contentsline {subsection}{\numberline {3.6}Other bonding methods}{ix}{subsection.0.3.6}%
+\contentsline {subsubsection}{\numberline {3.6.1}Anodic Bonding}{ix}{subsubsection.0.3.6.1}%
+\contentsline {subsection}{\numberline {3.7}Post-Treatments (Coatings, activation)}{ix}{subsection.0.3.7}%
+\contentsline {subsection}{\numberline {3.8}Step-by-Step Experimental Procedure}{ix}{subsection.0.3.8}%
+\contentsline {section}{\numberline {4}Carachterization and Quality Control}{ix}{section.0.4}%
+\contentsline {subsection}{\numberline {4.1}Strength Tests}{ix}{subsection.0.4.1}%
+\contentsline {subsection}{\numberline {4.2}Roughness and Waviness using AFM}{ix}{subsection.0.4.2}%
+\contentsline {subsection}{\numberline {4.3}Leak Tests using Spectroscopy}{ix}{subsection.0.4.3}%
+\contentsline {subsubsection}{\numberline {4.3.1}Experimental Proposal}{x}{subsubsection.0.4.3.1}%
+\contentsline {subsection}{\numberline {4.4}Helium Hermeticity in Micro-fabricated Vapor Cells}{xi}{subsection.0.4.4}%
+\contentsline {section}{\numberline {5}Experiments \& Applications}{xii}{section.0.5}%
+\contentsline {section}{\numberline {6}Overlook \& Conclusions}{xii}{section.0.6}%
+\contentsline {section}{\numberline {7}Appendix}{xii}{section.0.7}%
+\contentsline {subsection}{\numberline {7.1}Recipes in literature}{xii}{subsection.0.7.1}%
+\providecommand \tocbasic@end@toc@file {}\tocbasic@end@toc@file 
