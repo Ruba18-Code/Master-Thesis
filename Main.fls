@@ -116,11 +116,8 @@ INPUT /usr/share/texlive/texmf-dist/tex/latex/l3kernel/expl3.sty
 INPUT /usr/share/texlive/texmf-dist/tex/latex/l3kernel/expl3.sty
 INPUT /usr/share/texlive/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
 INPUT /usr/share/texlive/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
-INPUT /usr/share/texlive/texmf-dist/tex/latex/subfigure/subfigure.sty
-INPUT /usr/share/texlive/texmf-dist/tex/latex/subfigure/subfigure.sty
-INPUT /usr/share/texlive/texmf-dist/tex/latex/subfigure/subfigure.cfg
-INPUT /usr/share/texlive/texmf-dist/tex/latex/subfigure/subfigure.cfg
-INPUT /usr/share/texlive/texmf-dist/tex/latex/subfigure/subfigure.cfg
+INPUT /usr/share/texlive/texmf-dist/tex/latex/caption/subcaption.sty
+INPUT /usr/share/texlive/texmf-dist/tex/latex/caption/subcaption.sty
 INPUT /usr/share/texlive/texmf-dist/tex/latex/doublestroke/dsfont.sty
 INPUT /usr/share/texlive/texmf-dist/tex/latex/doublestroke/dsfont.sty
 INPUT /usr/share/texlive/texmf-dist/tex/latex/carlisle/slashed.sty
@@ -396,11 +393,56 @@ INPUT ./Images/pressure.png
 INPUT ./Images/pressure.png
 INPUT ./Images/pressure.png
 INPUT /usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-ts1.enc
+INPUT ./sections/Characterization and Quality Control/Surface inspection using an AFM.tex
+INPUT ./sections/Characterization and Quality Control/Surface inspection using an AFM.tex
+INPUT sections/Characterization and Quality Control/Surface inspection using an AFM.tex
+INPUT ./Images/AFM_tip.JPG
+INPUT ./Images/AFM_tip.JPG
+INPUT ./Images/AFM_tip.JPG
+INPUT ./Images/AFM_tip.JPG
+INPUT ./Images/AFM_tip.JPG
+INPUT ./Images/Sample1_2D_compressed.pdf
+INPUT ./Images/Sample1_2D_compressed.pdf
+INPUT ./Images/Sample1_2D_compressed.pdf
+INPUT ./Images/Sample1_2D_compressed.pdf
+INPUT ./Images/Sample1_2D_compressed.pdf
+INPUT ./Images/Sample2_2D_compressed.pdf
+INPUT ./Images/Sample2_2D_compressed.pdf
+INPUT ./Images/Sample2_2D_compressed.pdf
+INPUT ./Images/Sample2_2D_compressed.pdf
+INPUT ./Images/Sample2_2D_compressed.pdf
+INPUT ./Images/Sample3_2D_compressed.pdf
+INPUT ./Images/Sample3_2D_compressed.pdf
+INPUT ./Images/Sample3_2D_compressed.pdf
+INPUT ./Images/Sample3_2D_compressed.pdf
+INPUT ./Images/Sample3_2D_compressed.pdf
+INPUT ./Images/Sample1_3D.pdf
+INPUT ./Images/Sample1_3D.pdf
+INPUT ./Images/Sample1_3D.pdf
+INPUT ./Images/Sample1_3D.pdf
+INPUT ./Images/Sample1_3D.pdf
+INPUT ./Images/Sample2_3D.pdf
+INPUT ./Images/Sample2_3D.pdf
+INPUT ./Images/Sample2_3D.pdf
+INPUT ./Images/Sample2_3D.pdf
+INPUT ./Images/Sample2_3D.pdf
+INPUT ./Images/Sample3_3D.pdf
+INPUT ./Images/Sample3_3D.pdf
+INPUT ./Images/Sample3_3D.pdf
+INPUT ./Images/Sample3_3D.pdf
+INPUT ./Images/Sample3_3D.pdf
+INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmti10.tfm
+INPUT ./sections/Characterization and Quality Control/Leak Tests Using Spectroscopy.tex
+INPUT ./sections/Characterization and Quality Control/Leak Tests Using Spectroscopy.tex
+INPUT sections/Characterization and Quality Control/Leak Tests Using Spectroscopy.tex
 INPUT ./Images/D1 & D2.png
 INPUT ./Images/D1 & D2.png
 INPUT ./Images/D1 & D2.png
 INPUT ./Images/D1 & D2.png
 INPUT ./Images/D1 & D2.png
+INPUT ./sections/Characterization and Quality Control/Enhanced Helium Hermeticity in Micro-fabricated Vapor Cells.tex
+INPUT ./sections/Characterization and Quality Control/Enhanced Helium Hermeticity in Micro-fabricated Vapor Cells.tex
+INPUT sections/Characterization and Quality Control/Enhanced Helium Hermeticity in Micro-fabricated Vapor Cells.tex
 INPUT ./Images/He.png
 INPUT ./Images/He.png
 INPUT ./Images/He.png

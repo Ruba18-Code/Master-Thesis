@@ -21,12 +21,12 @@
 \contentsline {subsection}{\numberline {3.8}Step-by-Step Experimental Procedure}{ix}{subsection.0.3.8}%
 \contentsline {section}{\numberline {4}Carachterization and Quality Control}{ix}{section.0.4}%
 \contentsline {subsection}{\numberline {4.1}Strength Tests}{ix}{subsection.0.4.1}%
-\contentsline {subsection}{\numberline {4.2}Roughness and Waviness using AFM}{ix}{subsection.0.4.2}%
-\contentsline {subsection}{\numberline {4.3}Leak Tests using Spectroscopy}{ix}{subsection.0.4.3}%
-\contentsline {subsubsection}{\numberline {4.3.1}Experimental Proposal}{x}{subsubsection.0.4.3.1}%
-\contentsline {subsection}{\numberline {4.4}Helium Hermeticity in Micro-fabricated Vapor Cells}{xi}{subsection.0.4.4}%
-\contentsline {section}{\numberline {5}Experiments \& Applications}{xii}{section.0.5}%
-\contentsline {section}{\numberline {6}Overlook \& Conclusions}{xii}{section.0.6}%
-\contentsline {section}{\numberline {7}Appendix}{xii}{section.0.7}%
-\contentsline {subsection}{\numberline {7.1}Recipes in literature}{xii}{subsection.0.7.1}%
+\contentsline {subsection}{\numberline {4.2}Surface inspection using an Atomic Force Microscope}{ix}{subsection.0.4.2}%
+\contentsline {subsection}{\numberline {4.3}Leak Tests using Spectroscopy}{x}{subsection.0.4.3}%
+\contentsline {subsubsection}{\numberline {4.3.1}Experimental Proposal}{xii}{subsubsection.0.4.3.1}%
+\contentsline {subsection}{\numberline {4.4}Enhanced Helium Hermeticity in Micro-fabricated Vapor Cells}{xiii}{subsection.0.4.4}%
+\contentsline {section}{\numberline {5}Experiments \& Applications}{xiv}{section.0.5}%
+\contentsline {section}{\numberline {6}Overlook \& Conclusions}{xiv}{section.0.6}%
+\contentsline {section}{\numberline {7}Appendix}{xiv}{section.0.7}%
+\contentsline {subsection}{\numberline {7.1}Recipes in literature}{xiv}{subsection.0.7.1}%
 \providecommand \tocbasic@end@toc@file {}\tocbasic@end@toc@file 

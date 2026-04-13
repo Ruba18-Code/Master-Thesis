@@ -1,0 +1,90 @@
+\subsection{Surface inspection using an Atomic Force Microscope}
+\textit{Atomic Force Microscopy} (AFM) is sophisticated type of 
+scanning probe microscopy, which consists of a physical probe
+that scans the specimen in order to produce images of surfaces. 
+Atomic Force Microscopes can map the topology of a surface
+with sub-nanometric resolution, which makes them an ideal tool 
+for surface inspection in the context of atomic sensors, and
+more specifically in the context of Optical Contact Bonding,
+due to the strict glass roughness requirements of this method. 
+\\\\
+The AFM consists of a cantilever with a sharp tip at 
+its end ---with a radius of curvature 
+on the order of nanometers, as shown in \ref{fig:AFM_tip}--- that is used to scan 
+the specimen surface. 
+When the tip is brought near a sample, forces between them lead to a 
+deflection of the cantilever according to Hooke's law. Forces that 
+are measured in AFM include mechanical 
+contact force, van der Waals forces and capillary forces, among others.
+Operating modes are  divided into static \textit{contact} modes and \textit{tapping}
+modes, where the cantilever is vibrated at a given frequency.
+\begin{figure}[h]
+    \centering
+    \includegraphics[width=0.6\linewidth]{Images/AFM_tip.JPG}
+    \caption{View of cantilever in Atomic Force Microscope (magnification 1000x) \cite{wiki_afm_tip}}
+    \label{fig:AFM_tip}
+\end{figure}
+\\\\
+\textbf{WHICH GLASS} A Glass disk samples was inspected using a \textbf{WHICH TYPE} AFM in \textit{tapping} mode.
+This sample was
+provided by \textbf{WHICH COMPANY} with an original roughness of \textbf{WHICH VALUE}. After 
+being exposed
+to \textbf{WHICH CHEMICAL}, it was stored for
+a few weeks in a Petri dish. Adter that, it was examined in three different
+spots of its surface. The obtained data was analyzed using the \textit{Gwyddion} software, 
+where 
+two \ref{fig:AFM_image2D} and three-dimensional \ref{fig:AFM_image3D}
+AFM images of the samples were obtained, \textbf{WITH DIFFEREMT SIZE}
+along with the density distribution of roughness ---displayed in 
+\ref{fig:roughness_dist}. A detailed list of the estimated
+surface parameters can be found in \ref{tab:afm}. The precise definition of these parameters 
+can be found in \cite{ISO}.
+
+\begin{figure}
+    \centering
+    \begin{subfigure}[b]{0.55\textwidth}
+        \includegraphics[width=\textwidth]{Images/Sample1_2D_compressed.pdf}
+    \end{subfigure}
+    \vfill
+    \begin{subfigure}[b]{0.48\textwidth}
+        \includegraphics[width=\textwidth]{Images/Sample2_2D_compressed.pdf}
+    \end{subfigure}
+    \begin{subfigure}[b]{0.48\textwidth}
+        \includegraphics[width=\textwidth]{Images/Sample3_2D_compressed.pdf}
+    \end{subfigure}
+    \caption{2D Surface images obtained through AFM}
+    \label{fig:AFM_image2D}
+\end{figure}
+\begin{figure}
+    \centering
+    \begin{subfigure}[b]{0.48\textwidth}
+        \includegraphics[width=\textwidth]{Images/Sample1_3D.pdf}
+    \end{subfigure}
+    \vfill
+    \begin{subfigure}[b]{0.48\textwidth}
+        \includegraphics[width=\textwidth]{Images/Sample2_3D.pdf}
+    \end{subfigure}
+    \begin{subfigure}[b]{0.48\textwidth}
+        \includegraphics[width=\textwidth]{Images/Sample3_3D.pdf}
+    \end{subfigure}
+    \caption{3D Surface images obtained through AFM}
+    \label{fig:AFM_image3D}
+\end{figure}
+
+\begin{table}[h]
+\centering
+\resizebox{\textwidth}{!}{%
+\begin{tabular}{l|l|l|l|l|l|l}
+\textbf{Sample} & \textbf{Sq {[}pm{]}} & \textbf{Sa {[}pm{]}} & \textbf{Sp {[}nm{]}} & \textbf{Sv {[}nm{]}} & \textbf{Sz {[}nm{]}} & \textbf{Mean height {[}nm{]}} \\ \hline
+\textbf{1}      & 518                  & 387                  & 4.02                 & -4.14                & 8.17                 & 0.03                          \\ \hline
+\textbf{2}      & 411                  & 298                  & 2.04                 & 2.83                 & 4.87                 & 0.02                          \\ \hline
+\textbf{3}      & 726                  & 529                  & 7.66                 & 4.05                 & 11.71                & 0.02                         
+\end{tabular}%
+}
+\caption{Surface parameters obtained through AFM in three different parts of the surface:
+\textit{Root-mean squared roughness} (Sq),
+ \textit{Mean roughness} (Sa), \textit{Maximum peak heigth} (Sp),
+ \textit{Minimum valley depth} (Sv), \textit{Maximum height} (Sz)
+ and \textit{Mean height}}
+\label{tab:afm}
+\end{table}
