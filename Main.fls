@@ -431,6 +431,24 @@ INPUT ./Images/Sample3_3D.pdf
 INPUT ./Images/Sample3_3D.pdf
 INPUT ./Images/Sample3_3D.pdf
 INPUT ./Images/Sample3_3D.pdf
+INPUT ./Images/Sample1_dist.pdf
+INPUT ./Images/Sample1_dist.pdf
+INPUT ./Images/Sample1_dist.pdf
+INPUT ./Images/Sample1_dist.pdf
+INPUT ./Images/Sample1_dist.pdf
+INPUT ./Images/Sample2_dist.pdf
+INPUT ./Images/Sample2_dist.pdf
+INPUT ./Images/Sample2_dist.pdf
+INPUT ./Images/Sample2_dist.pdf
+INPUT ./Images/Sample2_dist.pdf
+INPUT ./Images/Sample3_dist.pdf
+INPUT ./Images/Sample3_dist.pdf
+INPUT ./Images/Sample3_dist.pdf
+INPUT ./Images/Sample3_dist.pdf
+INPUT ./Images/Sample3_dist.pdf
+INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm
+INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/amsfonts/symbols/msam5.tfm
+INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm5.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmti10.tfm
 INPUT ./sections/Characterization and Quality Control/Leak Tests Using Spectroscopy.tex
 INPUT ./sections/Characterization and Quality Control/Leak Tests Using Spectroscopy.tex
@@ -448,9 +466,6 @@ INPUT ./Images/He.png
 INPUT ./Images/He.png
 INPUT ./Images/He.png
 INPUT ./Images/He.png
-INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm
-INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/amsfonts/symbols/msam5.tfm
-INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm5.tfm
 INPUT /usr/share/texlive/texmf-dist/tex/latex/base/omlcmr.fd
 INPUT /usr/share/texlive/texmf-dist/tex/latex/base/omlcmr.fd
 INPUT /usr/share/texlive/texmf-dist/tex/latex/base/omlcmr.fd
@@ -464,6 +479,7 @@ INPUT /usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb
 INPUT /usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb
 INPUT /usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb
 INPUT /usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb
+INPUT /usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb
 INPUT /usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb
 INPUT /usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb
 INPUT /usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb

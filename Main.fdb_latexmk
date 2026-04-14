@@ -1,13 +1,13 @@
 # Fdb version 4
-["bibtex Main"] 1776093814.98781 "Main.aux" "Main.bbl" "Main" 1776093921.02923 0
-  "./references.bib" 1776087282.3645 4602 6ff6abd4e5bb27fef079b4ce45dbdf5e ""
+["bibtex Main"] 1776160003.77087 "Main.aux" "Main.bbl" "Main" 1776160006.02331 0
+  "./references.bib" 1776160003.60181 4760 9fb6ec74ef23b55dea84ac400b4aeb50 ""
   "/usr/share/texlive/texmf-dist/bibtex/bst/ieeetran/IEEEtran.bst" 1440712899 57748 7c8250ecf02814ce6ddc0cdbb63df1dd ""
-  "Main.aux" 1776093920.79104 22337 3960ac31b22e25beb363cf483bc5421a "pdflatex"
+  "Main.aux" 1776160005.71378 23290 b607f87fac43c36599b31c869795b852 "pdflatex"
   (generated)
   "Main.bbl"
   "Main.blg"
   (rewritten before read)
-["pdflatex"] 1776093919.29146 "/home/ruben/Escritorio/Master Thesis/Master-Thesis/Main.tex" "Main.pdf" "Main" 1776093921.0294 0
+["pdflatex"] 1776160003.89014 "/home/ruben/Escritorio/Master Thesis/Master-Thesis/Main.tex" "Main.pdf" "Main" 1776160006.02346 0
   "/etc/texmf/web2c/texmf.cnf" 1753802693.73376 475 c0e671620eb5563b2130f56340a5fde8 ""
   "/home/ruben/Escritorio/Master Thesis/Master-Thesis/Main.tex" 1776090886.22938 18300 871bf7d154ffa5e90c3928cbf0707857 ""
   "/usr/share/texlive/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
@@ -43,6 +43,7 @@
   "/usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb" 1248133631 30251 6afa5cb1d0204815a708a080681d4674 ""
   "/usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb" 1248133631 36299 5f9df58c2139e7edcf37c8fca4bd384d ""
   "/usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb" 1248133631 37166 8ab3487cbe3ab49ebce74c29ea2418db ""
+  "/usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb" 1248133631 36281 c355509802a035cadc5f15869451dcee ""
   "/usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb" 1248133631 35469 70d41d2b9ea31d5d813066df7c99281c ""
   "/usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb" 1248133631 35752 024fb6c41858982481f6968b5fc26508 ""
   "/usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb" 1248133631 32722 d7379af29a190c3f453aba36302ff5a9 ""
@@ -227,22 +228,25 @@
   "Images/He.png" 1775653394.82998 45791 a438b1a38a64db91a0f04d9473ad7654 ""
   "Images/Sample1_2D_compressed.pdf" 1776091484 461629 5b5aba3140157e10a0abf88523d145e5 ""
   "Images/Sample1_3D.pdf" 1776093672.53683 1004092 34f45a8ce7377dea87f8d773362724e1 ""
+  "Images/Sample1_dist.pdf" 1776083534.95409 22416 f3f3ef18c27069c0777fe4ed382995b3 ""
   "Images/Sample2_2D_compressed.pdf" 1776091485 1108329 b3792b5c5985a4bb7bd70680ae63357e ""
   "Images/Sample2_3D.pdf" 1776093678.13474 1033312 33d90ea5a7351d33e37f02c06a3b717b ""
+  "Images/Sample2_dist.pdf" 1776083609.95325 22909 93cdf642e637b9b33f2bbc9d406bb17d ""
   "Images/Sample3_2D_compressed.pdf" 1776091485 1201257 3879933a5867d1668841a423333b2cc2 ""
   "Images/Sample3_3D.pdf" 1776093683.89165 758973 f580b6be688ebda5b2458eb0c8327554 ""
+  "Images/Sample3_dist.pdf" 1776083727.80596 23510 681df6ff23d3f7bb80228d04b5409406 ""
   "Images/annealing_time.png" 1775652888.20334 55255 cb04b936f2845e7e86bdc4ae4517c71b ""
   "Images/chucks.png" 1775645804 98267 b728e1700b524f81be81738c6392d7b2 ""
   "Images/plasma_activation.png" 1775652729.09869 228920 d2b17b6ecaf810599cbf407af405fc00 ""
   "Images/pressure.png" 1775645906 278905 6ec95583f61e2e297f84517ee00cba8f ""
-  "Main.aux" 1776093920.79104 22337 3960ac31b22e25beb363cf483bc5421a "pdflatex"
-  "Main.bbl" 1776093815.0606 4116 27e13fc26e6c3b26aa6db35dcd780d6c "bibtex Main"
-  "Main.out" 1776093920.39404 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
+  "Main.aux" 1776160005.71378 23290 b607f87fac43c36599b31c869795b852 "pdflatex"
+  "Main.bbl" 1776160003.8708 4226 09dc4bb3f61033e1bfa4520b72feaab5 "bibtex Main"
+  "Main.out" 1776160005.13079 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
   "Main.tex" 1776090886.22938 18300 871bf7d154ffa5e90c3928cbf0707857 ""
-  "Main.toc" 1776093920.79504 2939 650676d69dcbdf63bcc3c02434cad77f "pdflatex"
+  "Main.toc" 1776160005.71978 2937 fd7a9c9de0385f42ac01cfde22f183cf "pdflatex"
   "sections/Characterization and Quality Control/Enhanced Helium Hermeticity in Micro-fabricated Vapor Cells.tex" 1776085409.46313 1899 2b085a58758580e41dc79edf5c847849 ""
   "sections/Characterization and Quality Control/Leak Tests Using Spectroscopy.tex" 1776085232.78434 5650 a5b2cb88286ceb076c3b145ff8916f5a ""
-  "sections/Characterization and Quality Control/Surface inspection using an AFM.tex" 1776093919.09206 4396 2cfc4c9a73b8a2d7d24e2d89114b2863 ""
+  "sections/Characterization and Quality Control/Surface inspection using an AFM.tex" 1776159872.15218 5984 02239fd8ab169458ed902b54e5792389 ""
   (generated)
   "Main.aux"
   "Main.log"

@@ -22,11 +22,11 @@
 \contentsline {section}{\numberline {4}Carachterization and Quality Control}{ix}{section.0.4}%
 \contentsline {subsection}{\numberline {4.1}Strength Tests}{ix}{subsection.0.4.1}%
 \contentsline {subsection}{\numberline {4.2}Surface inspection using an Atomic Force Microscope}{ix}{subsection.0.4.2}%
-\contentsline {subsection}{\numberline {4.3}Leak Tests using Spectroscopy}{x}{subsection.0.4.3}%
-\contentsline {subsubsection}{\numberline {4.3.1}Experimental Proposal}{xii}{subsubsection.0.4.3.1}%
-\contentsline {subsection}{\numberline {4.4}Enhanced Helium Hermeticity in Micro-fabricated Vapor Cells}{xiii}{subsection.0.4.4}%
-\contentsline {section}{\numberline {5}Experiments \& Applications}{xiv}{section.0.5}%
-\contentsline {section}{\numberline {6}Overlook \& Conclusions}{xiv}{section.0.6}%
-\contentsline {section}{\numberline {7}Appendix}{xiv}{section.0.7}%
-\contentsline {subsection}{\numberline {7.1}Recipes in literature}{xiv}{subsection.0.7.1}%
+\contentsline {subsection}{\numberline {4.3}Leak Tests using Spectroscopy}{xii}{subsection.0.4.3}%
+\contentsline {subsubsection}{\numberline {4.3.1}Experimental Proposal}{xiii}{subsubsection.0.4.3.1}%
+\contentsline {subsection}{\numberline {4.4}Enhanced Helium Hermeticity in Micro-fabricated Vapor Cells}{xiv}{subsection.0.4.4}%
+\contentsline {section}{\numberline {5}Experiments \& Applications}{xv}{section.0.5}%
+\contentsline {section}{\numberline {6}Overlook \& Conclusions}{xv}{section.0.6}%
+\contentsline {section}{\numberline {7}Appendix}{xv}{section.0.7}%
+\contentsline {subsection}{\numberline {7.1}Recipes in literature}{xv}{subsection.0.7.1}%
 \providecommand \tocbasic@end@toc@file {}\tocbasic@end@toc@file 

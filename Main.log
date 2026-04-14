@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2026.4.1)  13 APR 2026 17:25
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2026.4.1)  14 APR 2026 11:46
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -945,20 +945,63 @@ File: Images/AFM_tip.JPG Graphic file (type jpg)
 <use Images/AFM_tip.JPG>
 Package pdftex.def Info: Images/AFM_tip.JPG  used on input line 23.
 (pdftex.def)             Requested size: 244.12717pt x 195.29163pt.
-
-
-LaTeX Warning: Reference `fig:roughness_dist' on page viii undefined on input line 39.
-
-
-LaTeX Warning: Citation `ISO' on page viii undefined on input line 41.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 2--42
+<Images/Sample1_2D_compressed.pdf, id=186, 3895.55376pt x 3076.49374pt>
+File: Images/Sample1_2D_compressed.pdf Graphic file (type pdf)
+<use Images/Sample1_2D_compressed.pdf>
+Package pdftex.def Info: Images/Sample1_2D_compressed.pdf  used on input line 43.
+(pdftex.def)             Requested size: 223.7822pt x 176.69516pt.
+<Images/Sample2_2D_compressed.pdf, id=187, 6434.0375pt x 5579.84625pt>
+File: Images/Sample2_2D_compressed.pdf Graphic file (type pdf)
+<use Images/Sample2_2D_compressed.pdf>
+Package pdftex.def Info: Images/Sample2_2D_compressed.pdf  used on input line 47.
+(pdftex.def)             Requested size: 195.298pt x 169.34642pt.
+<Images/Sample3_2D_compressed.pdf, id=188, 6211.205pt x 5545.71875pt>
+File: Images/Sample3_2D_compressed.pdf Graphic file (type pdf)
+<use Images/Sample3_2D_compressed.pdf>
+Package pdftex.def Info: Images/Sample3_2D_compressed.pdf  used on input line 50.
+(pdftex.def)             Requested size: 195.298pt x 174.31873pt.
+<Images/Sample1_3D.pdf, id=189, 1879.02pt x 1051.93pt>
+File: Images/Sample1_3D.pdf Graphic file (type pdf)
+<use Images/Sample1_3D.pdf>
+Package pdftex.def Info: Images/Sample1_3D.pdf  used on input line 59.
+(pdftex.def)             Requested size: 195.298pt x 109.3243pt.
+<Images/Sample2_3D.pdf, id=190, 1879.02pt x 1051.93pt>
+File: Images/Sample2_3D.pdf Graphic file (type pdf)
+<use Images/Sample2_3D.pdf>
+Package pdftex.def Info: Images/Sample2_3D.pdf  used on input line 63.
+(pdftex.def)             Requested size: 195.298pt x 109.3243pt.
+<Images/Sample3_3D.pdf, id=191, 1879.02pt x 1051.93pt>
+File: Images/Sample3_3D.pdf Graphic file (type pdf)
+<use Images/Sample3_3D.pdf>
+Package pdftex.def Info: Images/Sample3_3D.pdf  used on input line 66.
+(pdftex.def)             Requested size: 195.298pt x 109.3243pt.
+<Images/Sample1_dist.pdf, id=192, 571.73978pt x 354.86137pt>
+File: Images/Sample1_dist.pdf Graphic file (type pdf)
+<use Images/Sample1_dist.pdf>
+Package pdftex.def Info: Images/Sample1_dist.pdf  used on input line 75.
+(pdftex.def)             Requested size: 195.298pt x 121.21439pt.
+<Images/Sample2_dist.pdf, id=193, 571.73978pt x 354.86137pt>
+File: Images/Sample2_dist.pdf Graphic file (type pdf)
+<use Images/Sample2_dist.pdf>
+Package pdftex.def Info: Images/Sample2_dist.pdf  used on input line 79.
+(pdftex.def)             Requested size: 195.298pt x 121.21439pt.
+<Images/Sample3_dist.pdf, id=194, 571.73506pt x 354.86137pt>
+File: Images/Sample3_dist.pdf Graphic file (type pdf)
+<use Images/Sample3_dist.pdf>
+Package pdftex.def Info: Images/Sample3_dist.pdf  used on input line 82.
+(pdftex.def)             Requested size: 195.298pt x 121.21439pt.
+) (./sections/Characterization and Quality Control/Leak Tests Using Spectroscopy.tex
+Underfull \hbox (badness 10000) in paragraph at lines 2--1
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2--42
+Underfull \hbox (badness 10000) in paragraph at lines 2--1
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2--1
 
  []
 
@@ -966,42 +1009,14 @@ Underfull \hbox (badness 10000) in paragraph at lines 2--42
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [8 <./Images/chucks.png (PNG copy)> <./Images/pressure.png>] [9 <./Images/AFM_tip.JPG>]
-<Images/Sample1_2D_compressed.pdf, id=194, 3895.55376pt x 3076.49374pt>
-File: Images/Sample1_2D_compressed.pdf Graphic file (type pdf)
-<use Images/Sample1_2D_compressed.pdf>
-Package pdftex.def Info: Images/Sample1_2D_compressed.pdf  used on input line 46.
-(pdftex.def)             Requested size: 223.7822pt x 176.69516pt.
-<Images/Sample2_2D_compressed.pdf, id=195, 6434.0375pt x 5579.84625pt>
-File: Images/Sample2_2D_compressed.pdf Graphic file (type pdf)
-<use Images/Sample2_2D_compressed.pdf>
-Package pdftex.def Info: Images/Sample2_2D_compressed.pdf  used on input line 50.
-(pdftex.def)             Requested size: 195.298pt x 169.34642pt.
-<Images/Sample3_2D_compressed.pdf, id=196, 6211.205pt x 5545.71875pt>
-File: Images/Sample3_2D_compressed.pdf Graphic file (type pdf)
-<use Images/Sample3_2D_compressed.pdf>
-Package pdftex.def Info: Images/Sample3_2D_compressed.pdf  used on input line 53.
-(pdftex.def)             Requested size: 195.298pt x 174.31873pt.
-<Images/Sample1_3D.pdf, id=197, 1879.02pt x 1051.93pt>
-File: Images/Sample1_3D.pdf Graphic file (type pdf)
-<use Images/Sample1_3D.pdf>
-Package pdftex.def Info: Images/Sample1_3D.pdf  used on input line 61.
-(pdftex.def)             Requested size: 195.298pt x 109.3243pt.
-<Images/Sample2_3D.pdf, id=198, 1879.02pt x 1051.93pt>
-File: Images/Sample2_3D.pdf Graphic file (type pdf)
-<use Images/Sample2_3D.pdf>
-Package pdftex.def Info: Images/Sample2_3D.pdf  used on input line 65.
-(pdftex.def)             Requested size: 195.298pt x 109.3243pt.
-<Images/Sample3_3D.pdf, id=199, 1879.02pt x 1051.93pt>
-File: Images/Sample3_3D.pdf Graphic file (type pdf)
-<use Images/Sample3_3D.pdf>
-Package pdftex.def Info: Images/Sample3_3D.pdf  used on input line 68.
-(pdftex.def)             Requested size: 195.298pt x 109.3243pt.
-
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-) (./sections/Characterization and Quality Control/Leak Tests Using Spectroscopy.tex
-<Images/D1 & D2.png, id=206, 798.985pt x 605.26125pt>
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [10 <./Images/Sample1_2D_compressed.pdf> <./Images/Sample2_2D_compressed.pdf> <./Images/Sample3_2D_compressed.pdf>] [11 <./Images/Sample1_3D.pdf> <./Images/Sample2_3D.pdf> <./Images/Sample3_3D.pdf> <./Images/Sample1_dist.pdf> <./Images/Sample2_dist.pdf> <./Images/Sample3_dist.pdf>]
+<Images/D1 & D2.png, id=404, 798.985pt x 605.26125pt>
 File: Images/D1 & D2.png Graphic file (type png)
 <use Images/D1 & D2.png>
 Package pdftex.def Info: Images/D1 & D2.png  used on input line 25.
@@ -1016,14 +1031,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 2--40
 
  []
 
-[10 <./Images/Sample1_2D_compressed.pdf> <./Images/Sample2_2D_compressed.pdf> <./Images/Sample3_2D_compressed.pdf>]
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [11 <./Images/Sample1_3D.pdf> <./Images/Sample2_3D.pdf> <./Images/Sample3_3D.pdf>]
+[12 <./Images/D1 & D2.png>]
 Underfull \hbox (badness 10000) in paragraph at lines 47--60
 
  []
@@ -1053,8 +1061,8 @@ Underfull \hbox (badness 10000) in paragraph at lines 68--110
 
  []
 
-[12 <./Images/D1 & D2.png>]) (./sections/Characterization and Quality Control/Enhanced Helium Hermeticity in Micro-fabricated Vapor Cells.tex
-<Images/He.png, id=280, 1926.19624pt x 264.99pt>
+[13]) (./sections/Characterization and Quality Control/Enhanced Helium Hermeticity in Micro-fabricated Vapor Cells.tex
+<Images/He.png, id=452, 1926.19624pt x 264.99pt>
 File: Images/He.png Graphic file (type png)
 <use Images/He.png>
 Package pdftex.def Info: Images/He.png  used on input line 26.
@@ -1069,43 +1077,42 @@ Underfull \hbox (badness 10000) in paragraph at lines 2--267
 
  []
 
-[13] [14 <./Images/He.png>]
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[14] [15 <./Images/He.png>]
 LaTeX Font Info:    Trying to load font information for OML+cmr on input line 337.
  (/usr/share/texlive/texmf-dist/tex/latex/base/omlcmr.fd
 File: omlcmr.fd 2023/04/13 v2.5m Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OML/cmr/m/n' in size <10.95> not available
 (Font)              Font shape `OML/cmm/m/it' tried instead on input line 337.
- [15] (./Main.bbl [16
+ [16] (./Main.bbl [17
 
 
 
 
-] [17]) [18] (./Main.aux)
+]) [18] (./Main.aux)
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-01-22>
  ***********
-
-
-LaTeX Warning: There were undefined references.
-
 Package rerunfilecheck Info: File `Main.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 32715 strings out of 474222
- 664439 string characters out of 5748734
+ 32739 strings out of 474222
+ 665168 string characters out of 5748734
  1960975 words of memory out of 5000000
- 54383 multiletter control sequences out of 15000+600000
+ 54405 multiletter control sequences out of 15000+600000
  571003 words of font info for 84 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  108i,12n,107p,10952b,1064s stack positions out of 10000i,1000n,20000p,200000b,200000s
-</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsl10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmssbx10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm1095.pfb>
-Output written on Main.pdf (18 pages, 6595367 bytes).
+</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsl10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmssbx10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm1095.pfb>
+Output written on Main.pdf (18 pages, 6655738 bytes).
 PDF statistics:
- 507 PDF objects out of 1000 (max. 8388607)
- 420 compressed objects within 5 object streams
- 98 named destinations out of 1000 (max. 500000)
- 318 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 677 PDF objects out of 1000 (max. 8388607)
+ 466 compressed objects within 5 object streams
+ 100 named destinations out of 1000 (max. 500000)
+ 333 words of extra memory for PDF output out of 10000 (max. 10000000)
 
