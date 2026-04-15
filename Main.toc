@@ -28,8 +28,8 @@
 \contentsline {section}{\numberline {5}Experiments \& Applications}{xv}{section.0.5}%
 \contentsline {subsection}{\numberline {5.1}Magnetometry Experiments on Vapor Cells}{xv}{subsection.0.5.1}%
 \contentsline {subsubsection}{\numberline {5.1.1}Experimental Setup}{xvi}{subsubsection.0.5.1.1}%
-\contentsline {subsubsection}{\numberline {5.1.2}Results and analysis}{xvi}{subsubsection.0.5.1.2}%
-\contentsline {section}{\numberline {6}Overlook \& Conclusions}{xvii}{section.0.6}%
-\contentsline {section}{\numberline {7}Appendix}{xvii}{section.0.7}%
-\contentsline {subsection}{\numberline {7.1}Recipes in literature}{xvii}{subsection.0.7.1}%
+\contentsline {subsubsection}{\numberline {5.1.2}Results and Analysis}{xvi}{subsubsection.0.5.1.2}%
+\contentsline {section}{\numberline {6}Overlook \& Conclusions}{xviii}{section.0.6}%
+\contentsline {section}{\numberline {7}Appendix}{xviii}{section.0.7}%
+\contentsline {subsection}{\numberline {7.1}Recipes in literature}{xviii}{subsection.0.7.1}%
 \providecommand \tocbasic@end@toc@file {}\tocbasic@end@toc@file 

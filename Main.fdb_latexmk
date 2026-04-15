@@ -1,13 +1,13 @@
 # Fdb version 4
-["bibtex Main"] 1776176330.63593 "Main.aux" "Main.bbl" "Main" 1776176723.69409 0
+["bibtex Main"] 1776246865.1851 "Main.aux" "Main.bbl" "Main" 1776246962.5746 0
   "./references.bib" 1776172301.55603 5081 4a8ddc3b2449d7334b6cdd719346a53d ""
   "/usr/share/texlive/texmf-dist/bibtex/bst/ieeetran/IEEEtran.bst" 1440712899 57748 7c8250ecf02814ce6ddc0cdbb63df1dd ""
-  "Main.aux" 1776176723.43297 25214 2608550a4f33e2128c4888dcf55fe479 "pdflatex"
+  "Main.aux" 1776246962.29269 26310 c07d1fa7b6348c533d50daa2de2d86a7 "pdflatex"
   (generated)
   "Main.bbl"
   "Main.blg"
   (rewritten before read)
-["pdflatex"] 1776176721.88825 "/home/ruben/Escritorio/Master Thesis/Master-Thesis/Main.tex" "Main.pdf" "Main" 1776176723.69422 0
+["pdflatex"] 1776246960.62011 "/home/ruben/Escritorio/Master Thesis/Master-Thesis/Main.tex" "Main.pdf" "Main" 1776246962.57477 0
   "/etc/texmf/web2c/texmf.cnf" 1753802693.73376 475 c0e671620eb5563b2130f56340a5fde8 ""
   "/home/ruben/Escritorio/Master Thesis/Master-Thesis/Main.tex" 1776171049.02828 18372 46d8c68c0c76e0fe34e0941afccedffe ""
   "/usr/share/texlive/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
@@ -225,6 +225,7 @@
   "/var/lib/texmf/web2c/pdftex/pdflatex.fmt" 1775040258 8214733 eb203d076dbb2993225012965768d617 ""
   "Images/AFM_tip.JPG" 1776086942.31156 96311 5dc22c78381d0e46c095bc548bd8b640 ""
   "Images/D1 & D2.png" 1775646012 55561 e4895d94816f694a35292f2696b03c77 ""
+  "Images/Fit_00Y_45Z.pdf" 1776243919.57453 108544 48481453936202c999f5d7b8764ab4f5 ""
   "Images/He.png" 1775653394.82998 45791 a438b1a38a64db91a0f04d9473ad7654 ""
   "Images/Sample1_2D_compressed.pdf" 1776091484 461629 5b5aba3140157e10a0abf88523d145e5 ""
   "Images/Sample1_3D.pdf" 1776093672.53683 1004092 34f45a8ce7377dea87f8d773362724e1 ""
@@ -237,18 +238,21 @@
   "Images/Sample3_dist.pdf" 1776083727.80596 23510 681df6ff23d3f7bb80228d04b5409406 ""
   "Images/annealing_time.png" 1775652888.20334 55255 cb04b936f2845e7e86bdc4ae4517c71b ""
   "Images/chucks.png" 1775645804 98267 b728e1700b524f81be81738c6392d7b2 ""
+  "Images/magnetic_exp_YZvar.pdf" 1776241556.4697 31885 1b3b4f1541b9d23c68a1bc1f2ed44874 ""
+  "Images/magnetic_exp_Yvar.pdf" 1776241503.97292 29852 2042209959ea818d65f1be5932d54a80 ""
+  "Images/magnetic_exp_Zvar.pdf" 1776241527.01983 30710 02dfc71064aeecec02d4f706820ebd8a ""
   "Images/magnetic_setup.jpg" 1776170976.31263 80637 0432c37e04d7e30ac66f1bf2cedb0969 ""
   "Images/plasma_activation.png" 1775652729.09869 228920 d2b17b6ecaf810599cbf407af405fc00 ""
   "Images/pressure.png" 1775645906 278905 6ec95583f61e2e297f84517ee00cba8f ""
-  "Main.aux" 1776176723.43297 25214 2608550a4f33e2128c4888dcf55fe479 "pdflatex"
-  "Main.bbl" 1776176330.70791 4482 c521e72fbbbc213cd07f34737e1b4626 "bibtex Main"
-  "Main.out" 1776176722.98998 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
+  "Main.aux" 1776246962.29269 26310 c07d1fa7b6348c533d50daa2de2d86a7 "pdflatex"
+  "Main.bbl" 1776246865.28947 4482 c521e72fbbbc213cd07f34737e1b4626 "bibtex Main"
+  "Main.out" 1776246961.80769 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
   "Main.tex" 1776171049.02828 18372 46d8c68c0c76e0fe34e0941afccedffe ""
-  "Main.toc" 1776176723.43697 3249 a49a769b247d0a09cd59aaeb5d3d44d6 "pdflatex"
+  "Main.toc" 1776246962.29769 3252 34e1d9c1e3cad3b29d7ac05aa0d40275 "pdflatex"
   "sections/Characterization and Quality Control/Enhanced Helium Hermeticity in Micro-fabricated Vapor Cells.tex" 1776085409.46313 1899 2b085a58758580e41dc79edf5c847849 ""
   "sections/Characterization and Quality Control/Leak Tests Using Spectroscopy.tex" 1776085232.78434 5650 a5b2cb88286ceb076c3b145ff8916f5a ""
   "sections/Characterization and Quality Control/Surface inspection using an AFM.tex" 1776159872.15218 5984 02239fd8ab169458ed902b54e5792389 ""
-  "sections/Experiments and Applications/Magnetometry Experiment 1.tex" 1776176721.70699 3737 9237c3bc32f47db98f51b1c38626d45b ""
+  "sections/Experiments and Applications/Magnetometry Experiment 1.tex" 1776246960.4207 6240 c85fbc36c21ebc1aeab3e2f579561ff2 ""
   (generated)
   "Main.aux"
   "Main.log"
