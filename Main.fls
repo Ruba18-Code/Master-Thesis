@@ -365,21 +365,42 @@ INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm10.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm7.tfm
 OUTPUT Main.toc
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmssbx10.tfm
-INPUT ./Images/plasma_activation.png
-INPUT ./Images/plasma_activation.png
-INPUT ./Images/plasma_activation.png
-INPUT ./Images/plasma_activation.png
-INPUT ./Images/plasma_activation.png
-INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmbx10.tfm
-INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmbx10.tfm
-INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmsl10.tfm
-INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmti10.tfm
-INPUT ./Images/annealing_time.png
-INPUT ./Images/annealing_time.png
-INPUT ./Images/annealing_time.png
-INPUT ./Images/annealing_time.png
-INPUT ./Images/annealing_time.png
+INPUT ./sections/Fabrication Methods/Introduction.tex
+INPUT ./sections/Fabrication Methods/Introduction.tex
+INPUT sections/Fabrication Methods/Introduction.tex
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/jknappen/ec/tcrm1095.tfm
+INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmbx10.tfm
+INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmti10.tfm
+INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmsl10.tfm
+INPUT /usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-ts1.enc
+INPUT ./sections/Fabrication Methods/Optical Contact Bonding/Intro Optical Contact Bonding.tex
+INPUT ./sections/Fabrication Methods/Optical Contact Bonding/Intro Optical Contact Bonding.tex
+INPUT sections/Fabrication Methods/Optical Contact Bonding/Intro Optical Contact Bonding.tex
+INPUT ./sections/Fabrication Methods/Optical Contact Bonding/Plasma-Activated Bonding.tex
+INPUT ./sections/Fabrication Methods/Optical Contact Bonding/Plasma-Activated Bonding.tex
+INPUT sections/Fabrication Methods/Optical Contact Bonding/Plasma-Activated Bonding.tex
+INPUT ./Images/plasma_activation.png
+INPUT ./Images/plasma_activation.png
+INPUT ./Images/plasma_activation.png
+INPUT ./Images/plasma_activation.png
+INPUT ./Images/plasma_activation.png
+INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmbx10.tfm
+INPUT ./sections/Fabrication Methods/Optical Contact Bonding/Annealing.tex
+INPUT ./sections/Fabrication Methods/Optical Contact Bonding/Annealing.tex
+INPUT sections/Fabrication Methods/Optical Contact Bonding/Annealing.tex
+INPUT ./Images/annealing_time.png
+INPUT ./Images/annealing_time.png
+INPUT ./Images/annealing_time.png
+INPUT ./Images/annealing_time.png
+INPUT ./Images/annealing_time.png
+INPUT ./sections/Fabrication Methods/Optical Contact Bonding/Pressure.tex
+INPUT ./sections/Fabrication Methods/Optical Contact Bonding/Pressure.tex
+INPUT sections/Fabrication Methods/Optical Contact Bonding/Pressure.tex
+INPUT ./Images/pressure.png
+INPUT ./Images/pressure.png
+INPUT ./Images/pressure.png
+INPUT ./Images/pressure.png
+INPUT ./Images/pressure.png
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/jknappen/ec/tcrm0800.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/jknappen/ec/tcrm0600.tfm
 INPUT ./Images/chucks.png
@@ -387,12 +408,6 @@ INPUT ./Images/chucks.png
 INPUT ./Images/chucks.png
 INPUT ./Images/chucks.png
 INPUT ./Images/chucks.png
-INPUT ./Images/pressure.png
-INPUT ./Images/pressure.png
-INPUT ./Images/pressure.png
-INPUT ./Images/pressure.png
-INPUT ./Images/pressure.png
-INPUT /usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-ts1.enc
 INPUT ./sections/Characterization and Quality Control/Surface inspection using an AFM.tex
 INPUT ./sections/Characterization and Quality Control/Surface inspection using an AFM.tex
 INPUT sections/Characterization and Quality Control/Surface inspection using an AFM.tex
