@@ -376,6 +376,17 @@ INPUT /usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-ts1.enc
 INPUT ./sections/Fabrication Methods/Optical Contact Bonding/Intro Optical Contact Bonding.tex
 INPUT ./sections/Fabrication Methods/Optical Contact Bonding/Intro Optical Contact Bonding.tex
 INPUT sections/Fabrication Methods/Optical Contact Bonding/Intro Optical Contact Bonding.tex
+INPUT /usr/share/texlive/texmf-dist/fonts/tfm/jknappen/ec/tcrm0800.tfm
+INPUT /usr/share/texlive/texmf-dist/fonts/tfm/jknappen/ec/tcrm0600.tfm
+INPUT ./sections/Fabrication Methods/Optical Contact Bonding/Chemical Treatment.tex
+INPUT ./sections/Fabrication Methods/Optical Contact Bonding/Chemical Treatment.tex
+INPUT sections/Fabrication Methods/Optical Contact Bonding/Chemical Treatment.tex
+INPUT ./Images/bonding_process.jpg
+INPUT ./Images/bonding_process.jpg
+INPUT ./Images/bonding_process.jpg
+INPUT ./Images/bonding_process.jpg
+INPUT ./Images/bonding_process.jpg
+INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmbx10.tfm
 INPUT ./sections/Fabrication Methods/Optical Contact Bonding/Plasma-Activated Bonding.tex
 INPUT ./sections/Fabrication Methods/Optical Contact Bonding/Plasma-Activated Bonding.tex
 INPUT sections/Fabrication Methods/Optical Contact Bonding/Plasma-Activated Bonding.tex
@@ -384,7 +395,6 @@ INPUT ./Images/plasma_activation.png
 INPUT ./Images/plasma_activation.png
 INPUT ./Images/plasma_activation.png
 INPUT ./Images/plasma_activation.png
-INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmbx10.tfm
 INPUT ./sections/Fabrication Methods/Optical Contact Bonding/Annealing.tex
 INPUT ./sections/Fabrication Methods/Optical Contact Bonding/Annealing.tex
 INPUT sections/Fabrication Methods/Optical Contact Bonding/Annealing.tex
@@ -401,13 +411,22 @@ INPUT ./Images/pressure.png
 INPUT ./Images/pressure.png
 INPUT ./Images/pressure.png
 INPUT ./Images/pressure.png
-INPUT /usr/share/texlive/texmf-dist/fonts/tfm/jknappen/ec/tcrm0800.tfm
-INPUT /usr/share/texlive/texmf-dist/fonts/tfm/jknappen/ec/tcrm0600.tfm
 INPUT ./Images/chucks.png
 INPUT ./Images/chucks.png
 INPUT ./Images/chucks.png
 INPUT ./Images/chucks.png
 INPUT ./Images/chucks.png
+INPUT ./sections/Fabrication Methods/Post-Treatment.tex
+INPUT ./sections/Fabrication Methods/Post-Treatment.tex
+INPUT sections/Fabrication Methods/Post-Treatment.tex
+INPUT ./Images/He.png
+INPUT ./Images/He.png
+INPUT ./Images/He.png
+INPUT ./Images/He.png
+INPUT ./Images/He.png
+INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm
+INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/amsfonts/symbols/msam5.tfm
+INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm5.tfm
 INPUT ./sections/Characterization and Quality Control/Surface inspection using an AFM.tex
 INPUT ./sections/Characterization and Quality Control/Surface inspection using an AFM.tex
 INPUT sections/Characterization and Quality Control/Surface inspection using an AFM.tex
@@ -461,9 +480,6 @@ INPUT ./Images/Sample3_dist.pdf
 INPUT ./Images/Sample3_dist.pdf
 INPUT ./Images/Sample3_dist.pdf
 INPUT ./Images/Sample3_dist.pdf
-INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm
-INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/amsfonts/symbols/msam5.tfm
-INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm5.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmti10.tfm
 INPUT ./sections/Characterization and Quality Control/Leak Tests Using Spectroscopy.tex
 INPUT ./sections/Characterization and Quality Control/Leak Tests Using Spectroscopy.tex
@@ -473,14 +489,6 @@ INPUT ./Images/D1 & D2.png
 INPUT ./Images/D1 & D2.png
 INPUT ./Images/D1 & D2.png
 INPUT ./Images/D1 & D2.png
-INPUT ./sections/Characterization and Quality Control/Enhanced Helium Hermeticity in Micro-fabricated Vapor Cells.tex
-INPUT ./sections/Characterization and Quality Control/Enhanced Helium Hermeticity in Micro-fabricated Vapor Cells.tex
-INPUT sections/Characterization and Quality Control/Enhanced Helium Hermeticity in Micro-fabricated Vapor Cells.tex
-INPUT ./Images/He.png
-INPUT ./Images/He.png
-INPUT ./Images/He.png
-INPUT ./Images/He.png
-INPUT ./Images/He.png
 INPUT ./sections/Experiments and Applications/Magnetometry Experiment 1.tex
 INPUT ./sections/Experiments and Applications/Magnetometry Experiment 1.tex
 INPUT ./sections/Experiments and Applications/Magnetometry Experiment 1.tex

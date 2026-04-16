@@ -65,6 +65,15 @@ W.~et~al., ``Wavefront measurement techniques used in high power lasers,'' 2014.
 \bibitem{birckigt2021}
 P.~Birckigt, K.~Grabowski, G.~Leibeling, T.~Fl{\"u}gel-Paul, M.~Heusinger, H.~Ouslimani, and S.~Risse, ``Effects of static load and residual stress on fused silica direct bonding interface properties,'' \emph{Appl. Phys. A}, 2021.
 
+\bibitem{labyt2019}
+L.~et~al., ``Magnetoencephalography with optically pumped he-4 magnetometers at ambient temperature,'' 2019.
+
+\bibitem{carle2023}
+C.~et~al., ``Reduction of helium permeation in microfabricated cells using aluminosilicate glass substrates and al2o3 coatings,'' 2023.
+
+\bibitem{Dellis2016}
+D.~et~al., ``Low helium permeation cells for atomicmicrosystems technology,'' 2016.
+
 \bibitem{wiki_afm_tip}
 S.~(Wikipedia), ``Afm cantilever image,'' 2008.
 
@@ -94,15 +103,6 @@ A.-G. et~al., ``Wafer-level fabrication of all-dielectric vapor cells electromet
 
 \bibitem{kobtsev2019}
 K.~et~al., ``Cpt atomic clock with cold-technology-based vapour cell.''
-
-\bibitem{labyt2019}
-L.~et~al., ``Magnetoencephalography with optically pumped he-4 magnetometers at ambient temperature,'' 2019.
-
-\bibitem{carle2023}
-C.~et~al., ``Reduction of helium permeation in microfabricated cells using aluminosilicate glass substrates and al2o3 coatings,'' 2023.
-
-\bibitem{Dellis2016}
-D.~et~al., ``Low helium permeation cells for atomicmicrosystems technology,'' 2016.
 
 \bibitem{lucivero2022}
 L.~et~al., ``Laser-written vapor cells for chip-scale atomicsensing and spectroscopy,'' 2022.

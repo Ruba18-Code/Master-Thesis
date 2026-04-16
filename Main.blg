@@ -8,6 +8,7 @@ Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Database file #1: references.bib
+Warning--I didn't find a database entry for "CITA"
 -- IEEEtran.bst version 1.14 (2015/08/26) by Michael Shell.
 -- http://www.michaelshell.org/tex/ieeetran/bibtex/
 -- See the "IEEEtran_bst_HOWTO.pdf" manual for usage information.
@@ -25,6 +26,9 @@ Warning--empty journal in mai2015
 Warning--empty journal in kalk2014
 Warning--empty journal in bain2022
 Warning--empty journal in wang2014
+Warning--empty journal in labyt2019
+Warning--empty journal in carle2023
+Warning--empty journal in Dellis2016
 Warning--empty journal in wiki_afm_tip
 Warning--empty journal in ISO
 Warning--empty journal in pitz2009
@@ -42,16 +46,13 @@ Warning--empty journal in art2025
 Warning--empty year in art2025
 Warning--empty journal in kobtsev2019
 Warning--empty year in kobtsev2019
-Warning--empty journal in labyt2019
-Warning--empty journal in carle2023
-Warning--empty journal in Dellis2016
 Warning--empty journal in lucivero2022
 Warning--empty journal in tierney2019
 
 Done.
 You've used 30 entries,
             4087 wiz_defined-function locations,
-            926 strings with 10367 characters,
+            928 strings with 10375 characters,
 and the built_in function-call counts, 9478 in all, are:
 = -- 661
 > -- 145
@@ -90,4 +91,4 @@ warning$ -- 36
 while$ -- 30
 width$ -- 32
 write$ -- 226
-(There were 36 warnings)
+(There were 37 warnings)

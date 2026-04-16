@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2026.4.1)  15 APR 2026 15:49
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2026.4.1)  16 APR 2026 13:38
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -857,13 +857,18 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 
 
 ] (./Main.toc
-Overfull \hbox (0.66916pt too wide) detected at line 27
- []\OT1/cmr/m/n/10.95 xvii
+Overfull \hbox (0.66916pt too wide) detected at line 33
+ []\OT1/cmr/m/n/10.95 xxii
  []
 
 
-Overfull \hbox (0.66916pt too wide) detected at line 28
- []\OT1/cmr/m/n/10.95 xvii
+Overfull \hbox (0.66916pt too wide) detected at line 34
+ []\OT1/cmr/m/n/10.95 xxii
+ []
+
+
+Overfull \hbox (0.66916pt too wide) detected at line 35
+ []\OT1/cmr/m/n/10.95 xxii
  []
 
 )
@@ -875,142 +880,200 @@ Underfull \hbox (badness 10000) in paragraph at lines 2--7
 
  []
 
-)
-Underfull \hbox (badness 10000) in paragraph at lines 18--98
+
+Underfull \hbox (badness 10000) in paragraph at lines 18--29
 
  []
 
-[4{/usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-ts1.enc}] (./sections/Fabrication Methods/Optical Contact Bonding/Intro Optical Contact Bonding.tex)
-Underfull \hbox (badness 10000) in paragraph at lines 2--101
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 2--101
+[4{/usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-ts1.enc}]) (./sections/Fabrication Methods/Optical Contact Bonding/Intro Optical Contact Bonding.tex
+Underfull \hbox (badness 10000) in paragraph at lines 2--25
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2--101
+Underfull \hbox (badness 10000) in paragraph at lines 2--25
 
  []
 
-(./sections/Fabrication Methods/Optical Contact Bonding/Plasma-Activated Bonding.tex
-<Images/plasma_activation.png, id=97, 999.735pt x 832.10875pt>
+
+Underfull \hbox (badness 10000) in paragraph at lines 2--25
+
+ []
+
+[5]
+Overfull \hbox (8.24704pt too wide) in paragraph at lines 69--71
+[]\OT1/cmr/bx/n/10.95 Good chem-i-cal re-sis-tance: \OT1/cmr/m/n/10.95 Ad-e-quate re-sis-tance to chem-i-cal treat-ments, though
+ []
+
+[6]) (./sections/Fabrication Methods/Optical Contact Bonding/Chemical Treatment.tex
+Underfull \hbox (badness 10000) in paragraph at lines 3--9
+
+ []
+
+[7]
+
+LaTeX Warning: Citation `CITA' on page viii undefined on input line 37.
+
+
+LaTeX Warning: Citation `CITA' on page viii undefined on input line 39.
+
+<Images/bonding_process.jpg, id=121, 939.51pt x 481.8pt>
+File: Images/bonding_process.jpg Graphic file (type jpg)
+<use Images/bonding_process.jpg>
+Package pdftex.def Info: Images/bonding_process.jpg  used on input line 54.
+(pdftex.def)             Requested size: 406.87448pt x 208.65498pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 35--61
+
+ []
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+) (./sections/Fabrication Methods/Optical Contact Bonding/Plasma-Activated Bonding.tex
+<Images/plasma_activation.png, id=126, 999.735pt x 832.10875pt>
 File: Images/plasma_activation.png Graphic file (type png)
 <use Images/plasma_activation.png>
-Package pdftex.def Info: Images/plasma_activation.png  used on input line 15.
+Package pdftex.def Info: Images/plasma_activation.png  used on input line 14.
 (pdftex.def)             Requested size: 305.15585pt x 253.9896pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[5]) (./sections/Fabrication Methods/Optical Contact Bonding/Annealing.tex
-Underfull \hbox (badness 10000) in paragraph at lines 38--1
+[8]) (./sections/Fabrication Methods/Optical Contact Bonding/Annealing.tex
+Underfull \hbox (badness 10000) in paragraph at lines 35--1
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 38--1
+Underfull \hbox (badness 10000) in paragraph at lines 35--1
 
  []
 
-[6 <./Images/plasma_activation.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 9--36
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 9--36
+[9 <./Images/bonding_process.jpg>]
+Underfull \hbox (badness 10000) in paragraph at lines 10--37
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 9--36
+Underfull \hbox (badness 10000) in paragraph at lines 10--37
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 9--36
+Underfull \hbox (badness 10000) in paragraph at lines 10--37
 
  []
 
-<Images/annealing_time.png, id=134, 946.53625pt x 679.53876pt>
+
+Underfull \hbox (badness 10000) in paragraph at lines 10--37
+
+ []
+
+[10 <./Images/plasma_activation.png>]
+<Images/annealing_time.png, id=169, 946.53625pt x 679.53876pt>
 File: Images/annealing_time.png Graphic file (type png)
 <use Images/annealing_time.png>
-Package pdftex.def Info: Images/annealing_time.png  used on input line 48.
+Package pdftex.def Info: Images/annealing_time.png  used on input line 49.
 (pdftex.def)             Requested size: 325.50082pt x 233.68419pt.
-) (./sections/Fabrication Methods/Optical Contact Bonding/Pressure.tex [7]
-<Images/pressure.png, id=152, 1697.34125pt x 871.255pt>
+) (./sections/Fabrication Methods/Optical Contact Bonding/Pressure.tex
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<Images/pressure.png, id=175, 1697.34125pt x 871.255pt>
 File: Images/pressure.png Graphic file (type png)
 <use Images/pressure.png>
-Package pdftex.def Info: Images/pressure.png  used on input line 9.
+Package pdftex.def Info: Images/pressure.png  used on input line 10.
 (pdftex.def)             Requested size: 406.87448pt x 208.85287pt.
-<Images/chucks.png, id=162, 948.54375pt x 439.6425pt>
+<Images/chucks.png, id=185, 948.54375pt x 439.6425pt>
 File: Images/chucks.png Graphic file (type png)
 <use Images/chucks.png>
-Package pdftex.def Info: Images/chucks.png  used on input line 44.
+Package pdftex.def Info: Images/chucks.png  used on input line 45.
 (pdftex.def)             Requested size: 325.50082pt x 150.8651pt.
-
-Underfull \hbox (badness 10000) in paragraph at lines 2--48
+)
+Underfull \hbox (badness 10000) in paragraph at lines 3--104
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2--48
+Underfull \hbox (badness 10000) in paragraph at lines 3--104
 
  []
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[8 <./Images/annealing_time.png>]) (./sections/Characterization and Quality Control/Surface inspection using an AFM.tex
-<Images/AFM_tip.JPG, id=181, 1284.8pt x 1027.84pt>
+[11]
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+(./sections/Fabrication Methods/Post-Treatment.tex
+<Images/He.png, id=206, 1926.19624pt x 264.99pt>
+File: Images/He.png Graphic file (type png)
+<use Images/He.png>
+Package pdftex.def Info: Images/He.png  used on input line 27.
+(pdftex.def)             Requested size: 406.87448pt x 55.973pt.
+)
+Underfull \hbox (badness 10000) in paragraph at lines 3--107
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 3--107
+
+ []
+
+[12 <./Images/annealing_time.png>]
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+(./sections/Characterization and Quality Control/Surface inspection using an AFM.tex
+<Images/AFM_tip.JPG, id=220, 1284.8pt x 1027.84pt>
 File: Images/AFM_tip.JPG Graphic file (type jpg)
 <use Images/AFM_tip.JPG>
 Package pdftex.def Info: Images/AFM_tip.JPG  used on input line 23.
 (pdftex.def)             Requested size: 244.12717pt x 195.29163pt.
-<Images/Sample1_2D_compressed.pdf, id=189, 3895.55376pt x 3076.49374pt>
+<Images/Sample1_2D_compressed.pdf, id=228, 3895.55376pt x 3076.49374pt>
 File: Images/Sample1_2D_compressed.pdf Graphic file (type pdf)
 <use Images/Sample1_2D_compressed.pdf>
 Package pdftex.def Info: Images/Sample1_2D_compressed.pdf  used on input line 43.
 (pdftex.def)             Requested size: 223.7822pt x 176.69516pt.
-<Images/Sample2_2D_compressed.pdf, id=190, 6434.0375pt x 5579.84625pt>
+<Images/Sample2_2D_compressed.pdf, id=229, 6434.0375pt x 5579.84625pt>
 File: Images/Sample2_2D_compressed.pdf Graphic file (type pdf)
 <use Images/Sample2_2D_compressed.pdf>
 Package pdftex.def Info: Images/Sample2_2D_compressed.pdf  used on input line 47.
 (pdftex.def)             Requested size: 195.298pt x 169.34642pt.
-<Images/Sample3_2D_compressed.pdf, id=191, 6211.205pt x 5545.71875pt>
+<Images/Sample3_2D_compressed.pdf, id=230, 6211.205pt x 5545.71875pt>
 File: Images/Sample3_2D_compressed.pdf Graphic file (type pdf)
 <use Images/Sample3_2D_compressed.pdf>
 Package pdftex.def Info: Images/Sample3_2D_compressed.pdf  used on input line 50.
 (pdftex.def)             Requested size: 195.298pt x 174.31873pt.
-<Images/Sample1_3D.pdf, id=192, 1879.02pt x 1051.93pt>
+<Images/Sample1_3D.pdf, id=231, 1879.02pt x 1051.93pt>
 File: Images/Sample1_3D.pdf Graphic file (type pdf)
 <use Images/Sample1_3D.pdf>
 Package pdftex.def Info: Images/Sample1_3D.pdf  used on input line 59.
 (pdftex.def)             Requested size: 195.298pt x 109.3243pt.
-<Images/Sample2_3D.pdf, id=193, 1879.02pt x 1051.93pt>
+<Images/Sample2_3D.pdf, id=232, 1879.02pt x 1051.93pt>
 File: Images/Sample2_3D.pdf Graphic file (type pdf)
 <use Images/Sample2_3D.pdf>
 Package pdftex.def Info: Images/Sample2_3D.pdf  used on input line 63.
 (pdftex.def)             Requested size: 195.298pt x 109.3243pt.
-<Images/Sample3_3D.pdf, id=194, 1879.02pt x 1051.93pt>
+<Images/Sample3_3D.pdf, id=233, 1879.02pt x 1051.93pt>
 File: Images/Sample3_3D.pdf Graphic file (type pdf)
 <use Images/Sample3_3D.pdf>
 Package pdftex.def Info: Images/Sample3_3D.pdf  used on input line 66.
 (pdftex.def)             Requested size: 195.298pt x 109.3243pt.
-<Images/Sample1_dist.pdf, id=195, 571.73978pt x 354.86137pt>
+<Images/Sample1_dist.pdf, id=234, 571.73978pt x 354.86137pt>
 File: Images/Sample1_dist.pdf Graphic file (type pdf)
 <use Images/Sample1_dist.pdf>
 Package pdftex.def Info: Images/Sample1_dist.pdf  used on input line 75.
 (pdftex.def)             Requested size: 195.298pt x 121.21439pt.
-<Images/Sample2_dist.pdf, id=196, 571.73978pt x 354.86137pt>
+<Images/Sample2_dist.pdf, id=235, 571.73978pt x 354.86137pt>
 File: Images/Sample2_dist.pdf Graphic file (type pdf)
 <use Images/Sample2_dist.pdf>
 Package pdftex.def Info: Images/Sample2_dist.pdf  used on input line 79.
 (pdftex.def)             Requested size: 195.298pt x 121.21439pt.
-<Images/Sample3_dist.pdf, id=197, 571.73506pt x 354.86137pt>
+<Images/Sample3_dist.pdf, id=236, 571.73506pt x 354.86137pt>
 File: Images/Sample3_dist.pdf Graphic file (type pdf)
 <use Images/Sample3_dist.pdf>
 Package pdftex.def Info: Images/Sample3_dist.pdf  used on input line 82.
@@ -1030,18 +1093,18 @@ Underfull \hbox (badness 10000) in paragraph at lines 2--1
 
  []
 
+[13 <./Images/pressure.png>]
 
-Underfull \vbox (badness 10000) has occurred while \output is active []
+LaTeX Warning: `h' float specifier changed to `ht'.
 
- [9 <./Images/pressure.png> <./Images/chucks.png (PNG copy)>] [10 <./Images/AFM_tip.JPG>]
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [11 <./Images/Sample1_2D_compressed.pdf> <./Images/Sample2_2D_compressed.pdf> <./Images/Sample3_2D_compressed.pdf>] [12 <./Images/Sample1_3D.pdf> <./Images/Sample2_3D.pdf> <./Images/Sample3_3D.pdf> <./Images/Sample1_dist.pdf> <./Images/Sample2_dist.pdf> <./Images/Sample3_dist.pdf>]
-<Images/D1 & D2.png, id=408, 798.985pt x 605.26125pt>
+ [14 <./Images/chucks.png (PNG copy)> <./Images/He.png>]
+<Images/D1 & D2.png, id=263, 798.985pt x 605.26125pt>
 File: Images/D1 & D2.png Graphic file (type png)
 <use Images/D1 & D2.png>
 Package pdftex.def Info: Images/D1 & D2.png  used on input line 25.
@@ -1056,7 +1119,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 2--40
 
  []
 
-[13 <./Images/D1 & D2.png>]
+[15 <./Images/AFM_tip.JPG>] [16 <./Images/Sample1_2D_compressed.pdf> <./Images/Sample2_2D_compressed.pdf> <./Images/Sample3_2D_compressed.pdf>] [17 <./Images/Sample1_3D.pdf> <./Images/Sample2_3D.pdf> <./Images/Sample3_3D.pdf> <./Images/Sample1_dist.pdf> <./Images/Sample2_dist.pdf> <./Images/Sample3_dist.pdf>]
 Underfull \hbox (badness 10000) in paragraph at lines 47--60
 
  []
@@ -1086,34 +1149,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 68--110
 
  []
 
-[14]) (./sections/Characterization and Quality Control/Enhanced Helium Hermeticity in Micro-fabricated Vapor Cells.tex
-<Images/He.png, id=456, 1926.19624pt x 264.99pt>
-File: Images/He.png Graphic file (type png)
-<use Images/He.png>
-Package pdftex.def Info: Images/He.png  used on input line 26.
-(pdftex.def)             Requested size: 406.87448pt x 55.973pt.
-)
-Underfull \hbox (badness 10000) in paragraph at lines 2--112
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 2--112
-
- []
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-(./sections/Experiments and Applications/Magnetometry Experiment 1.tex
+[18 <./Images/D1 & D2.png>]) (./sections/Experiments and Applications/Magnetometry Experiment 1.tex
 Underfull \hbox (badness 10000) in paragraph at lines 3--11
 
  []
 
-
-Underfull \vbox (badness 3118) has occurred while \output is active []
-
- [15]
+[19]
 Underfull \hbox (badness 10000) in paragraph at lines 13--35
 
  []
@@ -1128,11 +1169,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 13--35
 
  []
 
-
-Underfull \vbox (badness 1642) has occurred while \output is active []
-
- [16 <./Images/He.png>]
-<Images/magnetic_setup.jpg, id=482, 1606.0pt x 765.86125pt>
+<Images/magnetic_setup.jpg, id=508, 1606.0pt x 765.86125pt>
 File: Images/magnetic_setup.jpg Graphic file (type jpg)
 <use Images/magnetic_setup.jpg>
 Package pdftex.def Info: Images/magnetic_setup.jpg  used on input line 59.
@@ -1142,7 +1179,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 41--63
 
  []
 
-
+[20]
 Underfull \hbox (badness 10000) in paragraph at lines 66--79
 
  []
@@ -1152,63 +1189,67 @@ Underfull \hbox (badness 10000) in paragraph at lines 66--79
 
  []
 
-[17 <./Images/magnetic_setup.jpg>]
-<Images/magnetic_exp_Yvar.pdf, id=491, 499.66673pt x 324.93898pt>
+<Images/magnetic_exp_Yvar.pdf, id=516, 499.66673pt x 324.93898pt>
 File: Images/magnetic_exp_Yvar.pdf Graphic file (type pdf)
 <use Images/magnetic_exp_Yvar.pdf>
 Package pdftex.def Info: Images/magnetic_exp_Yvar.pdf  used on input line 83.
 (pdftex.def)             Requested size: 195.298pt x 127.00334pt.
-<Images/magnetic_exp_Zvar.pdf, id=492, 497.23578pt x 329.14653pt>
+<Images/magnetic_exp_Zvar.pdf, id=517, 497.23578pt x 329.14653pt>
 File: Images/magnetic_exp_Zvar.pdf Graphic file (type pdf)
 <use Images/magnetic_exp_Zvar.pdf>
 Package pdftex.def Info: Images/magnetic_exp_Zvar.pdf  used on input line 86.
 (pdftex.def)             Requested size: 195.298pt x 129.27567pt.
-<Images/magnetic_exp_YZvar.pdf, id=493, 499.66673pt x 324.93898pt>
+<Images/magnetic_exp_YZvar.pdf, id=518, 499.66673pt x 324.93898pt>
 File: Images/magnetic_exp_YZvar.pdf Graphic file (type pdf)
 <use Images/magnetic_exp_YZvar.pdf>
 Package pdftex.def Info: Images/magnetic_exp_YZvar.pdf  used on input line 89.
 (pdftex.def)             Requested size: 195.298pt x 127.00334pt.
-<Images/Fit_00Y_45Z.pdf, id=496, 506.30255pt x 324.93898pt>
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[21 <./Images/magnetic_setup.jpg>]
+<Images/Fit_00Y_45Z.pdf, id=528, 506.30255pt x 324.93898pt>
 File: Images/Fit_00Y_45Z.pdf Graphic file (type pdf)
 <use Images/Fit_00Y_45Z.pdf>
 Package pdftex.def Info: Images/Fit_00Y_45Z.pdf  used on input line 110.
 (pdftex.def)             Requested size: 406.87448pt x 261.13652pt.
-)
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [18 <./Images/magnetic_exp_Yvar.pdf> <./Images/magnetic_exp_Zvar.pdf> <./Images/magnetic_exp_YZvar.pdf>] [19 <./Images/Fit_00Y_45Z.pdf>]
-LaTeX Font Info:    Trying to load font information for OML+cmr on input line 183.
+) [22 <./Images/magnetic_exp_Yvar.pdf> <./Images/magnetic_exp_Zvar.pdf> <./Images/magnetic_exp_YZvar.pdf>] [23 <./Images/Fit_00Y_45Z.pdf>]
+LaTeX Font Info:    Trying to load font information for OML+cmr on input line 184.
  (/usr/share/texlive/texmf-dist/tex/latex/base/omlcmr.fd
 File: omlcmr.fd 2023/04/13 v2.5m Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OML/cmr/m/n' in size <10.95> not available
-(Font)              Font shape `OML/cmm/m/it' tried instead on input line 183.
- [20] (./Main.bbl [21
+(Font)              Font shape `OML/cmm/m/it' tried instead on input line 184.
+ [24] (./Main.bbl [25
 
 
 
 
-]) [22] (./Main.aux)
+]) [26] (./Main.aux)
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-01-22>
  ***********
+
+
+LaTeX Warning: There were undefined references.
+
 Package rerunfilecheck Info: File `Main.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 32835 strings out of 474222
- 669356 string characters out of 5748734
+ 32869 strings out of 474222
+ 670011 string characters out of 5748734
  1960975 words of memory out of 5000000
- 54469 multiletter control sequences out of 15000+600000
+ 54484 multiletter control sequences out of 15000+600000
  571003 words of font info for 84 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  108i,12n,107p,10952b,1064s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsl10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmssbx10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm1095.pfb>
-Output written on Main.pdf (22 pages, 6935683 bytes).
+Output written on Main.pdf (26 pages, 6993618 bytes).
 PDF statistics:
- 924 PDF objects out of 1000 (max. 8388607)
- 535 compressed objects within 6 object streams
- 111 named destinations out of 1000 (max. 500000)
- 358 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 958 PDF objects out of 1000 (max. 8388607)
+ 564 compressed objects within 6 object streams
+ 127 named destinations out of 1000 (max. 500000)
+ 363 words of extra memory for PDF output out of 10000 (max. 10000000)
 

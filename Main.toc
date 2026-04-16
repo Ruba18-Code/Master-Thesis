@@ -7,26 +7,30 @@
 \contentsline {subsection}{\numberline {2.4}Real Examples}{iv}{subsection.0.2.4}%
 \contentsline {section}{\numberline {3}Fabrication Methods}{iv}{section.0.3}%
 \contentsline {subsection}{\numberline {3.1}Initial Considerations \& Constraints}{iv}{subsection.0.3.1}%
-\contentsline {subsection}{\numberline {3.2}Types of Glasses \& Quality Requirements}{v}{subsection.0.3.2}%
-\contentsline {subsection}{\numberline {3.3}Femtosecond Laser}{v}{subsection.0.3.3}%
-\contentsline {subsection}{\numberline {3.4}Optical Contact Bonding}{v}{subsection.0.3.4}%
-\contentsline {subsubsection}{\numberline {3.4.1}Chemical Cleaning \& Activation}{v}{subsubsection.0.3.4.1}%
-\contentsline {subsubsection}{\numberline {3.4.2}Plasma Treatment}{v}{subsubsection.0.3.4.2}%
-\contentsline {subsubsection}{\numberline {3.4.3}Thermal Treatment}{vii}{subsubsection.0.3.4.3}%
-\contentsline {subsubsection}{\numberline {3.4.4}Pressure Treatment}{viii}{subsubsection.0.3.4.4}%
-\contentsline {subsection}{\numberline {3.5}Post-Treatments (Coatings, activation)}{x}{subsection.0.3.5}%
-\contentsline {subsection}{\numberline {3.6}Step-by-Step Experimental Procedure}{x}{subsection.0.3.6}%
-\contentsline {section}{\numberline {4}Carachterization and Quality Control}{x}{section.0.4}%
-\contentsline {subsection}{\numberline {4.1}Strength Tests}{x}{subsection.0.4.1}%
-\contentsline {subsection}{\numberline {4.2}Surface inspection using an Atomic Force Microscope}{x}{subsection.0.4.2}%
-\contentsline {subsection}{\numberline {4.3}Leak Tests using Spectroscopy}{xiii}{subsection.0.4.3}%
-\contentsline {subsubsection}{\numberline {4.3.1}Experimental Proposal}{xiv}{subsubsection.0.4.3.1}%
-\contentsline {subsection}{\numberline {4.4}Enhanced Helium Hermeticity in Micro-fabricated Vapor Cells}{xv}{subsection.0.4.4}%
-\contentsline {section}{\numberline {5}Experiments \& Applications}{xvi}{section.0.5}%
-\contentsline {subsection}{\numberline {5.1}Magnetometry Experiments on Vapor Cells}{xvi}{subsection.0.5.1}%
-\contentsline {subsubsection}{\numberline {5.1.1}Experimental Setup}{xvii}{subsubsection.0.5.1.1}%
-\contentsline {subsubsection}{\numberline {5.1.2}Results and Analysis}{xvii}{subsubsection.0.5.1.2}%
-\contentsline {section}{\numberline {6}Overlook \& Conclusions}{xix}{section.0.6}%
-\contentsline {section}{\numberline {7}Appendix}{xix}{section.0.7}%
-\contentsline {subsection}{\numberline {7.1}Recipes in literature}{xix}{subsection.0.7.1}%
+\contentsline {subsection}{\numberline {3.2}Femtosecond Laser}{v}{subsection.0.3.2}%
+\contentsline {subsection}{\numberline {3.3}Optical Contact Bonding}{v}{subsection.0.3.3}%
+\contentsline {subsubsection}{\numberline {3.3.1}Types of Glasses \& Quality Requirements}{v}{subsubsection.0.3.3.1}%
+\contentsline {paragraph}{\nonumberline Fused Silica and Quartz}{v}{paragraph*.3}%
+\contentsline {paragraph}{\nonumberline Borosilicate Glasses}{vi}{paragraph*.5}%
+\contentsline {paragraph}{\nonumberline Other Optical Glasses}{vi}{paragraph*.7}%
+\contentsline {paragraph}{\nonumberline Surface Quality Requirements}{vii}{paragraph*.9}%
+\contentsline {subsubsection}{\numberline {3.3.2}Chemical Treatment}{vii}{subsubsection.0.3.3.2}%
+\contentsline {subsubsection}{\numberline {3.3.3}Plasma Treatment}{viii}{subsubsection.0.3.3.3}%
+\contentsline {subsubsection}{\numberline {3.3.4}Thermal Treatment}{x}{subsubsection.0.3.3.4}%
+\contentsline {subsubsection}{\numberline {3.3.5}Pressure Treatment}{xi}{subsubsection.0.3.3.5}%
+\contentsline {subsubsection}{\numberline {3.3.6}Step-by-Step Experimental Procedure}{xii}{subsubsection.0.3.3.6}%
+\contentsline {subsection}{\numberline {3.4}Post-Treatment}{xii}{subsection.0.3.4}%
+\contentsline {subsubsection}{\numberline {3.4.1}Enhanced Helium Hermeticity}{xii}{subsubsection.0.3.4.1}%
+\contentsline {section}{\numberline {4}Carachterization and Quality Control}{xiii}{section.0.4}%
+\contentsline {subsection}{\numberline {4.1}Strength Tests}{xiii}{subsection.0.4.1}%
+\contentsline {subsection}{\numberline {4.2}Surface inspection using an Atomic Force Microscope}{xiii}{subsection.0.4.2}%
+\contentsline {subsection}{\numberline {4.3}Leak Tests using Spectroscopy}{xv}{subsection.0.4.3}%
+\contentsline {subsubsection}{\numberline {4.3.1}Experimental Proposal}{xix}{subsubsection.0.4.3.1}%
+\contentsline {section}{\numberline {5}Experiments \& Applications}{xix}{section.0.5}%
+\contentsline {subsection}{\numberline {5.1}Magnetometry Experiments on Vapor Cells}{xix}{subsection.0.5.1}%
+\contentsline {subsubsection}{\numberline {5.1.1}Experimental Setup}{xx}{subsubsection.0.5.1.1}%
+\contentsline {subsubsection}{\numberline {5.1.2}Results and Analysis}{xxi}{subsubsection.0.5.1.2}%
+\contentsline {section}{\numberline {6}Overlook \& Conclusions}{xxii}{section.0.6}%
+\contentsline {section}{\numberline {7}Appendix}{xxii}{section.0.7}%
+\contentsline {subsection}{\numberline {7.1}Recipes in literature}{xxii}{subsection.0.7.1}%
 \providecommand \tocbasic@end@toc@file {}\tocbasic@end@toc@file 
