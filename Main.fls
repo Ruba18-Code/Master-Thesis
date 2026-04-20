@@ -430,6 +430,14 @@ INPUT ./Images/He.png
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/amsfonts/symbols/msam5.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm5.tfm
+INPUT ./sections/Characterization and Quality Control/Strength Tests.tex
+INPUT ./sections/Characterization and Quality Control/Strength Tests.tex
+INPUT sections/Characterization and Quality Control/Strength Tests.tex
+INPUT ./Images/tensile_test.jpeg
+INPUT ./Images/tensile_test.jpeg
+INPUT ./Images/tensile_test.jpeg
+INPUT ./Images/tensile_test.jpeg
+INPUT ./Images/tensile_test.jpeg
 INPUT ./sections/Characterization and Quality Control/Surface inspection using an AFM.tex
 INPUT ./sections/Characterization and Quality Control/Surface inspection using an AFM.tex
 INPUT sections/Characterization and Quality Control/Surface inspection using an AFM.tex
@@ -522,6 +530,9 @@ INPUT ./Images/Fit_00Y_45Z.pdf
 INPUT ./Images/Fit_00Y_45Z.pdf
 INPUT ./Images/Fit_00Y_45Z.pdf
 INPUT ./Images/Fit_00Y_45Z.pdf
+INPUT ./sections/Appendix/Recipes in Literature.tex
+INPUT ./sections/Appendix/Recipes in Literature.tex
+INPUT sections/Appendix/Recipes in Literature.tex
 INPUT /usr/share/texlive/texmf-dist/tex/latex/base/omlcmr.fd
 INPUT /usr/share/texlive/texmf-dist/tex/latex/base/omlcmr.fd
 INPUT /usr/share/texlive/texmf-dist/tex/latex/base/omlcmr.fd

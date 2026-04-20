@@ -105,10 +105,10 @@ Sensors + MEMs + LWVCs + Alkali Gas + Why this technology is better
 \input{sections/Fabrication Methods/Femtosecond Laser Writing.tex}
 \input{sections/Fabrication Methods/Post-Treatment.tex}
 \section{Carachterization and Quality Control}
-\subsection{Strength Tests}
+\subsection{Visual Inspection}
+\input{sections/Characterization and Quality Control/Strength Tests.tex}
 \input{sections/Characterization and Quality Control/Surface inspection using an AFM.tex}
 \input{sections/Characterization and Quality Control/Leak Tests Using Spectroscopy.tex}
-
 
 \section{Experiments \& Applications}
 \input{sections/Experiments and Applications/Magnetometry Experiment 1}
@@ -116,75 +116,4 @@ Experiments + magnetometry + space applications + clocks + integration + future 
 
 \section{Overlook \& Conclusions}
 \section{Appendix}
-\subsection{Recipes in literature}
-\begin{landscape}
-\begin{table}[p]
-\centering
-\caption{Summary of chemical cleaning procedures, surface activation methods, and resulting bonding qualities.}
-\label{tab:bonding_procedures_expanded}
-\renewcommand{\arraystretch}{1.2} % Da un poco de espacio vertical a las filas
-\resizebox{\linewidth}{!}{%
-\begin{tabular}{l l l l l l l l l l l}
-\toprule
-\multirow{2}{*}{\textbf{Reference}} & \multicolumn{7}{c}{\textbf{Chemical Cleaning Steps}} &
- \multirow{2}{*}{\textbf{Surface Activation}} & \multirow{2}{*}{\textbf{Post-Treatment}} & \multirow{2}{*}{\textbf{Bonding Strength}} \\
-\cmidrule(lr){2-8}
-& \textbf{1} & \textbf{2} & \textbf{3} & \textbf{4} & \textbf{5} & \textbf{6} & \textbf{7} & & & \\
-\midrule
-
-Domenico Tuli Thesis 
-    & DIW 10' 25$^\circ$C & --- & --- & --- & --- & --- & --- & --- & --- & 0.06 J/m$^2$ \\
-    & Acetone 10' 25$^\circ$C & --- & --- & --- & --- & --- & --- & Plasma 30s 15W 35mTorr & --- & 0.06 J/m$^2$ \\
-    & Acetone 10' 25$^\circ$C & DIW 10' 25$^\circ$C & Micro Soap 10' 25$^\circ$C & DIW 10' 25$^\circ$C & --- & --- & --- & --- & --- & 0.06 J/m$^2$ \\
-    & Acetone 10' 25$^\circ$C & DIW 10' 25$^\circ$C & RCA1 10' 60$^\circ$C & DIW 10' 25$^\circ$C & --- & --- & --- & --- & --- & 0.06 J/m$^2$ \\
-    & Acetone 10' 25$^\circ$C & DIW 10' 25$^\circ$C & RCA1 10' 60$^\circ$C & NH$_4$OH 2' 25$^\circ$C & --- & --- & --- & --- & --- & 0.06 J/m$^2$ \\
-    & Acetone 10' 25$^\circ$C & DIW 10' 25$^\circ$C & Micro Soap 10' 25$^\circ$C & RCA1 10' 60$^\circ$C & DIW 10' 25$^\circ$C & --- & --- & --- & --- & 0.06 J/m$^2$ \\
-    & Acetone 10' 25$^\circ$C & DIW 10' 25$^\circ$C & Micro Soap 10' 25$^\circ$C & RCA1 10' 60$^\circ$C & DIW 10' 25$^\circ$C & --- & --- & --- & --- & 0.1 J/m$^2$ \\
-    & Acetone 10' 25$^\circ$C & DIW 10' 25$^\circ$C & Micro Soap 10' 25$^\circ$C & RCA1 10' 60$^\circ$C & NH$_4$OH 2' 25$^\circ$C & --- & --- & --- & --- & 0.1 J/m$^2$ \\
-    & Acetone 10' 25$^\circ$C & DIW 10' 25$^\circ$C & Piranha 10' 60$^\circ$C & DIW 10' 25$^\circ$C & --- & --- & --- & Plasma 30s 15W 35mTorr & --- & 0.1 J/m$^2$ \\
-    & Acetone 10' 25$^\circ$C & DIW 10' 25$^\circ$C & Piranha 10' 60$^\circ$C & DIW 10' 25$^\circ$C & Micro Soap 10' 25$^\circ$C & RCA1 10' 60$^\circ$C & DIW 10' 25$^\circ$C & --- & --- & 0.1 J/m$^2$ \\
-    & Acetone 10' 25$^\circ$C & DIW 10' 25$^\circ$C & Piranha 10' 60$^\circ$C & DIW 10' 25$^\circ$C & Micro Soap 10' 25$^\circ$C & RCA1 10' 60$^\circ$C & NH$_4$OH 2' 25$^\circ$C & --- & --- & 0.1 J/m$^2$ \\
-\addlinespace
-Cho et al. 2001 
-    & HF (dipped) & Piranha 15' & RCA1 15' & --- & --- & --- & --- & O$_2$ Plasma 15-120s 50-300W & Annealing 50h \textgreater105$^\circ$C & 2.5 J/m$^2$ \\
-\addlinespace
-Eichler et al. 2008 
-    & RCA1 & RCA2 & --- & --- & --- & --- & --- & O$_2$ Plasma 40s 30W 1atm & Annealing 6h 120$^\circ$C & 2.2 J/m$^2$ \\
-\addlinespace
-Li et al. 2013 
-    & SC1 10' 80$^\circ$C & SC2 10' 80s & DIW (rinse) & RCA1 10' 60$^\circ$C & --- & --- & --- & O$_2$ Plasma 60s 50W 20mTorr & Press. 3x10$^5$ Pa $\rightarrow$ Annealing 6h 200-800$^\circ$C & 11 MPa BS \\
-\addlinespace
-Wang et al. 2020 
-    & Acetone & Ethanol & DIW & --- & --- & --- & --- & O$_2$ Plasma 90s 200W 375mTorr & Wait 12h Room T $\rightarrow$ Annealing 12h 150$^\circ$C & 5.5 MPa BS \\
-\addlinespace
-Takei et al. 2010 
-    & RCA1 10' 70$^\circ$C & DIW (rinse) & HF 2\% & --- & --- & --- & --- & O$_2$ Plasma 30s 400W 900mTorr & Annealing 8h 250$^\circ$C 5MPa & 1 MPa BS \\
-\addlinespace
-Lee et al. 2022 
-    & --- & --- & --- & --- & --- & --- & --- & N$_2$ Plasma 15s 100W 100mTorr & DIW $\rightarrow$ Annealing 1-4h 200-500$^\circ$C & 2.5x w/o plasma \\
-\addlinespace
-Suni et al. 2002 
-    & --- & --- & --- & --- & --- & --- & --- & N$_2$ Plasma 30s 50-150W & RCA1 $\rightarrow$ DIW 5' $\rightarrow$ Annealing $\rightarrow$ Dicing $\rightarrow$ Annealing & \textgreater 2.5 J/m$^2$ \\
-    & --- & --- & --- & --- & --- & --- & --- & O$_2$ Plasma 45s 50-150W & Annealing 2h 100$^\circ$C $\rightarrow$ Dicing $\rightarrow$ Annealing 2h 200$^\circ$C & $\sim$2.5 J/m$^2$ \\
-\addlinespace
-Park et al. 2025 
-    & Piranha & HF dip & --- & --- & --- & --- & --- & O$_2$ Plasma 30s 800W 800mTorr & Press. 5' 5000mBar $\rightarrow$ Annealing 1h 400$^\circ$C & $\sim$1.7 J/m$^2$ \\
-\midrule
-\multirow{3}{*}{Our proc. (P11-P13)} 
-    & \multirow{3}{*}{Acetone 10' 25$^\circ$C} & \multirow{3}{*}{DIW 5' + dry} & \multirow{3}{*}{Piranha 10' 75$^\circ$C} & \multirow{3}{*}{DIW 5' + dry} & \multirow{3}{*}{RCA1 10' 75$^\circ$C} & \multirow{3}{*}{DIW 5' + dry} & \multirow{3}{*}{---} & O$_2$ Plasma 60s 30W 1200mTorr & \multirow{3}{*}{DIW 5' $\rightarrow$ Annealing \textgreater 12h 150$^\circ$C} & \multirow{3}{*}{TBD} \\
-    & & & & & & & & O$_2$ Plasma 120s 30W 1200mTorr & & \\
-    & & & & & & & & O$_2$ Plasma 180s 30W 1200mTorr & & \\
-\addlinespace
-\multirow{3}{*}{Our proc. (P21-P23)} 
-    & \multirow{3}{*}{Acetone 10' 25$^\circ$C} & \multirow{3}{*}{DIW 5' + dry} & \multirow{3}{*}{Piranha 10' 75$^\circ$C} & \multirow{3}{*}{DIW 5' + dry} & \multirow{3}{*}{---} & \multirow{3}{*}{---} & \multirow{3}{*}{---} & O$_2$ Plasma 60s 30W 1200mTorr & \multirow{3}{*}{DIW 5' $\rightarrow$ Annealing \textgreater 12h 150$^\circ$C} & \multirow{3}{*}{TBD} \\
-    & & & & & & & & O$_2$ Plasma 120s 30W 1200mTorr & & \\
-    & & & & & & & & O$_2$ Plasma 180s 30W 1200mTorr & & \\
-\bottomrule
-\end{tabular}%
-}
-\end{table}
-\end{landscape}
-%BILBIOGRAPHY ---------------------------------------------------------
-\bibliographystyle{IEEEtran} 
-\bibliography{references} 
-\end{document}
+\input{sections/Appendix/Recipes in Literature.tex}
