@@ -1,8 +1,120 @@
-\subsection{Bonding Quality Tests}
-INTRO HERE + DEFINITIONS AND DIFERENCES (GOSELE ET AL WAFER 
-DIRECT BONDING)
-\subsubsection{Bonding Energy Test}
-\subsubsection{Bonding Strength Test}
+\subsection{Bonding Energy Test}
+
+The most widely employed technique for measuring wafer bonding strength 
+is the \textit{double cantilever beam} (DCB) method, also known as the 
+blade insertion test, crack opening test, or Maszara's method 
+\cite{takeuchi2022}. It consists of inserting a thin blade or razor (typically 
+0.1~mm thick) into the bonding interface, which induces crack propagation 
+along the bonded wafer pair \cite{takeuchi2022}. The bonding strength is 
+quantified in terms of the energy release rate $G$ (in J~m$^{-2}$), which 
+represents the surface energy required to create new surfaces during crack 
+propagation. This parameter can also be expressed as surface energy 
+$\gamma$, where $G = 2\gamma$ for symmetric fracture.
+
+\paragraph{Theoretical Framework}
+The energy release rate is calculated based on the energy balance between 
+the elastic strain energy stored in the deformed substrates and the 
+surface energy of the newly created surfaces during crack propagation. 
+For bonded wafers with potentially different materials and thicknesses, 
+the energy release rate is given by \cite{takeuchi2022}:
+
+\begin{equation}
+G = \frac{3t^2 E_1 E_2 h_1^3 h_2^3}{8L^2(E_1 h_1^3 + E_2 h_2^3)}
+\label{eq:dcb_energy}
+\end{equation}
+
+\noindent where $t$ is the blade thickness, $E_1$ and $E_2$ are the 
+Young's moduli of the substrates, $h_1$ and $h_2$ are the substrate 
+thicknesses, and $L$ is the crack length measured from the blade insertion 
+point. For identical substrates ($E_1 = E_2 = E$ and $h_1 = h_2 = h$), 
+this expression simplifies to:
+
+\begin{equation}
+G = \frac{3t^2 Eh^3}{8L^2} = \frac{3t^2 E}{32y^2}
+\label{eq:dcb_simplified}
+\end{equation}
+
+\noindent where $y = L/(2h)$ is the normalized crack length.
+
+\paragraph{Experimental Procedure and Considerations}
+The DCB measurement requires careful attention to several experimental 
+parameters. First, crack length observation should be performed after a 
+sufficient waiting period (typically 210~s) following blade insertion to 
+avoid the effects of static fatigue at the bonding interface 
+\cite{takeuchi2022}. For transparent substrates, crack propagation can 
+be observed optically; for opaque materials such as silicon, infrared 
+imaging or acoustic microscopy is necessary.
+
+\paragraph{Water Stress Corrosion Effects}
+A critical consideration in bonding strength measurement, particularly 
+for Si-based materials, is the effect of \textit{water stress corrosion}. 
+This phenomenon occurs when Si--O--Si bonds under applied stress react 
+with water molecules according to the reaction \cite{fournel2015}:
+
+\begin{equation}
+2~\text{SiO}_2 + \text{H}_2\text{O} \rightarrow 2~\text{Si--OH} + \frac{3}{2}~\text{O}_2
+\end{equation}
+
+This water-assisted bond breakage significantly lowers the measured 
+fracture toughness of SiO$_2$ structures, with reductions of up to 50\% 
+observed in wet atmospheres compared to dry conditions \cite{fournel2015}.
+
+\paragraph{Controlled Atmosphere Measurements}
+Recent advances have enabled the separation of water stress corrosion 
+effects from ambient water and interfacial residual water through 
+measurements under controlled atmospheres \cite{takeuchi2022}. By 
+performing DCB tests under three distinct conditions—wet atmosphere 
+(ambient air with 50--70\% relative humidity), dry atmosphere 
+(pure N$_2$ gas), and vacuum ($\sim$3$\times$10$^{-3}$~Pa)—the 
+individual contributions can be isolated.
+
+Figure \ref{fig:water_stress_corrosion} illustrates the water stress 
+corrosion mechanism under different measurement atmospheres. In wet 
+atmosphere, ambient water molecules attack the Si--O--Si bonds at the 
+crack tip, reducing the measured bonding strength. In dry atmosphere, 
+only residual interfacial water (trapped during low-temperature bonding) 
+contributes to stress corrosion. Under vacuum conditions, interfacial 
+water is partially desorbed as the crack propagates, minimizing the 
+corrosion effect and yielding the highest measured bond strength 
+\cite{takeuchi2022}.
+
+\begin{figure}[h]
+\centering
+\includegraphics[width=\textwidth]{Images/razor_atm.png}
+\caption{Schematic representation of water stress corrosion at the 
+hydrophilic bonding interface during debonding under controlled 
+atmospheres. Left: wet atmosphere showing ambient water attack on 
+Si--O--Si bonds. Center: anhydrous (dry) atmosphere with reduced 
+water availability. Right: vacuum conditions with partial desorption 
+of interfacial water. Adapted from \cite{takeuchi2022}.}
+\label{fig:water_stress_corrosion}
+\end{figure}
+
+\paragraph{Advantages and Limitations}
+The DCB method offers several important advantages: experimental 
+simplicity requiring minimal equipment, direct measurement of surface 
+energy, and applicability to full wafer-level bonding without the need 
+for dicing into smaller specimens \cite{takeuchi2022}. 
+The technique is particularly valuable for process development and 
+quality control in low-temperature bonding applications.
+However, several limitations must be considered:
+
+\begin{itemize}
+    \item \textbf{Measurement range:} The method is limited to bond 
+    strengths lower than the intrinsic surface energy of the substrates, 
+    typically below 2--3~J~m$^{-2}$ for most Si-based materials 
+    \cite{takeuchi2022}.
+    
+    \item \textbf{Atmospheric sensitivity:} Results are strongly 
+    influenced by measurement atmosphere, with variations up to 50\% 
+    between wet and dry conditions for SiO$_2$-based interfaces 
+    \cite{fournel2015}.
+    
+    \item \textbf{Edge effects and stress concentrations:} Crack 
+    initiation at wafer edges can introduce measurement artifacts.
+\end{itemize}
+
+\subsection{Bonding Strength Test}
 One of the most widely used methods to assess bonding strength 
 is the \textit{tensile test} (also known as the pull test or 
 direct tensile method). In this approach, bonded substrates

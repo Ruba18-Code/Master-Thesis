@@ -433,6 +433,11 @@ INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm5.tfm
 INPUT ./sections/Characterization and Quality Control/Strength Tests.tex
 INPUT ./sections/Characterization and Quality Control/Strength Tests.tex
 INPUT sections/Characterization and Quality Control/Strength Tests.tex
+INPUT ./Images/razor_atm.png
+INPUT ./Images/razor_atm.png
+INPUT ./Images/razor_atm.png
+INPUT ./Images/razor_atm.png
+INPUT ./Images/razor_atm.png
 INPUT ./Images/tensile_test.jpeg
 INPUT ./Images/tensile_test.jpeg
 INPUT ./Images/tensile_test.jpeg
@@ -500,6 +505,18 @@ INPUT ./Images/D1 & D2.png
 INPUT ./Images/D1 & D2.png
 INPUT ./Images/D1 & D2.png
 INPUT ./Images/D1 & D2.png
+INPUT ./sections/Experiments and Applications/Train Application.tex
+INPUT ./sections/Experiments and Applications/Train Application.tex
+INPUT sections/Experiments and Applications/Train Application.tex
+INPUT ./sections/Experiments and Applications/Atomic Clocks.tex
+INPUT ./sections/Experiments and Applications/Atomic Clocks.tex
+INPUT sections/Experiments and Applications/Atomic Clocks.tex
+INPUT ./sections/Experiments and Applications/Space Application.tex
+INPUT ./sections/Experiments and Applications/Space Application.tex
+INPUT sections/Experiments and Applications/Space Application.tex
+INPUT ./sections/Experiments and Applications/Magnetoencephalography.tex
+INPUT ./sections/Experiments and Applications/Magnetoencephalography.tex
+INPUT sections/Experiments and Applications/Magnetoencephalography.tex
 INPUT ./sections/Experiments and Applications/Magnetometry Experiment 1.tex
 INPUT ./sections/Experiments and Applications/Magnetometry Experiment 1.tex
 INPUT ./sections/Experiments and Applications/Magnetometry Experiment 1.tex
