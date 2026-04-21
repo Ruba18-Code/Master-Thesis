@@ -1,13 +1,13 @@
 # Fdb version 4
-["bibtex Main"] 1776694489.61103 "Main.aux" "Main.bbl" "Main" 1776694491.78094 0
-  "./references.bib" 1776692321.10931 6280 3905eb17b208bfd0e153a4d9c3b77dde ""
+["bibtex Main"] 1776763260.64492 "Main.aux" "Main.bbl" "Main" 1776763545.51116 0
+  "./references.bib" 1776763260.46269 7528 b1b77e391df694200b9efeb7321b79ad ""
   "/usr/share/texlive/texmf-dist/bibtex/bst/ieeetran/IEEEtran.bst" 1440712899 57748 7c8250ecf02814ce6ddc0cdbb63df1dd ""
-  "Main.aux" 1776694491.47083 32719 4bbfc25491f9f358672400660b3f65fa "pdflatex"
+  "Main.aux" 1776763545.19799 33252 4468c1562a03dc121322a517e871864f "pdflatex"
   (generated)
   "Main.bbl"
   "Main.blg"
   (rewritten before read)
-["pdflatex"] 1776694489.70023 "/home/ruben/Escritorio/Master Thesis/Master-Thesis/Main.tex" "Main.pdf" "Main" 1776694491.78116 0
+["pdflatex"] 1776763543.26854 "/home/ruben/Escritorio/Master Thesis/Master-Thesis/Main.tex" "Main.pdf" "Main" 1776763545.51132 0
   "/etc/texmf/web2c/texmf.cnf" 1753802693.73376 475 c0e671620eb5563b2130f56340a5fde8 ""
   "/home/ruben/Escritorio/Master Thesis/Master-Thesis/Main.tex" 1776694487.19387 4668 157dab4e6c4f73f72f4e15e58f055c80 ""
   "/usr/share/texlive/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
@@ -247,11 +247,11 @@
   "Images/pressure.png" 1775645906 278905 6ec95583f61e2e297f84517ee00cba8f ""
   "Images/razor_atm.png" 1776690758.76734 200396 b72e72557b2171c5e4a86ce565dcdd47 ""
   "Images/tensile_test.jpeg" 1776690047.79172 16765 a67dab8628d385e6b721105ef8c84413 ""
-  "Main.aux" 1776694491.47083 32719 4bbfc25491f9f358672400660b3f65fa "pdflatex"
-  "Main.bbl" 1776694489.69485 5171 24249ab4024556fbcb79724efef98506 "bibtex Main"
-  "Main.out" 1776694490.82384 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
+  "Main.aux" 1776763545.19799 33252 4468c1562a03dc121322a517e871864f "pdflatex"
+  "Main.bbl" 1776763260.75068 5969 7ccd986f73aca87455e218a542e09d28 "bibtex Main"
+  "Main.out" 1776763544.45599 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
   "Main.tex" 1776694487.19387 4668 157dab4e6c4f73f72f4e15e58f055c80 ""
-  "Main.toc" 1776694491.47583 4688 7042073023d0fc3e79e46e7831d4993a "pdflatex"
+  "Main.toc" 1776763545.20399 4688 7042073023d0fc3e79e46e7831d4993a "pdflatex"
   "sections/Appendix/Recipes in Literature.tex" 1776689742.31389 5550 4718f19172edd6fdc5a1513a42541e82 ""
   "sections/Characterization and Quality Control/Leak Tests Using Spectroscopy.tex" 1776085232.78434 5650 a5b2cb88286ceb076c3b145ff8916f5a ""
   "sections/Characterization and Quality Control/Strength Tests.tex" 1776693265.37018 10500 1d5818f2b0fbb8a3212e0af8db389af3 ""
@@ -261,11 +261,11 @@
   "sections/Experiments and Applications/Magnetometry Experiment 1.tex" 1776246960.4207 6240 c85fbc36c21ebc1aeab3e2f579561ff2 ""
   "sections/Experiments and Applications/Space Application.tex" 1776694364.25402 31 0034646aca4ce3d5ecef8158db3bb563 ""
   "sections/Experiments and Applications/Train Application.tex" 1776694301.6766 45 e13cd02a91c00098bae4f109cf35b031 ""
-  "sections/Fabrication Methods/Femtosecond Laser Writing.tex" 1776351339.45503 2869 21780f84fb1c6c461a87f4f6e4f23eef ""
-  "sections/Fabrication Methods/Introduction.tex" 1776348098.16908 2124 e987f43139fd635e3113e237504775b8 ""
+  "sections/Fabrication Methods/Femtosecond Laser Writing.tex" 1776696453.31483 2935 bb5209d11604305e18c9dfcd72e71c8e ""
+  "sections/Fabrication Methods/Introduction.tex" 1776761393.36097 2374 450a42c3173aba3d17ccfac3e146b3f6 ""
   "sections/Fabrication Methods/Optical Contact Bonding/Annealing.tex" 1776338071.4056 2854 f51b1202363eea60201948e92b2ec92c ""
   "sections/Fabrication Methods/Optical Contact Bonding/Chemical Treatment.tex" 1776338082.73656 3500 d9bd5ae401cf6ca55f4864e5a91eafa2 ""
-  "sections/Fabrication Methods/Optical Contact Bonding/Intro Optical Contact Bonding.tex" 1776339487.84436 6797 9cb2cea6a29c2562837d0ba48e6be47f ""
+  "sections/Fabrication Methods/Optical Contact Bonding/Intro Optical Contact Bonding.tex" 1776763543.054 6753 246173c2dd9d2c1d4178e92af55d4be2 ""
   "sections/Fabrication Methods/Optical Contact Bonding/Plasma-Activated Bonding.tex" 1776338044.77868 3251 9733a2d28c446290da3baf2c1df09b0c ""
   "sections/Fabrication Methods/Optical Contact Bonding/Pressure.tex" 1776338059.67464 2376 9d1458fd36b5557356ed33fef820284c ""
   "sections/Fabrication Methods/Post-Treatment.tex" 1776347716.73476 1926 459e25a3a7023f078c6348a58a108361 ""

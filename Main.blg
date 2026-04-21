@@ -12,18 +12,25 @@ Warning--I didn't find a database entry for "CITA"
 -- IEEEtran.bst version 1.14 (2015/08/26) by Michael Shell.
 -- http://www.michaelshell.org/tex/ieeetran/bibtex/
 -- See the "IEEEtran_bst_HOWTO.pdf" manual for usage information.
+Warning--empty journal in wallis1974
+Warning--empty journal in knapkiewicz2018
+Warning--empty journal in bachman2001
+Warning--empty journal in karlen2018
+Warning--empty journal in wang2025
+Warning--empty journal in gosele2006
 Warning--empty journal in rammhandbook
+Warning--empty journal in kalk2014
+Warning--empty journal in li2013
+Warning--empty journal in du2022
 Warning--empty journal in masteika2014
 Warning--empty journal in suniphd
 Warning--empty journal in yu2023
 Warning--empty journal in neumann2021
 Warning--empty journal in eichler2008
-Warning--empty journal in li2013
 Warning--empty journal in cho2001
 Warning--empty journal in possl1998
 Warning--empty journal in trinh2022
 Warning--empty journal in mai2015
-Warning--empty journal in kalk2014
 Warning--empty journal in bain2022
 Warning--empty journal in wang2014
 Warning--empty journal in labyt2019
@@ -33,7 +40,6 @@ Warning--empty journal in takeuchi2022
 Warning--empty journal in fournel2015
 Warning--empty journal in wasmer2007
 Warning--empty journal in muller1991
-Warning--empty journal in gosele2006
 Warning--empty journal in anderson2005
 Warning--empty journal in boniecki2001
 Warning--empty journal in wiki_afm_tip
@@ -57,45 +63,45 @@ Warning--empty journal in lucivero2022
 Warning--empty journal in tierney2019
 
 Done.
-You've used 37 entries,
+You've used 44 entries,
             4087 wiz_defined-function locations,
-            952 strings with 10933 characters,
-and the built_in function-call counts, 11695 in all, are:
-= -- 825
-> -- 178
+            977 strings with 11589 characters,
+and the built_in function-call counts, 13910 in all, are:
+= -- 992
+> -- 206
 < -- 0
-+ -- 88
-- -- 44
-* -- 453
-:= -- 2217
-add.period$ -- 74
-call.type$ -- 37
-change.case$ -- 37
++ -- 102
+- -- 51
+* -- 529
+:= -- 2642
+add.period$ -- 88
+call.type$ -- 44
+change.case$ -- 44
 chr.to.int$ -- 0
-cite$ -- 80
-duplicate$ -- 1122
-empty$ -- 1159
-format.name$ -- 46
-if$ -- 2505
+cite$ -- 93
+duplicate$ -- 1333
+empty$ -- 1382
+format.name$ -- 53
+if$ -- 2987
 int.to.chr$ -- 0
-int.to.str$ -- 37
-missing$ -- 192
-newline$ -- 134
-num.names$ -- 37
-pop$ -- 590
+int.to.str$ -- 44
+missing$ -- 229
+newline$ -- 155
+num.names$ -- 44
+pop$ -- 699
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 2
-skip$ -- 878
+skip$ -- 1052
 stack$ -- 0
-substring$ -- 37
-swap$ -- 486
+substring$ -- 44
+swap$ -- 581
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 5
-type$ -- 37
-warning$ -- 43
-while$ -- 37
-width$ -- 39
-write$ -- 275
-(There were 44 warnings)
+type$ -- 44
+warning$ -- 49
+while$ -- 44
+width$ -- 46
+write$ -- 325
+(There were 50 warnings)
