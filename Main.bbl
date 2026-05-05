@@ -24,135 +24,200 @@
 R.~Paschotta, ``Optical adhesives,'' RP Photonics Encyclopedia, 2023.
 
 \bibitem{wallis1974}
-W.~et~al., ``Field assisted glass sealing,'' 1974.
+\BIBentryALTinterwordspacing
+G.~Wallis, ``Field assisted glass sealing,'' \emph{Active and Passive Electronic Components}, vol.~2, no.~1, p. 45–53, Jan. 1975. [Online]. Available: \url{http://dx.doi.org/10.1155/APEC.2.45}
+\BIBentrySTDinterwordspacing
 
 \bibitem{knapkiewicz2018}
-K.~et~al., ``Alkali vapor mems cells technology toward high-vacuum self-pumping mems cell for atomic spectroscopy,'' 2018.
+\BIBentryALTinterwordspacing
+P.~Knapkiewicz, ``Alkali vapor mems cells technology toward high-vacuum self-pumping mems cell for atomic spectroscopy,'' \emph{Micromachines}, vol.~9, no.~8, p. 405, Aug. 2018. [Online]. Available: \url{http://dx.doi.org/10.3390/mi9080405}
+\BIBentrySTDinterwordspacing
 
 \bibitem{bachman2001}
-B.~et~al., ``Controlling stress in bonded optics,'' 2001.
+Bachman, ``Controlling stress in bonded optics,'' 2001.
 
 \bibitem{karlen2018}
-K.~P. Thesis, ``Fabrication and characterization of mems alkali vapor cells used in chip-scale atomic clocks and other atomic devices,'' 2018.
+S.~Karlen, ``Fabrication and characterization of mems alkali vapor cells used in chip-scale atomic clocks and other atomic devices,'' Ph.D. dissertation, 12 2017.
 
 \bibitem{wang2025}
-W.~et~al., ``Glass surface treatment and bonding methods for microsystem packaging,'' 2025.
+\BIBentryALTinterwordspacing
+Z.~Wang, J.~Zhang, D.~Wen, K.~Qin, S.~Li, M.~Chen, Y.~Qiao, J.~Liu, Z.~Fang, H.~Chen, L.~Gao, and W.~Zhang, ``Glass surface treatment and bonding methods for microsystem packaging,'' \emph{Materials Today Chemistry}, vol.~46, p. 102698, 2025. [Online]. Available: \url{http://dx.doi.org/10.1016/j.mtchem.2025.102698}
+\BIBentrySTDinterwordspacing
 
 \bibitem{gosele2006}
-G.~et~al., ``Wafer direct bonding,'' 2006.
+\BIBentryALTinterwordspacing
+S.~Christiansen, R.~Singh, and U.~Gosele, ``Wafer direct bonding: From advanced substrate engineering to future applications in micro/nanoelectronics,'' \emph{Proceedings of the IEEE}, vol.~94, no.~12, p. 2060–2106, Dec. 2006. [Online]. Available: \url{http://dx.doi.org/10.1109/JPROC.2006.886026}
+\BIBentrySTDinterwordspacing
 
 \bibitem{rammhandbook}
-R.~et~al., ``Handbook of wafer bonding,'' 2010.
+\BIBentryALTinterwordspacing
+\emph{Handbook of Wafer Bonding}.\hskip 1em plus 0.5em minus 0.4em\relax Wiley, Jan. 2012. [Online]. Available: \url{http://dx.doi.org/10.1002/9783527644223}
+\BIBentrySTDinterwordspacing
 
 \bibitem{kalk2014}
-K.~et~al., ``Glass-glass direct bonding,'' 2014.
+\BIBentryALTinterwordspacing
+G.~Kalkowski, S.~Risse, U.~Zeitner, F.~Fuchs, R.~Eberhardt, and A.~T\"{u}nnermann, ``(invited) glass-glass direct bonding,'' \emph{ECS Transactions}, vol.~64, no.~5, p. 3–11, Aug. 2014. [Online]. Available: \url{http://dx.doi.org/10.1149/06405.0003ecst}
+\BIBentrySTDinterwordspacing
 
 \bibitem{li2013}
-L.~et~al., ``Low temperature si/si wafer direct bonding using a plasma activated method,'' 2013.
+\BIBentryALTinterwordspacing
+D.-l. Li, Z.-g. Shang, S.-q. Wang, and Z.-y. Wen, ``Low temperature si/si wafer direct bonding using a plasma activated method,'' \emph{Journal of Zhejiang University SCIENCE C}, vol.~14, no.~4, p. 244–251, Apr. 2013. [Online]. Available: \url{http://dx.doi.org/10.1631/jzus.C12MNT02}
+\BIBentrySTDinterwordspacing
 
 \bibitem{du2022}
-D.~et~al., ``Effect of surface cleaning process on the wafer bonding of siliconand pyrex glass,'' 2022.
+\BIBentryALTinterwordspacing
+C.~Du, Y.~Zhao, and Y.~Li, ``Effect of surface cleaning process on the wafer bonding of silicon and pyrex glass,'' \emph{Journal of Inorganic and Organometallic Polymers and Materials}, vol.~33, no.~3, p. 673–679, Jan. 2023. [Online]. Available: \url{http://dx.doi.org/10.1007/s10904-022-02510-x}
+\BIBentrySTDinterwordspacing
 
 \bibitem{masteika2014}
-M.~et~al., ``A review of hydrophilic silicon wafer bonding,'' 2014.
+\BIBentryALTinterwordspacing
+V.~Masteika, J.~Kowal, N.~S.~J. Braithwaite, and T.~Rogers, ``A review of hydrophilic silicon wafer bonding,'' \emph{ECS Journal of Solid State Science and Technology}, vol.~3, no.~4, p. Q42–Q54, 2014. [Online]. Available: \url{http://dx.doi.org/10.1149/2.007403jss}
+\BIBentrySTDinterwordspacing
 
 \bibitem{suniphd}
-T.~Sumi, ``Phd thesis: Direct wafer bonding for mems and microelectronics,'' 2006.
+Sumi, ``Phd thesis: Direct wafer bonding for mems and microelectronics,'' 2006.
 
 \bibitem{yu2023}
-Y.~et~al., ``Plasma-activated silicon–glass high-strength multistep bonding for low-temperature vacuum packaging,'' 2023.
+\BIBentryALTinterwordspacing
+M.~Yu, L.~Zhao, Y.~Wang, Y.~Xia, Y.~Ma, Y.~Wang, X.~Han, Y.~Chen, S.~Lu, G.~Luo, N.~Zhu, P.~Yang, K.~Wang, Q.~Lin, and Z.~Jiang, ``Plasma-activated silicon–glass high-strength multistep bonding for low-temperature vacuum packaging,'' \emph{Chemical Engineering Journal}, vol. 471, p. 144719, 2023. [Online]. Available: \url{http://dx.doi.org/10.1016/j.cej.2023.144719}
+\BIBentrySTDinterwordspacing
 
 \bibitem{neumann2021}
-N.~et~al., ``Atmospheric pressure dielectric barrier discharge plasma-enhanced optical contact bonding of coated glass surfaces,'' 2021.
+\BIBentryALTinterwordspacing
+J.~Neumann, S.~Br\"{u}ckner, W.~Vi\"{o}l, and C.~Gerhard, ``Atmospheric pressure dielectric barrier discharge plasma-enhanced optical contact bonding of coated glass surfaces,'' \emph{Applied Sciences}, vol.~11, no.~15, p. 6755, 2021. [Online]. Available: \url{http://dx.doi.org/10.3390/app11156755}
+\BIBentrySTDinterwordspacing
 
 \bibitem{eichler2008}
-M.~E. et~al., ``Atmospheric-pressure plasma pretreatment for direct bonding of silicon wafers,'' 2008.
+\BIBentryALTinterwordspacing
+M.~Eichler, B.~Michel, M.~Thomas, M.~Gabriel, and C.-P. Klages, ``Atmospheric-pressure plasma pretreatment for direct bonding of silicon wafers at low temperatures,'' \emph{Surface and Coatings Technology}, vol. 203, no. 5-7, p. 826–829, Dec. 2008. [Online]. Available: \url{http://dx.doi.org/10.1016/j.surfcoat.2008.06.054}
+\BIBentrySTDinterwordspacing
 
 \bibitem{cho2001}
-C.~et~al., ``Low temperature si direct bonding by plasma activation,'' 2001.
-
-\bibitem{possl1998}
-P.~et~al., ``Wafer direct bonding: Tailoring adhesion between brittle materials,'' 1998.
+\BIBentryALTinterwordspacing
+Y.~Cho and N.~W. Cheung, ``Low temperature si direct bonding by plasma activation,'' \emph{MRS Proceedings}, vol. 657, 2000. [Online]. Available: \url{http://dx.doi.org/10.1557/PROC-657-EE9.2}
+\BIBentrySTDinterwordspacing
 
 \bibitem{trinh2022}
-T.~et~al., ``Glass-to-glass fusion bonding quality and strength evaluation with time, applied force, and heat,'' 2022.
+\BIBentryALTinterwordspacing
+N.~N. Trinh, L.~A. Simms, B.~S. Chew, A.~Weinstein, V.~La~Saponara, M.~M. McCartney, N.~J. Kenyon, and C.~E. Davis, ``Glass-to-glass fusion bonding quality and strength evaluation with time, applied force, and heat,'' \emph{Micromachines}, vol.~13, no.~11, p. 1892, Nov. 2022. [Online]. Available: \url{http://dx.doi.org/10.3390/mi13111892}
+\BIBentrySTDinterwordspacing
 
 \bibitem{mai2015}
-M.~et~al., ``Low temperature direct bonding of silica glass via wet chemical surface activation,'' 2015.
+\BIBentryALTinterwordspacing
+C.~Mai, M.~Li, and S.~Yang, ``Low temperature direct bonding of silica glass via wet chemical surface activation,'' \emph{RSC Advances}, vol.~5, no.~53, p. 42721–42727, 2015. [Online]. Available: \url{http://dx.doi.org/10.1039/C5RA06705G}
+\BIBentrySTDinterwordspacing
 
 \bibitem{bain2022}
-B.~et~al., ``Effect of clamping force on distortion of the optical surface of monochromators during assembly,'' 2022.
+\BIBentryALTinterwordspacing
+E.~V. Bainbridge, J.~D. Griffiths, J.~Clunan, and P.~Docker, ``Effect of clamping force on distortion of the optical surface of monochromators during assembly,'' \emph{Journal of Synchrotron Radiation}, vol.~29, no.~3, p. 871–875, Apr. 2022. [Online]. Available: \url{http://dx.doi.org/10.1107/S1600577522003149}
+\BIBentrySTDinterwordspacing
 
 \bibitem{wang2014}
-W.~et~al., ``Wavefront measurement techniques used in high power lasers,'' 2014.
+\BIBentryALTinterwordspacing
+H.~Wang, C.~Liu, X.~He, X.~Pan, S.~Zhou, R.~Wu, and J.~Zhu, ``Wavefront measurement techniques used in high power lasers,'' \emph{High Power Laser Science and Engineering}, vol.~2, 2014. [Online]. Available: \url{http://dx.doi.org/10.1017/hpl.2014.28}
+\BIBentrySTDinterwordspacing
 
 \bibitem{birckigt2021}
 P.~Birckigt, K.~Grabowski, G.~Leibeling, T.~Fl{\"u}gel-Paul, M.~Heusinger, H.~Ouslimani, and S.~Risse, ``Effects of static load and residual stress on fused silica direct bonding interface properties,'' \emph{Appl. Phys. A}, 2021.
 
 \bibitem{labyt2019}
-L.~et~al., ``Magnetoencephalography with optically pumped he-4 magnetometers at ambient temperature,'' 2019.
+\BIBentryALTinterwordspacing
+E.~Labyt, M.-C. Corsi, W.~Fourcault, A.~Palacios~Laloy, F.~Bertrand, F.~Lenouvel, G.~Cauffet, M.~Le~Prado, F.~Berger, and S.~Morales, ``Magnetoencephalography with optically pumped<sup>4</sup>he magnetometers at ambient temperature,'' \emph{IEEE Transactions on Medical Imaging}, vol.~38, no.~1, p. 90–98, Jan. 2019. [Online]. Available: \url{http://dx.doi.org/10.1109/TMI.2018.2856367}
+\BIBentrySTDinterwordspacing
 
 \bibitem{carle2023}
-C.~et~al., ``Reduction of helium permeation in microfabricated cells using aluminosilicate glass substrates and al2o3 coatings,'' 2023.
+\BIBentryALTinterwordspacing
+C.~Carlé, S.~Keshavarzi, A.~Mursa, P.~Karvinen, R.~Chutani, S.~Bargiel, S.~Queste, R.~Vicarini, P.~Abbé, M.~Abdel~Hafiz, V.~Maurice, R.~Boudot, and N.~Passilly, ``Reduction of helium permeation in microfabricated cells using aluminosilicate glass substrates and al2o3 coatings,'' \emph{Journal of Applied Physics}, vol. 133, no.~21, 2023. [Online]. Available: \url{http://dx.doi.org/10.1063/5.0151899}
+\BIBentrySTDinterwordspacing
 
 \bibitem{Dellis2016}
-D.~et~al., ``Low helium permeation cells for atomicmicrosystems technology,'' 2016.
+\BIBentryALTinterwordspacing
+A.~T. Dellis, V.~Shah, E.~A. Donley, S.~Knappe, and J.~Kitching, ``Low helium permeation cells for atomic microsystems technology,'' \emph{Optics Letters}, vol.~41, no.~12, p. 2775, 2016. [Online]. Available: \url{http://dx.doi.org/10.1364/OL.41.002775}
+\BIBentrySTDinterwordspacing
 
 \bibitem{pasternak2018}
 L.~Pasternak and Y.~Paz, ``Low-temperature direct bonding of silicon nitride to glass,'' \emph{RSC Advances}, vol.~8, pp. 2161--2172, 01 2018.
 
 \bibitem{takeuchi2022}
-K.~Takeuchi and T.~Suga, ``Quantification of wafer bond strength under controlled atmospheres,'' 2022.
+\BIBentryALTinterwordspacing
+K.~Takeuchi and T.~Suga, ``Quantification of wafer bond strength under controlled atmospheres,'' \emph{Japanese Journal of Applied Physics}, vol.~61, no.~SF, p. SF1010, Apr. 2022. [Online]. Available: \url{http://dx.doi.org/10.35848/1347-4065/ac5e49}
+\BIBentrySTDinterwordspacing
 
 \bibitem{fournel2015}
-F.~et~al., ``Water stress corrosion in bonded structures,'' 2015.
+\BIBentryALTinterwordspacing
+F.~Fournel, C.~Martin-Cocher, D.~Radisson, V.~Larrey, E.~Beche, C.~Morales, P.~A. Delean, F.~Rieutord, and H.~Moriceau, ``Water stress corrosion in bonded structures,'' \emph{ECS Journal of Solid State Science and Technology}, vol.~4, no.~5, p. P124–P130, 2015. [Online]. Available: \url{http://dx.doi.org/10.1149/2.0031505jss}
+\BIBentrySTDinterwordspacing
 
 \bibitem{wasmer2007}
-W.~et~al., ``Effect of strength test methods on silicon wafer strength measurements,'' 2007.
+K.~Wasmer, A.~Bidiville, J.~Michler, C.~Ballif, M.~Meer, and P.~Nasch, ``Effect of strength test methods on silicon wafer strength measurements,'' 01 2007.
 
 \bibitem{muller1991}
-M.~et~al., ``Tensile strength characterization of low-temperature fusion-bonded silicon wafers,'' 1991.
+\BIBentryALTinterwordspacing
+B.~Muller and A.~Stoffel, ``Tensile strength characterization of low-temperature fusion-bonded silicon wafers,'' \emph{Journal of Micromechanics and Microengineering}, vol.~1, no.~3, p. 161–166, 1991. [Online]. Available: \url{http://dx.doi.org/10.1088/0960-1317/1/3/006}
+\BIBentrySTDinterwordspacing
 
 \bibitem{anderson2005}
-A.~et~al., ``Fracture mechanics,'' 2005.
+\BIBentryALTinterwordspacing
+T.~L. Anderson and T.~L. Anderson, \emph{Fracture Mechanics: Fundamentals and Applications, Third Edition}.\hskip 1em plus 0.5em minus 0.4em\relax CRC Press, 2005. [Online]. Available: \url{http://dx.doi.org/10.1201/9781420058215}
+\BIBentrySTDinterwordspacing
 
 \bibitem{boniecki2001}
-B.~et~al., ``Fracture toughness of brittle monocrystalline materials,'' 2001.
+M.~Boniecki, ``Fracture toughness of brittle monocrystalline materials,'' \emph{Journal of Materials Science Letters}, vol.~20, no.~18, pp. 1667--1670, 2001.
 
 \bibitem{wiki_afm_tip}
-S.~(Wikipedia), ``Afm cantilever image,'' 2008.
+{SecretDisc}, ``Atomic force microscopy (afm) cantilever and tip,'' Wikimedia Commons, 2008, accessed: 2024-05-20.
 
 \bibitem{ISO}
-I.~O. for Standarization(ISO), ``Iso 25178 - geomertical product specifications (gps),'' 2012.
+{International Organization for Standardization}, \emph{{ISO 25178}: Geometrical Product Specifications ({GPS}) -- Surface texture: Areal}, International Organization for Standardization, Geneva, Switzerland, 2012.
 
 \bibitem{pitz2009}
-P.~et~al., ``Pressure broadening and shift of the cesium d1 transition.''
+\BIBentryALTinterwordspacing
+G.~A. Pitz, D.~E. Wertepny, and G.~P. Perram, ``Pressure broadening and shift of the cesium d1 transition,'' \emph{Physical Review A}, vol.~80, no.~6, Dec. 2009. [Online]. Available: \url{http://dx.doi.org/10.1103/PhysRevA.80.062718}
+\BIBentrySTDinterwordspacing
 
 \bibitem{pitz2010}
-------, ``Pressure broadening and shift of the cesium d2 transition.''
+\BIBentryALTinterwordspacing
+G.~Pitz, C.~Fox, and G.~Perram, ``Pressure broadening and shift of the cesium d2 transition,'' \emph{Physical Review A}, no.~4, Oct. 2010. [Online]. Available: \url{http://dx.doi.org/10.1103/PHYSREVA.82.042502}
+\BIBentrySTDinterwordspacing
 
 \bibitem{andalkar2002}
-A.~et~al., ``High-resolution measurement of the pressure broadening and shift of the cs d1 and d2 lines by n2 and he buffer gasses.''
+\BIBentryALTinterwordspacing
+A.~Andalkar and R.~B. Warrington, ``High-resolution measurement of the pressure broadening and shift of the cs d1 and d2 lines,'' \emph{Physical Review A}, vol.~65, no.~3, Feb. 2002. [Online]. Available: \url{http://dx.doi.org/10.1103/PhysRevA.65.032708}
+\BIBentrySTDinterwordspacing
 
 \bibitem{pitz2014}
-P.~et~al., ``Pressure broadening and shift of the rubidium d1 transitionand potassium d2 transitions by various gases.''
+\BIBentryALTinterwordspacing
+G.~A. Pitz, A.~J. Sandoval, T.~B. Tafoya, W.~L. Klennert, and D.~A. Hostutler, ``Pressure broadening and shift of the rubidium d1 transition and potassium d2 transitions by various gases with comparison to other alkali rates,'' \emph{Journal of Quantitative Spectroscopy and Radiative Transfer}, vol. 140, p. 18–29, 2014. [Online]. Available: \url{http://dx.doi.org/10.1016/j.jqsrt.2014.01.024}
+\BIBentrySTDinterwordspacing
 
 \bibitem{shi2019}
-S.~et~al., ``Broadening and shifting of rb d1 and d2 line in low pressure vapor cell.''
+\BIBentryALTinterwordspacing
+M.~Shi, T.~Wang, Y.~Liu, and X.~Wang, ``Broadening and shifting of rb d1 and d2 line in low pressure vapor cell,'' \emph{Optik}, vol. 183, p. 751–756, Apr. 2019. [Online]. Available: \url{http://dx.doi.org/10.1016/j.ijleo.2019.02.115}
+\BIBentrySTDinterwordspacing
 
 \bibitem{maurice2022}
-M.~et~al., ``Wafer-level vapor cells filled with laser-actuated hermetic seals for integrated atomic devices,'' 2022.
+\BIBentryALTinterwordspacing
+V.~Maurice, C.~Carle, S.~Keshavarzi, R.~Chutani, S.~Queste, L.~Gauthier-Manuel, J.-M. Cote, R.~Vicarini, M.~Abdel~Hafiz, R.~Boudot, and N.~Passilly, ``Wafer-level vapor cells filled with laser-actuated hermetic seals for integrated atomic devices,'' \emph{Microsystems amp; Nanoengineering}, vol.~8, no.~1, 2022. [Online]. Available: \url{http://dx.doi.org/10.1038/s41378-022-00468-x}
+\BIBentrySTDinterwordspacing
 
 \bibitem{art2025}
-A.-G. et~al., ``Wafer-level fabrication of all-dielectric vapor cells electrometry.''
+\BIBentryALTinterwordspacing
+A.~B. Artusio-Glimpse, A.~Meraki, H.~Shillingburg, G.~Lavallee, M.~Liu, C.~Eichfeld, M.~T. Simons, G.~Holland, C.~L. Holloway, V.~A. Aksyuk, and D.~Lopez, ``Wafer-level fabrication of all-dielectric vapor cells enabling optically addressed rydberg atom electrometry,'' 2025. [Online]. Available: \url{https://arxiv.org/abs/2503.15433}
+\BIBentrySTDinterwordspacing
 
 \bibitem{kobtsev2019}
-K.~et~al., ``Cpt atomic clock with cold-technology-based vapour cell.''
+\BIBentryALTinterwordspacing
+S.~Kobtsev, S.~Donchenko, S.~Khripunov, D.~Radnatarov, I.~Blinov, and V.~Palchikov, ``Cpt atomic clock with cold-technology-based vapour cell,'' \emph{Optics amp; Laser Technology}, vol. 119, p. 105634, Nov. 2019. [Online]. Available: \url{http://dx.doi.org/10.1016/j.optlastec.2019.105634}
+\BIBentrySTDinterwordspacing
 
 \bibitem{lucivero2022}
-L.~et~al., ``Laser-written vapor cells for chip-scale atomicsensing and spectroscopy,'' 2022.
+\BIBentryALTinterwordspacing
+V.~G. Lucivero, A.~Zanoni, G.~Corrielli, R.~Osellame, and M.~W. Mitchell, ``Laser-written vapor cells for chip-scale atomic sensing and spectroscopy,'' \emph{Optics Express}, vol.~30, no.~15, p. 27149, 2022. [Online]. Available: \url{http://dx.doi.org/10.1364/OE.469296}
+\BIBentrySTDinterwordspacing
 
 \bibitem{tierney2019}
-T.~et~al., ``Optically pumped magnetometers: From quantum origins to multi-channel magnetoencephalography,'' 2019.
+\BIBentryALTinterwordspacing
+T.~M. Tierney, N.~Holmes, S.~Mellor, J.~D. López, G.~Roberts, R.~M. Hill, E.~Boto, J.~Leggett, V.~Shah, M.~J. Brookes, R.~Bowtell, and G.~R. Barnes, ``Optically pumped magnetometers: From quantum origins to multi-channel magnetoencephalography,'' \emph{NeuroImage}, vol. 199, p. 598–608, Oct. 2019. [Online]. Available: \url{http://dx.doi.org/10.1016/j.neuroimage.2019.05.063}
+\BIBentrySTDinterwordspacing
 
 \end{thebibliography}

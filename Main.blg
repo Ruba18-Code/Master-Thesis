@@ -8,100 +8,69 @@ Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Database file #1: references.bib
+Warning--string name "sept" is undefined
+--line 77 of file references.bib
+Warning--string name "july" is undefined
+--line 137 of file references.bib
+Warning--string name "june" is undefined
+--line 365 of file references.bib
+Warning--string name "july" is undefined
+--line 427 of file references.bib
+Warning--string name "sept" is undefined
+--line 458 of file references.bib
+Warning--string name "june" is undefined
+--line 609 of file references.bib
 Warning--I didn't find a database entry for "CITA"
+Warning--I didn't find a database entry for "possl1998"
 -- IEEEtran.bst version 1.14 (2015/08/26) by Michael Shell.
 -- http://www.michaelshell.org/tex/ieeetran/bibtex/
 -- See the "IEEEtran_bst_HOWTO.pdf" manual for usage information.
-Warning--empty journal in wallis1974
-Warning--empty journal in knapkiewicz2018
 Warning--empty journal in bachman2001
-Warning--empty journal in karlen2018
-Warning--empty journal in wang2025
-Warning--empty journal in gosele2006
-Warning--empty journal in rammhandbook
-Warning--empty journal in kalk2014
-Warning--empty journal in li2013
-Warning--empty journal in du2022
-Warning--empty journal in masteika2014
+Warning--missing school in karlen2018
+Warning--empty author and editor in rammhandbook
 Warning--empty journal in suniphd
-Warning--empty journal in yu2023
-Warning--empty journal in neumann2021
-Warning--empty journal in eichler2008
-Warning--empty journal in cho2001
-Warning--empty journal in possl1998
-Warning--empty journal in trinh2022
-Warning--empty journal in mai2015
-Warning--empty journal in bain2022
-Warning--empty journal in wang2014
-Warning--empty journal in labyt2019
-Warning--empty journal in carle2023
-Warning--empty journal in Dellis2016
-Warning--empty journal in takeuchi2022
-Warning--empty journal in fournel2015
 Warning--empty journal in wasmer2007
-Warning--empty journal in muller1991
-Warning--empty journal in anderson2005
-Warning--empty journal in boniecki2001
-Warning--empty journal in wiki_afm_tip
-Warning--empty journal in ISO
-Warning--empty journal in pitz2009
-Warning--empty year in pitz2009
-Warning--empty journal in pitz2010
-Warning--empty year in pitz2010
-Warning--empty journal in andalkar2002
-Warning--empty year in andalkar2002
-Warning--empty journal in pitz2014
-Warning--empty year in pitz2014
-Warning--empty journal in shi2019
-Warning--empty year in shi2019
-Warning--empty journal in maurice2022
-Warning--empty journal in art2025
-Warning--empty year in art2025
-Warning--empty journal in kobtsev2019
-Warning--empty year in kobtsev2019
-Warning--empty journal in lucivero2022
-Warning--empty journal in tierney2019
 
 Done.
-You've used 45 entries,
+You've used 44 entries,
             4087 wiz_defined-function locations,
-            983 strings with 11714 characters,
-and the built_in function-call counts, 14827 in all, are:
-= -- 1070
-> -- 224
-< -- 11
-+ -- 114
-- -- 53
-* -- 572
-:= -- 2771
-add.period$ -- 90
-call.type$ -- 45
-change.case$ -- 45
-chr.to.int$ -- 27
-cite$ -- 94
-duplicate$ -- 1396
-empty$ -- 1448
-format.name$ -- 56
-if$ -- 3205
+            1123 strings with 17903 characters,
+and the built_in function-call counts, 31126 in all, are:
+= -- 2778
+> -- 890
+< -- 101
++ -- 435
+- -- 209
+* -- 1520
+:= -- 5013
+add.period$ -- 87
+call.type$ -- 44
+change.case$ -- 42
+chr.to.int$ -- 57
+cite$ -- 49
+duplicate$ -- 2473
+empty$ -- 2236
+format.name$ -- 243
+if$ -- 7204
 int.to.chr$ -- 0
-int.to.str$ -- 45
-missing$ -- 237
-newline$ -- 158
-num.names$ -- 45
-pop$ -- 714
+int.to.str$ -- 44
+missing$ -- 478
+newline$ -- 223
+num.names$ -- 43
+pop$ -- 1047
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 2
-skip$ -- 1124
+skip$ -- 2580
 stack$ -- 0
-substring$ -- 108
-swap$ -- 641
-text.length$ -- 2
+substring$ -- 532
+swap$ -- 1986
+text.length$ -- 82
 text.prefix$ -- 0
 top$ -- 5
-type$ -- 45
-warning$ -- 49
-while$ -- 48
-width$ -- 47
-write$ -- 335
-(There were 50 warnings)
+type$ -- 44
+warning$ -- 5
+while$ -- 74
+width$ -- 46
+write$ -- 553
+(There were 13 warnings)
