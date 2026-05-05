@@ -54,15 +54,43 @@ S.~Christiansen, R.~Singh, and U.~Gosele, ``Wafer direct bonding: From advanced 
 \emph{Handbook of Wafer Bonding}.\hskip 1em plus 0.5em minus 0.4em\relax Wiley, Jan. 2012. [Online]. Available: \url{http://dx.doi.org/10.1002/9783527644223}
 \BIBentrySTDinterwordspacing
 
+\bibitem{haisma1994}
+J.~Haisma, G.~A. C.~M. Spierings, U.~K.~P. Biermann, and J.~A. Pals, ``Surface preparation and direct bonding of polymer sheets,'' \emph{Applied Optics}, vol.~33, no.~7, pp. 1154--1169, 1994.
+
 \bibitem{kalk2014}
 \BIBentryALTinterwordspacing
 G.~Kalkowski, S.~Risse, U.~Zeitner, F.~Fuchs, R.~Eberhardt, and A.~T\"{u}nnermann, ``(invited) glass-glass direct bonding,'' \emph{ECS Transactions}, vol.~64, no.~5, p. 3–11, Aug. 2014. [Online]. Available: \url{http://dx.doi.org/10.1149/06405.0003ecst}
 \BIBentrySTDinterwordspacing
 
+\bibitem{meissner2002}
+H.~E. Meissner and S.~H. Meissner, ``Precision optical contact bonding,'' \emph{Proceedings of SPIE}, vol. 4822, pp. 38--47, 2002.
+
 \bibitem{li2013}
 \BIBentryALTinterwordspacing
 D.-l. Li, Z.-g. Shang, S.-q. Wang, and Z.-y. Wen, ``Low temperature si/si wafer direct bonding using a plasma activated method,'' \emph{Journal of Zhejiang University SCIENCE C}, vol.~14, no.~4, p. 244–251, Apr. 2013. [Online]. Available: \url{http://dx.doi.org/10.1631/jzus.C12MNT02}
 \BIBentrySTDinterwordspacing
+
+\bibitem{brueckner1970}
+R.~Br{\"u}ckner, ``Properties and structure of vitreous silica. i,'' \emph{Journal of Non-Crystalline Solids}, vol.~5, no.~2, pp. 123--175, 1970.
+
+\bibitem{malitson1965}
+I.~H. Malitson, ``Interspecimen comparison of the refractive index of fused silica,'' \emph{Journal of the Optical Society of America}, vol.~55, no.~10, pp. 1205--1209, 1965.
+
+\bibitem{schott_borofloat}
+{SCHOTT AG}, ``Borofloat 33 - the versatile floated borosilicate glass with a flat, fire-polished surface,'' Schott Technical Documentation, Tech. Rep., 2023.
+
+\bibitem{carle2023}
+\BIBentryALTinterwordspacing
+C.~Carlé, S.~Keshavarzi, A.~Mursa, P.~Karvinen, R.~Chutani, S.~Bargiel, S.~Queste, R.~Vicarini, P.~Abbé, M.~Abdel~Hafiz, V.~Maurice, R.~Boudot, and N.~Passilly, ``Reduction of helium permeation in microfabricated cells using aluminosilicate glass substrates and al2o3 coatings,'' \emph{Journal of Applied Physics}, vol. 133, no.~21, 2023. [Online]. Available: \url{http://dx.doi.org/10.1063/5.0151899}
+\BIBentrySTDinterwordspacing
+
+\bibitem{dellis2016}
+\BIBentryALTinterwordspacing
+A.~T. Dellis, V.~Shah, E.~A. Donley, S.~Knappe, and J.~Kitching, ``Low helium permeation cells for atomic microsystems technology,'' \emph{Optics Letters}, vol.~41, no.~12, p. 2775, 2016. [Online]. Available: \url{http://dx.doi.org/10.1364/OL.41.002775}
+\BIBentrySTDinterwordspacing
+
+\bibitem{jedamzik2014}
+R.~Jedamzik, T.~Westerhoff, and C.~Kunisch, ``Zerodur - extremely low thermal expansion glass-ceramic for highest precision applications,'' \emph{Journal of the Optical Society of Korea}, vol.~18, no.~6, pp. 754--759, 2014.
 
 \bibitem{du2022}
 \BIBentryALTinterwordspacing
@@ -123,16 +151,6 @@ P.~Birckigt, K.~Grabowski, G.~Leibeling, T.~Fl{\"u}gel-Paul, M.~Heusinger, H.~Ou
 \bibitem{labyt2019}
 \BIBentryALTinterwordspacing
 E.~Labyt, M.-C. Corsi, W.~Fourcault, A.~Palacios~Laloy, F.~Bertrand, F.~Lenouvel, G.~Cauffet, M.~Le~Prado, F.~Berger, and S.~Morales, ``Magnetoencephalography with optically pumped<sup>4</sup>he magnetometers at ambient temperature,'' \emph{IEEE Transactions on Medical Imaging}, vol.~38, no.~1, p. 90–98, Jan. 2019. [Online]. Available: \url{http://dx.doi.org/10.1109/TMI.2018.2856367}
-\BIBentrySTDinterwordspacing
-
-\bibitem{carle2023}
-\BIBentryALTinterwordspacing
-C.~Carlé, S.~Keshavarzi, A.~Mursa, P.~Karvinen, R.~Chutani, S.~Bargiel, S.~Queste, R.~Vicarini, P.~Abbé, M.~Abdel~Hafiz, V.~Maurice, R.~Boudot, and N.~Passilly, ``Reduction of helium permeation in microfabricated cells using aluminosilicate glass substrates and al2o3 coatings,'' \emph{Journal of Applied Physics}, vol. 133, no.~21, 2023. [Online]. Available: \url{http://dx.doi.org/10.1063/5.0151899}
-\BIBentrySTDinterwordspacing
-
-\bibitem{Dellis2016}
-\BIBentryALTinterwordspacing
-A.~T. Dellis, V.~Shah, E.~A. Donley, S.~Knappe, and J.~Kitching, ``Low helium permeation cells for atomic microsystems technology,'' \emph{Optics Letters}, vol.~41, no.~12, p. 2775, 2016. [Online]. Available: \url{http://dx.doi.org/10.1364/OL.41.002775}
 \BIBentrySTDinterwordspacing
 
 \bibitem{pasternak2018}

@@ -32,45 +32,45 @@ Warning--empty journal in suniphd
 Warning--empty journal in wasmer2007
 
 Done.
-You've used 44 entries,
+You've used 50 entries,
             4087 wiz_defined-function locations,
-            1123 strings with 17903 characters,
-and the built_in function-call counts, 31126 in all, are:
-= -- 2778
-> -- 890
-< -- 101
-+ -- 435
-- -- 209
-* -- 1520
-:= -- 5013
-add.period$ -- 87
-call.type$ -- 44
-change.case$ -- 42
-chr.to.int$ -- 57
-cite$ -- 49
-duplicate$ -- 2473
-empty$ -- 2236
-format.name$ -- 243
-if$ -- 7204
+            1157 strings with 18814 characters,
+and the built_in function-call counts, 36079 in all, are:
+= -- 3216
+> -- 983
+< -- 157
++ -- 491
+- -- 221
+* -- 1752
+:= -- 5766
+add.period$ -- 99
+call.type$ -- 50
+change.case$ -- 48
+chr.to.int$ -- 183
+cite$ -- 55
+duplicate$ -- 2818
+empty$ -- 2583
+format.name$ -- 258
+if$ -- 8355
 int.to.chr$ -- 0
-int.to.str$ -- 44
-missing$ -- 478
-newline$ -- 223
-num.names$ -- 43
-pop$ -- 1047
+int.to.str$ -- 50
+missing$ -- 532
+newline$ -- 241
+num.names$ -- 49
+pop$ -- 1143
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 2
-skip$ -- 2580
+skip$ -- 2971
 stack$ -- 0
-substring$ -- 532
-swap$ -- 1986
-text.length$ -- 82
+substring$ -- 832
+swap$ -- 2299
+text.length$ -- 96
 text.prefix$ -- 0
 top$ -- 5
-type$ -- 44
+type$ -- 50
 warning$ -- 5
-while$ -- 74
-width$ -- 46
-write$ -- 553
+while$ -- 100
+width$ -- 52
+write$ -- 616
 (There were 13 warnings)
