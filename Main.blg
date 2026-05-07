@@ -22,57 +22,57 @@ Warning--string name "june" is undefined
 --line 609 of file references.bib
 Warning--string name "july" is undefined
 --line 722 of file references.bib
-Warning--I didn't find a database entry for "CITA"
-Warning--I didn't find a database entry for "possl1998"
 -- IEEEtran.bst version 1.14 (2015/08/26) by Michael Shell.
 -- http://www.michaelshell.org/tex/ieeetran/bibtex/
 -- See the "IEEEtran_bst_HOWTO.pdf" manual for usage information.
 Warning--empty journal in bachman2001
 Warning--missing school in karlen2018
 Warning--empty author and editor in rammhandbook
+Warning--empty booktitle in tuli2012
+Warning--empty booktitle in kern1970
 Warning--empty journal in suniphd
 Warning--empty journal in wasmer2007
 
 Done.
-You've used 54 entries,
+You've used 58 entries,
             4087 wiz_defined-function locations,
-            1184 strings with 19743 characters,
-and the built_in function-call counts, 39057 in all, are:
-= -- 3499
-> -- 1058
-< -- 167
-+ -- 527
-- -- 239
-* -- 1899
-:= -- 6257
-add.period$ -- 107
-call.type$ -- 54
-change.case$ -- 52
+            1204 strings with 20461 characters,
+and the built_in function-call counts, 41358 in all, are:
+= -- 3706
+> -- 1092
+< -- 171
++ -- 543
+- -- 247
+* -- 1994
+:= -- 6631
+add.period$ -- 115
+call.type$ -- 58
+change.case$ -- 55
 chr.to.int$ -- 183
-cite$ -- 59
-duplicate$ -- 3060
-empty$ -- 2789
-format.name$ -- 279
-if$ -- 9047
+cite$ -- 65
+duplicate$ -- 3249
+empty$ -- 3003
+format.name$ -- 289
+if$ -- 9595
 int.to.chr$ -- 0
-int.to.str$ -- 54
-missing$ -- 576
-newline$ -- 261
-num.names$ -- 53
-pop$ -- 1228
+int.to.str$ -- 58
+missing$ -- 606
+newline$ -- 281
+num.names$ -- 57
+pop$ -- 1309
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 2
-skip$ -- 3225
+skip$ -- 3435
 stack$ -- 0
-substring$ -- 878
-swap$ -- 2500
-text.length$ -- 106
+substring$ -- 917
+swap$ -- 2628
+text.length$ -- 110
 text.prefix$ -- 0
 top$ -- 5
-type$ -- 54
-warning$ -- 5
-while$ -- 107
-width$ -- 56
-write$ -- 670
+type$ -- 58
+warning$ -- 7
+while$ -- 113
+width$ -- 60
+write$ -- 715
 (There were 14 warnings)

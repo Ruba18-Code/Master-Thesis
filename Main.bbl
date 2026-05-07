@@ -122,6 +122,26 @@ R.~Jedamzik, T.~Westerhoff, and C.~Kunisch, ``Zerodur - extremely low thermal ex
 C.~Du, Y.~Zhao, and Y.~Li, ``Effect of surface cleaning process on the wafer bonding of silicon and pyrex glass,'' \emph{Journal of Inorganic and Organometallic Polymers and Materials}, vol.~33, no.~3, p. 673–679, Jan. 2023. [Online]. Available: \url{http://dx.doi.org/10.1007/s10904-022-02510-x}
 \BIBentrySTDinterwordspacing
 
+\bibitem{tuli2012}
+\BIBentryALTinterwordspacing
+D.~Tulli, ``Micro-nano structured electro-optic devices in linbo3 for communication and sensing,'' 2012. [Online]. Available: \url{https://api.semanticscholar.org/CorpusID:107036290}
+\BIBentrySTDinterwordspacing
+
+\bibitem{kern1970}
+\BIBentryALTinterwordspacing
+W.~Kern, ``Cleaning solutions based on hydrogen peroxide for use in silicon semiconductor technology,'' 1970. [Online]. Available: \url{https://api.semanticscholar.org/CorpusID:101858490}
+\BIBentrySTDinterwordspacing
+
+\bibitem{kissinger1990}
+\BIBentryALTinterwordspacing
+G.~Kissinger and W.~Kissinger, ``Hydrophilicity of silicon wafers for direct bonding,'' \emph{Physica Status Solidi (a)}, vol. 123, no.~1, p. 185–192, Jan. 1991. [Online]. Available: \url{http://dx.doi.org/10.1002/pssa.2211230117}
+\BIBentrySTDinterwordspacing
+
+\bibitem{menon1989}
+\BIBentryALTinterwordspacing
+V.~B. Menon, L.~D. Michaels, R.~P. Donovan, and D.~S. Ensor, \emph{Ultrasonic and Hydrodynamic Techniques for Particle Removal from Silicon Wafers}.\hskip 1em plus 0.5em minus 0.4em\relax Springer US, 1989, p. 297–306. [Online]. Available: \url{http://dx.doi.org/10.1007/978-1-4613-0531-6_24}
+\BIBentrySTDinterwordspacing
+
 \bibitem{masteika2014}
 \BIBentryALTinterwordspacing
 V.~Masteika, J.~Kowal, N.~S.~J. Braithwaite, and T.~Rogers, ``A review of hydrophilic silicon wafer bonding,'' \emph{ECS Journal of Solid State Science and Technology}, vol.~3, no.~4, p. Q42–Q54, 2014. [Online]. Available: \url{http://dx.doi.org/10.1149/2.007403jss}
@@ -135,6 +155,11 @@ Sumi, ``Phd thesis: Direct wafer bonding for mems and microelectronics,'' 2006.
 M.~Yu, L.~Zhao, Y.~Wang, Y.~Xia, Y.~Ma, Y.~Wang, X.~Han, Y.~Chen, S.~Lu, G.~Luo, N.~Zhu, P.~Yang, K.~Wang, Q.~Lin, and Z.~Jiang, ``Plasma-activated silicon–glass high-strength multistep bonding for low-temperature vacuum packaging,'' \emph{Chemical Engineering Journal}, vol. 471, p. 144719, 2023. [Online]. Available: \url{http://dx.doi.org/10.1016/j.cej.2023.144719}
 \BIBentrySTDinterwordspacing
 
+\bibitem{cho2001}
+\BIBentryALTinterwordspacing
+Y.~Cho and N.~W. Cheung, ``Low temperature si direct bonding by plasma activation,'' \emph{MRS Proceedings}, vol. 657, 2000. [Online]. Available: \url{http://dx.doi.org/10.1557/PROC-657-EE9.2}
+\BIBentrySTDinterwordspacing
+
 \bibitem{neumann2021}
 \BIBentryALTinterwordspacing
 J.~Neumann, S.~Br\"{u}ckner, W.~Vi\"{o}l, and C.~Gerhard, ``Atmospheric pressure dielectric barrier discharge plasma-enhanced optical contact bonding of coated glass surfaces,'' \emph{Applied Sciences}, vol.~11, no.~15, p. 6755, 2021. [Online]. Available: \url{http://dx.doi.org/10.3390/app11156755}
@@ -143,11 +168,6 @@ J.~Neumann, S.~Br\"{u}ckner, W.~Vi\"{o}l, and C.~Gerhard, ``Atmospheric pressure
 \bibitem{eichler2008}
 \BIBentryALTinterwordspacing
 M.~Eichler, B.~Michel, M.~Thomas, M.~Gabriel, and C.-P. Klages, ``Atmospheric-pressure plasma pretreatment for direct bonding of silicon wafers at low temperatures,'' \emph{Surface and Coatings Technology}, vol. 203, no. 5-7, p. 826–829, Dec. 2008. [Online]. Available: \url{http://dx.doi.org/10.1016/j.surfcoat.2008.06.054}
-\BIBentrySTDinterwordspacing
-
-\bibitem{cho2001}
-\BIBentryALTinterwordspacing
-Y.~Cho and N.~W. Cheung, ``Low temperature si direct bonding by plasma activation,'' \emph{MRS Proceedings}, vol. 657, 2000. [Online]. Available: \url{http://dx.doi.org/10.1557/PROC-657-EE9.2}
 \BIBentrySTDinterwordspacing
 
 \bibitem{trinh2022}
