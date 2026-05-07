@@ -20,6 +20,8 @@ Warning--string name "sept" is undefined
 --line 458 of file references.bib
 Warning--string name "june" is undefined
 --line 609 of file references.bib
+Warning--string name "july" is undefined
+--line 722 of file references.bib
 Warning--I didn't find a database entry for "CITA"
 Warning--I didn't find a database entry for "possl1998"
 -- IEEEtran.bst version 1.14 (2015/08/26) by Michael Shell.
@@ -32,45 +34,45 @@ Warning--empty journal in suniphd
 Warning--empty journal in wasmer2007
 
 Done.
-You've used 50 entries,
+You've used 54 entries,
             4087 wiz_defined-function locations,
-            1157 strings with 18814 characters,
-and the built_in function-call counts, 36079 in all, are:
-= -- 3216
-> -- 983
-< -- 157
-+ -- 491
-- -- 221
-* -- 1752
-:= -- 5766
-add.period$ -- 99
-call.type$ -- 50
-change.case$ -- 48
+            1184 strings with 19743 characters,
+and the built_in function-call counts, 39057 in all, are:
+= -- 3499
+> -- 1058
+< -- 167
++ -- 527
+- -- 239
+* -- 1899
+:= -- 6257
+add.period$ -- 107
+call.type$ -- 54
+change.case$ -- 52
 chr.to.int$ -- 183
-cite$ -- 55
-duplicate$ -- 2818
-empty$ -- 2583
-format.name$ -- 258
-if$ -- 8355
+cite$ -- 59
+duplicate$ -- 3060
+empty$ -- 2789
+format.name$ -- 279
+if$ -- 9047
 int.to.chr$ -- 0
-int.to.str$ -- 50
-missing$ -- 532
-newline$ -- 241
-num.names$ -- 49
-pop$ -- 1143
+int.to.str$ -- 54
+missing$ -- 576
+newline$ -- 261
+num.names$ -- 53
+pop$ -- 1228
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 2
-skip$ -- 2971
+skip$ -- 3225
 stack$ -- 0
-substring$ -- 832
-swap$ -- 2299
-text.length$ -- 96
+substring$ -- 878
+swap$ -- 2500
+text.length$ -- 106
 text.prefix$ -- 0
 top$ -- 5
-type$ -- 50
+type$ -- 54
 warning$ -- 5
-while$ -- 100
-width$ -- 52
-write$ -- 616
-(There were 13 warnings)
+while$ -- 107
+width$ -- 56
+write$ -- 670
+(There were 14 warnings)

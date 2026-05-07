@@ -70,14 +70,39 @@ H.~E. Meissner and S.~H. Meissner, ``Precision optical contact bonding,'' \emph{
 D.-l. Li, Z.-g. Shang, S.-q. Wang, and Z.-y. Wen, ``Low temperature si/si wafer direct bonding using a plasma activated method,'' \emph{Journal of Zhejiang University SCIENCE C}, vol.~14, no.~4, p. 244–251, Apr. 2013. [Online]. Available: \url{http://dx.doi.org/10.1631/jzus.C12MNT02}
 \BIBentrySTDinterwordspacing
 
+\bibitem{art2025}
+\BIBentryALTinterwordspacing
+A.~B. Artusio-Glimpse, A.~Meraki, H.~Shillingburg, G.~Lavallee, M.~Liu, C.~Eichfeld, M.~T. Simons, G.~Holland, C.~L. Holloway, V.~A. Aksyuk, and D.~Lopez, ``Wafer-level fabrication of all-dielectric vapor cells enabling optically addressed rydberg atom electrometry,'' 2025. [Online]. Available: \url{https://arxiv.org/abs/2503.15433}
+\BIBentrySTDinterwordspacing
+
 \bibitem{brueckner1970}
 R.~Br{\"u}ckner, ``Properties and structure of vitreous silica. i,'' \emph{Journal of Non-Crystalline Solids}, vol.~5, no.~2, pp. 123--175, 1970.
 
 \bibitem{malitson1965}
 I.~H. Malitson, ``Interspecimen comparison of the refractive index of fused silica,'' \emph{Journal of the Optical Society of America}, vol.~55, no.~10, pp. 1205--1209, 1965.
 
+\bibitem{ye2016}
+\BIBentryALTinterwordspacing
+X.~Ye, J.~Huang, H.~Liu, F.~Geng, L.~Sun, X.~Jiang, W.~Wu, L.~Qiao, X.~Zu, and W.~Zheng, ``Advanced mitigation process (amp) for improving laser damage threshold of fused silica optics,'' \emph{Scientific Reports}, vol.~6, no.~1, Aug. 2016. [Online]. Available: \url{http://dx.doi.org/10.1038/srep31111}
+\BIBentrySTDinterwordspacing
+
 \bibitem{schott_borofloat}
 {SCHOTT AG}, ``Borofloat 33 - the versatile floated borosilicate glass with a flat, fire-polished surface,'' Schott Technical Documentation, Tech. Rep., 2023.
+
+\bibitem{possl1999}
+\BIBentryALTinterwordspacing
+A.~Pl\"{o}ßl, ``Wafer direct bonding: tailoring adhesion between brittle materials,'' \emph{Materials Science and Engineering: R: Reports}, vol.~25, no. 1-2, p. 1–88, Mar. 1999. [Online]. Available: \url{http://dx.doi.org/10.1016/S0927-796X(98)00017-5}
+\BIBentrySTDinterwordspacing
+
+\bibitem{okada1984}
+\BIBentryALTinterwordspacing
+Y.~Okada and Y.~Tokumaru, ``Precise determination of lattice parameter and thermal expansion coefficient of silicon between 300 and 1500 k,'' \emph{Journal of Applied Physics}, vol.~56, no.~2, p. 314–320, 1984. [Online]. Available: \url{http://dx.doi.org/10.1063/1.333965}
+\BIBentrySTDinterwordspacing
+
+\bibitem{yang2023}
+\BIBentryALTinterwordspacing
+P.~Yang, Y.~Wang, X.~Li, T.~Han, and X.~Shi, ``Effect of physical tempering on the mechanical properties of aluminosilicate glass,'' \emph{Journal of Non-Crystalline Solids}, vol. 619, p. 122574, Nov. 2023. [Online]. Available: \url{http://dx.doi.org/10.1016/j.jnoncrysol.2023.122574}
+\BIBentrySTDinterwordspacing
 
 \bibitem{carle2023}
 \BIBentryALTinterwordspacing
@@ -216,11 +241,6 @@ M.~Shi, T.~Wang, Y.~Liu, and X.~Wang, ``Broadening and shifting of rb d1 and d2 
 \bibitem{maurice2022}
 \BIBentryALTinterwordspacing
 V.~Maurice, C.~Carle, S.~Keshavarzi, R.~Chutani, S.~Queste, L.~Gauthier-Manuel, J.-M. Cote, R.~Vicarini, M.~Abdel~Hafiz, R.~Boudot, and N.~Passilly, ``Wafer-level vapor cells filled with laser-actuated hermetic seals for integrated atomic devices,'' \emph{Microsystems amp; Nanoengineering}, vol.~8, no.~1, 2022. [Online]. Available: \url{http://dx.doi.org/10.1038/s41378-022-00468-x}
-\BIBentrySTDinterwordspacing
-
-\bibitem{art2025}
-\BIBentryALTinterwordspacing
-A.~B. Artusio-Glimpse, A.~Meraki, H.~Shillingburg, G.~Lavallee, M.~Liu, C.~Eichfeld, M.~T. Simons, G.~Holland, C.~L. Holloway, V.~A. Aksyuk, and D.~Lopez, ``Wafer-level fabrication of all-dielectric vapor cells enabling optically addressed rydberg atom electrometry,'' 2025. [Online]. Available: \url{https://arxiv.org/abs/2503.15433}
 \BIBentrySTDinterwordspacing
 
 \bibitem{kobtsev2019}

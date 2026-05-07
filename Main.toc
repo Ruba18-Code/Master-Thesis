@@ -14,11 +14,11 @@
 \contentsline {paragraph}{\nonumberline Other Optical Glasses}{vi}{paragraph*.7}%
 \contentsline {paragraph}{\nonumberline Surface Quality Requirements}{vii}{paragraph*.9}%
 \contentsline {subsubsection}{\numberline {3.2.2}Chemical Treatment}{vii}{subsubsection.0.3.2.2}%
-\contentsline {subsubsection}{\numberline {3.2.3}Plasma Treatment}{viii}{subsubsection.0.3.2.3}%
+\contentsline {subsubsection}{\numberline {3.2.3}Plasma Treatment}{ix}{subsubsection.0.3.2.3}%
 \contentsline {subsubsection}{\numberline {3.2.4}Thermal Treatment}{x}{subsubsection.0.3.2.4}%
 \contentsline {subsubsection}{\numberline {3.2.5}Pressure Treatment}{xi}{subsubsection.0.3.2.5}%
-\contentsline {subsubsection}{\numberline {3.2.6}Step-by-Step Experimental Procedure}{xii}{subsubsection.0.3.2.6}%
-\contentsline {subsection}{\numberline {3.3}Femtosecond Laser Micromachining}{xii}{subsection.0.3.3}%
+\contentsline {subsubsection}{\numberline {3.2.6}Step-by-Step Experimental Procedure}{xiii}{subsubsection.0.3.2.6}%
+\contentsline {subsection}{\numberline {3.3}Femtosecond Laser Micromachining}{xiii}{subsection.0.3.3}%
 \contentsline {subsection}{\numberline {3.4}Post-Treatment}{xiv}{subsection.0.3.4}%
 \contentsline {subsubsection}{\numberline {3.4.1}Enhanced Helium Hermeticity}{xiv}{subsubsection.0.3.4.1}%
 \contentsline {subsubsection}{\numberline {3.4.2}Activation}{xv}{subsubsection.0.3.4.2}%
