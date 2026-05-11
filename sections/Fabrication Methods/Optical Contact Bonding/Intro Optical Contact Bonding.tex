@@ -1,109 +1,141 @@
-\subsection{Optical Contact Bonding}
-Optical contact bonding is a glueless process whereby two closely conformal 
-surfaces are joined, being held purely by intermolecular forces \cite{rammhandbook}. 
-\\\\
-Generally, intermolecular forces are not strong enough to create
-a robust bond between two substrates. However, if the surfaces to be bound
-are conformal with nanometric precision, a sufficient surface area is in close 
-enough contact ---also known as \textit{intimate contact}--- for the intermolecular
-interactions to have an observable macroscopic effect \cite{haisma1994}.
-\\\\
-In practice, this means 
-that, in order to bond two glass surfaces together (e.g. two disks to create a wafer),
-they must meet very strict roughness and waviness requirements \cite{rammhandbook}. 
-In literature, bonding energies 
-equivalent to the bond density within the bulk material (\SI{2.5}{\joule\per\meter\squared})
-have been achieved \cite{kalk2014}. 
-To obtain such strong bonds,
-special treatments are often applied to the substrates, in order to ensure
-surfaces are very clean and ready to form intermolecular
-bonds between them. To do so, many chemical, plasma, pressure and thermal
-treatments have proven to be effective \cite{rammhandbook, meissner2002}.
-\\\\
-Since Optical Contact Bonding does not require any adhesive, and low-temperature
-methods have been developed during the last decades \cite{li2013}, it is a promising bonding
-procedure for glass-based atomic sensors \cite{art2025}. 
+\section{Optical Contact Bonding}
 
-\subsubsection{Types of Glasses \& Quality Requirements}
+Optical contact bonding is a glueless joining process in which two closely 
+conformal surfaces adhere purely through intermolecular forces, without the 
+need for adhesives or intermediate layers \cite{rammhandbook}. 
+This property makes it particularly attractive for Laser Written Vapor Cells 
+(LWVCs) and other glass-based atomic sensors, where outgassing from adhesives, 
+thermal incompatibility, or optical absorption at the bond interface can 
+compromise device performance \cite{art2025}.
+\\\\
+Intermolecular forces are, in isolation, insufficient to create a robust bond 
+between two substrates. However, when mating surfaces conform to each other 
+with nanometric precision, the resulting \textit{intimate contact} over a 
+sufficiently large area produces intermolecular interactions with a measurable 
+macroscopic effect \cite{haisma1994}. In practice, this imposes strict 
+roughness and waviness requirements on both surfaces \cite{rammhandbook}. 
+When these requirements are met and appropriate surface treatments are applied, 
+bonding energies comparable to that of the bulk material 
+(\SI{2.5}{\joule\per\meter\squared}) can be achieved \cite{kalk2014}.
+\\\\
+Achieving such bond strengths requires a carefully sequenced preparation 
+protocol. The following sections describe the key elements of this protocol: 
+material selection and surface quality requirements, chemical treatment, plasma 
+treatment, annealing and mechanical pressure assistance. Each step builds on the previous 
+one; together, they determine the final bond quality and make optical contact 
+bonding a viable low-temperature process for LWVC fabrication \cite{li2013}.
+
+% -----------------------------------------------------------------------
+\subsection{Types of Glasses \& Quality Requirements}
+
 The success of optical contact bonding critically depends on both the material 
 properties of the glass substrates and their surface quality. Different glass 
 types exhibit distinct chemical compositions, thermal characteristics, and 
 mechanical behaviors that directly influence bonding performance. This section 
-examines the most commonly employed glasses in optical contact bonding applications 
-and establishes the stringent quality requirements necessary for achieving robust, 
-void-free bonds.
+examines the most commonly employed glasses and establishes the surface quality 
+requirements necessary for achieving robust, void-free bonds.
 
 \paragraph{Fused Silica and Quartz}
-Fused silica ($\mathrm{SiO_2}$, amorphous) and quartz ($\mathrm{SiO_2}$, crystalline) 
-represent the gold standard for optical contact bonding. According to the 
-comprehensive characterization by Brückner \cite{brueckner1970}, these materials 
-offer several key advantages:
+Fused silica ($\mathrm{SiO_2}$, amorphous) and quartz ($\mathrm{SiO_2}$, 
+crystalline) represent the gold standard for optical contact bonding. 
+As characterized by Brückner \cite{brueckner1970}, these materials offer 
+several key advantages:
 
 \begin{itemize}
 \item \textbf{High purity and homogeneity:} Ultra-high purity grades 
-    ($>$99.99\% $\mathrm{SiO_2}$) minimize contamination and ensure uniform bonding 
-    behavior across the interface.
+    ($>$99.99\% $\mathrm{SiO_2}$) minimize contamination and ensure uniform 
+    bonding behavior across the interface.
 \item \textbf{Low thermal expansion coefficient:} With a CTE of approximately 
-    \SI{0.5e-6}{\per\kelvin}, fused silica exhibits minimal dimensional changes, 
-    thereby reducing thermal stress at the interface.
+    \SI{0.5e-6}{\per\kelvin}, fused silica undergoes minimal dimensional 
+    changes, thereby reducing thermal stress at the interface.
 \item \textbf{Excellent optical transmission:} High transparency from UV to IR 
-    wavelengths (\SI{200}{\nano\meter} to \SI{2500}{\nano\meter}) \cite{malitson1965}.
+    wavelengths (\SI{200}{\nano\meter} to \SI{2500}{\nano\meter}) 
+    \cite{malitson1965}.
 \item \textbf{Chemical inertness:} Resistance to most acids and organic solvents 
-    allows for aggressive cleaning treatments without substrate degradation.
+    permits aggressive cleaning treatments without substrate degradation.
 \item \textbf{High damage threshold:} Superior resistance to laser-induced damage 
     makes these materials suitable for high-power systems \cite{ye2016}.
 \end{itemize}
+
 The primary distinction between fused silica and quartz lies in their structural 
-organization: fused silica is amorphous and isotropic, while quartz is crystalline 
-and exhibits optical anisotropy \cite{brueckner1970}. For most bonding applications, synthetic fused 
-silica is preferred due to its isotropic 
-properties and exceptional surface quality achievable through polishing \cite{meissner2002}.
+organization: fused silica is amorphous and isotropic, while quartz is 
+crystalline and exhibits optical anisotropy \cite{brueckner1970}. For most 
+bonding applications---and in particular for LWVCs---synthetic fused silica is 
+preferred due to its isotropic properties and the exceptional surface quality 
+achievable through polishing \cite{meissner2002}.
 
 \paragraph{Borosilicate Glasses}
-Borosilicate glasses, particularly Borofloat 33 (81\% $\mathrm{SiO_2}$, 13\% $\mathrm{B_2O_3}$, 
+Borosilicate glasses, particularly Borofloat 33 
+(81\% $\mathrm{SiO_2}$, 13\% $\mathrm{B_2O_3}$, 
 4\% $\mathrm{Na_2O/K_2O}$, 2\% $\mathrm{Al_2O_3}$), have gained widespread 
-adoption in MEMS fabrication and vacuum cell manufacturing \cite{schott_borofloat,possl1999}. These glasses offer:
+adoption in MEMS fabrication and vacuum cell manufacturing 
+\cite{schott_borofloat, possl1999}:
+
 \begin{itemize}
-\item \textbf{Moderate thermal expansion:} CTE of approximately 
-    \SI{3.25e-6}{\per\kelvin} \cite{okada1984}, which is compatible with silicon 
-    (\SI{2.6e-6}{\per\kelvin}), making them suitable for glass-to-silicon bonding \cite{gosele2006}.
-\item \textbf{Good chemical resistance:} Adequate resistance to chemical treatments, 
-    though less robust than fused silica \cite{schott_borofloat}.
-\item \textbf{Cost-effectiveness:} Significantly lower cost compared to fused silica 
-    while maintaining sufficient optical quality for many applications.
+\item \textbf{Moderate thermal expansion:} A CTE of approximately 
+    \SI{3.25e-6}{\per\kelvin} \cite{okada1984} is compatible with silicon 
+    (\SI{2.6e-6}{\per\kelvin}), making this glass suitable for glass-to-silicon 
+    bonding \cite{gosele2006}.
+\item \textbf{Good chemical resistance:} Adequate resistance to standard cleaning 
+    treatments, though less robust than fused silica \cite{schott_borofloat}.
+\item \textbf{Cost-effectiveness:} Significantly lower cost compared to fused 
+    silica while maintaining sufficient optical quality for many applications.
 \item \textbf{Commercial availability:} Readily available in wafer formats with 
     polished surfaces meeting bonding requirements.
 \end{itemize}
 
 \paragraph{Other Optical Glasses}
-Several specialized glass families are employed in niche applications:
-\begin{itemize}
-\item \textbf{Aluminosilicate glasses:} Higher mechanical strength and improved 
-    thermal shock resistance compared to standard borosilicates \cite{yang2023}. Lower leak rates
-    for some gasses like Helium \cite{carle2023, dellis2016}.
-\item \textbf{Low-expansion glasses:} Featuring CTE values near zero, such as Zerodur, are essential for 
-    applications requiring extreme dimensional stability (e.g., space telescopes, 
-    lithography systems) \cite{jedamzik2014}.
-\end{itemize}
+Several specialized glass families address niche requirements. 
+Aluminosilicate glasses offer higher mechanical strength, improved thermal 
+shock resistance \cite{yang2023}, and lower permeation rates for certain 
+gases---such as helium---which is particularly relevant for LWVC hermeticity 
+\cite{carle2023, dellis2016}. Ultra-low-expansion glasses such as Zerodur, 
+with CTE values near zero, are indispensable in applications demanding extreme 
+dimensional stability, including space telescopes and lithography systems 
+\cite{jedamzik2014}.
+
 \paragraph{Surface Quality Requirements}
-Achieving successful optical contact bonding demands exceptionally high surface 
-quality across multiple metrics \cite{gosele2006,possl1999}. The following parameters are critical:
+Table~\ref{tab:surface_requirements} summarizes the surface quality 
+parameters critical for successful optical contact bonding 
+\cite{gosele2006, possl1999}. The three most important metrics are:
+
 \begin{enumerate}
-\item \textbf{Surface Roughness:} Root mean square (RMS) roughness must typically 
-    be below \SI{0.5}{\nano\meter}, with peak-to-valley roughness less than 
-    \SI{2}{\nano\meter} over the bonding area \cite{gosele2006}. 
-    This ensures sufficient intimate 
-    contact for intermolecular forces to dominate. 
-\item \textbf{Flatness and Waviness:} Total thickness variation (TTV) should be 
-    maintained below \SI{1}{\micro\meter} for \SI{100}{\milli\meter} diameter 
-    wafers. Surface flatness, typically specified as peak-to-valley deviation over 
-    the clear aperture, must be better than $\lambda$/10 (approximately 
-    \SI{60}{\nano\meter} at \SI{633}{\nano\meter}) for precision optical 
-    applications. Longer spatial wavelength deviations (waviness) are particularly 
-    detrimental as they cannot be accommodated by surface deformation during bonding \cite{kalk2014}.
-\item \textbf{Particulate Contamination:} The bonding environment must maintain 
-    cleanroom conditions (Class 100 or better, ISO 5), as even sub-micron particles 
-    can create localized voids that propagate across the interface. Particle counts 
-    on the surface should be minimized, with particular attention to particles 
-    larger than \SI{0.1}{\micro\meter} \cite{du2022}.
+\item \textbf{Surface Roughness:} RMS roughness below \SI{0.5}{\nano\meter} 
+    and peak-to-valley roughness below \SI{2}{\nano\meter} over the bonding 
+    area \cite{gosele2006} are required to ensure intimate contact and allow 
+    intermolecular forces to dominate.
+    
+\item \textbf{Flatness and Waviness:} Total thickness variation (TTV) must 
+    remain below \SI{1}{\micro\meter} for \SI{100}{\milli\meter} diameter 
+    wafers. Surface flatness must be better than $\lambda$/10 
+    (approximately \SI{60}{\nano\meter} at \SI{633}{\nano\meter}) for 
+    precision optical applications. Long-spatial-wavelength deviations 
+    (waviness) are particularly detrimental because, unlike short-scale 
+    roughness, they cannot be accommodated by elastic surface deformation 
+    during bonding \cite{kalk2014}.
+    
+\item \textbf{Particulate Contamination:} Bonding must be performed under 
+    cleanroom conditions (Class 100 or better, ISO 5). Even sub-micron 
+    particles can nucleate localized voids that propagate across the 
+    interface; surface particle counts must therefore be minimized, 
+    with particular attention to particles larger than 
+    \SI{0.1}{\micro\meter} \cite{du2022}.
 \end{enumerate}
+
+\begin{table}[h]
+\centering
+\caption{Surface quality requirements for optical contact bonding.}
+\label{tab:surface_requirements}
+\begin{tabular}{lll}
+\hline
+\textbf{Parameter} & \textbf{Requirement} & \textbf{Reference} \\
+\hline
+RMS roughness & $<$ \SI{0.5}{\nano\meter} & \cite{gosele2006} \\
+Peak-to-valley roughness & $<$ \SI{2}{\nano\meter} & \cite{gosele2006} \\
+TTV (\SI{100}{\milli\meter} wafer) & $<$ \SI{1}{\micro\meter} & \cite{gosele2006} \\
+Flatness (clear aperture) & $< \lambda/10 \approx$ \SI{60}{\nano\meter} & \cite{kalk2014} \\
+Min. particle size & $<$ \SI{0.1}{\micro\meter} & \cite{du2022} \\
+Cleanroom class & ISO 5 (Class 100) & \cite{du2022} \\
+\hline
+\end{tabular}
+\end{table}

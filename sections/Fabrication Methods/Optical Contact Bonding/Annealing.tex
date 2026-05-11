@@ -1,52 +1,56 @@
+\subsection{Thermal Treatment}
+\label{sec:thermal}
 
-\subsubsection{Thermal Treatment}
-When two sufficiently flat and smooth glass surfaces are brought into contact,
-the direct bonding process initiates. One of the first mechanisms to occur is
-the formation of hydrogen bonds \cite{kissinger1990}. These bonds can subsequently be transformed
-into stronger covalent bonds, as described by the following chemical reaction:
+When two sufficiently flat and clean glass surfaces are brought into contact, 
+the bonding process initiates through the formation of hydrogen bonds between 
+opposing silanol groups \cite{kissinger1990}. These bonds can subsequently be 
+converted into permanent covalent siloxane bonds via the condensation reaction:
 \begin{equation}
-\mathrm{Si-OH + HO-Si} \rightleftharpoons \mathrm{Si-O-Si + H_2O}.
-\label{eq:polimer siloxane}
+\mathrm{Si\text{-}OH + HO\text{-}Si} \rightleftharpoons 
+\mathrm{Si\text{-}O\text{-}Si + H_2O}.
+\label{eq:siloxane}
 \end{equation}
-To achieve permanent covalent bonding, water must be removed from the interface,
-rendering the aforementioned reaction irreversible \cite{rammhandbook}. This is
-accomplished through a thermal treatment known as \textit{annealing}.
+For this reaction to proceed irreversibly, water must be removed from the 
+interface \cite{rammhandbook}. This is accomplished through \textit{annealing}: 
+baking the bonded assembly in a controlled thermal environment. The three 
+parameters governing the outcome are the temperature ramp, the equilibrium 
+temperature, and the annealing time.
 \\\\
-Annealing involves baking the bonded components in a controlled environment. The
-primary parameters influencing the outcome are the temperature ramp, the
-equilibrium temperature, and the annealing time. 
+The \textit{temperature ramp} (heating rate) must be kept as low as possible. 
+Rapid temperature increases induce differential thermal stresses in the glass 
+substrates that can compromise mechanical and optical performance, or cause 
+fracture at the bond interface.
 \\\\
-The \textit{temperature ramp} refers to the heating rate within the oven.
-This gradient should be kept as low as possible, as rapid temperature increases
-can induce thermal stress in the glass substrates. Such stress may compromise
-mechanical and optical performance, or even result in substrate fracture. 
+The \textit{equilibrium temperature} controls water diffusivity at the 
+interface: higher temperatures accelerate moisture removal and promote viscous 
+flow, which increases surface conformity \cite{rammhandbook}. However, elevated 
+temperatures are incompatible with precision devices that incorporate optical 
+coatings, pre-structured channels, or integrated electronics \cite{li2013}. 
+In such cases---including LWVCs, where laser-written microstructures must be 
+preserved---plasma activation is essential, as it raises surface energy and 
+water diffusivity sufficiently to achieve strong bonds at temperatures as low 
+as \SI{100}{\celsius} \cite{cho2001}. This approach is referred to as 
+\textit{Low-Temperature Direct Bonding}.
 \\\\
-Regarding \textit{equilibrium temperatures}, higher values facilitate greater
-water diffusivity, thereby removing moisture from the interface more rapidly.
-Furthermore, increased viscous flow enhances surface contact \cite{rammhandbook}.
-However, high temperatures are often unsuitable for precision optics,
-as they may damage optical coatings or integrated electronics \cite{li2013}. 
-In such cases, plasma activation is essential, as it increases surface energy
-and water diffusivity at significantly lower temperatures \cite{cho2001}. 
-This approach is referred to as \textit{Low-Temperature Direct Bonding}.
-\\\\
-Concerning \textit{annealing times}, literature indicates that bonding energy
-increases monotonically over time, whether through a dedicated annealing process
-or by leaving surfaces in contact at room temperature. The relationship between
-bonding energy and time follows a logarithmic trend \cite{cho2001}:
+Regarding \textit{annealing time}, bond energy increases monotonically 
+following a logarithmic trend, whether through dedicated annealing or through 
+prolonged room-temperature contact \cite{cho2001}:
 \begin{equation}
-\gamma \propto \ln\left(\frac{t}{\mu}\right),
+\gamma \propto \ln\!\left(\frac{t}{\mu}\right),
 \end{equation}
-where $t$ is the annealing time and $\mu$ represents a time constant.
-The role of annealing is effectively to decrease this $\mu$ constant, 
-allowing maximum bonding energy to be
-reached much faster. Typical annealing times for optical applications 
-range from 2 to 24 hours \cite{cho2001, yu2023, li2013, possl1999,trinh2022}.
-An example of how the bonding energy evolves with time can be seen in Figure 
-\ref{fig:annealing_time}.
+where $t$ is the annealing time and $\mu$ is a temperature-dependent time 
+constant. Annealing effectively reduces $\mu$, allowing maximum bond energy 
+to be reached orders of magnitude faster than at room temperature. Typical 
+annealing durations for optical applications range from 2 to 24 hours 
+\cite{cho2001, yu2023, li2013, possl1999, trinh2022}, as illustrated in 
+Figure~\ref{fig:annealing_time}.
+
 \begin{figure}[h]
 \centering
 \includegraphics[width=0.8\linewidth]{Images/annealing_time.png}
-\caption{Bonding energy evolution with time. From \cite{cho2001}}
+\caption{Evolution of bonding energy with annealing time. Bond strength 
+    follows a logarithmic growth law; annealing reduces the characteristic 
+    time constant $\mu$, accelerating convergence toward the bulk fracture 
+    energy. From \cite{cho2001}.}
 \label{fig:annealing_time}
-\end{figure}   
+\end{figure}

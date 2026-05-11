@@ -1,15 +1,11 @@
 \documentclass[11pt,english,a4paper,hidelinks]{book}
 
-%% Fuentes (antes del preambulo para evitar conflictos)
 \usepackage{fontspec}
 \defaultfontfeatures{Ligatures=TeX}
 \setmainfont{TeX Gyre Termes}
 
 \input{preambulo}
 
-%% -------------------------------------------------------
-%% Paquetes adicionales no incluidos en el preambulo
-%% -------------------------------------------------------
 \usepackage{amsmath, amssymb}
 \usepackage{listings}
 \usepackage{multirow}
@@ -25,26 +21,6 @@
 \usepackage{epigraph}
 \usepackage{placeins}
 \usepackage{lineno}
-
-%% Estilo para código Python
-\lstdefinestyle{mypythonstyle}{
-    language=Python,
-    basicstyle=\ttfamily\small,
-    keywordstyle=\color{blue},
-    stringstyle=\color{red!60!black},
-    commentstyle=\color{green!60!black},
-    numbers=left,
-    numberstyle=\tiny\color{gray},
-    frame=single,
-    breaklines=true,
-    showstringspaces=false,
-    tabsize=4
-}
-
-%% Espaciado entre floats
-\setlength{\textfloatsep}{10pt}
-\setlength{\floatsep}{10pt}
-\setlength{\intextsep}{10pt}
 
 %% -------------------------------------------------------
 %% Datos del TFM
@@ -178,12 +154,26 @@ FLICE Process; Low-Temperature Bonding
 
 \newpage
 \thispagestyle{empty}
-\ \\
+\mbox{} % Crea un elemento invisible para que los \vfill funcionen
 \vfill
+
 \begin{flushright}
-A mis padres.
+\begin{minipage}{0.7\textwidth} % Limita el ancho para que no ocupe toda la línea
+    \itshape
+    "¡Bien, riámonos porque Don Quijote toma a los molinos por gigantes! 
+    ¡Bien, Don Quijote no debió ver un gigante donde había un molino! 
+    Pero, ¿por qué el hombre sabe de gigantes? ¿Dónde hay o ha habido gigantes? 
+    Mas, si no los hay ni los ha habido, resulta que no Don Quijote, sino el hombre, 
+    la especie humana en algún momento de su historia descubrió un gigante donde no lo había".
+    
+    \medskip
+    \raggedleft \normalfont -- \textbf{Antonio Machado}, \textit{Juan de Mairena}.
+\end{minipage}
 \end{flushright}
-\vfill\vfill
+
+\vfill
+\vfill % Doble vfill abajo para que la cita quede ligeramente por encima del centro visual
+\newpage
 
 %% -------------------------------------------------------
 %% ÍNDICES
@@ -217,7 +207,7 @@ A mis padres.
 %% MEMORIA PRINCIPAL
 %% -------------------------------------------------------
 
-\part{Memoria}
+\part{Thesis}
 
 \chapter{Introduction \& Motivation}
 % Sensors + MEMs + LWVCs + Alkali Gas + Why this technology is better
@@ -248,12 +238,10 @@ A mis padres.
 \chapter{Experiments \& Applications}
 \input{sections/Experiments and Applications/Train Application.tex}
 \input{sections/Experiments and Applications/Atomic Clocks.tex}
-\input{sections/Experiments and Applications/Space Application.tex}
 \input{sections/Experiments and Applications/Magnetoencephalography.tex}
 \input{sections/Experiments and Applications/Magnetometry Experiment 1.tex}
 
 \chapter{Conclusions}
-
 %% -------------------------------------------------------
 %% BIBLIOGRAFÍA
 %% -------------------------------------------------------
@@ -266,10 +254,10 @@ A mis padres.
 %% ANEXOS
 %% -------------------------------------------------------
 
-\part{Anexos}
+\part{Annex}
 \def\thechapter{\Alph{chapter}}
 \makeatletter
-\renewcommand{\@chapapp}{Apéndice}
+\renewcommand{\@chapapp}{Appendix}
 \makeatother
 
 \chapter{Recipes in Literature}

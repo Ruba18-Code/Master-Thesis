@@ -14,6 +14,30 @@
 \usepackage{amsfonts}
 \usepackage{ifthen}
 \usepackage{tabularx}
+\usepackage{titlesec}
+\usepackage{amsmath, amssymb}
+\usepackage{listings}
+\usepackage{multirow}
+\usepackage{pdflscape}
+\usepackage{enumerate}
+\usepackage{physics}
+\usepackage{subcaption}
+\usepackage{dsfont}
+\usepackage{slashed}
+\usepackage{textcomp}
+\usepackage{siunitx}
+\usepackage{float}
+\usepackage{epigraph}
+\usepackage{placeins}
+\usepackage{lineno}
+\titleformat{\section}
+  {\normalfont\large\bfseries}{\thesection}{1em}{}
+
+\titleformat{\subsection}
+  {\normalfont\normalsize\bfseries}{\thesubsection}{1em}{}
+
+\titleformat{\subsubsection}
+  {\normalfont\normalsize\itshape}{\thesubsubsection}{1em}{}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \usepackage[nonumberlist,automake]{glossaries}
 % Generate the glossary 
@@ -24,8 +48,8 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \setlength{\parskip}{6pt}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\setcounter{tocdepth}{4}
-\setcounter{secnumdepth}{4}
+\setcounter{tocdepth}{3}
+\setcounter{secnumdepth}{3}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \usepackage[
   inner	=	3.0cm, % Margen interior
@@ -37,10 +61,10 @@
 %\renewcommand{\baselinestretch}{1.0}
 \usepackage{xcolor}
 \usepackage{sectsty}
-\chapterfont{\color{azul}}  % sets colour of chapters
-\sectionfont{\color{azul}}  % sets colour of sections
-\subsectionfont{\color{azul}}  % sets colour of sections
-\subsubsectionfont{\color{azul}}  % sets colour of sections
+\chapterfont{\color{azul}\Large}  % sets colour of chapters
+\sectionfont{\color{azul}\large}  % sets colour of sections
+\subsectionfont{\color{azul}\normalsize}  % sets colour of sections
+\subsubsectionfont{\color{azul}\normalsize}  % sets colour of sections
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \usepackage[style=numeric,sorting=none]{biblatex}
 \addbibresource{referencias.bib}
@@ -56,7 +80,7 @@
     \addcontentsline{toc}{chapter}{#1}}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\usepackage[spanish]{babel}
+\usepackage[english]{babel}
 %\usepackage[spanish]{polyglossia}
 %\setdefaultlanguage{spanish}
 

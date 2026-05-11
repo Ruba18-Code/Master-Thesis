@@ -139,8 +139,8 @@
       \strng{authorbibnamehash}{eb6d80b8d6ac0e4af512406c36e6cb39}
       \strng{authornamehash}{eb6d80b8d6ac0e4af512406c36e6cb39}
       \strng{authorfullhash}{eb6d80b8d6ac0e4af512406c36e6cb39}
-      \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{title}{Controlling Stress in Bonded Optics}
@@ -160,8 +160,8 @@
       \strng{authorbibnamehash}{4d375e6a14705be231ca16ed141e554c}
       \strng{authornamehash}{4d375e6a14705be231ca16ed141e554c}
       \strng{authorfullhash}{4d375e6a14705be231ca16ed141e554c}
-      \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{month}{12}
@@ -242,8 +242,8 @@
       \strng{authornamehash}{26b46b52c245f8ff92d073bd08ae123d}
       \strng{authorfullhash}{3e7b8dc9c2510bc5c7260d55c3c2927c}
       \field{extraname}{1}
-      \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{issn}{2468-5194}
@@ -291,8 +291,8 @@
       \strng{authorbibnamehash}{e09a84e63802acecf7737d22ab8ca5c1}
       \strng{authornamehash}{e09a84e63802acecf7737d22ab8ca5c1}
       \strng{authorfullhash}{e09a84e63802acecf7737d22ab8ca5c1}
-      \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{issn}{1558-2256}
@@ -334,90 +334,6 @@
       \verb{url}
       \verb http://dx.doi.org/10.1002/9783527644223
       \endverb
-    \endentry
-    \entry{art2025}{misc}{}
-      \name{author}{11}{}{%
-        {{hash=293c5ad57f603233155df81fa2049f95}{%
-           family={Artusio-Glimpse},
-           familyi={A\bibinithyphendelim G\bibinitperiod},
-           given={Alexandra\bibnamedelima B.},
-           giveni={A\bibinitperiod\bibinitdelim B\bibinitperiod}}}%
-        {{hash=f7aabe60116173b6a27814c93281ee4e}{%
-           family={Meraki},
-           familyi={M\bibinitperiod},
-           given={Adil},
-           giveni={A\bibinitperiod}}}%
-        {{hash=8b243d42bca8980f7504f24aefbd8abd}{%
-           family={Shillingburg},
-           familyi={S\bibinitperiod},
-           given={Hunter},
-           giveni={H\bibinitperiod}}}%
-        {{hash=5cb41c37e1a9480dfe77b2c00f4edcdd}{%
-           family={Lavallee},
-           familyi={L\bibinitperiod},
-           given={Guy},
-           giveni={G\bibinitperiod}}}%
-        {{hash=0474cc7d2cd3785ad22074a7b4abeb8b}{%
-           family={Liu},
-           familyi={L\bibinitperiod},
-           given={Miao},
-           giveni={M\bibinitperiod}}}%
-        {{hash=51e4b0a499993d7a6c12df19806e0b39}{%
-           family={Eichfeld},
-           familyi={E\bibinitperiod},
-           given={Chad},
-           giveni={C\bibinitperiod}}}%
-        {{hash=3e91c9da0703af1539398a499d74c6ce}{%
-           family={Simons},
-           familyi={S\bibinitperiod},
-           given={Matthew\bibnamedelima T.},
-           giveni={M\bibinitperiod\bibinitdelim T\bibinitperiod}}}%
-        {{hash=566867be9aa8a282c3af81357fc0e4c5}{%
-           family={Holland},
-           familyi={H\bibinitperiod},
-           given={Glenn},
-           giveni={G\bibinitperiod}}}%
-        {{hash=304d73388ceda18c3b9c0f15aa4d917c}{%
-           family={Holloway},
-           familyi={H\bibinitperiod},
-           given={Christopher\bibnamedelima L.},
-           giveni={C\bibinitperiod\bibinitdelim L\bibinitperiod}}}%
-        {{hash=f8ad70b6d8c682bde6bb4f9715c1ce0f}{%
-           family={Aksyuk},
-           familyi={A\bibinitperiod},
-           given={Vladimir\bibnamedelima A.},
-           giveni={V\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
-        {{hash=cbedce6f51b8ff8d9759739ad19b53a8}{%
-           family={Lopez},
-           familyi={L\bibinitperiod},
-           given={Daniel},
-           giveni={D\bibinitperiod}}}%
-      }
-      \list{publisher}{1}{%
-        {arXiv}%
-      }
-      \strng{namehash}{20ea976a687d61e0ece265a38c1dce3d}
-      \strng{fullhash}{1309abdc6972a80c070415d6b23ee3c1}
-      \strng{bibnamehash}{20ea976a687d61e0ece265a38c1dce3d}
-      \strng{authorbibnamehash}{20ea976a687d61e0ece265a38c1dce3d}
-      \strng{authornamehash}{20ea976a687d61e0ece265a38c1dce3d}
-      \strng{authorfullhash}{1309abdc6972a80c070415d6b23ee3c1}
-      \field{sortinit}{2}
-      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{title}{Wafer-level fabrication of all-dielectric vapor cells enabling optically addressed Rydberg atom electrometry}
-      \field{year}{2025}
-      \verb{doi}
-      \verb 10.48550/ARXIV.2503.15433
-      \endverb
-      \verb{urlraw}
-      \verb https://arxiv.org/abs/2503.15433
-      \endverb
-      \verb{url}
-      \verb https://arxiv.org/abs/2503.15433
-      \endverb
-      \keyw{Atomic Physics (physics.atom-ph),FOS: Physical sciences,FOS: Physical sciences}
     \endentry
     \entry{haisma1994}{article}{}
       \name{author}{4}{}{%
@@ -528,6 +444,36 @@
       \verb http://dx.doi.org/10.1149/06405.0003ecst
       \endverb
     \endentry
+    \entry{meissner2002}{article}{}
+      \name{author}{2}{}{%
+        {{hash=813c4d764785272bf462579703e999da}{%
+           family={Meissner},
+           familyi={M\bibinitperiod},
+           given={Helmuth\bibnamedelima E},
+           giveni={H\bibinitperiod\bibinitdelim E\bibinitperiod}}}%
+        {{hash=2c86f74cd0254d2d970f1b6651f2e9b7}{%
+           family={Meissner},
+           familyi={M\bibinitperiod},
+           given={Stephanie\bibnamedelima H},
+           giveni={S\bibinitperiod\bibinitdelim H\bibinitperiod}}}%
+      }
+      \strng{namehash}{30beba8cebd3859c2566cd0afc268ed6}
+      \strng{fullhash}{30beba8cebd3859c2566cd0afc268ed6}
+      \strng{bibnamehash}{30beba8cebd3859c2566cd0afc268ed6}
+      \strng{authorbibnamehash}{30beba8cebd3859c2566cd0afc268ed6}
+      \strng{authornamehash}{30beba8cebd3859c2566cd0afc268ed6}
+      \strng{authorfullhash}{30beba8cebd3859c2566cd0afc268ed6}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Proceedings of SPIE}
+      \field{title}{Precision optical contact bonding}
+      \field{volume}{4822}
+      \field{year}{2002}
+      \field{pages}{38\bibrangedash 47}
+      \range{pages}{10}
+    \endentry
     \entry{li2013}{article}{}
       \name{author}{4}{}{%
         {{hash=bfd497af5ee2b6ddbf89c7606320ebd7}{%
@@ -560,8 +506,8 @@
       \strng{authorbibnamehash}{8e3fb5f2c10fc37a4e5efe24bcd69b97}
       \strng{authornamehash}{8e3fb5f2c10fc37a4e5efe24bcd69b97}
       \strng{authorfullhash}{50f0b707757374472e49510402e9d80e}
-      \field{sortinit}{2}
-      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{issn}{1869-196X}
@@ -583,6 +529,90 @@
       \verb http://dx.doi.org/10.1631/jzus.C12MNT02
       \endverb
     \endentry
+    \entry{art2025}{misc}{}
+      \name{author}{11}{}{%
+        {{hash=293c5ad57f603233155df81fa2049f95}{%
+           family={Artusio-Glimpse},
+           familyi={A\bibinithyphendelim G\bibinitperiod},
+           given={Alexandra\bibnamedelima B.},
+           giveni={A\bibinitperiod\bibinitdelim B\bibinitperiod}}}%
+        {{hash=f7aabe60116173b6a27814c93281ee4e}{%
+           family={Meraki},
+           familyi={M\bibinitperiod},
+           given={Adil},
+           giveni={A\bibinitperiod}}}%
+        {{hash=8b243d42bca8980f7504f24aefbd8abd}{%
+           family={Shillingburg},
+           familyi={S\bibinitperiod},
+           given={Hunter},
+           giveni={H\bibinitperiod}}}%
+        {{hash=5cb41c37e1a9480dfe77b2c00f4edcdd}{%
+           family={Lavallee},
+           familyi={L\bibinitperiod},
+           given={Guy},
+           giveni={G\bibinitperiod}}}%
+        {{hash=0474cc7d2cd3785ad22074a7b4abeb8b}{%
+           family={Liu},
+           familyi={L\bibinitperiod},
+           given={Miao},
+           giveni={M\bibinitperiod}}}%
+        {{hash=51e4b0a499993d7a6c12df19806e0b39}{%
+           family={Eichfeld},
+           familyi={E\bibinitperiod},
+           given={Chad},
+           giveni={C\bibinitperiod}}}%
+        {{hash=3e91c9da0703af1539398a499d74c6ce}{%
+           family={Simons},
+           familyi={S\bibinitperiod},
+           given={Matthew\bibnamedelima T.},
+           giveni={M\bibinitperiod\bibinitdelim T\bibinitperiod}}}%
+        {{hash=566867be9aa8a282c3af81357fc0e4c5}{%
+           family={Holland},
+           familyi={H\bibinitperiod},
+           given={Glenn},
+           giveni={G\bibinitperiod}}}%
+        {{hash=304d73388ceda18c3b9c0f15aa4d917c}{%
+           family={Holloway},
+           familyi={H\bibinitperiod},
+           given={Christopher\bibnamedelima L.},
+           giveni={C\bibinitperiod\bibinitdelim L\bibinitperiod}}}%
+        {{hash=f8ad70b6d8c682bde6bb4f9715c1ce0f}{%
+           family={Aksyuk},
+           familyi={A\bibinitperiod},
+           given={Vladimir\bibnamedelima A.},
+           giveni={V\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+        {{hash=cbedce6f51b8ff8d9759739ad19b53a8}{%
+           family={Lopez},
+           familyi={L\bibinitperiod},
+           given={Daniel},
+           giveni={D\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {arXiv}%
+      }
+      \strng{namehash}{20ea976a687d61e0ece265a38c1dce3d}
+      \strng{fullhash}{1309abdc6972a80c070415d6b23ee3c1}
+      \strng{bibnamehash}{20ea976a687d61e0ece265a38c1dce3d}
+      \strng{authorbibnamehash}{20ea976a687d61e0ece265a38c1dce3d}
+      \strng{authornamehash}{20ea976a687d61e0ece265a38c1dce3d}
+      \strng{authorfullhash}{1309abdc6972a80c070415d6b23ee3c1}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Wafer-level fabrication of all-dielectric vapor cells enabling optically addressed Rydberg atom electrometry}
+      \field{year}{2025}
+      \verb{doi}
+      \verb 10.48550/ARXIV.2503.15433
+      \endverb
+      \verb{urlraw}
+      \verb https://arxiv.org/abs/2503.15433
+      \endverb
+      \verb{url}
+      \verb https://arxiv.org/abs/2503.15433
+      \endverb
+      \keyw{Atomic Physics (physics.atom-ph),FOS: Physical sciences,FOS: Physical sciences}
+    \endentry
     \entry{brueckner1970}{article}{}
       \name{author}{1}{}{%
         {{hash=617170be0bd13f0fb607ca1fafc9b785}{%
@@ -600,8 +630,8 @@
       \strng{authorbibnamehash}{617170be0bd13f0fb607ca1fafc9b785}
       \strng{authornamehash}{617170be0bd13f0fb607ca1fafc9b785}
       \strng{authorfullhash}{617170be0bd13f0fb607ca1fafc9b785}
-      \field{sortinit}{2}
-      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Journal of Non-Crystalline Solids}
@@ -626,8 +656,8 @@
       \strng{authorbibnamehash}{d716d2891fb3a2d0b755cf6045db39ec}
       \strng{authornamehash}{d716d2891fb3a2d0b755cf6045db39ec}
       \strng{authorfullhash}{d716d2891fb3a2d0b755cf6045db39ec}
-      \field{sortinit}{2}
-      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Journal of the Optical Society of America}
@@ -701,8 +731,8 @@
       \strng{authorbibnamehash}{450d7c946c4d33c798e22c78787004f1}
       \strng{authornamehash}{450d7c946c4d33c798e22c78787004f1}
       \strng{authorfullhash}{a0d88dac3a677b34559becd080bc1bc4}
-      \field{sortinit}{2}
-      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{issn}{2045-2322}
@@ -721,36 +751,6 @@
       \verb{url}
       \verb http://dx.doi.org/10.1038/srep31111
       \endverb
-    \endentry
-    \entry{meissner2002}{article}{}
-      \name{author}{2}{}{%
-        {{hash=813c4d764785272bf462579703e999da}{%
-           family={Meissner},
-           familyi={M\bibinitperiod},
-           given={Helmuth\bibnamedelima E},
-           giveni={H\bibinitperiod\bibinitdelim E\bibinitperiod}}}%
-        {{hash=2c86f74cd0254d2d970f1b6651f2e9b7}{%
-           family={Meissner},
-           familyi={M\bibinitperiod},
-           given={Stephanie\bibnamedelima H},
-           giveni={S\bibinitperiod\bibinitdelim H\bibinitperiod}}}%
-      }
-      \strng{namehash}{30beba8cebd3859c2566cd0afc268ed6}
-      \strng{fullhash}{30beba8cebd3859c2566cd0afc268ed6}
-      \strng{bibnamehash}{30beba8cebd3859c2566cd0afc268ed6}
-      \strng{authorbibnamehash}{30beba8cebd3859c2566cd0afc268ed6}
-      \strng{authornamehash}{30beba8cebd3859c2566cd0afc268ed6}
-      \strng{authorfullhash}{30beba8cebd3859c2566cd0afc268ed6}
-      \field{sortinit}{3}
-      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{Proceedings of SPIE}
-      \field{title}{Precision optical contact bonding}
-      \field{volume}{4822}
-      \field{year}{2002}
-      \field{pages}{38\bibrangedash 47}
-      \range{pages}{10}
     \endentry
     \entry{schott_borofloat}{report}{}
       \name{author}{1}{}{%
@@ -896,8 +896,8 @@
       \strng{authorbibnamehash}{765abe27836b1eb509789adc51352a3c}
       \strng{authornamehash}{765abe27836b1eb509789adc51352a3c}
       \strng{authorfullhash}{1a6c88c27b7a23267c039bac56d381a8}
-      \field{sortinit}{3}
-      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{issn}{0022-3093}
@@ -995,8 +995,8 @@
       \strng{authorbibnamehash}{e2ee77ed704e23fd72768047cb11af53}
       \strng{authornamehash}{e2ee77ed704e23fd72768047cb11af53}
       \strng{authorfullhash}{6390ba9d94b70da25e7a41051549c5a0}
-      \field{sortinit}{3}
-      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{issn}{1089-7550}
@@ -1052,8 +1052,8 @@
       \strng{authorbibnamehash}{f6aa98060138e6fd46ca01c745c63d2f}
       \strng{authornamehash}{f6aa98060138e6fd46ca01c745c63d2f}
       \strng{authorfullhash}{24def0c93744e22acaa1bad84b0fb8b6}
-      \field{sortinit}{3}
-      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{issn}{1539-4794}
@@ -1098,8 +1098,8 @@
       \strng{authorbibnamehash}{57732752ca183ddd3423431225777b28}
       \strng{authornamehash}{57732752ca183ddd3423431225777b28}
       \strng{authorfullhash}{57732752ca183ddd3423431225777b28}
-      \field{sortinit}{3}
-      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Journal of the Optical Society of Korea}
@@ -1215,6 +1215,51 @@
       \verb https://api.semanticscholar.org/CorpusID:101858490
       \endverb
     \endentry
+    \entry{kissinger1990}{article}{}
+      \name{author}{2}{}{%
+        {{hash=9852b0ff9bbaea09e4ce7a4b9cc85e57}{%
+           family={Kissinger},
+           familyi={K\bibinitperiod},
+           given={G.},
+           giveni={G\bibinitperiod}}}%
+        {{hash=bfbf280b597f770a51f4fe60e69f13c2}{%
+           family={Kissinger},
+           familyi={K\bibinitperiod},
+           given={W.},
+           giveni={W\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Wiley}%
+      }
+      \strng{namehash}{91da9e49a822be03fbd329ed7a979d24}
+      \strng{fullhash}{91da9e49a822be03fbd329ed7a979d24}
+      \strng{bibnamehash}{91da9e49a822be03fbd329ed7a979d24}
+      \strng{authorbibnamehash}{91da9e49a822be03fbd329ed7a979d24}
+      \strng{authornamehash}{91da9e49a822be03fbd329ed7a979d24}
+      \strng{authorfullhash}{91da9e49a822be03fbd329ed7a979d24}
+      \field{sortinit}{5}
+      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{1521-396X}
+      \field{journaltitle}{Physica Status Solidi (a)}
+      \field{month}{1}
+      \field{number}{1}
+      \field{title}{Hydrophilicity of Silicon Wafers for Direct Bonding}
+      \field{volume}{123}
+      \field{year}{1991}
+      \field{pages}{185\bibrangedash 192}
+      \range{pages}{8}
+      \verb{doi}
+      \verb 10.1002/pssa.2211230117
+      \endverb
+      \verb{urlraw}
+      \verb http://dx.doi.org/10.1002/pssa.2211230117
+      \endverb
+      \verb{url}
+      \verb http://dx.doi.org/10.1002/pssa.2211230117
+      \endverb
+    \endentry
     \entry{menon1989}{inbook}{}
       \name{author}{4}{}{%
         {{hash=e410caf22c65b2f8da788fc2ac6d45ec}{%
@@ -1265,51 +1310,6 @@
       \endverb
       \verb{url}
       \verb http://dx.doi.org/10.1007/978-1-4613-0531-6_24
-      \endverb
-    \endentry
-    \entry{kissinger1990}{article}{}
-      \name{author}{2}{}{%
-        {{hash=9852b0ff9bbaea09e4ce7a4b9cc85e57}{%
-           family={Kissinger},
-           familyi={K\bibinitperiod},
-           given={G.},
-           giveni={G\bibinitperiod}}}%
-        {{hash=bfbf280b597f770a51f4fe60e69f13c2}{%
-           family={Kissinger},
-           familyi={K\bibinitperiod},
-           given={W.},
-           giveni={W\bibinitperiod}}}%
-      }
-      \list{publisher}{1}{%
-        {Wiley}%
-      }
-      \strng{namehash}{91da9e49a822be03fbd329ed7a979d24}
-      \strng{fullhash}{91da9e49a822be03fbd329ed7a979d24}
-      \strng{bibnamehash}{91da9e49a822be03fbd329ed7a979d24}
-      \strng{authorbibnamehash}{91da9e49a822be03fbd329ed7a979d24}
-      \strng{authornamehash}{91da9e49a822be03fbd329ed7a979d24}
-      \strng{authorfullhash}{91da9e49a822be03fbd329ed7a979d24}
-      \field{sortinit}{5}
-      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{issn}{1521-396X}
-      \field{journaltitle}{Physica Status Solidi (a)}
-      \field{month}{1}
-      \field{number}{1}
-      \field{title}{Hydrophilicity of Silicon Wafers for Direct Bonding}
-      \field{volume}{123}
-      \field{year}{1991}
-      \field{pages}{185\bibrangedash 192}
-      \range{pages}{8}
-      \verb{doi}
-      \verb 10.1002/pssa.2211230117
-      \endverb
-      \verb{urlraw}
-      \verb http://dx.doi.org/10.1002/pssa.2211230117
-      \endverb
-      \verb{url}
-      \verb http://dx.doi.org/10.1002/pssa.2211230117
       \endverb
     \endentry
     \entry{masteika2014}{article}{}
