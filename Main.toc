@@ -1,51 +1,56 @@
-\babel@toc {english}{}\relax 
-\contentsline {section}{\numberline {1}Introduction \& Motivation}{iv}{section.0.1}%
-\contentsline {section}{\numberline {2}Design of Vapor Cells}{iv}{section.0.2}%
-\contentsline {subsection}{\numberline {2.1}Initial Considerations \& Constraints}{iv}{subsection.0.2.1}%
-\contentsline {subsection}{\numberline {2.2}General Design of Individual LWVCs}{iv}{subsection.0.2.2}%
-\contentsline {subsection}{\numberline {2.3}Wafer-Level Approach}{iv}{subsection.0.2.3}%
-\contentsline {subsection}{\numberline {2.4}Real Examples}{iv}{subsection.0.2.4}%
-\contentsline {section}{\numberline {3}Fabrication Methods}{iv}{section.0.3}%
-\contentsline {subsection}{\numberline {3.1}Initial Considerations \& Constraints}{iv}{subsection.0.3.1}%
-\contentsline {subsection}{\numberline {3.2}Optical Contact Bonding}{v}{subsection.0.3.2}%
-\contentsline {subsubsection}{\numberline {3.2.1}Types of Glasses \& Quality Requirements}{v}{subsubsection.0.3.2.1}%
-\contentsline {paragraph}{\nonumberline Fused Silica and Quartz}{v}{paragraph*.3}%
-\contentsline {paragraph}{\nonumberline Borosilicate Glasses}{vi}{paragraph*.5}%
-\contentsline {paragraph}{\nonumberline Other Optical Glasses}{vi}{paragraph*.7}%
-\contentsline {paragraph}{\nonumberline Surface Quality Requirements}{vii}{paragraph*.9}%
-\contentsline {subsubsection}{\numberline {3.2.2}Chemical Treatment}{vii}{subsubsection.0.3.2.2}%
-\contentsline {subsubsection}{\numberline {3.2.3}Plasma Treatment}{ix}{subsubsection.0.3.2.3}%
-\contentsline {subsubsection}{\numberline {3.2.4}Thermal Treatment}{x}{subsubsection.0.3.2.4}%
-\contentsline {subsubsection}{\numberline {3.2.5}Pressure Treatment}{xi}{subsubsection.0.3.2.5}%
-\contentsline {subsubsection}{\numberline {3.2.6}Step-by-Step Experimental Procedure}{xiii}{subsubsection.0.3.2.6}%
-\contentsline {subsection}{\numberline {3.3}Femtosecond Laser Micromachining}{xiii}{subsection.0.3.3}%
-\contentsline {subsection}{\numberline {3.4}Post-Treatment}{xiv}{subsection.0.3.4}%
-\contentsline {subsubsection}{\numberline {3.4.1}Enhanced Helium Hermeticity}{xiv}{subsubsection.0.3.4.1}%
-\contentsline {subsubsection}{\numberline {3.4.2}Activation}{xv}{subsubsection.0.3.4.2}%
-\contentsline {section}{\numberline {4}Characterization and Quality Control}{xv}{section.0.4}%
-\contentsline {subsection}{\numberline {4.1}Visual Inspection}{xv}{subsection.0.4.1}%
-\contentsline {subsection}{\numberline {4.2}Bonding Energy Test}{xv}{subsection.0.4.2}%
-\contentsline {paragraph}{\nonumberline Theoretical Framework}{xvi}{paragraph*.18}%
-\contentsline {paragraph}{\nonumberline Experimental Procedure and Considerations}{xvi}{paragraph*.20}%
-\contentsline {paragraph}{\nonumberline Water Stress Corrosion Effects}{xvii}{paragraph*.22}%
-\contentsline {paragraph}{\nonumberline Controlled Atmosphere Measurements}{xvii}{paragraph*.24}%
-\contentsline {paragraph}{\nonumberline Advantages and Limitations}{xvii}{paragraph*.27}%
-\contentsline {subsection}{\numberline {4.3}Bonding Strength Test}{xviii}{subsection.0.4.3}%
-\contentsline {paragraph}{\nonumberline Fracture Mechanics Analysis}{xviii}{paragraph*.30}%
-\contentsline {paragraph}{\nonumberline Crack Propagation Criterion}{xix}{paragraph*.32}%
-\contentsline {paragraph}{\nonumberline Advantages and Limitations}{xx}{paragraph*.34}%
-\contentsline {subsection}{\numberline {4.4}Surface inspection using an Atomic Force Microscope}{xx}{subsection.0.4.4}%
-\contentsline {subsection}{\numberline {4.5}Leak Tests using Spectroscopy}{xxiv}{subsection.0.4.5}%
-\contentsline {subsubsection}{\numberline {4.5.1}Experimental Proposal}{xxv}{subsubsection.0.4.5.1}%
-\contentsline {section}{\numberline {5}Experiments \& Applications}{xxvi}{section.0.5}%
-\contentsline {subsection}{\numberline {5.1}Rail Tracks Corrosion Inspection}{xxvi}{subsection.0.5.1}%
-\contentsline {subsection}{\numberline {5.2}Atomic Clocks}{xxvi}{subsection.0.5.2}%
-\contentsline {subsection}{\numberline {5.3}Space Applications}{xxvi}{subsection.0.5.3}%
-\contentsline {subsection}{\numberline {5.4}Magnetoencephalography}{xxvi}{subsection.0.5.4}%
-\contentsline {subsection}{\numberline {5.5}Magnetometry Experiments on Vapor Cells}{xxvi}{subsection.0.5.5}%
-\contentsline {subsubsection}{\numberline {5.5.1}Experimental Setup}{xxvii}{subsubsection.0.5.5.1}%
-\contentsline {subsubsection}{\numberline {5.5.2}Results and Analysis}{xxvii}{subsubsection.0.5.5.2}%
-\contentsline {section}{\numberline {6}Overlook \& Conclusions}{xxviii}{section.0.6}%
-\contentsline {section}{\numberline {7}Appendix}{xxviii}{section.0.7}%
-\contentsline {subsection}{\numberline {7.1}Recipes in literature}{xxviii}{subsection.0.7.1}%
-\providecommand \tocbasic@end@toc@file {}\tocbasic@end@toc@file 
+\babel@toc {spanish}{}\relax 
+\thispagestyle {empty}
+\pagestyle {empty}
+\thispagestyle {empty}
+\contentsline {part}{I\hspace {1em}Memoria}{-1}{part.1}%
+\contentsline {chapter}{\numberline {1}Introduction \& Motivation}{1}{chapter.1.1}%
+\contentsline {chapter}{\numberline {2}Design of Vapor Cells}{3}{chapter.1.2}%
+\contentsline {section}{\numberline {2.1}Initial Considerations \& Constraints}{3}{section.1.2.1}%
+\contentsline {section}{\numberline {2.2}General Design of Individual LWVCs}{3}{section.1.2.2}%
+\contentsline {section}{\numberline {2.3}Wafer-Level Approach}{3}{section.1.2.3}%
+\contentsline {section}{\numberline {2.4}Real Examples}{3}{section.1.2.4}%
+\contentsline {chapter}{\numberline {3}Fabrication Methods}{5}{chapter.1.3}%
+\contentsline {subsection}{\numberline {3.0.1}Initial Considerations \& Constraints}{5}{subsection.1.3.0.1}%
+\contentsline {subsection}{\numberline {3.0.2}Optical Contact Bonding}{6}{subsection.1.3.0.2}%
+\contentsline {subsubsection}{\numberline {3.0.2.1}Types of Glasses \& Quality Requirements}{6}{subsubsection.1.3.0.2.1}%
+\contentsline {paragraph}{\numberline {3.0.2.1.1}Fused Silica and Quartz}{6}{paragraph.1.3.0.2.1.1}%
+\contentsline {paragraph}{\numberline {3.0.2.1.2}Borosilicate Glasses}{7}{paragraph.1.3.0.2.1.2}%
+\contentsline {paragraph}{\numberline {3.0.2.1.3}Other Optical Glasses}{7}{paragraph.1.3.0.2.1.3}%
+\contentsline {paragraph}{\numberline {3.0.2.1.4}Surface Quality Requirements}{7}{paragraph.1.3.0.2.1.4}%
+\contentsline {subsubsection}{\numberline {3.0.2.2}Chemical Treatment}{8}{subsubsection.1.3.0.2.2}%
+\contentsline {subsubsection}{\numberline {3.0.2.3}Plasma Treatment}{9}{subsubsection.1.3.0.2.3}%
+\contentsline {subsubsection}{\numberline {3.0.2.4}Thermal Treatment}{11}{subsubsection.1.3.0.2.4}%
+\contentsline {subsubsection}{\numberline {3.0.2.5}Pressure Treatment}{11}{subsubsection.1.3.0.2.5}%
+\contentsline {subsection}{\numberline {3.0.3}Step-by-Step Experimental Procedure}{12}{subsection.1.3.0.3}%
+\contentsline {subsection}{\numberline {3.0.4}Femtosecond Laser Micromachining}{12}{subsection.1.3.0.4}%
+\contentsline {subsection}{\numberline {3.0.5}Post-Treatment}{14}{subsection.1.3.0.5}%
+\contentsline {subsubsection}{\numberline {3.0.5.1}Enhanced Helium Hermeticity}{14}{subsubsection.1.3.0.5.1}%
+\contentsline {subsubsection}{\numberline {3.0.5.2}Activation}{14}{subsubsection.1.3.0.5.2}%
+\contentsline {chapter}{\numberline {4}Characterization and Quality Control}{17}{chapter.1.4}%
+\contentsline {subsection}{\numberline {4.0.1}Visual Inspection}{17}{subsection.1.4.0.1}%
+\contentsline {subsection}{\numberline {4.0.2}Bonding Energy Test}{17}{subsection.1.4.0.2}%
+\contentsline {paragraph}{\numberline {4.0.2.0.1}Theoretical Framework}{18}{paragraph.1.4.0.2.0.1}%
+\contentsline {paragraph}{\numberline {4.0.2.0.2}Experimental Procedure and Considerations}{18}{paragraph.1.4.0.2.0.2}%
+\contentsline {paragraph}{\numberline {4.0.2.0.3}Water Stress Corrosion Effects}{18}{paragraph.1.4.0.2.0.3}%
+\contentsline {paragraph}{\numberline {4.0.2.0.4}Controlled Atmosphere Measurements}{19}{paragraph.1.4.0.2.0.4}%
+\contentsline {paragraph}{\numberline {4.0.2.0.5}Advantages and Limitations}{19}{paragraph.1.4.0.2.0.5}%
+\contentsline {subsection}{\numberline {4.0.3}Bonding Strength Test}{20}{subsection.1.4.0.3}%
+\contentsline {paragraph}{\numberline {4.0.3.0.1}Fracture Mechanics Analysis}{20}{paragraph.1.4.0.3.0.1}%
+\contentsline {paragraph}{\numberline {4.0.3.0.2}Crack Propagation Criterion}{21}{paragraph.1.4.0.3.0.2}%
+\contentsline {paragraph}{\numberline {4.0.3.0.3}Advantages and Limitations}{21}{paragraph.1.4.0.3.0.3}%
+\contentsline {subsection}{\numberline {4.0.4}Surface inspection using an Atomic Force Microscope}{22}{subsection.1.4.0.4}%
+\contentsline {subsection}{\numberline {4.0.5}Leak Tests using Spectroscopy}{25}{subsection.1.4.0.5}%
+\contentsline {subsubsection}{\numberline {4.0.5.1}Experimental Proposal}{26}{subsubsection.1.4.0.5.1}%
+\contentsline {chapter}{\numberline {5}Experiments \& Applications}{29}{chapter.1.5}%
+\contentsline {subsection}{\numberline {5.0.1}Rail Tracks Corrosion Inspection}{29}{subsection.1.5.0.1}%
+\contentsline {subsection}{\numberline {5.0.2}Atomic Clocks}{29}{subsection.1.5.0.2}%
+\contentsline {subsection}{\numberline {5.0.3}Space Applications}{29}{subsection.1.5.0.3}%
+\contentsline {subsection}{\numberline {5.0.4}Magnetoencephalography}{29}{subsection.1.5.0.4}%
+\contentsline {subsection}{\numberline {5.0.5}Magnetometry Experiments on Vapor Cells}{29}{subsection.1.5.0.5}%
+\contentsline {subsubsection}{\numberline {5.0.5.1}Experimental Setup}{30}{subsubsection.1.5.0.5.1}%
+\contentsline {subsubsection}{\numberline {5.0.5.2}Results and Analysis}{30}{subsubsection.1.5.0.5.2}%
+\contentsline {chapter}{\numberline {6}Conclusions}{33}{chapter.1.6}%
+\contentsline {chapter}{Bibliography}{35}{chapter*.22}%
+\contentsline {part}{II\hspace {1em}Anexos}{41}{part.2}%
+\contentsline {chapter}{\numberline {A}Recipes in Literature}{43}{chapter.2.1}%
+\contentsline {subsection}{\numberline {A.0.1}Recipes in literature}{43}{subsection.2.1.0.1}%

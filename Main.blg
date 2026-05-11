@@ -1,78 +1,23 @@
-This is BibTeX, Version 0.99d (TeX Live 2023/Debian)
-Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
-The top-level auxiliary file: Main.aux
-The style file: IEEEtran.bst
-Reallocated singl_function (elt_size=4) to 100 items from 50.
-Reallocated singl_function (elt_size=4) to 100 items from 50.
-Reallocated singl_function (elt_size=4) to 100 items from 50.
-Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
-Reallocated singl_function (elt_size=4) to 100 items from 50.
-Database file #1: references.bib
-Warning--string name "sept" is undefined
---line 77 of file references.bib
-Warning--string name "july" is undefined
---line 137 of file references.bib
-Warning--string name "june" is undefined
---line 365 of file references.bib
-Warning--string name "july" is undefined
---line 427 of file references.bib
-Warning--string name "sept" is undefined
---line 458 of file references.bib
-Warning--string name "june" is undefined
---line 609 of file references.bib
-Warning--string name "july" is undefined
---line 722 of file references.bib
--- IEEEtran.bst version 1.14 (2015/08/26) by Michael Shell.
--- http://www.michaelshell.org/tex/ieeetran/bibtex/
--- See the "IEEEtran_bst_HOWTO.pdf" manual for usage information.
-Warning--empty journal in bachman2001
-Warning--missing school in karlen2018
-Warning--empty author and editor in rammhandbook
-Warning--empty booktitle in tuli2012
-Warning--empty booktitle in kern1970
-Warning--empty journal in suniphd
-Warning--empty journal in wasmer2007
-
-Done.
-You've used 58 entries,
-            4087 wiz_defined-function locations,
-            1204 strings with 20461 characters,
-and the built_in function-call counts, 41358 in all, are:
-= -- 3706
-> -- 1092
-< -- 171
-+ -- 543
-- -- 247
-* -- 1994
-:= -- 6631
-add.period$ -- 115
-call.type$ -- 58
-change.case$ -- 55
-chr.to.int$ -- 183
-cite$ -- 65
-duplicate$ -- 3249
-empty$ -- 3003
-format.name$ -- 289
-if$ -- 9595
-int.to.chr$ -- 0
-int.to.str$ -- 58
-missing$ -- 606
-newline$ -- 281
-num.names$ -- 57
-pop$ -- 1309
-preamble$ -- 1
-purify$ -- 0
-quote$ -- 2
-skip$ -- 3435
-stack$ -- 0
-substring$ -- 917
-swap$ -- 2628
-text.length$ -- 110
-text.prefix$ -- 0
-top$ -- 5
-type$ -- 58
-warning$ -- 7
-while$ -- 113
-width$ -- 60
-write$ -- 715
-(There were 14 warnings)
+[0] Config.pm:307> INFO - This is Biber 2.19
+[0] Config.pm:310> INFO - Logfile is 'Main.blg'
+[47] biber:340> INFO - === lun may 11, 2026, 13:00:30
+[57] Biber.pm:419> INFO - Reading 'Main.bcf'
+[107] Biber.pm:979> INFO - Found 58 citekeys in bib section 0
+[116] Biber.pm:4419> INFO - Processing section 0
+[123] Biber.pm:4610> INFO - Looking for bibtex file 'referencias.bib' for section 0
+[125] bibtex.pm:1713> INFO - LaTeX decoding ...
+[169] bibtex.pm:1519> INFO - Found BibTeX data source 'referencias.bib'
+[527] UCollate.pm:68> INFO - Overriding locale 'es-ES' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[527] UCollate.pm:68> INFO - Overriding locale 'es-ES' defaults 'variable = shifted' with 'variable = non-ignorable'
+[527] Biber.pm:4239> INFO - Sorting list 'none/global//global/global' of type 'entry' with template 'none' and locale 'es-ES'
+[554] bbl.pm:660> INFO - Writing 'Main.bbl' with encoding 'UTF-8'
+[573] bbl.pm:763> INFO - Output to Main.bbl
+[573] Biber.pm:131> WARN - BibTeX subsystem: /tmp/biber_tmp_N9cB/f1acd60b6c57e7ae00f56d747b2cd459_4207.utf8, line 77, warning: undefined macro "Sept"
+[573] Biber.pm:131> WARN - BibTeX subsystem: /tmp/biber_tmp_N9cB/f1acd60b6c57e7ae00f56d747b2cd459_4207.utf8, line 137, warning: undefined macro "July"
+[573] Biber.pm:131> WARN - BibTeX subsystem: /tmp/biber_tmp_N9cB/f1acd60b6c57e7ae00f56d747b2cd459_4207.utf8, line 278, warning: undefined macro "June"
+[573] Biber.pm:131> WARN - BibTeX subsystem: /tmp/biber_tmp_N9cB/f1acd60b6c57e7ae00f56d747b2cd459_4207.utf8, line 365, warning: undefined macro "June"
+[573] Biber.pm:131> WARN - BibTeX subsystem: /tmp/biber_tmp_N9cB/f1acd60b6c57e7ae00f56d747b2cd459_4207.utf8, line 427, warning: undefined macro "July"
+[573] Biber.pm:131> WARN - BibTeX subsystem: /tmp/biber_tmp_N9cB/f1acd60b6c57e7ae00f56d747b2cd459_4207.utf8, line 458, warning: undefined macro "Sept"
+[573] Biber.pm:131> WARN - BibTeX subsystem: /tmp/biber_tmp_N9cB/f1acd60b6c57e7ae00f56d747b2cd459_4207.utf8, line 609, warning: undefined macro "June"
+[573] Biber.pm:131> WARN - BibTeX subsystem: /tmp/biber_tmp_N9cB/f1acd60b6c57e7ae00f56d747b2cd459_4207.utf8, line 722, warning: undefined macro "July"
+[573] Biber.pm:133> INFO - WARNINGS: 8

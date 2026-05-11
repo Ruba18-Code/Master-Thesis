@@ -1,175 +1,278 @@
+\documentclass[11pt,english,a4paper,hidelinks]{book}
 
-\documentclass[a4paper,11pt,onecolumn,final,english,openbib]{scrbook}
+%% Fuentes (antes del preambulo para evitar conflictos)
+\usepackage{fontspec}
+\defaultfontfeatures{Ligatures=TeX}
+\setmainfont{TeX Gyre Termes}
 
-% Marges del document
-\addtolength{\headheight}{2cm}
-%\addtolength{\topmargin}{2cm}
-\setlength{\oddsidemargin}{1.0cm}
-\setlength{\evensidemargin}{0.5cm}
-\setlength{\textwidth}{14.3cm}
-\setlength{\parindent}{0mm}
+\input{preambulo}
 
-% Paquets
-\usepackage[english]{babel}
+%% -------------------------------------------------------
+%% Paquetes adicionales no incluidos en el preambulo
+%% -------------------------------------------------------
 \usepackage{amsmath, amssymb}
-\usepackage[utf8]{inputenc}
-\usepackage{listings}  % The main package for code
-\usepackage{xcolor}    % Required for syntax highlighting colors
-\usepackage{graphicx}
-\usepackage{booktabs}
+\usepackage{listings}
 \usepackage{multirow}
 \usepackage{pdflscape}
-\usepackage{graphicx}
-\usepackage{caption}
-\usepackage{tabularx}
-\usepackage{enumerate,physics}
-\usepackage{multirow}
-\usepackage{subcaption}  % versión moderna, recomendada
+\usepackage{enumerate}
+\usepackage{physics}
+\usepackage{subcaption}
 \usepackage{dsfont}
 \usepackage{slashed}
 \usepackage{textcomp}
-\usepackage{url}
-\usepackage{hyperref} 
 \usepackage{siunitx}
 \usepackage{float}
 \usepackage{epigraph}
-\usepackage[font=small,labelfont=bf]{caption}
-\usepackage{tikz}
-\usepackage{lineno}
 \usepackage{placeins}
-%\FloatBarrier
+\usepackage{lineno}
+
+%% Estilo para código Python
 \lstdefinestyle{mypythonstyle}{
     language=Python,
-    basicstyle=\ttfamily\small,       % Use a small typewriter font
-    keywordstyle=\color{blue},        % Python keywords in blue
-    stringstyle=\color{red!60!black},  % Strings in a reddish-black
-    commentstyle=\color{green!60!black},% Comments in a dark green
-    numbers=left,                   % Show line numbers on the left
-    numberstyle=\tiny\color{gray},    % Make line numbers small and gray
-    frame=single,                   % Draw a single-line box around the code
-    breaklines=true,                % Automatically break long lines
-    showstringspaces=false,         % Don't put ugly markers for spaces in strings
-    tabsize=4                       % Set tab size
+    basicstyle=\ttfamily\small,
+    keywordstyle=\color{blue},
+    stringstyle=\color{red!60!black},
+    commentstyle=\color{green!60!black},
+    numbers=left,
+    numberstyle=\tiny\color{gray},
+    frame=single,
+    breaklines=true,
+    showstringspaces=false,
+    tabsize=4
 }
 
-% Coses addicionals
-\font\afont=cmssbx10 scaled \magstep5     % for the title
-\font\bfont=cmssbx10 scaled \magstep4     % for chapter headings
-\font\cfont=cmssbx10 scaled \magstep3
-\font\dfont=cmssbx10 scaled \magstep2     % for section headings and author name
-\font\efont=cmssbx10 scaled \magstephalf
+%% Espaciado entre floats
+\setlength{\textfloatsep}{10pt}
+\setlength{\floatsep}{10pt}
+\setlength{\intextsep}{10pt}
 
-\setcounter{secnumdepth}{3}
-\setcounter{tocdepth}{3}
-\setlength{\textfloatsep}{10pt}  % space between text and float (table/figure)
-\setlength{\floatsep}{10pt}      % space between floats
-\setlength{\intextsep}{10pt}     % space between in-text floats and text
-
-\makeatletter
-\renewcommand\paragraph{\@startsection{paragraph}{4}{\z@}%
-  {-3.25ex\@plus -1ex \@minus -.2ex}%
-  {1.5ex \@plus .2ex}%
-  {\normalfont\normalsize\bfseries}
-}
-\makeatother
-\renewcommand{\thesection}{\arabic{section}}
-
-\pagestyle{empty}
-\pagestyle{headings}
-
-% Document
-\begin{document}
-\pagenumbering{roman}
-\title{Design, Fabrication, and Characterization of  
+%% -------------------------------------------------------
+%% Datos del TFM
+%% -------------------------------------------------------
+\newcommand{\titulo}{Design, Fabrication, and Characterization of
 All-Glass Laser-Written Vapor Cells for Integrated Photonics Applications}
-\author{Rubén Piles Delgado}
-\maketitle
+\newcommand{\tutorA}{Nombre del tutor}
+\newcommand{\tutorB}{}
+\newcommand{\tutorE}{}
+\newcommand{\curso}{2025-2026}
+\newcommand{\autor}{Rubén Piles Delgado}
+\newcommand{\fecha}{Mayo de 2026}
 
+\definecolor{azul}{rgb}{0.1,0.2,0.4}
+
+%% -------------------------------------------------------
+\begin{document}
+%% -------------------------------------------------------
+
+%% Páginas iniciales sin numerar
+\newpage
+\thispagestyle{empty}\ \\
 \newpage
 \thispagestyle{empty}
 
-\begin{center}
-    \large\textbf{Abstract}
-\end{center}
+%% -------------------------------------------------------
+%% RESÚMENES (sin numerar, 150-200 palabras cada uno)
+%% -------------------------------------------------------
 
-This Master's thesis presents a comprehensive study on the design, 
-fabrication, and characterization of Laser-Written Vapor Cells (LWVCs), 
-a novel class of miniaturized atomic sensors inspired by MEMS technology. 
-These all-glass devices confine alkali metal vapors in micro-machined cavities 
-and are promising platforms for next-generation integrated photonics applications.
-The work begins by motivating the need for compact, high-performance atomic 
-sensors and introduces the LWVC concept as a scalable, chip-compatible 
-alternative to conventional vapor cell technologies. The design section covers 
-the key engineering constraints, the architecture of individual cells, and a 
-wafer-level fabrication approach that enables parallel production of multiple devices.
-\\\\
-The fabrication methodology is built around two core techniques. The first is 
-Optical Contact Bonding, a glueless process that joins glass surfaces through 
-intermolecular forces alone. This requires extremely smooth surfaces 
-(RMS roughness below 0.5 nm) and involves carefully sequenced chemical, plasma, 
-thermal, and pressure treatments to achieve robust, hermetic bonds. The second 
-technique is Femtosecond Laser Micromachining, which uses ultrashort laser pulses 
-to create buried 3D microstructures inside the glass without surface damage. 
-Post-processing steps include helium hermeticity enhancement via alumina coatings 
-and alkali vapor activation.
-\\\\
-A thorough characterization and quality control section covers visual inspection 
-via Newton's rings, bonding energy measurements using the double cantilever beam 
-method, tensile strength testing, and sub-nanometric surface analysis using Atomic 
-Force Microscopy. A spectroscopy-based leak test protocol is also proposed, 
-xploiting the pressure-dependent broadening of alkali D-line transitions.
-Finally, the thesis outlines several application domains, including magnetoencephalography, 
-atomic clocks, space instrumentation, and rail corrosion inspection, with preliminary 
-magnetometry experiments demonstrating Hanle resonance detection in a cesium vapor cell.
+\section*{Resumen}
 \noindent
+Este Trabajo de Fin de Máster presenta un estudio sobre el diseño,
+fabricación y caracterización de celdas de vapor escritas por láser
+(LWVCs), sensores atómicos miniaturizados completamente de vidrio.
+Estos dispositivos confinan vapores de metales alcalinos en cavidades
+microfabricadas y son una plataforma prometedora para aplicaciones de
+fotónica integrada. La fabricación se basa en dos técnicas: el
+\textit{Optical Contact Bonding}, proceso sin adhesivo que une
+superficies mediante fuerzas intermoleculares, y la microfabricación
+por láser de femtosegundo, que crea microestructuras 3D en el interior
+del vidrio. Ambas se complementan con tratamientos químicos, de plasma,
+térmicos y de presión. La caracterización incluye inspección visual
+mediante anillos de Newton, medición de energía de unión por el método
+de doble viga en voladizo, ensayos de tracción, análisis nanométrico
+por microscopía de fuerza atómica y pruebas de fugas por espectroscopía.
+Las aplicaciones exploradas incluyen magnetoencefalografía, relojes
+atómicos, instrumentación espacial e inspección de corrosión en vías
+de tren. Experimentos de magnetometría demuestran la detección de
+resonancia Hanle en una celda de vapor de cesio.
 
-\vspace{1.5cm}
+\vspace{0.8em}
+\noindent\textbf{Palabras clave:}
+Celdas de Vapor Escritas por Láser; Microfabricación por Láser de
+Femtosegundo; Unión por Contacto Óptico; Vapor de Metal Alcalino;
+MEMS; Fotónica Integrada; Activación de Superficies; Tratamiento de
+Plasma; Sensores Atómicos; Magnetometría; Resonancia Hanle;
+Magnetoencefalografía; Relojes Atómicos; Espectroscopía de Absorción;
+Hermeticidad al Helio; Microscopía de Fuerza Atómica; Proceso FLICE;
+Unión a Baja Temperatura
+
+%% -------------------------------------------------------
+
+\section*{Resum}
 \noindent
-\textbf{Keywords:}
-Laser-Written Vapor Cells; Femtosecond Laser Micromachining; Optical Contact Bonding; 
-Alkali Metal Vapor; MEMS; Integrated Photonics; Fused Silica; Surface Activation; 
-Plasma Treatment; Chemical Etching; Wafer Bonding; Atomic Sensors; Magnetometry; 
-Hanle Resonance; Magnetoencephalography; Atomic Clocks; Absorption Spectroscopy; 
-D-line Transitions; Helium Hermeticity; Alumina Coating; Atomic Force Microscopy; 
-Surface Roughness; Newton's Rings; Double Cantilever Beam; Bonding Energy; Rubidium; 
-Caesium; Larmor Precession; FLICE Process; Low-Temperature Bonding
-\tableofcontents
+Aquest Treball de Fi de Màster presenta un estudi sobre el disseny,
+la fabricació i la caracterització de cel·les de vapor escrites per
+làser (LWVCs), sensors atòmics miniaturitzats completament de vidre.
+Aquests dispositius confinen vapors de metalls alcalins en cavitats
+microfabricades i constitueixen una plataforma prometedora per a
+aplicacions de fotònica integrada. La fabricació es basa en dues
+tècniques: l'\textit{Optical Contact Bonding}, procés sense adhesiu
+que uneix superfícies mitjançant forces intermoleculars, i la
+microfabricació per làser de femtosegon, que crea microestructures 3D
+a l'interior del vidre. Ambdues es complementen amb tractaments
+químics, de plasma, tèrmics i de pressió. La caracterització inclou
+inspecció visual mitjançant anells de Newton, mesura d'energia d'unió
+pel mètode de doble biga en voladís, assajos de tracció, anàlisi
+nanomètrica per microscòpia de força atòmica i proves de fuites per
+espectroscòpia. Les aplicacions explorades inclouen
+magnetoencefalografia, rellotges atòmics, instrumentació espacial i
+inspecció de corrosió en vies de tren. Experiments de magnetometria
+demostren la detecció de la ressonància Hanle en una cel·la de vapor
+de cesi.
+
+\vspace{0.8em}
+\noindent\textbf{Paraules clau:}
+Cel·les de Vapor Escrites per Làser; Microfabricació per Làser de
+Femtosegon; Unió per Contacte Òptic; Vapor de Metall Alcalí; MEMS;
+Fotònica Integrada; Activació de Superfícies; Tractament de Plasma;
+Sensors Atòmics; Magnetometria; Ressonància Hanle;
+Magnetoencefalografia; Rellotges Atòmics; Espectroscòpia d'Absorció;
+Hermeticitat enfront de l'Heli; Microscòpia de Força Atòmica;
+Procés FLICE; Unió a Baixa Temperatura
+
+%% -------------------------------------------------------
+
+\section*{Abstract}
+\noindent
+This Master's thesis presents a study on the design, fabrication, and
+characterization of Laser-Written Vapor Cells (LWVCs), a novel class
+of miniaturized all-glass atomic sensors. These devices confine alkali
+metal vapors in micro-machined cavities and are promising platforms for
+integrated photonics applications. Fabrication relies on two core
+techniques: Optical Contact Bonding, a glueless process joining glass
+surfaces through intermolecular forces, and Femtosecond Laser
+Micromachining, which creates buried 3D microstructures inside glass
+using ultrashort laser pulses. Both are complemented by chemical,
+plasma, thermal, and pressure treatments. Characterization methods
+include visual inspection via Newton's rings, bonding energy
+measurements using the double cantilever beam method, tensile strength
+testing, sub-nanometric surface analysis via Atomic Force Microscopy,
+and a spectroscopy-based leak test protocol. Applications explored
+include magnetoencephalography, atomic clocks, space instrumentation,
+and rail corrosion inspection. Preliminary magnetometry experiments
+demonstrate Hanle resonance detection in a cesium vapor cell,
+validating the potential of LWVCs as compact, high-performance
+atomic sensors.
+
+\vspace{0.8em}
+\noindent\textbf{Keywords:}
+Laser-Written Vapor Cells; Femtosecond Laser Micromachining; Optical
+Contact Bonding; Alkali Metal Vapor; MEMS; Integrated Photonics;
+Surface Activation; Plasma Treatment; Atomic Sensors; Magnetometry;
+Hanle Resonance; Magnetoencephalography; Atomic Clocks; Absorption
+Spectroscopy; Helium Hermeticity; Atomic Force Microscopy;
+FLICE Process; Low-Temperature Bonding
+
+%% -------------------------------------------------------
+%% DEDICATORIA
+%% -------------------------------------------------------
+
 \newpage
+\thispagestyle{empty}
+\ \\
+\vfill
+\begin{flushright}
+A mis padres.
+\end{flushright}
+\vfill\vfill
 
+%% -------------------------------------------------------
+%% ÍNDICES
+%% -------------------------------------------------------
 
+\newpage
+\thispagestyle{empty}\ \\
+\addtocontents{toc}{\protect\thispagestyle{empty}}
+\addtocontents{toc}{\protect\pagestyle{empty}}
+\tableofcontents\newpage\thispagestyle{empty}
 
-\section{Introduction \& Motivation}
-Sensors + MEMs + LWVCs + Alkali Gas + Why this technology is better 
-\section{Design of Vapor Cells}
-\subsection{Initial Considerations \& Constraints}
-\subsection{General Design of Individual LWVCs}
-\subsection{Wafer-Level Approach}
-\subsection{Real Examples}
-\section{Fabrication Methods}
+\addtocontents{lof}{\protect\thispagestyle{empty}}
+\addtocontents{lof}{\protect\pagestyle{empty}}
+\listoffigures\thispagestyle{empty}\newpage\thispagestyle{empty}
+
+\addtocontents{lot}{\protect\thispagestyle{empty}}
+\addtocontents{lot}{\protect\pagestyle{empty}}
+\listoftables\thispagestyle{empty}\newpage\thispagestyle{empty}
+
+%% -------------------------------------------------------
+%% SIGLAS
+%% -------------------------------------------------------
+
+\newpage
+\input{siglas}
+\thispagestyle{empty}
+\setcounter{page}{-2}
+\addtocontents{toc}{\protect\thispagestyle{empty}}
+
+%% -------------------------------------------------------
+%% MEMORIA PRINCIPAL
+%% -------------------------------------------------------
+
+\part{Memoria}
+
+\chapter{Introduction \& Motivation}
+% Sensors + MEMs + LWVCs + Alkali Gas + Why this technology is better
+
+\chapter{Design of Vapor Cells}
+\section{Initial Considerations \& Constraints}
+\section{General Design of Individual LWVCs}
+\section{Wafer-Level Approach}
+\section{Real Examples}
+
+\chapter{Fabrication Methods}
 \input{sections/Fabrication Methods/Introduction.tex}
-
 \input{sections/Fabrication Methods/Optical Contact Bonding/Intro Optical Contact Bonding.tex}
 \input{sections/Fabrication Methods/Optical Contact Bonding/Chemical Treatment.tex}
 \input{sections/Fabrication Methods/Optical Contact Bonding/Plasma-Activated Bonding.tex}
 \input{sections/Fabrication Methods/Optical Contact Bonding/Annealing.tex}
 \input{sections/Fabrication Methods/Optical Contact Bonding/Pressure.tex}
-\subsubsection{Step-by-Step Experimental Procedure}
+\subsection{Step-by-Step Experimental Procedure}
 \input{sections/Fabrication Methods/Femtosecond Laser Writing.tex}
 \input{sections/Fabrication Methods/Post-Treatment.tex}
-\section{Characterization and Quality Control}
+
+\chapter{Characterization and Quality Control}
 \input{sections/Characterization and Quality Control/Visual Inspection.tex}
 \input{sections/Characterization and Quality Control/Strength Tests.tex}
 \input{sections/Characterization and Quality Control/Surface inspection using an AFM.tex}
 \input{sections/Characterization and Quality Control/Leak Tests Using Spectroscopy.tex}
 
-\section{Experiments \& Applications}
+\chapter{Experiments \& Applications}
 \input{sections/Experiments and Applications/Train Application.tex}
 \input{sections/Experiments and Applications/Atomic Clocks.tex}
 \input{sections/Experiments and Applications/Space Application.tex}
 \input{sections/Experiments and Applications/Magnetoencephalography.tex}
-\input{sections/Experiments and Applications/Magnetometry Experiment 1}
+\input{sections/Experiments and Applications/Magnetometry Experiment 1.tex}
 
+\chapter{Conclusions}
 
-\section{Overlook \& Conclusions}
-\section{Appendix}
+%% -------------------------------------------------------
+%% BIBLIOGRAFÍA
+%% -------------------------------------------------------
+
+\printbibliography[heading=firstlevel,title=Bibliography]
+\label{sec:biblio}
+\newpage\thispagestyle{empty}
+
+%% -------------------------------------------------------
+%% ANEXOS
+%% -------------------------------------------------------
+
+\part{Anexos}
+\def\thechapter{\Alph{chapter}}
+\makeatletter
+\renewcommand{\@chapapp}{Apéndice}
+\makeatother
+
+\chapter{Recipes in Literature}
 \input{sections/Appendix/Recipes in Literature.tex}
+
+\end{document}
