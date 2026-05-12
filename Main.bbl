@@ -484,6 +484,390 @@
       \verb http://dx.doi.org/10.1109/JPROC.2006.886026
       \endverb
     \endentry
+    \entry{gattass2008}{article}{}
+      \name{author}{2}{}{%
+        {{hash=18d5a082312fcd959923cfaa4855d83a}{%
+           family={Gattass},
+           familyi={G\bibinitperiod},
+           given={Rafael\bibnamedelima R.},
+           giveni={R\bibinitperiod\bibinitdelim R\bibinitperiod}}}%
+        {{hash=8f0f92aaf4a31165876bb1848484b135}{%
+           family={Mazur},
+           familyi={M\bibinitperiod},
+           given={Eric},
+           giveni={E\bibinitperiod}}}%
+      }
+      \list{publisher}{2}{%
+        {Springer Science}%
+        {Business Media LLC}%
+      }
+      \strng{namehash}{4103a6f4add00fde056bdba86947873b}
+      \strng{fullhash}{4103a6f4add00fde056bdba86947873b}
+      \strng{bibnamehash}{4103a6f4add00fde056bdba86947873b}
+      \strng{authorbibnamehash}{4103a6f4add00fde056bdba86947873b}
+      \strng{authornamehash}{4103a6f4add00fde056bdba86947873b}
+      \strng{authorfullhash}{4103a6f4add00fde056bdba86947873b}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{1749-4893}
+      \field{journaltitle}{Nature Photonics}
+      \field{month}{4}
+      \field{number}{4}
+      \field{title}{Femtosecond laser micromachining in transparent materials}
+      \field{volume}{2}
+      \field{year}{2008}
+      \field{pages}{219\bibrangedash 225}
+      \range{pages}{7}
+      \verb{doi}
+      \verb 10.1038/nphoton.2008.47
+      \endverb
+      \verb{urlraw}
+      \verb http://dx.doi.org/10.1038/NPHOTON.2008.47
+      \endverb
+      \verb{url}
+      \verb http://dx.doi.org/10.1038/NPHOTON.2008.47
+      \endverb
+    \endentry
+    \entry{osellame2012}{book}{}
+      \list{publisher}{1}{%
+        {Springer Berlin Heidelberg}%
+      }
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{labeltitlesource}{title}
+      \field{isbn}{9783642233661}
+      \field{issn}{1437-0859}
+      \field{journaltitle}{Topics in Applied Physics}
+      \field{title}{Femtosecond Laser Micromachining: Photonic and Microfluidic Devices in Transparent Materials}
+      \field{year}{2012}
+      \verb{doi}
+      \verb 10.1007/978-3-642-23366-1
+      \endverb
+      \verb{urlraw}
+      \verb http://dx.doi.org/10.1007/978-3-642-23366-1
+      \endverb
+      \verb{url}
+      \verb http://dx.doi.org/10.1007/978-3-642-23366-1
+      \endverb
+    \endentry
+    \entry{corrielli2021}{article}{}
+      \name{author}{3}{}{%
+        {{hash=9394f4fb0d03643e136e27e8a0d4f62e}{%
+           family={Corrielli},
+           familyi={C\bibinitperiod},
+           given={Giacomo},
+           giveni={G\bibinitperiod}}}%
+        {{hash=dba3d0a16e2520266cb039bbec3a711f}{%
+           family={Crespi},
+           familyi={C\bibinitperiod},
+           given={Andrea},
+           giveni={A\bibinitperiod}}}%
+        {{hash=66aa2f54883c45328691a5391bde310e}{%
+           family={Osellame},
+           familyi={O\bibinitperiod},
+           given={Roberto},
+           giveni={R\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {arXiv}%
+      }
+      \strng{namehash}{05bda5e679d3e78cbee21b7da0f57e70}
+      \strng{fullhash}{05bda5e679d3e78cbee21b7da0f57e70}
+      \strng{bibnamehash}{05bda5e679d3e78cbee21b7da0f57e70}
+      \strng{authorbibnamehash}{05bda5e679d3e78cbee21b7da0f57e70}
+      \strng{authornamehash}{05bda5e679d3e78cbee21b7da0f57e70}
+      \strng{authorfullhash}{05bda5e679d3e78cbee21b7da0f57e70}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Femtosecond laser micromachining for integrated quantum photonics}
+      \field{year}{2021}
+      \verb{doi}
+      \verb 10.48550/ARXIV.2110.06162
+      \endverb
+      \verb{urlraw}
+      \verb https://arxiv.org/abs/2110.06162
+      \endverb
+      \verb{url}
+      \verb https://arxiv.org/abs/2110.06162
+      \endverb
+      \keyw{Quantum Physics (quant-ph),Optics (physics.optics),FOS: Physical sciences,FOS: Physical sciences}
+    \endentry
+    \entry{sugioka2005}{article}{}
+      \name{author}{3}{}{%
+        {{hash=7e0fc1f9779f4e9963fbc62baf75d233}{%
+           family={Sugioka},
+           familyi={S\bibinitperiod},
+           given={K.},
+           giveni={K\bibinitperiod}}}%
+        {{hash=36b8986b08f4677ef7ff6ae77e5f89d3}{%
+           family={Cheng},
+           familyi={C\bibinitperiod},
+           given={Y.},
+           giveni={Y\bibinitperiod}}}%
+        {{hash=e6bd826fde0bb67f8b2a77ee72dda748}{%
+           family={Midorikawa},
+           familyi={M\bibinitperiod},
+           given={K.},
+           giveni={K\bibinitperiod}}}%
+      }
+      \list{publisher}{2}{%
+        {Springer Science}%
+        {Business Media LLC}%
+      }
+      \strng{namehash}{3efa52e1a6b1fe4739655ddb2300d02c}
+      \strng{fullhash}{3efa52e1a6b1fe4739655ddb2300d02c}
+      \strng{bibnamehash}{3efa52e1a6b1fe4739655ddb2300d02c}
+      \strng{authorbibnamehash}{3efa52e1a6b1fe4739655ddb2300d02c}
+      \strng{authornamehash}{3efa52e1a6b1fe4739655ddb2300d02c}
+      \strng{authorfullhash}{3efa52e1a6b1fe4739655ddb2300d02c}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{1432-0630}
+      \field{journaltitle}{Applied Physics A}
+      \field{number}{1}
+      \field{title}{Three-dimensional micromachining of glass using femtosecond laser for lab-on-a-chip device manufacture}
+      \field{volume}{81}
+      \field{year}{2005}
+      \field{pages}{1\bibrangedash 10}
+      \range{pages}{10}
+      \verb{doi}
+      \verb 10.1007/s00339-005-3225-1
+      \endverb
+      \verb{urlraw}
+      \verb http://dx.doi.org/10.1007/s00339-005-3225-1
+      \endverb
+      \verb{url}
+      \verb http://dx.doi.org/10.1007/s00339-005-3225-1
+      \endverb
+    \endentry
+    \entry{osellame2011}{article}{}
+      \name{author}{4}{}{%
+        {{hash=4ef6ca061498af5a12375cdeff26f05d}{%
+           family={Osellame},
+           familyi={O\bibinitperiod},
+           given={R.},
+           giveni={R\bibinitperiod}}}%
+        {{hash=a2dee6b6da55d2096fce6b6bbb44a3e5}{%
+           family={Hoekstra},
+           familyi={H\bibinitperiod},
+           given={H.J.W.M.},
+           giveni={H\bibinitperiod}}}%
+        {{hash=c4124ef132854162a4b4694124b850c8}{%
+           family={Cerullo},
+           familyi={C\bibinitperiod},
+           given={G.},
+           giveni={G\bibinitperiod}}}%
+        {{hash=66c508b603e8694cedaef36edd01a2ee}{%
+           family={Pollnau},
+           familyi={P\bibinitperiod},
+           given={M.},
+           giveni={M\bibinitperiod}}}%
+      }
+      \strng{namehash}{066cbd1ff829ca12fd9009f268eecd3c}
+      \strng{fullhash}{a896691cf2be5b23ce116dcd401d34f1}
+      \strng{bibnamehash}{066cbd1ff829ca12fd9009f268eecd3c}
+      \strng{authorbibnamehash}{066cbd1ff829ca12fd9009f268eecd3c}
+      \strng{authornamehash}{066cbd1ff829ca12fd9009f268eecd3c}
+      \strng{authorfullhash}{a896691cf2be5b23ce116dcd401d34f1}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Laser {and} Photonics Reviews}
+      \field{number}{3}
+      \field{title}{Femtosecond laser microstructuring: an enabling tool for optofluidic lab-on-chips}
+      \field{volume}{5}
+      \field{year}{2011}
+      \field{pages}{442\bibrangedash 463}
+      \range{pages}{22}
+      \verb{doi}
+      \verb 10.1002/lpor.201000031
+      \endverb
+    \endentry
+    \entry{bhardwaj2006}{article}{}
+      \name{author}{7}{}{%
+        {{hash=ba73dada8aee0b24322dd69d523d8518}{%
+           family={Bhardwaj},
+           familyi={B\bibinitperiod},
+           given={V.\bibnamedelimi R.},
+           giveni={V\bibinitperiod\bibinitdelim R\bibinitperiod}}}%
+        {{hash=1bf03c8746f12ff24119eebf80b8843c}{%
+           family={Simova},
+           familyi={S\bibinitperiod},
+           given={E.},
+           giveni={E\bibinitperiod}}}%
+        {{hash=b34b808e8033029ad103b6cd935b3f49}{%
+           family={Rajeev},
+           familyi={R\bibinitperiod},
+           given={P.\bibnamedelimi P.},
+           giveni={P\bibinitperiod\bibinitdelim P\bibinitperiod}}}%
+        {{hash=45607e3543ae60e21e254e77b0e2aee8}{%
+           family={Hnatovsky},
+           familyi={H\bibinitperiod},
+           given={C.},
+           giveni={C\bibinitperiod}}}%
+        {{hash=e473b96224f6524b460d793d2d75fbfa}{%
+           family={Taylor},
+           familyi={T\bibinitperiod},
+           given={R.\bibnamedelimi S.},
+           giveni={R\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
+        {{hash=6be282c08cd49cdf6d785ca1ae852aa9}{%
+           family={Rayner},
+           familyi={R\bibinitperiod},
+           given={D.\bibnamedelimi M.},
+           giveni={D\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+        {{hash=1e65924c41e59773e14443573d2bdd8c}{%
+           family={Corkum},
+           familyi={C\bibinitperiod},
+           given={P.\bibnamedelimi B.},
+           giveni={P\bibinitperiod\bibinitdelim B\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {American Physical Society (APS)}%
+      }
+      \strng{namehash}{19f2bf8820a2698b9d3d2b7fad190d77}
+      \strng{fullhash}{227811dca02609c84caf4af7fe8baedd}
+      \strng{bibnamehash}{19f2bf8820a2698b9d3d2b7fad190d77}
+      \strng{authorbibnamehash}{19f2bf8820a2698b9d3d2b7fad190d77}
+      \strng{authornamehash}{19f2bf8820a2698b9d3d2b7fad190d77}
+      \strng{authorfullhash}{227811dca02609c84caf4af7fe8baedd}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{1079-7114}
+      \field{journaltitle}{Physical Review Letters}
+      \field{month}{2}
+      \field{number}{5}
+      \field{title}{Optically Produced Arrays of Planar Nanostructures inside Fused Silica}
+      \field{volume}{96}
+      \field{year}{2006}
+      \verb{doi}
+      \verb 10.1103/physrevlett.96.057404
+      \endverb
+      \verb{urlraw}
+      \verb http://dx.doi.org/10.1103/PhysRevLett.96.057404
+      \endverb
+      \verb{url}
+      \verb http://dx.doi.org/10.1103/PhysRevLett.96.057404
+      \endverb
+    \endentry
+    \entry{turco2017}{article}{}
+      \name{author}{3}{}{%
+        {{hash=f135a48947eb5f81159a7f92313499ad}{%
+           family={Lo\bibnamedelima Turco},
+           familyi={L\bibinitperiod\bibinitdelim T\bibinitperiod},
+           given={Sara},
+           giveni={S\bibinitperiod}}}%
+        {{hash=c8eb32a433524f6449b49dfd5f213adf}{%
+           family={Di\bibnamedelima Donato},
+           familyi={D\bibinitperiod\bibinitdelim D\bibinitperiod},
+           given={Andrea},
+           giveni={A\bibinitperiod}}}%
+        {{hash=c214dd6590f9700f5c1661e5016be47e}{%
+           family={Criante},
+           familyi={C\bibinitperiod},
+           given={Luigino},
+           giveni={L\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {IOP Publishing}%
+      }
+      \strng{namehash}{91a138953e67f8450c4999133965a7fb}
+      \strng{fullhash}{91a138953e67f8450c4999133965a7fb}
+      \strng{bibnamehash}{91a138953e67f8450c4999133965a7fb}
+      \strng{authorbibnamehash}{91a138953e67f8450c4999133965a7fb}
+      \strng{authornamehash}{91a138953e67f8450c4999133965a7fb}
+      \strng{authorfullhash}{91a138953e67f8450c4999133965a7fb}
+      \field{sortinit}{5}
+      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{1361-6439}
+      \field{journaltitle}{Journal of Micromechanics and Microengineering}
+      \field{month}{4}
+      \field{number}{6}
+      \field{title}{Scattering effects of glass-embedded microstructures by roughness controlled fs-laser micromachining}
+      \field{volume}{27}
+      \field{year}{2017}
+      \field{pages}{065007}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1088/1361-6439/aa6b3b
+      \endverb
+      \verb{urlraw}
+      \verb http://dx.doi.org/10.1088/1361-6439/aa6b3b
+      \endverb
+      \verb{url}
+      \verb http://dx.doi.org/10.1088/1361-6439/aa6b3b
+      \endverb
+    \endentry
+    \entry{sala2021}{article}{}
+      \name{author}{5}{}{%
+        {{hash=eb9da37d007eeae92e2023f4c187b772}{%
+           family={Sala},
+           familyi={S\bibinitperiod},
+           given={Federico},
+           giveni={F\bibinitperiod}}}%
+        {{hash=74a29ae57114f137fadbfc16b0f51120}{%
+           family={Paié},
+           familyi={P\bibinitperiod},
+           given={Petra},
+           giveni={P\bibinitperiod}}}%
+        {{hash=57bcd2770a72cb5ba0b238b208867a9c}{%
+           family={Martínez\bibnamedelima Vázquez},
+           familyi={M\bibinitperiod\bibinitdelim V\bibinitperiod},
+           given={Rebeca},
+           giveni={R\bibinitperiod}}}%
+        {{hash=66aa2f54883c45328691a5391bde310e}{%
+           family={Osellame},
+           familyi={O\bibinitperiod},
+           given={Roberto},
+           giveni={R\bibinitperiod}}}%
+        {{hash=54efa70a364b43766997f530c845a497}{%
+           family={Bragheri},
+           familyi={B\bibinitperiod},
+           given={Francesca},
+           giveni={F\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {MDPI AG}%
+      }
+      \strng{namehash}{19a4656a1a13b745802b8acd10669115}
+      \strng{fullhash}{d21f1086e41a45f147380e06c703aae7}
+      \strng{bibnamehash}{19a4656a1a13b745802b8acd10669115}
+      \strng{authorbibnamehash}{19a4656a1a13b745802b8acd10669115}
+      \strng{authornamehash}{19a4656a1a13b745802b8acd10669115}
+      \strng{authorfullhash}{d21f1086e41a45f147380e06c703aae7}
+      \field{sortinit}{5}
+      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{2072-666X}
+      \field{journaltitle}{Micromachines}
+      \field{month}{2}
+      \field{number}{2}
+      \field{title}{Effects of Thermal Annealing on Femtosecond Laser Micromachined Glass Surfaces}
+      \field{volume}{12}
+      \field{year}{2021}
+      \field{pages}{180}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.3390/mi12020180
+      \endverb
+      \verb{urlraw}
+      \verb http://dx.doi.org/10.3390/mi12020180
+      \endverb
+      \verb{url}
+      \verb http://dx.doi.org/10.3390/mi12020180
+      \endverb
+    \endentry
     \entry{rammhandbook}{book}{}
       \list{publisher}{1}{%
         {Wiley}%
@@ -3077,15 +3461,6 @@
       \endverb
     \endentry
   \enddatalist
-  \missing{bhardwaj2006}
-  \missing{corrielli2021}
-  \missing{dogan2020}
-  \missing{gattass2008}
-  \missing{osellame2011}
-  \missing{osellame2012}
-  \missing{sala2021}
-  \missing{sugioka2005}
-  \missing{turco2017}
 \endrefsection
 \endinput
 

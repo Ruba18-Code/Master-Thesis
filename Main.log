@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999995 (TeX Live 2023/Debian) (preloaded format=xelatex 2026.4.1)  12 MAY 2026 12:12
+This is XeTeX, Version 3.141592653-2.6-0.999995 (TeX Live 2023/Debian) (preloaded format=xelatex 2026.4.1)  12 MAY 2026 13:23
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1343,71 +1343,7 @@ Package biblatex Info: Automatic encoding selection.
 
 Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'Main.bbl' found.
- (./Main.bbl
-
-Package biblatex Warning: The following entry could not be found
-(biblatex)                in the database:
-(biblatex)                bhardwaj2006
-(biblatex)                Please verify the spelling and rerun
-(biblatex)                LaTeX afterwards.
-
-
-Package biblatex Warning: The following entry could not be found
-(biblatex)                in the database:
-(biblatex)                corrielli2021
-(biblatex)                Please verify the spelling and rerun
-(biblatex)                LaTeX afterwards.
-
-
-Package biblatex Warning: The following entry could not be found
-(biblatex)                in the database:
-(biblatex)                dogan2020
-(biblatex)                Please verify the spelling and rerun
-(biblatex)                LaTeX afterwards.
-
-
-Package biblatex Warning: The following entry could not be found
-(biblatex)                in the database:
-(biblatex)                gattass2008
-(biblatex)                Please verify the spelling and rerun
-(biblatex)                LaTeX afterwards.
-
-
-Package biblatex Warning: The following entry could not be found
-(biblatex)                in the database:
-(biblatex)                osellame2011
-(biblatex)                Please verify the spelling and rerun
-(biblatex)                LaTeX afterwards.
-
-
-Package biblatex Warning: The following entry could not be found
-(biblatex)                in the database:
-(biblatex)                osellame2012
-(biblatex)                Please verify the spelling and rerun
-(biblatex)                LaTeX afterwards.
-
-
-Package biblatex Warning: The following entry could not be found
-(biblatex)                in the database:
-(biblatex)                sala2021
-(biblatex)                Please verify the spelling and rerun
-(biblatex)                LaTeX afterwards.
-
-
-Package biblatex Warning: The following entry could not be found
-(biblatex)                in the database:
-(biblatex)                sugioka2005
-(biblatex)                Please verify the spelling and rerun
-(biblatex)                LaTeX afterwards.
-
-
-Package biblatex Warning: The following entry could not be found
-(biblatex)                in the database:
-(biblatex)                turco2017
-(biblatex)                Please verify the spelling and rerun
-(biblatex)                LaTeX afterwards.
-
-)
+ (./Main.bbl)
 Package biblatex Info: Reference section=0 on input line 40.
 Package biblatex Info: Reference segment=0 on input line 40.
 Package hyperref Info: Link coloring OFF on input line 40.
@@ -1480,57 +1416,9 @@ Overfull \hbox (2.06728pt too wide) in paragraph at lines 20--35
 []\TU/TeXGyreTermes(0)/m/n/10.95 A Laser-Written Vapor Cell (LWVC) addresses these limitations by exploiting the three-dimensional
  []
 
-[5] [6]) (./sections/Fabrication Methods/Femtosecond Laser Writing.tex
-
-LaTeX Warning: Citation 'gattass2008' on page 7 undefined on input line 10.
-
-
-LaTeX Warning: Citation 'gattass2008' on page 7 undefined on input line 14.
-
-
-LaTeX Warning: Citation 'osellame2012' on page 7 undefined on input line 20.
-
-[7]
-
-LaTeX Warning: Citation 'gattass2008' on page 8 undefined on input line 34.
-
-
-LaTeX Warning: Citation 'gattass2008' on page 8 undefined on input line 44.
-
-
-LaTeX Warning: Citation 'osellame2012' on page 8 undefined on input line 44.
-
-
-LaTeX Warning: Citation 'corrielli2021' on page 8 undefined on input line 51.
-
-
-LaTeX Warning: Citation 'sugioka2005' on page 8 undefined on input line 60.
-
-
-LaTeX Warning: Citation 'osellame2011' on page 8 undefined on input line 60.
-
-
-LaTeX Warning: Citation 'bhardwaj2006' on page 8 undefined on input line 65.
-
-
-LaTeX Warning: Citation 'osellame2012' on page 8 undefined on input line 72.
-
-[8]
+[5] [6]) (./sections/Fabrication Methods/Femtosecond Laser Writing.tex [7] [8]
 File: Images/lwvc_3dmodel.png Graphic file (type bmp)
 <Images/lwvc_3dmodel.png>
-
-
-LaTeX Warning: Citation 'turco2017' on page 9 undefined on input line 119.
-
-
-LaTeX Warning: Citation 'dogan2020' on page 9 undefined on input line 119.
-
-
-LaTeX Warning: Citation 'sala2021' on page 9 undefined on input line 121.
-
-
-LaTeX Warning: Citation 'corrielli2021' on page 9 undefined on input line 131.
-
 ) (./sections/Fabrication Methods/Optical Contact Bonding/Intro Optical Contact Bonding.tex [9] [10]
 Overfull \hbox (3.79912pt too wide) in paragraph at lines 96--104
 []\TU/TeXGyreTermes(0)/b/n/10.95 Flatness and Waviness: \TU/TeXGyreTermes(0)/m/n/10.95 Total thickness variation (TTV) must remain below $\OT1/cmr/m/n/10.95 1$$[]$ \TU/TeXGyreTermes(0)/m/n/10.95 for $\OT1/cmr/m/n/10.95 100$$[]$
@@ -1767,29 +1655,34 @@ Chapter 6.
 
 ] [36
 
-] [37] [38]
+] [37]
+Overfull \hbox (5.22995pt too wide) in paragraph at lines 238--238
+[]\TU/TeXGyreTermes(0)/m/n/10.95 Sara Lo Turco, Andrea Di Donato, and Luigino Criante. “Scattering effects of glass-embedded
+ []
+
+[38]
 Overfull \hbox (21.24606pt too wide) in paragraph at lines 238--238
 \TU/TeXGyreTermes(0)/m/n/10.95 icon Wafers”. In: \TU/TeXGyreTermes(0)/m/it/10.95 Particles on Surfaces 2\TU/TeXGyreTermes(0)/m/n/10.95 . Springer US, 1989, pp. 297–306. \TU/TeXGyreTermes(0)/m/sc/10.95 isbn\TU/TeXGyreTermes(0)/m/n/10.95 : 9781461305316.
  []
 
-
+[39]
 Overfull \hbox (17.7184pt too wide) in paragraph at lines 238--238
 []\TU/TeXGyreTermes(0)/m/n/10.95 Josephine Neumann et al. “Atmospheric Pressure Dielectric Barrier Discharge Plasma-Enhanced
  []
 
-[39]
+
 Overfull \hbox (0.70215pt too wide) in paragraph at lines 238--238
 []\TU/TeXGyreTermes(0)/m/n/10.95 Limor Pasternak and Yaron Paz. “Low-temperature direct bonding of silicon nitride to glass”.
  []
 
-
+[40]
 Overfull \hbox (0.73035pt too wide) in paragraph at lines 238--238
 \TU/TeXGyreTermes(0)/m/it/10.95 tions (GPS) – Surface texture: Areal\TU/TeXGyreTermes(0)/m/n/10.95 . International Organization for Standardization. Geneva,
  []
 
-[40] [41] [42
+[41] [42] [43
 
-] [43] [44]
+] [44]
 Appendix A.
 (./sections/Appendix/Recipes in Literature.tex [45
 
@@ -1811,12 +1704,12 @@ Package logreq Info: Writing requests to 'Main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 44303 strings out of 474878
- 917211 string characters out of 5762517
+ 44328 strings out of 474878
+ 918320 string characters out of 5762517
  1958627 words of memory out of 5000000
- 65578 multiletter control sequences out of 15000+600000
+ 65603 multiletter control sequences out of 15000+600000
  563373 words of font info for 92 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 96i,14n,96p,2405b,5514s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 96i,14n,96p,2405b,5512s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
 Output written on Main.pdf (58 pages).
