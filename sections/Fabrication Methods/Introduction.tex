@@ -1,31 +1,131 @@
-\section{Initial Considerations \& Constraints}
-Bonding glass and crystal presents unique engineering challenges due to the material's non-porous nature, 
-extreme smoothness, and high surface energy. In industrial applications, selecting the right adhesive or 
-process is critical for ensuring optical clarity, structural integrity, and durability against environmental factors.
-Some of the most common glass bonding methods are:
-\begin{itemize}
-    \item \textbf{UV-Curing Adhesives:} These are one-component resins that remain liquid until 
-    exposed to specific wavelengths of ultraviolet light. When this adhesives are exposed to
-    UV light, a rapid polymerization process begins. This method offers strong, precise, and
-    invisible joints, since the refractive index of the adhesive can be tuned to match the substrate's
-    refractive index \cite{paschotta2023}.
-    \item \textbf{Anodic Bonding:} The substrates are heated to $300^{\circ}\text{C}$--$500^{\circ}\text{C}$ 
-    while a high voltage ($\approx 1\text{ kV}$) is applied. Ions in the glass migrate, 
-    creating a space-charge region that generates a massive electrostatic attraction, resulting 
-    in a permanent chemical bond \cite{wallis1974}.
-\end{itemize}
-While this methods can be very useful for many applications, they present some challenges
-when it comes to MEMS and Vapor Cells manufacturing. Adhesives present in the interface 
-can easily leak into the sealed cavity and potentially contaminate the gas \cite{knapkiewicz2018}. 
-This can
-greatly affect the performance of high-precission devices (e.g. atomic clocks). Moreover,
-some adhesives can overheat when a high-power laser interacts with them. This can introduce
-stress in the glass cell, causing birefringence, thermal expansion and cracks \cite{bachman2001}. Additionally,
-adhesives do not achieve cell hermeticity standards required for some applications \cite{karlen2018}.
-Most adhesive-free
-methods, such as anodic bonding, require high temperatures \cite{wallis1974}. This introduces the need for 
-more sophisticated ovens and increases the risk of creating stress in the glass. Moreover,
-some coatings used in optical applications can not be heated to such high temperatures \cite{wang2025}. \\\\
-A modern solution that can adress all this problems at once is
-\textit{Optical Contact Bonding} \cite{gosele2006}.
+Precision miniaturized sensors have become an increasingly relevant technology over 
+recent decades, finding applications in navigation, medical diagnostics, geophysical 
+surveying, and fundamental physics research \cite{lucivero2022}. 
+The growing demand for 
+compact, high-performance devices has driven the development of new fabrication 
+techniques capable of producing smaller, more complex geometries while maintaining 
+extreme gas purity, free of contaminants that could degrade sensor performance. 
+Manufacturing such devices is inherently challenging: the internal cavities must be 
+hermetically sealed to prevent outgassing or contamination, the interaction volume 
+must be precisely defined to ensure reproducibility, and the cell must accommodate 
+optical access from multiple directions to support the beam geometries required by 
+techniques such as multipass cells, dual-beam, or cavity-enhanced sensing 
+\cite{lucivero2022}. Traditional fabrication strategies, such as MEMS-based anodic 
+bonding, offer excellent scalability but 
+are fundamentally limited to planar geometries and restricted optical access.
+Photolithographic approaches, while capable of producing 
+nanostructured vapor cells, share the same limitation of planar bonding strategies 
+\cite{cutler2020}.
 
+A Laser-Written Vapor Cell (LWVC) addresses these limitations by exploiting the 
+three-dimensional structuring capabilities of Femtosecond Laser Writing (FLW), enabling 
+arbitrary buried geometries within a monolithic transparent substrate 
+\cite{lucivero2022}. The complete fabrication workflow is illustrated in 
+Fig.~\ref{fig:lwvc_fabrication} and consists of four main steps, each of which 
+contributes to the precision and hermeticity of the final device, as described below 
+and discussed in detail in the following sections.
+\begin{figure}[h]
+\centering
+\includegraphics[width=1\linewidth]{Images/lwvc_process.png}
+\caption{Fabrication worklow of a Laser-Written Vapor Cell.
+Steps (1-2) describe the FLICE process. In step (4) NEG Dispenser Placement and
+bonding are performed. Activation is illustrated by step (5). From \cite{lucivero2022}.}
+\label{fig:lwvc_fabrication}
+\end{figure}
+
+\subsection*{Step 1: Femtosecond Laser Writing and Chemical Etching (FLICE)}
+The first step employs the so-called FLICE technique (Femtosecond Laser Irradiation 
+followed by Chemical Etching), a two-stage maskless microfabrication process 
+\cite{lucivero2022}. An ultrafast laser beam is tightly focused inside the bulk of a 
+fused silica substrate, inducing the local formation of self-oriented nanogratings 
+through nonlinear absorption. Because the material modification is confined to the 
+laser focal spot, arbitrary three-dimensional patterns can be inscribed with 
+micrometric resolution and without any lithographic mask. In the second stage, the 
+substrate is immersed in a hydrofluoric acid solution, which selectively removes the 
+irradiated material, leaving behind hollow channels and reservoirs with the desired 
+geometry. The non-irradiated fused silica remains unaffected, preserving the 
+monolithic integrity of the substrate and its broad optical transparency window—a 
+key advantage for spectroscopic characterization of the gas content. This maskless 
+approach enables geometries that are inaccessible to planar bonding or 
+photolithographic techniques, including fully buried sensing channels and multi-sided 
+optical access. The FLICE process and its optimization for LWVC fabrication are 
+further discussed in Section~\ref{sec:flice}.
+
+\subsection*{Step 2: Placement of the Non-Evaporable Getter Dispenser}
+Once the internal cavities have been formed, a pill of non-evaporable getter (NEG) 
+material is placed inside the reservoir cavity of the fused silica structure 
+\cite{lucivero2022}. NEG materials serve a dual function: upon thermal activation, 
+they simultaneously release the alkali metal vapor required 
+for atomic sensing, and absorb residual buffer gases such as nitrogen. This dual 
+action enables the production of cells with sub-atmospheric buffer gas pressures 
+without the need for a vacuum apparatus, greatly simplifying the manufacturing 
+process while maintaining the gas purity essential for high-precision applications. 
+The ability to control the buffer gas pressure post-sealing—by adjusting the duration 
+of getter heating or by pre-filling with controlled fractions of ungetterable gases 
+such as argon—offers an additional degree of freedom for optimizing sensor 
+performance \cite{lucivero2022}.
+
+\subsection*{Step 3: Sealing and Bonding}
+After the dispenser has been placed, the cell must be hermetically sealed to prevent 
+contamination and ensure long-term stability. The sealing is performed inside a 
+controlled-atmosphere chamber filled with nitrogen containing less than 6~ppm of 
+O\textsubscript{2}, thereby preventing the trapping of reactive oxygen inside the 
+cell \cite{lucivero2022}. The choice of bonding method is critical, as it directly 
+affects hermeticity, thermal stability, and compatibility with the cell's optical 
+coatings and internal components.
+
+Bonding glass and crystal presents unique engineering challenges due to the 
+material's non-porous nature, extreme smoothness, and high surface energy. In 
+industrial applications, selecting the right adhesive or process is critical for 
+ensuring optical clarity, structural integrity, and durability against environmental 
+factors. Some of the most common glass bonding methods are:
+
+\begin{itemize}
+    \item \textbf{UV-Curing Adhesives:} These are one-component resins that remain 
+    liquid until exposed to specific wavelengths of ultraviolet light. Upon UV 
+    exposure, a rapid polymerization process begins. This method offers strong, 
+    precise, and optically transparent joints, since the refractive index of the 
+    adhesive can be tuned to match that of the substrate \cite{paschotta2023}.
+
+    \item \textbf{Anodic Bonding:} The substrates are heated to 
+    $300^{\circ}\text{C}$--$500^{\circ}\text{C}$ while a high voltage 
+    ($\approx 1~\text{kV}$) is applied. Ions in the glass migrate, creating a 
+    space-charge region that generates a strong electrostatic attraction, resulting 
+    in a permanent chemical bond \cite{wallis1974}.
+
+    \item \textbf{Laser Microwelding:} A focused laser locally melts and fuses the 
+    glass substrates at the interface, creating a bond without the need for 
+    intermediate adhesive layers or high global temperatures \cite{wlodarczyk2019}.
+\end{itemize}
+While these methods are widely used, they present specific challenges in the context 
+of MEMS and vapor cell manufacturing. Adhesives at the bonding interface can migrate 
+into the sealed cavity and contaminate the gas, critically affecting the performance 
+of high-precision devices such as atomic clocks \cite{knapkiewicz2018}. Furthermore, 
+adhesives may overheat upon interaction with high-power lasers during subsequent 
+processing or operation steps, inducing mechanical stress, birefringence, thermal 
+expansion, and crack formation \cite{bachman2001}. Adhesive-based bonds also 
+typically fail to meet the hermeticity standards required for demanding applications 
+\cite{karlen2018}. Adhesive-free methods such as anodic bonding, while achieving 
+excellent hermeticity, require elevated global temperatures \cite{wallis1974}, which 
+increases the risk of thermally induced stress and renders them incompatible with 
+temperature-sensitive optical coatings \cite{wang2025}.
+
+A modern solution that can address all of these challenges simultaneously is 
+\textit{Optical Contact Bonding} \cite{gosele2006}, which achieves a hermetic, 
+adhesive-free joint at room temperature through van der Waals and hydrogen-bond 
+interactions between two ultra-flat, clean surfaces. This method is fully compatible 
+with the FLICE-based LWVC fabrication process and is discussed in detail in 
+Section~\ref{sec:optical_contact_bonding}.
+
+\subsection*{Step 4: Getter Activation}
+In the final step, the sealed cell is exposed to a focused laser beam directed at the 
+NEG dispenser through the fused silica substrate. The laser locally heats the 
+dispenser, triggering the release of rubidium vapor into the sensing chamber and the 
+simultaneous absorption of residual buffer gas \cite{lucivero2022}. Because the 
+activation is performed optically and post-sealing, the cell does not need to be 
+re-opened or placed in a vacuum system, preserving hermeticity throughout the entire 
+process. The precise control of activation time and laser power allows the residual 
+buffer gas pressure to be tuned, directly influencing key sensing parameters such as 
+the spin coherence time and pressure-induced spectral broadening. The activation 
+procedure and its effects on cell performance are discussed in 
+Section~\ref{sec:activation}.

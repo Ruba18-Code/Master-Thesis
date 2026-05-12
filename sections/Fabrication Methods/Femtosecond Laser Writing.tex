@@ -1,55 +1,131 @@
 \section{Femtosecond Laser Micromachining}
-While bonding focuses on joining substrates, vapor cells and 
-many applications require the precise removal 
-of glass to create cavities, channels, or complex 3D structures. 
-Due to the transparency, brittleness, and chemical resistance of 
-glass, traditional machining often fails to meet high-precision 
-requirements. \textbf{CITA}
-\begin{itemize}
-    \item \textbf{Mechanical Machining:} Utilizing diamond-tipped 
-    tools or ultrasonic drilling. While effective for macro-scale 
-    features, it introduces \textit{micro-cracks} and significant 
-    internal stress, which can lead to structural failure.
-    \item \textbf{Wet Chemical Etching:} Typically involves 
-    Hydrofluoric Acid (HF). This process is \textit{isotropic}, 
-    meaning it etches in all directions at once. Consequently, 
-    it is difficult to create deep, narrow channels with high 
-    aspect ratios.
-    \item \textbf{Reactive Ion Etching (RIE):} A dry etching 
-    process using plasma. It offers high precision but is limited 
-    by extremely slow etch rates (micrometers per hour), making 
-    it suitable only for surface patterns or thin-film glass.
-\end{itemize}
-Femtosecond Laser Writing (FLW) has emerged as a key
-technology because it allows for "sub-surface" machining 
-without affecting the glass exterior. 
-\begin{itemize}
-    \item \textbf{Nonlinear Absorption:} Glass is transparent 
-    to most light; however, a femtosecond laser delivers energy 
-    in ultrashort pulses ($10^{-15}$ s). At the focal point, 
-    the intensity is high enough to trigger \textit{multiphoton absorption},
-    allowing the laser to "write" inside the glass without 
-    damaging the surface.
-    \item \textbf{FLICE Process:} Femtosecond Laser Irradiation 
-    followed by Chemical Etching (FLICE) is a two-step technique:
-    \begin{enumerate}
-        \item \textbf{Irradiation:} The laser modifies the 
-        local molecular structure of the glass, increasing 
-        its chemical reactivity.
-        \item \textbf{Etching:} The glass is submerged in 
-        an etchant (e.g., KOH or HF), which dissolves the 
-        laser-modified tracks up to 1000 times faster than 
-        the surrounding bulk glass.
-    \end{enumerate}
-    \item \textbf{Zero Heat-Affected Zone (HAZ):} Because 
-    the pulse duration is shorter than the thermal diffusion 
-    time of the material, the process is considered 
-    "cold machining." This prevents melting, burrs, or thermal cracking.
-\end{itemize}
-Femtosecond laser technology is uniquely suited for the optics and semiconductor 
-industries because it overcomes 
-the isotropic limitations of chemical etching and the mechanical stresses 
-of traditional drilling. It remains the 
-only viable method for creating "buried" 3D micro-channels and complex 
-internal cavities within transparent substrates.
-\textbf{MILLORAR. POSAR PAPER DE GIANVITO (FOTOS I EXPLICACIONS)}
+\label{sec:flice}
+
+The fabrication of vapor cells and 
+other precision optical devices requires the controlled removal of glass to 
+create internal cavities, channels, and complex three-dimensional structures. 
+This task is non-trivial: glass is simultaneously transparent, brittle, and highly 
+chemically resistant, which means that conventional machining approaches 
+often fail to meet the precision and surface quality standards demanded by 
+atomic sensing applications \cite{gattass2008}.
+
+Mechanical machining with diamond-tipped tools or ultrasonic drilling is 
+effective at the macro-scale but introduces micro-cracks and residual internal 
+stress that can lead to structural failure in thin substrates \cite{gattass2008}. 
+Wet chemical etching with hydrofluoric acid (HF) is isotropic, meaning it 
+attacks the material equally in all directions, making it difficult to produce 
+deep channels with high aspect ratios or well-defined geometries. Dry plasma-based 
+techniques such as Reactive Ion Etching (RIE) offer greater directionality but 
+are restricted to surface patterns due to their extremely slow volumetric etch 
+rates \cite{osellame2012}. Critically, none of these methods allows for the 
+fabrication of fully \textit{buried} three-dimensional structures within a 
+monolithic substrate, which is precisely the capability required by Laser-Written 
+Vapor Cells.
+
+\subsection{Femtosecond Laser Writing}
+\label{sec:flw}
+
+Femtosecond Laser Writing (FLW) overcomes all of the above limitations by 
+exploiting the nonlinear optical response of transparent materials to ultrashort 
+laser pulses. Glass is nominally transparent to visible and near-infrared light; 
+however, when a femtosecond pulse (duration $\sim 10^{-15}$~s) is tightly focused 
+inside the bulk of a glass substrate, the instantaneous intensity at the focal 
+spot ($\sim 10^{13}$--$10^{14}$~W/cm\textsuperscript{2}) becomes sufficient to 
+trigger multiphoton and tunnel ionization processes \cite{gattass2008}. 
+Energy is deposited exclusively within the focal volume through these nonlinear 
+mechanisms, leaving the surrounding material and the glass surface unaffected. 
+This enables the inscription of arbitrary three-dimensional patterns deep inside 
+the substrate simply by scanning the focal spot along the desired trajectory.
+
+A key advantage of femtosecond pulses over longer-pulse or continuous-wave lasers 
+is the absence of a significant heat-affected zone (HAZ). Because the pulse 
+duration is shorter than the characteristic thermal diffusion time of the material 
+($\sim$~ps--ns), energy is deposited before heat can propagate to the 
+surroundings \cite{gattass2008, osellame2012}. The process is therefore 
+considered \textit{cold machining}: it induces permanent structural modification 
+at the focal point without melting, burr formation, or thermal cracking in the 
+adjacent glass. Depending on the irradiation parameters—pulse energy, repetition 
+rate, scan velocity, and numerical aperture—the nature of the modification can 
+range from a smooth refractive index change, suitable for waveguide inscription, 
+to the formation of self-organized nanoscale gratings (nanogratings), which are 
+exploited in the FLICE process described below \cite{corrielli2021}.
+
+\subsection{The FLICE Technique}
+\label{sec:flice_process}
+
+Femtosecond Laser Irradiation followed by Chemical Etching (FLICE) is a 
+two-step microfabrication process that combines the three-dimensional 
+structuring capability of FLW with the material selectivity of wet chemical 
+etching, allowing the fabrication of hollow microstructures buried inside 
+a transparent substrate \cite{sugioka2005, osellame2011}.
+
+In the first step, the femtosecond laser is scanned along the surfaces 
+delimiting the desired hollow volume. Under appropriate irradiation conditions, 
+the deposited energy induces the formation of self-oriented nanogratings within 
+the focal volume \cite{bhardwaj2006}. These nanogratings consist of periodic 
+nanoscale planes of modified material aligned perpendicularly to the laser 
+polarization direction, and they significantly increase the chemical reactivity 
+of the irradiated glass with respect to the surrounding unmodified bulk. In the 
+second step, the substrate is immersed in an etchant solution—typically 
+hydrofluoric acid (HF) or potassium hydroxide (KOH)—which dissolves the 
+laser-modified material at a rate up to 1000 times faster than the pristine 
+glass \cite{osellame2012}. The result is a smooth, hollow structure with the 
+geometry defined by the laser scan, while the rest of the substrate remains 
+intact and monolithic.
+
+The orientation of the laser polarization plays a critical role in determining 
+the etching efficiency. Because nanogratings align parallel to the laser 
+polarization, orienting the polarization perpendicular to the longitudinal axis 
+of an elongated channel results in nanogratings aligned along the channel 
+direction, which favors acid penetration and increases the effective etching 
+speed along that axis \cite{lucivero2022}. For complex multi-component 
+geometries, the polarization direction must therefore be selected carefully for 
+each sub-component in order to synchronize the etching rates across the entire 
+structure and ensure complete and uniform material removal \cite{lucivero2022}.
+
+\subsection{Application to Laser-Written Vapor Cells}
+\label{sec:flice_lwvc}
+\textbf{COMPROVAR QUE ESTA 100 per cent BE}
+The fabrication of the LWVC reported by Lucivero et al. \cite{lucivero2022} 
+demonstrates the direct application of FLICE to the production of alkali-metal 
+vapor cells in fused silica. The irradiation 
+step was performed using a commercial femtosecond laser source emitting 300~fs 
+pulses at 520~nm with a pulse energy of 410~nJ and a repetition rate of 1~MHz, 
+focused inside a $10 \times 10 \times 5$~mm fused silica block using a 
+50$\times$ microscope objective with numerical aperture 0.6 \cite{lucivero2022}. 
+The irradiated geometry, displayed in Fig.~\ref{fig:lwvc3dmodel},
+consisted of a cylindrical reservoir (5~mm diameter, 
+3.5~mm height) connected to a rectangular parallelepiped sensing channel 
+($1 \times 1$~mm cross-section, 9.5~mm length).
+\begin{figure}[h]
+\centering
+\includegraphics[width=0.75\linewidth]{Images/lwvc_3dmodel.png}
+\caption{Laser-Written Vapor Cell manufactured using the FLICE technique.
+It consists of a cylindrical reservoir (5~mm diameter, 
+3.5~mm height) connected to a rectangular parallelepiped sensing channel 
+($1 \times 1$~mm cross-section, 9.5~mm length).
+From \cite{lucivero2022}}
+\label{fig:lwvc3dmodel}
+\end{figure}
+
+Chemical etching was subsequently performed in a 20\% aqueous HF solution at 
+35$^{\circ}$C for approximately 18~hours, after which the sensing chamber was 
+left buried at approximately 300~$\mu$m below the top surface of the 
+substrate \cite{lucivero2022}. This stand-off distance could in principle be 
+reduced to a few tens of micrometers, enabling near-field sensing geometries 
+with sub-millimeter proximity to an external sample. The inner surfaces of the 
+etched structure present a residual roughness in the range 50--100~nm RMS, 
+which introduces optical scattering losses of approximately 8\% per facet 
+\cite{turco2017, dogan2020}. This roughness can be substantially reduced, 
+down to 20~nm RMS, by performing a thermal annealing step after etching 
+\cite{sala2021}, which also partially relaxes residual stress in the glass.
+
+The maskless and direct-write nature of FLICE makes it particularly well 
+suited to rapid prototyping: new cell geometries can be implemented without 
+any change of lithographic mask or process chemistry. Furthermore, since the 
+entire cell is carved from a single monolithic substrate, there are no 
+bonded interfaces inside the sensing volume, eliminating a potential source 
+of outgassing or contamination. These properties, combined with the 
+compatibility of fused silica with anti-relaxation coatings and with 
+waveguide inscription by the same laser system, make FLICE the enabling 
+technology for the LWVC platform \cite{lucivero2022, corrielli2021}.
