@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999995 (TeX Live 2023/Debian) (preloaded format=xelatex 2026.4.1)  14 MAY 2026 11:19
+This is XeTeX, Version 3.141592653-2.6-0.999995 (TeX Live 2023/Debian) (preloaded format=xelatex 2026.4.1)  14 MAY 2026 12:39
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1485,40 +1485,11 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 
 ) [17] [18]
 Chapter 4.
-(./sections/Characterization and Quality Control/Introduction.tex) (./sections/Characterization and Quality Control/Visual Inspection.tex
-File: Images/newtonrings.png Graphic file (type bmp)
-<Images/newtonrings.png>
-) (./sections/Characterization and Quality Control/Strength Tests.tex
+(./sections/Characterization and Quality Control/Introduction.tex [19
 
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-File: Images/razor_test.png Graphic file (type bmp)
-<Images/razor_test.png>
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-[19
-
-] [20]
-File: Images/razor_atm.png Graphic file (type bmp)
-<Images/razor_atm.png>
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-[21]
-File: Images/tensile_test.jpeg Graphic file (type bmp)
-<Images/tensile_test.jpeg>
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-[22]
-Overfull \hbox (6.9126pt too wide) in paragraph at lines 209--215
-[]\TU/TeXGyreTermes(0)/b/n/10.95 High measurement variance: \TU/TeXGyreTermes(0)/m/n/10.95 Real experiments exhibit significant scatter in bonding strength
- []
-
-[23]) (./sections/Characterization and Quality Control/Surface inspection using an AFM.tex
+]) (./sections/Characterization and Quality Control/Surface inspection using an AFM.tex
+File: Images/AFM_tip.JPG Graphic file (type bmp)
+<Images/AFM_tip.JPG>
 File: Images/Sample1_2D_compressed.pdf Graphic file (type pdf)
 <use Images/Sample1_2D_compressed.pdf>
 File: Images/Sample2_2D_compressed.pdf Graphic file (type pdf)
@@ -1537,15 +1508,50 @@ File: Images/Sample2_dist.pdf Graphic file (type pdf)
 <use Images/Sample2_dist.pdf>
 File: Images/Sample3_dist.pdf Graphic file (type pdf)
 <use Images/Sample3_dist.pdf>
-) (./sections/Characterization and Quality Control/Leak Tests Using Spectroscopy.tex [24] [25] [26]
+ [20]
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+) (./sections/Characterization and Quality Control/Contact Angle.tex) (./sections/Characterization and Quality Control/Visual Inspection.tex [21] [22]
+File: Images/newtonrings.png Graphic file (type bmp)
+<Images/newtonrings.png>
+) (./sections/Characterization and Quality Control/Strength Tests.tex
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+File: Images/razor_test.png Graphic file (type bmp)
+<Images/razor_test.png>
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[23] [24]
+File: Images/razor_atm.png Graphic file (type bmp)
+<Images/razor_atm.png>
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[25]
+File: Images/tensile_test.jpeg Graphic file (type bmp)
+<Images/tensile_test.jpeg>
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[26]
+Overfull \hbox (6.9126pt too wide) in paragraph at lines 209--215
+[]\TU/TeXGyreTermes(0)/b/n/10.95 High measurement variance: \TU/TeXGyreTermes(0)/m/n/10.95 Real experiments exhibit significant scatter in bonding strength
+ []
+
+[27]) (./sections/Characterization and Quality Control/Leak Tests Using Spectroscopy.tex
 File: Images/D1 & D2.png Graphic file (type bmp)
 <Images/D1 & D2.png>
- [27])
-Overfull \hbox (5.38327pt too wide) in paragraph at lines 112--232
+ [28])
+Overfull \hbox (5.38327pt too wide) in paragraph at lines 112--233
 \TU/TeXGyreTermes(0)/m/n/10.95 parison with benchmarks from the literature: the 707-day vacuum integrity demonstrated by Artusio-
  []
 
-[28]
+[29] [30]
 Chapter 5.
 (./sections/Experiments and Applications/Train Application.tex) (./sections/Experiments and Applications/Atomic Clocks.tex) (./sections/Experiments and Applications/Magnetoencephalography.tex) (./sections/Experiments and Applications/Magnetometry Experiment 1.tex
 Underfull \hbox (badness 10000) in paragraph at lines 3--14
@@ -1567,7 +1573,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 16--38
 
  []
 
-[29
+[31
 
 ]
 File: Images/magnetic_setup.jpg Graphic file (type bmp)
@@ -1592,7 +1598,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 69--82
 
  []
 
-[30]
+[32]
 File: Images/magnetic_exp_Yvar.pdf Graphic file (type pdf)
 <use Images/magnetic_exp_Yvar.pdf>
 File: Images/magnetic_exp_Zvar.pdf Graphic file (type pdf)
@@ -1601,66 +1607,66 @@ File: Images/magnetic_exp_YZvar.pdf Graphic file (type pdf)
 <use Images/magnetic_exp_YZvar.pdf>
 File: Images/Fit_00Y_45Z.pdf Graphic file (type pdf)
 <use Images/Fit_00Y_45Z.pdf>
-) [31] [32]
+) [33] [34]
 Chapter 6.
-[33
+[35
 
-] [34
+] [36
 
-] [35]
-Overfull \hbox (5.22995pt too wide) in paragraph at lines 239--239
+] [37]
+Overfull \hbox (5.22995pt too wide) in paragraph at lines 240--240
 []\TU/TeXGyreTermes(0)/m/n/10.95 Sara Lo Turco, Andrea Di Donato, and Luigino Criante. “Scattering effects of glass-embedded
  []
 
-[36]
-Overfull \hbox (21.24606pt too wide) in paragraph at lines 239--239
+[38]
+Overfull \hbox (21.24606pt too wide) in paragraph at lines 240--240
 \TU/TeXGyreTermes(0)/m/n/10.95 icon Wafers”. In: \TU/TeXGyreTermes(0)/m/it/10.95 Particles on Surfaces 2\TU/TeXGyreTermes(0)/m/n/10.95 . Springer US, 1989, pp. 297–306. \TU/TeXGyreTermes(0)/m/sc/10.95 isbn\TU/TeXGyreTermes(0)/m/n/10.95 : 9781461305316.
  []
 
-[37]
-Overfull \hbox (17.7184pt too wide) in paragraph at lines 239--239
+[39]
+Overfull \hbox (17.7184pt too wide) in paragraph at lines 240--240
 []\TU/TeXGyreTermes(0)/m/n/10.95 Josephine Neumann et al. “Atmospheric Pressure Dielectric Barrier Discharge Plasma-Enhanced
  []
 
 
-Overfull \hbox (0.70215pt too wide) in paragraph at lines 239--239
-[]\TU/TeXGyreTermes(0)/m/n/10.95 Limor Pasternak and Yaron Paz. “Low-temperature direct bonding of silicon nitride to glass”.
- []
-
-[38]
-Overfull \hbox (15.41704pt too wide) in paragraph at lines 239--239
-[]\TU/TeXGyreTermes(0)/m/n/10.95 S. Mack (Max-Planck-Institut). “Eine vergleichende Untersuchung der physikalisch-chemischen
- []
-
-
-Overfull \hbox (0.73035pt too wide) in paragraph at lines 239--239
+Overfull \hbox (0.73035pt too wide) in paragraph at lines 240--240
 \TU/TeXGyreTermes(0)/m/it/10.95 tions (GPS) – Surface texture: Areal\TU/TeXGyreTermes(0)/m/n/10.95 . International Organization for Standardization. Geneva,
  []
 
-[39] [40] [41
 
-] [42]
+Overfull \hbox (0.70215pt too wide) in paragraph at lines 240--240
+[]\TU/TeXGyreTermes(0)/m/n/10.95 Limor Pasternak and Yaron Paz. “Low-temperature direct bonding of silicon nitride to glass”.
+ []
+
+[40]
+Overfull \hbox (15.41704pt too wide) in paragraph at lines 240--240
+[]\TU/TeXGyreTermes(0)/m/n/10.95 S. Mack (Max-Planck-Institut). “Eine vergleichende Untersuchung der physikalisch-chemischen
+ []
+
+[41] [42] [43
+
+] [44]
 Appendix A.
-(./sections/Appendix/Recipes in Literature.tex [43
+(./sections/Appendix/Recipes in Literature.tex [45
 
-] [44]) (./Main.aux)
+] [46]) (./Main.aux)
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-01-22>
  ***********
 Package rerunfilecheck Info: File `Main.out' has not changed.
-(rerunfilecheck)             Checksum: 7417F94E15EE71AAD06D155B09A570DB;7391.
+(rerunfilecheck)             Checksum: F891E847E7320C85333D75A1C5C140F5;7574.
 Package logreq Info: Writing requests to 'Main.run.xml'.
 \openout1 = `Main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 44736 strings out of 474878
- 924647 string characters out of 5762517
+ 44756 strings out of 474878
+ 925356 string characters out of 5762517
  1958627 words of memory out of 5000000
- 66004 multiletter control sequences out of 15000+600000
+ 66019 multiletter control sequences out of 15000+600000
  563373 words of font info for 92 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 96i,14n,96p,2405b,5512s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 96i,14n,96p,2405b,5514s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on Main.pdf (57 pages).
+Output written on Main.pdf (59 pages).
