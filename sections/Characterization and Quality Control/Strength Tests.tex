@@ -1,16 +1,23 @@
 \section{Bonding Energy Test}
-\textbf{FALTA UNA FOTO DEL METODE}
 The most widely employed technique for measuring wafer bonding strength 
 is the \textit{double cantilever beam} (DCB) method, also known as the 
 blade insertion test, crack opening test, or Maszara's method 
 \cite{takeuchi2022}. It consists of inserting a thin blade or razor (typically 
 0.1~mm thick) into the bonding interface, which induces crack propagation 
-along the bonded wafer pair \cite{takeuchi2022}. The bonding strength is 
-quantified in terms of the energy release rate $G$ (in J~m$^{-2}$), which 
+along the bonded wafer pair \cite{takeuchi2022}. This setup is illustrated
+in Figure \ref{fig:razor_test}. The bonding strength is 
+quantified in terms of the energy release rate $G$ (in J~m $^{-2}$), which 
 represents the surface energy required to create new surfaces during crack 
 propagation. This parameter can also be expressed as surface energy 
 $\gamma$, where $G = 2\gamma$ for symmetric fracture.
-
+\begin{figure}[h]
+    \centering
+    \includegraphics[width=0.8\textwidth]{Images/razor_test.png} 
+    \caption{Illustration of the razor blade method. A razor blade
+    is inserted between the bonded surfaces in order to
+    quantify the bonding energy between them. From \cite{mack1997}.}
+    \label{fig:razor_test}
+\end{figure}
 \paragraph{Theoretical Framework}
 The energy release rate is calculated based on the energy balance between 
 the elastic strain energy stored in the deformed substrates and the 
