@@ -1,0 +1,252 @@
+\glsdefs@newdocentry{LWVC}%
+{%
+name={LWVC},%
+sort={LWVC},%
+type={main},%
+first={LWVC},%
+firstplural={LWVCs},%
+text={LWVC},%
+plural={LWVCs},%
+description={Laser-Written Vapor Cell},%
+descriptionplural={Laser-Written Vapor Cell},%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={},%
+longplural={},%
+short={},%
+shortplural={},%
+counter={page},%
+parent={},%
+%
+}%
+
+\glsdefs@newdocentry{MEMS}%
+{%
+name={MEMS},%
+sort={MEMS},%
+type={main},%
+first={MEMS},%
+firstplural={MEMSs},%
+text={MEMS},%
+plural={MEMSs},%
+description={Micro-electromechanical systems},%
+descriptionplural={Micro-electromechanical systems},%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={},%
+longplural={},%
+short={},%
+shortplural={},%
+counter={page},%
+parent={},%
+%
+}%
+
+\glsdefs@newdocentry{FLICE}%
+{%
+name={FLICE},%
+sort={FLICE},%
+type={main},%
+first={FLICE},%
+firstplural={FLICEs},%
+text={FLICE},%
+plural={FLICEs},%
+description={Femtosecond Laser Induced Chemical Etching},%
+descriptionplural={Femtosecond Laser Induced Chemical Etching},%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={},%
+longplural={},%
+short={},%
+shortplural={},%
+counter={page},%
+parent={},%
+%
+}%
+
+\glsdefs@newdocentry{FLW}%
+{%
+name={FLW},%
+sort={FLW},%
+type={main},%
+first={FLW},%
+firstplural={FLWs},%
+text={FLW},%
+plural={FLWs},%
+description={Femtosecond Laser Writing},%
+descriptionplural={Femtosecond Laser Writing},%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={},%
+longplural={},%
+short={},%
+shortplural={},%
+counter={page},%
+parent={},%
+%
+}%
+
+\glsdefs@newdocentry{NEG}%
+{%
+name={NEG},%
+sort={NEG},%
+type={main},%
+first={NEG},%
+firstplural={NEGs},%
+text={NEG},%
+plural={NEGs},%
+description={Non-evaporable Getter},%
+descriptionplural={Non-evaporable Getter},%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={},%
+longplural={},%
+short={},%
+shortplural={},%
+counter={page},%
+parent={},%
+%
+}%
+
+\glsdefs@newdocentry{RIE}%
+{%
+name={RIE},%
+sort={RIE},%
+type={main},%
+first={RIE},%
+firstplural={RIEs},%
+text={RIE},%
+plural={RIEs},%
+description={Reactive Ion Etching},%
+descriptionplural={Reactive Ion Etching},%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={},%
+longplural={},%
+short={},%
+shortplural={},%
+counter={page},%
+parent={},%
+%
+}%
+
+\glsdefs@newdocentry{AFM}%
+{%
+name={AFM},%
+sort={AFM},%
+type={main},%
+first={AFM},%
+firstplural={AFMs},%
+text={AFM},%
+plural={AFMs},%
+description={Atomic Force Microscopy},%
+descriptionplural={Atomic Force Microscopy},%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={},%
+longplural={},%
+short={},%
+shortplural={},%
+counter={page},%
+parent={},%
+%
+}%
+
+\glsdefs@newdocentry{TTV}%
+{%
+name={TTV},%
+sort={TTV},%
+type={main},%
+first={TTV},%
+firstplural={TTVs},%
+text={TTV},%
+plural={TTVs},%
+description={Total Thickness Variation},%
+descriptionplural={Total Thickness Variation},%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={},%
+longplural={},%
+short={},%
+shortplural={},%
+counter={page},%
+parent={},%
+%
+}%
+
+\glsdefs@newdocentry{RMS}%
+{%
+name={RMS},%
+sort={RMS},%
+type={main},%
+first={RMS},%
+firstplural={RMSs},%
+text={RMS},%
+plural={RMSs},%
+description={Root Mean Square},%
+descriptionplural={Root Mean Square},%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={},%
+longplural={},%
+short={},%
+shortplural={},%
+counter={page},%
+parent={},%
+%
+}%
+

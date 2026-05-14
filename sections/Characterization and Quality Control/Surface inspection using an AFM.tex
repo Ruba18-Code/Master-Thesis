@@ -1,5 +1,5 @@
 \section{Surface inspection using an Atomic Force Microscope}
-\textit{Atomic Force Microscopy} (AFM) is a sophisticated type of 
+\textit{Atomic Force Microscopy} (\gls{AFM}) is a sophisticated type of 
 scanning probe microscopy, which consists of a physical probe
 that scans the specimen in order to produce images of surfaces. 
 Atomic Force Microscopes can map the topology of a surface
@@ -7,36 +7,24 @@ with sub-nanometric resolution, which makes them an ideal tool
 for surface inspection in the context of atomic sensors, and
 more specifically in the context of Optical Contact Bonding,
 due to the strict glass roughness requirements of this method. 
-\\\\
-The AFM consists of a cantilever with a sharp tip at 
-its end ---with a radius of curvature 
-on the order of nanometers, as shown in \ref{fig:AFM_tip}--- that is used to scan 
-the specimen surface. 
-When the tip is brought near a sample, forces between them lead to a 
-deflection of the cantilever according to Hooke's law. Forces that 
-are measured in AFM include mechanical 
-contact force, van der Waals forces and capillary forces, among others.
-Operating modes are  divided into static \textit{contact} modes and \textit{tapping}
-modes, where the cantilever is vibrated at a given frequency.
-\begin{figure}[h]
-    \centering
-    \includegraphics[width=0.6\linewidth]{Images/AFM_tip.JPG}
-    \caption{View of cantilever in Atomic Force Microscope (magnification 1000x) \cite{wiki_afm_tip}}
-    \label{fig:AFM_tip}
-\end{figure}
-\\\\
-A brand-new Nanoquartz glass disk, with specified Root Mean Square roughness
-of \SI{500}{\pico\meter} and Total Thickness Variation (TTV) of \SI{2}{\micro\meter} 
-was inspected using a Park NX10 AFM, with a tip Park Scout 350 in \textit{tapping} mode 
-(resonance frequency \SI{320}{\kilo\hertz}, rate \SI{0.5}{\hertz}).
-It was examined in three different spots of its surface. The obtained data was analyzed
-using the \textit{Gwyddion} software, where 
-two \ref{fig:AFM_image2D} and three-dimensional \ref{fig:AFM_image3D}
-AFM images of the samples were obtained,
-along with the density distribution of roughness ---displayed in 
-\ref{fig:roughness_dist}. A detailed list of the estimated
-surface parameters can be found in \ref{tab:afm}. The precise definition of these parameters 
-can be found in \cite{ISO}. 
+
+The experimental characterization presented in this work was 
+carried out using the facilities of the Physics Department at the 
+\textit{Politecnico di Bari} (POLIBA) in Bari, Italy. 
+
+A brand-new Nanoquartz glass disk, with a specified Root Mean Square 
+(\gls{RMS}) roughness of \SI{500}{\pico\meter} and a Total Thickness Variation 
+(\gls{TTV}) of \SI{2}{\micro\meter}, was inspected using a Park NX10 AFM. The 
+measurements were performed with a Park Scout 350 tip in \textit{tapping} mode 
+(resonance frequency \SI{320}{\kilo\hertz}, scan rate \SI{0.5}{\hertz}). We examined 
+the sample in three different spots of its surface to ensure consistency. The obtained 
+data was subsequently analyzed using the \textit{Gwyddion} software, 
+through which we obtained the two-dimensional (Figure \ref{fig:AFM_image2D}) 
+and three-dimensional (Figure \ref{fig:AFM_image3D}) images. The resulting density 
+distribution of roughness is displayed in Figure \ref{fig:roughness_dist}, 
+and the detailed list of the surface parameters estimated from our 
+measurements can be found in Table \ref{tab:afm}. The precise definition of 
+these parameters is provided in \cite{ISO}.
 \begin{figure}
     \centering
     \begin{subfigure}[b]{0.55\textwidth}
