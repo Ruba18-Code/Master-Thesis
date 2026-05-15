@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999995 (TeX Live 2023/Debian) (preloaded format=xelatex 2026.4.1)  14 MAY 2026 12:39
+This is XeTeX, Version 3.141592653-2.6-0.999995 (TeX Live 2023/Debian) (preloaded format=xelatex 2026.4.1)  15 MAY 2026 10:37
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1428,12 +1428,12 @@ Overfull \hbox (2.06728pt too wide) in paragraph at lines 20--35
 File: Images/lwvc_3dmodel.png Graphic file (type bmp)
 <Images/lwvc_3dmodel.png>
 ) (./sections/Fabrication Methods/Optical Contact Bonding/Intro Optical Contact Bonding.tex [9] [10]
-Overfull \hbox (3.79912pt too wide) in paragraph at lines 96--104
+Overfull \hbox (3.79912pt too wide) in paragraph at lines 102--110
 []\TU/TeXGyreTermes(0)/b/n/10.95 Flatness and Waviness: \TU/TeXGyreTermes(0)/m/n/10.95 Total thickness variation (TTV) must remain below $\OT1/cmr/m/n/10.95 1$$[]$ \TU/TeXGyreTermes(0)/m/n/10.95 for $\OT1/cmr/m/n/10.95 100$$[]$
  []
 
 
-Overfull \hbox (3.13849pt too wide) in paragraph at lines 104--110
+Overfull \hbox (3.13849pt too wide) in paragraph at lines 110--116
 []\TU/TeXGyreTermes(0)/b/n/10.95 Particulate Contamination: \TU/TeXGyreTermes(0)/m/n/10.95 Bonding must be performed under cleanroom conditions (Class
  []
 
@@ -1443,21 +1443,17 @@ File: Images/bonding_process.jpg Graphic file (type bmp)
 ) (./sections/Fabrication Methods/Optical Contact Bonding/Plasma-Activated Bonding.tex
 File: Images/plasma_activation.png Graphic file (type bmp)
 <Images/plasma_activation.png>
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-[13]
-Underfull \hbox (badness 10000) in paragraph at lines 32--48
+ [13]
+Underfull \hbox (badness 10000) in paragraph at lines 33--49
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 32--48
+Underfull \hbox (badness 10000) in paragraph at lines 33--49
 
  []
 
-) (./sections/Fabrication Methods/Optical Contact Bonding/Annealing.tex [14]
+[14]) (./sections/Fabrication Methods/Optical Contact Bonding/Annealing.tex
 File: Images/annealing_time.png Graphic file (type bmp)
 <Images/annealing_time.png>
 ) (./sections/Fabrication Methods/Optical Contact Bonding/Pressure.tex
@@ -1466,10 +1462,10 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 
 File: Images/pressure.png Graphic file (type bmp)
 <Images/pressure.png>
+[15]
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[15]
 File: Images/chucks.png Graphic file (type bmp)
 <Images/chucks.png>
 ) (./sections/Fabrication Methods/Post-Treatment.tex
@@ -1479,11 +1475,7 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 [16]
 File: Images/He.png Graphic file (type bmp)
 <Images/He.png>
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-) [17] [18]
+ [17]) [18]
 Chapter 4.
 (./sections/Characterization and Quality Control/Introduction.tex [19
 
