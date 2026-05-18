@@ -28,31 +28,31 @@
 \contentsline {subsection}{\numberline {3.3.1}Enhanced Helium Hermeticity}{17}{subsection.1.3.3.1}%
 \contentsline {subsection}{\numberline {3.3.2}Activation}{18}{subsection.1.3.3.2}%
 \contentsline {section}{\numberline {3.4}Step-by-Step Experimental Procedure}{18}{section.1.3.4}%
-\contentsline {chapter}{\numberline {4}Characterization and Quality Control}{19}{chapter.1.4}%
-\contentsline {section}{\numberline {4.1}Surface inspection using an Atomic Force Microscope}{20}{section.1.4.1}%
-\contentsline {section}{\numberline {4.2}Contact Angle Measurement}{23}{section.1.4.2}%
-\contentsline {section}{\numberline {4.3}Visual Inspection}{23}{section.1.4.3}%
-\contentsline {section}{\numberline {4.4}Bonding Energy Test}{23}{section.1.4.4}%
-\contentsline {paragraph}{Theoretical Framework}{24}{section*.34}%
-\contentsline {paragraph}{Experimental Procedure and Considerations}{25}{section*.35}%
-\contentsline {paragraph}{Water Stress Corrosion Effects}{25}{section*.36}%
-\contentsline {paragraph}{Controlled Atmosphere Measurements}{25}{section*.37}%
-\contentsline {paragraph}{Advantages and Limitations}{25}{section*.39}%
-\contentsline {section}{\numberline {4.5}Bonding Strength Test}{26}{section.1.4.5}%
-\contentsline {paragraph}{Fracture Mechanics Analysis}{26}{section*.41}%
-\contentsline {paragraph}{Crack Propagation Criterion}{26}{section*.42}%
+\contentsline {chapter}{\numberline {4}Characterization and Quality Control}{21}{chapter.1.4}%
+\contentsline {section}{\numberline {4.1}Surface inspection using an Atomic Force Microscope}{22}{section.1.4.1}%
+\contentsline {section}{\numberline {4.2}Contact Angle Measurement}{25}{section.1.4.2}%
+\contentsline {section}{\numberline {4.3}Visual Inspection}{25}{section.1.4.3}%
+\contentsline {section}{\numberline {4.4}Bonding Energy Test}{25}{section.1.4.4}%
+\contentsline {paragraph}{Theoretical Framework}{26}{section*.38}%
+\contentsline {paragraph}{Experimental Procedure and Considerations}{27}{section*.39}%
+\contentsline {paragraph}{Water Stress Corrosion Effects}{27}{section*.40}%
+\contentsline {paragraph}{Controlled Atmosphere Measurements}{27}{section*.41}%
 \contentsline {paragraph}{Advantages and Limitations}{27}{section*.43}%
-\contentsline {section}{\numberline {4.6}Leak Tests using Spectroscopy}{28}{section.1.4.6}%
-\contentsline {subsection}{\numberline {4.6.1}Experimental Proposal}{29}{subsection.1.4.6.1}%
-\contentsline {chapter}{\numberline {5}Experiments \& Applications}{31}{chapter.1.5}%
-\contentsline {section}{\numberline {5.1}Rail Tracks Corrosion Inspection}{31}{section.1.5.1}%
-\contentsline {section}{\numberline {5.2}Atomic Clocks}{31}{section.1.5.2}%
-\contentsline {section}{\numberline {5.3}Magnetoencephalography}{31}{section.1.5.3}%
-\contentsline {section}{\numberline {5.4}Magnetometry Experiments on Vapor Cells}{31}{section.1.5.4}%
-\contentsline {subsection}{\numberline {5.4.1}Experimental Setup}{32}{subsection.1.5.4.1}%
-\contentsline {subsection}{\numberline {5.4.2}Results and Analysis}{33}{subsection.1.5.4.2}%
-\contentsline {chapter}{\numberline {6}Conclusions}{35}{chapter.1.6}%
-\contentsline {chapter}{Bibliography}{37}{chapter*.48}%
-\contentsline {part}{II\hspace {1em}Annex}{43}{part.2}%
-\contentsline {chapter}{\numberline {A}Recipes in Literature}{45}{chapter.2.1}%
-\contentsline {section}{\numberline {A.1}Recipes in literature}{45}{section.2.1.1}%
+\contentsline {section}{\numberline {4.5}Bonding Strength Test}{28}{section.1.4.5}%
+\contentsline {paragraph}{Fracture Mechanics Analysis}{28}{section*.45}%
+\contentsline {paragraph}{Crack Propagation Criterion}{28}{section*.46}%
+\contentsline {paragraph}{Advantages and Limitations}{29}{section*.47}%
+\contentsline {section}{\numberline {4.6}Leak Tests using Spectroscopy}{30}{section.1.4.6}%
+\contentsline {subsection}{\numberline {4.6.1}Experimental Proposal}{31}{subsection.1.4.6.1}%
+\contentsline {chapter}{\numberline {5}Experiments \& Applications}{33}{chapter.1.5}%
+\contentsline {section}{\numberline {5.1}Rail Tracks Corrosion Inspection}{33}{section.1.5.1}%
+\contentsline {section}{\numberline {5.2}Atomic Clocks}{33}{section.1.5.2}%
+\contentsline {section}{\numberline {5.3}Magnetoencephalography}{33}{section.1.5.3}%
+\contentsline {section}{\numberline {5.4}Magnetometry Experiments on Vapor Cells}{33}{section.1.5.4}%
+\contentsline {subsection}{\numberline {5.4.1}Experimental Setup}{34}{subsection.1.5.4.1}%
+\contentsline {subsection}{\numberline {5.4.2}Results and Analysis}{35}{subsection.1.5.4.2}%
+\contentsline {chapter}{\numberline {6}Conclusions}{37}{chapter.1.6}%
+\contentsline {chapter}{Bibliography}{39}{chapter*.52}%
+\contentsline {part}{II\hspace {1em}Annex}{45}{part.2}%
+\contentsline {chapter}{\numberline {A}Recipes in Literature}{47}{chapter.2.1}%
+\contentsline {section}{\numberline {A.1}Recipes in literature}{47}{section.2.1.1}%

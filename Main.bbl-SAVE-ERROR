@@ -127,8 +127,8 @@
       \strng{authorbibnamehash}{7a039333d5db8653966d85f00a45e03c}
       \strng{authornamehash}{7a039333d5db8653966d85f00a45e03c}
       \strng{authorfullhash}{61b9f9085b74a6ad8e42a59fa9af5f35}
-      \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Physical Review Applied}
@@ -236,8 +236,8 @@
       \strng{authorbibnamehash}{90c728368ca766300c8d85ecfb842aa9}
       \strng{authornamehash}{90c728368ca766300c8d85ecfb842aa9}
       \strng{authorfullhash}{90c728368ca766300c8d85ecfb842aa9}
-      \field{sortinit}{2}
-      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{issn}{2045-2322}
@@ -274,8 +274,8 @@
       \strng{authorbibnamehash}{06b58e89d854ccc6fd408ae312b5ba07}
       \strng{authornamehash}{06b58e89d854ccc6fd408ae312b5ba07}
       \strng{authorfullhash}{06b58e89d854ccc6fd408ae312b5ba07}
-      \field{sortinit}{2}
-      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{issn}{2072-666X}
@@ -309,8 +309,8 @@
       \strng{authorbibnamehash}{eb6d80b8d6ac0e4af512406c36e6cb39}
       \strng{authornamehash}{eb6d80b8d6ac0e4af512406c36e6cb39}
       \strng{authorfullhash}{eb6d80b8d6ac0e4af512406c36e6cb39}
-      \field{sortinit}{2}
-      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{title}{Controlling Stress in Bonded Optics}
@@ -330,8 +330,8 @@
       \strng{authorbibnamehash}{4d375e6a14705be231ca16ed141e554c}
       \strng{authornamehash}{4d375e6a14705be231ca16ed141e554c}
       \strng{authorfullhash}{4d375e6a14705be231ca16ed141e554c}
-      \field{sortinit}{2}
-      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{month}{12}
@@ -534,8 +534,8 @@
       \list{publisher}{1}{%
         {Springer Berlin Heidelberg}%
       }
-      \field{sortinit}{3}
-      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
       \field{labeltitlesource}{title}
       \field{isbn}{9783642233661}
       \field{issn}{1437-0859}
@@ -579,8 +579,8 @@
       \strng{authorbibnamehash}{05bda5e679d3e78cbee21b7da0f57e70}
       \strng{authornamehash}{05bda5e679d3e78cbee21b7da0f57e70}
       \strng{authorfullhash}{05bda5e679d3e78cbee21b7da0f57e70}
-      \field{sortinit}{3}
-      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{title}{Femtosecond laser micromachining for integrated quantum photonics}
@@ -1059,8 +1059,8 @@
       \strng{authorbibnamehash}{5c0e543ff81351d9ef1062e531c55eb5}
       \strng{authornamehash}{5c0e543ff81351d9ef1062e531c55eb5}
       \strng{authorfullhash}{e2375134cced19bdeba46a8cc89a6f12}
-      \field{sortinit}{5}
-      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
+      \field{sortinit}{6}
+      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{issn}{1938-6737}
@@ -1114,8 +1114,8 @@
       \strng{authorbibnamehash}{8e3fb5f2c10fc37a4e5efe24bcd69b97}
       \strng{authornamehash}{8e3fb5f2c10fc37a4e5efe24bcd69b97}
       \strng{authorfullhash}{50f0b707757374472e49510402e9d80e}
-      \field{sortinit}{5}
-      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
+      \field{sortinit}{6}
+      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{issn}{1869-196X}
@@ -1154,8 +1154,8 @@
       \strng{authorbibnamehash}{617170be0bd13f0fb607ca1fafc9b785}
       \strng{authornamehash}{617170be0bd13f0fb607ca1fafc9b785}
       \strng{authorfullhash}{617170be0bd13f0fb607ca1fafc9b785}
-      \field{sortinit}{5}
-      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
+      \field{sortinit}{6}
+      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Journal of Non-Crystalline Solids}
@@ -1450,8 +1450,8 @@
       \strng{authorbibnamehash}{765abe27836b1eb509789adc51352a3c}
       \strng{authornamehash}{765abe27836b1eb509789adc51352a3c}
       \strng{authorfullhash}{1a6c88c27b7a23267c039bac56d381a8}
-      \field{sortinit}{6}
-      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
+      \field{sortinit}{7}
+      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{issn}{0022-3093}
@@ -1549,8 +1549,8 @@
       \strng{authorbibnamehash}{e2ee77ed704e23fd72768047cb11af53}
       \strng{authornamehash}{e2ee77ed704e23fd72768047cb11af53}
       \strng{authorfullhash}{6390ba9d94b70da25e7a41051549c5a0}
-      \field{sortinit}{6}
-      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
+      \field{sortinit}{7}
+      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{issn}{1089-7550}
@@ -1606,8 +1606,8 @@
       \strng{authorbibnamehash}{f6aa98060138e6fd46ca01c745c63d2f}
       \strng{authornamehash}{f6aa98060138e6fd46ca01c745c63d2f}
       \strng{authorfullhash}{24def0c93744e22acaa1bad84b0fb8b6}
-      \field{sortinit}{6}
-      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
+      \field{sortinit}{7}
+      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{issn}{1539-4794}
@@ -1801,8 +1801,8 @@
       \strng{authorbibnamehash}{d8da29454b088dee3c120abd06d1e4f4}
       \strng{authornamehash}{d8da29454b088dee3c120abd06d1e4f4}
       \strng{authorfullhash}{952aff7175dfcd2d3a6541bda9ee23de}
-      \field{sortinit}{8}
-      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
+      \field{sortinit}{9}
+      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{booktitle}{Particles on Surfaces 2}
@@ -1843,8 +1843,8 @@
       \strng{authorbibnamehash}{91da9e49a822be03fbd329ed7a979d24}
       \strng{authornamehash}{91da9e49a822be03fbd329ed7a979d24}
       \strng{authorfullhash}{91da9e49a822be03fbd329ed7a979d24}
-      \field{sortinit}{8}
-      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
+      \field{sortinit}{9}
+      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{issn}{1521-396X}
@@ -2121,8 +2121,8 @@
       \strng{authorbibnamehash}{459401f3010f46a6f02d6ee350c39727}
       \strng{authornamehash}{459401f3010f46a6f02d6ee350c39727}
       \strng{authorfullhash}{221cea73acc6fecd152bd52583e85047}
-      \field{sortinit}{9}
-      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{issn}{2076-3417}
@@ -2180,8 +2180,8 @@
       \strng{authorbibnamehash}{9c557b1cc0c81b31a0e65ee15c2f8051}
       \strng{authornamehash}{9c557b1cc0c81b31a0e65ee15c2f8051}
       \strng{authorfullhash}{b47d96c9c5f53e6663fbfb42122a493b}
-      \field{sortinit}{9}
-      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{issn}{0257-8972}
@@ -2589,6 +2589,27 @@
       \verb{url}
       \verb http://dx.doi.org/10.1109/TMI.2018.2856367
       \endverb
+    \endentry
+    \entry{wiki_afm_tip}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=517a0017d2c165148315fcaeb7e9cf0c}{%
+           family={{SecretDisc}},
+           familyi={S\bibinitperiod}}}%
+      }
+      \strng{namehash}{517a0017d2c165148315fcaeb7e9cf0c}
+      \strng{fullhash}{517a0017d2c165148315fcaeb7e9cf0c}
+      \strng{bibnamehash}{517a0017d2c165148315fcaeb7e9cf0c}
+      \strng{authorbibnamehash}{517a0017d2c165148315fcaeb7e9cf0c}
+      \strng{authornamehash}{517a0017d2c165148315fcaeb7e9cf0c}
+      \strng{authorfullhash}{517a0017d2c165148315fcaeb7e9cf0c}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{Wikimedia Commons}
+      \field{note}{Accessed: 2024-05-20}
+      \field{title}{Atomic Force Microscopy (AFM) cantilever and tip}
+      \field{year}{2008}
     \endentry
     \entry{ISO}{manual}{}
       \name{author}{1}{}{%
