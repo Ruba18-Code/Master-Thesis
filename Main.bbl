@@ -274,8 +274,8 @@
       \strng{authorbibnamehash}{06b58e89d854ccc6fd408ae312b5ba07}
       \strng{authornamehash}{06b58e89d854ccc6fd408ae312b5ba07}
       \strng{authorfullhash}{06b58e89d854ccc6fd408ae312b5ba07}
-      \field{sortinit}{2}
-      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{issn}{2072-666X}
@@ -309,8 +309,8 @@
       \strng{authorbibnamehash}{eb6d80b8d6ac0e4af512406c36e6cb39}
       \strng{authornamehash}{eb6d80b8d6ac0e4af512406c36e6cb39}
       \strng{authorfullhash}{eb6d80b8d6ac0e4af512406c36e6cb39}
-      \field{sortinit}{2}
-      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{title}{Controlling Stress in Bonded Optics}
@@ -1017,6 +1017,128 @@
       \field{pages}{1154\bibrangedash 1169}
       \range{pages}{16}
     \endentry
+    \entry{turner2006}{article}{}
+      \name{author}{2}{}{%
+        {{hash=a1d2d54d4aefc2517fdcf5ddf71eb5c9}{%
+           family={Turner},
+           familyi={T\bibinitperiod},
+           given={K.T},
+           giveni={K\bibinitperiod}}}%
+        {{hash=8e707636c59f3c817400d0f5c2fc0386}{%
+           family={Spearing},
+           familyi={S\bibinitperiod},
+           given={S.M},
+           giveni={S\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {The Royal Society}%
+      }
+      \strng{namehash}{c2983a88ba03c252af98faa8c3cd38c5}
+      \strng{fullhash}{c2983a88ba03c252af98faa8c3cd38c5}
+      \strng{bibnamehash}{c2983a88ba03c252af98faa8c3cd38c5}
+      \strng{authorbibnamehash}{c2983a88ba03c252af98faa8c3cd38c5}
+      \strng{authornamehash}{c2983a88ba03c252af98faa8c3cd38c5}
+      \strng{authorfullhash}{c2983a88ba03c252af98faa8c3cd38c5}
+      \field{extraname}{1}
+      \field{sortinit}{5}
+      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{1471-2946}
+      \field{journaltitle}{Proceedings of the Royal Society A: Mathematical, Physical and Engineering Sciences}
+      \field{month}{11}
+      \field{number}{2065}
+      \field{title}{Mechanics of direct wafer bonding}
+      \field{volume}{462}
+      \field{year}{2005}
+      \field{pages}{171\bibrangedash 188}
+      \range{pages}{18}
+      \verb{doi}
+      \verb 10.1098/rspa.2005.1571
+      \endverb
+      \verb{urlraw}
+      \verb http://dx.doi.org/10.1098/rspa.2005.1571
+      \endverb
+      \verb{url}
+      \verb http://dx.doi.org/10.1098/rspa.2005.1571
+      \endverb
+    \endentry
+    \entry{gosele1998}{article}{}
+      \name{author}{2}{}{%
+        {{hash=18b24966852d39879593e4dd62fd0b23}{%
+           family={Gösele},
+           familyi={G\bibinitperiod},
+           given={Ulrich\bibnamedelimb Prof.\bibnamedelimi Dr.},
+           giveni={U\bibinitperiod\bibinitdelim P\bibinitperiod\bibinitdelim D\bibinitperiod}}}%
+        {{hash=b99ffedae7e02fd2f4ec6bcfc313e9e4}{%
+           family={Tong},
+           familyi={T\bibinitperiod},
+           given={O.-Y.},
+           giveni={O\bibinithyphendelim Y\bibinitperiod}}}%
+      }
+      \strng{namehash}{d1f47f8d08893f3bbeef0d2aead56193}
+      \strng{fullhash}{d1f47f8d08893f3bbeef0d2aead56193}
+      \strng{bibnamehash}{d1f47f8d08893f3bbeef0d2aead56193}
+      \strng{authorbibnamehash}{d1f47f8d08893f3bbeef0d2aead56193}
+      \strng{authornamehash}{d1f47f8d08893f3bbeef0d2aead56193}
+      \strng{authorfullhash}{d1f47f8d08893f3bbeef0d2aead56193}
+      \field{sortinit}{5}
+      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Annual Review of Materials Science}
+      \field{title}{Semiconductor wafer bonding}
+      \field{volume}{28}
+      \field{year}{1998}
+      \field{pages}{215\bibrangedash 241}
+      \range{pages}{27}
+      \verb{urlraw}
+      \verb https://api.semanticscholar.org/CorpusID:53965265
+      \endverb
+      \verb{url}
+      \verb https://api.semanticscholar.org/CorpusID:53965265
+      \endverb
+    \endentry
+    \entry{possl1999}{article}{}
+      \name{author}{1}{}{%
+        {{hash=d50b5bf5d08761c80f5e6be18f7d74f0}{%
+           family={Plößl},
+           familyi={P\bibinitperiod},
+           given={A},
+           giveni={A\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Elsevier BV}%
+      }
+      \strng{namehash}{d50b5bf5d08761c80f5e6be18f7d74f0}
+      \strng{fullhash}{d50b5bf5d08761c80f5e6be18f7d74f0}
+      \strng{bibnamehash}{d50b5bf5d08761c80f5e6be18f7d74f0}
+      \strng{authorbibnamehash}{d50b5bf5d08761c80f5e6be18f7d74f0}
+      \strng{authornamehash}{d50b5bf5d08761c80f5e6be18f7d74f0}
+      \strng{authorfullhash}{d50b5bf5d08761c80f5e6be18f7d74f0}
+      \field{sortinit}{5}
+      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{0927-796X}
+      \field{journaltitle}{Materials Science and Engineering: R: Reports}
+      \field{month}{3}
+      \field{number}{1-2}
+      \field{title}{Wafer direct bonding: tailoring adhesion between brittle materials}
+      \field{volume}{25}
+      \field{year}{1999}
+      \field{pages}{1\bibrangedash 88}
+      \range{pages}{88}
+      \verb{doi}
+      \verb 10.1016/s0927-796x(98)00017-5
+      \endverb
+      \verb{urlraw}
+      \verb http://dx.doi.org/10.1016/S0927-796X(98)00017-5
+      \endverb
+      \verb{url}
+      \verb http://dx.doi.org/10.1016/S0927-796X(98)00017-5
+      \endverb
+    \endentry
     \entry{kalk2014}{article}{}
       \name{author}{6}{}{%
         {{hash=34e267421697b345ce4b262dc65640db}{%
@@ -1059,8 +1181,8 @@
       \strng{authorbibnamehash}{5c0e543ff81351d9ef1062e531c55eb5}
       \strng{authornamehash}{5c0e543ff81351d9ef1062e531c55eb5}
       \strng{authorfullhash}{e2375134cced19bdeba46a8cc89a6f12}
-      \field{sortinit}{5}
-      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
+      \field{sortinit}{6}
+      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{issn}{1938-6737}
@@ -1114,8 +1236,8 @@
       \strng{authorbibnamehash}{8e3fb5f2c10fc37a4e5efe24bcd69b97}
       \strng{authornamehash}{8e3fb5f2c10fc37a4e5efe24bcd69b97}
       \strng{authorfullhash}{50f0b707757374472e49510402e9d80e}
-      \field{sortinit}{5}
-      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
+      \field{sortinit}{6}
+      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{issn}{1869-196X}
@@ -1329,46 +1451,6 @@
       \field{type}{techreport}
       \field{year}{2023}
     \endentry
-    \entry{possl1999}{article}{}
-      \name{author}{1}{}{%
-        {{hash=d50b5bf5d08761c80f5e6be18f7d74f0}{%
-           family={Plößl},
-           familyi={P\bibinitperiod},
-           given={A},
-           giveni={A\bibinitperiod}}}%
-      }
-      \list{publisher}{1}{%
-        {Elsevier BV}%
-      }
-      \strng{namehash}{d50b5bf5d08761c80f5e6be18f7d74f0}
-      \strng{fullhash}{d50b5bf5d08761c80f5e6be18f7d74f0}
-      \strng{bibnamehash}{d50b5bf5d08761c80f5e6be18f7d74f0}
-      \strng{authorbibnamehash}{d50b5bf5d08761c80f5e6be18f7d74f0}
-      \strng{authornamehash}{d50b5bf5d08761c80f5e6be18f7d74f0}
-      \strng{authorfullhash}{d50b5bf5d08761c80f5e6be18f7d74f0}
-      \field{sortinit}{6}
-      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{issn}{0927-796X}
-      \field{journaltitle}{Materials Science and Engineering: R: Reports}
-      \field{month}{3}
-      \field{number}{1-2}
-      \field{title}{Wafer direct bonding: tailoring adhesion between brittle materials}
-      \field{volume}{25}
-      \field{year}{1999}
-      \field{pages}{1\bibrangedash 88}
-      \range{pages}{88}
-      \verb{doi}
-      \verb 10.1016/s0927-796x(98)00017-5
-      \endverb
-      \verb{urlraw}
-      \verb http://dx.doi.org/10.1016/S0927-796X(98)00017-5
-      \endverb
-      \verb{url}
-      \verb http://dx.doi.org/10.1016/S0927-796X(98)00017-5
-      \endverb
-    \endentry
     \entry{okada1984}{article}{}
       \name{author}{2}{}{%
         {{hash=f78df3f264c40842483018f1d221537f}{%
@@ -1391,8 +1473,8 @@
       \strng{authorbibnamehash}{8a4a0c406a55f00ef885922a5e8e1800}
       \strng{authornamehash}{8a4a0c406a55f00ef885922a5e8e1800}
       \strng{authorfullhash}{8a4a0c406a55f00ef885922a5e8e1800}
-      \field{sortinit}{6}
-      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
+      \field{sortinit}{7}
+      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{issn}{1089-7550}
@@ -1450,8 +1532,8 @@
       \strng{authorbibnamehash}{765abe27836b1eb509789adc51352a3c}
       \strng{authornamehash}{765abe27836b1eb509789adc51352a3c}
       \strng{authorfullhash}{1a6c88c27b7a23267c039bac56d381a8}
-      \field{sortinit}{6}
-      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
+      \field{sortinit}{7}
+      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{issn}{0022-3093}
@@ -1664,6 +1746,97 @@
       \field{pages}{754\bibrangedash 759}
       \range{pages}{6}
     \endentry
+    \entry{miki2003}{article}{}
+      \name{author}{2}{}{%
+        {{hash=7e4c12f473686e934091d3b4cb1ec0d9}{%
+           family={Miki},
+           familyi={M\bibinitperiod},
+           given={N.},
+           giveni={N\bibinitperiod}}}%
+        {{hash=8e707636c59f3c817400d0f5c2fc0386}{%
+           family={Spearing},
+           familyi={S\bibinitperiod},
+           given={S.\bibnamedelimi M.},
+           giveni={S\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {AIP Publishing}%
+      }
+      \strng{namehash}{2924eb39f6f836329ae35578870b58f3}
+      \strng{fullhash}{2924eb39f6f836329ae35578870b58f3}
+      \strng{bibnamehash}{2924eb39f6f836329ae35578870b58f3}
+      \strng{authorbibnamehash}{2924eb39f6f836329ae35578870b58f3}
+      \strng{authornamehash}{2924eb39f6f836329ae35578870b58f3}
+      \strng{authorfullhash}{2924eb39f6f836329ae35578870b58f3}
+      \field{sortinit}{7}
+      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{1089-7550}
+      \field{journaltitle}{Journal of Applied Physics}
+      \field{month}{11}
+      \field{number}{10}
+      \field{title}{Effect of nanoscale surface roughness on the bonding energy of direct-bonded silicon wafers}
+      \field{volume}{94}
+      \field{year}{2003}
+      \field{pages}{6800\bibrangedash 6806}
+      \range{pages}{7}
+      \verb{doi}
+      \verb 10.1063/1.1621086
+      \endverb
+      \verb{urlraw}
+      \verb http://dx.doi.org/10.1063/1.1621086
+      \endverb
+      \verb{url}
+      \verb http://dx.doi.org/10.1063/1.1621086
+      \endverb
+    \endentry
+    \entry{turner2002}{article}{}
+      \name{author}{2}{}{%
+        {{hash=a1d2d54d4aefc2517fdcf5ddf71eb5c9}{%
+           family={Turner},
+           familyi={T\bibinitperiod},
+           given={K.\bibnamedelimi T.},
+           giveni={K\bibinitperiod\bibinitdelim T\bibinitperiod}}}%
+        {{hash=8e707636c59f3c817400d0f5c2fc0386}{%
+           family={Spearing},
+           familyi={S\bibinitperiod},
+           given={S.\bibnamedelimi M.},
+           giveni={S\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {AIP Publishing}%
+      }
+      \strng{namehash}{c2983a88ba03c252af98faa8c3cd38c5}
+      \strng{fullhash}{c2983a88ba03c252af98faa8c3cd38c5}
+      \strng{bibnamehash}{c2983a88ba03c252af98faa8c3cd38c5}
+      \strng{authorbibnamehash}{c2983a88ba03c252af98faa8c3cd38c5}
+      \strng{authornamehash}{c2983a88ba03c252af98faa8c3cd38c5}
+      \strng{authorfullhash}{c2983a88ba03c252af98faa8c3cd38c5}
+      \field{extraname}{2}
+      \field{sortinit}{7}
+      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{1089-7550}
+      \field{journaltitle}{Journal of Applied Physics}
+      \field{month}{12}
+      \field{number}{12}
+      \field{title}{Modeling of direct wafer bonding: Effect of wafer bow and etch patterns}
+      \field{volume}{92}
+      \field{year}{2002}
+      \field{pages}{7658\bibrangedash 7666}
+      \range{pages}{9}
+      \verb{doi}
+      \verb 10.1063/1.1521792
+      \endverb
+      \verb{urlraw}
+      \verb http://dx.doi.org/10.1063/1.1521792
+      \endverb
+      \verb{url}
+      \verb http://dx.doi.org/10.1063/1.1521792
+      \endverb
+    \endentry
     \entry{du2022}{article}{}
       \name{author}{3}{}{%
         {{hash=bc20802f575175c5666ccc401f133f6f}{%
@@ -1801,8 +1974,8 @@
       \strng{authorbibnamehash}{d8da29454b088dee3c120abd06d1e4f4}
       \strng{authornamehash}{d8da29454b088dee3c120abd06d1e4f4}
       \strng{authorfullhash}{952aff7175dfcd2d3a6541bda9ee23de}
-      \field{sortinit}{8}
-      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
+      \field{sortinit}{9}
+      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{booktitle}{Particles on Surfaces 2}
@@ -1843,8 +2016,8 @@
       \strng{authorbibnamehash}{91da9e49a822be03fbd329ed7a979d24}
       \strng{authornamehash}{91da9e49a822be03fbd329ed7a979d24}
       \strng{authorfullhash}{91da9e49a822be03fbd329ed7a979d24}
-      \field{sortinit}{8}
-      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
+      \field{sortinit}{9}
+      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{issn}{1521-396X}
@@ -2121,8 +2294,8 @@
       \strng{authorbibnamehash}{459401f3010f46a6f02d6ee350c39727}
       \strng{authornamehash}{459401f3010f46a6f02d6ee350c39727}
       \strng{authorfullhash}{221cea73acc6fecd152bd52583e85047}
-      \field{sortinit}{9}
-      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{issn}{2076-3417}
@@ -2325,6 +2498,66 @@
       \endverb
       \verb{url}
       \verb http://dx.doi.org/10.1039/C5RA06705G
+      \endverb
+    \endentry
+    \entry{takagi1998}{article}{}
+      \name{author}{5}{}{%
+        {{hash=6a10412575ba686b765bdef8d2e28c1c}{%
+           family={Takagi},
+           familyi={T\bibinitperiod},
+           given={Hideki},
+           giveni={H\bibinitperiod}}}%
+        {{hash=23488b1e7ffa8d4d3519a0b71ab5fb5a}{%
+           family={Maeda},
+           familyi={M\bibinitperiod},
+           given={Ryutaro},
+           giveni={R\bibinitperiod}}}%
+        {{hash=59baf7f1809b6a99e88178776b929847}{%
+           family={Chung},
+           familyi={C\bibinitperiod},
+           given={Teak\bibnamedelima Ryong},
+           giveni={T\bibinitperiod\bibinitdelim R\bibinitperiod}}}%
+        {{hash=e3f995c0bdaa44984f49fc49206823c2}{%
+           family={Hosoda},
+           familyi={H\bibinitperiod},
+           given={Naoe},
+           giveni={N\bibinitperiod}}}%
+        {{hash=0eceb33a4ee854537c0dc95858bf7593}{%
+           family={Suga},
+           familyi={S\bibinitperiod},
+           given={Tadatomo},
+           giveni={T\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {IOP Publishing}%
+      }
+      \strng{namehash}{1b2a0394383719a9f3a0a433f37644f0}
+      \strng{fullhash}{a28a40765b9c10a5380e2b3f2cd219e0}
+      \strng{bibnamehash}{1b2a0394383719a9f3a0a433f37644f0}
+      \strng{authorbibnamehash}{1b2a0394383719a9f3a0a433f37644f0}
+      \strng{authornamehash}{1b2a0394383719a9f3a0a433f37644f0}
+      \strng{authorfullhash}{a28a40765b9c10a5380e2b3f2cd219e0}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{1347-4065}
+      \field{journaltitle}{Japanese Journal of Applied Physics}
+      \field{month}{7}
+      \field{number}{7R}
+      \field{title}{Effect of Surface Roughness on Room-Temperature Wafer Bonding by Ar Beam Surface Activation}
+      \field{volume}{37}
+      \field{year}{1998}
+      \field{pages}{4197}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1143/jjap.37.4197
+      \endverb
+      \verb{urlraw}
+      \verb http://dx.doi.org/10.1143/JJAP.37.4197
+      \endverb
+      \verb{url}
+      \verb http://dx.doi.org/10.1143/JJAP.37.4197
       \endverb
     \endentry
     \entry{bain2022}{article}{}
@@ -2644,6 +2877,46 @@
       \field{title}{{ISO 25178}: Geometrical Product Specifications ({GPS}) -- Surface texture: Areal}
       \field{year}{2012}
     \endentry
+    \entry{wikicontact}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=88183b946cc5f0e8c96b2e66e1c74a7e}{%
+           family={Unknown},
+           familyi={U\bibinitperiod}}}%
+      }
+      \strng{namehash}{88183b946cc5f0e8c96b2e66e1c74a7e}
+      \strng{fullhash}{88183b946cc5f0e8c96b2e66e1c74a7e}
+      \strng{bibnamehash}{88183b946cc5f0e8c96b2e66e1c74a7e}
+      \strng{authorbibnamehash}{88183b946cc5f0e8c96b2e66e1c74a7e}
+      \strng{authornamehash}{88183b946cc5f0e8c96b2e66e1c74a7e}
+      \strng{authorfullhash}{88183b946cc5f0e8c96b2e66e1c74a7e}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{Wikimedia Commons}
+      \field{title}{A diagram that shows the contact angle and interphase-energy between 3 phases}
+      \field{year}{2006}
+    \endentry
+    \entry{wikicontacts}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=f266651667b50b3fd491c98cec367c55}{%
+           family={MesserWoland},
+           familyi={M\bibinitperiod}}}%
+      }
+      \strng{namehash}{f266651667b50b3fd491c98cec367c55}
+      \strng{fullhash}{f266651667b50b3fd491c98cec367c55}
+      \strng{bibnamehash}{f266651667b50b3fd491c98cec367c55}
+      \strng{authorbibnamehash}{f266651667b50b3fd491c98cec367c55}
+      \strng{authornamehash}{f266651667b50b3fd491c98cec367c55}
+      \strng{authorfullhash}{f266651667b50b3fd491c98cec367c55}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{Wikimedia Commons}
+      \field{title}{Droplets of fluid on a surface, to illustrate the effects of surface tension and wetting.}
+      \field{year}{2006}
+    \endentry
     \entry{pasternak2018}{article}{}
       \name{author}{2}{}{%
         {{hash=afc800054349f955995ba5776fcd3e0f}{%
@@ -2676,6 +2949,60 @@
       \range{pages}{12}
       \verb{doi}
       \verb 10.1039/C7RA08854J
+      \endverb
+    \endentry
+    \entry{nrings}{article}{}
+      \name{author}{6}{}{%
+        {{hash=688e5469dda8c4bbb2e649f9227cadee}{%
+           family={Howlader},
+           familyi={H\bibinitperiod},
+           given={Matiar\bibnamedelimb M.\bibnamedelimi R.},
+           giveni={M\bibinitperiod\bibinitdelim M\bibinitperiod\bibinitdelim R\bibinitperiod}}}%
+        {{hash=7620554a796f249c6e5d997a28e6d012}{%
+           family={Kagami},
+           familyi={K\bibinitperiod},
+           given={G.},
+           giveni={G\bibinitperiod}}}%
+        {{hash=6be0bfd0c38b2836c48cb212e445020d}{%
+           family={Lee},
+           familyi={L\bibinitperiod},
+           given={Sang\bibnamedelima Ho},
+           giveni={S\bibinitperiod\bibinitdelim H\bibinitperiod}}}%
+        {{hash=10447f3b65dc4ebd04e9457b25c77a36}{%
+           family={Wang},
+           familyi={W\bibinitperiod},
+           given={Jinguo\bibnamedelima G.},
+           giveni={J\bibinitperiod\bibinitdelim G\bibinitperiod}}}%
+        {{hash=7f607914be1b5f93a154a1f1685fd53f}{%
+           family={Kim},
+           familyi={K\bibinitperiod},
+           given={Moon\bibnamedelima J.},
+           giveni={M\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+        {{hash=446c1f05505cbe67f5a37c5341defb06}{%
+           family={Yamauchi},
+           familyi={Y\bibinitperiod},
+           given={Akira},
+           giveni={A\bibinitperiod}}}%
+      }
+      \strng{namehash}{aa70c55cbd062291dac4626cf618a19d}
+      \strng{fullhash}{36e0844b7b0f41a2311854c1a132274d}
+      \strng{bibnamehash}{aa70c55cbd062291dac4626cf618a19d}
+      \strng{authorbibnamehash}{aa70c55cbd062291dac4626cf618a19d}
+      \strng{authornamehash}{aa70c55cbd062291dac4626cf618a19d}
+      \strng{authorfullhash}{36e0844b7b0f41a2311854c1a132274d}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of Microelectromechanical Systems}
+      \field{number}{4}
+      \field{title}{Sequential Plasma-Activated Bonding Mechanism of Silicon/Silicon Wafers}
+      \field{volume}{19}
+      \field{year}{2010}
+      \field{pages}{840\bibrangedash 848}
+      \range{pages}{9}
+      \verb{doi}
+      \verb 10.1109/JMEMS.2010.2049731
       \endverb
     \endentry
     \entry{takeuchi2022}{article}{}
@@ -3482,6 +3809,8 @@
       \endverb
     \endentry
   \enddatalist
+  \missing{CITA_BONDING}
+  \missing{CITA_METODO}
 \endrefsection
 \endinput
 

@@ -4,27 +4,44 @@
 Optical contact bonding is a glueless joining process in which two closely 
 conformal surfaces adhere purely through intermolecular forces, without the 
 need for adhesives or intermediate layers \cite{rammhandbook}. 
-This property makes it particularly attractive for the hermetic sealing of Laser-Written Vapor Cells 
-and other glass-based atomic sensors, where outgassing from adhesives, 
-thermal incompatibility, or optical absorption at the bond interface can 
-compromise device performance \cite{art2025}.
+This property makes it particularly attractive for the hermetic sealing of 
+Laser-Written Vapor Cells and other glass-based atomic sensors, where 
+outgassing from adhesives, thermal incompatibility, or optical absorption 
+at the bond interface can compromise device performance \cite{art2025}.
 
 Intermolecular forces are, in isolation, insufficient to create a robust bond 
 between two substrates. However, when mating surfaces conform to each other 
 with nanometric precision, the resulting \textit{intimate contact} over a 
 sufficiently large area produces intermolecular interactions with a measurable 
-macroscopic effect \cite{haisma1994}. In practice, this imposes strict 
-roughness and waviness requirements on both surfaces \cite{rammhandbook}. 
-When these requirements are met and appropriate surface treatments are applied, 
-bonding energies comparable to that of the bulk material 
+macroscopic effect \cite{haisma1994}. The bonding process can be understood 
+through an energy balance: a bond front propagates across the interface if and 
+only if the reduction in surface energy associated with the newly formed 
+contact exceeds the elastic strain energy that must be stored in the wafers 
+as they deform to accommodate each other's surface deviations 
+\cite{turner2006,gosele1998, possl1999}. For a surface gap of height $h$ and lateral 
+extent $R$ on a wafer of thickness $t$ and Young's modulus $E$, the bonding 
+criterion takes the approximate form
+%
+\begin{equation}
+    \gamma \gtrsim C \, \frac{E \, t^{3} \, h^{2}}{R^{4}},
+    \label{eq:bonding_criterion}
+\end{equation}
+%
+where $\gamma$ is the work of adhesion per unit area and $C$ is a 
+geometry-dependent numerical prefactor \cite{turner2006,gosele1998}. 
+In practice, this imposes strict roughness and 
+waviness requirements on both surfaces \cite{rammhandbook}. When these 
+requirements are met and appropriate surface treatments are applied, bonding 
+energies comparable to that of the bulk material 
 (\SI{2.5}{\joule\per\meter\squared}) can be achieved \cite{kalk2014}.
 
 Achieving such bond strengths requires a carefully sequenced preparation 
 protocol. The following sections describe the key elements of this protocol: 
-material selection and surface quality requirements, chemical treatment, plasma 
-treatment, annealing and mechanical pressure assistance. Each step builds on the previous 
-one; together, they determine the final bond quality and make optical contact 
-bonding a viable low-temperature process for LWVC fabrication \cite{li2013}.
+material selection and surface quality requirements, chemical treatment, 
+plasma treatment, annealing, and mechanical pressure assistance. Each step 
+builds on the previous one; together, they determine the final bond quality 
+and make optical contact bonding a viable low-temperature process for LWVC 
+fabrication \cite{li2013}.
 
 \subsection{Types of Glasses \& Quality Requirements}
 The success of optical contact bonding critically depends on both the material 
@@ -91,22 +108,32 @@ dimensional stability, including space telescopes and lithography systems
 \cite{jedamzik2014}.
 
 \paragraph{Surface Quality Requirements}
-Table~\ref{tab:surface_requirements} summarizes the surface quality 
-parameters critical for successful optical contact bonding 
-\cite{gosele2006, possl1999}. The three most important metrics are:
+The bonding criterion in Eq.~\eqref{eq:bonding_criterion} directly motivates 
+the surface quality thresholds summarized in 
+Table~\ref{tab:surface_requirements}. For a given material---with fixed $E$, 
+$t$, and $\gamma$---the criterion sets an upper bound on the tolerable gap 
+amplitude $h$ as a function of its lateral scale $R$. Three parameters 
+are most critical in practice:
 \begin{enumerate}
 \item \textbf{Surface Roughness:} RMS roughness below \SI{0.5}{\nano\meter} 
     and peak-to-valley roughness below \SI{2}{\nano\meter} over the bonding 
     area \cite{gosele2006} are required to ensure intimate contact and allow 
-    intermolecular forces to dominate. 
+    intermolecular forces to dominate. At these length scales the gap amplitude 
+    $h$ is sufficiently small that even short lateral extents $R$ satisfy 
+    Eq.~\eqref{eq:bonding_criterion}. Furthermore, the bonding energy is 
+    proportional to the real area of contact, which decreases with 
+    increasing roughness independently of whether the surfaces close at the 
+    macroscale \cite{miki2003}.
 \item \textbf{Flatness and Waviness:} Total thickness variation (TTV) must 
     remain below \SI{1}{\micro\meter} for \SI{100}{\milli\meter} diameter 
     wafers. Surface flatness must be better than $\lambda$/10 
     (approximately \SI{60}{\nano\meter} at \SI{633}{\nano\meter}) for 
-    precision optical applications. Long-spatial-wavelength deviations 
-    (waviness) are particularly detrimental because, unlike short-scale 
-    roughness, they cannot be accommodated by elastic surface deformation 
-    during bonding \cite{kalk2014}.   
+    precision optical applications. Intermediate-scale waviness is 
+    particularly detrimental: its lateral extent $R$ is not large enough 
+    for the $R^{4}$ denominator in Eq.~\eqref{eq:bonding_criterion} to 
+    suppress the elastic energy cost, yet its amplitude $h$ can reach tens 
+    of nanometres---far exceeding that of fine surface roughness 
+    \cite{kalk2014, turner2002}.
 \item \textbf{Particulate Contamination:} Bonding must be performed under 
     cleanroom conditions (Class 100 or better, ISO 5). Even sub-micron 
     particles can nucleate localized voids that propagate across the 

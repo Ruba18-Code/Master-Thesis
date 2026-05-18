@@ -1,2 +1,52 @@
 \section{Contact Angle Measurement}
-\textbf{SOBRE HYDROPHILICITY}
+
+The contact angle ($\theta$) is geometrically defined 
+as the angle formed by a liquid at the three-phase boundary 
+where the liquid, gas, and solid phases intersect. 
+As illustrated in Figure~\ref{fig:contact_angle_definition}, 
+assuming an ideal, planar, and smooth surface, the equilibrium 
+contact angle is governed by Young's equation:
+
+\begin{equation}
+    \gamma_{sg} = \gamma_{sl} + \gamma_{lg} \cos\theta
+    \label{eq:young}
+\end{equation}
+where $\gamma_{sg}$, $\gamma_{sl}$, and $\gamma_{lg}$ represent 
+the solid-gas, solid-liquid, and liquid-gas interfacial energies 
+(or surface tensions), respectively. 
+\begin{figure}[h]
+    \centering
+    \includegraphics[width=0.7\textwidth]{Images/Contact_angle.png} 
+    \caption{A diagram that shows the contact angle and interphase-energy between 
+    3 phases (gas, liquid, solid). From \cite{wikicontact}.}
+    \label{fig:contact_angle_definition}
+\end{figure}
+
+Since interfacial energy directly dictates the wettability of 
+a substrate, a correlation exists between this parameter 
+and the surface hydrophilicity; lower contact angles 
+consistently signify higher hydrophilicity. 
+Figure~\ref{fig:contact_angles} demonstrates the 
+contact angle behavior across different surfaces, 
+ranging from highly hydrophobic ($\theta > 90^\circ$) 
+to highly hydrophilic ($\theta \to 0^\circ$).
+\begin{figure}[h]
+    \centering
+    \includegraphics[width=0.8\textwidth]{Images/Surface_tension.png} 
+    \caption{Diagram of different contact angles. A corresponds to
+    an hydrophobic surface. Surfaces B, C and S are sorted from less to
+    more hydrophilic. From \cite{wikicontacts}.}
+    \label{fig:contact_angles}
+\end{figure}
+
+Due to its experimental simplicity and non-destructive 
+nature, quantifying this angle using water 
+(Water Contact Angle, WCA) is a widely adopted method 
+in literature to assess the state of glass surfaces 
+\cite{CITA_METODO}. Surface hydrophilicity plays a 
+critical role in the success of optical contact bonding, 
+as a lower contact angle correlates with a higher density 
+of active silanol (Si-OH) groups on the surface 
+\cite{CITA_BONDING}. These hydroxyl groups are 
+essential for initiating the intermolecular hydrogen 
+networks required for a strong, spontaneous, and void-free union.

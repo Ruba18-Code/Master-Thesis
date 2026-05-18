@@ -1,25 +1,31 @@
 [0] Config.pm:307> INFO - This is Biber 2.19
 [0] Config.pm:310> INFO - Logfile is 'Main.blg'
-[52] biber:340> INFO - === vie may 15, 2026, 12:08:55
-[63] Biber.pm:419> INFO - Reading 'Main.bcf'
-[121] Biber.pm:979> INFO - Found 69 citekeys in bib section 0
-[131] Biber.pm:4419> INFO - Processing section 0
-[138] Biber.pm:4610> INFO - Looking for bibtex file 'referencias.bib' for section 0
-[140] bibtex.pm:1713> INFO - LaTeX decoding ...
-[191] bibtex.pm:1519> INFO - Found BibTeX data source 'referencias.bib'
-[589] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[589] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
-[589] Biber.pm:4239> INFO - Sorting list 'none/global//global/global' of type 'entry' with template 'none' and locale 'en-US'
-[589] Biber.pm:4245> INFO - No sort tailoring available for locale 'en-US'
-[621] bbl.pm:660> INFO - Writing 'Main.bbl' with encoding 'UTF-8'
-[647] bbl.pm:763> INFO - Output to Main.bbl
-[647] Biber.pm:131> WARN - BibTeX subsystem: /tmp/biber_tmp_1a0e/f1acd60b6c57e7ae00f56d747b2cd459_4903.utf8, line 77, warning: undefined macro "Sept"
-[648] Biber.pm:131> WARN - BibTeX subsystem: /tmp/biber_tmp_1a0e/f1acd60b6c57e7ae00f56d747b2cd459_4903.utf8, line 137, warning: undefined macro "July"
-[648] Biber.pm:131> WARN - BibTeX subsystem: /tmp/biber_tmp_1a0e/f1acd60b6c57e7ae00f56d747b2cd459_4903.utf8, line 278, warning: undefined macro "June"
-[648] Biber.pm:131> WARN - BibTeX subsystem: /tmp/biber_tmp_1a0e/f1acd60b6c57e7ae00f56d747b2cd459_4903.utf8, line 365, warning: undefined macro "June"
-[648] Biber.pm:131> WARN - BibTeX subsystem: /tmp/biber_tmp_1a0e/f1acd60b6c57e7ae00f56d747b2cd459_4903.utf8, line 427, warning: undefined macro "July"
-[648] Biber.pm:131> WARN - BibTeX subsystem: /tmp/biber_tmp_1a0e/f1acd60b6c57e7ae00f56d747b2cd459_4903.utf8, line 458, warning: undefined macro "Sept"
-[648] Biber.pm:131> WARN - BibTeX subsystem: /tmp/biber_tmp_1a0e/f1acd60b6c57e7ae00f56d747b2cd459_4903.utf8, line 609, warning: undefined macro "June"
-[648] Biber.pm:131> WARN - BibTeX subsystem: /tmp/biber_tmp_1a0e/f1acd60b6c57e7ae00f56d747b2cd459_4903.utf8, line 722, warning: undefined macro "July"
-[648] Biber.pm:131> WARN - BibTeX subsystem: /tmp/biber_tmp_1a0e/f1acd60b6c57e7ae00f56d747b2cd459_4903.utf8, line 854, warning: undefined macro "June"
-[648] Biber.pm:133> INFO - WARNINGS: 9
+[52] biber:340> INFO - === lun may 18, 2026, 17:31:13
+[67] Biber.pm:419> INFO - Reading 'Main.bcf'
+[141] Biber.pm:979> INFO - Found 79 citekeys in bib section 0
+[152] Biber.pm:4419> INFO - Processing section 0
+[161] Biber.pm:4610> INFO - Looking for bibtex file 'referencias.bib' for section 0
+[164] bibtex.pm:1713> INFO - LaTeX decoding ...
+[228] bibtex.pm:1519> INFO - Found BibTeX data source 'referencias.bib'
+[688] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[688] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[688] Biber.pm:4239> INFO - Sorting list 'none/global//global/global' of type 'entry' with template 'none' and locale 'en-US'
+[688] Biber.pm:4245> INFO - No sort tailoring available for locale 'en-US'
+[732] bbl.pm:660> INFO - Writing 'Main.bbl' with encoding 'UTF-8'
+[762] bbl.pm:763> INFO - Output to Main.bbl
+[762] Biber.pm:131> WARN - legacy month field 'Nov' in entry 'turner2006' is not an integer - this will probably not sort properly.
+[762] Biber.pm:131> WARN - legacy month field 'Nov' in entry 'miki2003' is not an integer - this will probably not sort properly.
+[762] Biber.pm:131> WARN - legacy month field 'Dec' in entry 'turner2002' is not an integer - this will probably not sort properly.
+[762] Biber.pm:131> WARN - legacy month field 'July' in entry 'takagi1998' is not an integer - this will probably not sort properly.
+[762] Biber.pm:131> WARN - BibTeX subsystem: /tmp/biber_tmp_hYCP/f1acd60b6c57e7ae00f56d747b2cd459_41104.utf8, line 88, warning: undefined macro "Sept"
+[762] Biber.pm:131> WARN - BibTeX subsystem: /tmp/biber_tmp_hYCP/f1acd60b6c57e7ae00f56d747b2cd459_41104.utf8, line 148, warning: undefined macro "July"
+[762] Biber.pm:131> WARN - BibTeX subsystem: /tmp/biber_tmp_hYCP/f1acd60b6c57e7ae00f56d747b2cd459_41104.utf8, line 289, warning: undefined macro "June"
+[762] Biber.pm:131> WARN - BibTeX subsystem: /tmp/biber_tmp_hYCP/f1acd60b6c57e7ae00f56d747b2cd459_41104.utf8, line 376, warning: undefined macro "June"
+[762] Biber.pm:131> WARN - BibTeX subsystem: /tmp/biber_tmp_hYCP/f1acd60b6c57e7ae00f56d747b2cd459_41104.utf8, line 438, warning: undefined macro "July"
+[762] Biber.pm:131> WARN - BibTeX subsystem: /tmp/biber_tmp_hYCP/f1acd60b6c57e7ae00f56d747b2cd459_41104.utf8, line 469, warning: undefined macro "Sept"
+[762] Biber.pm:131> WARN - BibTeX subsystem: /tmp/biber_tmp_hYCP/f1acd60b6c57e7ae00f56d747b2cd459_41104.utf8, line 620, warning: undefined macro "June"
+[763] Biber.pm:131> WARN - BibTeX subsystem: /tmp/biber_tmp_hYCP/f1acd60b6c57e7ae00f56d747b2cd459_41104.utf8, line 733, warning: undefined macro "July"
+[763] Biber.pm:131> WARN - BibTeX subsystem: /tmp/biber_tmp_hYCP/f1acd60b6c57e7ae00f56d747b2cd459_41104.utf8, line 865, warning: undefined macro "June"
+[763] Biber.pm:131> WARN - I didn't find a database entry for 'CITA_METODO' (section 0)
+[763] Biber.pm:131> WARN - I didn't find a database entry for 'CITA_BONDING' (section 0)
+[763] Biber.pm:133> INFO - WARNINGS: 15
