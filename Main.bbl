@@ -1994,6 +1994,55 @@
       \verb http://dx.doi.org/10.1007/978-1-4613-0531-6_24
       \endverb
     \endentry
+    \entry{mai2015}{article}{}
+      \name{author}{3}{}{%
+        {{hash=b6585d76684d1a021adbafa1a60938bd}{%
+           family={Mai},
+           familyi={M\bibinitperiod},
+           given={Chengle},
+           giveni={C\bibinitperiod}}}%
+        {{hash=f93debf0a815c210a9af7430e33ecf9f}{%
+           family={Li},
+           familyi={L\bibinitperiod},
+           given={Mingyu},
+           giveni={M\bibinitperiod}}}%
+        {{hash=09b5fe77bac2144cb4c1623b903989e7}{%
+           family={Yang},
+           familyi={Y\bibinitperiod},
+           given={Shihua},
+           giveni={S\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Royal Society of Chemistry (RSC)}%
+      }
+      \strng{namehash}{b4817539e1445023ce662c45ff07fc40}
+      \strng{fullhash}{b4817539e1445023ce662c45ff07fc40}
+      \strng{bibnamehash}{b4817539e1445023ce662c45ff07fc40}
+      \strng{authorbibnamehash}{b4817539e1445023ce662c45ff07fc40}
+      \strng{authornamehash}{b4817539e1445023ce662c45ff07fc40}
+      \strng{authorfullhash}{b4817539e1445023ce662c45ff07fc40}
+      \field{sortinit}{9}
+      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{2046-2069}
+      \field{journaltitle}{RSC Advances}
+      \field{number}{53}
+      \field{title}{Low temperature direct bonding of silica glass via wet chemical surface activation}
+      \field{volume}{5}
+      \field{year}{2015}
+      \field{pages}{42721\bibrangedash 42727}
+      \range{pages}{7}
+      \verb{doi}
+      \verb 10.1039/c5ra06705g
+      \endverb
+      \verb{urlraw}
+      \verb http://dx.doi.org/10.1039/C5RA06705G
+      \endverb
+      \verb{url}
+      \verb http://dx.doi.org/10.1039/C5RA06705G
+      \endverb
+    \endentry
     \entry{masteika2014}{article}{}
       \name{author}{4}{}{%
         {{hash=eb74b41a77bcdc73b005d3febaf4fc88}{%
@@ -2449,55 +2498,6 @@
       \endverb
       \verb{url}
       \verb http://dx.doi.org/10.3390/mi13111892
-      \endverb
-    \endentry
-    \entry{mai2015}{article}{}
-      \name{author}{3}{}{%
-        {{hash=b6585d76684d1a021adbafa1a60938bd}{%
-           family={Mai},
-           familyi={M\bibinitperiod},
-           given={Chengle},
-           giveni={C\bibinitperiod}}}%
-        {{hash=f93debf0a815c210a9af7430e33ecf9f}{%
-           family={Li},
-           familyi={L\bibinitperiod},
-           given={Mingyu},
-           giveni={M\bibinitperiod}}}%
-        {{hash=09b5fe77bac2144cb4c1623b903989e7}{%
-           family={Yang},
-           familyi={Y\bibinitperiod},
-           given={Shihua},
-           giveni={S\bibinitperiod}}}%
-      }
-      \list{publisher}{1}{%
-        {Royal Society of Chemistry (RSC)}%
-      }
-      \strng{namehash}{b4817539e1445023ce662c45ff07fc40}
-      \strng{fullhash}{b4817539e1445023ce662c45ff07fc40}
-      \strng{bibnamehash}{b4817539e1445023ce662c45ff07fc40}
-      \strng{authorbibnamehash}{b4817539e1445023ce662c45ff07fc40}
-      \strng{authornamehash}{b4817539e1445023ce662c45ff07fc40}
-      \strng{authorfullhash}{b4817539e1445023ce662c45ff07fc40}
-      \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{issn}{2046-2069}
-      \field{journaltitle}{RSC Advances}
-      \field{number}{53}
-      \field{title}{Low temperature direct bonding of silica glass via wet chemical surface activation}
-      \field{volume}{5}
-      \field{year}{2015}
-      \field{pages}{42721\bibrangedash 42727}
-      \range{pages}{7}
-      \verb{doi}
-      \verb 10.1039/c5ra06705g
-      \endverb
-      \verb{urlraw}
-      \verb http://dx.doi.org/10.1039/C5RA06705G
-      \endverb
-      \verb{url}
-      \verb http://dx.doi.org/10.1039/C5RA06705G
       \endverb
     \endentry
     \entry{takagi1998}{article}{}
