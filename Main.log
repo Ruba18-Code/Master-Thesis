@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999995 (TeX Live 2023/Debian) (preloaded format=xelatex 2026.4.1)  19 MAY 2026 16:49
+This is XeTeX, Version 3.141592653-2.6-0.999995 (TeX Live 2023/Debian) (preloaded format=xelatex 2026.4.1)  19 MAY 2026 16:58
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1339,4 +1339,349 @@ Package biblatex Info: XeTeX detected.
 (biblatex)             Assuming input encoding 'utf8'.
 Package biblatex Info: Automatic encoding selection.
 (biblatex)             Assuming data encoding 'utf8'.
-\
+\openout6 = `Main.bcf'.
+
+Package biblatex Info: Trying to load bibliographic data...
+Package biblatex Info: ... file 'Main.bbl' found.
+ (./Main.bbl)
+Package biblatex Info: Reference section=0 on input line 40.
+Package biblatex Info: Reference segment=0 on input line 40.
+Package hyperref Info: Link coloring OFF on input line 40.
+ (./Main.out) (./Main.out)
+\@outlinefile=\write7
+\openout7 = `Main.out'.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 45--46
+
+ []
+
+[1
+
+\openout4 = `Main.ist'.
+
+] [2]
+Overfull \hbox (9.98468pt too wide) in paragraph at lines 143--150
+\TU/TeXGyreTermes(0)/m/n/10.95 ment; Atomic Sensors; Magnetometry; Hanle Resonance; Magnetoencephalography; Atomic Clocks;
+ []
+
+[3]
+LaTeX Font Info:    Trying to load font information for U+msa on input line 171.
+ (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Trying to load font information for U+msb on input line 171.
+ (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+) [4] (./Main.toc [5])
+\tf@toc=\write8
+\openout8 = `Main.toc'.
+
+ [6] (./Main.lof
+Overfull \hbox (3.63693pt too wide) in paragraph at lines 14--14
+ \TU/TeXGyreTermes(0)/m/n/10.95 aluminosilicate, Al$[]$O$[]$-coated borofloat, and Al$[]$O$[]$-coated aluminosilicate glasses. 
+ []
+
+[7])
+\tf@lof=\write9
+\openout9 = `Main.lof'.
+
+ [8] (./Main.lot)
+\tf@lot=\write10
+\openout10 = `Main.lot'.
+
+ [9] (./siglas.tex
+\@gls@deffile=\write11
+\openout11 = `Main.glsdefs'.
+
+ (./Main.gls [10
+
+])) [-2
+
+] [-1
+
+] [0]
+Chapter 1.
+[1
+
+] [2
+
+]
+Chapter 2.
+[3] [4
+
+]
+Chapter 3.
+(./sections/Fabrication Methods/Introduction.tex
+Overfull \hbox (5.50737pt too wide) in paragraph at lines 1--19
+\TU/TeXGyreTermes(0)/m/n/10.95 Precision miniaturized sensors have become an increasingly relevant technology over recent decades,
+ []
+
+File: Images/lwvc_process.png Graphic file (type bmp)
+<Images/lwvc_process.png>
+
+Overfull \hbox (2.06728pt too wide) in paragraph at lines 20--35
+[]\TU/TeXGyreTermes(0)/m/n/10.95 A Laser-Written Vapor Cell (LWVC) addresses these limitations by exploiting the three-dimensional
+ []
+
+[5] [6]) (./sections/Fabrication Methods/Femtosecond Laser Writing.tex [7] [8]
+File: Images/lwvc_3dmodel.png Graphic file (type bmp)
+<Images/lwvc_3dmodel.png>
+) (./sections/Fabrication Methods/Optical Contact Bonding/Intro Optical Contact Bonding.tex [9] [10] [11]
+Overfull \hbox (3.79912pt too wide) in paragraph at lines 127--137
+[]\TU/TeXGyreTermes(0)/b/n/10.95 Flatness and Waviness: \TU/TeXGyreTermes(0)/m/n/10.95 Total thickness variation (TTV) must remain below $\OT1/cmr/m/n/10.95 1$$[]$ \TU/TeXGyreTermes(0)/m/n/10.95 for $\OT1/cmr/m/n/10.95 100$$[]$
+ []
+
+
+Overfull \hbox (3.13849pt too wide) in paragraph at lines 137--143
+[]\TU/TeXGyreTermes(0)/b/n/10.95 Particulate Contamination: \TU/TeXGyreTermes(0)/m/n/10.95 Bonding must be performed under cleanroom conditions (Class
+ []
+
+) (./sections/Fabrication Methods/Optical Contact Bonding/Chemical Treatment.tex [12]
+File: Images/bonding_process.jpg Graphic file (type bmp)
+<Images/bonding_process.jpg>
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+) (./sections/Fabrication Methods/Optical Contact Bonding/Plasma-Activated Bonding.tex
+File: Images/plasma_activation.png Graphic file (type bmp)
+<Images/plasma_activation.png>
+ [13]
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 33--49
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 33--49
+
+ []
+
+[14]) (./sections/Fabrication Methods/Optical Contact Bonding/Annealing.tex [15]
+File: Images/annealing_time.png Graphic file (type bmp)
+<Images/annealing_time.png>
+) (./sections/Fabrication Methods/Optical Contact Bonding/Pressure.tex [16]
+File: Images/pressure.png Graphic file (type bmp)
+<Images/pressure.png>
+File: Images/chucks.png Graphic file (type bmp)
+<Images/chucks.png>
+ [17]) (./sections/Fabrication Methods/Post-Treatment.tex
+File: Images/He.png Graphic file (type bmp)
+<Images/He.png>
+) (./sections/Fabrication Methods/Optical Contact Bonding/Experiment.tex [18]
+File: Images/DIW_lab.jpeg Graphic file (type bmp)
+<Images/DIW_lab.jpeg>
+File: Images/acetone_lab.jpeg Graphic file (type bmp)
+<Images/acetone_lab.jpeg>
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+File: Images/ethanol_lab.jpeg Graphic file (type bmp)
+<Images/ethanol_lab.jpeg>
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+File: Images/soap_lab.jpeg Graphic file (type bmp)
+<Images/soap_lab.jpeg>
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+) [19] [20] [21] [22
+
+]
+Chapter 4.
+(./sections/Characterization and Quality Control/Introduction.tex [23]) (./sections/Characterization and Quality Control/Surface inspection using an AFM.tex
+File: Images/AFM_tip.JPG Graphic file (type bmp)
+<Images/AFM_tip.JPG>
+File: Images/Sample1_2D_compressed.pdf Graphic file (type pdf)
+<use Images/Sample1_2D_compressed.pdf>
+File: Images/Sample2_2D_compressed.pdf Graphic file (type pdf)
+<use Images/Sample2_2D_compressed.pdf>
+File: Images/Sample3_2D_compressed.pdf Graphic file (type pdf)
+<use Images/Sample3_2D_compressed.pdf>
+File: Images/Sample1_3D.pdf Graphic file (type pdf)
+<use Images/Sample1_3D.pdf>
+File: Images/Sample2_3D.pdf Graphic file (type pdf)
+<use Images/Sample2_3D.pdf>
+File: Images/Sample3_3D.pdf Graphic file (type pdf)
+<use Images/Sample3_3D.pdf>
+File: Images/Sample1_dist.pdf Graphic file (type pdf)
+<use Images/Sample1_dist.pdf>
+File: Images/Sample2_dist.pdf Graphic file (type pdf)
+<use Images/Sample2_dist.pdf>
+File: Images/Sample3_dist.pdf Graphic file (type pdf)
+<use Images/Sample3_dist.pdf>
+ [24]
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+) (./sections/Characterization and Quality Control/Contact Angle.tex [25] [26]
+File: Images/Contact_angle.png Graphic file (type bmp)
+<Images/Contact_angle.png>
+ [27]
+File: Images/Surface_tension.png Graphic file (type bmp)
+<Images/Surface_tension.png>
+) (./sections/Characterization and Quality Control/Visual Inspection.tex
+File: Images/newtonrings.jpg Graphic file (type bmp)
+<Images/newtonrings.jpg>
+) (./sections/Characterization and Quality Control/Strength Tests.tex
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+File: Images/razor_test.png Graphic file (type bmp)
+<Images/razor_test.png>
+[28] [29]
+File: Images/razor_atm.png Graphic file (type bmp)
+<Images/razor_atm.png>
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[30]
+File: Images/tensile_test.jpeg Graphic file (type bmp)
+<Images/tensile_test.jpeg>
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[31] [32]
+Overfull \hbox (6.9126pt too wide) in paragraph at lines 209--215
+[]\TU/TeXGyreTermes(0)/b/n/10.95 High measurement variance: \TU/TeXGyreTermes(0)/m/n/10.95 Real experiments exhibit significant scatter in bonding strength
+ []
+
+) (./sections/Characterization and Quality Control/Leak Tests Using Spectroscopy.tex
+File: Images/D1 & D2.png Graphic file (type bmp)
+<Images/D1 & D2.png>
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[33] [34])
+Overfull \hbox (5.38327pt too wide) in paragraph at lines 112--233
+\TU/TeXGyreTermes(0)/m/n/10.95 parison with benchmarks from the literature: the 707-day vacuum integrity demonstrated by Artusio-
+ []
+
+[35] [36
+
+]
+Chapter 5.
+(./sections/Experiments and Applications/Train Application.tex) (./sections/Experiments and Applications/Atomic Clocks.tex) (./sections/Experiments and Applications/Magnetoencephalography.tex) (./sections/Experiments and Applications/Magnetometry Experiment 1.tex
+Underfull \hbox (badness 10000) in paragraph at lines 3--14
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 16--38
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 16--38
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 16--38
+
+ []
+
+[37]
+File: Images/magnetic_setup.jpg Graphic file (type bmp)
+<Images/magnetic_setup.jpg>
+
+Underfull \hbox (badness 10000) in paragraph at lines 44--66
+
+ []
+
+
+Overfull \hbox (2.49893pt too wide) in paragraph at lines 69--82
+\TU/TeXGyreTermes(0)/m/n/10.95 Measurements were made using different DC field configurations to study their effects on Lorentzian
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 69--82
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 69--82
+
+ []
+
+[38]
+File: Images/magnetic_exp_Yvar.pdf Graphic file (type pdf)
+<use Images/magnetic_exp_Yvar.pdf>
+File: Images/magnetic_exp_Zvar.pdf Graphic file (type pdf)
+<use Images/magnetic_exp_Zvar.pdf>
+File: Images/magnetic_exp_YZvar.pdf Graphic file (type pdf)
+<use Images/magnetic_exp_YZvar.pdf>
+File: Images/Fit_00Y_45Z.pdf Graphic file (type pdf)
+<use Images/Fit_00Y_45Z.pdf>
+) [39] [40]
+Chapter 6.
+[41
+
+] [42
+
+] [43]
+Overfull \hbox (5.22995pt too wide) in paragraph at lines 240--240
+[]\TU/TeXGyreTermes(0)/m/n/10.95 Sara Lo Turco, Andrea Di Donato, and Luigino Criante. “Scattering effects of glass-embedded
+ []
+
+[44] [45]
+Overfull \hbox (21.24606pt too wide) in paragraph at lines 240--240
+\TU/TeXGyreTermes(0)/m/n/10.95 icon Wafers”. In: \TU/TeXGyreTermes(0)/m/it/10.95 Particles on Surfaces 2\TU/TeXGyreTermes(0)/m/n/10.95 . Springer US, 1989, pp. 297–306. \TU/TeXGyreTermes(0)/m/sc/10.95 isbn\TU/TeXGyreTermes(0)/m/n/10.95 : 9781461305316.
+ []
+
+
+Overfull \hbox (17.7184pt too wide) in paragraph at lines 240--240
+[]\TU/TeXGyreTermes(0)/m/n/10.95 Josephine Neumann et al. “Atmospheric Pressure Dielectric Barrier Discharge Plasma-Enhanced
+ []
+
+[46]
+Overfull \hbox (0.73035pt too wide) in paragraph at lines 240--240
+\TU/TeXGyreTermes(0)/m/it/10.95 tions (GPS) – Surface texture: Areal\TU/TeXGyreTermes(0)/m/n/10.95 . International Organization for Standardization. Geneva,
+ []
+
+
+Overfull \hbox (0.70215pt too wide) in paragraph at lines 240--240
+[]\TU/TeXGyreTermes(0)/m/n/10.95 Limor Pasternak and Yaron Paz. “Low-temperature direct bonding of silicon nitride to glass”.
+ []
+
+
+Overfull \hbox (15.41704pt too wide) in paragraph at lines 240--240
+[]\TU/TeXGyreTermes(0)/m/n/10.95 S. Mack (Max-Planck-Institut). “Eine vergleichende Untersuchung der physikalisch-chemischen
+ []
+
+[47] [48] [49
+
+] [50]
+Appendix A.
+(./sections/Appendix/Recipes in Literature.tex [51
+
+] [52]) (./Main.aux)
+ ***********
+LaTeX2e <2023-11-01> patch level 1
+L3 programming layer <2024-01-22>
+ ***********
+Package rerunfilecheck Info: File `Main.out' has not changed.
+(rerunfilecheck)             Checksum: 6A6A75695A23948B815AE6E31EA7A8A5;7574.
+Package logreq Info: Writing requests to 'Main.run.xml'.
+\openout1 = `Main.run.xml'.
+
+ ) 
+Here is how much of TeX's memory you used:
+ 44850 strings out of 474878
+ 928545 string characters out of 5762517
+ 1958627 words of memory out of 5000000
+ 66104 multiletter control sequences out of 15000+600000
+ 563373 words of font info for 92 fonts, out of 8000000 for 9000
+ 1348 hyphenation exceptions out of 8191
+ 96i,14n,96p,2405b,5512s stack positions out of 10000i,1000n,20000p,200000b,200000s
+
+Output written on Main.pdf (65 pages).
