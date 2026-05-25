@@ -2781,6 +2781,46 @@
       \verb http://dx.doi.org/10.3390/app11156755
       \endverb
     \endentry
+    \entry{yoder2018}{misc}{}
+      \name{author}{2}{}{%
+        {{hash=f139c2aaf442505f5dd1d2f8afe2dcdf}{%
+           family={Yoder},
+           familyi={Y\bibinitperiod},
+           given={Paul},
+           giveni={P\bibinitperiod}}}%
+        {{hash=c839f8d7d174182c02a94cd6b048b4cd}{%
+           family={Vukobratovich},
+           familyi={V\bibinitperiod},
+           given={Daniel},
+           giveni={D\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {CRC Press}%
+      }
+      \strng{namehash}{0ba0b04928181ef70a9be4103e9d3516}
+      \strng{fullhash}{0ba0b04928181ef70a9be4103e9d3516}
+      \strng{bibnamehash}{0ba0b04928181ef70a9be4103e9d3516}
+      \strng{authorbibnamehash}{0ba0b04928181ef70a9be4103e9d3516}
+      \strng{authornamehash}{0ba0b04928181ef70a9be4103e9d3516}
+      \strng{authorfullhash}{0ba0b04928181ef70a9be4103e9d3516}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{isbn}{9781315217635}
+      \field{month}{12}
+      \field{title}{Opto-Mechanical Systems Design, Two Volume Set}
+      \field{year}{2018}
+      \verb{doi}
+      \verb 10.1201/9781315217635
+      \endverb
+      \verb{urlraw}
+      \verb http://dx.doi.org/10.1201/9781315217635
+      \endverb
+      \verb{url}
+      \verb http://dx.doi.org/10.1201/9781315217635
+      \endverb
+    \endentry
     \entry{trinh2022}{article}{}
       \name{author}{8}{}{%
         {{hash=1fa0ab9c0f9354b6d49dd249a2e62298}{%

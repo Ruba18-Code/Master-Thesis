@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999995 (TeX Live 2023/Debian) (preloaded format=xelatex 2026.4.1)  25 MAY 2026 17:06
+This is XeTeX, Version 3.141592653-2.6-0.999995 (TeX Live 2023/Debian) (preloaded format=xelatex 2026.4.1)  25 MAY 2026 17:18
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1501,17 +1501,15 @@ Overfull \hbox (2.06728pt too wide) in paragraph at lines 20--35
 [5] [6]) (./sections/Fabrication Methods/Femtosecond Laser Writing.tex [7] [8]
 File: Images/lwvc_3dmodel.png Graphic file (type bmp)
 <Images/lwvc_3dmodel.png>
-) (./sections/Fabrication Methods/Optical Contact Bonding/Intro Optical Contact Bonding.tex [9] [10] [11]
-Overfull \hbox (3.79912pt too wide) in paragraph at lines 127--137
-[]\TU/TeXGyreTermes(0)/b/n/10.95 Flatness and Waviness: \TU/TeXGyreTermes(0)/m/n/10.95 Total thickness variation (TTV) must remain below $\OT1/cmr/m/n/10.95 1$$[]$ \TU/TeXGyreTermes(0)/m/n/10.95 for $\OT1/cmr/m/n/10.95 100$$[]$
+) (./sections/Fabrication Methods/Optical Contact Bonding/Intro Optical Contact Bonding.tex [9] [10]
+Overfull \hbox (0.12057pt too wide) in paragraph at lines 72--83
+[]\TU/TeXGyreTermes(0)/b/n/10.95 Borosilicate glasses\TU/TeXGyreTermes(0)/m/n/10.95 , particularly Borofloat 33 (81% $[]$, 13% $[]$, 4% $[]$, 2% $[]$),
  []
 
 
-Overfull \hbox (3.13849pt too wide) in paragraph at lines 137--143
-[]\TU/TeXGyreTermes(0)/b/n/10.95 Particulate Contamination: \TU/TeXGyreTermes(0)/m/n/10.95 Bonding must be performed under cleanroom conditions (Class
- []
+LaTeX Warning: `h' float specifier changed to `ht'.
 
-) (./sections/Fabrication Methods/Optical Contact Bonding/Chemical Treatment.tex [12]
+) (./sections/Fabrication Methods/Optical Contact Bonding/Chemical Treatment.tex [11]
 File: Images/piranha_cairo_acid.png Graphic file (type bmp)
 <Images/piranha_cairo_acid.png>
 File: Images/activatedsurf.png Graphic file (type bmp)
@@ -1520,43 +1518,39 @@ File: Images/activatedsurf.png Graphic file (type bmp)
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
 File: Images/zetapot.png Graphic file (type bmp)
 <Images/zetapot.png>
+[12]
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
 [13] [14]) (./sections/Fabrication Methods/Optical Contact Bonding/Plasma-Activated Bonding.tex
 File: Images/plasma_activation.png Graphic file (type bmp)
 <Images/plasma_activation.png>
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-[15] [16]
+ [15]
 File: Images/plasmatime.png Graphic file (type bmp)
 <Images/plasmatime.png>
-) (./sections/Fabrication Methods/Optical Contact Bonding/Annealing.tex [17]
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+) (./sections/Fabrication Methods/Optical Contact Bonding/Annealing.tex [16] [17]
 File: Images/annealingtemp.png Graphic file (type bmp)
 <Images/annealingtemp.png>
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
 File: Images/annealing_time.png Graphic file (type bmp)
 <Images/annealing_time.png>
-[18]
+
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-) (./sections/Fabrication Methods/Optical Contact Bonding/Pressure.tex [19]
+) (./sections/Fabrication Methods/Optical Contact Bonding/Pressure.tex [18] [19]
 File: Images/pressure.png Graphic file (type bmp)
 <Images/pressure.png>
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
 File: Images/chucks.png Graphic file (type bmp)
 <Images/chucks.png>
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
 ) (./sections/Fabrication Methods/Optical Contact Bonding/Experiment.tex
 File: Images/DIW_lab.jpeg Graphic file (type bmp)
 <Images/DIW_lab.jpeg>
@@ -1582,15 +1576,15 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 ) (./sections/Fabrication Methods/Post-Treatment.tex [20]
 File: Images/He.png Graphic file (type bmp)
 <Images/He.png>
- [21]
+
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-) [22] [23] [24]
-Chapter 4.
-(./sections/Characterization and Quality Control/Introduction.tex [25
+) [21] [22] [23] [24
 
-]) (./sections/Characterization and Quality Control/Surface inspection using an AFM.tex
+]
+Chapter 4.
+(./sections/Characterization and Quality Control/Introduction.tex [25]) (./sections/Characterization and Quality Control/Surface inspection using an AFM.tex
 File: Images/AFM_tip.JPG Graphic file (type bmp)
 <Images/AFM_tip.JPG>
 File: Images/Sample1_2D_compressed.pdf Graphic file (type pdf)
@@ -1769,16 +1763,16 @@ LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-01-22>
  ***********
 Package rerunfilecheck Info: File `Main.out' has not changed.
-(rerunfilecheck)             Checksum: BA3C19E4D5079FFF41A66CFD29308EC9;7581.
+(rerunfilecheck)             Checksum: DB81CDD936F40000732D5C7CB93805AC;7581.
 Package logreq Info: Writing requests to 'Main.run.xml'.
 \openout1 = `Main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 46938 strings out of 474878
- 973710 string characters out of 5762517
+ 46939 strings out of 474878
+ 973773 string characters out of 5762517
  1958627 words of memory out of 5000000
- 68158 multiletter control sequences out of 15000+600000
+ 68159 multiletter control sequences out of 15000+600000
  563373 words of font info for 92 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  96i,14n,96p,2389b,5520s stack positions out of 10000i,1000n,20000p,200000b,200000s
