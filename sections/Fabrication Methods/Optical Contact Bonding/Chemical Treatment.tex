@@ -1,84 +1,171 @@
 \subsection{Chemical Treatment}
-\textbf{FALTA APROFUNDIR MES EN COM ACTUEN ELS QUIMICS}
-Chemical treatment pursues two distinct objectives. The first is 
-\textit{chemical cleaning}: removing organic matter, metallic ions, and 
-particles that would prevent intimate contact regardless of how well the 
-surface geometry has been prepared. The second is \textit{chemical 
-activation}: increasing the density of reactive silanol groups 
-($\mathrm{Si\text{-}OH}$) at the surface, which serve as the molecular 
-precursors to the covalent bonds formed during annealing. Although both 
-objectives can be addressed by wet-chemical means, they rely on different 
-mechanisms and are best understood separately.
+
+Chemical treatment pursues two distinct but complementary objectives. 
+The first is \textit{cleaning}: removing organic matter, metallic ions, 
+and particulate contamination that would prevent intimate contact 
+regardless of how well the surface geometry has been prepared. The 
+second is \textit{activation}: maximising the density of reactive 
+silanol groups (Si-OH) at the surface, which serve as the molecular 
+precursors to the interfacial hydrogen bonds formed upon contact and 
+the covalent siloxane bridges formed during annealing \cite{rammhandbook}. In practice, 
+both objectives are addressed by the same sequence of chemical baths, 
+but they operate through distinct mechanisms that are worth 
+understanding separately.
 
 \subsubsection*{Chemical Cleaning}
-Cleaning removes organic matter, metallic ions, and particles that would 
-otherwise prevent intimate contact. The most common agents, applied 
-sequentially in order of increasing aggressiveness, are:
-\begin{itemize}
-\item \textbf{Detergents and Solvents:}
-\begin{itemize}
-    \item \textbf{Micro-Soap:} Eliminates heavy organic matter and solid 
-        particles by reducing the surface tension of water, allowing 
-        contaminants to detach and be rinsed away \cite{tuli2012}.
-    \item \textbf{Acetone:} Dissolves fats, waxes, and photoresists by 
-        breaking down organic polymer chains \cite{du2022}.
-    \item \textbf{Ethanol:} Applied as the final solvent step; its high 
-        volatility ensures rapid evaporation and leaves the surface ready 
-        for subsequent acid baths or plasma activation.
-\end{itemize}
-\item \textbf{Stronger Chemicals:}
-\begin{itemize}
-    \item \textbf{Piranha Solution} ($\mathrm{H_2SO_4}$:$\mathrm{H_2O_2}$): 
-        An extremely corrosive and oxidizing mixture, and the standard choice 
-        for removing stubborn organic residues \cite{du2022}.
-    \item \textbf{RCA-1} ($\mathrm{NH_4OH}$:$\mathrm{H_2O_2}$:$\mathrm{H_2O}$): 
-        Removes light organic films and dislodges insoluble particles through 
-        electrostatic repulsion \cite{kern1970}.
-    \item \textbf{RCA-2} ($\mathrm{HCl}$:$\mathrm{H_2O_2}$:$\mathrm{H_2O}$): 
-        Eliminates heavy metals and alkaline contaminants \cite{kern1970}.
-\end{itemize}
-\end{itemize}
-Ultrasonic agitation during the initial cleaning stages substantially 
-enhances contaminant removal. High-frequency sound waves generate microscopic 
-vacuum bubbles in the liquid through cavitation; their implosion near the 
-glass surface provides a mechanical scrubbing action that dislodges sub-micron 
-particles from surface pores otherwise inaccessible to chemical soaking alone 
-\cite{menon1989}.
 
-\subsubsection*{Chemical Activation}
-When two hydrophilic glass surfaces are brought into contact, opposing Si-OH groups 
-form a hydrogen-bonded network across the interface, mediated by a thin 
-adsorbed water layer \cite{possl1999}. This initial network 
-provides sufficient room-temperature adhesion for the wafer pair to be 
-handled without separation. Although these bonds are initially 
-reversible and of moderate strength, they serve as the structural precursor 
-for permanent covalent Si-O-Si bonds, which develop during subsequent thermal 
-treatment, as displated in \ref{fig:bonding_process1}. Since the number of covalent 
-bonds that ultimately form is limited by the silanol density present at 
-the time of contact, a surface with few Si-OH groups will produce a weak 
-bond regardless of the annealing conditions applied subsequently.
+\paragraph{Solvents.}
+The cleaning sequence begins with mechanical degreasing using organic 
+solvents. Acetone dissolves fats, waxes, and photoresist residues \cite{acetone_art}. 
+Ethanol follows as a miscible rinse: it removes 
+residual acetone without leaving ionic residues, and its high volatility 
+ensures rapid, streak-free evaporation. 
+These steps reduce the organic load before the substrates enter 
+the more aggressive chemical baths, which are expensive and whose 
+lifetime is shortened by excessive organic contamination.
+
+\paragraph{Piranha Solution ($\mathrm{H_2SO_4}$:$\mathrm{H_2O_2}$, 3:1).}
+The primary wet-chemical agent for stubborn organic removal is Piranha 
+solution, a strongly exothermic mixture that operates through two 
+concurrent mechanisms at different rates. The first 
+and faster mechanism is dehydration: concentrated $\mathrm{H_2SO_4}$ 
+strips hydrogen and oxygen from organic molecules as water, exploiting 
+the highly favourable enthalpy of hydration 
+($\Delta H \approx -880\,\mathrm{kJ\,mol^{-1}}$). This process 
+carbonises organic residues within seconds, reducing them to 
+water-soluble fragments \cite{donovan2018}. The second, slower mechanism is oxidation: 
+as described in Figure~\ref{fig:cairoacid}, 
+$\mathrm{H_2SO_4}$ reacts with $\mathrm{H_2O_2}$ to form Caro's acid 
+($\mathrm{H_2SO_5}$), a potent oxidising agent that generates hydroxyl 
+radicals capable of breaking C--H and Si--O bonds alike \cite{kern1993}. 
+The net effect 
+on the glass surface is twofold: organic contaminants are eliminated, 
+and the oxidising radicals attack the outermost Si--O--Si (siloxane) 
+bonds, cleaving them and leaving the exposed silicon atoms terminated 
+as Si-OH groups. Piranha therefore acts simultaneously as a cleaner 
+and as a hydroxylating agent, and substrates emerge from the bath with 
+a highly hydrophilic, silanol-rich surface, such as the 
+one displayed in Figure~\ref{fig:activatedsurf}.
 \begin{figure}[h]
-\centering
-\includegraphics[width=0.8\textwidth]{Images/bonding_process.jpg}
-\caption{Bonding process of two fused silica surfaces. Silanol 
-    ($\mathrm{Si\text{-}OH}$) groups initially form hydrogen bonds across 
-    the interface; subsequent thermal treatment converts these into 
-    permanent covalent Si-O-Si bonds. From \cite{gosele2006}.}
-\label{fig:bonding_process1}
+    \centering
+    \includegraphics[width=0.7\linewidth]{Images/piranha_cairo_acid.png}
+    \caption{Hydroxyl radicals formation upon the decomposition of Caro's
+    acid in Piranha solution. From \cite{caro2017}.}
+    \label{fig:cairoacid}
+\end{figure}
+\begin{figure}[h]
+    \centering
+    \includegraphics[width=0.6\linewidth]{Images/activatedsurf.png}
+    \caption{Schematic representation of a hydroxylated/hydrophilic surface. 
+    From \cite{kern1993}.}
+    \label{fig:activatedsurf}
+\end{figure}
+\paragraph{RCA-1 ($\mathrm{NH_4OH}$:$\mathrm{H_2O_2}$:$\mathrm{H_2O}$, 
+1:1:5 at $70\text{--}80\,^\circ\mathrm{C}$).}
+The RCA Standard Clean 1 (SC-1), introduced by Kern and Puotinen in 
+1970 \cite{kern1970}, targets light organic films and, most importantly, 
+sub-micron particulate contamination. Its mechanism 
+relies on a dynamic oxide dissolution--regeneration 
+cycle: in the alkaline 
+environment maintained by $\mathrm{NH_4OH}$, the $\mathrm{H_2O_2}$ 
+simultaneously oxidises the outermost silica layer to form a thin 
+chemical oxide, while the $\mathrm{NH_4OH}$ dissolves 
+this oxide at approximately the same rate \cite{kern1993}. 
+This cycle continuously regenerates the surface, and the key 
+consequence for particle removal is mechanical: as the oxide beneath 
+an adhered particle is dissolved away, the particle becomes undercut 
+and loses its mechanical anchorage to the substrate, leaving it free 
+to diffuse into solution. At the basic pH of SC-1, both the oxidised 
+glass surface and the 
+surfaces of most particle contaminants acquire a negative Zeta 
+potential (as displayed in Figure~\ref{fig:zetapot}), 
+creating an electrostatic repulsion that prevents 
+re-deposition once particles are dislodged 
+\cite{kern1993}. The repeated oxidation--dissolution cycles also leave the surface 
+with a dense, freshly formed termination of Si-OH groups, contributing 
+to surface activation. Additionally, the
+$\mathrm{NH_4OH}$ also serves to remove some
+metals such as Cu, Au, Ag, Zn, and Cd, and some elements from other groups
+such as Ni, Co, and Cr \cite{kern1993}. 
+\begin{figure}[h]
+    \centering
+    \includegraphics[width=0.5\linewidth]{Images/zetapot.png}
+    \caption{Schematic representation of a contaminant being
+    lifted from a quartz surface due to the Zeta potential. 
+    Adapted from \cite{lin2012}.}
+    \label{fig:zetapot}
 \end{figure}
 
-\textit{Activation} consists of increasing the density of hydroxyl 
-groups on the surface by forming silanol groups ($\mathrm{Si\text{-}OH}$). In 
-practice, the most common wet-chemical route is soaking the substrates in an RCA-1 solution.
-This process relies on a dual chemical mechanism: the strong oxidizing power 
-of $\mathrm{H_2O_2}$ aggressively decomposes organic residues into 
-water-soluble compounds, while the alkaline environment provided by $\mathrm{NH_4OH}$ 
-drives a controlled, microscopic etching of the silica network \textbf{FALTA CITA}. 
-This subtle dissolution cleaves the structural siloxane ($\mathrm{Si\text{-}O\text{-}Si}$) 
-bonds at the outermost atomic layers of the glass, 
-leaving the dangling silicon bonds terminated as highly 
-polar silanol groups, thereby drastically raising both the 
-silanol surface density and the overall surface energy \cite{mai2015}. 
+\paragraph{RCA-2 ($\mathrm{HCl}$:$\mathrm{H_2O_2}$:$\mathrm{H_2O}$, 
+1:1:6 at $70\,^\circ\mathrm{C}$).}
+The second RCA step (SC-2) targets metallic contamination introduced 
+either during previous processing or by the SC-1 bath itself, which can 
+deposit trace metal ions onto the surface. Its mechanism is 
+straightforward: $\mathrm{H_2O_2}$ oxidises metallic species to their 
+ionic forms, while $\mathrm{HCl}$ provides a strongly acidic environment 
+in which these ions form soluble chloride complexes that are rinsed 
+away with the bath \cite{kern1970, kern1993}. The acidic pH also reverses the 
+Zeta potential of the surface, which is advantageous for removing 
+metal hydroxide colloids that might have survived SC-1. SC-2 has no 
+significant activation effect on the silanol density.
 
+\paragraph{Ultrasonic Agitation.}
+For all bath steps, ultrasonic agitation substantially enhances 
+contaminant removal. High-frequency sound waves generate microscopic 
+cavitation bubbles in the liquid; their violent implosion near the 
+glass surface produces localised pressure jets that dislodge particles 
+from recesses and pores that are otherwise inaccessible to chemical 
+soaking alone \cite{menon1989}.
 
+\subsubsection*{Chemical Activation}
 
+The cleaning steps described above increase surface hydrophilicity as 
+a side effect of their primary cleaning action. Dedicated activation 
+takes this further. A hydroxylated silica surface exposed to ambient 
+humidity rapidly adsorbs water molecules onto its Si-OH sites, 
+building up a chemisorbed water layer one to a few monolayers thick 
+\cite{zhuravlev2000}. When two such surfaces are brought into contact, 
+this water layer bridges the opposing silanol groups through a network 
+of hydrogen bonds \cite{rammhandbook}:
+%
+\begin{equation}
+    \equiv\!\mathrm{Si}\text{-}\mathrm{OH} \cdots 
+    \mathrm{H_2O} \cdots 
+    \mathrm{HO}\text{-}\mathrm{Si}\!\equiv
+    \label{eq:hbond_water}
+\end{equation}
+%
+This water-mediated hydrogen-bonding network provides the initial 
+room-temperature adhesion required to handle the bonded pair. As the 
+interface is annealed at temperatures above $\sim$100\,°C, the water 
+is gradually expelled and adjacent silanol pairs condense directly 
+into covalent siloxane bridges \cite{stengl1989,eichler2008}:
+%
+\begin{equation}
+    \equiv\!\mathrm{Si}\text{-}\mathrm{OH} + 
+    \mathrm{HO}\text{-}\mathrm{Si}\!\equiv 
+    \;\xrightarrow{T\,>\,100\,^\circ\mathrm{C}}\; 
+    \equiv\!\mathrm{Si}\text{-}\mathrm{O}\text{-}\mathrm{Si}\!\equiv 
+    \;+\; \mathrm{H_2O}
+    \label{eq:siloxane}
+\end{equation}
+%
+The bond energy after annealing scales with the number of siloxane 
+bridges formed per unit area, which in turn is limited by the silanol 
+density present at the time of contact \cite{stengl1989, zhuravlev2000}. 
+Since no treatment after bonding can introduce new silanol groups at the 
+buried interface, the activation state achieved before contact is an 
+upper bound on the final bond strength.
+
+The most widely used activation step is an additional SC-1 
+soak applied immediately before bonding.
+The dissolution--regeneration 
+cycle described above continuously exposes fresh, uncontaminated silica 
+with a maximum density of Si-OH groups estimated at approximately 
+\SI{4.6}{\per\nano\meter\squared} on a fully hydroxylated amorphous 
+silica surface \cite{zhuravlev2000}. In practice, a water contact angle 
+below $5^\circ$ after the final DI water rinse is used as the 
+operational criterion for successful activation, as it indicates that 
+the silanol density is sufficient for spontaneous bonding upon contact 
+\cite{gosele2006,possl1999}. An alternative activation method is
+exposing the substrates to a \textit{plasma treatment}, as explained in Section~\ref{sec:plasma}. 
