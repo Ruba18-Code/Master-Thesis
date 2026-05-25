@@ -5,49 +5,68 @@ the bonding process initiates through the formation of hydrogen bonds between
 opposing silanol groups \cite{kissinger1990}. These bonds can subsequently be 
 converted into permanent covalent siloxane bonds via the condensation reaction:
 \begin{equation}
-    \mathrm{Si\text{-}OH + HO\text{-}Si} \rightleftharpoons 
-    \mathrm{Si\text{-}O\text{-}Si + H_2O}.
+    \equiv\!\mathrm{Si}\text{-}\mathrm{OH} + 
+    \mathrm{HO}\text{-}\mathrm{Si}\!\equiv 
+    \;\xrightarrow{T\,>\,100\,^\circ\mathrm{C}}\; 
+    \equiv\!\mathrm{Si}\text{-}\mathrm{O}\text{-}\mathrm{Si}\!\equiv 
+    \;+\; \mathrm{H_2O}
     \label{eq:siloxane}
 \end{equation}
-For this reaction to proceed irreversibly, water must be removed from the 
-interface \cite{rammhandbook}. This is accomplished through \textit{annealing}: 
-baking the bonded assembly in a controlled thermal environment. The three 
-parameters governing the outcome are the temperature ramp, the equilibrium 
-temperature, and the annealing time.
+For this reaction to proceed irreversibly, water must be effectively removed from the 
+interfacial network \cite{rammhandbook}. This is accomplished through \textit{annealing}, 
+which involves baking the bonded assembly in a strictly controlled thermal environment 
+governed by three primary parameters: the temperature ramp, the equilibrium temperature, 
+and the total annealing time.
 
-The \textit{temperature ramp} (heating rate) must be kept as low as possible. 
-Rapid temperature increases induce differential thermal stresses in the glass 
-substrates that can compromise mechanical and optical performance, or cause 
+The \textit{temperature ramp} (heating and cooling rate) must be kept as low as possible, 
+typically restricted to fractions of a degree per minute. Rapid temperature alterations 
+induce severe transient thermal gradients and differential stresses within the glass 
+substrates. These thermal stresses can compromise the mechanical integrity of the assembly, 
+degrade optical performance via stress-induced birefringence, or cause catastrophic 
+delamination and structural cracking due to thermal shock \textbf{CITA}.
 
-The \textit{equilibrium temperature} controls water diffusivity at the 
-interface: higher temperatures accelerate moisture removal and promote viscous 
-flow, which increases surface conformity \cite{rammhandbook}. However, elevated 
-temperatures are incompatible with precision devices that incorporate optical 
-coatings, pre-structured channels, or integrated electronics \cite{li2013}. 
-In such cases---including LWVCs, where laser-written microstructures must be 
-preserved---plasma activation is essential, as it raises surface energy and 
-water diffusivity sufficiently to achieve strong bonds at temperatures as low 
-as \SI{100}{\celsius} \cite{cho2001}. This approach is referred to as 
+In contrast, the \textit{equilibrium temperature} directly controls the kinetics of water 
+diffusivity at the interface. Elevated temperatures accelerate moisture evacuation and 
+promote localized viscous flow, which fundamentally increases atomic-scale surface 
+conformity \cite{rammhandbook}. As illustrated in Figure~\ref{fig:annealingtemp}, the 
+interfacial surface energy increases progressively with higher annealing temperatures, 
+eventually reaching a plateau that corresponds to the bulk fracture energy of the 
+material. 
+
+\begin{figure}[h]
+\centering
+\includegraphics[width=0.8\linewidth]{Images/annealingtemp.png}
+\caption{Evolution of bonding energy as a function of annealing temperature. Adapted from \cite{li2013}.}
+\label{fig:annealingtemp}
+\end{figure}
+
+However, such high thermal budgets are strictly incompatible with precision devices 
+incorporating thin-film optical coatings, pre-structured channels, or integrated 
+electronics \cite{li2013}. In these specialized scenarios---including LWVCs, where 
+laser-written microstructures must preserve their exact structural dimensions---the 
+integration of plasma activation becomes indispensable. Plasma treatment raises the initial 
+surface energy and subsurface water diffusivity sufficiently to achieve robust, covalent 
+bonds at temperatures as low as \SI{100}{\celsius} \cite{cho2001}, a strategy known as 
 \textit{Low-Temperature Direct Bonding}.
 
-Regarding \textit{annealing time}, bond energy increases monotonically 
-following a logarithmic trend, whether through dedicated annealing or through 
-prolonged room-temperature contact \cite{cho2001}:
+Regarding the \textit{annealing time}, the bond energy increases monotonically following 
+a predictable logarithmic trend, a behavior observed during both dedicated thermal baking 
+and prolonged storage at room temperature \cite{cho2001}:
 \begin{equation}
 \gamma \propto \ln\!\left(\frac{t}{\mu}\right),
 \end{equation}
-where $t$ is the annealing time and $\mu$ is a temperature-dependent time 
-constant. Annealing effectively reduces $\mu$, allowing maximum bond energy 
-to be reached orders of magnitude faster than at room temperature. Typical 
-annealing durations for optical applications range from 2 to 24 hours 
-\cite{cho2001, yu2023, li2013, possl1999, trinh2022}, as illustrated in 
-Figure~\ref{fig:annealing_time}.
+where $t$ represents the elapsed annealing time and $\mu$ is a temperature-dependent 
+characteristic time constant. Thermal annealing effectively reduces $\mu$ by several orders 
+of magnitude, dramatically accelerating the convergence toward maximum bond strength. 
+Consequently, typical annealing durations required to stabilize high-performance optical 
+components range from 2 to 24 hours \cite{cho2001, yu2023, li2013, possl1999, trinh2022}, 
+as detailed in Figure~\ref{fig:annealing_time}.
+
 \begin{figure}[h]
-\centering
-\includegraphics[width=0.8\linewidth]{Images/annealing_time.png}
-\caption{Evolution of bonding energy with annealing time. Bond strength 
-    follows a logarithmic growth law; annealing reduces the characteristic 
-    time constant $\mu$, accelerating convergence toward the bulk fracture 
-    energy. From \cite{cho2001}.}
-\label{fig:annealing_time}
+    \centering
+    \includegraphics[width=0.8\linewidth]{Images/annealing_time.png}
+    \caption{Evolution of bonding energy with respect to annealing time. The bond strength 
+        follows a logarithmic growth law, where thermal annealing reduces the characteristic 
+        time constant $\mu$ to accelerate convergence toward bulk material strength. From \cite{cho2001}.}
+    \label{fig:annealing_time}
 \end{figure}

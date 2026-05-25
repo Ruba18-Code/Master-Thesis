@@ -185,8 +185,8 @@
       \strng{authorbibnamehash}{10868530ee2abd073b8266e6eefdc113}
       \strng{authornamehash}{10868530ee2abd073b8266e6eefdc113}
       \strng{authorfullhash}{10868530ee2abd073b8266e6eefdc113}
-      \field{sortinit}{2}
-      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{issn}{1563-5031}
@@ -1005,8 +1005,8 @@
       \strng{authorbibnamehash}{16dd12637b22581567240587d5c83671}
       \strng{authornamehash}{16dd12637b22581567240587d5c83671}
       \strng{authorfullhash}{a100bb4bf8e40e7643199b4f557b0f7c}
-      \field{sortinit}{5}
-      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
+      \field{sortinit}{6}
+      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Applied Optics}
@@ -1417,8 +1417,8 @@
       \strng{authorbibnamehash}{30beba8cebd3859c2566cd0afc268ed6}
       \strng{authornamehash}{30beba8cebd3859c2566cd0afc268ed6}
       \strng{authorfullhash}{30beba8cebd3859c2566cd0afc268ed6}
-      \field{sortinit}{6}
-      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
+      \field{sortinit}{7}
+      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Proceedings of SPIE}
@@ -1814,8 +1814,8 @@
       \strng{authornamehash}{c2983a88ba03c252af98faa8c3cd38c5}
       \strng{authorfullhash}{c2983a88ba03c252af98faa8c3cd38c5}
       \field{extraname}{2}
-      \field{sortinit}{7}
-      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
+      \field{sortinit}{8}
+      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{issn}{1089-7550}
@@ -1888,6 +1888,139 @@
       \verb http://dx.doi.org/10.1007/s10904-022-02510-x
       \endverb
     \endentry
+    \entry{kissinger1990}{article}{}
+      \name{author}{2}{}{%
+        {{hash=9852b0ff9bbaea09e4ce7a4b9cc85e57}{%
+           family={Kissinger},
+           familyi={K\bibinitperiod},
+           given={G.},
+           giveni={G\bibinitperiod}}}%
+        {{hash=bfbf280b597f770a51f4fe60e69f13c2}{%
+           family={Kissinger},
+           familyi={K\bibinitperiod},
+           given={W.},
+           giveni={W\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Wiley}%
+      }
+      \strng{namehash}{91da9e49a822be03fbd329ed7a979d24}
+      \strng{fullhash}{91da9e49a822be03fbd329ed7a979d24}
+      \strng{bibnamehash}{91da9e49a822be03fbd329ed7a979d24}
+      \strng{authorbibnamehash}{91da9e49a822be03fbd329ed7a979d24}
+      \strng{authornamehash}{91da9e49a822be03fbd329ed7a979d24}
+      \strng{authorfullhash}{91da9e49a822be03fbd329ed7a979d24}
+      \field{sortinit}{8}
+      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{1521-396X}
+      \field{journaltitle}{Physica Status Solidi (a)}
+      \field{month}{1}
+      \field{number}{1}
+      \field{title}{Hydrophilicity of Silicon Wafers for Direct Bonding}
+      \field{volume}{123}
+      \field{year}{1991}
+      \field{pages}{185\bibrangedash 192}
+      \range{pages}{8}
+      \verb{doi}
+      \verb 10.1002/pssa.2211230117
+      \endverb
+      \verb{urlraw}
+      \verb http://dx.doi.org/10.1002/pssa.2211230117
+      \endverb
+      \verb{url}
+      \verb http://dx.doi.org/10.1002/pssa.2211230117
+      \endverb
+    \endentry
+    \entry{acetone_art}{article}{}
+      \name{author}{1}{}{%
+        {{hash=c86c657ae3158951ced29dda5e6a12b8}{%
+           family={(LabPro)},
+           familyi={(\bibinitperiod},
+           given={Ari\bibnamedelima Pailakian},
+           giveni={A\bibinitperiod\bibinitdelim P\bibinitperiod}}}%
+      }
+      \strng{namehash}{c86c657ae3158951ced29dda5e6a12b8}
+      \strng{fullhash}{c86c657ae3158951ced29dda5e6a12b8}
+      \strng{bibnamehash}{c86c657ae3158951ced29dda5e6a12b8}
+      \strng{authorbibnamehash}{c86c657ae3158951ced29dda5e6a12b8}
+      \strng{authornamehash}{c86c657ae3158951ced29dda5e6a12b8}
+      \strng{authorfullhash}{c86c657ae3158951ced29dda5e6a12b8}
+      \field{sortinit}{8}
+      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
+      \field{labelnamesource}{author}
+      \field{year}{2023}
+      \verb{urlraw}
+      \verb https://labproinc.com/blogs/chemicals-and-solvents/acetone-a-powerful-cleaning-agent
+      \endverb
+      \verb{url}
+      \verb https://labproinc.com/blogs/chemicals-and-solvents/acetone-a-powerful-cleaning-agent
+      \endverb
+    \endentry
+    \entry{donovan2018}{book}{}
+      \name{author}{1}{}{%
+        {{hash=be1fb6af89e962eddea5921713914f65}{%
+           family={Donovan},
+           familyi={D\bibinitperiod},
+           given={Robert\bibnamedelima P.},
+           giveni={R\bibinitperiod\bibinitdelim P\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {CRC Press}%
+      }
+      \strng{namehash}{be1fb6af89e962eddea5921713914f65}
+      \strng{fullhash}{be1fb6af89e962eddea5921713914f65}
+      \strng{bibnamehash}{be1fb6af89e962eddea5921713914f65}
+      \strng{authorbibnamehash}{be1fb6af89e962eddea5921713914f65}
+      \strng{authornamehash}{be1fb6af89e962eddea5921713914f65}
+      \strng{authorfullhash}{be1fb6af89e962eddea5921713914f65}
+      \field{sortinit}{9}
+      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{isbn}{9781482289992}
+      \field{month}{10}
+      \field{title}{Contamination-Free Manufacturing for Semiconductors and Other Precision Products}
+      \field{year}{2018}
+      \verb{doi}
+      \verb 10.1201/9781315214481
+      \endverb
+      \verb{urlraw}
+      \verb http://dx.doi.org/10.1201/9781315214481
+      \endverb
+      \verb{url}
+      \verb http://dx.doi.org/10.1201/9781315214481
+      \endverb
+    \endentry
+    \entry{kern1993}{book}{}
+      \name{author}{1}{}{%
+        {{hash=b9adc9814f46d5735de8e8ede8901d37}{%
+           family={Kern},
+           familyi={K\bibinitperiod},
+           given={Werner},
+           giveni={W\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Park Ridge, NJ}%
+      }
+      \list{publisher}{1}{%
+        {Noyes Publications}%
+      }
+      \strng{namehash}{b9adc9814f46d5735de8e8ede8901d37}
+      \strng{fullhash}{b9adc9814f46d5735de8e8ede8901d37}
+      \strng{bibnamehash}{b9adc9814f46d5735de8e8ede8901d37}
+      \strng{authorbibnamehash}{b9adc9814f46d5735de8e8ede8901d37}
+      \strng{authornamehash}{b9adc9814f46d5735de8e8ede8901d37}
+      \strng{authorfullhash}{b9adc9814f46d5735de8e8ede8901d37}
+      \field{extraname}{1}
+      \field{sortinit}{9}
+      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Handbook of Semiconductor Wafer Cleaning Technology: Science, Technology, and Applications}
+      \field{year}{1993}
+    \endentry
     \entry{caro2017}{article}{}
       \name{author}{4}{}{%
         {{hash=51df63fe4c29f4a68fdcfbcc77e050fe}{%
@@ -1920,8 +2053,8 @@
       \strng{authorbibnamehash}{c74ec5e8add072a60f44d95e7f9d8a96}
       \strng{authornamehash}{c74ec5e8add072a60f44d95e7f9d8a96}
       \strng{authorfullhash}{6e426d0f946dcf6e20ee7acff5de66aa}
-      \field{sortinit}{8}
-      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
+      \field{sortinit}{9}
+      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{issn}{0014-3057}
@@ -1941,34 +2074,6 @@
       \verb{url}
       \verb http://dx.doi.org/10.1016/j.eurpolymj.2017.09.029
       \endverb
-    \endentry
-    \entry{kern1993}{book}{}
-      \name{author}{1}{}{%
-        {{hash=b9adc9814f46d5735de8e8ede8901d37}{%
-           family={Kern},
-           familyi={K\bibinitperiod},
-           given={Werner},
-           giveni={W\bibinitperiod}}}%
-      }
-      \list{location}{1}{%
-        {Park Ridge, NJ}%
-      }
-      \list{publisher}{1}{%
-        {Noyes Publications}%
-      }
-      \strng{namehash}{b9adc9814f46d5735de8e8ede8901d37}
-      \strng{fullhash}{b9adc9814f46d5735de8e8ede8901d37}
-      \strng{bibnamehash}{b9adc9814f46d5735de8e8ede8901d37}
-      \strng{authorbibnamehash}{b9adc9814f46d5735de8e8ede8901d37}
-      \strng{authornamehash}{b9adc9814f46d5735de8e8ede8901d37}
-      \strng{authorfullhash}{b9adc9814f46d5735de8e8ede8901d37}
-      \field{extraname}{1}
-      \field{sortinit}{8}
-      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{title}{Handbook of Semiconductor Wafer Cleaning Technology: Science, Technology, and Applications}
-      \field{year}{1993}
     \endentry
     \entry{kern1970}{inproceedings}{}
       \name{author}{1}{}{%
@@ -1996,6 +2101,85 @@
       \endverb
       \verb{url}
       \verb https://api.semanticscholar.org/CorpusID:101858490
+      \endverb
+    \endentry
+    \entry{lin2012}{inproceedings}{}
+      \name{author}{6}{}{%
+        {{hash=1984c592c1b39b0e59fa24be35d0928e}{%
+           family={Lin},
+           familyi={L\bibinitperiod},
+           given={Kuan-Wen},
+           giveni={K\bibinithyphendelim W\bibinitperiod}}}%
+        {{hash=c9c62dbbf2b369b665ebf7e257e7417e}{%
+           family={Lu},
+           familyi={L\bibinitperiod},
+           given={Chi-Lun},
+           giveni={C\bibinithyphendelim L\bibinitperiod}}}%
+        {{hash=ac0a7d93bf7fcdba25f6fc84b1d06ad3}{%
+           family={Shen},
+           familyi={S\bibinitperiod},
+           given={Chin-Wei},
+           giveni={C\bibinithyphendelim W\bibinitperiod}}}%
+        {{hash=5f4b27b6d053318e55b39f5a4300d20d}{%
+           family={Hsu},
+           familyi={H\bibinitperiod},
+           given={Luke},
+           giveni={L\bibinitperiod}}}%
+        {{hash=f699ee27fbaa27753b10152cc02430d0}{%
+           family={Chin},
+           familyi={C\bibinitperiod},
+           given={Angus},
+           giveni={A\bibinitperiod}}}%
+        {{hash=ce68c8286fd109a589bde66129b8134f}{%
+           family={Yen},
+           familyi={Y\bibinitperiod},
+           given={Anthony},
+           giveni={A\bibinitperiod}}}%
+      }
+      \name{editor}{2}{}{%
+        {{hash=e10bde469b7f7085f12d9d9548d7f5bc}{%
+           family={Abboud},
+           familyi={A\bibinitperiod},
+           given={Frank\bibnamedelima E.},
+           giveni={F\bibinitperiod\bibinitdelim E\bibinitperiod}}}%
+        {{hash=5d608bafe55a3af478ff7d89ead82f03}{%
+           family={Faure},
+           familyi={F\bibinitperiod},
+           given={Thomas\bibnamedelima B.},
+           giveni={T\bibinitperiod\bibinitdelim B\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {SPIE}%
+      }
+      \strng{namehash}{64d40671f6789fa19254aa918ba6d979}
+      \strng{fullhash}{3a8f97dbf735943c46b19ee705b71004}
+      \strng{bibnamehash}{64d40671f6789fa19254aa918ba6d979}
+      \strng{authorbibnamehash}{64d40671f6789fa19254aa918ba6d979}
+      \strng{authornamehash}{64d40671f6789fa19254aa918ba6d979}
+      \strng{authorfullhash}{3a8f97dbf735943c46b19ee705b71004}
+      \strng{editorbibnamehash}{f0955c4d1ddf65b93a38de16371584d3}
+      \strng{editornamehash}{f0955c4d1ddf65b93a38de16371584d3}
+      \strng{editorfullhash}{f0955c4d1ddf65b93a38de16371584d3}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Photomask Technology 2012}
+      \field{issn}{0277-786X}
+      \field{month}{11}
+      \field{title}{Sub-20-nm node photomask cleaning enhancement by controlling zeta potential}
+      \field{volume}{8522}
+      \field{year}{2012}
+      \field{pages}{852213}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1117/12.975822
+      \endverb
+      \verb{urlraw}
+      \verb http://dx.doi.org/10.1117/12.975822
+      \endverb
+      \verb{url}
+      \verb http://dx.doi.org/10.1117/12.975822
       \endverb
     \endentry
     \entry{menon1989}{inbook}{}
@@ -2030,8 +2214,8 @@
       \strng{authorbibnamehash}{d8da29454b088dee3c120abd06d1e4f4}
       \strng{authornamehash}{d8da29454b088dee3c120abd06d1e4f4}
       \strng{authorfullhash}{952aff7175dfcd2d3a6541bda9ee23de}
-      \field{sortinit}{9}
-      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{booktitle}{Particles on Surfaces 2}
@@ -2067,8 +2251,8 @@
       \strng{authorbibnamehash}{db8804ca585ca64edfd2c02a24e9277c}
       \strng{authornamehash}{db8804ca585ca64edfd2c02a24e9277c}
       \strng{authorfullhash}{db8804ca585ca64edfd2c02a24e9277c}
-      \field{sortinit}{9}
-      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{issn}{0927-7757}
@@ -2088,6 +2272,116 @@
       \endverb
       \verb{url}
       \verb http://dx.doi.org/10.1016/S0927-7757(00)00556-2
+      \endverb
+    \endentry
+    \entry{stengl1989}{article}{}
+      \name{author}{3}{}{%
+        {{hash=b2ccfcd47d148142d755fb14e8752839}{%
+           family={Stengl},
+           familyi={S\bibinitperiod},
+           given={R.},
+           giveni={R\bibinitperiod}}}%
+        {{hash=c1c1a5c3cb350a07d2f1d7a9c75ac9bc}{%
+           family={Tan},
+           familyi={T\bibinitperiod},
+           given={T.},
+           giveni={T\bibinitperiod}}}%
+        {{hash=05de44ab1f46dc1f00a24838bf37554c}{%
+           family={Gösele},
+           familyi={G\bibinitperiod},
+           given={U.},
+           giveni={U\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {IOP Publishing}%
+      }
+      \strng{namehash}{e4bc2ea35a0f6325b5296cb5c4db60bc}
+      \strng{fullhash}{e4bc2ea35a0f6325b5296cb5c4db60bc}
+      \strng{bibnamehash}{e4bc2ea35a0f6325b5296cb5c4db60bc}
+      \strng{authorbibnamehash}{e4bc2ea35a0f6325b5296cb5c4db60bc}
+      \strng{authornamehash}{e4bc2ea35a0f6325b5296cb5c4db60bc}
+      \strng{authorfullhash}{e4bc2ea35a0f6325b5296cb5c4db60bc}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{1347-4065}
+      \field{journaltitle}{Japanese Journal of Applied Physics}
+      \field{month}{10}
+      \field{number}{10R}
+      \field{title}{A Model for the Silicon Wafer Bonding Process}
+      \field{volume}{28}
+      \field{year}{1989}
+      \field{pages}{1735}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1143/jjap.28.1735
+      \endverb
+      \verb{urlraw}
+      \verb http://dx.doi.org/10.1143/JJAP.28.1735
+      \endverb
+      \verb{url}
+      \verb http://dx.doi.org/10.1143/JJAP.28.1735
+      \endverb
+    \endentry
+    \entry{eichler2008}{article}{}
+      \name{author}{5}{}{%
+        {{hash=7923d3fea9dff99bb8a8c73c7cf8dc80}{%
+           family={Eichler},
+           familyi={E\bibinitperiod},
+           given={M.},
+           giveni={M\bibinitperiod}}}%
+        {{hash=f119a1bd8d09f0a9ee194a6c86ee9e3c}{%
+           family={Michel},
+           familyi={M\bibinitperiod},
+           given={B.},
+           giveni={B\bibinitperiod}}}%
+        {{hash=79933f80a185275b845f999ebd2ec128}{%
+           family={Thomas},
+           familyi={T\bibinitperiod},
+           given={M.},
+           giveni={M\bibinitperiod}}}%
+        {{hash=b3d03c8d2ca50fe2506d905019e41dc3}{%
+           family={Gabriel},
+           familyi={G\bibinitperiod},
+           given={M.},
+           giveni={M\bibinitperiod}}}%
+        {{hash=f332504c19fafb32e7793b281e94e152}{%
+           family={Klages},
+           familyi={K\bibinitperiod},
+           given={C.-P.},
+           giveni={C\bibinithyphendelim P\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Elsevier BV}%
+      }
+      \strng{namehash}{9c557b1cc0c81b31a0e65ee15c2f8051}
+      \strng{fullhash}{b47d96c9c5f53e6663fbfb42122a493b}
+      \strng{bibnamehash}{9c557b1cc0c81b31a0e65ee15c2f8051}
+      \strng{authorbibnamehash}{9c557b1cc0c81b31a0e65ee15c2f8051}
+      \strng{authornamehash}{9c557b1cc0c81b31a0e65ee15c2f8051}
+      \strng{authorfullhash}{b47d96c9c5f53e6663fbfb42122a493b}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{0257-8972}
+      \field{journaltitle}{Surface and Coatings Technology}
+      \field{month}{12}
+      \field{number}{5-7}
+      \field{title}{Atmospheric-pressure plasma pretreatment for direct bonding of silicon wafers at low temperatures}
+      \field{volume}{203}
+      \field{year}{2008}
+      \field{pages}{826\bibrangedash 829}
+      \range{pages}{4}
+      \verb{doi}
+      \verb 10.1016/j.surfcoat.2008.06.054
+      \endverb
+      \verb{urlraw}
+      \verb http://dx.doi.org/10.1016/j.surfcoat.2008.06.054
+      \endverb
+      \verb{url}
+      \verb http://dx.doi.org/10.1016/j.surfcoat.2008.06.054
       \endverb
     \endentry
     \entry{masteika2014}{article}{}
@@ -2392,111 +2686,6 @@
       \endverb
       \verb{url}
       \verb http://dx.doi.org/10.3390/app11156755
-      \endverb
-    \endentry
-    \entry{eichler2008}{article}{}
-      \name{author}{5}{}{%
-        {{hash=7923d3fea9dff99bb8a8c73c7cf8dc80}{%
-           family={Eichler},
-           familyi={E\bibinitperiod},
-           given={M.},
-           giveni={M\bibinitperiod}}}%
-        {{hash=f119a1bd8d09f0a9ee194a6c86ee9e3c}{%
-           family={Michel},
-           familyi={M\bibinitperiod},
-           given={B.},
-           giveni={B\bibinitperiod}}}%
-        {{hash=79933f80a185275b845f999ebd2ec128}{%
-           family={Thomas},
-           familyi={T\bibinitperiod},
-           given={M.},
-           giveni={M\bibinitperiod}}}%
-        {{hash=b3d03c8d2ca50fe2506d905019e41dc3}{%
-           family={Gabriel},
-           familyi={G\bibinitperiod},
-           given={M.},
-           giveni={M\bibinitperiod}}}%
-        {{hash=f332504c19fafb32e7793b281e94e152}{%
-           family={Klages},
-           familyi={K\bibinitperiod},
-           given={C.-P.},
-           giveni={C\bibinithyphendelim P\bibinitperiod}}}%
-      }
-      \list{publisher}{1}{%
-        {Elsevier BV}%
-      }
-      \strng{namehash}{9c557b1cc0c81b31a0e65ee15c2f8051}
-      \strng{fullhash}{b47d96c9c5f53e6663fbfb42122a493b}
-      \strng{bibnamehash}{9c557b1cc0c81b31a0e65ee15c2f8051}
-      \strng{authorbibnamehash}{9c557b1cc0c81b31a0e65ee15c2f8051}
-      \strng{authornamehash}{9c557b1cc0c81b31a0e65ee15c2f8051}
-      \strng{authorfullhash}{b47d96c9c5f53e6663fbfb42122a493b}
-      \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{issn}{0257-8972}
-      \field{journaltitle}{Surface and Coatings Technology}
-      \field{month}{12}
-      \field{number}{5-7}
-      \field{title}{Atmospheric-pressure plasma pretreatment for direct bonding of silicon wafers at low temperatures}
-      \field{volume}{203}
-      \field{year}{2008}
-      \field{pages}{826\bibrangedash 829}
-      \range{pages}{4}
-      \verb{doi}
-      \verb 10.1016/j.surfcoat.2008.06.054
-      \endverb
-      \verb{urlraw}
-      \verb http://dx.doi.org/10.1016/j.surfcoat.2008.06.054
-      \endverb
-      \verb{url}
-      \verb http://dx.doi.org/10.1016/j.surfcoat.2008.06.054
-      \endverb
-    \endentry
-    \entry{kissinger1990}{article}{}
-      \name{author}{2}{}{%
-        {{hash=9852b0ff9bbaea09e4ce7a4b9cc85e57}{%
-           family={Kissinger},
-           familyi={K\bibinitperiod},
-           given={G.},
-           giveni={G\bibinitperiod}}}%
-        {{hash=bfbf280b597f770a51f4fe60e69f13c2}{%
-           family={Kissinger},
-           familyi={K\bibinitperiod},
-           given={W.},
-           giveni={W\bibinitperiod}}}%
-      }
-      \list{publisher}{1}{%
-        {Wiley}%
-      }
-      \strng{namehash}{91da9e49a822be03fbd329ed7a979d24}
-      \strng{fullhash}{91da9e49a822be03fbd329ed7a979d24}
-      \strng{bibnamehash}{91da9e49a822be03fbd329ed7a979d24}
-      \strng{authorbibnamehash}{91da9e49a822be03fbd329ed7a979d24}
-      \strng{authornamehash}{91da9e49a822be03fbd329ed7a979d24}
-      \strng{authorfullhash}{91da9e49a822be03fbd329ed7a979d24}
-      \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{issn}{1521-396X}
-      \field{journaltitle}{Physica Status Solidi (a)}
-      \field{month}{1}
-      \field{number}{1}
-      \field{title}{Hydrophilicity of Silicon Wafers for Direct Bonding}
-      \field{volume}{123}
-      \field{year}{1991}
-      \field{pages}{185\bibrangedash 192}
-      \range{pages}{8}
-      \verb{doi}
-      \verb 10.1002/pssa.2211230117
-      \endverb
-      \verb{urlraw}
-      \verb http://dx.doi.org/10.1002/pssa.2211230117
-      \endverb
-      \verb{url}
-      \verb http://dx.doi.org/10.1002/pssa.2211230117
       \endverb
     \endentry
     \entry{trinh2022}{article}{}
@@ -3971,8 +4160,6 @@
       \endverb
     \endentry
   \enddatalist
-  \missing{plossl1999}
-  \missing{stengl1989}
 \endrefsection
 \endinput
 

@@ -3,12 +3,14 @@
 Plasma treatment unifies the cleaning and activation functions described 
 above into a single process, while adding a third benefit unavailable 
 through wet chemistry alone: the enhancement of interfacial water and gas 
-diffusivity. Together, these three mechanisms make plasma treatment one of 
+diffusivity. Together, these mechanisms make plasma treatment one of 
 the most impactful steps in the bonding protocol, capable of yielding high 
 bonding energies even at low annealing temperatures. In a plasma cleaner, 
 a mixture of electrons, ions, free radicals, and photons acts simultaneously 
-on the glass surface \cite{rammhandbook, masteika2014, suniphd}, as 
-illustrated in Figure~\ref{fig:plasma_act}:
+on the glass surface \cite{rammhandbook, masteika2014, suniphd}. This triggers a wide range 
+of physical and chemical effects that fundamentally alter the substrate's surface, as 
+illustrated in Figure~\ref{fig:plasma_act}.
+
 \begin{figure}[h]
 \centering
 \includegraphics[width=0.75\linewidth]{Images/plasma_activation.png}
@@ -17,39 +19,76 @@ illustrated in Figure~\ref{fig:plasma_act}:
     Adapted from \cite{yu2023}.}
 \label{fig:plasma_act}
 \end{figure}
-\begin{enumerate}
-\item \textbf{Removal of surface contaminants:} Plasma decomposes and 
-    volatilizes organic matter, producing additional dangling bonds and 
-    increasing the fraction of bonded area \cite{cho2001, tuli2012}.  
-\item \textbf{Increase in silanol group density:} Plasma-induced surface 
-    modification raises the concentration of silanol groups 
-    ($\mathrm{Si\text{-}OH}$), which are directly correlated with bonding 
-    strength \cite{rammhandbook}.
-\item \textbf{Enhancement of interfacial diffusivity:} Plasma treatment 
-    increases the diffusivity of water and trapped gas at the interface 
-    \cite{suniphd}. Water evacuation promotes the conversion of weak, 
-    reversible hydrogen bonds into stronger Si-O-Si covalent bonds, while 
-    gas removal prevents bubble formation during annealing.
-\end{enumerate}
-Common process gases include $\mathrm{O_2}$, $\mathrm{N_2}$, and 
-$\mathrm{Ar}$ \cite{suniphd, tuli2012}. Plasma power, chamber pressure, 
-gas flow rate, and exposure time must all be carefully controlled, since 
-overexposure increases surface roughness and degrades bond quality. 
-\\\\
-\textbf{ESPECIFICAR MES SOBRE ELS PARAMETRES}
-\\\\
-A critical procedural constraint is that plasma treatment must always 
-follow all chemical cleaning or activation steps: subsequent exposure to 
-chemicals can etch the activated surface and negate the benefits of the 
-treatment \cite{neumann2021}. Conversely, brief exposure to deionized water 
-(DIW) or ambient air after plasma treatment is beneficial, since water 
-molecules attach to the $\mathrm{Si\text{-}O^{-}}$ groups and convert them 
-into silanol groups \cite{yu2023}. The recommended workflow is therefore: 
-(1) chemical cleaning, (2) chemical activation (e.g., RCA-1), 
-(3) plasma treatment, (4) DIW rinse, and (5) pre-bonding and annealing.
 
-Plasma treatment is especially valuable for low-temperature optical contact 
-bonding in LWVCs: it produces bond energies exceeding 
-\SI{1}{\joule\per\meter\squared} at annealing temperatures as low as 
-\SI{100}{\celsius} \cite{eichler2008, yu2023}, well below the thresholds 
-that would damage pre-structured glass components.
+Chemically, the plasma decomposes and volatilizes organic contaminants through physical 
+bombardment and chemical reactions, significantly increasing the fraction of clean, 
+bondable area \cite{cho2001, tuli2012}. More importantly, the energetic bombardment 
+breaks stable surface siloxane rings ($\mathrm{Si\text{-}O\text{-}Si}$), creating a high 
+density of highly reactive dangling bonds ($\mathrm{Si^*}$ and $\mathrm{O^*}$). Upon subsequent 
+exposure to ambient moisture or a deionized water (DIW) rinse, these highly energetic 
+sites rapidly hydrate to form dense silanol ($\mathrm{Si\text{-}OH}$) terminations. This renders 
+the surface superhydrophilic---typically reducing the water contact angle to below 
+$5^\circ$---and provides the essential chemical foundation for strong covalent bonding 
+\cite{gosele1998, possl1999}. 
+
+Physically, the plasma ion bombardment alters the structure of the top few nanometers 
+of the silica substrate, generating a slightly less dense, nanoporous subsurface layer. 
+This modified, open network is crucial because it acts as a reservoir, significantly 
+increasing the diffusivity of water and trapped gases at the interface \cite{amirfeiz2000, suni2002}. 
+During the annealing phase, the rapid evacuation of interfacial water shifts the 
+chemical equilibrium to promote the conversion of weak, reversible hydrogen bonds 
+into stronger $\mathrm{Si\text{-}O\text{-}Si}$ covalent bonds. Simultaneously, the absorption of gases into 
+this porous layer prevents the macroscopic bubble (void) formation that often plagues 
+non-activated bonded pairs.
+
+To achieve these optimal surface conditions, process gases such as $\mathrm{O_2}$, $\mathrm{N_2}$, 
+and $\mathrm{Ar}$ are commonly used \cite{suniphd, tuli2012}, and chamber parameters must be 
+carefully tuned. The choice of gas dictates the dominant activation mechanism: $\mathrm{O_2}$ 
+plasma is highly reactive, effectively oxidizing organic residues and optimizing the 
+surface for silanol formation, whereas $\mathrm{Ar}$ plasma relies entirely on physical 
+sputtering to displace surface atoms. Sequential treatments or gas mixtures are often 
+employed to synergize the physical cleaning power of $\mathrm{Ar}$ with the chemical activation 
+of $\mathrm{O_2}$ \cite{masteika2014, suniphd}. Furthermore, plasma power and exposure time 
+govern the energy dose delivered to the substrate. While sufficient energy is required 
+to break the siloxane bonds, excessive power or prolonged exposure beyond a few minutes 
+induces severe physical sputtering. This degrades the surface by increasing its 
+root-mean-square (RMS) roughness, which must generally remain below \SI{1}{\nano\meter} 
+to avoid unbonded macroscopic areas \cite{rammhandbook}. Consequently, short, 
+low-to-medium power treatments are preferred. 
+
+An example of how the surface reactivity evolves with plasma treatment time is illustrated 
+in Figure~\ref{fig:plasmatime}. As shown, the surface energy exhibits a distinct peak at an optimal 
+exposure of \SI{60}{\second}. Beyond this threshold, additional plasma exposure leads to a gradual 
+degradation of the surface energy, a phenomenon primarily attributed to surface overetching and the 
+consequent increase in roughness.
+
+\begin{figure}[h]
+    \centering
+    \includegraphics[width=0.75\linewidth]{Images/plasmatime.png}
+    \caption{Bonding energy as a function of plasma treatment duration, highlighting the transition 
+    from optimal surface activation to degradation via overetching after \SI{60}{\second} of 
+    exposure. Adapted from \cite{li2013}.}
+    \label{fig:plasmatime}
+\end{figure}
+Chamber pressure also plays a vital role, 
+as it determines the mean free path of the plasma species; lower pressures increase 
+ion kinetic energy and sputtering risk, whereas higher pressures favor a higher density 
+of lower-energy radicals for gentler chemical modification.
+
+A critical procedural constraint is that plasma treatment must always follow all wet 
+chemical cleaning or activation steps, as subsequent exposure to chemicals can etch 
+the newly activated surface and negate the plasma's benefits \cite{neumann2021}. 
+Additionally, plasma-activated surfaces are subject to a "hydrophobic recovery" effect, 
+meaning they lose their reactivity if left in ambient air for extended periods due to 
+the re-adsorption of airborne contaminants and surface reconstruction. Therefore, 
+bonding should occur shortly after activation. As mentioned, a brief DIW rinse 
+immediately after the plasma step is highly beneficial to ensure maximum silanol 
+conversion \cite{yu2023}. The recommended workflow is therefore: (1) chemical cleaning, 
+(2) chemical activation (e.g., RCA-1), (3) plasma treatment, (4) DIW rinse, and 
+(5) immediate pre-bonding and annealing.
+
+Ultimately, plasma treatment is especially valuable for low-temperature optical contact 
+bonding in LWVCs. It produces bond energies exceeding \SI{1}{\joule\per\meter\squared} 
+at annealing temperatures as low as \SI{100}{\celsius} \cite{eichler2008, yu2023}, 
+which is well below the thermal thresholds that would damage or deform pre-structured 
+glass components.
