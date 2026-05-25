@@ -10,7 +10,7 @@ converted into permanent covalent siloxane bonds via the condensation reaction:
     \;\xrightarrow{T\,>\,100\,^\circ\mathrm{C}}\; 
     \equiv\!\mathrm{Si}\text{-}\mathrm{O}\text{-}\mathrm{Si}\!\equiv 
     \;+\; \mathrm{H_2O}
-    \label{eq:siloxane}
+    \label{eq:siloxane2}
 \end{equation}
 For this reaction to proceed irreversibly, water must be effectively removed from the 
 interfacial network \cite{rammhandbook}. This is accomplished through \textit{annealing}, 
@@ -28,26 +28,29 @@ delamination and structural cracking due to thermal shock \textbf{CITA}.
 In contrast, the \textit{equilibrium temperature} directly controls the kinetics of water 
 diffusivity at the interface. Elevated temperatures accelerate moisture evacuation and 
 promote localized viscous flow, which fundamentally increases atomic-scale surface 
-conformity \cite{rammhandbook}. As illustrated in Figure~\ref{fig:annealingtemp}, the 
-interfacial surface energy increases progressively with higher annealing temperatures, 
-eventually reaching a plateau that corresponds to the bulk fracture energy of the 
-material. 
+conformity \cite{rammhandbook}. Generally, the interfacial surface energy increases 
+progressively with higher annealing temperatures, eventually reaching a plateau. However, 
+in low-to-moderate temperature regimes, this plateau does not reflect the bulk fracture 
+energy of the material; instead, it represents a state of equilibrium determined by the 
+maximum density of silanol-to-siloxano conversions achievable under the restricted thermal 
+budget and the remaining interfacial moisture. Achieving true bulk-like bonding energies 
+without plasma would require high thermal budgets (typically above \SI{600}{\celsius}) 
+that are strictly incompatible with precision devices incorporating thin-film optical 
+coatings, pre-structured channels, or integrated electronics \cite{li2013}. In these 
+specialized scenarios---including LWVCs, where laser-written microstructures must 
+preserve their exact structural dimensions---the integration of plasma activation becomes 
+indispensable. Plasma treatment raises the initial surface energy and subsurface water 
+diffusivity sufficiently to maximize the covalent bond density at temperatures as low 
+as \SI{100}{\celsius} \cite{cho2001}, a strategy known as \textit{Low-Temperature Direct 
+Bonding}. The characteristic evolution of bonding energy within this optimized thermal 
+framework is illustrated in Figure~\ref{fig:annealingtemp}.
 
 \begin{figure}[h]
-\centering
-\includegraphics[width=0.8\linewidth]{Images/annealingtemp.png}
-\caption{Evolution of bonding energy as a function of annealing temperature. Adapted from \cite{li2013}.}
-\label{fig:annealingtemp}
+    \centering
+    \includegraphics[width=0.8\linewidth]{Images/annealingtemp.png}
+    \caption{Evolution of bonding energy as a function of annealing temperature. Adapted from \cite{li2013}.}
+    \label{fig:annealingtemp}
 \end{figure}
-
-However, such high thermal budgets are strictly incompatible with precision devices 
-incorporating thin-film optical coatings, pre-structured channels, or integrated 
-electronics \cite{li2013}. In these specialized scenarios---including LWVCs, where 
-laser-written microstructures must preserve their exact structural dimensions---the 
-integration of plasma activation becomes indispensable. Plasma treatment raises the initial 
-surface energy and subsurface water diffusivity sufficiently to achieve robust, covalent 
-bonds at temperatures as low as \SI{100}{\celsius} \cite{cho2001}, a strategy known as 
-\textit{Low-Temperature Direct Bonding}.
 
 Regarding the \textit{annealing time}, the bond energy increases monotonically following 
 a predictable logarithmic trend, a behavior observed during both dedicated thermal baking 
@@ -57,7 +60,7 @@ and prolonged storage at room temperature \cite{cho2001}:
 \end{equation}
 where $t$ represents the elapsed annealing time and $\mu$ is a temperature-dependent 
 characteristic time constant. Thermal annealing effectively reduces $\mu$ by several orders 
-of magnitude, dramatically accelerating the convergence toward maximum bond strength. 
+of magnitude, accelerating the convergence toward maximum bond strength, governed by the surface silanol density. 
 Consequently, typical annealing durations required to stabilize high-performance optical 
 components range from 2 to 24 hours \cite{cho2001, yu2023, li2013, possl1999, trinh2022}, 
 as detailed in Figure~\ref{fig:annealing_time}.
@@ -67,6 +70,6 @@ as detailed in Figure~\ref{fig:annealing_time}.
     \includegraphics[width=0.8\linewidth]{Images/annealing_time.png}
     \caption{Evolution of bonding energy with respect to annealing time. The bond strength 
         follows a logarithmic growth law, where thermal annealing reduces the characteristic 
-        time constant $\mu$ to accelerate convergence toward bulk material strength. From \cite{cho2001}.}
+        time constant $\mu$ to accelerate convergence toward maximum bond strength. From \cite{cho2001}.}
     \label{fig:annealing_time}
 \end{figure}

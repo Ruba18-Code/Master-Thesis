@@ -1,0 +1,41 @@
+\babel@toc {english}{}\relax 
+\thispagestyle {empty}
+\pagestyle {empty}
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {3.1}{\ignorespaces Fabrication worklow of a Laser-Written Vapor Cell. Steps (1-2) describe the FLICE process. In step (4) NEG dispenser placement and bonding are performed. Activation is illustrated by step (5). From \blx@tocontentsinit {0}\cite {lucivero2022}.}}{5}{figure.caption.6}%
+\contentsline {figure}{\numberline {3.2}{\ignorespaces Laser-Written Vapor Cell manufactured using the FLICE technique. It consists of a cylindrical reservoir (5~mm diameter, 3.5~mm height) connected to a rectangular parallelepiped sensing channel ($1 \times 1$~mm cross-section, 9.5~mm length). From \blx@tocontentsinit {0}\cite {lucivero2022}}}{9}{figure.caption.11}%
+\contentsline {figure}{\numberline {3.3}{\ignorespaces Hydroxyl radicals formation upon the decomposition of Caro's acid in Piranha solution. From \blx@tocontentsinit {0}\cite {caro2017}.}}{13}{figure.caption.20}%
+\contentsline {figure}{\numberline {3.4}{\ignorespaces Schematic representation of a hydroxylated/hydrophilic surface. From \blx@tocontentsinit {0}\cite {kern1993}.}}{14}{figure.caption.21}%
+\contentsline {figure}{\numberline {3.5}{\ignorespaces Schematic representation of a contaminant being lifted from a quartz surface due to the Zeta potential. Adapted from \blx@tocontentsinit {0}\cite {lin2012}.}}{14}{figure.caption.23}%
+\contentsline {figure}{\numberline {3.6}{\ignorespaces Effects of plasma treatment on silica surfaces. Plasma removes contaminants and increases the density of available silanol groups. Adapted from \blx@tocontentsinit {0}\cite {yu2023}.}}{16}{figure.caption.27}%
+\contentsline {figure}{\numberline {3.7}{\ignorespaces Bonding energy as a function of plasma treatment duration, highlighting the transition from optimal surface activation to degradation via overetching after \SI {60}{\second } of exposure. Adapted from \blx@tocontentsinit {0}\cite {li2013}.}}{17}{figure.caption.28}%
+\contentsline {figure}{\numberline {3.8}{\ignorespaces Evolution of bonding energy as a function of annealing temperature. Adapted from \blx@tocontentsinit {0}\cite {li2013}.}}{19}{figure.caption.29}%
+\contentsline {figure}{\numberline {3.9}{\ignorespaces Evolution of bonding energy with respect to annealing time. The bond strength follows a logarithmic growth law, where thermal annealing reduces the characteristic time constant $\mu $ to accelerate convergence toward maximum bond strength. From \blx@tocontentsinit {0}\cite {cho2001}.}}{20}{figure.caption.30}%
+\contentsline {figure}{\numberline {3.10}{\ignorespaces Effect of applied pressure on the bonding process. Forces perpendicular to the interface suppress void formation by closing residual gaps between surface asperities. From \blx@tocontentsinit {0}\cite {mai2015}.}}{21}{figure.caption.31}%
+\contentsline {figure}{\numberline {3.11}{\ignorespaces Pressure plate geometry described by Birckigt et al.\ \blx@tocontentsinit {0}\cite {birckigt2021}. The curved profiles guide contact front propagation outward from the center, reducing the probability of interface void formation.}}{21}{figure.caption.32}%
+\contentsline {figure}{\numberline {3.12}{\ignorespaces DIW}}{22}{figure.caption.33}%
+\contentsline {figure}{\numberline {3.13}{\ignorespaces Acetone}}{23}{figure.caption.34}%
+\contentsline {figure}{\numberline {3.14}{\ignorespaces Ethanol}}{23}{figure.caption.35}%
+\contentsline {figure}{\numberline {3.15}{\ignorespaces Soap}}{24}{figure.caption.36}%
+\contentsline {figure}{\numberline {3.16}{\ignorespaces Comparison of the permeability constant $K$ across uncoated borofloat, uncoated aluminosilicate, Al$_{2}$O$_{3}$-coated borofloat, and Al$_{2}$O$_{3}$-coated aluminosilicate glasses. From \blx@tocontentsinit {0}\cite {carle2023}.}}{24}{figure.caption.37}%
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {4.1}{\ignorespaces Example of the probe of an Atomic Force Microscope. From \blx@tocontentsinit {0}\cite {wiki_afm_tip}.}}{26}{figure.caption.40}%
+\contentsline {figure}{\numberline {4.2}{\ignorespaces 2D Surface images obtained through AFM in three different parts of the pristine Nanoquartz disk's surface.}}{27}{figure.caption.41}%
+\contentsline {figure}{\numberline {4.3}{\ignorespaces 3D Surface images obtained through AFM in three different parts of the pristine Nanoquartz disk's surface.}}{28}{figure.caption.42}%
+\contentsline {figure}{\numberline {4.4}{\ignorespaces Surface roughness distribution obtained through AFM. It can be seen that most of the defects are below the \SI {1}{\nano \meter } range. Furthermore, the mean ($\mu $) is close to zero, confirming that the surface is uniform.}}{28}{figure.caption.43}%
+\contentsline {figure}{\numberline {4.5}{\ignorespaces Geometrical definition of the contact angle $\theta _C$ at the three-phase boundary between a liquid droplet, the ambient gas, and the solid substrate. The equilibrium value is set by the balance of interfacial energies expressed in Young's equation (Eq.~\eqref {eq:young}). From \blx@tocontentsinit {0}\cite {wikicontact}.}}{29}{figure.caption.45}%
+\contentsline {figure}{\numberline {4.6}{\ignorespaces Representative contact angle regimes across different wettability states. Surface~A ($\theta _C > 90^\circ $) is hydrophobic; surfaces~B, C, and~D are sorted from partially to fully hydrophilic ($\theta _C \to 0^\circ $). From \blx@tocontentsinit {0}\cite {wikicontacts}.}}{30}{figure.caption.46}%
+\contentsline {figure}{\numberline {4.7}{\ignorespaces Examples of Newton rings formed in the interphase of Si/Si wafers. From \blx@tocontentsinit {0}\cite {nrings}.}}{31}{figure.caption.47}%
+\contentsline {figure}{\numberline {4.8}{\ignorespaces Illustration of the razor blade method. A razor blade is inserted between the bonded surfaces in order to quantify the bonding energy between them. From \blx@tocontentsinit {0}\cite {mack1997}.}}{31}{figure.caption.48}%
+\contentsline {figure}{\numberline {4.9}{\ignorespaces Real example of the razor blade method. The de-bonded area can be identified by the presence of a Newton ring (light grey area). Adapted from \blx@tocontentsinit {0}\cite {gabriel2006}.}}{32}{figure.caption.49}%
+\contentsline {figure}{\numberline {4.10}{\ignorespaces Schematic representation of water stress corrosion at the hydrophilic bonding interface during debonding under controlled atmospheres. Left: wet atmosphere showing ambient water attack on Si--O--Si bonds. Center: anhydrous (dry) atmosphere with reduced water availability. Right: vacuum conditions with partial desorption of interfacial water. Adapted from \blx@tocontentsinit {0}\cite {takeuchi2022}.}}{33}{figure.caption.54}%
+\contentsline {figure}{\numberline {4.11}{\ignorespaces Schematic diagram of the tensile test setup for bonding strength measurement. The bonded wafer pair is glued to metal fixtures and subjected to perpendicular tensile force. Adapted from \blx@tocontentsinit {0}\cite {gosele2006}.}}{34}{figure.caption.56}%
+\contentsline {figure}{\numberline {4.12}{\ignorespaces Energy level diagram showing the D1 and D2 transitions in an alkali metal atom. From \blx@tocontentsinit {0}\cite {shi2019}}}{36}{figure.caption.60}%
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {5.1}{\ignorespaces Experimental setup used to detect Hanle resonance}}{40}{figure.caption.61}%
+\contentsline {figure}{\numberline {5.2}{\ignorespaces Lorentzian profiles when (a) $B_z$ is varied and $B_y = 0$, (b) $B_y$ is varied and $B_z = 0$, and (c) $B_y$ and $B_z$ are varied simultaneously}}{41}{figure.caption.62}%
+\contentsline {figure}{\numberline {5.3}{\ignorespaces Raw data and Lorentzian fit of the Hanle resonance obtained for the optimal DC field configuration ($B_y = \SI {0}{\nano \tesla }$, $B_z = \SI {4815}{\nano \tesla }$)}}{42}{figure.caption.63}%
+\addvspace {10\p@ }
+\addvspace {10\p@ }
