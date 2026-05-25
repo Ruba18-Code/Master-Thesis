@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999995 (TeX Live 2023/Debian) (preloaded format=xelatex 2026.4.1)  25 MAY 2026 17:24
+This is XeTeX, Version 3.141592653-2.6-0.999995 (TeX Live 2023/Debian) (preloaded format=xelatex 2026.4.1)  25 MAY 2026 17:32
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1452,7 +1452,7 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 \openout8 = `Main.toc'.
 
  [6] (./Main.lof
-Overfull \hbox (3.63693pt too wide) in paragraph at lines 22--22
+Overfull \hbox (3.63693pt too wide) in paragraph at lines 19--19
  \TU/TeXGyreTermes(0)/m/n/10.95 aluminosilicate, Al$[]$O$[]$-coated borofloat, and Al$[]$O$[]$-coated aluminosilicate glasses. 
  []
 
@@ -1550,26 +1550,17 @@ File: Images/chucks.png Graphic file (type bmp)
 ) (./sections/Fabrication Methods/Optical Contact Bonding/Experiment.tex
 File: Images/DIW_lab.jpeg Graphic file (type bmp)
 <Images/DIW_lab.jpeg>
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
 File: Images/acetone_lab.jpeg Graphic file (type bmp)
 <Images/acetone_lab.jpeg>
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
 File: Images/ethanol_lab.jpeg Graphic file (type bmp)
 <Images/ethanol_lab.jpeg>
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
 File: Images/soap_lab.jpeg Graphic file (type bmp)
 <Images/soap_lab.jpeg>
+ [20]
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-) (./sections/Fabrication Methods/Post-Treatment.tex [20]
+) (./sections/Fabrication Methods/Post-Treatment.tex
 File: Images/He.png Graphic file (type bmp)
 <Images/He.png>
 
@@ -1759,16 +1750,16 @@ LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-01-22>
  ***********
 Package rerunfilecheck Info: File `Main.out' has not changed.
-(rerunfilecheck)             Checksum: DB81CDD936F40000732D5C7CB93805AC;7581.
+(rerunfilecheck)             Checksum: 81DE928C71F4E9AB9EBBCB53A655641B;7581.
 Package logreq Info: Writing requests to 'Main.run.xml'.
 \openout1 = `Main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 46939 strings out of 474878
- 973773 string characters out of 5762517
+ 46940 strings out of 474878
+ 973792 string characters out of 5762517
  1958627 words of memory out of 5000000
- 68159 multiletter control sequences out of 15000+600000
+ 68160 multiletter control sequences out of 15000+600000
  563373 words of font info for 92 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  96i,14n,96p,2389b,5520s stack positions out of 10000i,1000n,20000p,200000b,200000s
