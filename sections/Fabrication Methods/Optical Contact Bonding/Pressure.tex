@@ -1,45 +1,46 @@
 \subsection{Pressure Treatment}
-\textbf{MILLORAR}
+\label{sec:pressure}
 
 Applied mechanical pressure during the bonding phase can promote intimate
-contact by elastically deforming surface asperities and closing residual
-gaps at the interface \cite{mai2015, trinh2022}, as illustrated in
-Figure~\ref{fig:pressure}. This mechanical assistance is particularly
-relevant for wafers with insufficient flatness, where the van der Waals
-attraction alone cannot provide enough energy to close macroscopic gaps
-\cite{turner2006, kalk2014}. In those cases, the bonding condition can be
-understood through an energy balance: bonding propagates when the reduction
-in surface energy associated with the newly formed interface exceeds the
-elastic strain energy stored in the deformed wafers. External pressure
-shifts this balance in favor of bonding by forcing asperities into contact
-\cite{turner2006, turner2002}.
+contact by elastically deforming surface waviness and closing residual
+macroscopic gaps at the interface \cite{mai2015, trinh2022}, as illustrated in
+Figure~\ref{fig:pressure}. This mechanical assistance is primarily beneficial 
+for substrates with insufficient flatness, where the spontaneous van der Waals
+attraction alone cannot provide enough energy to pull the surfaces together
+\cite{turner2006, kalk2014}. In such non-ideal scenarios, the bonding condition 
+is governed by a strict energy balance: the bonding wave propagates only if the 
+reduction in surface energy associated with the newly formed interface exceeds 
+the elastic strain energy stored in the mechanically deformed glass. External 
+pressure temporarily shifts this balance in favor of bonding by forcing 
+asperities into intimate contact \cite{turner2006, turner2002}.
 
-For well-polished, optically flat wafers, however, the role of pressure is
-more ambiguous. Since the bonding energy at room temperature is governed
-primarily by the real area of contact---which is in turn dictated by
-surface roughness at the nanoscale rather than by externally applied
-load---additional mechanical pressure does not necessarily increase the
-intrinsic bond energy \cite{miki2003, takagi1998}. In this regime, the
-spontaneous van der Waals or hydrogen-bonding forces are already sufficient
-to bring the surfaces into full intimate contact, and the bond energy is
-ultimately limited by the surface chemistry and the density of interfacial
-bonds, not by the mechanical load. This is consistent with the classical
-observation that optically contacted surfaces adhere spontaneously without
-any applied force \cite{possl1999}. External
-pressure is therefore best understood as a means of extending the range of
-acceptable wafer flatness rather than as a mechanism for strengthening an
-already well-formed bond.
+For well-polished, optically flat wafers, the role of external pressure is
+not only ambiguous but potentially detrimental. Since the bonding energy at room 
+temperature is governed primarily by the real area of contact---which is dictated 
+by surface roughness at the nanoscale rather than by externally applied 
+load---additional mechanical pressure does not intrinsically increase the 
+bond energy \cite{miki2003, takagi1998}. In this regime, the spontaneous 
+intermolecular forces are already sufficient to achieve full intimate contact. 
+Crucially, applying unnecessary pressure to seemingly flat wafers severely 
+amplifies the damage caused by microscopic particulate contamination. A single 
+sub-micron particle trapped at the interface under high external load acts as 
+a point-stress concentrator. This generates severe Hertzian contact stresses 
+that can easily exceed the fracture toughness of fused silica, inducing 
+subsurface micro-cracking, permanent local deformation, and the formation of 
+macroscopic unbonded areas (Newton rings) \cite{rammhandbook, gosele1998}. 
 
-Pressure magnitude must nonetheless be optimized carefully, regardless of
-wafer quality. Research on Borofloat~33 wafers demonstrates that a load of
-\SI{0.07}{\mega\pascal} maximizes flexural strength; pressures beyond this
-threshold introduce stress concentrations that cause premature failure
-\cite{trinh2022}. Non-uniform pressure distributions pose additional
-risks: stress-induced birefringence and permanent wavefront distortion can
-compromise optical performance in precision devices \cite{bain2022,
-wang2014}. High-precision applications therefore require well-planarized
-pressure plates with peak-to-valley flatness on the order of micrometers,
-fabricated from stiff materials such as technical ceramics \cite{birckigt2021}.
+Consequently, pressure magnitude must be optimized with extreme caution. 
+Research on Borofloat 33 wafers demonstrates that a modest load of just 
+\SI{0.07}{\mega\pascal} maximizes the flexural strength of the final assembly; applying 
+pressures beyond this strict threshold introduces stress concentrations that 
+cause premature mechanical failure \cite{trinh2022}. Furthermore, non-uniform 
+pressure distributions pose significant risks to device functionality. Asymmetric 
+loading induces stress birefringence and permanent wavefront distortion, which 
+can critically compromise optical performance in precision devices such as 
+atomic vapor cells \cite{bain2022, wang2014}. High-precision applications 
+therefore require well-planarized pressure plates with peak-to-valley flatness 
+on the order of a few micrometers, strictly fabricated from highly stiff 
+materials like technical ceramics to prevent plate bending \cite{birckigt2021}.
 
 \begin{figure}[h]
 \centering
@@ -50,17 +51,21 @@ fabricated from stiff materials such as technical ceramics \cite{birckigt2021}.
 \label{fig:pressure}
 \end{figure}
 
-Birckigt et al.\ \cite{birckigt2021} describe a setup in which convex and
-concave pressure plates---with waviness of \SI{5}{\micro\meter} and
-\SI{3}{\micro\meter}, respectively---promote radially outward propagation
-of the contact front during the initial bonding phase
-(Figure~\ref{fig:chucks}). This geometry mitigates the risk of void
-entrapment and introduces radially symmetric residual stresses that are
-more predictable and manageable than those arising from asymmetric loading.
-A key insight from this work is that the geometry and flatness of the
-pressure plates affect the contact-front dynamics independently of the
-magnitude of the applied load, underscoring that pressure uniformity is
-often more critical than pressure magnitude.
+Beyond the magnitude of the load, applying a uniform, 
+flat pressure across the entire wafer surface simultaneously is often 
+counterproductive, as it seals the perimeter of the substrates prematurely and 
+traps residual atmospheric gases in the center, forming large voids. To resolve 
+this, Birckigt et al.\ \cite{birckigt2021} describe an optimized setup employing 
+convex and concave pressure plates with carefully controlled waviness profiles of 
+\SI{5}{\micro\meter} and \SI{3}{\micro\meter}, respectively. 
+As shown in Figure~\ref{fig:chucks}, this engineered 
+curvature forces the initial contact to occur at the geometric center 
+of the wafers. The applied load then drives the contact front to propagate 
+radially outward, actively squeezing out interfacial air and mitigating the risk 
+of void entrapment. This insight underscores a fundamental principle of optical 
+contact bonding: the geometric control of the contact-front dynamics is vastly 
+more critical to achieving a void-free interface than the raw magnitude of the 
+applied mechanical pressure.
 
 \begin{figure}[h]
 \centering
