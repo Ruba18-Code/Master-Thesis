@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999995 (TeX Live 2023/Debian) (preloaded format=xelatex 2026.4.1)  26 MAY 2026 16:10
+This is XeTeX, Version 3.141592653-2.6-0.999995 (TeX Live 2023/Debian) (preloaded format=xelatex 2026.4.1)  27 MAY 2026 17:39
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1414,7 +1414,15 @@ Package biblatex Info: Automatic encoding selection.
 
 Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'Main.bbl' found.
- (./Main.bbl)
+ (./Main.bbl
+
+Package biblatex Warning: The following entry could not be found
+(biblatex)                in the database:
+(biblatex)                comsol_ref
+(biblatex)                Please verify the spelling and rerun
+(biblatex)                LaTeX afterwards.
+
+)
 Package biblatex Info: Reference section=0 on input line 42.
 Package biblatex Info: Reference segment=0 on input line 42.
 Package hyperref Info: Link coloring OFF on input line 42.
@@ -1425,12 +1433,7 @@ Package hyperref Info: Link coloring OFF on input line 42.
 
 Package chemgreek Info: Activating mapping `fontspec' on line 42.
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 47--48
-
- []
-
-[1
+ [1
 
 \openout4 = `Main.ist'.
 
@@ -1456,21 +1459,20 @@ Overfull \hbox (3.63693pt too wide) in paragraph at lines 19--19
  \TU/TeXGyreTermes(0)/m/n/10.95 aluminosilicate, Al$[]$O$[]$-coated borofloat, and Al$[]$O$[]$-coated aluminosilicate glasses. 
  []
 
-[7])
+[7] [8])
 \tf@lof=\write9
 \openout9 = `Main.lof'.
 
- [8] (./Main.lot)
+ [9] (./Main.lot)
 \tf@lot=\write10
 \openout10 = `Main.lot'.
 
- [9] (./siglas.tex
+ [10] (./siglas.tex
 \@gls@deffile=\write11
 \openout11 = `Main.glsdefs'.
 
- (./Main.gls [10
+ (./Main.gls)) [-2
 
-])) [-2
 
 ] [-1
 
@@ -1584,188 +1586,4 @@ File: Images/Sample2_2D_compressed.pdf Graphic file (type pdf)
 <use Images/Sample2_2D_compressed.pdf>
 File: Images/Sample3_2D_compressed.pdf Graphic file (type pdf)
 <use Images/Sample3_2D_compressed.pdf>
-File: Images/Sample1_3D.pdf Graphic file (type pdf)
-<use Images/Sample1_3D.pdf>
-File: Images/Sample2_3D.pdf Graphic file (type pdf)
-<use Images/Sample2_3D.pdf>
-File: Images/Sample3_3D.pdf Graphic file (type pdf)
-<use Images/Sample3_3D.pdf>
-File: Images/Sample1_dist.pdf Graphic file (type pdf)
-<use Images/Sample1_dist.pdf>
-File: Images/Sample2_dist.pdf Graphic file (type pdf)
-<use Images/Sample2_dist.pdf>
-File: Images/Sample3_dist.pdf Graphic file (type pdf)
-<use Images/Sample3_dist.pdf>
- [26]
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-) (./sections/Characterization and Quality Control/Contact Angle.tex [27] [28]
-File: Images/Contact_angle.png Graphic file (type bmp)
-<Images/Contact_angle.png>
- [29]
-File: Images/Surface_tension.png Graphic file (type bmp)
-<Images/Surface_tension.png>
-) (./sections/Characterization and Quality Control/Visual Inspection.tex
-File: Images/newtonrings.jpg Graphic file (type bmp)
-<Images/newtonrings.jpg>
-) (./sections/Characterization and Quality Control/Strength Tests.tex
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-File: Images/razor_test.png Graphic file (type bmp)
-<Images/razor_test.png>
-File: Images/razor_realpic.jpeg Graphic file (type bmp)
-<Images/razor_realpic.jpeg>
-[30]
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-[31] [32]
-File: Images/razor_atm.png Graphic file (type bmp)
-<Images/razor_atm.png>
- [33]
-File: Images/tensile_test.jpeg Graphic file (type bmp)
-<Images/tensile_test.jpeg>
- [34]
-Overfull \hbox (6.9126pt too wide) in paragraph at lines 217--223
-[]\TU/TeXGyreTermes(0)/b/n/10.95 High measurement variance: \TU/TeXGyreTermes(0)/m/n/10.95 Real experiments exhibit significant scatter in bonding strength
- []
-
-) (./sections/Characterization and Quality Control/Leak Tests Using Spectroscopy.tex [35]
-File: Images/D1 & D2.png Graphic file (type bmp)
-<Images/D1 & D2.png>
- [36])
-Overfull \hbox (5.38327pt too wide) in paragraph at lines 112--235
-\TU/TeXGyreTermes(0)/m/n/10.95 parison with benchmarks from the literature: the 707-day vacuum integrity demonstrated by Artusio-
- []
-
-[37] [38
-
-]
-Chapter 5.
-(./sections/Experiments and Applications/Train Application.tex) (./sections/Experiments and Applications/Atomic Clocks.tex) (./sections/Experiments and Applications/Magnetoencephalography.tex) (./sections/Experiments and Applications/Magnetometry Experiment 1.tex
-Underfull \hbox (badness 10000) in paragraph at lines 3--14
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 16--38
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 16--38
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 16--38
-
- []
-
-[39]
-File: Images/magnetic_setup.jpg Graphic file (type bmp)
-<Images/magnetic_setup.jpg>
-
-Underfull \hbox (badness 10000) in paragraph at lines 44--66
-
- []
-
-
-Overfull \hbox (2.49893pt too wide) in paragraph at lines 69--82
-\TU/TeXGyreTermes(0)/m/n/10.95 Measurements were made using different DC field configurations to study their effects on Lorentzian
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 69--82
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 69--82
-
- []
-
-[40]
-File: Images/magnetic_exp_Yvar.pdf Graphic file (type pdf)
-<use Images/magnetic_exp_Yvar.pdf>
-File: Images/magnetic_exp_Zvar.pdf Graphic file (type pdf)
-<use Images/magnetic_exp_Zvar.pdf>
-File: Images/magnetic_exp_YZvar.pdf Graphic file (type pdf)
-<use Images/magnetic_exp_YZvar.pdf>
-File: Images/Fit_00Y_45Z.pdf Graphic file (type pdf)
-<use Images/Fit_00Y_45Z.pdf>
-) [41] [42]
-Chapter 6.
-[43
-
-] [44
-
-] [45]
-Overfull \hbox (5.22995pt too wide) in paragraph at lines 242--242
-[]\TU/TeXGyreTermes(0)/m/n/10.95 Sara Lo Turco, Andrea Di Donato, and Luigino Criante. “Scattering effects of glass-embedded
- []
-
-
-Overfull \hbox (1.9814pt too wide) in paragraph at lines 242--242
-\TU/TeXGyreTermes(0)/m/it/10.95 view of Materials Science \TU/TeXGyreTermes(0)/m/n/10.95 28 (1998), pp. 215–241. \TU/TeXGyreTermes(0)/m/sc/10.95 url\TU/TeXGyreTermes(0)/m/n/10.95 : []$[][][][][] [] [] [] [][][] [] [][][][][][][][][][][][][][][] []
- []
-
-[46] [47]
-Overfull \hbox (15.8705pt too wide) in paragraph at lines 242--242
-\TU/TeXGyreTermes(0)/m/it/10.95 cision Products\TU/TeXGyreTermes(0)/m/n/10.95 . CRC Press, Oct. 2018. \TU/TeXGyreTermes(0)/m/sc/10.95 isbn\TU/TeXGyreTermes(0)/m/n/10.95 : 9781482289992. \TU/TeXGyreTermes(0)/m/sc/10.95 doi\TU/TeXGyreTermes(0)/m/n/10.95 : []$[][] [] [][][][] [] [][][][][][][][][][][][][]$[].
- []
-
-
-Overfull \hbox (21.24606pt too wide) in paragraph at lines 242--242
-\TU/TeXGyreTermes(0)/m/n/10.95 icon Wafers”. In: \TU/TeXGyreTermes(0)/m/it/10.95 Particles on Surfaces 2\TU/TeXGyreTermes(0)/m/n/10.95 . Springer US, 1989, pp. 297–306. \TU/TeXGyreTermes(0)/m/sc/10.95 isbn\TU/TeXGyreTermes(0)/m/n/10.95 : 9781461305316.
- []
-
-[48]
-Overfull \hbox (17.7184pt too wide) in paragraph at lines 242--242
-[]\TU/TeXGyreTermes(0)/m/n/10.95 Josephine Neumann et al. “Atmospheric Pressure Dielectric Barrier Discharge Plasma-Enhanced
- []
-
-
-Overfull \hbox (0.73035pt too wide) in paragraph at lines 242--242
-\TU/TeXGyreTermes(0)/m/it/10.95 tions (GPS) – Surface texture: Areal\TU/TeXGyreTermes(0)/m/n/10.95 . International Organization for Standardization. Geneva,
- []
-
-[49]
-Overfull \hbox (0.70215pt too wide) in paragraph at lines 242--242
-[]\TU/TeXGyreTermes(0)/m/n/10.95 Limor Pasternak and Yaron Paz. “Low-temperature direct bonding of silicon nitride to glass”.
- []
-
-
-Overfull \hbox (15.41704pt too wide) in paragraph at lines 242--242
-[]\TU/TeXGyreTermes(0)/m/n/10.95 S. Mack (Max-Planck-Institut). “Eine vergleichende Untersuchung der physikalisch-chemischen
- []
-
-[50] [51] [52
-
-] [53] [54]
-Appendix A.
-(./sections/Appendix/Recipes in Literature.tex [55
-
-] [56]) (./Main.aux)
- ***********
-LaTeX2e <2023-11-01> patch level 1
-L3 programming layer <2024-01-22>
- ***********
-Package rerunfilecheck Info: File `Main.out' has not changed.
-(rerunfilecheck)             Checksum: 81DE928C71F4E9AB9EBBCB53A655641B;7581.
-Package logreq Info: Writing requests to 'Main.run.xml'.
-\openout1 = `Main.run.xml'.
-
- ) 
-Here is how much of TeX's memory you used:
- 46941 strings out of 474878
- 973806 string characters out of 5762517
- 1958627 words of memory out of 5000000
- 68161 multiletter control sequences out of 15000+600000
- 563373 words of font info for 92 fonts, out of 8000000 for 9000
- 1348 hyphenation exceptions out of 8191
- 96i,14n,96p,2389b,5520s stack positions out of 10000i,1000n,20000p,200000b,200000s
-
-Output written on Main.pdf (69 pages).
+File: Images/Sample1_3D.pdf Graphic file (typ
