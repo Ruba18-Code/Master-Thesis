@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999995 (TeX Live 2023/Debian) (preloaded format=xelatex 2026.4.1)  27 MAY 2026 17:39
+This is XeTeX, Version 3.141592653-2.6-0.999995 (TeX Live 2023/Debian) (preloaded format=xelatex 2026.4.1)  3 JUN 2026 17:16
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1418,6 +1418,13 @@ Package biblatex Info: ... file 'Main.bbl' found.
 
 Package biblatex Warning: The following entry could not be found
 (biblatex)                in the database:
+(biblatex)                Nagabooshanam et al.
+(biblatex)                Please verify the spelling and rerun
+(biblatex)                LaTeX afterwards.
+
+
+Package biblatex Warning: The following entry could not be found
+(biblatex)                in the database:
 (biblatex)                comsol_ref
 (biblatex)                Please verify the spelling and rerun
 (biblatex)                LaTeX afterwards.
@@ -1476,15 +1483,18 @@ Overfull \hbox (3.63693pt too wide) in paragraph at lines 19--19
 
 ] [-1
 
-] [0]
+] [0] (./sections/Introduction.tex
 Chapter 1.
+
+LaTeX Warning: Citation 'Nagabooshanam et al.' on page 1 undefined on input line 12.
+
 [1
 
-] [2
-
-]
+]) [2]
 Chapter 2.
-[3] [4
+[3
+
+] [4
 
 ]
 Chapter 3.
@@ -1586,4 +1596,201 @@ File: Images/Sample2_2D_compressed.pdf Graphic file (type pdf)
 <use Images/Sample2_2D_compressed.pdf>
 File: Images/Sample3_2D_compressed.pdf Graphic file (type pdf)
 <use Images/Sample3_2D_compressed.pdf>
-File: Images/Sample1_3D.pdf Graphic file (typ
+File: Images/Sample1_3D.pdf Graphic file (type pdf)
+<use Images/Sample1_3D.pdf>
+File: Images/Sample2_3D.pdf Graphic file (type pdf)
+<use Images/Sample2_3D.pdf>
+File: Images/Sample3_3D.pdf Graphic file (type pdf)
+<use Images/Sample3_3D.pdf>
+File: Images/Sample1_dist.pdf Graphic file (type pdf)
+<use Images/Sample1_dist.pdf>
+File: Images/Sample2_dist.pdf Graphic file (type pdf)
+<use Images/Sample2_dist.pdf>
+File: Images/Sample3_dist.pdf Graphic file (type pdf)
+<use Images/Sample3_dist.pdf>
+ [26]
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+) (./sections/Characterization and Quality Control/Contact Angle.tex [27] [28]
+File: Images/Contact_angle.png Graphic file (type bmp)
+<Images/Contact_angle.png>
+ [29]
+File: Images/Surface_tension.png Graphic file (type bmp)
+<Images/Surface_tension.png>
+) (./sections/Characterization and Quality Control/Visual Inspection.tex
+File: Images/newtonrings.jpg Graphic file (type bmp)
+<Images/newtonrings.jpg>
+) (./sections/Characterization and Quality Control/Strength Tests.tex
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+File: Images/razor_test.png Graphic file (type bmp)
+<Images/razor_test.png>
+File: Images/razor_realpic.jpeg Graphic file (type bmp)
+<Images/razor_realpic.jpeg>
+[30]
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[31] [32]
+File: Images/razor_atm.png Graphic file (type bmp)
+<Images/razor_atm.png>
+ [33]
+File: Images/tensile_test.jpeg Graphic file (type bmp)
+<Images/tensile_test.jpeg>
+ [34]
+Overfull \hbox (6.9126pt too wide) in paragraph at lines 218--224
+[]\TU/TeXGyreTermes(0)/b/n/10.95 High measurement variance: \TU/TeXGyreTermes(0)/m/n/10.95 Real experiments exhibit significant scatter in bonding strength
+ []
+
+) (./sections/Characterization and Quality Control/Leak Tests Using Spectroscopy.tex [35]
+File: Images/D1 & D2.png Graphic file (type bmp)
+<Images/D1 & D2.png>
+ [36])
+Overfull \hbox (5.38327pt too wide) in paragraph at lines 112--235
+\TU/TeXGyreTermes(0)/m/n/10.95 parison with benchmarks from the literature: the 707-day vacuum integrity demonstrated by Artusio-
+ []
+
+[37] [38
+
+]
+Chapter 5.
+(./sections/Experiments and Applications/Train Application.tex
+File: Images/deansopm.png Graphic file (type bmp)
+<Images/deansopm.png>
+ [39]
+File: Images/wickenopm.png Graphic file (type bmp)
+<Images/wickenopm.png>
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+Overfull \hbox (5.96362pt too wide) in paragraph at lines 84--90
+[]\TU/TeXGyreTermes(0)/m/n/10.95 When microfabricated into advanced architectures such as LWVCs, OPMs can achieve ultra-compact
+ []
+
+
+Overfull \hbox (0.16747pt too wide) in paragraph at lines 84--90
+\TU/TeXGyreTermes(0)/m/n/10.95 (SQUIDs), these miniaturized atomic sensors enable highly portable operations and scalable, multi-
+ []
+
+[40] [41]
+File: Images/placeholder.png Graphic file (type bmp)
+<Images/placeholder.png>
+ [42]
+
+LaTeX Warning: Citation 'comsol_ref' on page 43 undefined on input line 221.
+
+File: Images/placeholder.png Graphic file (type bmp)
+<Images/placeholder.png>
+[43]
+File: Images/placeholder.png Graphic file (type bmp)
+<Images/placeholder.png>
+File: Images/placeholder.png Graphic file (type bmp)
+<Images/placeholder.png>
+File: Images/placeholder.png Graphic file (type bmp)
+<Images/placeholder.png>
+File: Images/placeholder.png Graphic file (type bmp)
+<Images/placeholder.png>
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[44]) (./sections/Experiments and Applications/Magnetoencephalography.tex) (./sections/Experiments and Applications/Magnetometry Experiment 1.tex [45]
+File: Images/magnetic_setup.jpg Graphic file (type bmp)
+<Images/magnetic_setup.jpg>
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+File: Images/magnetic_exp_Yvar.pdf Graphic file (type pdf)
+<use Images/magnetic_exp_Yvar.pdf>
+File: Images/magnetic_exp_Zvar.pdf Graphic file (type pdf)
+<use Images/magnetic_exp_Zvar.pdf>
+File: Images/magnetic_exp_YZvar.pdf Graphic file (type pdf)
+<use Images/magnetic_exp_YZvar.pdf>
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[46]
+File: Images/Fit_00Y_45Z.pdf Graphic file (type pdf)
+<use Images/Fit_00Y_45Z.pdf>
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+) [47] [48]
+Chapter 6.
+[49
+
+] [50
+
+] [51]
+Overfull \hbox (5.22995pt too wide) in paragraph at lines 241--241
+[]\TU/TeXGyreTermes(0)/m/n/10.95 Sara Lo Turco, Andrea Di Donato, and Luigino Criante. “Scattering effects of glass-embedded
+ []
+
+
+Overfull \hbox (1.9814pt too wide) in paragraph at lines 241--241
+\TU/TeXGyreTermes(0)/m/it/10.95 view of Materials Science \TU/TeXGyreTermes(0)/m/n/10.95 28 (1998), pp. 215–241. \TU/TeXGyreTermes(0)/m/sc/10.95 url\TU/TeXGyreTermes(0)/m/n/10.95 : []$[][][][][] [] [] [] [][][] [] [][][][][][][][][][][][][][][] []
+ []
+
+[52] [53]
+Overfull \hbox (15.8705pt too wide) in paragraph at lines 241--241
+\TU/TeXGyreTermes(0)/m/it/10.95 cision Products\TU/TeXGyreTermes(0)/m/n/10.95 . CRC Press, Oct. 2018. \TU/TeXGyreTermes(0)/m/sc/10.95 isbn\TU/TeXGyreTermes(0)/m/n/10.95 : 9781482289992. \TU/TeXGyreTermes(0)/m/sc/10.95 doi\TU/TeXGyreTermes(0)/m/n/10.95 : []$[][] [] [][][][] [] [][][][][][][][][][][][][]$[].
+ []
+
+
+Overfull \hbox (21.24606pt too wide) in paragraph at lines 241--241
+\TU/TeXGyreTermes(0)/m/n/10.95 icon Wafers”. In: \TU/TeXGyreTermes(0)/m/it/10.95 Particles on Surfaces 2\TU/TeXGyreTermes(0)/m/n/10.95 . Springer US, 1989, pp. 297–306. \TU/TeXGyreTermes(0)/m/sc/10.95 isbn\TU/TeXGyreTermes(0)/m/n/10.95 : 9781461305316.
+ []
+
+[54]
+Overfull \hbox (17.7184pt too wide) in paragraph at lines 241--241
+[]\TU/TeXGyreTermes(0)/m/n/10.95 Josephine Neumann et al. “Atmospheric Pressure Dielectric Barrier Discharge Plasma-Enhanced
+ []
+
+
+Overfull \hbox (0.73035pt too wide) in paragraph at lines 241--241
+\TU/TeXGyreTermes(0)/m/it/10.95 tions (GPS) – Surface texture: Areal\TU/TeXGyreTermes(0)/m/n/10.95 . International Organization for Standardization. Geneva,
+ []
+
+[55]
+Overfull \hbox (0.70215pt too wide) in paragraph at lines 241--241
+[]\TU/TeXGyreTermes(0)/m/n/10.95 Limor Pasternak and Yaron Paz. “Low-temperature direct bonding of silicon nitride to glass”.
+ []
+
+
+Overfull \hbox (15.41704pt too wide) in paragraph at lines 241--241
+[]\TU/TeXGyreTermes(0)/m/n/10.95 S. Mack (Max-Planck-Institut). “Eine vergleichende Untersuchung der physikalisch-chemischen
+ []
+
+[56] [57] [58] [59
+
+] [60]
+Appendix A.
+(./sections/Appendix/Recipes in Literature.tex [61
+
+] [62]) (./Main.aux)
+ ***********
+LaTeX2e <2023-11-01> patch level 1
+L3 programming layer <2024-01-22>
+ ***********
+Package rerunfilecheck Info: File `Main.out' has not changed.
+(rerunfilecheck)             Checksum: DE1B3B369CE35BBEFD939F551FA6C4A8;8176.
+Package logreq Info: Writing requests to 'Main.run.xml'.
+\openout1 = `Main.run.xml'.
+
+ ) 
+Here is how much of TeX's memory you used:
+ 47038 strings out of 474878
+ 976012 string characters out of 5762517
+ 1958627 words of memory out of 5000000
+ 68254 multiletter control sequences out of 15000+600000
+ 563381 words of font info for 93 fonts, out of 8000000 for 9000
+ 1348 hyphenation exceptions out of 8191
+ 96i,14n,96p,2389b,5520s stack positions out of 10000i,1000n,20000p,200000b,200000s
+
+Output written on Main.pdf (75 pages).

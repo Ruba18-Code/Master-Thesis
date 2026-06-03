@@ -309,8 +309,8 @@
       \strng{authorbibnamehash}{eb6d80b8d6ac0e4af512406c36e6cb39}
       \strng{authornamehash}{eb6d80b8d6ac0e4af512406c36e6cb39}
       \strng{authorfullhash}{eb6d80b8d6ac0e4af512406c36e6cb39}
-      \field{sortinit}{4}
-      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{title}{Controlling Stress in Bonded Optics}
@@ -2803,7 +2803,6 @@
       \strng{authorbibnamehash}{0ba0b04928181ef70a9be4103e9d3516}
       \strng{authornamehash}{0ba0b04928181ef70a9be4103e9d3516}
       \strng{authorfullhash}{0ba0b04928181ef70a9be4103e9d3516}
-      \field{extraname}{1}
       \field{sortinit}{1}
       \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
       \field{labelnamesource}{author}
@@ -4329,7 +4328,6 @@
       \field{labeltitlesource}{title}
       \field{issn}{1077-3118}
       \field{journaltitle}{Applied Physics Letters}
-      \field{month}{7}
       \field{number}{1}
       \field{title}{Electromagnetic induction imaging with a scanning radio frequency atomic magnetometer}
       \field{volume}{119}
@@ -4438,6 +4436,50 @@
       \verb http://dx.doi.org/10.1016/j.neuroimage.2019.05.063
       \endverb
     \endentry
+    \entry{marmugi2020}{article}{}
+      \name{author}{2}{}{%
+        {{hash=6c95de938ee4e4c29f616b4d9b8a73f9}{%
+           family={Marmugi},
+           familyi={M\bibinitperiod},
+           given={Luca},
+           giveni={L\bibinitperiod}}}%
+        {{hash=70ffc0ccfa30a7603c0b6d785e9069b3}{%
+           family={Renzoni},
+           familyi={R\bibinitperiod},
+           given={Ferruccio},
+           giveni={F\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {MDPI AG}%
+      }
+      \strng{namehash}{19711ed793d10d7c7812a9a9bddbaa8e}
+      \strng{fullhash}{19711ed793d10d7c7812a9a9bddbaa8e}
+      \strng{bibnamehash}{19711ed793d10d7c7812a9a9bddbaa8e}
+      \strng{authorbibnamehash}{19711ed793d10d7c7812a9a9bddbaa8e}
+      \strng{authornamehash}{19711ed793d10d7c7812a9a9bddbaa8e}
+      \strng{authorfullhash}{19711ed793d10d7c7812a9a9bddbaa8e}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{2076-3417}
+      \field{journaltitle}{Applied Sciences}
+      \field{number}{18}
+      \field{title}{Electromagnetic Induction Imaging with Atomic Magnetometers: Progress and Perspectives}
+      \field{volume}{10}
+      \field{year}{2020}
+      \field{pages}{6370}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.3390/app10186370
+      \endverb
+      \verb{urlraw}
+      \verb http://dx.doi.org/10.3390/app10186370
+      \endverb
+      \verb{url}
+      \verb http://dx.doi.org/10.3390/app10186370
+      \endverb
+    \endentry
     \entry{wickenbrock2014}{article}{}
       \name{author}{5}{}{%
         {{hash=158f90c6818eb403a590dc6f75eeb0d1}{%
@@ -4481,7 +4523,6 @@
       \field{labeltitlesource}{title}
       \field{issn}{1539-4794}
       \field{journaltitle}{Optics Letters}
-      \field{month}{11}
       \field{number}{22}
       \field{title}{Magnetic induction tomography using an all-optical {\textsuperscript{87}Rb} atomic magnetometer}
       \field{volume}{39}
@@ -4496,6 +4537,58 @@
       \endverb
       \verb{url}
       \verb http://dx.doi.org/10.1364/OL.39.006367
+      \endverb
+    \endentry
+    \entry{guilizzoni2016}{article}{}
+      \name{author}{4}{}{%
+        {{hash=0b2a7f416f68fc01f587f2d7e1e931b5}{%
+           family={Guilizzoni},
+           familyi={G\bibinitperiod},
+           given={Roberta},
+           giveni={R\bibinitperiod}}}%
+        {{hash=54fce714238acc64f50e012424112093}{%
+           family={Watson},
+           familyi={W\bibinitperiod},
+           given={Joseph\bibnamedelima C.},
+           giveni={J\bibinitperiod\bibinitdelim C\bibinitperiod}}}%
+        {{hash=45cf89e5e7b7a44372f4d72faccc72dc}{%
+           family={Bartlett},
+           familyi={B\bibinitperiod},
+           given={Paul},
+           giveni={P\bibinitperiod}}}%
+        {{hash=70ffc0ccfa30a7603c0b6d785e9069b3}{%
+           family={Renzoni},
+           familyi={R\bibinitperiod},
+           given={Ferruccio},
+           giveni={F\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {AIP Publishing}%
+      }
+      \strng{namehash}{10883a71b3f3c3e7f67c34ae8037ca1b}
+      \strng{fullhash}{fbf319ada42eac30e2052f4b514e3ff6}
+      \strng{bibnamehash}{10883a71b3f3c3e7f67c34ae8037ca1b}
+      \strng{authorbibnamehash}{10883a71b3f3c3e7f67c34ae8037ca1b}
+      \strng{authornamehash}{10883a71b3f3c3e7f67c34ae8037ca1b}
+      \strng{authorfullhash}{fbf319ada42eac30e2052f4b514e3ff6}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{2158-3226}
+      \field{journaltitle}{AIP Advances}
+      \field{number}{9}
+      \field{title}{Penetrating power of resonant electromagnetic induction imaging}
+      \field{volume}{6}
+      \field{year}{2016}
+      \verb{doi}
+      \verb 10.1063/1.4963299
+      \endverb
+      \verb{urlraw}
+      \verb http://dx.doi.org/10.1063/1.4963299
+      \endverb
+      \verb{url}
+      \verb http://dx.doi.org/10.1063/1.4963299
       \endverb
     \endentry
     \entry{deans2024}{article}{}
@@ -4537,7 +4630,6 @@
       \field{labeltitlesource}{title}
       \field{issn}{1077-3118}
       \field{journaltitle}{Applied Physics Letters}
-      \field{month}{3}
       \field{number}{10}
       \field{title}{Electromagnetic induction imaging with a radio-frequency atomic magnetometer}
       \field{volume}{108}
@@ -4552,50 +4644,8 @@
       \verb http://dx.doi.org/10.1063/1.4943659
       \endverb
     \endentry
-    \entry{comsol_ref}{misc}{}
-      \name{author}{2}{}{%
-        {{hash=f139c2aaf442505f5dd1d2f8afe2dcdf}{%
-           family={Yoder},
-           familyi={Y\bibinitperiod},
-           given={Paul},
-           giveni={P\bibinitperiod}}}%
-        {{hash=c839f8d7d174182c02a94cd6b048b4cd}{%
-           family={Vukobratovich},
-           familyi={V\bibinitperiod},
-           given={Daniel},
-           giveni={D\bibinitperiod}}}%
-      }
-      \list{publisher}{1}{%
-        {CRC Press}%
-      }
-      \strng{namehash}{0ba0b04928181ef70a9be4103e9d3516}
-      \strng{fullhash}{0ba0b04928181ef70a9be4103e9d3516}
-      \strng{bibnamehash}{0ba0b04928181ef70a9be4103e9d3516}
-      \strng{authorbibnamehash}{0ba0b04928181ef70a9be4103e9d3516}
-      \strng{authornamehash}{0ba0b04928181ef70a9be4103e9d3516}
-      \strng{authorfullhash}{0ba0b04928181ef70a9be4103e9d3516}
-      \field{extraname}{2}
-      \field{sortinit}{2}
-      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{isbn}{9781315217635}
-      \field{month}{12}
-      \field{title}{Opto-Mechanical Systems Design, Two Volume Set}
-      \field{year}{2018}
-      \verb{doi}
-      \verb 10.1201/9781315217635
-      \endverb
-      \verb{urlraw}
-      \verb http://dx.doi.org/10.1201/9781315217635
-      \endverb
-      \verb{url}
-      \verb http://dx.doi.org/10.1201/9781315217635
-      \endverb
-    \endentry
   \enddatalist
-  \missing{guilizzoni2016}
-  \missing{marmugi2020}
+  \missing{comsol_ref}
 \endrefsection
 \endinput
 
