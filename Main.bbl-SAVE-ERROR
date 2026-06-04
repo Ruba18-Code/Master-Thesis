@@ -309,8 +309,8 @@
       \strng{authorbibnamehash}{eb6d80b8d6ac0e4af512406c36e6cb39}
       \strng{authornamehash}{eb6d80b8d6ac0e4af512406c36e6cb39}
       \strng{authorfullhash}{eb6d80b8d6ac0e4af512406c36e6cb39}
-      \field{sortinit}{3}
-      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{title}{Controlling Stress in Bonded Optics}
@@ -4645,6 +4645,7 @@
       \endverb
     \endentry
   \enddatalist
+  \missing{Nagabooshanam et al.}
   \missing{comsol_ref}
 \endrefsection
 \endinput

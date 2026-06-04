@@ -1,34 +1,34 @@
 [0] Config.pm:307> INFO - This is Biber 2.19
 [0] Config.pm:310> INFO - Logfile is 'Main.blg'
-[44] biber:340> INFO - === mié jun  3, 2026, 17:16:34
-[54] Biber.pm:419> INFO - Reading 'Main.bcf'
-[115] Biber.pm:979> INFO - Found 97 citekeys in bib section 0
-[123] Biber.pm:4419> INFO - Processing section 0
-[130] Biber.pm:4610> INFO - Looking for bibtex file 'referencias.bib' for section 0
-[133] bibtex.pm:1713> INFO - LaTeX decoding ...
-[198] bibtex.pm:1519> INFO - Found BibTeX data source 'referencias.bib'
-[663] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[663] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
-[663] Biber.pm:4239> INFO - Sorting list 'none/global//global/global' of type 'entry' with template 'none' and locale 'en-US'
-[663] Biber.pm:4245> INFO - No sort tailoring available for locale 'en-US'
-[698] bbl.pm:660> INFO - Writing 'Main.bbl' with encoding 'UTF-8'
-[725] bbl.pm:763> INFO - Output to Main.bbl
-[726] Biber.pm:131> WARN - legacy month field 'Nov' in entry 'turner2006' is not an integer - this will probably not sort properly.
-[726] Biber.pm:131> WARN - legacy month field 'Nov' in entry 'miki2003' is not an integer - this will probably not sort properly.
-[726] Biber.pm:131> WARN - legacy month field 'Dec' in entry 'turner2002' is not an integer - this will probably not sort properly.
-[726] Biber.pm:131> WARN - legacy month field 'July' in entry 'takagi1998' is not an integer - this will probably not sort properly.
-[726] Biber.pm:131> WARN - BibTeX subsystem: /tmp/biber_tmp_zx3a/f1acd60b6c57e7ae00f56d747b2cd459_37528.utf8, line 88, warning: undefined macro "Sept"
-[726] Biber.pm:131> WARN - BibTeX subsystem: /tmp/biber_tmp_zx3a/f1acd60b6c57e7ae00f56d747b2cd459_37528.utf8, line 148, warning: undefined macro "July"
-[726] Biber.pm:131> WARN - BibTeX subsystem: /tmp/biber_tmp_zx3a/f1acd60b6c57e7ae00f56d747b2cd459_37528.utf8, line 289, warning: undefined macro "June"
-[726] Biber.pm:131> WARN - BibTeX subsystem: /tmp/biber_tmp_zx3a/f1acd60b6c57e7ae00f56d747b2cd459_37528.utf8, line 376, warning: undefined macro "June"
-[726] Biber.pm:131> WARN - BibTeX subsystem: /tmp/biber_tmp_zx3a/f1acd60b6c57e7ae00f56d747b2cd459_37528.utf8, line 438, warning: undefined macro "July"
-[726] Biber.pm:131> WARN - BibTeX subsystem: /tmp/biber_tmp_zx3a/f1acd60b6c57e7ae00f56d747b2cd459_37528.utf8, line 469, warning: undefined macro "Sept"
-[726] Biber.pm:131> WARN - BibTeX subsystem: /tmp/biber_tmp_zx3a/f1acd60b6c57e7ae00f56d747b2cd459_37528.utf8, line 620, warning: undefined macro "June"
-[726] Biber.pm:131> WARN - BibTeX subsystem: /tmp/biber_tmp_zx3a/f1acd60b6c57e7ae00f56d747b2cd459_37528.utf8, line 733, warning: undefined macro "July"
-[726] Biber.pm:131> WARN - BibTeX subsystem: /tmp/biber_tmp_zx3a/f1acd60b6c57e7ae00f56d747b2cd459_37528.utf8, line 865, warning: undefined macro "June"
-[726] Biber.pm:131> WARN - BibTeX subsystem: /tmp/biber_tmp_zx3a/f1acd60b6c57e7ae00f56d747b2cd459_37528.utf8, line 1092, warning: 84 characters of junk seen at toplevel
-[726] Biber.pm:131> WARN - BibTeX subsystem: /tmp/biber_tmp_zx3a/f1acd60b6c57e7ae00f56d747b2cd459_37528.utf8, line 1241, warning: undefined macro "Sept"
-[726] Biber.pm:131> WARN - BibTeX subsystem: /tmp/biber_tmp_zx3a/f1acd60b6c57e7ae00f56d747b2cd459_37528.utf8, line 1256, warning: undefined macro "Sept"
-[726] Biber.pm:131> WARN - I didn't find a database entry for 'Nagabooshanam et al.' (section 0)
-[726] Biber.pm:131> WARN - I didn't find a database entry for 'comsol_ref' (section 0)
-[726] Biber.pm:133> INFO - WARNINGS: 18
+[57] biber:340> INFO - === jue jun  4, 2026, 12:07:10
+[73] Biber.pm:419> INFO - Reading 'Main.bcf'
+[141] Biber.pm:979> INFO - Found 97 citekeys in bib section 0
+[150] Biber.pm:4419> INFO - Processing section 0
+[158] Biber.pm:4610> INFO - Looking for bibtex file 'referencias.bib' for section 0
+[162] bibtex.pm:1713> INFO - LaTeX decoding ...
+[240] bibtex.pm:1519> INFO - Found BibTeX data source 'referencias.bib'
+[732] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[732] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[733] Biber.pm:4239> INFO - Sorting list 'none/global//global/global' of type 'entry' with template 'none' and locale 'en-US'
+[733] Biber.pm:4245> INFO - No sort tailoring available for locale 'en-US'
+[771] bbl.pm:660> INFO - Writing 'Main.bbl' with encoding 'UTF-8'
+[800] bbl.pm:763> INFO - Output to Main.bbl
+[800] Biber.pm:131> WARN - legacy month field 'Nov' in entry 'turner2006' is not an integer - this will probably not sort properly.
+[800] Biber.pm:131> WARN - legacy month field 'Nov' in entry 'miki2003' is not an integer - this will probably not sort properly.
+[800] Biber.pm:131> WARN - legacy month field 'Dec' in entry 'turner2002' is not an integer - this will probably not sort properly.
+[800] Biber.pm:131> WARN - legacy month field 'July' in entry 'takagi1998' is not an integer - this will probably not sort properly.
+[800] Biber.pm:131> WARN - BibTeX subsystem: /tmp/biber_tmp_3ONP/f1acd60b6c57e7ae00f56d747b2cd459_24199.utf8, line 88, warning: undefined macro "Sept"
+[800] Biber.pm:131> WARN - BibTeX subsystem: /tmp/biber_tmp_3ONP/f1acd60b6c57e7ae00f56d747b2cd459_24199.utf8, line 148, warning: undefined macro "July"
+[800] Biber.pm:131> WARN - BibTeX subsystem: /tmp/biber_tmp_3ONP/f1acd60b6c57e7ae00f56d747b2cd459_24199.utf8, line 289, warning: undefined macro "June"
+[800] Biber.pm:131> WARN - BibTeX subsystem: /tmp/biber_tmp_3ONP/f1acd60b6c57e7ae00f56d747b2cd459_24199.utf8, line 376, warning: undefined macro "June"
+[800] Biber.pm:131> WARN - BibTeX subsystem: /tmp/biber_tmp_3ONP/f1acd60b6c57e7ae00f56d747b2cd459_24199.utf8, line 438, warning: undefined macro "July"
+[800] Biber.pm:131> WARN - BibTeX subsystem: /tmp/biber_tmp_3ONP/f1acd60b6c57e7ae00f56d747b2cd459_24199.utf8, line 469, warning: undefined macro "Sept"
+[800] Biber.pm:131> WARN - BibTeX subsystem: /tmp/biber_tmp_3ONP/f1acd60b6c57e7ae00f56d747b2cd459_24199.utf8, line 620, warning: undefined macro "June"
+[800] Biber.pm:131> WARN - BibTeX subsystem: /tmp/biber_tmp_3ONP/f1acd60b6c57e7ae00f56d747b2cd459_24199.utf8, line 733, warning: undefined macro "July"
+[800] Biber.pm:131> WARN - BibTeX subsystem: /tmp/biber_tmp_3ONP/f1acd60b6c57e7ae00f56d747b2cd459_24199.utf8, line 865, warning: undefined macro "June"
+[800] Biber.pm:131> WARN - BibTeX subsystem: /tmp/biber_tmp_3ONP/f1acd60b6c57e7ae00f56d747b2cd459_24199.utf8, line 1092, warning: 84 characters of junk seen at toplevel
+[800] Biber.pm:131> WARN - BibTeX subsystem: /tmp/biber_tmp_3ONP/f1acd60b6c57e7ae00f56d747b2cd459_24199.utf8, line 1241, warning: undefined macro "Sept"
+[800] Biber.pm:131> WARN - BibTeX subsystem: /tmp/biber_tmp_3ONP/f1acd60b6c57e7ae00f56d747b2cd459_24199.utf8, line 1256, warning: undefined macro "Sept"
+[800] Biber.pm:131> WARN - I didn't find a database entry for 'Nagabooshanam et al.' (section 0)
+[800] Biber.pm:131> WARN - I didn't find a database entry for 'comsol_ref' (section 0)
+[800] Biber.pm:133> INFO - WARNINGS: 18

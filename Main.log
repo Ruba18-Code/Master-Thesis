@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999995 (TeX Live 2023/Debian) (preloaded format=xelatex 2026.4.1)  3 JUN 2026 17:16
+This is XeTeX, Version 3.141592653-2.6-0.999995 (TeX Live 2023/Debian) (preloaded format=xelatex 2026.4.1)  4 JUN 2026 12:07
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1450,36 +1450,110 @@ Overfull \hbox (9.98468pt too wide) in paragraph at lines 145--152
  []
 
 [3]
-LaTeX Font Info:    Trying to load font information for U+msa on input line 173.
- (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
+Underfull \hbox (badness 10000) in paragraph at lines 173--173
+
+ []
+
+\ajuste=\skip156
+LaTeX Font Info:    Trying to load font information for U+msa on input line 176.
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 173.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 176.
  (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
-) [4] (./Main.toc [5])
+)
+Missing character: There is no h ("68) in font nullfont!
+Missing character: There is no t ("74) in font nullfont!
+Missing character: There is no t ("74) in font nullfont!
+Missing character: There is no p ("70) in font nullfont!
+Missing character: There is no s ("73) in font nullfont!
+Missing character: There is no : ("3A) in font nullfont!
+Missing character: There is no / ("2F) in font nullfont!
+Missing character: There is no / ("2F) in font nullfont!
+Missing character: There is no w ("77) in font nullfont!
+Missing character: There is no w ("77) in font nullfont!
+Missing character: There is no w ("77) in font nullfont!
+Missing character: There is no . ("2E) in font nullfont!
+Missing character: There is no o ("6F) in font nullfont!
+Missing character: There is no v ("76) in font nullfont!
+Missing character: There is no e ("65) in font nullfont!
+Missing character: There is no r ("72) in font nullfont!
+Missing character: There is no l ("6C) in font nullfont!
+Missing character: There is no e ("65) in font nullfont!
+Missing character: There is no a ("61) in font nullfont!
+Missing character: There is no f ("66) in font nullfont!
+Missing character: There is no . ("2E) in font nullfont!
+Missing character: There is no c ("63) in font nullfont!
+Missing character: There is no o ("6F) in font nullfont!
+Missing character: There is no m ("6D) in font nullfont!
+Missing character: There is no / ("2F) in font nullfont!
+Missing character: There is no p ("70) in font nullfont!
+Missing character: There is no r ("72) in font nullfont!
+Missing character: There is no o ("6F) in font nullfont!
+Missing character: There is no j ("6A) in font nullfont!
+Missing character: There is no e ("65) in font nullfont!
+Missing character: There is no c ("63) in font nullfont!
+Missing character: There is no t ("74) in font nullfont!
+Missing character: There is no / ("2F) in font nullfont!
+Missing character: There is no 5 ("35) in font nullfont!
+Missing character: There is no d ("64) in font nullfont!
+Missing character: There is no 9 ("39) in font nullfont!
+Missing character: There is no 1 ("31) in font nullfont!
+Missing character: There is no e ("65) in font nullfont!
+Missing character: There is no 3 ("33) in font nullfont!
+Missing character: There is no b ("62) in font nullfont!
+Missing character: There is no 0 ("30) in font nullfont!
+Missing character: There is no 3 ("33) in font nullfont!
+Missing character: There is no 5 ("35) in font nullfont!
+Missing character: There is no 8 ("38) in font nullfont!
+Missing character: There is no a ("61) in font nullfont!
+Missing character: There is no a ("61) in font nullfont!
+Missing character: There is no b ("62) in font nullfont!
+Missing character: There is no 0 ("30) in font nullfont!
+Missing character: There is no 0 ("30) in font nullfont!
+Missing character: There is no 0 ("30) in font nullfont!
+Missing character: There is no 1 ("31) in font nullfont!
+Missing character: There is no a ("61) in font nullfont!
+Missing character: There is no e ("65) in font nullfont!
+Missing character: There is no 4 ("34) in font nullfont!
+Missing character: There is no e ("65) in font nullfont!
+Missing character: There is no 9 ("39) in font nullfont!
+Missing character: There is no d ("64) in font nullfont!
+File: graficos/logos.png Graphic file (type bmp)
+<graficos/logos.png>
+File: graficos/marca_UPV_principal_negro.pdf Graphic file (type pdf)
+<use graficos/marca_UPV_principal_negro.pdf>
+File: graficos/2018_TELECOMVLC.pdf Graphic file (type pdf)
+<use graficos/2018_TELECOMVLC.pdf>
+[4
+
+] [5
+
+] (./Main.toc [6])
 \tf@toc=\write8
 \openout8 = `Main.toc'.
 
- [6] (./Main.lof
+ [7] (./Main.lof
 Overfull \hbox (3.63693pt too wide) in paragraph at lines 19--19
  \TU/TeXGyreTermes(0)/m/n/10.95 aluminosilicate, Al$[]$O$[]$-coated borofloat, and Al$[]$O$[]$-coated aluminosilicate glasses. 
  []
 
-[7] [8])
+[8] [9])
 \tf@lof=\write9
 \openout9 = `Main.lof'.
 
- [9] (./Main.lot)
+ [10] (./Main.lot)
 \tf@lot=\write10
 \openout10 = `Main.lot'.
 
- [10] (./siglas.tex
+ [11] (./siglas.tex
 \@gls@deffile=\write11
 \openout11 = `Main.glsdefs'.
 
- (./Main.gls)) [-2
+ (./Main.gls [12
 
+])) [-2
 
 ] [-1
 
@@ -1648,7 +1722,7 @@ Overfull \hbox (6.9126pt too wide) in paragraph at lines 218--224
 File: Images/D1 & D2.png Graphic file (type bmp)
 <Images/D1 & D2.png>
  [36])
-Overfull \hbox (5.38327pt too wide) in paragraph at lines 112--235
+Overfull \hbox (5.38327pt too wide) in paragraph at lines 112--289
 \TU/TeXGyreTermes(0)/m/n/10.95 parison with benchmarks from the literature: the 707-day vacuum integrity demonstrated by Artusio-
  []
 
@@ -1728,42 +1802,42 @@ Chapter 6.
 ] [50
 
 ] [51]
-Overfull \hbox (5.22995pt too wide) in paragraph at lines 241--241
+Overfull \hbox (5.22995pt too wide) in paragraph at lines 295--295
 []\TU/TeXGyreTermes(0)/m/n/10.95 Sara Lo Turco, Andrea Di Donato, and Luigino Criante. “Scattering effects of glass-embedded
  []
 
 
-Overfull \hbox (1.9814pt too wide) in paragraph at lines 241--241
+Overfull \hbox (1.9814pt too wide) in paragraph at lines 295--295
 \TU/TeXGyreTermes(0)/m/it/10.95 view of Materials Science \TU/TeXGyreTermes(0)/m/n/10.95 28 (1998), pp. 215–241. \TU/TeXGyreTermes(0)/m/sc/10.95 url\TU/TeXGyreTermes(0)/m/n/10.95 : []$[][][][][] [] [] [] [][][] [] [][][][][][][][][][][][][][][] []
  []
 
 [52] [53]
-Overfull \hbox (15.8705pt too wide) in paragraph at lines 241--241
+Overfull \hbox (15.8705pt too wide) in paragraph at lines 295--295
 \TU/TeXGyreTermes(0)/m/it/10.95 cision Products\TU/TeXGyreTermes(0)/m/n/10.95 . CRC Press, Oct. 2018. \TU/TeXGyreTermes(0)/m/sc/10.95 isbn\TU/TeXGyreTermes(0)/m/n/10.95 : 9781482289992. \TU/TeXGyreTermes(0)/m/sc/10.95 doi\TU/TeXGyreTermes(0)/m/n/10.95 : []$[][] [] [][][][] [] [][][][][][][][][][][][][]$[].
  []
 
 
-Overfull \hbox (21.24606pt too wide) in paragraph at lines 241--241
+Overfull \hbox (21.24606pt too wide) in paragraph at lines 295--295
 \TU/TeXGyreTermes(0)/m/n/10.95 icon Wafers”. In: \TU/TeXGyreTermes(0)/m/it/10.95 Particles on Surfaces 2\TU/TeXGyreTermes(0)/m/n/10.95 . Springer US, 1989, pp. 297–306. \TU/TeXGyreTermes(0)/m/sc/10.95 isbn\TU/TeXGyreTermes(0)/m/n/10.95 : 9781461305316.
  []
 
 [54]
-Overfull \hbox (17.7184pt too wide) in paragraph at lines 241--241
+Overfull \hbox (17.7184pt too wide) in paragraph at lines 295--295
 []\TU/TeXGyreTermes(0)/m/n/10.95 Josephine Neumann et al. “Atmospheric Pressure Dielectric Barrier Discharge Plasma-Enhanced
  []
 
 
-Overfull \hbox (0.73035pt too wide) in paragraph at lines 241--241
+Overfull \hbox (0.73035pt too wide) in paragraph at lines 295--295
 \TU/TeXGyreTermes(0)/m/it/10.95 tions (GPS) – Surface texture: Areal\TU/TeXGyreTermes(0)/m/n/10.95 . International Organization for Standardization. Geneva,
  []
 
 [55]
-Overfull \hbox (0.70215pt too wide) in paragraph at lines 241--241
+Overfull \hbox (0.70215pt too wide) in paragraph at lines 295--295
 []\TU/TeXGyreTermes(0)/m/n/10.95 Limor Pasternak and Yaron Paz. “Low-temperature direct bonding of silicon nitride to glass”.
  []
 
 
-Overfull \hbox (15.41704pt too wide) in paragraph at lines 241--241
+Overfull \hbox (15.41704pt too wide) in paragraph at lines 295--295
 []\TU/TeXGyreTermes(0)/m/n/10.95 S. Mack (Max-Planck-Institut). “Eine vergleichende Untersuchung der physikalisch-chemischen
  []
 
@@ -1785,12 +1859,12 @@ Package logreq Info: Writing requests to 'Main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 47038 strings out of 474878
- 976012 string characters out of 5762517
+ 47212 strings out of 474878
+ 979795 string characters out of 5762517
  1958627 words of memory out of 5000000
- 68254 multiletter control sequences out of 15000+600000
- 563381 words of font info for 93 fonts, out of 8000000 for 9000
+ 68423 multiletter control sequences out of 15000+600000
+ 563389 words of font info for 94 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  96i,14n,96p,2389b,5520s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on Main.pdf (75 pages).
+Output written on Main.pdf (77 pages).
