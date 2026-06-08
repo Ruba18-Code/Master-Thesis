@@ -1,119 +1,431 @@
 \chapter{Introduction and Motivation}
-A sensor is an analytical device designed to detect and respond to a 
-specific input stimulus from the physical environment, translating it 
-into a measurable analog or digital signal. These input stimuli encompass 
-a vast array of environmental phenomena, such as pressure, force, flow, 
-light, heat, motion, or moisture. The resulting output is typically 
-converted into an electrical signal that can be subsequently processed, 
-measured, and analyzed \cite{javaid2021}.
+\section{Historical Evolution}
+A sensor is an analytical device designed to detect and respond to a specific input stimulus from 
+the physical environment, translating it into a measurable analog or digital signal. These input 
+stimuli encompass a vast array of environmental phenomena, such as pressure, force, flow, light, 
+heat, motion, or moisture. The resulting output is typically converted into an electrical signal 
+that can be subsequently processed, measured, and analyzed \cite{javaid2021}.
 
-In order to better understand physical reality, a wide variety of sensors 
-have been developed throughout human history, with some of the earliest 
-documented mechanisms dating back thousands of years. Early sensing 
-principles relied entirely on mechanical, hydraulic, and pneumatic 
-feedback loops rather than electronic transduction. For instance, 
-Heron of Alexandria developed an automatic mechanism for opening and 
-closing temple doors in 62 CE. This device utilized the thermal 
-expansion of air to trigger mechanical motion, as illustrated in 
-Figure~\ref{fig:herondoor}. Similarly, Zhang Heng's seismoscope 
-(132 CE) employed an inertia-based internal pendulum to detect and 
-indicate the direction of distant earthquakes, as detailed in 
-Figure~\ref{fig:seismoscope}.
+In order to better understand physical reality, a wide variety of sensors have been developed 
+throughout human history, with some of the earliest documented mechanisms dating back nearly 
+two millennia. Early sensing principles relied entirely on mechanical, hydraulic, and pneumatic 
+feedback loops rather than electronic transduction. For instance, Heron of Alexandria developed 
+an automatic mechanism for opening and closing temple doors in 62~CE. This device utilized the 
+thermal expansion of air to trigger mechanical motion, as illustrated in Figure~\ref{fig:herondoor}. 
+Similarly, Zhang Heng's seismoscope (132~CE) employed an inertia-based internal pendulum to detect 
+and indicate the direction of distant earthquakes, as detailed in Figure~\ref{fig:seismoscope}.
+
 \begin{figure}[h]
     \centering
-    \includegraphics[width=0.75\linewidth]{Images/herondoor.png}
-    \caption{Automatic mechanism for temple door actuation designed by 
-    Heron of Alexandria (62 CE). When the altar fire is lit, the air 
-    confined within cavity (E) undergoes thermal expansion, increasing 
-    the pneumatic pressure inside the water-filled reservoir (H). 
-    This pressure forces water through pipe (L) into the suspended 
-    cauldron (M). The resulting weight displacement overcomes 
-    the counterweight (R), thereby opening the doors. Once the 
-    fire is extinguished, pressure drops, and the system reverts 
-    to its equilibrium state. Adapted from \cite{herondoor}.}
+    \includegraphics[width=0.65\linewidth]{Images/herondoor.png}
+    \caption{Automatic mechanism for temple door actuation designed by Heron of Alexandria (62~CE). 
+    When the altar fire is lit, the air confined within cavity (E) undergoes thermal expansion, 
+    increasing the pneumatic pressure inside the water-filled reservoir (H). This pressure forces water 
+    through pipe (L) into the suspended cauldron (M). The resulting weight displacement 
+    overcomes the counterweight (R), thereby opening the doors. Once the fire is extinguished, 
+    pressure drops, and the system reverts to its initial equilibrium state. Adapted from \cite{herondoor}.}
     \label{fig:herondoor}
 \end{figure}
+
 \begin{figure}[h]
     \centering
     \includegraphics[width=0.75\linewidth]{Images/seismoscope.png}
-    \caption{Seismoscope developed by Chinese polymath Zhang Heng (132 CE). 
-    A central pendulum suspended inside the bronze vessel oscillates in 
-    response to seismic vibrations. This displacement triggers an internal 
-    lever mechanism that opens the jaws of a specific dragon head, releasing 
-    a bronze ball into the mouth of a corresponding frog statue below. 
-    Eight radial dragon-frog pairs were meticulously aligned to determine 
-    the primary orientation of the earthquake epicenter. Adapted from \cite{seismoscope}.}
+    \caption{Seismoscope developed by Chinese polymath Zhang Heng (132~CE). A central 
+    pendulum suspended inside the bronze vessel oscillates in response to seismic vibrations. 
+    This displacement triggers an internal lever mechanism that opens the jaws of a specific 
+    dragon head, releasing a bronze ball into the mouth of a corresponding frog statue below. 
+    Eight radial dragon-frog pairs were meticulously aligned to determine the primary orientation 
+    of the earthquake epicenter. Adapted from \cite{seismoscope}.}
     \label{fig:seismoscope}
 \end{figure}
 
-Modern sensors began to emerge during the 17th century. These devices commonly rely 
-on three key interconnected elements: (i) a receptor that specifically interacts 
-with the target analyte or physical stimulus; (ii) a transducer that responds to 
-this interaction by producing a characteristic signal; and (iii) a data-processing 
-system that computes the signal into measurable quantities and generates usable data 
-\cite{pirzada2023}. As one of the earliest examples of this conceptual framework, 
-Galileo Galilei invented the thermoscope, which monitored temperature variations 
-through the thermal expansion of air. This qualitative device was subsequently 
-improved by Santorio Santorio, who introduced a numerical scale, effectively 
+The precursor to modern quantitative sensors began to emerge during the 17th century. 
+In contemporary engineering, these devices commonly rely on three key interconnected 
+elements: (i) a receptor that specifically interacts with the target analyte or physical 
+stimulus; (ii) a transducer that responds to this interaction by producing a characteristic 
+signal; and (iii) a data-processing system that computes the signal into measurable 
+quantities and generates usable data \cite{pirzada2023}. As one of the earliest examples of this 
+evolving conceptual framework, Galileo Galilei invented the thermoscope, which monitored 
+temperature variations through the thermal expansion of air. This qualitative device was 
+subsequently improved by Santorio Santorio, who introduced a numerical scale, effectively 
 transforming the instrument into the first measurable thermometer \cite{middleton1966}.
 
-During the Industrial Revolution (18th to 19th century), the scientific imperative 
-to analyze and optimize machine behavior demanded more diverse and sophisticated 
-monitoring tools. It was during this era that the foundational concept of transduction (translating 
-a physical phenomenon into an actionable, measurable output) was firmly established. 
-Concurrently, essential analytical tools such as the barometer, litmus paper, the 
-Davy safety lamp, and early mechanical thermostats were developed to ensure industrial 
-safety and process control \cite{pirzada2023, duncan1947}.
+During the Industrial Revolution (18th to 19th century), the scientific imperative to analyze 
+and optimize machine behavior demanded more diverse and sophisticated monitoring tools. 
+It was during this era that the foundational concept of transduction---translating a 
+physical phenomenon into an actionable, measurable output---was firmly established. 
+Concurrently, essential analytical tools such as the barometer, litmus paper, the Davy safety 
+lamp, and early mechanical thermostats were developed to ensure industrial safety and process 
+control \cite{pirzada2023, duncan1947}.
 
-The 19th century marked a critical turning point in sensor technology by shifting 
-the output medium from purely mechanical displacements toward electrical signals. 
-The invention of the galvanometer by Johann Schweigger in 1820 allowed for the 
-precise measurement of micro-currents, effectively paving the way for electrical 
-instrumentation. Later, in 1880, Pierre and Jacques Curie discovered the piezoelectric 
-effect, a breakthrough that enabled the development of piezoelectric sensors capable of 
-converting mechanical stress directly into measurable electrical charge \cite{curie1880}.
+The 19th century marked a critical turning point in sensor technology by shifting the output 
+medium from purely mechanical displacements toward electrical signals. The invention of the 
+galvanometer by Johann Schweigger in 1820 allowed for the precise measurement of micro-currents, 
+effectively paving the way for electrical instrumentation. Later, in 1880, Pierre and Jacques 
+Curie discovered the piezoelectric effect, a breakthrough that enabled the development of 
+piezoelectric sensors capable of converting mechanical stress directly into measurable 
+electrical charge \cite{curie1880}.
 
 The mid-20th century witnessed the introduction of solid-state electronic sensors, 
-transforming global industries by providing faster, more reliable, and highly accurate
+transforming global industries by providing faster, more reliable, and highly accurate 
 measurements. This era was revolutionized by the invention of the point-contact transistor 
-at Bell Labs in 1947, which enabled the development of significantly smaller and more efficient 
-electronic components \cite{bardeen1948}. Following World War II, the rapid growth of the 
-semiconductor industry allowed sensors to become progressively more compact, efficient, and 
-affordable. This technological trajectory was further propelled by the introduction of 
-integrated circuits (ICs) in the late 1950s and 1960s, a breakthrough that facilitated 
-the micro-miniaturization of devices and enabled the integration of multiple sensing 
-functions onto a single silicon substrate \cite{kilby1976}. By the 1960s and 1970s, these 
-advanced solid-state sensors became widespread across the aerospace, automotive, and 
-telecommunications sectors, ultimately forming the technological backbone of complex, 
-modern monitoring and control systems.
+at Bell Labs in 1947, which enabled the development of significantly smaller and more 
+efficient electronic components \cite{bardeen1948}. Following World War II, the rapid 
+growth of the semiconductor industry allowed sensors to become progressively more compact, 
+efficient, and affordable. This technological trajectory was further propelled by the 
+introduction of integrated circuits (ICs) in the late 1950s and 1960s, a breakthrough 
+that facilitated the micro-miniaturization of devices and enabled the integration of 
+multiple sensing functions onto a single silicon substrate \cite{kilby1976}. By the 
+1960s and 1970s, these advanced solid-state sensors became widespread across the aerospace, 
+automotive, and telecommunications sectors, ultimately forming the technological backbone of 
+complex, modern monitoring and control systems. This relentless drive toward miniaturization and 
+integration set the stage for an entirely new class of devices capable of combining mechanical and 
+electronic functionality at the microscale.
 
-\section{Microelectromechanical systems (MEMS)}
-Microelectromechanical systems (MEMS) refer to devices that have characteristic length of less than
-\SI{1}{\milli\meter} but more than \SI{1}{\micro\meter}, that combine electrical and mechanical components, 
-and that are fabricated
-using integrated circuit batch-processing technologies \cite{memshandbook}. In recent decades,
-these technologies have evolved to a wide number of applications thanks to the advantatges 
-it presents, such as 1) the
-active material, silicon, is abundant, inexpensive, and can now
-be produced and processed controllably to unparalleled stan-
-dards of purity and perfection; 2) silicon processing itself is
-based on very thin deposited films which are highly amenable
-to miniaturization; 3) definition and reproduction of the
-device shapes and patterns are performed using photographic
-techniques which have also, historically, been capable of high
-precision and amenable to miniaturization; finally, and most
-important of all from a commercial and practical point of
-view, 4) silicon microelectronic circuits are batch-fabricated.
-The unit of production for integrated circuits-the wafer-is
-not one individual saleable item, but contains hundreds of
-identical chips \cite{petersen1982}. The high purity and crystalline perfection of available
-silicon is expected to optimize the mechanical properties of
-devices made from silicon in the same way that electronic
-properties have been optimized to increase the performance,
-reliability, and reproducibility of device characteristics. 
+\section{Microelectromechanical Systems (MEMS)}
+
+Microelectromechanical Systems (MEMS) refer to devices with characteristic lengths between 
+\SI{1}{\micro\meter} and \SI{1}{\milli\meter} (see Figure~\ref{fig:scaleofthings}) that combine 
+electrical and mechanical components fabricated using integrated circuit batch-processing 
+technologies \cite{memshandbook}. In recent decades, MEMS have found widespread application 
+across a variety of fields, driven by several inherent advantages of the technology. 
+
+Silicon, the primary structural and active material, is Earth-abundant, cost-effective, and can 
+be produced to extraordinary levels of purity and crystalline perfection. Its processing relies 
+on thin deposited films that are intrinsically amenable to miniaturization, while 
+photolithographic patterning techniques enable highly precise and reproducible definitions 
+of device geometries at microscale dimensions. Perhaps most significantly from a commercial 
+standpoint, MEMS devices benefit from the same batch-fabrication paradigm as microelectronic 
+circuits: a single semiconductor wafer simultaneously yields hundreds of identical devices, 
+as exemplified in Figure~\ref{fig:wafer_example}, dramatically reducing per-unit costs and 
+enabling large-scale deployment \cite{petersen1982}. 
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.65\linewidth]{Images/wafer_example.jpg}
+    \caption{Example of a batch-fabricated semiconductor wafer. Parallel manufacturing yields hundreds 
+    of identical micro-devices simultaneously, significantly lowering per-unit production costs.}
+    \label{fig:wafer_example}
+\end{figure}
+
 \begin{figure}[h]
     \centering
-    \includegraphics[width=0.75\linewidth]{Images/memspic.png}
-    \caption{From \cite{birkholz2013}.}
+    \includegraphics[width=0.7\linewidth]{Images/memspic.png}
+    \caption{Structural representation of a MEMS device. Microstructures typically exhibit characteristic 
+    dimensions on the order of micrometers \cite{birkholz2013}.}
     \label{fig:scaleofthings}
 \end{figure}
+
+The exceptional purity and crystalline perfection achievable in silicon substrates translate directly 
+into optimized mechanical properties, much as these same characteristics have long been exploited to 
+maximize electronic performance, reliability, and reproducibility in integrated circuits \cite{petersen1982}. 
+As a consequence, MEMS devices have attained levels of precision, sensitivity, and long-term stability that 
+were previously unachievable in macroscopic mechanical systems, enabling their widespread adoption in consumer 
+electronics, biomedical instrumentation, environmental monitoring, and precision metrology.
+
+\section{Atomic Sensors}
+\label{sec:atomic_sensors}
+
+The demand for precise and stable measurements has driven the 
+development of quantum sensors based on atomic spectroscopy. 
+Atom-based quantum sensors exploit the highly stable, 
+reproducible, and sensitive energy levels of atoms to measure 
+physical quantities \cite{kitching2011,brown2025}. In their 
+basic form, these sensors create a specific quantum state in 
+a gas-phase atom using laser light or electromagnetic fields. 
+They then measure a property of that state to determine the 
+value of the physical quantity being tested.
+
+At their core, all atomic sensors share three main components: 
+a light source, a collection of identical atoms, and an 
+optical method for detection, as shown in 
+Figure~\ref{fig:basicvaporcell}. Modern designs use 
+high-performance diode lasers, electro-optic modulators, and 
+sensitive photodetectors to reach fundamental quantum limits.
+
+\begin{figure}[htbp]
+  \centering
+  \includegraphics[width=0.80\linewidth]{Images/basicvaporcell.png}
+  \caption{Essential elements of an atom-based sensor: a laser light
+           source, an atomic vapor cell, and a photodiode detector.
+           A resonant beam passes through the cell; the transmitted (or
+           fluorescent) light carries information about the atomic
+           quantum state and the physical quantity of interest.
+           Adapted from~\protect\cite{brown2025}.}
+  \label{fig:basicvaporcell}
+\end{figure}
+
+% ------------------------------------------------------------
+\subsection{Vapor Cell Implementation}
+\label{sec:vapor_cell}
+
+The most common and compact setup for an atomic sensor is the 
+vapor cell. This is a sealed glass container filled with an 
+alkali-metal gas \cite{kitching2011}. A laser beam tuned to 
+one of the optical transitions of the atoms is shone through 
+the cell, and a photodetector monitors the transmitted light 
+or fluorescence. This simple setup allows researchers to 
+control and read the quantum properties of atoms with high 
+accuracy while keeping the device small.
+
+Inside the cell, the alkali atoms move fast due to thermal 
+energy and constantly collide with the walls. To keep the 
+quantum spin state alive longer (extending the coherence time 
+$T_2$ beyond the microsecond limit caused by these 
+collisions), two main methods are used \cite{brown2025}. 
+
+The first method fills the cell with an inert buffer gas 
+mixture, such as nitrogen, helium, or neon. This gas slows 
+down the movement of the atoms toward the walls without 
+destroying their spin state. This approach keeps the quantum 
+state stable for tens of milliseconds in centimeter-sized 
+cells. 
+
+The second method coats the inner walls of the cell with 
+special materials like paraffin or alkene-based substances. 
+These coatings allow the atoms to bounce off the walls 
+thousands of times without losing their spin state, pushing 
+$T_2$ close to one second. 
+
+The choice between these methods depends on the application, 
+with vapor cells offering the best balance of size, weight, 
+and power (SWaP) for magnetometers and basic atomic clocks.
+
+% ------------------------------------------------------------
+\subsection{Measurement Principle}
+\label{sec:measurement_principle}
+
+All atomic sensors are fundamentally based on measuring the 
+energy difference between discrete atomic states \cite{kitching2011}. 
+When an atom interacts with an external field, its energy levels 
+shift. This shift can be precisely measured to find the exact 
+strength of the field. The measurement cycle follows three main 
+steps:
+
+\begin{enumerate}
+  \item \textbf{State preparation.}
+        The atoms are put into a well-defined quantum state 
+        using optical pumping. In this process, circularly 
+        polarized laser light transfers angular momentum to 
+        the atoms, lining up their spins along the laser 
+        beam axis. This establishes the initial baseline vector 
+        on the Bloch sphere before the system is exposed to 
+        external perturbations.
+
+  \item \textbf{State evolution.}
+        The prepared state changes over time under the total 
+        energy of the system, described by the Hamiltonian 
+        $\hat{H} = \hat{H}_0 + \hat{H_\text{int}}$. Here, 
+        $\hat{H_\text{int}}$ represents the interaction with 
+        the external field being measured \cite{brown2025}. 
+        The quantum state builds up a phase shift:
+        \begin{equation}
+          \phi_\text{int} = \frac{1}{\hbar}\int H_\text{int}\,\mathrm{d}t 
+                          = \frac{\mu F}{\hbar}\,T,
+          \label{eq:phase}
+        \end{equation}
+        where $\mu$ is the coupling parameter, $F$ is the 
+        field strength, and $T$ is the interaction time. 
+        
+        As cited in the literature, for an atomic magnetometer, 
+        $F$ corresponds to the external magnetic field $B$ 
+        and $\mu$ is the magnetic moment of the atom. 
+        Conversely, in the case of inertial sensors, $F$ 
+        represents the physical rotation rate $\Omega$ and $\mu$ 
+        is the angular momentum of the atom.
+
+  \item \textbf{Readout.}
+        The final state is checked optically by measuring the 
+        transmission, fluorescence, or polarization change 
+        of a probe laser beam, which reveals $\phi_\text{int}$ 
+        and $F$.
+\end{enumerate}
+
+% ------------------------------------------------------------
+\subsection{Advantages of Atomic Sensors}
+\label{sec:advantages}
+
+Atoms are ideal for sensing because they meet four key 
+requirements: they are identical, isolatable, interfaceable, 
+and understandable \cite{brown2025}. First, all atoms of a 
+specific isotope are perfectly identical. This means a 
+well-designed sensor does not suffer from manufacturing 
+variations in its sensing element. 
+
+Second, atomic energy levels and their reactions to external 
+fields are very well known, allowing engineers to control 
+and minimize systematic errors. For example, the core clock 
+transition of cesium is independent of magnetic fields to 
+first order, and warm gases in glass cells are largely 
+unaffected by energy shifts from wall collisions. 
+
+Third, atoms are easy to interface with, as their strong 
+interaction with resonant photons allows users to control and 
+read their states using compact diode lasers and detectors. 
+
+Finally, atomic interactions with light and fields are 
+understandable because they can be calculated from first 
+principles with high accuracy, allowing realistic simulations 
+without relying on guesswork.
+
+% ------------------------------------------------------------
+\subsection{Choice of Atomic Species}
+\label{sec:species}
+
+The vast majority of practical atomic sensors use heavy alkali 
+atoms, specifically rubidium (Rb) and cesium (Cs) \cite{brown2025}. 
+Their simple, hydrogen-like electron structure is well documented, 
+providing exact data on transition frequencies and collision 
+behaviors \cite{foot2005}. Narrow-linewidth diode lasers are 
+readily available for the primary optical transitions of both 
+elements, which greatly simplifies the optical setup.
+
+Both elements create a stable vapor at low pressure and 
+moderate temperatures between 80 and 130 degrees Celsius, 
+allowing the use of sealed glass cells without complex vacuum 
+pumps. Additionally, their ground-state hyperfine splittings 
+can be directly measured using standard, high-performance 
+microwave electronics. 
+
+For the most demanding applications, like advanced optical 
+clocks and high-precision inertial sensors, alkaline-earth 
+atoms like strontium or calcium are preferred. Their narrow 
+optical transitions offer extremely high quality factors, 
+though they require more complex laser systems.
+
+% ------------------------------------------------------------
+\subsection{Quantum Noise and the Standard Quantum Limit}
+\label{sec:sql}
+
+The fundamental noise floor of any atomic sensor comes from 
+quantum projection noise \cite{kitching2011,brown2025}. Each 
+measurement forces an atom into a specific energy state based 
+on quantum probabilities, introducing unavoidable randomness 
+between measurements. For $N$ independent atoms with a 
+coherence time $T_2$, the noise floor follows the Standard 
+Quantum Limit:
+\begin{equation}
+  \delta S \;\approx\; \frac{\partial S}{\partial E}\;
+                        \frac{\hbar}{\sqrt{N\,T_2}}
+  \qquad \left[\frac{[\text{units of }S]}{\sqrt{\text{Hz}}}\right],
+  \label{eq:sql}
+\end{equation}
+where $\partial S/\partial E$ shows how much the measured 
+signal $S$ changes with an energy shift. This equation 
+highlights the main design trade-off: using more atoms ($N$) 
+or achieving a longer coherence time ($T_2$) lowers the 
+noise floor.
+
+For short measurement times ($T \ll T_2$), the smallest 
+detectable field depends on the phase resolution of the 
+readout system and the coupling strength $\mu$ between the 
+field and the atom:
+\begin{equation}
+  \delta F_\text{min} = \frac{\hbar\,\delta\varphi}{\mu\,T}.
+\end{equation}
+When the measurement runs longer than the coherence time 
+($T > T_2$), the sensitivity is calculated by adding up 
+multiple independent measurements of length $T_2$. This yields 
+a minimum detectable field that improves with the total 
+averaging time $\tau$:
+\begin{equation}
+  \delta F_\text{min} = \frac{\hbar}{\mu\,\sqrt{N\,T_2\,\tau}}.
+\end{equation}
+In practice, technical noise sources—like laser intensity 
+shifts, frequency drift, or imperfect magnetic shielding—usually 
+dominate over quantum noise in real-world devices. Minimizing 
+these everyday noise sources remains the primary engineering 
+task.
+
+% ------------------------------------------------------------
+\subsection{Types of Atomic Sensors and Achievable Sensitivities}
+\label{sec:sensor_types}
+
+Table~\ref{tab:sensor_types} summarizes the main types of 
+atomic sensors, how they work, and their expected 
+quantum-noise-limited sensitivities for centimeter-sized 
+devices \cite{kitching2011,brown2025}.
+
+\begin{table}[htbp]
+  \centering
+  \caption{Key atomic sensor categories, measured quantities, 
+           and quantum-projection-noise-limited sensitivities 
+           for cm-scale setups.
+           LPAI: light-pulse atom interferometer;
+           OPM: optically pumped magnetometer.
+           Adapted from~\protect\cite{kitching2011,brown2025}.}
+  \label{tab:sensor_types}
+  \renewcommand{\arraystretch}{1.25}
+  \small
+  \begin{tabular}{@{}llll@{}}
+    \toprule
+    \textbf{Sensor type}
+      & \textbf{Quantity}
+      & \textbf{Core Mechanism}
+      & \textbf{QPN sensitivity} \\
+    \midrule
+    Atomic Clocks 
+      & Frequency
+      & Hyperfine/Electronic transitions
+      & $\sim10^{-13}$ to $10^{-17}\,\text{Hz}^{-1/2}$ \\
+    OPM (SERF)
+      & Magnetic field $B$
+      & Zeeman Larmor precession
+      & $\sim10\,\text{aT}/\sqrt{\text{Hz}} $ \\
+    Inertial (LPAI)
+      & Accel. $a$ / Rot. $\Omega$
+      & Matter-wave interference
+      & $\sim4\,\text{ng} \ / \ 3\times10^{-4}\,{^\circ}/\!\sqrt{\text{h}}$ \\
+    Rydberg Sensor
+      & Electric field $E$
+      & Atomic Stark shift ($n\sim50$)
+      & $\sim15\,\text{pV\,cm}^{-1}/\sqrt{\text{Hz}}$ \\
+    \bottomrule
+  \end{tabular}
+\end{table}
+
+Among these technologies, optically pumped magnetometers (OPMs) 
+are the most mature vapor-cell sensors \cite{kitching2011}. 
+These devices track how atomic spins rotate in an external 
+magnetic field after being lined up. Circularly polarized laser 
+light aligns the atomic spins, and their natural rotation 
+(Larmor precession) is driven and measured using optical 
+techniques. 
+
+OPMs operating in the spin-exchange relaxation-free (SERF) 
+regime stop the line-broadening usually caused by collisions 
+between atoms, allowing them to reach incredible sensitivities 
+below $1\,\text{fT}/\sqrt{\text{Hz}}$. This matches the 
+performance of superconducting SQUID magnetometers but completely 
+avoids the need for expensive cryogenic cooling.
+
+Electric fields can also be measured with very high sensitivity 
+in atomic gases by using Rydberg atoms. Rydberg states occur 
+when an electron is excited to a very high energy level. This 
+gives the atom a huge electric dipole moment, making it highly 
+sensitive to energy shifts via the Stark effect when an electric 
+field is present. 
+
+Using multiple lasers to create quantum paths between the 
+ground state and these high Rydberg states allows researchers 
+to read out field variations as visible changes in light 
+transmission through room-temperature gases \cite{brown2025}. 
+By measuring these shifts with microwave or laser tools, 
+electric field sensitivities of $10\,\mu\text{V}/\text{cm}$ or 
+better are standard.
+
+In contrast to small vapor cells, light-pulse atom 
+interferometers offer the highest performance for measuring 
+acceleration and rotation. However, they require laser-cooled 
+atoms and complex high-vacuum chambers, which significantly 
+increases their size, weight, and power demands. 
+
+Today, field work in magnetometry and electrometry relies 
+heavily on compact vapor cells, while the highest-performing 
+gravimeters, gyroscopes, and clocks use ultra-cold atoms. 
+Laser-written vapor cells, the focus of this thesis, offer a clear 
+path to building miniature, mass-producible sensors that keep the 
+core performance advantages of quantum technology.
+
+\section{Laser-Written Vapor Cells}
+explicar lwvcs + conectar en PICs
