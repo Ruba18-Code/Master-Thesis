@@ -19,6 +19,45 @@
 
 \refsection{0}
   \datalist[entry]{none/global//global/global}
+    \entry{brown2025}{misc}{}
+      \name{author}{2}{}{%
+        {{hash=edd5384694fc82b84a911730c964dd7d}{%
+           family={Brown},
+           familyi={B\bibinitperiod},
+           given={Justin\bibnamedelima M.},
+           giveni={J\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+        {{hash=05d3daec28db0351f19b9ea65448db53}{%
+           family={Walker},
+           familyi={W\bibinitperiod},
+           given={Thad\bibnamedelima G.},
+           giveni={T\bibinitperiod\bibinitdelim G\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {arXiv}%
+      }
+      \strng{namehash}{6228cdd04d00464e168deaf417ec13f3}
+      \strng{fullhash}{6228cdd04d00464e168deaf417ec13f3}
+      \strng{bibnamehash}{6228cdd04d00464e168deaf417ec13f3}
+      \strng{authorbibnamehash}{6228cdd04d00464e168deaf417ec13f3}
+      \strng{authornamehash}{6228cdd04d00464e168deaf417ec13f3}
+      \strng{authorfullhash}{6228cdd04d00464e168deaf417ec13f3}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Perspective: Practical Atom-Based Quantum Sensors}
+      \field{year}{2025}
+      \verb{doi}
+      \verb 10.48550/ARXIV.2507.13111
+      \endverb
+      \verb{urlraw}
+      \verb https://arxiv.org/abs/2507.13111
+      \endverb
+      \verb{url}
+      \verb https://arxiv.org/abs/2507.13111
+      \endverb
+      \keyw{Quantum Physics (quant-ph),Atomic Physics (physics.atom-ph),FOS: Physical sciences,FOS: Physical sciences}
+    \endentry
     \entry{herondoor}{misc}{}
       \name{author}{1}{}{%
         {{hash=88183b946cc5f0e8c96b2e66e1c74a7e}{%
@@ -239,8 +278,8 @@
       \strng{authorbibnamehash}{65f9a48de193adf69f92410b00d8366a}
       \strng{authornamehash}{65f9a48de193adf69f92410b00d8366a}
       \strng{authorfullhash}{65f9a48de193adf69f92410b00d8366a}
-      \field{sortinit}{3}
-      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{IEEE Transactions on Electron Devices}
@@ -270,6 +309,35 @@
       \endverb
       \verb{url}
       \verb http://dx.doi.org/10.1201/9781420036572
+      \endverb
+    \endentry
+    \entry{petersen1982}{article}{}
+      \name{author}{1}{}{%
+        {{hash=4ad5e664ef9e38f1a0e36c84c3210fad}{%
+           family={Petersen},
+           familyi={P\bibinitperiod},
+           given={K.E.},
+           giveni={K\bibinitperiod}}}%
+      }
+      \strng{namehash}{4ad5e664ef9e38f1a0e36c84c3210fad}
+      \strng{fullhash}{4ad5e664ef9e38f1a0e36c84c3210fad}
+      \strng{bibnamehash}{4ad5e664ef9e38f1a0e36c84c3210fad}
+      \strng{authorbibnamehash}{4ad5e664ef9e38f1a0e36c84c3210fad}
+      \strng{authornamehash}{4ad5e664ef9e38f1a0e36c84c3210fad}
+      \strng{authorfullhash}{4ad5e664ef9e38f1a0e36c84c3210fad}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Proceedings of the IEEE}
+      \field{number}{5}
+      \field{title}{Silicon as a mechanical material}
+      \field{volume}{70}
+      \field{year}{1982}
+      \field{pages}{420\bibrangedash 457}
+      \range{pages}{38}
+      \verb{doi}
+      \verb 10.1109/PROC.1982.12331
       \endverb
     \endentry
     \entry{birkholz2013}{article}{}
@@ -418,45 +486,6 @@
       \verb 10.1109/JSEN.2011.2157679
       \endverb
     \endentry
-    \entry{brown2025}{misc}{}
-      \name{author}{2}{}{%
-        {{hash=edd5384694fc82b84a911730c964dd7d}{%
-           family={Brown},
-           familyi={B\bibinitperiod},
-           given={Justin\bibnamedelima M.},
-           giveni={J\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
-        {{hash=05d3daec28db0351f19b9ea65448db53}{%
-           family={Walker},
-           familyi={W\bibinitperiod},
-           given={Thad\bibnamedelima G.},
-           giveni={T\bibinitperiod\bibinitdelim G\bibinitperiod}}}%
-      }
-      \list{publisher}{1}{%
-        {arXiv}%
-      }
-      \strng{namehash}{6228cdd04d00464e168deaf417ec13f3}
-      \strng{fullhash}{6228cdd04d00464e168deaf417ec13f3}
-      \strng{bibnamehash}{6228cdd04d00464e168deaf417ec13f3}
-      \strng{authorbibnamehash}{6228cdd04d00464e168deaf417ec13f3}
-      \strng{authornamehash}{6228cdd04d00464e168deaf417ec13f3}
-      \strng{authorfullhash}{6228cdd04d00464e168deaf417ec13f3}
-      \field{sortinit}{4}
-      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{title}{Perspective: Practical Atom-Based Quantum Sensors}
-      \field{year}{2025}
-      \verb{doi}
-      \verb 10.48550/ARXIV.2507.13111
-      \endverb
-      \verb{urlraw}
-      \verb https://arxiv.org/abs/2507.13111
-      \endverb
-      \verb{url}
-      \verb https://arxiv.org/abs/2507.13111
-      \endverb
-      \keyw{Quantum Physics (quant-ph),Atomic Physics (physics.atom-ph),FOS: Physical sciences,FOS: Physical sciences}
-    \endentry
     \entry{lucivero2022}{article}{}
       \name{author}{5}{}{%
         {{hash=34d7b66882b9a26e123465c0781c48e8}{%
@@ -494,8 +523,8 @@
       \strng{authorbibnamehash}{b4b3becf5d4ea4420d95d1e1c04c9aaf}
       \strng{authornamehash}{b4b3becf5d4ea4420d95d1e1c04c9aaf}
       \strng{authorfullhash}{9cecf402a467bd351b81f07e53721c3b}
-      \field{sortinit}{6}
-      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
+      \field{sortinit}{5}
+      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{issn}{1094-4087}
@@ -514,6 +543,82 @@
       \endverb
       \verb{url}
       \verb http://dx.doi.org/10.1364/OE.469296
+      \endverb
+    \endentry
+    \entry{foot2005}{book}{}
+      \name{author}{1}{}{%
+        {{hash=2587b6412a9a4d977c9eaf24b2b03cd7}{%
+           family={Foot},
+           familyi={F\bibinitperiod},
+           given={Christopher\bibnamedelima J.},
+           giveni={C\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Oxford}%
+      }
+      \list{publisher}{1}{%
+        {Oxford University Press}%
+      }
+      \strng{namehash}{2587b6412a9a4d977c9eaf24b2b03cd7}
+      \strng{fullhash}{2587b6412a9a4d977c9eaf24b2b03cd7}
+      \strng{bibnamehash}{2587b6412a9a4d977c9eaf24b2b03cd7}
+      \strng{authorbibnamehash}{2587b6412a9a4d977c9eaf24b2b03cd7}
+      \strng{authornamehash}{2587b6412a9a4d977c9eaf24b2b03cd7}
+      \strng{authorfullhash}{2587b6412a9a4d977c9eaf24b2b03cd7}
+      \field{sortinit}{5}
+      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{isbn}{978-0198506164}
+      \field{title}{Atomic Physics}
+      \field{year}{2005}
+    \endentry
+    \entry{ginges2017}{article}{}
+      \name{author}{3}{}{%
+        {{hash=13afdc7acbd8cc1ea25ac4079765519c}{%
+           family={Ginges},
+           familyi={G\bibinitperiod},
+           given={J.\bibnamedelimi S.\bibnamedelimi M.},
+           giveni={J\bibinitperiod\bibinitdelim S\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+        {{hash=61267ce43c410bd55091262fce3d2bcf}{%
+           family={Volotka},
+           familyi={V\bibinitperiod},
+           given={A.\bibnamedelimi V.},
+           giveni={A\bibinitperiod\bibinitdelim V\bibinitperiod}}}%
+        {{hash=89d63f0c2f6ed7d1050f339b46f72dc0}{%
+           family={Fritzsche},
+           familyi={F\bibinitperiod},
+           given={S.},
+           giveni={S\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {American Physical Society (APS)}%
+      }
+      \strng{namehash}{2758b3d9218d6ce174a6e241b4ab4ffe}
+      \strng{fullhash}{2758b3d9218d6ce174a6e241b4ab4ffe}
+      \strng{bibnamehash}{2758b3d9218d6ce174a6e241b4ab4ffe}
+      \strng{authorbibnamehash}{2758b3d9218d6ce174a6e241b4ab4ffe}
+      \strng{authornamehash}{2758b3d9218d6ce174a6e241b4ab4ffe}
+      \strng{authorfullhash}{2758b3d9218d6ce174a6e241b4ab4ffe}
+      \field{sortinit}{6}
+      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{2469-9934}
+      \field{journaltitle}{Physical Review A}
+      \field{month}{12}
+      \field{number}{6}
+      \field{title}{Ground-state hyperfine splitting for Rb, Cs, Fr}
+      \field{volume}{96}
+      \field{year}{2017}
+      \verb{doi}
+      \verb 10.1103/physreva.96.062502
+      \endverb
+      \verb{urlraw}
+      \verb http://dx.doi.org/10.1103/PhysRevA.96.062502
+      \endverb
+      \verb{url}
+      \verb http://dx.doi.org/10.1103/PhysRevA.96.062502
       \endverb
     \endentry
     \entry{cutler2020}{article}{}
@@ -595,8 +700,8 @@
       \strng{authorbibnamehash}{51ccb53576714f9e2c9bdd7ad4d061d3}
       \strng{authornamehash}{51ccb53576714f9e2c9bdd7ad4d061d3}
       \strng{authorfullhash}{51ccb53576714f9e2c9bdd7ad4d061d3}
-      \field{sortinit}{7}
-      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
+      \field{sortinit}{8}
+      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{howpublished}{RP Photonics Encyclopedia}
@@ -850,8 +955,8 @@
       \strng{authornamehash}{26b46b52c245f8ff92d073bd08ae123d}
       \strng{authorfullhash}{3e7b8dc9c2510bc5c7260d55c3c2927c}
       \field{extraname}{1}
-      \field{sortinit}{8}
-      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
+      \field{sortinit}{9}
+      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{issn}{2468-5194}
@@ -899,8 +1004,8 @@
       \strng{authorbibnamehash}{e09a84e63802acecf7737d22ab8ca5c1}
       \strng{authornamehash}{e09a84e63802acecf7737d22ab8ca5c1}
       \strng{authorfullhash}{e09a84e63802acecf7737d22ab8ca5c1}
-      \field{sortinit}{8}
-      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
+      \field{sortinit}{9}
+      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{issn}{1558-2256}
@@ -945,8 +1050,8 @@
       \strng{authorbibnamehash}{4103a6f4add00fde056bdba86947873b}
       \strng{authornamehash}{4103a6f4add00fde056bdba86947873b}
       \strng{authorfullhash}{4103a6f4add00fde056bdba86947873b}
-      \field{sortinit}{8}
-      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
+      \field{sortinit}{9}
+      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{issn}{1749-4893}
@@ -1062,8 +1167,8 @@
       \strng{authorbibnamehash}{3efa52e1a6b1fe4739655ddb2300d02c}
       \strng{authornamehash}{3efa52e1a6b1fe4739655ddb2300d02c}
       \strng{authorfullhash}{3efa52e1a6b1fe4739655ddb2300d02c}
-      \field{sortinit}{9}
-      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{issn}{1432-0630}
@@ -1113,8 +1218,8 @@
       \strng{authorbibnamehash}{066cbd1ff829ca12fd9009f268eecd3c}
       \strng{authornamehash}{066cbd1ff829ca12fd9009f268eecd3c}
       \strng{authorfullhash}{a896691cf2be5b23ce116dcd401d34f1}
-      \field{sortinit}{9}
-      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Laser {and} Photonics Reviews}
@@ -1175,8 +1280,8 @@
       \strng{authorbibnamehash}{19f2bf8820a2698b9d3d2b7fad190d77}
       \strng{authornamehash}{19f2bf8820a2698b9d3d2b7fad190d77}
       \strng{authorfullhash}{227811dca02609c84caf4af7fe8baedd}
-      \field{sortinit}{9}
-      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{issn}{1079-7114}
@@ -3683,8 +3788,8 @@
       \strng{authorbibnamehash}{752c7b8d6237f55f526926e654ce5e2e}
       \strng{authornamehash}{752c7b8d6237f55f526926e654ce5e2e}
       \strng{authorfullhash}{7735af30fcd42b1233c92a5fd81219b3}
-      \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{issn}{1558-254X}
@@ -5088,7 +5193,7 @@
   \enddatalist
   \missing{comsol_ref}
   \missing{javaid2021}
-  \missing{petersen1982}
+  \missing{zanoni2024}
 \endrefsection
 \endinput
 

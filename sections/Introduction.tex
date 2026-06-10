@@ -155,7 +155,6 @@ sensitive photodetectors to reach fundamental quantum limits.
   \label{fig:basicvaporcell}
 \end{figure}
 
-% ------------------------------------------------------------
 \subsection{Vapor Cell Implementation}
 \label{sec:vapor_cell}
 
@@ -177,21 +176,51 @@ collisions), two main methods are used \cite{brown2025}.
 The first method fills the cell with an inert buffer gas 
 mixture, such as nitrogen, helium, or neon. This gas slows 
 down the movement of the atoms toward the walls without 
-destroying their spin state. This approach keeps the quantum 
-state stable for tens of milliseconds in centimeter-sized 
-cells. 
+destroying their spin state. Under this regime, the 
+contribution of wall collisions to the spin relaxation rate 
+in the dark ($\Gamma_\text{wd}$) for the fundamental 
+diffusion mode of a cylindrical cell structure is governed by 
+the cell geometry and gas dynamics \cite{lucivero2022}:
+\begin{equation}
+  \Gamma_\text{wd} = \left[ \left(\frac{\pi}{l}\right)^2 
+                     + \left(\frac{2.405}{r}\right)^2 \right] 
+                     \frac{D_0}{\eta}\sqrt{\frac{T}{273.15}},
+  \label{eq:wall_relaxation}
+\end{equation}
+where $l$ represents the cell interaction length, $r$ is the 
+internal radius, $D_0$ is the specific diffusion constant at 
+standard reference conditions (273~K and 760~Torr), and 
+$\eta$ denotes the buffer gas number density in units of 
+amagat \cite{lucivero2022}. 
+
+While increasing the buffer gas density $\eta$ reduces 
+diffusion-driven wall losses, it introduces an important 
+physical trade-off: colisional interactions between the 
+alkali atoms and the gas molecules cause pressure 
+broadening ($\Delta\nu_\text{pb}$) of the optical transitions. 
+This broadening scales linearly with the gas density:
+\begin{equation}
+  \Delta\nu_\text{pb} = \gamma_\text{pb} \, \eta,
+  \label{eq:pressure_broadening}
+\end{equation}
+where $\gamma_\text{pb} $ is the specific pressure broadening 
+coefficient of the chosen gas mixture \cite{lucivero2022}. 
+This broadening blends the hyperfine states and limits the 
+optical pumping efficiency, establishing an optimal gas 
+pressure that balances spin coherence time and spectral 
+resolution.
 
 The second method coats the inner walls of the cell with 
 special materials like paraffin or alkene-based substances. 
 These coatings allow the atoms to bounce off the walls 
-thousands of times without losing their spin state, pushing 
-$T_2$ close to one second. 
+thousands of times without losing their spin state, effectively 
+minimizing $\Gamma_\text{wd}$ and pushing $T_2$ close to 
+one second.
 
 The choice between these methods depends on the application, 
 with vapor cells offering the best balance of size, weight, 
 and power (SWaP) for magnetometers and basic atomic clocks.
 
-% ------------------------------------------------------------
 \subsection{Measurement Principle}
 \label{sec:measurement_principle}
 
@@ -241,7 +270,6 @@ steps:
         and $F$.
 \end{enumerate}
 
-% ------------------------------------------------------------
 \subsection{Advantages of Atomic Sensors}
 \label{sec:advantages}
 
@@ -268,32 +296,35 @@ understandable because they can be calculated from first
 principles with high accuracy, allowing realistic simulations 
 without relying on guesswork.
 
-% ------------------------------------------------------------
 \subsection{Choice of Atomic Species}
 \label{sec:species}
 
 The vast majority of practical atomic sensors use heavy alkali 
-atoms, specifically rubidium (Rb) and cesium (Cs) \cite{brown2025}. 
-Their simple, hydrogen-like electron structure is well documented, 
-providing exact data on transition frequencies and collision 
-behaviors \cite{foot2005}. Narrow-linewidth diode lasers are 
-readily available for the primary optical transitions of both 
-elements, which greatly simplifies the optical setup.
+atoms, specifically $^{87}\text{Rb}$ and $^{133}\text{Cs}$ \cite{brown2025}. 
+Their simple, 
+hydrogen-like electron structure is well documented, providing 
+exact data on transition frequencies and collision behaviors 
+\cite{foot2005}. Narrow-linewidth diode lasers are readily 
+available for the primary optical $D_1$ and $D_2$ transitions 
+of both elements, which greatly simplifies the optical setup.
 
 Both elements create a stable vapor at low pressure and 
-moderate temperatures between 80 and 130 degrees Celsius, 
+moderate temperatures between 80 and 130~$^\circ\text{C}$, 
 allowing the use of sealed glass cells without complex vacuum 
 pumps. Additionally, their ground-state hyperfine splittings 
-can be directly measured using standard, high-performance 
-microwave electronics. 
+can be directly driven and measured using standard, high-performance 
+microwave electronics \cite{brown2025}. Specifically, 
+the clock transition of $^{133}\text{Cs}$ at 
+$9.192631770~\text{GHz}$ defines the international second, while 
+$^{87}\text{Rb}$ exhibits a ground-state splitting of 
+$6.834682610~\text{GHz}$ \cite{ginges2017}. 
 
-For the most demanding applications, like advanced optical 
-clocks and high-precision inertial sensors, alkaline-earth 
-atoms like strontium or calcium are preferred. Their narrow 
-optical transitions offer extremely high quality factors, 
-though they require more complex laser systems.
-
-% ------------------------------------------------------------
+In magnetometry applications, the linear Zeeman shift and the 
+resulting Larmor precession are determined by the precise, 
+dimensionless ground-state hyperfine Landé $g_F$-factors. 
+These fundamental constants dictate the predictable scaling between 
+the measured atomic frequency shifts and the external magnetic 
+field strength.
 \subsection{Quantum Noise and the Standard Quantum Limit}
 \label{sec:sql}
 
@@ -336,8 +367,6 @@ shifts, frequency drift, or imperfect magnetic shielding—usually
 dominate over quantum noise in real-world devices. Minimizing 
 these everyday noise sources remains the primary engineering 
 task.
-
-% ------------------------------------------------------------
 \subsection{Types of Atomic Sensors and Achievable Sensitivities}
 \label{sec:sensor_types}
 
@@ -345,15 +374,14 @@ Table~\ref{tab:sensor_types} summarizes the main types of
 atomic sensors, how they work, and their expected 
 quantum-noise-limited sensitivities for centimeter-sized 
 devices \cite{kitching2011,brown2025}.
-
 \begin{table}[htbp]
   \centering
   \caption{Key atomic sensor categories, measured quantities, 
            and quantum-projection-noise-limited sensitivities 
            for cm-scale setups.
-           LPAI: light-pulse atom interferometer;
-           OPM: optically pumped magnetometer.
-           Adapted from~\protect\cite{kitching2011,brown2025}.}
+           \gls{LPAI}: light-pulse atom interferometer;
+           \gls{OPM}: optically pumped magnetometer.
+           Adapted from~\protect\cite{brown2025}.}
   \label{tab:sensor_types}
   \renewcommand{\arraystretch}{1.25}
   \small
@@ -375,7 +403,7 @@ devices \cite{kitching2011,brown2025}.
     Inertial (LPAI)
       & Accel. $a$ / Rot. $\Omega$
       & Matter-wave interference
-      & $\sim4\,\text{ng} \ / \ 3\times10^{-4}\,{^\circ}/\!\sqrt{\text{h}}$ \\
+      & $\sim4\,\text{ng}/\sqrt{\text{h}}$ \\
     Rydberg Sensor
       & Electric field $E$
       & Atomic Stark shift ($n\sim50$)
@@ -383,36 +411,36 @@ devices \cite{kitching2011,brown2025}.
     \bottomrule
   \end{tabular}
 \end{table}
-
 Among these technologies, optically pumped magnetometers (OPMs) 
 are the most mature vapor-cell sensors \cite{kitching2011}. 
 These devices track how atomic spins rotate in an external 
 magnetic field after being lined up. Circularly polarized laser 
 light aligns the atomic spins, and their natural rotation 
 (Larmor precession) is driven and measured using optical 
-techniques. 
-
-OPMs operating in the spin-exchange relaxation-free (SERF) 
+techniques. OPMs operating in the spin-exchange relaxation-free (SERF) 
 regime stop the line-broadening usually caused by collisions 
 between atoms, allowing them to reach incredible sensitivities 
 below $1\,\text{fT}/\sqrt{\text{Hz}}$. This matches the 
 performance of superconducting SQUID magnetometers but completely 
-avoids the need for expensive cryogenic cooling.
+avoids the need for expensive cryogenic cooling. 
+This technique is explained further in section~\ref{sec:opm}.
 
 Electric fields can also be measured with very high sensitivity 
 in atomic gases by using Rydberg atoms. Rydberg states occur 
-when an electron is excited to a very high energy level. This 
-gives the atom a huge electric dipole moment, making it highly 
-sensitive to energy shifts via the Stark effect when an electric 
-field is present. 
-
-Using multiple lasers to create quantum paths between the 
-ground state and these high Rydberg states allows researchers 
-to read out field variations as visible changes in light 
-transmission through room-temperature gases \cite{brown2025}. 
-By measuring these shifts with microwave or laser tools, 
-electric field sensitivities of $10\,\mu\text{V}/\text{cm}$ or 
-better are standard.
+when an electron is excited to a very high principal quantum number, 
+yielding a giant electric dipole moment that renders the atom highly 
+sensitive to energy shifts via the Stark effect. To interrogate these 
+systems, a multi-laser excitation scheme is employed to establish a coherent 
+superposition of quantum pathways between the ground state and the 
+Rydberg levels \cite{brown2025}. This configuration gives rise to 
+Electromagnetically Induced Transparency (EIT), where destructive quantum 
+interference prevents probe photon absorption, rendering the otherwise 
+opaque atomic vapor transparent. Any external electric field perturbation 
+shifts the Rydberg states, disrupting this coherence and mapping the field 
+variations directly onto macroscopic changes in light transmission through 
+the room-temperature gas cell. By measuring these shifts with microwave 
+or laser spectroscopic tools, electric field sensitivities on the order 
+of $10~\mu\text{V}\,\text{cm}^{-1}$ or better are achieved.
 
 In contrast to small vapor cells, light-pulse atom 
 interferometers offer the highest performance for measuring 
@@ -426,6 +454,133 @@ gravimeters, gyroscopes, and clocks use ultra-cold atoms.
 Laser-written vapor cells, the focus of this thesis, offer a clear 
 path to building miniature, mass-producible sensors that keep the 
 core performance advantages of quantum technology.
+\section{Laser-Written Vapor Cells (LWVCs)}
+\label{sec:lwvcs}
 
-\section{Laser-Written Vapor Cells}
-explicar lwvcs + conectar en PICs
+Laser-Written Vapor Cells (LWVCs) represent a highly disruptive technology for making chip-scale 
+atomic devices used in precision spectroscopy and integrated quantum sensors. Originally described 
+by Lucivero et al. \cite{lucivero2022,qsensato_web}, one of the founders of the Italian company 
+QSENSATO Srl, this technology is patented by the company and overcomes the design and manufacturing 
+limits of traditional silicon microelectromechanical systems (MEMS) vapor cells. Specifically, 
+LWVCs allow the maskless fabrication of arbitrary three-dimensional (3D) internal volumes directly 
+within commercial glass substrates.
+
+\subsection{Fabrication Principle}
+\label{sec:lwvc_fabrication}
+The operating principle and fabrication of these devices are based on the Femtosecond Laser Irradiation 
+followed by Chemical Etching (FLICE) technique (detailed in Section~\ref{sec:flice}), implemented on a 
+monolithic fused-silica host \cite{zanoni2024}. The process takes place in two sequential steps. 
+First, a tightly focused femtosecond laser beam locally alters the molecular structure of the glass 
+at the microscopic scale. This step makes the irradiated areas more susceptible to chemical etching 
+by forming self-oriented nanogratings. Afterward, the substrate is immersed in a hydrofluoric acid (HF) 
+solution, which selectively removes the modified material to carve out optical sensing channels, 
+micro-strainer conduits, and reservoir chambers with micrometer-scale tolerances \cite{zanoni2024}.
+
+The confinement and precise dosing of the active alkali metal, typically rubidium ($^{87}$\text{Rb}) 
+or cesium ($^{133}$\text{Cs}), are achieved by placing non-evaporable getters (NEGs) into the cell reservoir. 
+The reservoir is then sealed using optical contact bonding (see Section~\ref{sec:optical_contact_bonding} for 
+a complete overview of the bonding process). The NEG material serves a dual purpose: when activated locally 
+by a laser after sealing, it releases pure atomic vapor and simultaneously acts as a passive getter pump 
+to control the nitrogen (\ce{N2}) buffer gas pressure. This completely eliminates the need for bulky external 
+vacuum systems. A recent study demonstrated pressure tuning with a resolution as low as \SI{1}{Torr} 
+using cesium dispensers \cite{dyer2023}, showing the versatility of this filling and activation process 
+across different target pressures.
+
+\subsection{Key Advantages over Competing Technologies}
+\label{sec:lwvc_advantages}
+
+The LWVC architecture offers a set of critical advantages for commercial quantum sensors that no single 
+competing technology can simultaneously provide.
+
+\textbf{Monolithic 3D Integration.} Unlike conventional semiconductor fabrication, which is strictly planar, 
+FLICE inscribes fully buried, arbitrarily shaped cavities in three dimensions within the same monolithic 
+substrate. This allows the direct co-integration of atomic sensing channels alongside laser-written optical 
+waveguides and photonic integrated circuits (PICs), eliminating the performance losses and alignment issues 
+associated with hybrid bonding methods.
+
+\textbf{Minimal Stand-off Distance.} The sensing micro-channels can be positioned less than \SI{1}{\milli\meter} 
+(and potentially just a few tens of micrometers) below the outer surface of the fused silica host. 
+This provides a clear structural advantage: because magnetic or electric fields from small sources 
+drop rapidly with distance, minimizing this separation is crucial for detecting signals from micro-scale 
+targets like single neurons, microfluidic NMR samples, or magnetic nanoparticles \cite{zanoni2024}.
+
+\textbf{Compatibility with Anti-Relaxation Coatings.} Because optical contact bonding does not require 
+the high temperatures typical of anodic bonding in MEMS systems, the inner walls of LWVCs are fully 
+compatible with organic anti-relaxation coatings, such as paraffin or alkene-based films. These coatings 
+allow alkali atoms to undergo thousands of wall collisions without depolarizing, which significantly 
+increases the transverse spin relaxation time.
+
+\textbf{Precise Buffer Gas Control Without External Equipment.} The use of NEG dispensers enables 
+post-sealing tuning of the internal \ce{N2} pressure without any external vacuum infrastructure. 
+By controlling the activation time or by pre-loading a specific amount of an ungetterable noble gas, 
+a wide range of target pressures can be achieved passively. This reduces system complexity for 
+field-deployable sensors.
+
+\textbf{Broad Optical Transparency and Material Inertness.} Fused silica is transparent across a 
+wide spectral range, from deep UV to mid-infrared, and is chemically inert to alkali-metal vapors. 
+This avoids the diffusion and wall-absorption issues that affect borosilicate glass and silicon 
+substrates, protecting both cell lifetime and spectral accuracy.
+
+\textbf{Wafer-Level Fabrication and Scalability.} A key advantage of the FLICE platform is its 
+scalability to wafer-level manufacturing. Since femtosecond laser writing is a software-controlled, 
+maskless process, multiple LWVC devices can be made sequentially or in parallel on a single, 
+large fused-silica wafer. All subsequent processing steps (HF etching, getter insertion, bonding, 
+and laser activation) are also compatible with wafer-scale batch processing, as is well-established 
+for FLICE technology \cite{corrielli2021}. As shown in Figure~\ref{fig:lwvc_wafer}, this approach 
+enables the simultaneous fabrication of tens to hundreds of identical devices per substrate, 
+dramatically reducing per-unit cost and opening a clear path toward mass production of chip-scale 
+quantum sensors.
+\begin{figure}[htbp]
+    \centering
+    \includegraphics[width=0.6\linewidth]{Images/lwvc_wafer.png}
+    \caption{%
+        Wafer-scale fabrication of Laser-Written Vapor Cells. Multiple LWVC
+        devices inscribed simultaneously in a single fused-silica substrate by
+        QSENSATO Srl, demonstrating the batch-production capability of the
+        FLICE platform. All subsequent etching, filling, and bonding steps can be 
+        performed at the wafer level. Image courtesy of QSENSATO Srl \cite{qsensato_web}.
+    }
+    \label{fig:lwvc_wafer}
+\end{figure}
+\subsection{State of the Art and Performance}
+\label{sec:lwvc_state}
+The state of the art shows that this technology is maturing rapidly. 
+Originally designed with millimeter-scale sensing channels (\SI{1}{\milli\meter} 
+$\times$ \SI{1}{\milli\meter} cross-section), 
+LWVCs have now successfully scaled down to the micro-scale. Recent devices 
+feature sub-millimeter sensing channels with a tightly confined cross-section (\SI{500}{\micro\meter} 
+$\times$ \SI{500}{\micro\meter}), optimized for optically pumped magnetometry through the addition of 
+\SI{0.75}{amg} of nitrogen buffer gas to suppress wall-collision relaxation and eliminate radiation 
+trapping. Operating in the zero-field resonance (ZFR) regime (Section~\ref{sec:opm}) 
+within a detection volume of only \SI{2.25}{\milli\meter\cubed}, these devices achieve a 
+magnetic sensitivity of approximately \SI{1}{\pico\tesla\per\sqrt{\hertz}} at \SI{10}{\hertz} \cite{zanoni2024}. 
+This performance puts the LWVCs at the forefront of compact, high-resolution 
+magnetometry, making them competitive with much larger vapor cells and close to the performance of 
+bulk optically pumped magnetometers.
+
+Looking forward, atomic-shot-noise calculations for the current sensing volume project a fundamental 
+sensitivity limit of $\approx$ \SI{18}{\femto\tesla\per\sqrt{\hertz}} at the optimal buffer gas density of \SI{7.1}{amg} 
+\cite{zanoni2024}, showing that the current \SI{1}{\pico\tesla\per\sqrt{\hertz}} performance is limited by technical 
+noise rather than fundamental atomic physics, meaning that substantial improvements are still possible as 
+the technology matures. Furthermore, the operating temperature of the current devices 
+(\SIrange{90}{100}{\celsius}) is compatible 
+with standard thermal isolation strategies for on-chip deployment \cite{zanoni2024}.
+
+Beyond precision magnetometry (explored in Section~\ref{sec:applications}), 
+this architecture opens new sensing applications, including microfluidic zero-to-ultralow-field NMR, 
+portable biomagnetic diagnostics, detection of magnetic nanoparticles and magnetotactic bacteria, 
+and Rydberg-atom electrometry.
+\medskip
+
+\noindent
+\textbf{Scope of this thesis.}
+This thesis aims to provide a comprehensive view of the development cycle of LWVCs at QSENSATO Srl. 
+The work is built upon a thorough review of the related literature regarding FLICE, optical contact bonding, 
+and relevant characterization methods, combined with dedicated in-house experiments. First, it establishes 
+the fabrication context by explaining the foundational principles of FLICE (Section~\ref{sec:flice}) and 
+focuses on investigating and optimizing the optical contact bonding sealing process (Section~\ref{sec:optical_contact_bonding}). 
+Second, it evaluates the key prerequisites for successful cell assembly through systematic characterization and quality 
+control. This phase includes measuring the roughness and surface parameters of the initial glass substrates to ensure their 
+compatibility with the optical contact bonding process, alongside structural hermeticity tests, bonding strength, and surface 
+energy measurements. Lastly, the work explores practical applications in precision magnetometry, detailing experimental 
+implementations of zero-field resonance (ZFR), precision spectroscopy, and optically pumped magnetometers (OPMs).
