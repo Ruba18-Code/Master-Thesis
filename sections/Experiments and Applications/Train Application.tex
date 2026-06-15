@@ -88,32 +88,32 @@ requirements. By eliminating the bulky cryogenic cooling systems inherent
 to conventional Superconducting Quantum Interference Devices (SQUIDs), these 
 miniaturized atomic sensors enable highly portable operations and scalable, 
 multi-channel array configurations.
-\subsection{Application Scenario: Railway Track Corrosion}
-\textbf{UNFINISHED. CHECK VALUES. CHECK MESHING.}
-A novel application of these devices is presented in this 
-section. The objective is to utilize an OPM integrated with 
-an LWVC sensor head to detect the onset and progression of 
-structural corrosion at the foot of railway tracks. 
 
-The present work employs a QuSpin Total-Field Magnetometer
-as the reference OPM sensor. This is a pulsed laser-pumped rubidium 
-free-induction-decay device operating on the principles described 
-above. Its key performance specifications are summarized in 
-Table~\ref{tab:quspin_specs}. Of particular relevance to the 
-present application is the scalar sensitivity of 
-$<3\,\mathrm{pT}/\sqrt{\mathrm{Hz}}$, the $500\,\mathrm{Hz}$ 
-measurement bandwidth at $1000\,\mathrm{samples/s}$, and the 
-dynamic range of $1$--$150\,\mathrm{\mu T}$, which covers 
-the total field environment encountered in unshielded railway 
-settings. The sensor head weighs only $12\,\mathrm{g}$ and 
-occupies $17.7 \times 19.8 \times 35.8\,\mathrm{mm}^3$, making 
-it compatible with compact, portable scanning assemblies 
-\cite{quspin}.
+\subsection{Application Scenario: Railway Track Corrosion}
+\label{sec:corrosion_scenario}
+
+Building upon these non-destructive capabilities, this section introduces a
+novel industrial application designed to leverage the extreme precision of
+atomic magnetometry. The primary objective is to deploy an OPM integrated
+with an LWVC sensor head to detect the onset and volumetric progression of
+structural corrosion at the foot of operational railway tracks. To establish
+a realistic baseline, the present work references a commercial QuSpin
+Total-Field Magnetometer as the benchmark sensor configuration. This device
+operates as a pulsed laser-pumped rubidium free-induction-decay
+magnetometer, with its core technical characteristics outlined in
+Table~\ref{tab:quspin_specs}. Of paramount importance to this real-world
+application are its scalar sensitivity of $<3\,\mathrm{pT}/\sqrt{\mathrm{Hz}}$
+and a dynamic range spanning from $1$ to $150\,\mathrm{\mu T}$, which
+effectively covers the ambient magnetic environments encountered in
+unshielded railway settings. Furthermore, the compact physical footprint of
+the sensor head ($12\,\mathrm{g}$, $17.7 \times 19.8 \times 35.8\,%
+\mathrm{mm}^3$) makes it highly compatible with portable, automated
+scanning assemblies \cite{quspin}.
 
 \begin{table}[h]
 \centering
-\caption{Key technical specifications of the QuSpin Zero-Field 
-    Magnetometer used as the reference OPM sensor in this work 
+\caption{Key technical specifications of the QuSpin Zero-Field
+    Magnetometer used as the reference OPM sensor in this work
     \cite{quspin}.}
 \label{tab:quspin_specs}
 \begin{tabular}{ll}
@@ -133,227 +133,341 @@ it compatible with compact, portable scanning assemblies
     Sensor head size & $17.7\times19.8\times35.8\,\mathrm{mm}$ \\
     Sensor head mass & $12\,\mathrm{g}$ \\
     Power consumption & $2.5\,\mathrm{W}$ ($3.5\,\mathrm{W}$ startup) \\
-    Output interface & UART (RS-232), USB \\
     \hline
     \end{tabular}
 \end{table}
 
-A standard railway track profile (Figure~\ref{fig:rail_profile}) 
-is analyzed. These tracks are manufactured from high-strength 
-pearlitic carbon steel, with high electrical conductivity 
-($\sigma_{\mathrm{rail}} \approx 4.0$--$5.0 \times 10^6\,\mathrm{S/m}$) 
-and strong ferromagnetic permeability 
-($\mu_{r,\mathrm{rail}} \approx 50$--$200$). 
-When exposed to atmospheric oxygen and moisture, electrochemical 
-oxidation produces a degradation layer of iron oxides and 
-hydroxides (primarily $\mathrm{Fe_2O_3}$, $\mathrm{Fe_3O_4}$, 
-and $\mathrm{FeOOH}$) at the rail foot. This corrosion layer 
-presents a dramatically lower electrical conductivity 
-($\sigma_{\mathrm{corr}} \approx 10^{-2}$--$10^2\,\mathrm{S/m}$) 
-and a relative permeability that drops to near unity 
-($\mu_{r,\mathrm{corr}} \approx 1$--$5$), rendering it 
-effectively paramagnetic.
+The tracking infrastructure under analysis adheres to a standard structural
+rail profile.
+These tracks are typically manufactured from high-strength pearlitic carbon
+steel, characterized by a high electrical conductivity ($\sigma_{\mathrm{rail}}
+\approx 10^6\,\mathrm{S/m}$) and a robust ferromagnetic relative
+permeability ($\mu_{r,\mathrm{rail}} \approx 10^2$). When exposed to
+atmospheric oxygen and persistent moisture, electrochemical oxidation
+generates a localized degradation layer composed of iron oxides and
+hydroxides—primarily $\mathrm{Fe_2O_3}$, $\mathrm{Fe_3O_4}$, and
+$\mathrm{FeOOH}$—predominantly at the vulnerable rail foot region. This
+resulting corrosion layer exhibits a severe material contrast compared to
+the healthy steel substrate, as its electrical conductivity drops
+dramatically ($\sigma_{\mathrm{corr}} \approx 10^{-4}\,\mathrm{S/m}$) and
+its relative permeability falls to near unity ($\mu_{r,\mathrm{corr}}
+\approx 1$), effectively rendering the domain paramagnetic.
 
-\begin{figure}[h]
-\centering
-\includegraphics[width=0.45\textwidth]{Images/placeholder.png}
-\caption{Cross-sectional schematic of a standard railway track, 
-    emphasizing the rail foot region susceptible to atmospheric 
-    corrosion.}
-\label{fig:rail_profile}
-\end{figure}
-
-The detection principle is as follows. An excitation coil 
-driven by an alternating current generates a time-varying 
-primary magnetic field $B_1(t) = B_1 e^{i\omega t}$, which 
-penetrates the rail and induces eddy currents 
-($\mathbf{J} = \sigma \mathbf{E}$) in the bulk steel according 
-to Faraday's law. The amplitude of these currents decays 
-exponentially with depth, characterized by the skin depth:
+The underlying detection mechanism exploits these electromagnetic contrasts
+via eddy current induction. An excitation coil driven by an alternating
+current produces a time-varying primary magnetic field, $B_1(t) = B_1
+e^{i\omega t}$, which penetrates the conductive rail volume and induces
+localized eddy currents ($\mathbf{J} = \sigma \mathbf{E}$) according to
+Faraday's law. The amplitude of these induced currents decays exponentially
+with depth as a function of the electromagnetic skin depth ($\delta$),
+defined as:
 
 \begin{equation}
-    \delta = \sqrt{\frac{2}{\omega\mu\sigma}} 
-           = \sqrt{\frac{1}{\pi f \mu_0 \mu_r \sigma}},
+    \delta = \sqrt{\frac{2}{\omega\mu\sigma}}
+           = \sqrt{\frac{1}{\pi f \mu_0 \mu_r \sigma}}
     \label{eq:skin_depth}
 \end{equation}
 
-where $f$ is the excitation frequency, $\mu_0$ is the vacuum 
-permeability, $\mu_r$ is the relative permeability, and 
-$\sigma$ is the electrical conductivity of the domain. 
-Because the corrosion layer presents a severe contrast in 
-both $\mu_r$ and $\sigma$ relative to healthy steel, the 
-eddy current distribution is perturbed in the vicinity of 
-the corroded region, altering the secondary field $B_2$ that 
-it generates. The total field $B_{\mathrm{tot}} = B_1 + B_2$ 
-thus carries a signature of the corrosion that can be resolved 
-by the OPM.
+\noindent where $f$ represents the operational excitation frequency, $\mu_0$
+is the vacuum permeability, $\mu_r$ is the relative permeability, and
+$\sigma$ denotes the electrical conductivity of the respective domain.
+Because the structural corrosion layer introduces a severe discontinuity in
+both permeability and conductivity, the local eddy current distribution
+becomes significantly perturbed. This disruption alters the secondary
+magnetic field ($B_2$) generated by the currents, meaning the total magnetic
+field ($B_{\mathrm{tot}} = B_1 + B_2$) carries a distinct electromagnetic
+signature of the subsurface defect that can be resolved by the high-precision
+OPM sensor.
 
 \subsection{Finite-Element Simulation}
+\label{sec:fem_simulation}
 
-To evaluate the feasibility of this concept prior to 
-experimental implementation, a comprehensive 2D 
-finite-element method (\gls{FEM}) simulation was carried out in 
-COMSOL Multiphysics, using the \textit{AC/DC Module} 
-(\textit{Magnetic Fields} physics interface) in the 
-frequency-domain formulation. Two scenarios are modelled: 
-a healthy rail (benchmark) and a defective rail containing 
-a localized corrosion layer of variable depth at the foot 
-(Figure~\ref{fig:clearance_line}).
+To evaluate the mathematical feasibility and physical constraints of this
+diagnostic concept prior to full experimental assembly, a comprehensive 2D
+finite-element method (\gls{FEM}) simulation was executed within COMSOL
+Multiphysics. Developed as a preliminary proof of concept, this numerical
+framework forms part of an ongoing project at QSENSATO Srl. and reflects
+a diagnostic system that is currently in its development phase. Operating via
+the \textit{AC/DC Module}\footnote{It is, indeed, a long way to the top if you
+wanna rock and roll.} and utilizing the \textit{Magnetic Fields} physics
+interface in a frequency-domain formulation, the framework compares a
+baseline healthy rail against a defective track profile containing a
+localized corrosion zone of variable depth at the rail foot.
 
-\paragraph{Geometry and boundary conditions.}
-The simulation domain consists of the 2D cross-section of a 
-standard rail profile, surrounded by a sufficiently large air 
-region ($\sim$10 rail widths on each side) to avoid artefacts 
-from the outer boundary. The outer boundary of the air domain 
-is assigned a magnetic insulation condition 
-($\mathbf{n} \times \mathbf{A} = 0$, where $\mathbf{A}$ is 
-the magnetic vector potential), which is appropriate for a 
-magnetically open domain at distances far from the source. 
-The excitation coil is modelled as a single rectangular 
-conductor carrying a prescribed current density 
-$\mathbf{J}_e$ (ampere-turns per unit area).
+\paragraph{Geometry, boundary conditions, and material properties.}
+As depicted in Figure~\ref{fig:clearance_line}, the geometric domain
+comprises the 2D cross-section of a standard rail profile (a) secured by
+native fastening clamps (b). A localized corrosion domain (c) is embedded
+directly at the structural foot of the rail. The AC excitation coils are
+positioned a few centimeters above the upper rail surface (d) and are
+modeled as two distinct rectangular conductor domains carrying a prescribed
+external current density $\mathbf{J}_e$. The entire engineering assembly
+is enclosed within a spacious air region (e) to eliminate unphysical
+boundary constraints. The outermost boundaries of this air domain are
+governed by a magnetic insulation condition ($\mathbf{n} \times \mathbf{A}
+= 0$, where $\mathbf{A}$ represents the magnetic vector potential),
+simulating an open domain at an infinite distance from the sources. Beneath
+the track assembly, a structural granite foundation layer (f) is
+implemented to simulate the electromagnetic feedback of real ballast stones.
+Finally, to allow the field solutions to attenuate naturally without
+artificial reflections, an Infinite Element Domain layer (g) encapsulates
+the outermost perimeter of the setup. Within this model, the OPM is
+represented by a spatial evaluation \textit{cutpoint}, subject to the
+strict operational constraint that it must remain positioned above the
+mechanical clearance line of the rail.
 
-\paragraph{Mesh strategy.}
-Accurate resolution of the electromagnetic fields requires the 
-mesh to respect the skin depth constraint at each frequency. 
-In the steel and corrosion domains, the maximum element size 
-is set to $\delta/3$ to ensure at least three elements per 
-skin depth, following standard FEM practice for eddy-current 
-problems \cite{comsol_ref}. Since $\delta$ varies from 
-$\sim$7~mm at $10\,\mathrm{Hz}$ to $\sim$0.07~mm at 
-$100\,\mathrm{kHz}$ for the rail steel, frequency-dependent 
-adaptive meshes are generated for each simulation point in 
-the parameter sweep. In the air region, where no skin effect 
-applies, a free triangular mesh with maximum element size 
-constrained to one tenth of the smallest geometric feature 
-is used. The corrosion layer is meshed with a boundary layer 
-refinement of five inflation layers at its interfaces with 
-both the steel and the air gap. The resulting meshes 
-contain between $8 \times 10^4$ and $3 \times 10^5$ elements 
-depending on frequency, with the highest element counts at 
-high frequencies where $\delta$ is smallest.
-
-\paragraph{Material assignments and parametric sweep.}
-The rail steel is assigned 
-$\sigma_{\mathrm{rail}} = 4.5 \times 10^6\,\mathrm{S/m}$ 
-and $\mu_{r,\mathrm{rail}} = 100$ (representative values 
-for pearlitic rail steel). The corrosion layer is assigned 
-$\sigma_{\mathrm{corr}} = 1\,\mathrm{S/m}$ and 
-$\mu_{r,\mathrm{corr}} = 2$. The simulation sweeps 
-excitation frequencies from $10\,\mathrm{Hz}$ to 
-$100\,\mathrm{kHz}$ over a logarithmic grid of 30 points 
-per decade, and corrosion layer depths from 0 (healthy) to 
-$5\,\mathrm{mm}$ in $0.5\,\mathrm{mm}$ steps, under three 
-representative coil current strengths.
-
-\begin{figure}[h]
+In terms of material property assignments, the bulk rail steel is designated
+with an electrical conductivity of $\sigma_{\mathrm{rail}} = 6 \times
+10^6\,\mathrm{S/m}$ and a relative magnetic permeability of
+$\mu_{r,\mathrm{rail}} = 400$, which are highly representative of pearlitic
+railway tracks. The corrosion defect (assumed to consist primarily of
+$\mathrm{Fe_2O_3}$) is assigned a degraded conductivity of
+$\sigma_{\mathrm{corr}} = 10^{-4}\,\mathrm{S/m}$ and a relative permeability
+of $\mu_{r,\mathrm{corr}} = 5$. The surrounding air and infinite element
+domains are treated as standard non-conductive, non-magnetic environments
+($\sigma = 0\,\mathrm{S/m}$, $\mu_r = 1$), while the underlying granite
+ballast is modeled as a lossy dielectric foundation with a conductivity of
+$\sigma_{\mathrm{granite}} = 10^{-4}\,\mathrm{S/m}$ and a non-magnetic relative
+permeability of $\mu_{r,\mathrm{granite}} = 1$.
+\begin{figure}[htbp]
 \centering
-\includegraphics[width=0.5\textwidth]{Images/placeholder.png}
-\caption{Geometric configuration of the 2D COMSOL simulation 
-    domain, indicating the excitation coil position, the 
-    corrosion zone at the rail foot, and the mandatory 
-    clearance line above which the OPM sensor must operate.}
+\includegraphics[width=0.65\textwidth]{Images/simulationsetup.png}
+\caption{Geometric configuration of the 2D COMSOL simulation domain,
+  illustrating the spatial distribution of (a) the rail profile, measuring
+  approximately \SI{17}{\centi\meter} in width and \SI{20}{\centi\meter} in
+  height, (b) the mechanical fastening clamps, (c) the localized foot
+  corrosion defect, (d) the overhead AC excitation coils, (e) the bounding
+  air region, (f) the underlying granite foundation ballast, and (g) the
+  outermost Infinite Element Domain layer. The spatial evaluation cutpoint for
+  the OPM sensor is constrained above the mechanical clearance line.}
 \label{fig:clearance_line}
 \end{figure}
 
-\paragraph{Evaluation cutpoints and operational constraints.}
-The simulation imposes two simultaneous operational 
-constraints on any candidate sensor position:
-\begin{enumerate}
-    \item \textbf{Dynamic range boundary:} The total field 
-    $B_{\mathrm{tot}}$ must not exceed the QuSpin 
-    linear operating range of $150{,}000\,\mathrm{nT}$ 
-    to prevent sensor saturation.
-    \item \textbf{Sensitivity boundary:} The differential 
-    field between healthy and corroded states must satisfy 
-    $\Delta B = |B_{\mathrm{healthy}} - B_{\mathrm{corroded}}| 
-    \geq 3\,\mathrm{pT}$, the scalar noise floor of the sensor.
-\end{enumerate}
-Three cutpoints above the mechanical clearance line are 
-evaluated: $P_1(x_1, y_1)$, $P_2(x_2, y_2)$, and 
-$P_3(x_3, y_3)$, at increasing heights above the rail 
-surface.
+In terms of material property assignments, the bulk rail steel is designated
+with an electrical conductivity of $\sigma_{\mathrm{rail}} = 6 \times
+10^6\,\mathrm{S/m}$ and a relative magnetic permeability of
+$\mu_{r,\mathrm{rail}} = 400$, which are highly representative of pearlitic
+railway tracks. The corrosion defect (assumed to consist primarily of
+$\mathrm{Fe_2O_3}$) is assigned a degraded conductivity of
+$\sigma_{\mathrm{corr}} = 10^{-4}\,\mathrm{S/m}$ and a relative permeability
+of $\mu_{r,\mathrm{corr}} = 5$. The surrounding air and infinite element
+domains are treated as standard non-conductive, non-magnetic environments
+($\sigma = 0\,\mathrm{S/m}$, $\mu_r = 1$), while the underlying granite
+ballast is modeled as a standard paramagnetic baseline dielectric.
 
-\subsection{Results}
+\paragraph{Mesh strategy.}
+An accurate evaluation of the secondary fields requires a specialized,
+frequency-dependent dynamic meshing strategy capable of adjusting to the
+changing skin depth ($\delta$) of the system. Because $\delta$ scales
+inversely with the square root of the coil's excitation frequency, the
+spatial resolution of the mesh must adapt dynamically to avoid severe
+discretization errors. To properly capture the rapid exponential decay of
+the fields and the subtle perturbations induced by the corrosion, a
+significantly smaller, refined mesh is enforced near the regions of
+interest, as illustrated in Figure~\ref{fig:mesh_composite}.
 
-Figure~\ref{fig:field_distribution} shows the computed total 
-field maps $B_{\mathrm{tot}}$ for both the healthy and 
-corroded scenarios at the optimal operating frequency. 
-Figure~\ref{fig:field_diff} presents the pointwise difference 
-$\Delta B_{\mathrm{2D}} = |B_{\mathrm{healthy}} - 
-B_{\mathrm{corroded}}|$ over the full simulation plane, 
-making the spatial extent and magnitude of the corrosion 
-signature immediately visible.
+This multi-scale discretization strategy comprises a general overview of the
+entire computational domain (Figure~\ref{fig:mesh_composite}a), a dedicated
+refinement at the upper section enclosing the excitation coils and the rail
+head (Figure~\ref{fig:mesh_composite}b), and a localized refinement at the
+bottom part containing the fastening clamps and the corrosion domain
+(Figure~\ref{fig:mesh_composite}c). Most notably, a dense boundary layer
+meshing is applied directly at the corrosion interface
+(Figure~\ref{fig:mesh_composite}d) to ensure at least three elements per
+skin depth layer. Given that $\delta$ shifts from approximately
+\SI{7}{\milli\meter} at a low frequency of $10\,\mathrm{Hz}$ down to a
+microscopic scale of \SI{0.07}{\milli\meter} at $100\,\mathrm{kHz}$ for
+bulk steel, this adaptive parametric mesh is generated automatically for each
+discrete frequency point. Conversely, within the air and ballast domains
+where skin effect phenomena are absent, a free triangular mesh with loose
+constraints between \SI{0.1}{\centi\meter} and \SI{1}{\centi\meter} is
+utilized. The fine corrosion layer is further resolved using a boundary
+layer refinement technique consisting of five structured inflation layers
+along its structural interfaces, resulting in total mesh counts that vary
+from thousands to tens of thousands of elements depending on the excitation
+frequency.
 
-\begin{figure}[h]
+\begin{figure}[htbp]
 \centering
 \begin{subfigure}[b]{0.48\textwidth}
     \centering
-    \includegraphics[width=\textwidth]{Images/placeholder.png}
-    \caption{Healthy rail.}
+    \includegraphics[width=\textwidth]{Images/generalmesh.png}
+    \caption{General mesh layout}
+    \label{fig:mesh_general}
+\end{subfigure}
+\hfill
+\begin{subfigure}[b]{0.48\textwidth}
+    \centering
+    \includegraphics[width=\textwidth]{Images/topmesh.png}
+    \caption{Refinement at the coils and rail top}
+    \label{fig:mesh_top}
+\end{subfigure}
+\\ \vspace{1em}
+\begin{subfigure}[b]{0.48\textwidth}
+    \centering
+    \includegraphics[width=\textwidth]{Images/bottommesh.png}
+    \caption{Refinement at clamps and corrosion zone}
+    \label{fig:mesh_bottom}
+\end{subfigure}
+\hfill
+\begin{subfigure}[b]{0.48\textwidth}
+    \centering
+    \includegraphics[width=\textwidth]{Images/corrosionmesh.png}
+    \caption{Close-up of the boundary layer meshing}
+    \label{fig:mesh_layer}
+\end{subfigure}
+\caption{Finite-element mesh discretization showing (a) the global domain
+  overview, (b) localized refinement near the excitation coils, (c) detail
+  of the rail foot assembly, and (d) high-resolution inflation layers
+  tracking the corrosion boundaries.}
+\label{fig:mesh_composite}
+\end{figure}
+
+\paragraph{Parametric sweep and engineering optimization.}
+The simulation sweeps excitation frequencies from $1\,\mathrm{Hz}$ to
+$2\,\mathrm{kHz}$, and square corrosion with size from 0 (healthy) to
+$2.5\,\mathrm{mm} \times 2.5\,\mathrm{mm}$, under three representative coil
+current strengths. The primary engineering objective of this parametric study
+is to navigate a critical trade-off between sensor saturation and detection
+sensitivity. While the OPM must be positioned near the track to resolve the
+weak magnetic anomalies, the primary field generated by the excitation coils
+is intensely strong and can easily overwhelm the sensor. To mitigate this
+risk and prevent sensor blinding, the OPM must be positioned at an optimized
+stand-off distance further away from the rail surface. Simultaneously, the
+excitation frequency of the coil must be carefully optimized; higher
+frequencies enhance the electromagnetic contrast within the shallow corrosion
+layer but drastically reduce field penetration into the bulk steel.
+Consequently, the simulation sweeps aim to identify a highly specific
+operating window where the coil frequency and the sensor height are perfectly
+balanced.
+
+\paragraph{Evaluation cutpoints and operational constraints.}
+The simulation imposes two simultaneous operational constraints on any
+candidate sensor position above the mechanical clearance line:
+\begin{enumerate}
+    \item \textbf{Dynamic range boundary:} The total field $B_{\mathrm{tot}}$
+    must not exceed the QuSpin linear operating range of $150{,}000\,\mathrm{nT}$
+    to prevent sensor saturation.
+    \item \textbf{Sensitivity boundary:} The differential field between
+    healthy and corroded states must satisfy $\Delta B =
+    |B_{\mathrm{healthy}} - B_{\mathrm{corroded}}| \geq 3\,\mathrm{pT}$, the
+    scalar noise floor of the sensor.
+\end{enumerate}
+Three cutpoints above the mechanical clearance line are evaluated:
+$P_1(x_1, y_1)$, $P_2(x_2, y_2)$, and $P_3(x_3, y_3)$, at increasing heights
+above the rail surface.
+
+\subsection{Results and Analysis}
+\label{sec:results_analysis}
+
+Although full experimental validation data are deferred to forthcoming
+processing stages, this section establishes the numerical baseline obtained
+from the parametric finite-element studies. First, the spatial distribution of
+the total magnetic field was evaluated to analyze the baseline deviations
+caused by the defect. Figure~\ref{fig:field_comparison} provides a
+side-by-side comparison of the generated fields under the (a) healthy and
+(b) corroded rail scenarios, illustrating how the structural degradation
+perturbs the magnetic flux lines.
+
+\begin{figure}[htbp]
+\centering
+\begin{subfigure}[b]{0.48\textwidth}
+    \centering
+    \includegraphics[width=\textwidth]{Images/totalBhealthylowf1.png}
+    \caption{Healthy rail profile}
     \label{fig:field_healthy}
 \end{subfigure}
 \hfill
 \begin{subfigure}[b]{0.48\textwidth}
     \centering
-    \includegraphics[width=\textwidth]{Images/placeholder.png}
-    \caption{Corroded rail foot.}
+    \includegraphics[width=\textwidth]{Images/totalBlowf1.png}
+    \caption{Corroded rail profile}
     \label{fig:field_corroded}
 \end{subfigure}
-\caption{2D COMSOL maps of the total magnetic field 
-    $B_{\mathrm{tot}}$ for both structural conditions at the 
-    optimal excitation frequency.}
-\label{fig:field_distribution}
+\caption{Finite-element simulation results comparing the induced magnetic
+  field profiles across (a) the benchmark healthy track and (b) the track
+  affected by structural foot corrosion.}
+\label{fig:field_comparison}
 \end{figure}
 
-\begin{figure}[h]
+To examine these electromagnetic perturbations with higher geometric precision
+under the defective scenario, high-resolution close-ups were extracted.
+Figure~\ref{fig:closeup_top} and Figure~\ref{fig:closeup_bottom} showcase the
+localized magnetic field variations at the top head and the bottom foot
+regions of the rail profile, respectively, clarifying how the magnetic flux
+redistributes around the boundaries.
+
+\begin{figure}[htbp]
 \centering
-\includegraphics[width=0.55\textwidth]{Images/placeholder.png}
-\caption{Pointwise differential field map 
-    $\Delta B_{\mathrm{2D}} = 
-    |B_{\mathrm{healthy}} - B_{\mathrm{corroded}}|$ 
-    over the full simulation domain at the optimal frequency. 
-    The spatial extent of the corrosion signature and the 
-    field enhancement in the vicinity of the defect are 
-    clearly visible.}
-\label{fig:field_diff}
+\includegraphics[width=\textwidth]{Images/totalBcoil.png}
+\caption{Detailed close-up view of the simulated magnetic field
+  distribution at the top head region of the corroded rail profile.}
+\label{fig:closeup_top}
 \end{figure}
 
-Figure~\ref{fig:sensitivity_plots} shows $\Delta B$ 
-extracted at the three cutpoints as a function of 
-frequency for the maximum corrosion depth considered.
-
-\begin{figure}[h]
+\begin{figure}[htbp]
 \centering
-\includegraphics[width=0.5\textwidth]{Images/placeholder.png}
-\caption{Differential magnetic field amplitude 
-    $\Delta B = |B_{\mathrm{healthy}} - B_{\mathrm{corroded}}|$ 
-    at cutpoints $P_1$, $P_2$, and $P_3$ as a function of 
-    excitation frequency. The horizontal dashed line marks 
-    the QuSpin noise floor of $3\,\mathrm{pT}$.}
-\label{fig:sensitivity_plots}
+\includegraphics[width=\textwidth]{Images/totalBclamps.png}
+\caption{Detailed close-up view of the simulated magnetic field
+  distribution at the bottom foot region of the corroded rail profile.}
+\label{fig:closeup_bottom}
 \end{figure}
 
-The results reveal a characteristic trade-off governed by 
-the frequency-dependent skin depth. At low frequencies 
-($f < 100\,\mathrm{Hz}$), the field penetrates the full 
-depth of the rail foot, but the slow rate of flux change 
-produces weak eddy currents and a differential response 
-$\Delta B$ near or below the sensor noise floor. At high 
-frequencies ($f > 50\,\mathrm{kHz}$), the skin effect 
-confines the field to a thin surface layer 
-($\delta \to 0$), preventing interaction with the interior 
-of the corrosion zone.
+To map the diagnostic signature of the defect, the differential magnetic
+field magnitude between the baseline and damaged states ($|dB| =
+|B_{\mathrm{healthy}} - B_{\mathrm{corroded}}|$) was contrasted across multiple
+frequencies and flaw scales. Figure~\ref{fig:db_50hz} illustrates the general
+spatial mapping of $|dB|$ evaluated at a fixed coil excitation frequency of
+\SI{50}{\hertz}, highlighting the field perturbation profile around the
+damaged area.
 
-An optimal operating window is identified in the 
-intermediate band of $1$--$20\,\mathrm{kHz}$, where the 
-skin depth matches the spatial scale of the expected 
-corrosion layers. Within this band, $\Delta B$ peaks 
-sharply and, at cutpoints $P_1$ and $P_2$, successfully 
-exceeds the $3\,\mathrm{pT}$ threshold while the 
-background field remains below the $150{,}000\,\mathrm{nT}$ 
-dynamic range limit of the QuSpin sensor. These findings 
-validate the technical feasibility of using unshielded, 
-compact LWVC-based OPMs for non-contact, real-time railway 
-track corrosion monitoring, providing a clear path toward 
-automated structural health evaluation systems.
+\begin{figure}[htbp]
+\centering
+\includegraphics[width=\textwidth]{Images/diffB.png}
+\caption{Differential magnetic field magnitude $|dB|$ evaluated at a fixed
+  excitation frequency of \SI{50}{\hertz}.}
+\label{fig:db_50hz}
+\end{figure}
+
+Lastly, the operational influence of the coil frequency on the induction
+physics was monitored. Figure~\ref{fig:skin_depth_frequencies} displays the
+general field panorama for a fixed corrosion size of
+\SI{1}{\centi\meter}$\times$\SI{1}{\centi\meter} under three representative
+frequencies: (a) \SI{1}{\hertz}, (b) \SI{15}{\hertz}, and (c) \SI{100}{\hertz}.
+This progression visually confirms the physical reduction of the
+electromagnetic skin depth ($\delta$) as the frequency increases,
+illustrating how eddy currents are squeezed toward the outermost boundaries
+of the steel substrate. To supplement this stationary analysis, an animated
+GIF visualizing the continuous dynamic evolution of the skin depth across increasing excitation 
+frequencies. The continuous dynamic
+evolution of the skin depth across the full frequency spectrum is
+available as supplementary material animation (GIF) in \cite{railgif}.
+
+\begin{figure}[htbp]
+\centering
+\begin{subfigure}[b]{0.48\textwidth}
+    \centering
+    \includegraphics[width=\textwidth]{Images/totalBlowf.png}
+    \caption{\SI{1}{\hertz}}
+    \label{fig:freq_1}
+\end{subfigure}
+\\ \vspace{1em}
+\begin{subfigure}[b]{0.48\textwidth}
+    \centering
+    \includegraphics[width=\textwidth]{Images/totalBmidf.png}
+    \caption{\SI{15}{\hertz}}
+    \label{fig:freq_15}
+\end{subfigure}
+\hfill
+\begin{subfigure}[b]{0.48\textwidth}
+    \centering
+    \includegraphics[width=\textwidth]{Images/totalBhighf.png}
+    \caption{\SI{100}{\hertz}}
+    \label{fig:freq_100}
+\end{subfigure}
+\caption{Global magnetic field distribution for a fixed
+  \SI{1}{\centi\meter}$\times$\SI{1}{\centi\meter} corrosion size,
+  illustrating the progressive decay of the electromagnetic skin depth
+  ($\delta$) across increasing excitation frequencies.}
+\label{fig:skin_depth_frequencies}
+\end{figure}

@@ -250,8 +250,8 @@
       \strng{authorbibnamehash}{34d351d066bcda0e1a4f0e1a38986720}
       \strng{authornamehash}{34d351d066bcda0e1a4f0e1a38986720}
       \strng{authorfullhash}{34d351d066bcda0e1a4f0e1a38986720}
-      \field{sortinit}{3}
-      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{title}{The History of Industrial Instrumentation and Controls during the Industrial Revolution}
@@ -705,70 +705,6 @@
       \verb https://qsensato.com/
       \endverb
     \endentry
-    \entry{zanoni2024}{misc}{}
-      \name{author}{7}{}{%
-        {{hash=4bf718311c1c584fdaea8e070434780e}{%
-           family={Zanoni},
-           familyi={Z\bibinitperiod},
-           given={Andrea},
-           giveni={A\bibinitperiod}}}%
-        {{hash=2682220bb596d9bc9de12dfd41b9bf9a}{%
-           family={Mouloudakis},
-           familyi={M\bibinitperiod},
-           given={Kostas},
-           giveni={K\bibinitperiod}}}%
-        {{hash=64bd09e918c906ed8f119552cfa4c896}{%
-           family={Tayler},
-           familyi={T\bibinitperiod},
-           given={Michael\bibnamedelimb C.\bibnamedelimi D.},
-           giveni={M\bibinitperiod\bibinitdelim C\bibinitperiod\bibinitdelim D\bibinitperiod}}}%
-        {{hash=9394f4fb0d03643e136e27e8a0d4f62e}{%
-           family={Corrielli},
-           familyi={C\bibinitperiod},
-           given={Giacomo},
-           giveni={G\bibinitperiod}}}%
-        {{hash=66aa2f54883c45328691a5391bde310e}{%
-           family={Osellame},
-           familyi={O\bibinitperiod},
-           given={Roberto},
-           giveni={R\bibinitperiod}}}%
-        {{hash=1774398f32c6845966d5aca41d67e197}{%
-           family={Mitchell},
-           familyi={M\bibinitperiod},
-           given={Morgan\bibnamedelima W.},
-           giveni={M\bibinitperiod\bibinitdelim W\bibinitperiod}}}%
-        {{hash=a98c1696319577062a7b6f0d608b40f0}{%
-           family={Lucivero},
-           familyi={L\bibinitperiod},
-           given={Vito\bibnamedelima Giovanni},
-           giveni={V\bibinitperiod\bibinitdelim G\bibinitperiod}}}%
-      }
-      \list{publisher}{1}{%
-        {arXiv}%
-      }
-      \strng{namehash}{6e44ddbb8865c1755d40dfbe9bd4e4e0}
-      \strng{fullhash}{569d1ad4e79960f06a9d331beec6b20b}
-      \strng{bibnamehash}{6e44ddbb8865c1755d40dfbe9bd4e4e0}
-      \strng{authorbibnamehash}{6e44ddbb8865c1755d40dfbe9bd4e4e0}
-      \strng{authornamehash}{6e44ddbb8865c1755d40dfbe9bd4e4e0}
-      \strng{authorfullhash}{569d1ad4e79960f06a9d331beec6b20b}
-      \field{sortinit}{6}
-      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{title}{Laser-written micro-channel atomic magnetometer}
-      \field{year}{2024}
-      \verb{doi}
-      \verb 10.48550/ARXIV.2404.14345
-      \endverb
-      \verb{urlraw}
-      \verb https://arxiv.org/abs/2404.14345
-      \endverb
-      \verb{url}
-      \verb https://arxiv.org/abs/2404.14345
-      \endverb
-      \keyw{Quantum Physics (quant-ph),Atomic Physics (physics.atom-ph),Optics (physics.optics),FOS: Physical sciences,FOS: Physical sciences}
-    \endentry
     \entry{dyer2023}{article}{}
       \name{author}{10}{}{%
         {{hash=0856b2b1089191c792b42ed3e73d6a48}{%
@@ -851,6 +787,70 @@
       \verb{url}
       \verb http://dx.doi.org/10.1063/5.0153881
       \endverb
+    \endentry
+    \entry{zanoni2024}{misc}{}
+      \name{author}{7}{}{%
+        {{hash=4bf718311c1c584fdaea8e070434780e}{%
+           family={Zanoni},
+           familyi={Z\bibinitperiod},
+           given={Andrea},
+           giveni={A\bibinitperiod}}}%
+        {{hash=2682220bb596d9bc9de12dfd41b9bf9a}{%
+           family={Mouloudakis},
+           familyi={M\bibinitperiod},
+           given={Kostas},
+           giveni={K\bibinitperiod}}}%
+        {{hash=64bd09e918c906ed8f119552cfa4c896}{%
+           family={Tayler},
+           familyi={T\bibinitperiod},
+           given={Michael\bibnamedelimb C.\bibnamedelimi D.},
+           giveni={M\bibinitperiod\bibinitdelim C\bibinitperiod\bibinitdelim D\bibinitperiod}}}%
+        {{hash=9394f4fb0d03643e136e27e8a0d4f62e}{%
+           family={Corrielli},
+           familyi={C\bibinitperiod},
+           given={Giacomo},
+           giveni={G\bibinitperiod}}}%
+        {{hash=66aa2f54883c45328691a5391bde310e}{%
+           family={Osellame},
+           familyi={O\bibinitperiod},
+           given={Roberto},
+           giveni={R\bibinitperiod}}}%
+        {{hash=1774398f32c6845966d5aca41d67e197}{%
+           family={Mitchell},
+           familyi={M\bibinitperiod},
+           given={Morgan\bibnamedelima W.},
+           giveni={M\bibinitperiod\bibinitdelim W\bibinitperiod}}}%
+        {{hash=a98c1696319577062a7b6f0d608b40f0}{%
+           family={Lucivero},
+           familyi={L\bibinitperiod},
+           given={Vito\bibnamedelima Giovanni},
+           giveni={V\bibinitperiod\bibinitdelim G\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {arXiv}%
+      }
+      \strng{namehash}{6e44ddbb8865c1755d40dfbe9bd4e4e0}
+      \strng{fullhash}{569d1ad4e79960f06a9d331beec6b20b}
+      \strng{bibnamehash}{6e44ddbb8865c1755d40dfbe9bd4e4e0}
+      \strng{authorbibnamehash}{6e44ddbb8865c1755d40dfbe9bd4e4e0}
+      \strng{authornamehash}{6e44ddbb8865c1755d40dfbe9bd4e4e0}
+      \strng{authorfullhash}{569d1ad4e79960f06a9d331beec6b20b}
+      \field{sortinit}{7}
+      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Laser-written micro-channel atomic magnetometer}
+      \field{year}{2024}
+      \verb{doi}
+      \verb 10.48550/ARXIV.2404.14345
+      \endverb
+      \verb{urlraw}
+      \verb https://arxiv.org/abs/2404.14345
+      \endverb
+      \verb{url}
+      \verb https://arxiv.org/abs/2404.14345
+      \endverb
+      \keyw{Quantum Physics (quant-ph),Atomic Physics (physics.atom-ph),Optics (physics.optics),FOS: Physical sciences,FOS: Physical sciences}
     \endentry
     \entry{corrielli2021}{article}{}
       \name{author}{3}{}{%
@@ -1127,8 +1127,8 @@
       \strng{authorbibnamehash}{eb6d80b8d6ac0e4af512406c36e6cb39}
       \strng{authornamehash}{eb6d80b8d6ac0e4af512406c36e6cb39}
       \strng{authorfullhash}{eb6d80b8d6ac0e4af512406c36e6cb39}
-      \field{sortinit}{9}
-      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{title}{Controlling Stress in Bonded Optics}
@@ -3647,8 +3647,8 @@
       \strng{authorbibnamehash}{c73db8c15fc82231e9b78892aff732dc}
       \strng{authornamehash}{c73db8c15fc82231e9b78892aff732dc}
       \strng{authorfullhash}{50e30c5da9b1d2ddf698cda1e9673499}
-      \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{issn}{2072-666X}
@@ -5422,7 +5422,6 @@
       \endverb
     \endentry
   \enddatalist
-  \missing{comsol_ref}
 \endrefsection
 \endinput
 
