@@ -5421,6 +5421,30 @@
       \verb http://dx.doi.org/10.1063/1.4943659
       \endverb
     \endentry
+    \entry{railgif}{article}{}
+      \name{author}{1}{}{%
+        {{hash=7306146f568b78bcff4e8a6b60763575}{%
+           family={Delgado},
+           familyi={D\bibinitperiod},
+           given={Rubén\bibnamedelima Piles},
+           giveni={R\bibinitperiod\bibinitdelim P\bibinitperiod}}}%
+      }
+      \strng{namehash}{7306146f568b78bcff4e8a6b60763575}
+      \strng{fullhash}{7306146f568b78bcff4e8a6b60763575}
+      \strng{bibnamehash}{7306146f568b78bcff4e8a6b60763575}
+      \strng{authorbibnamehash}{7306146f568b78bcff4e8a6b60763575}
+      \strng{authornamehash}{7306146f568b78bcff4e8a6b60763575}
+      \strng{authorfullhash}{7306146f568b78bcff4e8a6b60763575}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Skin depth evolution with Coil Frequency}
+      \field{year}{2026}
+      \verb{doi}
+      \verb https://doi.org/10.5281/zenodo.20704403
+      \endverb
+    \endentry
   \enddatalist
 \endrefsection
 \endinput
