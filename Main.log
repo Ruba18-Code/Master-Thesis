@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999995 (TeX Live 2023/Debian) (preloaded format=xelatex 2026.4.1)  16 JUN 2026 18:07
+This is XeTeX, Version 3.141592653-2.6-0.999995 (TeX Live 2023/Debian) (preloaded format=xelatex 2026.4.1)  19 JUN 2026 12:35
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1539,4 +1539,134 @@ Overfull \hbox (3.63693pt too wide) in paragraph at lines 29--29
 
  [12] (./siglas.tex
 \@gls@deffile=\write11
-\openout11 = `M
+\openout11 = `Main.glsdefs'.
+
+ (./Main.gls)) [-2
+
+
+] [-1
+
+] [0] (./sections/Introduction.tex
+Chapter 1.
+File: Images/herondoor.png Graphic file (type bmp)
+<Images/herondoor.png>
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+File: Images/seismoscope.png Graphic file (type bmp)
+<Images/seismoscope.png>
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[1
+
+]
+Overfull \hbox (12.58516pt too wide) in paragraph at lines 107--126
+\TU/TeXGyreTermes(0)/m/n/10.95 and $\OT1/cmr/m/n/10.95 1$$[]$ \TU/TeXGyreTermes(0)/m/n/10.95 (Figure []1.4[]) that combine electrical and mechanical components fabricated using integrated-
+ []
+
+[2]
+File: Images/wafer_example.jpg Graphic file (type bmp)
+<Images/wafer_example.jpg>
+File: Images/memspic.png Graphic file (type bmp)
+<Images/memspic.png>
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[3]
+File: Images/basicvaporcell.png Graphic file (type bmp)
+<Images/basicvaporcell.png>
+ [4] [5]
+Overfull \hbox (43.92027pt too wide) in paragraph at lines 307--320
+\OT1/cmr/m/n/10.95 9\OML/cmm/m/it/10.95 :\OT1/cmr/m/n/10.95 192 631 770$$[]$ \TU/TeXGyreTermes(0)/m/n/10.95 for the $[]$Cs clock transition that defines the international second, and $\OT1/cmr/m/n/10.95 6\OML/cmm/m/it/10.95 :\OT1/cmr/m/n/10.95 834 682 610$$[]$
+ []
+
+
+Overfull \hbox (22.71352pt too wide) in paragraph at lines 349--354
+\TU/TeXGyreTermes(0)/m/n/10.95 In practice, technical noise—laser intensity fluctuations, frequency drift, imperfect magnetic shielding—
+ []
+
+[6]
+Overfull \hbox (4.03282pt too wide) in paragraph at lines 403--412
+[]\TU/TeXGyreTermes(0)/m/n/10.95 Among these, optically pumped magnetometers (OPMs) are the most mature vapor-cell sensors [[]14[]].
+ []
+
+[7]
+File: Images/cell_parts.png Graphic file (type bmp)
+<Images/cell_parts.png>
+ [8]
+File: Images/NEG_in_lwvc.png Graphic file (type bmp)
+<Images/NEG_in_lwvc.png>
+ [9]
+File: Images/atomic_PIC.png Graphic file (type bmp)
+<Images/atomic_PIC.png>
+
+Overfull \hbox (1.34277pt too wide) in paragraph at lines 540--546
+\TU/TeXGyreTermes(0)/m/n/10.95 with external coupling components, offering a robust path toward mass-producible, field-deployable
+ []
+
+File: Images/lw_waveguide.png Graphic file (type bmp)
+<Images/lw_waveguide.png>
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[10] [11]
+File: Images/lwvc_wafer.png Graphic file (type bmp)
+<Images/lwvc_wafer.png>
+ [12]) [13] [14
+
+]
+Chapter 2.
+[15] [16
+
+]
+Chapter 3.
+(./sections/Fabrication Methods/Introduction.tex
+Overfull \hbox (5.50737pt too wide) in paragraph at lines 1--19
+\TU/TeXGyreTermes(0)/m/n/10.95 Precision miniaturized sensors have become an increasingly relevant technology over recent decades,
+ []
+
+File: Images/lwvc_process.png Graphic file (type bmp)
+<Images/lwvc_process.png>
+
+Overfull \hbox (2.06728pt too wide) in paragraph at lines 20--35
+[]\TU/TeXGyreTermes(0)/m/n/10.95 A Laser-Written Vapor Cell (LWVC) addresses these limitations by exploiting the three-dimensional
+ []
+
+[17] [18]) (./sections/Fabrication Methods/Femtosecond Laser Writing.tex [19] [20]
+File: Images/lwvc_3dmodel.png Graphic file (type bmp)
+<Images/lwvc_3dmodel.png>
+) (./sections/Fabrication Methods/Optical Contact Bonding/Intro Optical Contact Bonding.tex [21] [22]
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+) (./sections/Fabrication Methods/Optical Contact Bonding/Chemical Treatment.tex [23]
+File: Images/piranha_cairo_acid.png Graphic file (type bmp)
+<Images/piranha_cairo_acid.png>
+File: Images/activatedsurf.png Graphic file (type bmp)
+<Images/activatedsurf.png>
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+File: Images/zetapot.png Graphic file (type bmp)
+<Images/zetapot.png>
+[24]
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[25] [26]) (./sections/Fabrication Methods/Optical Contact Bonding/Plasma-Activated Bonding.tex
+File: Images/plasma_activation.png Graphic file (type bmp)
+<Images/plasma_activation.png>
+ [27]
+File: Images/plasmatime.png Graphic file (type bmp)
+<Images/plasmatime.png>
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+) (./sections/Fabricat
