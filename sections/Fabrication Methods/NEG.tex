@@ -1,0 +1,71 @@
+\section{Alkali Vapor Dispensing and Non-Evaporable Gas Gettering}
+\label{sec:neg_dispenser}
+\textbf{CHECK CITATIONS, CHECK CEHMICAL  REACTIONS}
+Prior to the final hermetic sealing of the laser-written vapor cell, a
+small solid-state non-evaporable getter (NEG) dispenser pill 
+is precisely positioned within the
+micromachined reservoir cavity. The cell enclosure is
+subsequently sealed inside a controlled chamber filled with atmospheric
+pressure nitrogen (\ce{N2}) buffer gas, ensuring an ultra-low oxygen (\ce{O2})
+concentration below \SI{6}{ppm} to avoid trapping reactive oxygen species within
+the internal cavities \cite{lucivero2022}. Throughout this initial assembly
+stage, the solid-state pill remains completely stable and chemically inert,
+preventing any premature release of reactive species before the hermetic
+enclosure is fully secured.
+
+The dispenser pill consists of a compressed powder mixture combining an
+alkali-metal chromate, such as rubidium chromate (\ce{RbCrO4}) or cesium
+chromate (\ce{CsCrO4}), with a specialized reducing agent \cite{scherer2012}.
+The reducing agent, commercially designated as SAES St101, is composed of
+\SI{84}{\percent} zirconium (Zr) and \SI{16}{\percent} aluminum (Al) by weight
+\cite{scherer2012}. While these dispenser materials are traditionally activated
+in macroscopic vacuum systems via ohmic heating using currents in the range of
+\SI{3}{\ampere} to \SI{7}{\ampere} to drive the pellet into a temperature range
+of \SI{400}{\celsius} to \SI{800}{\celsius} \cite{scherer2012}, the sub-millimeter
+LWVC architecture utilizes an on-demand, non-invasive laser activation
+mechanism to trigger the reduction-oxidation process post-sealing \cite{lucivero2022}.
+Under this thermal activation, the chemical reduction
+of the rubidium chromate by the zirconium matrix follows the stoichiometry \cite{knapkiewicz2018}:
+\begin{equation}
+    \mathrm{4Rb_2CrO_4 + 5Zr \rightarrow 8Rb\uparrow + 2Cr_2O_3 + 5ZrO_2}
+    \label{eq:reduction_rb}
+\end{equation}
+
+To initiate the vapor release, a high-power, continuous-wave (CW) laser beam
+emitting at \SI{1064}{\nano\meter} (delivering up to \SI{6}{\watt} focused to a
+\SI{200}{\micro\meter} waist) is targeted directly onto the opaque surface of the
+small pill for approximately \SI{20}{\second} \cite{lucivero2022}. This localized
+optical absorption rapidly drives the internal pellet temperature into the
+required activation window \cite{scherer2012, lucivero2022}. During this violent
+thermal flash, the active Zr/Al matrix performs a dual function: it undergoes a
+chemical reduction that releases elemental alkali vapor, while simultaneously
+acting as a high-efficiency getter material that irreversibly sorbs other
+chemically active gases created during the reaction, preventing them from
+contaminating the internal chamber atmosphere \cite{scherer2012}.
+
+Following the reaction, the liberated rubidium or cesium vapor rapidly
+evaporates out of the porous pellet matrix into the cell cavities. As the small
+pill cools down to the cell's nominal operating temperature (\SI{80}{\celsius}
+to \SI{100}{\celsius}), the oversaturated vapor condenses into stable metallic
+micro-droplets within the reservoir cavity \cite{maurice2017}. These droplets
+act as a continuous thermodynamic reservoir, maintaining a constant saturated
+vapor pressure governed strictly by the operating temperature of the atomic
+sensor, ensuring long-term frequency stability during room temperature or heated
+operation \cite{knapkiewicz2018, lucivero2022}.
+
+Simultaneously, the interaction between the activated zirconium matrix and the
+nitrogen (\ce{N2}) buffer gas dictates the final internal pressure environment.
+The high-temperature activation causes the native passivation oxide layer on
+the zirconium particles to dissolve into the bulk material, exposing a pristine
+metallic surface that behaves as a chemical pump. This active surface
+permanently chemisorbs excess internal \ce{N2} buffer gas via the formation of
+stable zirconium nitride (\ce{ZrN}) solid solutions \cite{knapkiewicz2018}. In
+these microcells, \ce{N2} is primarily introduced to restrict the mean free path
+of the alkali atoms, minimizing wall collisions and suppressing Doppler
+broadening \cite{maurice2017}. If the initial gas pressure exceeds the precise
+operational target, calibrated micro-flashes of the activation laser can be
+subsequently applied to re-expose fresh Zr sites \cite{knapkiewicz2018}. This
+enables an incremental, highly controlled chemical pumping of the \ce{N2}
+until the exact sub-atmospheric target pressure is achieved, optimizing
+collision dynamics without the use of external vacuum lines \cite{knapkiewicz2018,
+lucivero2022}.

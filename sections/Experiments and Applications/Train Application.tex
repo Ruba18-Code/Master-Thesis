@@ -47,7 +47,6 @@ in these DC voltage outputs.
 The schematic layout of this radio-frequency OPM configuration, including the 
 orthogonal arrangement of the laser beams and the magnetic fields, is illustrated 
 in Figure~\ref{fig:opm_setup}.
-
 \begin{figure}[h]
     \centering
     \includegraphics[width=0.65\textwidth]{Images/deansopm.png}
@@ -71,7 +70,6 @@ room-temperature conditions without requiring background subtraction, as shown
 in Figure~\ref{fig:opm_images}. Moreover, fully portable scanning heads equipped 
 with active-compensation coils have been demonstrated, proving capable of operating 
 within complex, real-world magnetic environments \cite{deans2021}.
-
 \begin{figure}[h]
     \centering
     \includegraphics[width=0.85\textwidth]{Images/wickenopm.png}
@@ -81,17 +79,15 @@ within complex, real-world magnetic environments \cite{deans2021}.
     diameter. Adapted from \cite{wickenbrock2014}.}
     \label{fig:opm_images}
 \end{figure}
-
 When microfabricated into advanced architectures such as LWVCs, OPMs can 
 achieve ultra-compact footprints at the MEMS scale with minimal power 
 requirements. By eliminating the bulky cryogenic cooling systems inherent 
 to conventional Superconducting Quantum Interference Devices (SQUIDs), these 
 miniaturized atomic sensors enable highly portable operations and scalable, 
 multi-channel array configurations.
-
 \subsection{Application Scenario: Railway Track Corrosion}
 \label{sec:corrosion_scenario}
-\textbf{FALTA POSAR FIGURES EN MES CALITAT}
+\textbf{POSAR FOTOS DE MES CALITAT}
 Building upon these non-destructive capabilities, this section introduces a
 novel industrial application designed to leverage the extreme precision of
 atomic magnetometry. The primary objective is to deploy an OPM integrated
@@ -161,7 +157,6 @@ localized eddy currents ($\mathbf{J} = \sigma \mathbf{E}$) according to
 Faraday's law. The amplitude of these induced currents decays exponentially
 with depth as a function of the electromagnetic skin depth ($\delta$),
 defined as:
-
 \begin{equation}
     \delta = \sqrt{\frac{2}{\omega\mu\sigma}}
            = \sqrt{\frac{1}{\pi f \mu_0 \mu_r \sigma}}
@@ -181,7 +176,6 @@ OPM sensor.
 
 \subsection{Finite-Element Simulation}
 \label{sec:fem_simulation}
-
 To evaluate the mathematical feasibility and physical constraints of this
 diagnostic concept prior to full experimental assembly, a comprehensive 2D
 finite-element method (\gls{FEM}) simulation was executed within COMSOL
@@ -347,7 +341,6 @@ validates the chosen configuration.
 
 \subsection{Results and Analysis}
 \label{sec:results_analysis}
-
 The results are presented in a stepwise manner. First, the spatial
 distribution of the magnetic field is examined to provide physical intuition
 about how the corrosion defect perturbs the flux. Second, the frequency
@@ -358,7 +351,6 @@ the sensitivity plot that validates the feasibility of the proposed concept.
 
 
 \paragraph{Field distribution at the sensor location.}
-
 As a first step, the total magnetic field distribution was evaluated at a
 representative excitation frequency of \SI{50}{\hertz} to characterize
 the baseline field environment at the OPM position. High-resolution close-ups
@@ -395,7 +387,6 @@ maps are shown in Figure~\ref{fig:corrosion_sizes}. As expected, larger
 defects produce a more pronounced perturbation of the magnetic flux at the
 rail foot, confirming that the simulation responds consistently to changes
 in defect geometry across the full studied range.
-
 \begin{figure}[htbp]
 \centering
 \begin{subfigure}[b]{0.48\textwidth}
@@ -404,13 +395,14 @@ in defect geometry across the full studied range.
     \caption{\SI{0.1}{\centi\meter}$\times$\SI{0.1}{\centi\meter}}
     \label{fig:size_small}
 \end{subfigure}
-\hfill
+\\ \vspace{1em}
 \begin{subfigure}[b]{0.48\textwidth}
     \centering
-    \includegraphics[width=\textwidth]{Images/totalBclamps.png}
+    \includegraphics[width=\textwidth]{Images/totalBclampscorr.png}
     \caption{\SI{1}{\centi\meter}$\times$\SI{1}{\centi\meter}}
     \label{fig:size_medium}
 \end{subfigure}
+\hfill
 \begin{subfigure}[b]{0.48\textwidth}
     \centering
     \includegraphics[width=\textwidth]{Images/totalBclampsbig.png}
@@ -437,7 +429,6 @@ located, in contrast to the smooth spatial evolution characteristic of the
 healthy profile (Figure~\ref{fig:field_comparison}a). These plots validate
 that the simulation is behaving as expected given the material properties
 assigned to the corrosion domain.
-
 \begin{figure}[htbp]
 \centering
 \begin{subfigure}[b]{0.48\textwidth}
@@ -461,9 +452,7 @@ assigned to the corrosion domain.
 \label{fig:field_comparison}
 \end{figure}
 
-
 \paragraph{Influence of excitation frequency on field penetration.}
-
 Having established the qualitative nature of the corrosion-induced
 perturbation, the role of the excitation frequency was examined next.
 Figure~\ref{fig:skin_depth_frequencies} displays the global field panorama
@@ -486,7 +475,6 @@ efficiency, and this trade-off sets the fundamental operating range for
 foot corrosion detection. The continuous dynamic evolution of the skin depth
 across the full frequency spectrum is available as supplementary material
 animation (GIF) in \cite{railgif}.
-
 \begin{figure}[htbp]
 \centering
 \begin{subfigure}[b]{0.48\textwidth}
@@ -516,13 +504,10 @@ animation (GIF) in \cite{railgif}.
 \label{fig:skin_depth_frequencies}
 \end{figure}
 
-
 \paragraph{Differential field mapping.}
-
 Although the total field distributions shown above confirm that the
 simulation responds to the presence of corrosion, it is important to note
-that the perturbation introduced by the defect outside of the rail,
-where the OPM must be located, is extremely small compared
+that the perturbation introduced by the defect is extremely small compared
 to the dominant primary field $B_1$ generated by the excitation coil. The
 corrosion-induced anomaly is therefore not directly visible in the total
 field maps. To isolate and visualize this diagnostic signature, it is
@@ -552,9 +537,7 @@ QuSpin OPM? This question is addressed in the following paragraphs.
 \label{fig:db_50hz}
 \end{figure}
 
-
 \paragraph{Optimal sensor and coil configuration.}
-
 The preceding results establish that a measurable differential signal
 exists in the vicinity of the defect, but they do not yet guarantee that
 the signal can be detected by the QuSpin OPM under realistic operating
@@ -578,7 +561,7 @@ following paragraph.
 
 \begin{figure}[htbp]
 \centering
-\includegraphics[width=0.65\textwidth]{Images/cutpoint.png}
+\includegraphics[width=0.65\textwidth]{Images/placeholder.png}
 \caption{Schematic representation of the selected sensor placement. The
   OPM is located at a horizontal standoff of \SI{7}{\centi\meter} from
   the excitation coil, above the mechanical clearance line of the rail
@@ -591,9 +574,7 @@ This position was selected in conjunction with a coil configuration of
 enough to induce a detectable perturbation at the rail foot while keeping
 the total field at the sensor location within the QuSpin dynamic range.
 
-
 \paragraph{Sensitivity analysis and feasibility demonstration.}
-
 With the experimental configuration fixed, the final and most critical
 result of the parametric study can be presented. Figure~\ref{fig:sensitivity_plot}
 shows the differential field magnitude $|\Delta B(f)|$ as a function of
@@ -604,7 +585,7 @@ diagnostic system is physically realizable.
 
 \begin{figure}[htbp]
 \centering
-\includegraphics[width=\textwidth]{Images/sensitivityplot.png}
+\includegraphics[width=0.85\textwidth]{Images/placeholder.png}
 \caption{Sensitivity plot of the differential field magnitude $|\Delta B(f)|$
   as a function of excitation frequency for corrosion defects of varying
   lateral size. The dashed black line indicates the QuSpin noise floor

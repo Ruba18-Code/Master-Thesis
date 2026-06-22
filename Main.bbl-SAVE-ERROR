@@ -250,8 +250,8 @@
       \strng{authorbibnamehash}{34d351d066bcda0e1a4f0e1a38986720}
       \strng{authornamehash}{34d351d066bcda0e1a4f0e1a38986720}
       \strng{authorfullhash}{34d351d066bcda0e1a4f0e1a38986720}
-      \field{sortinit}{4}
-      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{title}{The History of Industrial Instrumentation and Controls during the Industrial Revolution}
@@ -767,8 +767,8 @@
       \strng{authorbibnamehash}{20be87c0b5f57d083cb324944d92c2ca}
       \strng{authornamehash}{20be87c0b5f57d083cb324944d92c2ca}
       \strng{authorfullhash}{73ba1a9697789fa7c06a6f1662ad133c}
-      \field{sortinit}{7}
-      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
+      \field{sortinit}{6}
+      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{issn}{1077-3118}
@@ -1127,8 +1127,8 @@
       \strng{authorbibnamehash}{eb6d80b8d6ac0e4af512406c36e6cb39}
       \strng{authornamehash}{eb6d80b8d6ac0e4af512406c36e6cb39}
       \strng{authorfullhash}{eb6d80b8d6ac0e4af512406c36e6cb39}
-      \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{sortinit}{9}
+      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{title}{Controlling Stress in Bonded Optics}
@@ -3647,8 +3647,8 @@
       \strng{authorbibnamehash}{c73db8c15fc82231e9b78892aff732dc}
       \strng{authornamehash}{c73db8c15fc82231e9b78892aff732dc}
       \strng{authorfullhash}{50e30c5da9b1d2ddf698cda1e9673499}
-      \field{sortinit}{2}
-      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{issn}{2072-666X}
@@ -3956,91 +3956,101 @@
       \verb 10.1007/s00339-021-05076-6
       \endverb
     \endentry
-    \entry{labyt2019}{article}{}
-      \name{author}{10}{}{%
-        {{hash=5e6d9f91860eb49b8b79f2b1392303ca}{%
-           family={Labyt},
-           familyi={L\bibinitperiod},
-           given={Etienne},
-           giveni={E\bibinitperiod}}}%
-        {{hash=ffc9564e6b281e2a8eaa827c49c3a9d7}{%
-           family={Corsi},
-           familyi={C\bibinitperiod},
-           given={Marie-Constance},
-           giveni={M\bibinithyphendelim C\bibinitperiod}}}%
-        {{hash=89852fbcb4459b01304a33a94dc64e07}{%
-           family={Fourcault},
+    \entry{scherer2012}{article}{}
+      \name{author}{3}{}{%
+        {{hash=1e7726b744a88b18c0cee0f86d332a95}{%
+           family={Scherer},
+           familyi={S\bibinitperiod},
+           given={David\bibnamedelima R.},
+           giveni={D\bibinitperiod\bibinitdelim R\bibinitperiod}}}%
+        {{hash=600c6b6ad5c11ae0403fd05d55457128}{%
+           family={Fenner},
            familyi={F\bibinitperiod},
-           given={William},
-           giveni={W\bibinitperiod}}}%
-        {{hash=6e6873f668a41cf6997cc076ac42edd1}{%
-           family={Palacios\bibnamedelima Laloy},
-           familyi={P\bibinitperiod\bibinitdelim L\bibinitperiod},
-           given={Augustin},
-           giveni={A\bibinitperiod}}}%
-        {{hash=1f3e36559dd404d8ac0648d150a42bb6}{%
-           family={Bertrand},
-           familyi={B\bibinitperiod},
-           given={Francis},
-           giveni={F\bibinitperiod}}}%
-        {{hash=2e009169728122a7a9fcd9b4510da429}{%
-           family={Lenouvel},
-           familyi={L\bibinitperiod},
-           given={Francois},
-           giveni={F\bibinitperiod}}}%
-        {{hash=5fde55397d4e6009914a1269a6f90dbc}{%
-           family={Cauffet},
-           familyi={C\bibinitperiod},
-           given={Gilles},
-           giveni={G\bibinitperiod}}}%
-        {{hash=4ff23cab6db58fc73a19dc49b395c5c7}{%
-           family={Le\bibnamedelima Prado},
-           familyi={L\bibinitperiod\bibinitdelim P\bibinitperiod},
-           given={Matthieu},
-           giveni={M\bibinitperiod}}}%
-        {{hash=7730116294d997e0a6e0bdb648755c71}{%
-           family={Berger},
-           familyi={B\bibinitperiod},
-           given={Francois},
-           giveni={F\bibinitperiod}}}%
-        {{hash=3d6561728d200f30bc0962e52e901615}{%
-           family={Morales},
-           familyi={M\bibinitperiod},
-           given={Sophie},
-           giveni={S\bibinitperiod}}}%
+           given={David\bibnamedelima B.},
+           giveni={D\bibinitperiod\bibinitdelim B\bibinitperiod}}}%
+        {{hash=3e847457521ed382080f2d5ab936c078}{%
+           family={Hensley},
+           familyi={H\bibinitperiod},
+           given={Joel\bibnamedelima M.},
+           giveni={J\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
       }
-      \list{publisher}{2}{%
-        {Institute of Electrical}%
-        {Electronics Engineers (IEEE)}%
+      \list{publisher}{1}{%
+        {American Vacuum Society}%
       }
-      \strng{namehash}{752c7b8d6237f55f526926e654ce5e2e}
-      \strng{fullhash}{7735af30fcd42b1233c92a5fd81219b3}
-      \strng{bibnamehash}{752c7b8d6237f55f526926e654ce5e2e}
-      \strng{authorbibnamehash}{752c7b8d6237f55f526926e654ce5e2e}
-      \strng{authornamehash}{752c7b8d6237f55f526926e654ce5e2e}
-      \strng{authorfullhash}{7735af30fcd42b1233c92a5fd81219b3}
+      \strng{namehash}{57730ac4717d3467c2d5ab034b7dc605}
+      \strng{fullhash}{57730ac4717d3467c2d5ab034b7dc605}
+      \strng{bibnamehash}{57730ac4717d3467c2d5ab034b7dc605}
+      \strng{authorbibnamehash}{57730ac4717d3467c2d5ab034b7dc605}
+      \strng{authornamehash}{57730ac4717d3467c2d5ab034b7dc605}
+      \strng{authorfullhash}{57730ac4717d3467c2d5ab034b7dc605}
       \field{sortinit}{2}
       \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{issn}{1558-254X}
-      \field{journaltitle}{IEEE Transactions on Medical Imaging}
-      \field{month}{1}
-      \field{number}{1}
-      \field{title}{Magnetoencephalography With Optically Pumped 4He Magnetometers at Ambient Temperature}
-      \field{volume}{38}
-      \field{year}{2019}
-      \field{pages}{90\bibrangedash 98}
-      \range{pages}{9}
-      \verb{doi}
-      \verb 10.1109/tmi.2018.2856367
-      \endverb
-      \verb{urlraw}
-      \verb http://dx.doi.org/10.1109/TMI.2018.2856367
-      \endverb
-      \verb{url}
-      \verb http://dx.doi.org/10.1109/TMI.2018.2856367
-      \endverb
+      \field{journaltitle}{Journal of Vacuum Science \& Technology A}
+      \field{number}{6}
+      \field{title}{Characterization of alkali metal dispensers and non-evaporable getter pumps in ultrahigh vacuum systems for cold atomic sensors}
+      \field{volume}{30}
+      \field{year}{2012}
+      \field{pages}{061602}
+      \range{pages}{1}
+    \endentry
+    \entry{maurice2017}{article}{}
+      \name{author}{6}{}{%
+        {{hash=ec1de6e1eb5e286f8bb009fbe923dd2b}{%
+           family={Maurice},
+           familyi={M\bibinitperiod},
+           given={V.},
+           giveni={V\bibinitperiod}}}%
+        {{hash=90e35cd7ed7c5a4f64f60197cab43fe4}{%
+           family={Gorecki},
+           familyi={G\bibinitperiod},
+           given={C.},
+           giveni={C\bibinitperiod}}}%
+        {{hash=9e157fc1807373bf67f3e341f29c651c}{%
+           family={Boudot},
+           familyi={B\bibinitperiod},
+           given={R.},
+           giveni={R\bibinitperiod}}}%
+        {{hash=fd0f4d3cb6266e67c7b8d478be8664d0}{%
+           family={Beugnot},
+           familyi={B\bibinitperiod},
+           given={J.\bibnamedelimi C.},
+           giveni={J\bibinitperiod\bibinitdelim C\bibinitperiod}}}%
+        {{hash=5d0a3c97b45ce5fadac945a81a243ef5}{%
+           family={Labachelerie},
+           familyi={L\bibinitperiod},
+           given={M.},
+           giveni={M\bibinitperiod},
+           prefix={de},
+           prefixi={d\bibinitperiod}}}%
+        {{hash=52d4b30da3b051b55b594f84090395cb}{%
+           family={Passilly},
+           familyi={P\bibinitperiod},
+           given={N.},
+           giveni={N\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {AIP Publishing}%
+      }
+      \strng{namehash}{e15513304e26fdf9eb252ab67b9ece50}
+      \strng{fullhash}{8993ee36719881a91ee8d6c159f329c6}
+      \strng{bibnamehash}{e15513304e26fdf9eb252ab67b9ece50}
+      \strng{authorbibnamehash}{e15513304e26fdf9eb252ab67b9ece50}
+      \strng{authornamehash}{e15513304e26fdf9eb252ab67b9ece50}
+      \strng{authorfullhash}{8993ee36719881a91ee8d6c159f329c6}
+      \field{extraname}{1}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Applied Physics Letters}
+      \field{number}{16}
+      \field{title}{Microfabricated vapor cells for miniature atomic clocks based on post-sealing activated cesium dispensers}
+      \field{volume}{110}
+      \field{year}{2017}
+      \field{pages}{164103}
+      \range{pages}{1}
     \endentry
     \entry{wiki_afm_tip}{misc}{}
       \name{author}{1}{}{%
@@ -4952,6 +4962,7 @@
       \strng{authorbibnamehash}{f6831baeb022bb8369a49e623c771e60}
       \strng{authornamehash}{f6831baeb022bb8369a49e623c771e60}
       \strng{authorfullhash}{56112a7737eee498d5940c43b3afe551}
+      \field{extraname}{2}
       \field{sortinit}{2}
       \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{labelnamesource}{author}

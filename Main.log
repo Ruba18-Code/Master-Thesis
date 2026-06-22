@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999995 (TeX Live 2023/Debian) (preloaded format=xelatex 2026.4.1)  19 JUN 2026 12:35
+This is XeTeX, Version 3.141592653-2.6-0.999995 (TeX Live 2023/Debian) (preloaded format=xelatex 2026.4.1)  22 JUN 2026 15:48
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1256,7 +1256,11 @@ Package biblatex Warning: 'babel/polyglossia' detected but 'csquotes' missing.
 
 \@quotelevel=\count536
 \@quotereset=\count537
-(./Main.aux)
+(./Main.aux
+
+LaTeX Warning: Label `sec:optical_contact_bonding' multiply defined.
+
+)
 \openout1 = `Main.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 42.
@@ -1524,12 +1528,12 @@ Overfull \hbox (7.14902pt too wide) in paragraph at lines 10--10
  [][] [][]\TU/TeXGyreTermes(0)/m/n/10.95 Optical micrograph of a fabricated LWVC showing its internal architecture: (a) reser- 
  []
 
-[8]
-Overfull \hbox (3.63693pt too wide) in paragraph at lines 29--29
- \TU/TeXGyreTermes(0)/m/n/10.95 aluminosilicate, Al$[]$O$[]$-coated borofloat, and Al$[]$O$[]$-coated aluminosilicate glasses. 
+[8] [9]
+Overfull \hbox (9.25598pt too wide) in paragraph at lines 48--48
+ [][] [][]\TU/TeXGyreTermes(0)/m/n/10.95 Experimental setup for the tensile test, showing the bonded fused silica disks mounted 
  []
 
-[9] [10])
+[10])
 \tf@lof=\write9
 \openout9 = `Main.lof'.
 
@@ -1561,13 +1565,13 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 [1
 
 ]
-Overfull \hbox (12.58516pt too wide) in paragraph at lines 107--126
+Overfull \hbox (12.58516pt too wide) in paragraph at lines 104--123
 \TU/TeXGyreTermes(0)/m/n/10.95 and $\OT1/cmr/m/n/10.95 1$$[]$ \TU/TeXGyreTermes(0)/m/n/10.95 (Figure []1.4[]) that combine electrical and mechanical components fabricated using integrated-
  []
 
-[2]
 File: Images/wafer_example.jpg Graphic file (type bmp)
 <Images/wafer_example.jpg>
+[2]
 File: Images/memspic.png Graphic file (type bmp)
 <Images/memspic.png>
 
@@ -1578,31 +1582,34 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 File: Images/basicvaporcell.png Graphic file (type bmp)
 <Images/basicvaporcell.png>
  [4] [5]
-Overfull \hbox (43.92027pt too wide) in paragraph at lines 307--320
+Overfull \hbox (43.92027pt too wide) in paragraph at lines 304--317
 \OT1/cmr/m/n/10.95 9\OML/cmm/m/it/10.95 :\OT1/cmr/m/n/10.95 192 631 770$$[]$ \TU/TeXGyreTermes(0)/m/n/10.95 for the $[]$Cs clock transition that defines the international second, and $\OT1/cmr/m/n/10.95 6\OML/cmm/m/it/10.95 :\OT1/cmr/m/n/10.95 834 682 610$$[]$
  []
 
 
-Overfull \hbox (22.71352pt too wide) in paragraph at lines 349--354
+Overfull \hbox (22.71352pt too wide) in paragraph at lines 346--351
 \TU/TeXGyreTermes(0)/m/n/10.95 In practice, technical noise—laser intensity fluctuations, frequency drift, imperfect magnetic shielding—
  []
 
 [6]
-Overfull \hbox (4.03282pt too wide) in paragraph at lines 403--412
+Overfull \hbox (4.03282pt too wide) in paragraph at lines 400--409
 []\TU/TeXGyreTermes(0)/m/n/10.95 Among these, optically pumped magnetometers (OPMs) are the most mature vapor-cell sensors [[]14[]].
  []
 
 [7]
 File: Images/cell_parts.png Graphic file (type bmp)
 <Images/cell_parts.png>
- [8]
 File: Images/NEG_in_lwvc.png Graphic file (type bmp)
 <Images/NEG_in_lwvc.png>
- [9]
+ [8]
 File: Images/atomic_PIC.png Graphic file (type bmp)
 <Images/atomic_PIC.png>
 
-Overfull \hbox (1.34277pt too wide) in paragraph at lines 540--546
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[9]
+Overfull \hbox (1.34277pt too wide) in paragraph at lines 537--543
 \TU/TeXGyreTermes(0)/m/n/10.95 with external coupling components, offering a robust path toward mass-producible, field-deployable
  []
 
@@ -1611,17 +1618,17 @@ File: Images/lw_waveguide.png Graphic file (type bmp)
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[10] [11]
+[10]
 File: Images/lwvc_wafer.png Graphic file (type bmp)
 <Images/lwvc_wafer.png>
- [12]) [13] [14
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[11] [12]) [13] [14
 
 ]
 Chapter 2.
-[15] [16
-
-]
-Chapter 3.
 (./sections/Fabrication Methods/Introduction.tex
 Overfull \hbox (5.50737pt too wide) in paragraph at lines 1--19
 \TU/TeXGyreTermes(0)/m/n/10.95 Precision miniaturized sensors have become an increasingly relevant technology over recent decades,
@@ -1634,14 +1641,18 @@ Overfull \hbox (2.06728pt too wide) in paragraph at lines 20--35
 []\TU/TeXGyreTermes(0)/m/n/10.95 A Laser-Written Vapor Cell (LWVC) addresses these limitations by exploiting the three-dimensional
  []
 
-[17] [18]) (./sections/Fabrication Methods/Femtosecond Laser Writing.tex [19] [20]
+[15] [16]
+
+LaTeX Warning: Reference `sec:activation' on page 17 undefined on input line 124.
+
+) (./sections/Fabrication Methods/Femtosecond Laser Writing.tex [17] [18]
 File: Images/lwvc_3dmodel.png Graphic file (type bmp)
 <Images/lwvc_3dmodel.png>
-) (./sections/Fabrication Methods/Optical Contact Bonding/Intro Optical Contact Bonding.tex [21] [22]
+) (./sections/Fabrication Methods/Optical Contact Bonding/Intro Optical Contact Bonding.tex [19] [20]
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-) (./sections/Fabrication Methods/Optical Contact Bonding/Chemical Treatment.tex [23]
+) (./sections/Fabrication Methods/Optical Contact Bonding/Chemical Treatment.tex [21]
 File: Images/piranha_cairo_acid.png Graphic file (type bmp)
 <Images/piranha_cairo_acid.png>
 File: Images/activatedsurf.png Graphic file (type bmp)
@@ -1655,18 +1666,124 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 
 File: Images/zetapot.png Graphic file (type bmp)
 <Images/zetapot.png>
-[24]
+[22]
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[25] [26]) (./sections/Fabrication Methods/Optical Contact Bonding/Plasma-Activated Bonding.tex
+[23] [24]) (./sections/Fabrication Methods/Optical Contact Bonding/Plasma-Activated Bonding.tex
 File: Images/plasma_activation.png Graphic file (type bmp)
 <Images/plasma_activation.png>
- [27]
+ [25]
 File: Images/plasmatime.png Graphic file (type bmp)
 <Images/plasmatime.png>
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-) (./sections/Fabricat
+) (./sections/Fabrication Methods/Optical Contact Bonding/Annealing.tex [26] [27]
+File: Images/annealingtemp.png Graphic file (type bmp)
+<Images/annealingtemp.png>
+File: Images/annealing_time.png Graphic file (type bmp)
+<Images/annealing_time.png>
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+) (./sections/Fabrication Methods/Optical Contact Bonding/Pressure.tex [28] [29]
+File: Images/pressure.png Graphic file (type bmp)
+<Images/pressure.png>
+File: Images/chucks.png Graphic file (type bmp)
+<Images/chucks.png>
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+) (./sections/Fabrication Methods/NEG.tex [30]) [31] [32]
+Chapter 3.
+(./sections/Characterization and Quality Control/Introduction.tex [33
+
+]) (./sections/Characterization and Quality Control/Surface inspection using an AFM.tex
+File: Images/AFM_tip.JPG Graphic file (type bmp)
+<Images/AFM_tip.JPG>
+File: Images/Sample1_2D_compressed.pdf Graphic file (type pdf)
+<use Images/Sample1_2D_compressed.pdf>
+File: Images/Sample2_2D_compressed.pdf Graphic file (type pdf)
+<use Images/Sample2_2D_compressed.pdf>
+File: Images/Sample3_2D_compressed.pdf Graphic file (type pdf)
+<use Images/Sample3_2D_compressed.pdf>
+File: Images/Sample1_3D.pdf Graphic file (type pdf)
+<use Images/Sample1_3D.pdf>
+File: Images/Sample2_3D.pdf Graphic file (type pdf)
+<use Images/Sample2_3D.pdf>
+File: Images/Sample3_3D.pdf Graphic file (type pdf)
+<use Images/Sample3_3D.pdf>
+File: Images/Sample1_dist.pdf Graphic file (type pdf)
+<use Images/Sample1_dist.pdf>
+File: Images/Sample2_dist.pdf Graphic file (type pdf)
+<use Images/Sample2_dist.pdf>
+File: Images/Sample3_dist.pdf Graphic file (type pdf)
+<use Images/Sample3_dist.pdf>
+ [34]
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+) (./sections/Characterization and Quality Control/Contact Angle.tex [35] [36]
+File: Images/Contact_angle.png Graphic file (type bmp)
+<Images/Contact_angle.png>
+ [37]
+File: Images/Surface_tension.png Graphic file (type bmp)
+<Images/Surface_tension.png>
+) (./sections/Characterization and Quality Control/Visual Inspection.tex
+File: Images/newtonrings.jpg Graphic file (type bmp)
+<Images/newtonrings.jpg>
+) (./sections/Characterization and Quality Control/Strength Tests.tex
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[38]
+File: Images/razor_test.png Graphic file (type bmp)
+<Images/razor_test.png>
+File: Images/razor_realpic.jpeg Graphic file (type bmp)
+<Images/razor_realpic.jpeg>
+ [39] [40]
+File: Images/razor_atm.png Graphic file (type bmp)
+<Images/razor_atm.png>
+ [41]
+File: Images/tensile_test.jpeg Graphic file (type bmp)
+<Images/tensile_test.jpeg>
+ [42] [43]) (./sections/Characterization and Quality Control/Leak Tests Using Spectroscopy.tex
+File: Images/D1 & D2.png Graphic file (type bmp)
+<Images/D1 & D2.png>
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[44] [45])
+Overfull \hbox (5.38327pt too wide) in paragraph at lines 112--278
+\TU/TeXGyreTermes(0)/m/n/10.95 parison with benchmarks from the literature: the 707-day vacuum integrity demonstrated by Artusio-
+ []
+
+[46]
+Chapter 4.
+(./sections/Experiments and Applications/Intro.tex) (./sections/Experiments and Applications/Optical Contact Bonding Experiment.tex
+File: Images/chemical_hood.jpeg Graphic file (type bmp)
+<Images/chemical_hood.jpeg>
+ [47
+
+]
+File: Images/plasmapurple.jpeg Graphic file (type bmp)
+<Images/plasmapurple.jpeg>
+File: Images/n2drying.png Graphic file (type bmp)
+<Images/n2drying.png>
+ [48]
+File: Images/bonder.png Graphic file (type bmp)
+<Images/bonder.png>
+ [49]
+File: Images/Disks/Raw/acetone.png Graphic file (type bmp)
+<Images/Disks/Raw/acetone.png>
+File: Images/Disks/Processed/acetone.png Graphic file (type bmp)
+<Images/Disks/Processed/acetone.png>
+File: Images/Disks/Raw/plasma10.png Graphic file (type bmp)
+<Images/Disks/Raw/plasma10.png>
+File: Images/Disks/Processed/plasma10.png Graphic file (type bmp)
+<Images/Disks/Proc
