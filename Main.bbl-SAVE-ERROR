@@ -276,8 +276,8 @@
       \strng{authorbibnamehash}{1b0c298da8e738e24d7296a743aa81cc}
       \strng{authornamehash}{1b0c298da8e738e24d7296a743aa81cc}
       \strng{authorfullhash}{1b0c298da8e738e24d7296a743aa81cc}
-      \field{sortinit}{4}
-      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Comptes Rendus de l'Académie des Sciences}
@@ -623,8 +623,8 @@
       \strng{authorbibnamehash}{2587b6412a9a4d977c9eaf24b2b03cd7}
       \strng{authornamehash}{2587b6412a9a4d977c9eaf24b2b03cd7}
       \strng{authorfullhash}{2587b6412a9a4d977c9eaf24b2b03cd7}
-      \field{sortinit}{6}
-      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
+      \field{sortinit}{5}
+      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{isbn}{978-0198506164}
@@ -1148,8 +1148,8 @@
       \strng{authorbibnamehash}{4d375e6a14705be231ca16ed141e554c}
       \strng{authornamehash}{4d375e6a14705be231ca16ed141e554c}
       \strng{authorfullhash}{4d375e6a14705be231ca16ed141e554c}
-      \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{sortinit}{9}
+      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{month}{12}
@@ -4220,60 +4220,6 @@
       \range{pages}{12}
       \verb{doi}
       \verb 10.1039/C7RA08854J
-      \endverb
-    \endentry
-    \entry{nrings}{article}{}
-      \name{author}{6}{}{%
-        {{hash=688e5469dda8c4bbb2e649f9227cadee}{%
-           family={Howlader},
-           familyi={H\bibinitperiod},
-           given={Matiar\bibnamedelimb M.\bibnamedelimi R.},
-           giveni={M\bibinitperiod\bibinitdelim M\bibinitperiod\bibinitdelim R\bibinitperiod}}}%
-        {{hash=7620554a796f249c6e5d997a28e6d012}{%
-           family={Kagami},
-           familyi={K\bibinitperiod},
-           given={G.},
-           giveni={G\bibinitperiod}}}%
-        {{hash=6be0bfd0c38b2836c48cb212e445020d}{%
-           family={Lee},
-           familyi={L\bibinitperiod},
-           given={Sang\bibnamedelima Ho},
-           giveni={S\bibinitperiod\bibinitdelim H\bibinitperiod}}}%
-        {{hash=10447f3b65dc4ebd04e9457b25c77a36}{%
-           family={Wang},
-           familyi={W\bibinitperiod},
-           given={Jinguo\bibnamedelima G.},
-           giveni={J\bibinitperiod\bibinitdelim G\bibinitperiod}}}%
-        {{hash=7f607914be1b5f93a154a1f1685fd53f}{%
-           family={Kim},
-           familyi={K\bibinitperiod},
-           given={Moon\bibnamedelima J.},
-           giveni={M\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
-        {{hash=446c1f05505cbe67f5a37c5341defb06}{%
-           family={Yamauchi},
-           familyi={Y\bibinitperiod},
-           given={Akira},
-           giveni={A\bibinitperiod}}}%
-      }
-      \strng{namehash}{aa70c55cbd062291dac4626cf618a19d}
-      \strng{fullhash}{36e0844b7b0f41a2311854c1a132274d}
-      \strng{bibnamehash}{aa70c55cbd062291dac4626cf618a19d}
-      \strng{authorbibnamehash}{aa70c55cbd062291dac4626cf618a19d}
-      \strng{authornamehash}{aa70c55cbd062291dac4626cf618a19d}
-      \strng{authorfullhash}{36e0844b7b0f41a2311854c1a132274d}
-      \field{sortinit}{2}
-      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{Journal of Microelectromechanical Systems}
-      \field{number}{4}
-      \field{title}{Sequential Plasma-Activated Bonding Mechanism of Silicon/Silicon Wafers}
-      \field{volume}{19}
-      \field{year}{2010}
-      \field{pages}{840\bibrangedash 848}
-      \range{pages}{9}
-      \verb{doi}
-      \verb 10.1109/JMEMS.2010.2049731
       \endverb
     \endentry
     \entry{takeuchi2022}{article}{}

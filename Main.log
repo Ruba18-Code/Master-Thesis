@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999995 (TeX Live 2023/Debian) (preloaded format=xelatex 2026.4.1)  22 JUN 2026 15:48
+This is XeTeX, Version 3.141592653-2.6-0.999995 (TeX Live 2023/Debian) (preloaded format=xelatex 2026.4.1)  22 JUN 2026 17:29
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1256,93 +1256,89 @@ Package biblatex Warning: 'babel/polyglossia' detected but 'csquotes' missing.
 
 \@quotelevel=\count536
 \@quotereset=\count537
-(./Main.aux
-
-LaTeX Warning: Label `sec:optical_contact_bonding' multiply defined.
-
-)
+(./Main.aux)
 \openout1 = `Main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 42.
-LaTeX Font Info:    ... okay on input line 42.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 42.
-LaTeX Font Info:    ... okay on input line 42.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 42.
-LaTeX Font Info:    ... okay on input line 42.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 42.
-LaTeX Font Info:    ... okay on input line 42.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 42.
-LaTeX Font Info:    Trying to load font information for TS1+cmr on input line 42.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 49.
+LaTeX Font Info:    ... okay on input line 49.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 49.
+LaTeX Font Info:    ... okay on input line 49.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 49.
+LaTeX Font Info:    ... okay on input line 49.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 49.
+LaTeX Font Info:    ... okay on input line 49.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 49.
+LaTeX Font Info:    Trying to load font information for TS1+cmr on input line 49.
  (/usr/share/texlive/texmf-dist/tex/latex/base/ts1cmr.fd
 File: ts1cmr.fd 2023/04/13 v2.5m Standard LaTeX font definitions
 )
-LaTeX Font Info:    ... okay on input line 42.
-LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 42.
-LaTeX Font Info:    ... okay on input line 42.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 42.
-LaTeX Font Info:    ... okay on input line 42.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 42.
-LaTeX Font Info:    ... okay on input line 42.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 42.
-LaTeX Font Info:    ... okay on input line 42.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 42.
-LaTeX Font Info:    ... okay on input line 42.
+LaTeX Font Info:    ... okay on input line 49.
+LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 49.
+LaTeX Font Info:    ... okay on input line 49.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 49.
+LaTeX Font Info:    ... okay on input line 49.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 49.
+LaTeX Font Info:    ... okay on input line 49.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 49.
+LaTeX Font Info:    ... okay on input line 49.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 49.
+LaTeX Font Info:    ... okay on input line 49.
 
 Package fontspec Info: Adjusting the maths setup (use [no-math] to avoid
 (fontspec)             this).
 
 \symlegacymaths=\mathgroup6
 LaTeX Font Info:    Overwriting symbol font `legacymaths' in version `bold'
-(Font)                  OT1/cmr/m/n --> OT1/cmr/bx/n on input line 42.
-LaTeX Font Info:    Redeclaring math accent \acute on input line 42.
-LaTeX Font Info:    Redeclaring math accent \grave on input line 42.
-LaTeX Font Info:    Redeclaring math accent \ddot on input line 42.
-LaTeX Font Info:    Redeclaring math accent \tilde on input line 42.
-LaTeX Font Info:    Redeclaring math accent \bar on input line 42.
-LaTeX Font Info:    Redeclaring math accent \breve on input line 42.
-LaTeX Font Info:    Redeclaring math accent \check on input line 42.
-LaTeX Font Info:    Redeclaring math accent \hat on input line 42.
-LaTeX Font Info:    Redeclaring math accent \dot on input line 42.
-LaTeX Font Info:    Redeclaring math accent \mathring on input line 42.
-LaTeX Font Info:    Redeclaring math symbol \Gamma on input line 42.
-LaTeX Font Info:    Redeclaring math symbol \Delta on input line 42.
-LaTeX Font Info:    Redeclaring math symbol \Theta on input line 42.
-LaTeX Font Info:    Redeclaring math symbol \Lambda on input line 42.
-LaTeX Font Info:    Redeclaring math symbol \Xi on input line 42.
-LaTeX Font Info:    Redeclaring math symbol \Pi on input line 42.
-LaTeX Font Info:    Redeclaring math symbol \Sigma on input line 42.
-LaTeX Font Info:    Redeclaring math symbol \Upsilon on input line 42.
-LaTeX Font Info:    Redeclaring math symbol \Phi on input line 42.
-LaTeX Font Info:    Redeclaring math symbol \Psi on input line 42.
-LaTeX Font Info:    Redeclaring math symbol \Omega on input line 42.
-LaTeX Font Info:    Redeclaring math symbol \mathdollar on input line 42.
-LaTeX Font Info:    Redeclaring symbol font `operators' on input line 42.
+(Font)                  OT1/cmr/m/n --> OT1/cmr/bx/n on input line 49.
+LaTeX Font Info:    Redeclaring math accent \acute on input line 49.
+LaTeX Font Info:    Redeclaring math accent \grave on input line 49.
+LaTeX Font Info:    Redeclaring math accent \ddot on input line 49.
+LaTeX Font Info:    Redeclaring math accent \tilde on input line 49.
+LaTeX Font Info:    Redeclaring math accent \bar on input line 49.
+LaTeX Font Info:    Redeclaring math accent \breve on input line 49.
+LaTeX Font Info:    Redeclaring math accent \check on input line 49.
+LaTeX Font Info:    Redeclaring math accent \hat on input line 49.
+LaTeX Font Info:    Redeclaring math accent \dot on input line 49.
+LaTeX Font Info:    Redeclaring math accent \mathring on input line 49.
+LaTeX Font Info:    Redeclaring math symbol \Gamma on input line 49.
+LaTeX Font Info:    Redeclaring math symbol \Delta on input line 49.
+LaTeX Font Info:    Redeclaring math symbol \Theta on input line 49.
+LaTeX Font Info:    Redeclaring math symbol \Lambda on input line 49.
+LaTeX Font Info:    Redeclaring math symbol \Xi on input line 49.
+LaTeX Font Info:    Redeclaring math symbol \Pi on input line 49.
+LaTeX Font Info:    Redeclaring math symbol \Sigma on input line 49.
+LaTeX Font Info:    Redeclaring math symbol \Upsilon on input line 49.
+LaTeX Font Info:    Redeclaring math symbol \Phi on input line 49.
+LaTeX Font Info:    Redeclaring math symbol \Psi on input line 49.
+LaTeX Font Info:    Redeclaring math symbol \Omega on input line 49.
+LaTeX Font Info:    Redeclaring math symbol \mathdollar on input line 49.
+LaTeX Font Info:    Redeclaring symbol font `operators' on input line 49.
 LaTeX Font Info:    Encoding `OT1' has changed to `TU' for symbol font
-(Font)              `operators' in the math version `normal' on input line 42.
+(Font)              `operators' in the math version `normal' on input line 49.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
-(Font)                  OT1/cmr/m/n --> TU/TeXGyreTermes(0)/m/n on input line 42.
+(Font)                  OT1/cmr/m/n --> TU/TeXGyreTermes(0)/m/n on input line 49.
 LaTeX Font Info:    Encoding `OT1' has changed to `TU' for symbol font
-(Font)              `operators' in the math version `bold' on input line 42.
+(Font)              `operators' in the math version `bold' on input line 49.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
-(Font)                  OT1/cmr/bx/n --> TU/TeXGyreTermes(0)/m/n on input line 42.
+(Font)                  OT1/cmr/bx/n --> TU/TeXGyreTermes(0)/m/n on input line 49.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
-(Font)                  TU/TeXGyreTermes(0)/m/n --> TU/TeXGyreTermes(0)/m/n on input line 42.
+(Font)                  TU/TeXGyreTermes(0)/m/n --> TU/TeXGyreTermes(0)/m/n on input line 49.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
-(Font)                  OT1/cmr/m/it --> TU/TeXGyreTermes(0)/m/it on input line 42.
+(Font)                  OT1/cmr/m/it --> TU/TeXGyreTermes(0)/m/it on input line 49.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
-(Font)                  OT1/cmr/bx/n --> TU/TeXGyreTermes(0)/b/n on input line 42.
+(Font)                  OT1/cmr/bx/n --> TU/TeXGyreTermes(0)/b/n on input line 49.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
-(Font)                  OT1/cmss/m/n --> TU/phv/m/n on input line 42.
+(Font)                  OT1/cmss/m/n --> TU/phv/m/n on input line 49.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
-(Font)                  OT1/cmtt/m/n --> TU/lmtt/m/n on input line 42.
+(Font)                  OT1/cmtt/m/n --> TU/lmtt/m/n on input line 49.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
-(Font)                  TU/TeXGyreTermes(0)/m/n --> TU/TeXGyreTermes(0)/b/n on input line 42.
+(Font)                  TU/TeXGyreTermes(0)/m/n --> TU/TeXGyreTermes(0)/b/n on input line 49.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
-(Font)                  OT1/cmr/bx/it --> TU/TeXGyreTermes(0)/b/it on input line 42.
+(Font)                  OT1/cmr/bx/it --> TU/TeXGyreTermes(0)/b/it on input line 49.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
-(Font)                  OT1/cmss/bx/n --> TU/phv/b/n on input line 42.
+(Font)                  OT1/cmss/bx/n --> TU/phv/b/n on input line 49.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
-(Font)                  OT1/cmtt/m/n --> TU/lmtt/b/n on input line 42.
+(Font)                  OT1/cmtt/m/n --> TU/lmtt/b/n on input line 49.
 \c@lstlisting=\count538
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: float package is loaded.
@@ -1369,7 +1365,7 @@ Package siunitx Warning: Detected the "physics" package:
 (/usr/share/texlive/texmf-dist/tex/latex/translations/translations-basic-dictionary-english.trsl
 File: translations-basic-dictionary-english.trsl (english translation file `translations-basic-dictionary')
 )
-Package translations Info: loading dictionary `translations-basic-dictionary' for `english'. on input line 42.
+Package translations Info: loading dictionary `translations-basic-dictionary' for `english'. on input line 49.
  (./Main.glsdefs)
 *geometry* driver: auto-detecting
 *geometry* detected driver: xetex
@@ -1419,103 +1415,46 @@ Package biblatex Info: Automatic encoding selection.
 Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'Main.bbl' found.
  (./Main.bbl)
-Package biblatex Info: Reference section=0 on input line 42.
-Package biblatex Info: Reference segment=0 on input line 42.
-Package hyperref Info: Link coloring OFF on input line 42.
+Package biblatex Info: Reference section=0 on input line 49.
+Package biblatex Info: Reference segment=0 on input line 49.
+Package hyperref Info: Link coloring OFF on input line 49.
  (./Main.out) (./Main.out)
 \@outlinefile=\write7
 \openout7 = `Main.out'.
 
 
-Package chemgreek Info: Activating mapping `fontspec' on line 42.
+Package chemgreek Info: Activating mapping `fontspec' on line 49.
 
  [1
 
 \openout4 = `Main.ist'.
 
 ] [2]
-Overfull \hbox (9.98468pt too wide) in paragraph at lines 145--152
+Overfull \hbox (9.98468pt too wide) in paragraph at lines 152--159
 \TU/TeXGyreTermes(0)/m/n/10.95 ment; Atomic Sensors; Magnetometry; Hanle Resonance; Magnetoencephalography; Atomic Clocks;
  []
 
 [3]
-Underfull \hbox (badness 10000) in paragraph at lines 173--173
+Underfull \hbox (badness 10000) in paragraph at lines 169--169
 
  []
 
 \ajuste=\skip156
-LaTeX Font Info:    Trying to load font information for U+msa on input line 176.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 171.
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 176.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 171.
  (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-Missing character: There is no h ("68) in font nullfont!
-Missing character: There is no t ("74) in font nullfont!
-Missing character: There is no t ("74) in font nullfont!
-Missing character: There is no p ("70) in font nullfont!
-Missing character: There is no s ("73) in font nullfont!
-Missing character: There is no : ("3A) in font nullfont!
-Missing character: There is no / ("2F) in font nullfont!
-Missing character: There is no / ("2F) in font nullfont!
-Missing character: There is no w ("77) in font nullfont!
-Missing character: There is no w ("77) in font nullfont!
-Missing character: There is no w ("77) in font nullfont!
-Missing character: There is no . ("2E) in font nullfont!
-Missing character: There is no o ("6F) in font nullfont!
-Missing character: There is no v ("76) in font nullfont!
-Missing character: There is no e ("65) in font nullfont!
-Missing character: There is no r ("72) in font nullfont!
-Missing character: There is no l ("6C) in font nullfont!
-Missing character: There is no e ("65) in font nullfont!
-Missing character: There is no a ("61) in font nullfont!
-Missing character: There is no f ("66) in font nullfont!
-Missing character: There is no . ("2E) in font nullfont!
-Missing character: There is no c ("63) in font nullfont!
-Missing character: There is no o ("6F) in font nullfont!
-Missing character: There is no m ("6D) in font nullfont!
-Missing character: There is no / ("2F) in font nullfont!
-Missing character: There is no p ("70) in font nullfont!
-Missing character: There is no r ("72) in font nullfont!
-Missing character: There is no o ("6F) in font nullfont!
-Missing character: There is no j ("6A) in font nullfont!
-Missing character: There is no e ("65) in font nullfont!
-Missing character: There is no c ("63) in font nullfont!
-Missing character: There is no t ("74) in font nullfont!
-Missing character: There is no / ("2F) in font nullfont!
-Missing character: There is no 5 ("35) in font nullfont!
-Missing character: There is no d ("64) in font nullfont!
-Missing character: There is no 9 ("39) in font nullfont!
-Missing character: There is no 1 ("31) in font nullfont!
-Missing character: There is no e ("65) in font nullfont!
-Missing character: There is no 3 ("33) in font nullfont!
-Missing character: There is no b ("62) in font nullfont!
-Missing character: There is no 0 ("30) in font nullfont!
-Missing character: There is no 3 ("33) in font nullfont!
-Missing character: There is no 5 ("35) in font nullfont!
-Missing character: There is no 8 ("38) in font nullfont!
-Missing character: There is no a ("61) in font nullfont!
-Missing character: There is no a ("61) in font nullfont!
-Missing character: There is no b ("62) in font nullfont!
-Missing character: There is no 0 ("30) in font nullfont!
-Missing character: There is no 0 ("30) in font nullfont!
-Missing character: There is no 0 ("30) in font nullfont!
-Missing character: There is no 1 ("31) in font nullfont!
-Missing character: There is no a ("61) in font nullfont!
-Missing character: There is no e ("65) in font nullfont!
-Missing character: There is no 4 ("34) in font nullfont!
-Missing character: There is no e ("65) in font nullfont!
-Missing character: There is no 9 ("39) in font nullfont!
-Missing character: There is no d ("64) in font nullfont!
 File: graficos/logos.png Graphic file (type bmp)
 <graficos/logos.png>
 File: graficos/marca_UPV_principal_negro.pdf Graphic file (type pdf)
 <use graficos/marca_UPV_principal_negro.pdf>
 File: graficos/2018_TELECOMVLC.pdf Graphic file (type pdf)
 <use graficos/2018_TELECOMVLC.pdf>
-[4
+ [4
 
 ] [5
 
@@ -1529,7 +1468,17 @@ Overfull \hbox (7.14902pt too wide) in paragraph at lines 10--10
  []
 
 [8] [9]
-Overfull \hbox (9.25598pt too wide) in paragraph at lines 48--48
+Overfull \hbox (2.16278pt too wide) in paragraph at lines 44--44
+ \TU/TeXGyreTermes(0)/m/n/10.95 Only (middle), and DIW+Piranha+DIW+Plasma (bottom). Each row displays Sam- 
+ []
+
+
+Overfull \hbox (49.36943pt too wide) in paragraph at lines 45--45
+ [][] [][]\TU/TeXGyreTermes(0)/m/n/10.95 Bonding results for chemical procedures with three independent samples: DIW+Piranha+DIW 
+ []
+
+
+Overfull \hbox (9.25598pt too wide) in paragraph at lines 47--47
  [][] [][]\TU/TeXGyreTermes(0)/m/n/10.95 Experimental setup for the tensile test, showing the bonded fused silica disks mounted 
  []
 
@@ -1648,7 +1597,11 @@ LaTeX Warning: Reference `sec:activation' on page 17 undefined on input line 124
 ) (./sections/Fabrication Methods/Femtosecond Laser Writing.tex [17] [18]
 File: Images/lwvc_3dmodel.png Graphic file (type bmp)
 <Images/lwvc_3dmodel.png>
-) (./sections/Fabrication Methods/Optical Contact Bonding/Intro Optical Contact Bonding.tex [19] [20]
+) (./sections/Fabrication Methods/Optical Contact Bonding/Intro Optical Contact Bonding.tex [19]
+
+LaTeX Warning: Reference `sec:experimental_contact_bonding' on page 20 undefined on input line 46.
+
+[20]
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
@@ -1657,39 +1610,30 @@ File: Images/piranha_cairo_acid.png Graphic file (type bmp)
 <Images/piranha_cairo_acid.png>
 File: Images/activatedsurf.png Graphic file (type bmp)
 <Images/activatedsurf.png>
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
+ [22]
 File: Images/zetapot.png Graphic file (type bmp)
 <Images/zetapot.png>
-[22]
+ [23] [24]) (./sections/Fabrication Methods/Optical Contact Bonding/Plasma-Activated Bonding.tex
+File: Images/plasma_activation.png Graphic file (type bmp)
+<Images/plasma_activation.png>
+
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[23] [24]) (./sections/Fabrication Methods/Optical Contact Bonding/Plasma-Activated Bonding.tex
-File: Images/plasma_activation.png Graphic file (type bmp)
-<Images/plasma_activation.png>
- [25]
+[25]
 File: Images/plasmatime.png Graphic file (type bmp)
 <Images/plasmatime.png>
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-) (./sections/Fabrication Methods/Optical Contact Bonding/Annealing.tex [26] [27]
+[26]) (./sections/Fabrication Methods/Optical Contact Bonding/Annealing.tex [27]
 File: Images/annealingtemp.png Graphic file (type bmp)
 <Images/annealingtemp.png>
+ [28]
 File: Images/annealing_time.png Graphic file (type bmp)
 <Images/annealing_time.png>
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-) (./sections/Fabrication Methods/Optical Contact Bonding/Pressure.tex [28] [29]
+) (./sections/Fabrication Methods/Optical Contact Bonding/Pressure.tex [29]
 File: Images/pressure.png Graphic file (type bmp)
 <Images/pressure.png>
 File: Images/chucks.png Graphic file (type bmp)
@@ -1698,7 +1642,7 @@ File: Images/chucks.png Graphic file (type bmp)
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-) (./sections/Fabrication Methods/NEG.tex [30]) [31] [32]
+) (./sections/Fabrication Methods/NEG.tex [30] [31]) [32]
 Chapter 3.
 (./sections/Characterization and Quality Control/Introduction.tex [33
 
@@ -1734,13 +1678,15 @@ File: Images/Contact_angle.png Graphic file (type bmp)
 File: Images/Surface_tension.png Graphic file (type bmp)
 <Images/Surface_tension.png>
 ) (./sections/Characterization and Quality Control/Visual Inspection.tex
-File: Images/newtonrings.jpg Graphic file (type bmp)
-<Images/newtonrings.jpg>
-) (./sections/Characterization and Quality Control/Strength Tests.tex
+File: Images/Disks/Raw/rca_piranha.png Graphic file (type bmp)
+<Images/Disks/Raw/rca_piranha.png>
+File: Images/Disks/Raw/rca_piranha3.png Graphic file (type bmp)
+<Images/Disks/Raw/rca_piranha3.png>
+
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[38]
+) (./sections/Characterization and Quality Control/Strength Tests.tex [38]
 File: Images/razor_test.png Graphic file (type bmp)
 <Images/razor_test.png>
 File: Images/razor_realpic.jpeg Graphic file (type bmp)
@@ -1754,36 +1700,255 @@ File: Images/tensile_test.jpeg Graphic file (type bmp)
  [42] [43]) (./sections/Characterization and Quality Control/Leak Tests Using Spectroscopy.tex
 File: Images/D1 & D2.png Graphic file (type bmp)
 <Images/D1 & D2.png>
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-[44] [45])
-Overfull \hbox (5.38327pt too wide) in paragraph at lines 112--278
+ [44])
+Overfull \hbox (5.38327pt too wide) in paragraph at lines 112--266
 \TU/TeXGyreTermes(0)/m/n/10.95 parison with benchmarks from the literature: the 707-day vacuum integrity demonstrated by Artusio-
  []
 
-[46]
+[45] [46]
 Chapter 4.
 (./sections/Experiments and Applications/Intro.tex) (./sections/Experiments and Applications/Optical Contact Bonding Experiment.tex
 File: Images/chemical_hood.jpeg Graphic file (type bmp)
 <Images/chemical_hood.jpeg>
  [47
 
-]
-File: Images/plasmapurple.jpeg Graphic file (type bmp)
-<Images/plasmapurple.jpeg>
+] [48]
+File: Images/plasmapurple.png Graphic file (type bmp)
+<Images/plasmapurple.png>
+ [49]
 File: Images/n2drying.png Graphic file (type bmp)
 <Images/n2drying.png>
- [48]
 File: Images/bonder.png Graphic file (type bmp)
 <Images/bonder.png>
- [49]
-File: Images/Disks/Raw/acetone.png Graphic file (type bmp)
-<Images/Disks/Raw/acetone.png>
-File: Images/Disks/Processed/acetone.png Graphic file (type bmp)
-<Images/Disks/Processed/acetone.png>
+ [50]
+File: Images/Disks/Raw/ethanol.png Graphic file (type bmp)
+<Images/Disks/Raw/ethanol.png>
+File: Images/Disks/Processed/ethanol.png Graphic file (type bmp)
+<Images/Disks/Processed/ethanol.png>
+File: Images/Disks/Raw/ethanol2.png Graphic file (type bmp)
+<Images/Disks/Raw/ethanol2.png>
+File: Images/Disks/Processed/ethanol2.png Graphic file (type bmp)
+<Images/Disks/Processed/ethanol2.png>
 File: Images/Disks/Raw/plasma10.png Graphic file (type bmp)
 <Images/Disks/Raw/plasma10.png>
 File: Images/Disks/Processed/plasma10.png Graphic file (type bmp)
-<Images/Disks/Proc
+<Images/Disks/Processed/plasma10.png>
+File: Images/Disks/Raw/plasma10_2.png Graphic file (type bmp)
+<Images/Disks/Raw/plasma10_2.png>
+File: Images/Disks/Processed/plasma10_2.png Graphic file (type bmp)
+<Images/Disks/Processed/plasma10_2.png>
+File: Images/Disks/Raw/piranha_plasma.png Graphic file (type bmp)
+<Images/Disks/Raw/piranha_plasma.png>
+File: Images/Disks/Processed/piranha_plasma.png Graphic file (type bmp)
+<Images/Disks/Processed/piranha_plasma.png>
+File: Images/Disks/Raw/piranha_plasma2.png Graphic file (type bmp)
+<Images/Disks/Raw/piranha_plasma2.png>
+File: Images/Disks/Processed/piranha_plasma2.png Graphic file (type bmp)
+<Images/Disks/Processed/piranha_plasma2.png>
+File: Images/Disks/Raw/piranha.png Graphic file (type bmp)
+<Images/Disks/Raw/piranha.png>
+File: Images/Disks/Processed/piranha.png Graphic file (type bmp)
+<Images/Disks/Processed/piranha.png>
+File: Images/Disks/Raw/piranha2.png Graphic file (type bmp)
+<Images/Disks/Raw/piranha2.png>
+File: Images/Disks/Processed/piranha2.png Graphic file (type bmp)
+<Images/Disks/Processed/piranha2.png>
+File: Images/Disks/Raw/piranha3.png Graphic file (type bmp)
+<Images/Disks/Raw/piranha3.png>
+File: Images/Disks/Processed/piranha3.png Graphic file (type bmp)
+<Images/Disks/Processed/piranha3.png>
+File: Images/Disks/Raw/rca_piranha.png Graphic file (type bmp)
+<Images/Disks/Raw/rca_piranha.png>
+File: Images/Disks/Processed/rca_piranha.png Graphic file (type bmp)
+<Images/Disks/Processed/rca_piranha.png>
+File: Images/Disks/Raw/rca_piranha2.png Graphic file (type bmp)
+<Images/Disks/Raw/rca_piranha2.png>
+File: Images/Disks/Processed/rca_piranha2.png Graphic file (type bmp)
+<Images/Disks/Processed/rca_piranha2.png>
+File: Images/Disks/Raw/rca_piranha3.png Graphic file (type bmp)
+<Images/Disks/Raw/rca_piranha3.png>
+File: Images/Disks/Processed/rca_piranha3.png Graphic file (type bmp)
+<Images/Disks/Processed/rca_piranha3.png>
+File: Images/placeholder.png Graphic file (type bmp)
+<Images/placeholder.png>
+ [51] [52]
+File: Images/placeholder.png Graphic file (type bmp)
+<Images/placeholder.png>
+) (./sections/Experiments and Applications/Train Application.tex [53]
+File: Images/deansopm.png Graphic file (type bmp)
+<Images/deansopm.png>
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+File: Images/wickenopm.png Graphic file (type bmp)
+<Images/wickenopm.png>
+
+Overfull \hbox (5.96362pt too wide) in paragraph at lines 62--88
+\TU/TeXGyreTermes(0)/m/n/10.95 When microfabricated into advanced architectures such as LWVCs, OPMs can achieve ultra-compact
+ []
+
+
+Overfull \hbox (0.16747pt too wide) in paragraph at lines 62--88
+\TU/TeXGyreTermes(0)/m/n/10.95 (SQUIDs), these miniaturized atomic sensors enable highly portable operations and scalable, multi-
+ []
+
+[54]
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[55] [56] [57]
+File: Images/simulationsetup.png Graphic file (type bmp)
+<Images/simulationsetup.png>
+ [58]
+File: Images/generalmesh.png Graphic file (type bmp)
+<Images/generalmesh.png>
+File: Images/topmesh.png Graphic file (type bmp)
+<Images/topmesh.png>
+File: Images/bottommesh.png Graphic file (type bmp)
+<Images/bottommesh.png>
+File: Images/corrosionmesh.png Graphic file (type bmp)
+<Images/corrosionmesh.png>
+ [59]
+File: Images/totalBcoil.png Graphic file (type bmp)
+<Images/totalBcoil.png>
+File: Images/totalBclamps.png Graphic file (type bmp)
+<Images/totalBclamps.png>
+File: Images/totalBclampssmall.png Graphic file (type bmp)
+<Images/totalBclampssmall.png>
+File: Images/totalBclampscorr.png Graphic file (type bmp)
+<Images/totalBclampscorr.png>
+File: Images/totalBclampsbig.png Graphic file (type bmp)
+<Images/totalBclampsbig.png>
+File: Images/totalBhealthylowf1.png Graphic file (type bmp)
+<Images/totalBhealthylowf1.png>
+File: Images/totalBlowf1.png Graphic file (type bmp)
+<Images/totalBlowf1.png>
+ [60] [61] [62]
+File: Images/totalBlowf.png Graphic file (type bmp)
+<Images/totalBlowf.png>
+File: Images/totalBmidf.png Graphic file (type bmp)
+<Images/totalBmidf.png>
+File: Images/totalBhighf.png Graphic file (type bmp)
+<Images/totalBhighf.png>
+ [63] [64]
+File: Images/diffB.png Graphic file (type bmp)
+<Images/diffB.png>
+File: Images/placeholder.png Graphic file (type bmp)
+<Images/placeholder.png>
+ [65]
+File: Images/placeholder.png Graphic file (type bmp)
+<Images/placeholder.png>
+) (./sections/Experiments and Applications/Magnetometry Experiment 1.tex [66] [67] [68]
+File: Images/magnetic_setup.jpg Graphic file (type bmp)
+<Images/magnetic_setup.jpg>
+ [69]
+File: Images/magnetic_exp_Yvar.pdf Graphic file (type pdf)
+<use Images/magnetic_exp_Yvar.pdf>
+File: Images/magnetic_exp_Zvar.pdf Graphic file (type pdf)
+<use Images/magnetic_exp_Zvar.pdf>
+File: Images/magnetic_exp_YZvar.pdf Graphic file (type pdf)
+<use Images/magnetic_exp_YZvar.pdf>
+File: Images/Fit_00Y_45Z.pdf Graphic file (type pdf)
+<use Images/Fit_00Y_45Z.pdf>
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+) [70] [71] [72
+
+]
+Chapter 5.
+[73] [74
+
+]
+Overfull \hbox (27.0177pt too wide) in paragraph at lines 275--275
+[]\TU/TeXGyreTermes(0)/m/n/10.95 D. V. Rogers. \TU/TeXGyreTermes(0)/m/it/10.95 A diagram that shows the Zhang Heng seismoscope\TU/TeXGyreTermes(0)/m/n/10.95 . \TU/TeXGyreTermes(0)/m/sc/10.95 url\TU/TeXGyreTermes(0)/m/n/10.95 : []$[][][][][] [] [] [] [][][][][][][][][][][] []
+ []
+
+[75] [76]
+Overfull \hbox (10.70496pt too wide) in paragraph at lines 275--275
+[]\TU/TeXGyreTermes(0)/m/n/10.95 Sara Lo Turco, Andrea Di Donato, and Luigino Criante. “Scattering effects of glass-embedded
+ []
+
+
+Overfull \hbox (0.94754pt too wide) in paragraph at lines 275--275
+\TU/TeXGyreTermes(0)/m/n/10.95 microstructures by roughness controlled fs-laser micromachining”. In: \TU/TeXGyreTermes(0)/m/it/10.95 Journal of Microme-
+ []
+
+
+Overfull \hbox (7.4564pt too wide) in paragraph at lines 275--275
+\TU/TeXGyreTermes(0)/m/it/10.95 view of Materials Science \TU/TeXGyreTermes(0)/m/n/10.95 28 (1998), pp. 215–241. \TU/TeXGyreTermes(0)/m/sc/10.95 url\TU/TeXGyreTermes(0)/m/n/10.95 : []$[][][][][] [] [] [] [][][] [] [][][][][][][][][][][][][][][] []
+ []
+
+[77]
+Overfull \hbox (2.2506pt too wide) in paragraph at lines 275--275
+[]\TU/TeXGyreTermes(0)/m/n/10.95 Rolf Brückner. “Properties and structure of vitreous silica. I”. In: \TU/TeXGyreTermes(0)/m/it/10.95 Journal of Non-Crystalline
+ []
+
+[78]
+Overfull \hbox (36.8288pt too wide) in paragraph at lines 275--275
+\TU/TeXGyreTermes(0)/m/it/10.95 Precision Products\TU/TeXGyreTermes(0)/m/n/10.95 . CRC Press, Oct. 2018. \TU/TeXGyreTermes(0)/m/sc/10.95 isbn\TU/TeXGyreTermes(0)/m/n/10.95 : 9781482289992. \TU/TeXGyreTermes(0)/m/sc/10.95 doi\TU/TeXGyreTermes(0)/m/n/10.95 : []$[][] [] [][][][] [] [][][][][][][][][][][][][]$[].
+ []
+
+
+Overfull \hbox (38.89746pt too wide) in paragraph at lines 275--275
+\TU/TeXGyreTermes(0)/m/n/10.95 Silicon Wafers”. In: \TU/TeXGyreTermes(0)/m/it/10.95 Particles on Surfaces 2\TU/TeXGyreTermes(0)/m/n/10.95 . Springer US, 1989, pp. 297–306. \TU/TeXGyreTermes(0)/m/sc/10.95 isbn\TU/TeXGyreTermes(0)/m/n/10.95 : 9781461305316.
+ []
+
+[79] [80]
+Overfull \hbox (2.82265pt too wide) in paragraph at lines 275--275
+\TU/TeXGyreTermes(0)/m/n/10.95 Wetting Phenomena”. In: 2004. \TU/TeXGyreTermes(0)/m/sc/10.95 url\TU/TeXGyreTermes(0)/m/n/10.95 : []$[][][][][] [] [] [] [][][] [] [][][][][][][][][][][][][][][] [] [][][] [] [][][][][][][][] []
+ []
+
+
+Overfull \hbox (20.89204pt too wide) in paragraph at lines 275--275
+[]\TU/TeXGyreTermes(0)/m/n/10.95 S. Mack (Max-Planck-Institut). “Eine vergleichende Untersuchung der physikalisch-chemischen
+ []
+
+
+Overfull \hbox (4.08202pt too wide) in paragraph at lines 275--275
+[]\TU/TeXGyreTermes(0)/m/n/10.95 B Muller and A Stoffel. “Tensile strength characterization of low-temperature fusion-bonded
+ []
+
+
+Overfull \hbox (17.6672pt too wide) in paragraph at lines 275--275
+\TU/TeXGyreTermes(0)/m/it/10.95 tions, Third Edition\TU/TeXGyreTermes(0)/m/n/10.95 . CRC Press, 2005. \TU/TeXGyreTermes(0)/m/sc/10.95 isbn\TU/TeXGyreTermes(0)/m/n/10.95 : 9780429125676. \TU/TeXGyreTermes(0)/m/sc/10.95 doi\TU/TeXGyreTermes(0)/m/n/10.95 : []$[][] [] [][][][] [] [][][][][][][][][][][][][]$[].
+ []
+
+
+Overfull \hbox (3.748pt too wide) in paragraph at lines 275--275
+\TU/TeXGyreTermes(0)/m/it/10.95 Materials Science Letters \TU/TeXGyreTermes(0)/m/n/10.95 20.18 (2001), pp. 1667–1670. \TU/TeXGyreTermes(0)/m/sc/10.95 doi\TU/TeXGyreTermes(0)/m/n/10.95 : []$[][] [] [][][][] [] [] [] [][][][][][][][][][][][][]$[]. 
+ []
+
+[81] [82] [83] [84
+
+] [85] [86]
+Appendix A.
+(./sections/Appendix/Recipes in Literature.tex [87
+
+] [88]) (./Main.aux)
+ ***********
+LaTeX2e <2023-11-01> patch level 1
+L3 programming layer <2024-01-22>
+ ***********
+
+
+LaTeX Warning: There were undefined references.
+
+Package rerunfilecheck Info: File `Main.out' has not changed.
+(rerunfilecheck)             Checksum: 15315D4FBAC19EC0D253D4EB01582C05;11273.
+Package logreq Info: Writing requests to 'Main.run.xml'.
+\openout1 = `Main.run.xml'.
+
+ ) 
+Here is how much of TeX's memory you used:
+ 47888 strings out of 474878
+ 999577 string characters out of 5762517
+ 1958627 words of memory out of 5000000
+ 69050 multiletter control sequences out of 15000+600000
+ 566673 words of font info for 113 fonts, out of 8000000 for 9000
+ 1348 hyphenation exceptions out of 8191
+ 96i,15n,96p,2389b,5524s stack positions out of 10000i,1000n,20000p,200000b,200000s
+
+Output written on Main.pdf (103 pages).

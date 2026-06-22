@@ -1,5 +1,12 @@
 \documentclass[11pt,english,a4paper,hidelinks]{book}
 
+% =========================================================================
+% Descomenta la siguiente línea quitando el '%' mientras escribas el texto.
+% Ocultará temporalmente las 50 imágenes y compilará en SEGUNDOS. 
+% Cuando vayas a exportar el PDF final para entregar, vuélvelo a comentar.
+% =========================================================================
+ %\PassOptionsToPackage{draft}{graphicx} 
+
 \usepackage{fontspec}
 \defaultfontfeatures{Ligatures=TeX}
 \setmainfont{TeX Gyre Termes}
@@ -9,7 +16,7 @@
 \usepackage{amsmath, amssymb}
 \usepackage{listings}
 \usepackage{mhchem}
-\usepackage{chemfig}
+\usepackage{chemfig} % ¡Ojo! Chemfig usa TikZ por detrás y ralentiza mucho.
 \usepackage{multirow}
 \usepackage{pdflscape}
 \usepackage{enumerate}
@@ -109,9 +116,9 @@ de cesi.
 
 \vspace{0.8em}
 \noindent\textbf{Paraules clau:}
-Cel·les de Vapor Escrites per Làser; Microfabricació per Làser de
+Cel·les de Vapor Escrites per Láser; Microfabricació per Làser de
 Femtosegon; Unió per Contacte Òptic; Vapor de Metall Alcalí; MEMS;
-Fotònica Integrada; Activació de Superfícies; Tractament de Plasma;
+Fotònica Integrada; Activación de Superfícies; Tractament de Plasma;
 Sensors Atòmics; Magnetometria; Ressonància Hanle;
 Magnetoencefalografia; Rellotges Atòmics; Espectroscòpia d'Absorció;
 Hermeticitat enfront de l'Heli; Microscòpia de Força Atòmica;
@@ -152,54 +159,27 @@ FLICE Process; Low-Temperature Bonding
 
 \newpage
 %----------------- INICIO RESUMEN EJECUTIVO-------------------------------------
-\def\TFGTFM{\textcolor{red}{TFM}} %Elegir TFG o TFM
-\def\NOMBRETITULO{\textcolor{red}{MUQIP}} %Elegir GTIST, GTDM, MUIT o GIFIS
-\def\NOMBREDISCIPLINA{\textcolor{red}{ELEGIR DISCIPLINA}} %Elegir IT, IFIS o TDM
+\def\TFGTFM{\textcolor{red}{TFM}} 
+\def\NOMBRETITULO{\textcolor{red}{MUQIP}} 
+\def\NOMBREDISCIPLINA{\textcolor{red}{ELEGIR DISCIPLINA}} 
 
 \begin{landscape}
 \thispagestyle{empty}
 
-% INSTRUCCIONES:
-% Para completar la tabla hay que rellenar los dos campos
-% finales de los comandos \fila o \pie que hay a continuación.
-% Para que los números de página estén siempre actualizados
-% se recomienda colocar comandos \label en las páginas que
-% se quiere citar y completar el último campo de \fila o \pie
-% con una referencia (\ver ejemplo en la fila del concepto 1.1)
-% a esas etiquetas.
-% En la fila correspondiente al concepto 1.1 hay un ejemplo.
-% Habría que descomentar la línea con el texto "% S" y una
-% de las dos líneas con comando \hyperlink.
 \begin{tablaRE}
 \def\ind{\hspace*{3mm}}
-%Aumentar primer parámetro del comando fila correspondiente si las celdas de la tabla dejan de encajar bien
 \cabecera{1.25cm}{CONCEPT (ABET)}{CONCEPTO (traducción)}{¿Cumple?\\(S/N)}{¿Dónde?\\(páginas)}
 \fila{0.6cm}{1. IDENTIFY:}{1. IDENTIFICAR:}{}{}
-\fila{0.6cm}{\ind 1.1. Problem statement and opportunity}{\ind1.1. Planteamiento del problema y oportunidad}%
-{%
-% S
-}
-{%
-% Opción 1) el desarrollo del concepto ocupa varias páginas consecutivas
-% Colocamos etiquetas en el inicio y el final del texto:
-% a) colocar \label{RE1.1:inicio} justo antes del texto en el que se desarrolla el concepto 1.1
-% b) colocar \label{RE1.1:fin} justo después del texto en el que se desarrolla el concepto 1.1
-% En la tabla insertamos este comando:
-%\hyperlink{RE1.1:inicio}{\pageref*{RE1.1:inicio}}-\hyperlink{RE1.1:fin}{\pageref*{RE1.1:fin}}
-%
-% Opción 2) el desarrollo del concepto está en una o varias páginas no consecutivas
-% Colocamos \label{RE1.1:n}, n=1,2,..., cada vez que comienze un fragmento que desarrolla el concepto 1.1
-% Insertamos en la tabla un comando \hyperlink por cada fragmento (se da ejemplo para dos gragmentos):
-% \hyperlink{RE1.1:1}{\pageref*{RE1.1:1}}, \hyperlink{RE1.1:2}{\pageref*{RE1.1:2}}
-}
-\fila{1.6cm}{\ind1.2. Constraints (standards, codes, needs,\newline\ind\ind requirements \& specifications)}{\ind1.2. Toma en consideración de los condicionantes\newline\ind\ind (normas técnicas y regulación, necesidades,\newline\ind\ind requisitos y especificaciones)}{}{} %CAMBIAR AQUÍ PARA 1.2
-\fila{0.6cm}{\ind1.3. Setting of goals}{\ind1.3. Establecimiento de objetivos}{}{} %CAMBIAR AQUÍ PARA 1.3
+\fila{0.6cm}{\ind 1.1. Problem statement and opportunity}{\ind1.1. Planteamiento del problema y oportunidad}{}{}
+\fila{1.6cm}{\ind1.2. Constraints (standards, codes, needs,\newline\ind\ind requirements \& specifications)}{\ind1.2. Toma en consideración de los condicionantes\newline\ind\ind (normas técnicas y regulación, necesidades,\newline\ind\ind requisitos y especificaciones)}{}{} 
+\fila{0.6cm}{\ind1.3. Setting of goals}{\ind1.3. Establecimiento de objetivos}{}{} 
 \fila{0.6cm}{2. FORMULATE:}{2. FORMULAR:}{}{}
-\fila{0.6cm}{\ind2.1. Creative solution generation (analysis)}{2.1. Generación de soluciones creativas (análisis)}{}{} %CAMBIAR AQUÍ PARA 2.1
-\fila{1.2cm}{\ind2.2. Evaluation of multiple solutions and\newline\ind\ind decision-making (synthesis)}{\ind2.2. Evaluación de múltiples soluciones y toma de\newline\ind\ind decisiones (síntesis)}{}{} %CAMBIAR AQUÍ PARA 2.2
-\fila{0.6cm}{3. SOLVE:}{3. RESOLVER:}{}{}https://www.overleaf.com/project/5d91e3b0358aab0001ae4e9d
-\fila{0.6cm}{\ind3.1. Fulfilment of goals}{\ind3.1. Evaluación del cumplimiento de objetivos}{}{} %CAMBIAR AQUÍ PARA 3.1
-\pie{1.2cm}{\ind3.2. Overall impact and significance\newline\ind\ind (contributions and practical recommendations)}{\ind3.2. Evaluación del impacto global y alcance\newline\ind\ind (contribuciones y recomendaciones prácticas)}{}{} %CAMBIAR AQUÍ PARA 3.2
+\fila{0.6cm}{\ind2.1. Creative solution generation (analysis)}{2.1. Generación de soluciones creativas (análisis)}{}{} 
+\fila{1.2cm}{\ind2.2. Evaluation of multiple solutions and\newline\ind\ind decision-making (synthesis)}{\ind2.2. Evaluación de múltiples soluciones y toma de\newline\ind\ind decisiones (síntesis)}{}{} 
+\fila{0.6cm}{3. SOLVE:}{3. RESOLVER:}{}{}
+% 🛠️ CORREGIDO: Se ha eliminado una URL suelta de Overleaf aquí que rompía el código
+\fila{0.6cm}{\ind3.1. Fulfilment of goals}{\ind3.1. Evaluación del cumplimiento de objetivos}{}{} 
+\pie{1.2cm}{\ind3.2. Overall impact and significance\newline\ind\ind (contributions and practical recommendations)}{\ind3.2. Evaluación del impacto global y alcance\newline\ind\ind (contribuciones y recomendaciones prácticas)}{}{} 
 \end{tablaRE}
 \end{landscape}
 %----------------- FIN RESUMEN EJECUTIVO-------------------------------------
@@ -210,11 +190,11 @@ FLICE Process; Low-Temperature Bonding
 
 \newpage
 \thispagestyle{empty}
-\mbox{} % Crea un elemento invisible para que los \vfill funcionen
+\mbox{} 
 \vfill
 
 \begin{flushright}
-\begin{minipage}{0.7\textwidth} % Limita el ancho para que no ocupe toda la línea
+\begin{minipage}{0.7\textwidth} 
     ``¡Bien, riámonos porque Don Quijote toma a los molinos por gigantes! 
     ¡Bien, Don Quijote no debió ver un gigante donde había un molino! 
     Pero, ¿por qué el hombre sabe de gigantes? ¿Dónde hay o ha habido gigantes? 
@@ -227,7 +207,7 @@ FLICE Process; Low-Temperature Bonding
 \end{flushright}
 
 \vfill
-\vfill %
+\vfill 
 \newpage
 
 
@@ -258,7 +238,14 @@ FLICE Process; Low-Temperature Bonding
 
 \part{Thesis}
 
+% =========================================================================
+% 💡 ESTRATEGIA PARA INPUTS: 
+% Si un capítulo te va lento, puedes comentar su línea anteponiendo un '%'
+% Ejemplo: Cierra temporalmente los capítulos que no estés editando hoy.
+% =========================================================================
+
 \input{sections/Introduction.tex}
+
 \chapter{Fabrication Methods}
 \input{sections/Fabrication Methods/Introduction.tex}
 \input{sections/Fabrication Methods/Femtosecond Laser Writing.tex}
@@ -268,6 +255,7 @@ FLICE Process; Low-Temperature Bonding
 \input{sections/Fabrication Methods/Optical Contact Bonding/Annealing.tex}
 \input{sections/Fabrication Methods/Optical Contact Bonding/Pressure.tex}
 \input{sections/Fabrication Methods/NEG.tex}
+
 \chapter{Characterization and Quality Control}
 \input{sections/Characterization and Quality Control/Introduction.tex}
 \input{sections/Characterization and Quality Control/Surface inspection using an AFM.tex}
@@ -275,11 +263,13 @@ FLICE Process; Low-Temperature Bonding
 \input{sections/Characterization and Quality Control/Visual Inspection.tex}
 \input{sections/Characterization and Quality Control/Strength Tests.tex}
 \input{sections/Characterization and Quality Control/Leak Tests Using Spectroscopy.tex}
+
 \chapter{Experiments \& Applications}
 \input{sections/Experiments and Applications/Intro.tex}
 \input{sections/Experiments and Applications/Optical Contact Bonding Experiment.tex}
 \input{sections/Experiments and Applications/Train Application.tex}
 \input{sections/Experiments and Applications/Magnetometry Experiment 1.tex}
+
 \chapter{Conclusions}
 
 \printbibliography[heading=firstlevel,title=Bibliography]
