@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999995 (TeX Live 2023/Debian) (preloaded format=xelatex 2026.4.1)  22 JUN 2026 17:29
+This is XeTeX, Version 3.141592653-2.6-0.999995 (TeX Live 2023/Debian) (preloaded format=xelatex 2026.4.1)  23 JUN 2026 10:18
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1542,7 +1542,7 @@ Overfull \hbox (22.71352pt too wide) in paragraph at lines 346--351
 
 [6]
 Overfull \hbox (4.03282pt too wide) in paragraph at lines 400--409
-[]\TU/TeXGyreTermes(0)/m/n/10.95 Among these, optically pumped magnetometers (OPMs) are the most mature vapor-cell sensors [[]14[]].
+[]\TU/TeXGyreTermes(0)/m/n/10.95 Among these, optically pumped magnetometers (OPMs) are the most mature vapor-cell sensors [[]13[]].
  []
 
 [7]
@@ -1798,42 +1798,42 @@ Overfull \hbox (0.16747pt too wide) in paragraph at lines 62--88
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 [55] [56] [57]
-File: Images/simulationsetup.png Graphic file (type bmp)
-<Images/simulationsetup.png>
+File: Images/COMSOL/simulationsetup.png Graphic file (type bmp)
+<Images/COMSOL/simulationsetup.png>
  [58]
-File: Images/generalmesh.png Graphic file (type bmp)
-<Images/generalmesh.png>
-File: Images/topmesh.png Graphic file (type bmp)
-<Images/topmesh.png>
-File: Images/bottommesh.png Graphic file (type bmp)
-<Images/bottommesh.png>
-File: Images/corrosionmesh.png Graphic file (type bmp)
-<Images/corrosionmesh.png>
+File: Images/COMSOL/generalmesh.png Graphic file (type bmp)
+<Images/COMSOL/generalmesh.png>
+File: Images/COMSOL/topmesh.png Graphic file (type bmp)
+<Images/COMSOL/topmesh.png>
+File: Images/COMSOL/bottommesh.png Graphic file (type bmp)
+<Images/COMSOL/bottommesh.png>
+File: Images/COMSOL/corrosionmesh.png Graphic file (type bmp)
+<Images/COMSOL/corrosionmesh.png>
  [59]
-File: Images/totalBcoil.png Graphic file (type bmp)
-<Images/totalBcoil.png>
-File: Images/totalBclamps.png Graphic file (type bmp)
-<Images/totalBclamps.png>
-File: Images/totalBclampssmall.png Graphic file (type bmp)
-<Images/totalBclampssmall.png>
-File: Images/totalBclampscorr.png Graphic file (type bmp)
-<Images/totalBclampscorr.png>
-File: Images/totalBclampsbig.png Graphic file (type bmp)
-<Images/totalBclampsbig.png>
-File: Images/totalBhealthylowf1.png Graphic file (type bmp)
-<Images/totalBhealthylowf1.png>
-File: Images/totalBlowf1.png Graphic file (type bmp)
-<Images/totalBlowf1.png>
+File: Images/COMSOL/totalBcoil.png Graphic file (type bmp)
+<Images/COMSOL/totalBcoil.png>
+File: Images/COMSOL/totalBclamps.png Graphic file (type bmp)
+<Images/COMSOL/totalBclamps.png>
+File: Images/COMSOL/totalBclampssmall.png Graphic file (type bmp)
+<Images/COMSOL/totalBclampssmall.png>
+File: Images/COMSOL/totalBclampscorr.png Graphic file (type bmp)
+<Images/COMSOL/totalBclampscorr.png>
+File: Images/COMSOL/totalBclampsbig.png Graphic file (type bmp)
+<Images/COMSOL/totalBclampsbig.png>
+File: Images/COMSOL/totalBhealthylowf1.png Graphic file (type bmp)
+<Images/COMSOL/totalBhealthylowf1.png>
+File: Images/COMSOL/totalBlowf1.png Graphic file (type bmp)
+<Images/COMSOL/totalBlowf1.png>
  [60] [61] [62]
-File: Images/totalBlowf.png Graphic file (type bmp)
-<Images/totalBlowf.png>
-File: Images/totalBmidf.png Graphic file (type bmp)
-<Images/totalBmidf.png>
-File: Images/totalBhighf.png Graphic file (type bmp)
-<Images/totalBhighf.png>
+File: Images/COMSOL/totalBlowf.png Graphic file (type bmp)
+<Images/COMSOL/totalBlowf.png>
+File: Images/COMSOL/totalBmidf.png Graphic file (type bmp)
+<Images/COMSOL/totalBmidf.png>
+File: Images/COMSOL/totalBhighf.png Graphic file (type bmp)
+<Images/COMSOL/totalBhighf.png>
  [63] [64]
-File: Images/diffB.png Graphic file (type bmp)
-<Images/diffB.png>
+File: Images/COMSOL/diffB.png Graphic file (type bmp)
+<Images/COMSOL/diffB.png>
 File: Images/placeholder.png Graphic file (type bmp)
 <Images/placeholder.png>
  [65]
@@ -1938,13 +1938,18 @@ LaTeX Warning: There were undefined references.
 
 Package rerunfilecheck Info: File `Main.out' has not changed.
 (rerunfilecheck)             Checksum: 15315D4FBAC19EC0D253D4EB01582C05;11273.
+
+Package biblatex Warning: Please (re)run Biber on the file:
+(biblatex)                Main
+(biblatex)                and rerun LaTeX afterwards.
+
 Package logreq Info: Writing requests to 'Main.run.xml'.
 \openout1 = `Main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 47888 strings out of 474878
- 999577 string characters out of 5762517
+ 47889 strings out of 474878
+ 1000487 string characters out of 5762517
  1958627 words of memory out of 5000000
  69050 multiletter control sequences out of 15000+600000
  566673 words of font info for 113 fonts, out of 8000000 for 9000
