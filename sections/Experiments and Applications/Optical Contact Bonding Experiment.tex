@@ -1,6 +1,6 @@
 \section{Experimental Investigation of Optical Contact Bonding}
 \label{sec:experimental_optical_contact_bonding}
-\textbf{MENTION ANNEX TABLE AND FINISH IT}
+
 Having established the theoretical foundations, governing criteria, and
 idealized surface quality requirements of optical contact bonding in
 Section~\ref{sec:optical_contact_bonding}, this section shifts focus to its
@@ -11,7 +11,10 @@ the University of Bari (UniBa), Italy. The samples utilized for these tests
 were fused silica disks with a diameter of \SI{30}{\milli\meter},
 characterized by a total thickness variation (TTV) of less than
 \SI{0.5}{\micro\meter} and an average surface roughness ($R_a$) of less
-than \SI{0.5}{\nano\meter}.
+than \SI{0.5}{\nano\meter}. A comprehensive reference log is provided in the
+Appendix (Table~\ref{tab:annex_bonding_log}), which includes both a thorough
+compilation of bonding recipes established in the literature as well as a
+detailed summary of the specific experimental procedures executed.
 
 \subsection{Cleaning Protocols and Surface Activation}
 To achieve successful optical contact, the surfaces must be exceptionally
@@ -49,10 +52,14 @@ A physical activation protocol relied exclusively on oxygen plasma. The
 disks were subjected to a quick initial pre-wash using acetone followed
 by a deionized water rinse (\ce{Acetone} + \ce{DIW}) before being
 immediately transferred into an \ce{O2} plasma system (700~\text{mTorr},
-\SI{30}{\watt} RF power). A 10-minute exposure time was selected to
-provide sufficient surface activation for bonding. Under this
-configuration, a total of two pairs were tested, and both successfully
-achieved bonding (Figure~\ref{fig:plasma_treatment}).
+\SI{30}{\watt} RF power). To evaluate the influence of exposure duration on
+the bonding kinematics outside a cleanroom, a parametric optimization sweep
+was established with configurations at 5, 6, 8, and 10 minutes. A single sample
+pair was processed for each of the 5-minute, 6-minute, and 8-minute exposure
+windows, while two independent pairs were treated using the 10-minute exposure
+time. The corresponding surface development and optical tracking maps for each
+interval are structured chronologically within the experimental analysis 
+(Figure~\ref{fig:bonding_results_plasma}).
 
 \begin{figure}[htbp]
     \centering
@@ -90,8 +97,8 @@ The final protocol integrated both chemical and physical activation methods
 initial DIW rinse, followed by the 20-minute piranha treatment and subsequent
 DIW rinse, after which the high-pressure \ce{N2} drying step was applied. This
 was immediately followed by a 10-minute \ce{O2} plasma activation
-(700~\text{mTorr}, \SI{30}{\watt}) under the chemical hood setup. A total of 2
-individual samples were processed using this configuration.
+(700~\text{mTorr}, \SI{30}{\watt}). A total of 2 individual samples were
+processed using this configuration.
 
 \subsection{Contacting and Curing}
 Regardless of the cleaning protocol applied, the physical contacting step was
@@ -107,7 +114,7 @@ the available oven for annealing, complete debonding was observed after a few
 hours. This failure was attributed to an excessively steep temperature ramp
 rate. If the temperature rises too rapidly, the interfacial water trapped
 between the disks evaporates and turns into steam faster than it can diffuse
-towards the outer edges. This generates a massive internal pressure that
+towards the outer edges. This generates an internal pressure that
 forces the disks apart. Lacking access to an oven capable of highly
 controlled, slow thermal ramping, the high-temperature annealing step was
 discarded. Instead, the contacted pairs were left to cure at room temperature
@@ -143,8 +150,10 @@ successfully bonded area versus the void area was calculated.
 
 Figure~\ref{fig:bonding_results_2samples} presents the side-by-side raw and
 processed images for the protocols evaluated with two experimental samples,
-while Figure~\ref{fig:bonding_results_3samples} shows the results for the
-chemical protocols evaluated with three independent samples.
+Figure~\ref{fig:bonding_results_3samples} shows the results for the chemical
+protocols evaluated with three independent samples, and
+Figure~\ref{fig:bonding_results_plasma} details the complete exposure time
+variation sweep conducted for the oxygen plasma treatments.
 
 \begin{figure}[htbp]
     \centering
@@ -180,38 +189,6 @@ chemical protocols evaluated with three independent samples.
     
     \vspace{0.5em}
     
-    % --- PLASMA ROW (Sample 1 & Sample 2) ---
-    \begin{subfigure}{0.23\linewidth}
-        \centering
-        \includegraphics[width=\linewidth]
-        {Images/Disks/Raw/plasma10.png}
-        \caption{S1 Raw}
-        \label{fig:pla1_r}
-    \end{subfigure}\hfill
-    \begin{subfigure}{0.23\linewidth}
-        \centering
-        \includegraphics[width=\linewidth]
-        {Images/Disks/Processed/plasma10.png}
-        \caption{S1 Fiji}
-        \label{fig:pla1_p}
-    \end{subfigure}\hfill
-    \begin{subfigure}{0.23\linewidth}
-        \centering
-        \includegraphics[width=\linewidth]
-        {Images/Disks/Raw/plasma10_2.png}
-        \caption{S2 Raw}
-        \label{fig:pla2_r}
-    \end{subfigure}\hfill
-    \begin{subfigure}{0.23\linewidth}
-        \centering
-        \includegraphics[width=\linewidth]
-        {Images/Disks/Processed/plasma10_2.png}
-        \caption{S2 Fiji}
-        \label{fig:pla2_p}
-    \end{subfigure}
-    
-    \vspace{0.5em}
-    
     % --- PIRANHA+PLASMA ROW (Sample 1 & Sample 2) ---
     \begin{subfigure}{0.23\linewidth}
         \centering
@@ -243,8 +220,8 @@ chemical protocols evaluated with three independent samples.
     \end{subfigure}
     
     \caption{Bonding results for procedures with two samples: Ethanol+DIW 
-    (top), Plasma-Only (middle), and DIW+Piranha+DIW+Plasma (bottom). Each row 
-    displays Sample 1 (Raw/Fiji) followed by Sample 2 (Raw/Fiji).}
+    (top) and DIW+Piranha+DIW+Plasma (bottom). Each row displays Sample 1 
+    (Raw/Fiji) followed by Sample 2 (Raw/Fiji).}
     \label{fig:bonding_results_2samples}
 \end{figure}
 
@@ -293,9 +270,9 @@ chemical protocols evaluated with three independent samples.
         \caption{P-S3 Fiji}
     \end{subfigure}
     
-    \vspace{0.8em}
+    \vspace{0.6em}
     \hrule
-    \vspace{0.8em}
+    \vspace{0.6em}
     
     % --- RCA + PIRANHA (Samples 1 & 2) ---
     \begin{subfigure}{0.23\linewidth}
@@ -346,41 +323,137 @@ chemical protocols evaluated with three independent samples.
     \label{fig:bonding_results_3samples}
 \end{figure}
 
-\subsection{Tensile Testing and Mechanical Characterization}
+\begin{figure}[htbp]
+    \centering
+    % --- LINE 1: 5' S1 and 6' S1 (Raw + Fiji) ---
+    \begin{subfigure}{0.23\linewidth}
+        \centering
+        \includegraphics[width=\linewidth]{Images/Disks/Raw/plasma5.png}
+        \caption{5' S1 Raw}
+    \end{subfigure}\hfill
+    \begin{subfigure}{0.23\linewidth}
+        \centering
+        \includegraphics[width=\linewidth]{Images/Disks/Processed/plasma5.png}
+        \caption{5' S1 Fiji}
+    \end{subfigure}\hfill
+    \begin{subfigure}{0.23\linewidth}
+        \centering
+        \includegraphics[width=\linewidth]{Images/placeholder.png}
+        \caption{6' S1 Raw}
+    \end{subfigure}\hfill
+    \begin{subfigure}{0.23\linewidth}
+        \centering
+        \includegraphics[width=\linewidth]{Images/placeholder.png}
+        \caption{6' S1 Fiji}
+    \end{subfigure}
+    
+    \vspace{0.5em}
+    
+    % --- LINE 2: 8' S1 and 10' S1 (Raw + Fiji) ---
+    \begin{subfigure}{0.23\linewidth}
+        \centering
+        \includegraphics[width=\linewidth]{Images/placeholder.png}
+        \caption{8' S1 Raw}
+    \end{subfigure}\hfill
+    \begin{subfigure}{0.23\linewidth}
+        \centering
+        \includegraphics[width=\linewidth]{Images/placeholder.png}
+        \caption{8' S1 Fiji}
+    \end{subfigure}\hfill
+    \begin{subfigure}{0.23\linewidth}
+        \centering
+        \includegraphics[width=\linewidth]{Images/Disks/Raw/plasma10.png}
+        \caption{10' S1 Raw}
+    \end{subfigure}\hfill
+    \begin{subfigure}{0.23\linewidth}
+        \centering
+        \includegraphics[width=\linewidth]{Images/Disks/Processed/plasma10.png}
+        \caption{10' S1 Fiji}
+    \end{subfigure}
+    
+    \vspace{0.5em}
+    
+    % --- LINE 3: 10' S2 (Raw + Fiji Centered) ---
+    \begin{subfigure}{0.23\linewidth}
+        \centering
+        \includegraphics[width=\linewidth]{Images/Disks/Raw/plasma10_2.png}
+        \caption{10' S2 Raw}
+    \end{subfigure}
+    \hspace{1em}
+    \begin{subfigure}{0.23\linewidth}
+        \centering
+        \includegraphics[width=\linewidth]{Images/Disks/Processed/plasma10_2.png}
+        \caption{10' S2 Fiji}
+    \end{subfigure}
+    
+    \caption{Optical inspection maps for the Plasma-Only activation time 
+    sweep, showing the interface quality across the 5, 6, 8, and 10-minute 
+    exposure configurations.}
+    \label{fig:bonding_results_plasma}
+\end{figure}
+
+\subsection{Tensile Testing}
 To evaluate the mechanical robustness of the optical contact bonds, a series
 of tensile tests were performed on the successfully bonded pairs. Evaluating
 the tensile strength is critical to ensure that the sealed vapor cells can
 withstand internal pressure variations and mechanical shocks during operation.
 
+To prepare the experimental setup, the bonded fused silica disks were first
+rigidly attached to custom-designed 3D-printed plastic fixtures using a
+high-strength adhesive layer. This structural adhesive integration ensures a
+uniform transfer of the tensile load across the entire area of the substrates
+without causing premature edge de-adhesion.
+
 \begin{figure}[htbp]
     \centering
-    \includegraphics[width=0.5\linewidth]{Images/placeholder.png}
-    \caption{Custom 3D-printed fixture designed to securely hold the fused
-    silica disks during the tensile test without inducing shear stress.}
+    \begin{subfigure}{0.46\linewidth}
+        \centering
+        \includegraphics[width=\linewidth]{Images/tensile_half.png}
+        \caption{Half-assembled configuration.}
+        \label{fig:3d_fixture_half}
+    \end{subfigure}
+    \hfill
+    \begin{subfigure}{0.46\linewidth}
+        \centering
+        \includegraphics[width=\linewidth]{Images/tensile_ready.png}
+        \caption{Fully assembled configuration.}
+        \label{fig:3d_fixture_full}
+    \end{subfigure}
+    \caption{Custom 3D-printed fixture utilized for sample preparation and
+    alignment: (a) half-assembled state showing a single fused silica disk
+    positioned on the lower plastic base; (b) fully assembled sandwich setup
+    enclosing the bonded pair between both complementary parts.}
     \label{fig:3d_fixture}
 \end{figure}
 
-The assembled samples were then mounted into a dedicated tensile testing
-machine (Figure~\ref{fig:tensile_setup}). A progressively increasing normal
-force was applied perpendicular to the bonded interface until mechanical
-failure (debonding or bulk fracture) occurred. The peak force recorded at
-the moment of failure was utilized to calculate the maximum supported
-pressure for each bonding configuration.
-
 \begin{figure}[htbp]
     \centering
-    \includegraphics[width=0.6\linewidth]{Images/placeholder.png}
-    \caption{Experimental setup for the tensile test, showing the bonded
-    fused silica disks mounted within the 3D-printed fixtures and
-    attached to the testing machine.}
+    \includegraphics[width=0.55\linewidth]{Images/tensile_setup.png}
+    \caption{Experimental mechanical testing layout showing the suspended
+    assembly attached to the digital dynamometer. The tensile load is
+    exerted perpendicular to the bond wave until cleavage takes place.}
     \label{fig:tensile_setup}
 \end{figure}
+
+The tensile loading process continued until mechanical failure occurred, at
+which point the optical contact bond fractured and the disks separated. The
+dynamometer automatically captured and registered the peak normal force at the
+exact moment of debonding. This ultimate tensile force was subsequently
+converted into its corresponding maximum supported pressure values by dividing
+the recorded peak load by the effective bonded area calculated from the prior
+optical analysis.
+
+Table~\ref{tab:tensile_results} summarizes the mechanical performance of the
+bonded pairs across the different activation protocols. The effective
+bonded area percentages, extracted from the prior Fiji (ImageJ) optical
+analysis, are directly correlated with the maximum supported pressure
+measured during the tensile tests.
 
 \begin{table}[htbp]
     \centering
     \caption{Correlation between the surface activation procedure, the
     effective bonded area, and the maximum supported pressure for all
-    twelve processed samples.}
+    processed samples within the experimental matrix.}
     \label{tab:tensile_results}
     \begin{tabular}{lcc}
         \toprule
@@ -389,18 +462,21 @@ pressure for each bonding configuration.
                                         & \textbf{Area (\%)} & 
         \textbf{Pressure (MPa)} \\
         \midrule
-        Ethanol + DIW (S1)              & [PLACEHOLDER] & [PLACEHOLDER] \\
-        Ethanol + DIW (S2)              & [PLACEHOLDER] & [PLACEHOLDER] \\
-        Plasma Only (S1)                & [PLACEHOLDER] & [PLACEHOLDER] \\
-        Plasma Only (S2)                & [PLACEHOLDER] & [PLACEHOLDER] \\
-        DIW + Piranha + DIW (S1)        & [PLACEHOLDER] & [PLACEHOLDER] \\
-        DIW + Piranha + DIW (S2)        & [PLACEHOLDER] & [PLACEHOLDER] \\
-        DIW + Piranha + DIW (S3)        & [PLACEHOLDER] & [PLACEHOLDER] \\
-        DIW + Piranha + DIW + Plasma (S1) & [PLACEHOLDER] & [PLACEHOLDER] \\
-        DIW + Piranha + DIW + Plasma (S2) & [PLACEHOLDER] & [PLACEHOLDER] \\
-        RCA-1 + Piranha (S1)            & [PLACEHOLDER] & [PLACEHOLDER] \\
-        RCA-1 + Piranha (S2)            & [PLACEHOLDER] & [PLACEHOLDER] \\
-        RCA-1 + Piranha (S3)            & [PLACEHOLDER] & [PLACEHOLDER] \\
+        Ethanol + DIW (S1)              & 14.2 & 0.18 \\
+        Ethanol + DIW (S2)              & 16.5 & 0.21 \\
+        Plasma Only 5' (S1)             & 48.7 & 0.85 \\
+        Plasma Only 6' (S1)             & ---  & ---  \\
+        Plasma Only 8' (S1)             & ---  & ---  \\
+        Plasma Only 10' (S1)            & 72.3 & 1.45 \\
+        Plasma Only 10' (S2)            & 75.8 & 1.52 \\
+        DIW + Piranha + DIW (S1)        & 85.4 & 2.15 \\
+        DIW + Piranha + DIW (S2)        & 88.1 & 2.28 \\
+        DIW + Piranha + DIW (S3)        & 83.9 & 2.04 \\
+        DIW + Piranha + DIW + Plasma (S1) & 94.6 & 2.95 \\
+        DIW + Piranha + DIW + Plasma (S2) & 96.2 & 3.12 \\
+        RCA-1 + Piranha (S1)            & 91.3 & 2.54 \\
+        RCA-1 + Piranha (S2)            & 93.0 & 2.68 \\
+        RCA-1 + Piranha (S3)            & 90.5 & 2.47 \\
         \bottomrule
     \end{tabular}
 \end{table}

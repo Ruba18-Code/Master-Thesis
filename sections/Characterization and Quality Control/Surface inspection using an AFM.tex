@@ -6,13 +6,16 @@ Atomic Force Microscopes can map the topology of a surface
 with sub-nanometric resolution, which makes them an ideal tool 
 for surface inspection in the context of atomic sensors, and
 more specifically in the context of Optical Contact Bonding,
-due to the strict glass roughness requirements of this method. 
+due to the strict glass roughness requirements of this method.
+
 \begin{figure}[h]
     \centering
     \includegraphics[width=0.65\textwidth]{Images/AFM_tip.JPG}
-    \caption{Example of the probe of an Atomic Force Microscope. From \cite{wiki_afm_tip}.}
+    \caption{Example of the probe of an Atomic Force Microscope. 
+    From \cite{wiki_afm_tip}.}
     \label{fig:AFM_tip}
 \end{figure}
+
 The experimental characterization presented in this work was 
 carried out using the facilities of the Physics Department at the 
 \textit{Politecnico di Bari} (POLIBA) in Bari, Italy. 
@@ -21,16 +24,18 @@ A brand-new Nanoquartz glass disk, with a specified Root Mean Square
 (\gls{RMS}) roughness of \SI{500}{\pico\meter} and a Total Thickness Variation 
 (\gls{TTV}) of \SI{2}{\micro\meter}, was inspected using a Park NX10 AFM. The 
 measurements were performed with a Park Scout 350 tip in \textit{tapping} mode 
-(resonance frequency \SI{320}{\kilo\hertz}, scan rate \SI{0.5}{\hertz}). We examined 
-the sample in three different spots of its surface to ensure consistency. The obtained 
-data was subsequently analyzed using the \textit{Gwyddion} software, 
-through which we obtained the two-dimensional (Figure \ref{fig:AFM_image2D}) 
-and three-dimensional (Figure \ref{fig:AFM_image3D}) images. The resulting density 
+(resonance frequency \SI{320}{\kilo\hertz}, scan rate \SI{0.5}{\hertz}). The 
+sample was examined in three different spots of its surface to ensure 
+consistency. The obtained data was subsequently analyzed using the 
+\textit{Gwyddion} software, through which the two-dimensional 
+(Figure \ref{fig:AFM_image2D}) and three-dimensional 
+(Figure \ref{fig:AFM_image3D}) images were generated. The resulting density 
 distribution of roughness is displayed in Figure \ref{fig:roughness_dist}, 
-and the detailed list of the surface parameters estimated from our 
+and the detailed list of the surface parameters estimated from these 
 measurements can be found in Table \ref{tab:afm}. The precise definition of 
 these parameters is provided in \cite{ISO}.
-\begin{figure}
+
+\begin{figure}[htbp]
     \centering
     \begin{subfigure}[b]{0.55\textwidth}
         \includegraphics[width=\textwidth]{Images/Sample1_2D_compressed.pdf}
@@ -38,7 +43,7 @@ these parameters is provided in \cite{ISO}.
     \vfill
     \begin{subfigure}[b]{0.48\textwidth}
         \includegraphics[width=\textwidth]{Images/Sample2_2D_compressed.pdf}
-    \end{subfigure}
+    \end{subfigure}\hfill
     \begin{subfigure}[b]{0.48\textwidth}
         \includegraphics[width=\textwidth]{Images/Sample3_2D_compressed.pdf}
     \end{subfigure}
@@ -46,7 +51,8 @@ these parameters is provided in \cite{ISO}.
     parts of the pristine Nanoquartz disk's surface.}
     \label{fig:AFM_image2D}
 \end{figure}
-\begin{figure}
+
+\begin{figure}[htbp]
     \centering
     \begin{subfigure}[b]{0.48\textwidth}
         \includegraphics[width=\textwidth]{Images/Sample1_3D.pdf}
@@ -54,7 +60,7 @@ these parameters is provided in \cite{ISO}.
     \vfill
     \begin{subfigure}[b]{0.48\textwidth}
         \includegraphics[width=\textwidth]{Images/Sample2_3D.pdf}
-    \end{subfigure}
+    \end{subfigure}\hfill
     \begin{subfigure}[b]{0.48\textwidth}
         \includegraphics[width=\textwidth]{Images/Sample3_3D.pdf}
     \end{subfigure}
@@ -62,7 +68,8 @@ these parameters is provided in \cite{ISO}.
     parts of the pristine Nanoquartz disk's surface.}
     \label{fig:AFM_image3D}
 \end{figure}
-\begin{figure}
+
+\begin{figure}[htbp]
     \centering
     \begin{subfigure}[b]{0.48\textwidth}
         \includegraphics[width=\textwidth]{Images/Sample1_dist.pdf}
@@ -70,38 +77,49 @@ these parameters is provided in \cite{ISO}.
     \vfill
     \begin{subfigure}[b]{0.48\textwidth}
         \includegraphics[width=\textwidth]{Images/Sample2_dist.pdf}
-    \end{subfigure}
+    \end{subfigure}\hfill
     \begin{subfigure}[b]{0.48\textwidth}
         \includegraphics[width=\textwidth]{Images/Sample3_dist.pdf}
     \end{subfigure}
-    \caption{Surface roughness distribution obtained through AFM. It can be seen
-    that most of the defects are below the \SI{1}{\nano\meter} range. Furthermore,
-    the mean ($\mu$) is close to zero, confirming that the surface is uniform.}
+    \caption{Surface roughness distribution obtained through AFM. It can be 
+    seen that most of the defects are below the \SI{1}{\nano\meter} range. 
+    Furthermore, the mean ($\mu$) is close to zero, confirming that the 
+    surface is uniform.}
     \label{fig:roughness_dist}
 \end{figure}
-\begin{table}[h]
+
+\begin{table}[htbp]
 \centering
 \resizebox{\textwidth}{!}{%
 \begin{tabular}{l|l|l|l|l|l|l}
-\textbf{Sample} & \textbf{$S_q$ {[}pm{]}} & \textbf{$S_a$ {[}pm{]}} & \textbf{$S_p$ {[}nm{]}} & \textbf{$S_v$ {[}nm{]}} & \textbf{$S_z$ {[}nm{]}} & \textbf{Mean height {[}nm{]}} \\ \hline
-\textbf{1}      & 518                  & 387                  & 4.02                 & -4.14                & 8.17                 & 0.03                          \\ \hline
-\textbf{2}      & 411                  & 298                  & 2.04                 & 2.83                 & 4.87                 & 0.02                          \\ \hline
-\textbf{3}      & 726                  & 529                  & 7.66                 & 4.05                 & 11.71                & 0.02                         
+\textbf{Sample} & \textbf{$S_q$ {[}pm{]}} & \textbf{$S_a$ {[}pm{]}} & 
+\textbf{$S_p$ {[}nm{]}} & \textbf{$S_v$ {[}nm{]}} & \textbf{$S_z$ {[}nm{]}} & 
+\textbf{Mean height {[}nm{]}} \\ \hline
+\textbf{1}      & 518                  & 387                  & 4.02                 
+& -4.14                & 8.17                 & 0.03                          
+\\ \hline
+\textbf{2}      & 411                  & 298                  & 2.04                 
+& 2.83                 & 4.87                 & 0.02                          
+\\ \hline
+\textbf{3}      & 726                  & 529                  & 7.66                 
+& 4.05                 & 11.71                & 0.02                         
 \end{tabular}%
 }
-\caption{Surface parameters obtained through AFM in three different parts of the surface:
-\textit{Root mean square roughness} ($S_q$),
- \textit{Mean roughness} ($S_a$), \textit{Maximum peak height} ($S_p$),
- \textit{Minimum valley depth} ($S_v$), \textit{Maximum height} ($S_z$)
- and \textit{Mean height}}
+\caption{Surface parameters obtained through AFM in three different parts of 
+the surface: \textit{Root mean square roughness} ($S_q$), \textit{Mean 
+roughness} ($S_a$), \textit{Maximum peak height} ($S_p$), \textit{Minimum 
+valley depth} ($S_v$), \textit{Maximum height} ($S_z$) and \textit{Mean 
+height}.}
 \label{tab:afm}
 \end{table}
 
-The results confirm that the Root Mean Square roughness of the disk is around \SI{500}{\pico\meter},
-as suggested by the manufacturer. An alternative estimation of the surface roughness,
-known as \textit{Mean roughness} (Sa) was found to be in the same order of magnitude.
-Additionally, it was determined that the total height ($S_q$)
-is in the range of a few nanometers. The mean height is approximately zero, 
-suggesting that the surface's defects are uniformly distributed. The outstanding surface parameters
-observed in this disk comply with Optical Contact Bonding requirements and therefore it is suitable 
-for the fabrication of Laser-Written Vapor Cells and high-precission atomic sensors.  
+The results confirm that the Root Mean Square roughness of the disk is 
+around \SI{500}{\pico\meter}, as suggested by the manufacturer. An 
+alternative estimation of the surface roughness, known as \textit{Mean 
+roughness} ($S_a$), was found to be in the same order of magnitude. 
+Additionally, it was determined that the maximum height ($S_z$) is in the 
+range of a few nanometers. The mean height is approximately zero, suggesting 
+that the surface's defects are uniformly distributed. The outstanding surface 
+parameters observed in this disk comply with Optical Contact Bonding 
+requirements and therefore it is suitable for the fabrication of 
+Laser-Written Vapor Cells and high-precision atomic sensors.
