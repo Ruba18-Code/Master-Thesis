@@ -1,9 +1,9 @@
 \section{Experimental Investigation of Optical Contact Bonding}
 \label{sec:experimental_optical_contact_bonding}
-
-Having established the theoretical foundations, governing criteria, and
-idealized surface quality requirements of optical contact bonding in
-Section~\ref{sec:optical_contact_bonding}, this section shifts focus to its
+\textbf{TABLE UNFINISHED}
+Section~\ref{sec:optical_contact_bonding} established the theoretical foundations, 
+governing criteria, and idealized surface quality requirements of optical contact bonding, this 
+section shifts focus to its
 practical implementation. To evaluate the feasibility and reliability of
 the sealing process under non-ideal conditions, a series of optical
 contact bonding experiments were conducted at the Chemistry Department of
@@ -29,7 +29,6 @@ preventing the spontaneous propagation of the bonding wave.
 
 Several cleaning and activation protocols were evaluated to mitigate this
 environmental limitation and determine the most robust preparation strategy.
-
 \paragraph{Ethanol and DIW Procedure.}
 The initial trial consisted of a simple, rapid soaking sequence using
 ethanol followed by a deionized water (DIW) rinse (\ce{Ethanol} + \ce{DIW}).
@@ -38,7 +37,6 @@ seconds. Out of the pairs prepared with this rudimentary method, two
 successfully bonded. Following this initial test, all subsequent procedures
 were strictly performed under a chemical hood utilizing an ultrasonic cleaner
 to ensure proper contamination removal (Figure~\ref{fig:hood_setup}).
-
 \begin{figure}[htbp]
     \centering
     \includegraphics[width=\linewidth]{Images/chemical_hood.jpeg}
@@ -46,21 +44,21 @@ to ensure proper contamination removal (Figure~\ref{fig:hood_setup}).
     ultrasonic cleaner utilized for the controlled cleaning protocols.}
     \label{fig:hood_setup}
 \end{figure}
-
-\paragraph{Plasma-Only Procedure.}
 A physical activation protocol relied exclusively on oxygen plasma. The
 disks were subjected to a quick initial pre-wash using acetone followed
 by a deionized water rinse (\ce{Acetone} + \ce{DIW}) before being
 immediately transferred into an \ce{O2} plasma system (700~\text{mTorr},
-\SI{30}{\watt} RF power). To evaluate the influence of exposure duration on
-the bonding kinematics outside a cleanroom, a parametric optimization sweep
-was established with configurations at 5, 6, 8, and 10 minutes. A single sample
-pair was processed for each of the 5-minute, 6-minute, and 8-minute exposure
-windows, while two independent pairs were treated using the 10-minute exposure
-time. The corresponding surface development and optical tracking maps for each
-interval are structured chronologically within the experimental analysis 
-(Figure~\ref{fig:bonding_results_plasma}).
-
+\SI{30}{\watt} RF power), as illustrated in Figure~\ref{fig:plasma_treatment}. 
+Preliminary trials utilizing shorter plasma exposure durations, starting from 
+1 minute, were systematically executed but yielded no successful or spontaneous 
+adhesion. Consequently, 5 minutes was identified as the minimum operational 
+threshold required for sufficient surface activation under the specific 
+pressure, power, and gas dynamics of the utilized system. To evaluate the 
+influence of exposure duration beyond this hardware threshold on the bonding 
+kinematics, a parametric optimization sweep was established with configurations 
+at 5, 6, 8, and 10 minutes. A single sample pair was processed for each of the 
+5-minute, 6-minute, and 8-minute exposure windows, while two independent pairs 
+were treated using the 10-minute exposure time.
 \begin{figure}[htbp]
     \centering
     \includegraphics[width=\linewidth]{Images/plasmapurple.png}
@@ -69,7 +67,6 @@ interval are structured chronologically within the experimental analysis
     interior of the vacuum chamber during the surface modification process.}
     \label{fig:plasma_treatment}
 \end{figure}
-
 \paragraph{DIW, Piranha, and DIW Procedure.}
 A wet-chemical activation approach was tested using a heated acid bath
 (\ce{DIW} + \ce{Piranha} + \ce{DIW}). The disks were first soaked in DIW for
@@ -80,7 +77,6 @@ the disks were soaked in DIW for 5 minutes to eliminate any acidic residues
 and were extensively dried using a high-pressure \ce{N2} gun
 (Figure~\ref{fig:n2_gun}). Three independent samples were prepared using this
 protocol to carefully verify reproducibility outside a cleanroom.
-
 \paragraph{Sequential DIW, RCA-1, DIW, Piranha, and DIW Procedure.}
 A multi-step chemical protocol was evaluated to leverage both particle
 removal and strong oxidation (\ce{DIW} + \ce{RCA-1} + \ce{DIW} + \ce{Piranha}
@@ -90,7 +86,6 @@ samples were treated with a piranha solution for \SI{10}{\minute} at
 \SI{70}{\celsius} to further hydroxylate the surface. Finally, after a
 thorough 5-minute DIW rinse to remove acid traces, the disks were dried using
 the high-pressure \ce{N2} gun. Three samples were successfully processed.
-
 \paragraph{Sequential DIW, Piranha, DIW, and Plasma Procedure.}
 The final protocol integrated both chemical and physical activation methods
 (\ce{DIW} + \ce{Piranha} + \ce{DIW} + \ce{Plasma}). The disks underwent an
@@ -396,13 +391,16 @@ variation sweep conducted for the oxygen plasma treatments.
 To evaluate the mechanical robustness of the optical contact bonds, a series
 of tensile tests were performed on the successfully bonded pairs. Evaluating
 the tensile strength is critical to ensure that the sealed vapor cells can
-withstand internal pressure variations and mechanical shocks during operation.
+withstand internal pressure variations and mechanical shocks during operation,
+as previously explained in Section~\ref{sec:bonding_strength_tensile}.
 
 To prepare the experimental setup, the bonded fused silica disks were first
 rigidly attached to custom-designed 3D-printed plastic fixtures using a
-high-strength adhesive layer. This structural adhesive integration ensures a
+high-strength adhesive layer (see Figure~\ref{fig:3d_fixture}). 
+This structural adhesive integration ensures a
 uniform transfer of the tensile load across the entire area of the substrates
-without causing premature edge de-adhesion.
+without causing premature edge de-adhesion. This setup is illustrated in 
+Figure~\ref{fig:tensile_setup}
 
 \begin{figure}[htbp]
     \centering
@@ -428,7 +426,7 @@ without causing premature edge de-adhesion.
 
 \begin{figure}[htbp]
     \centering
-    \includegraphics[width=0.55\linewidth]{Images/tensile_setup.png}
+    \includegraphics[width=0.55\linewidth]{Images/placeholder.png}
     \caption{Experimental mechanical testing layout showing the suspended
     assembly attached to the digital dynamometer. The tensile load is
     exerted perpendicular to the bond wave until cleavage takes place.}
