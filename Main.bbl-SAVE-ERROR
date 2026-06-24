@@ -5402,7 +5402,134 @@
       \verb https://doi.org/10.5281/zenodo.20704403
       \endverb
     \endentry
+    \entry{wang2020}{article}{}
+      \name{author}{8}{}{%
+        {{hash=47f64381ad069e88d82016d4c642356d}{%
+           family={Wang},
+           familyi={W\bibinitperiod},
+           given={Chenxi},
+           giveni={C\bibinitperiod}}}%
+        {{hash=3c48da23df6ee220857f7e0b31a26b42}{%
+           family={Fang},
+           familyi={F\bibinitperiod},
+           given={Hui},
+           giveni={H\bibinitperiod}}}%
+        {{hash=4ab458d0f149928f328d62d44a15ddd0}{%
+           family={Zhou},
+           familyi={Z\bibinitperiod},
+           given={Shicheng},
+           giveni={S\bibinitperiod}}}%
+        {{hash=496562daa3cb15e791871c118cc902ae}{%
+           family={Qi},
+           familyi={Q\bibinitperiod},
+           given={Xiaoyun},
+           giveni={X\bibinitperiod}}}%
+        {{hash=910baf7f37bd8da9e088851b9c3791e7}{%
+           family={Niu},
+           familyi={N\bibinitperiod},
+           given={Fanfan},
+           giveni={F\bibinitperiod}}}%
+        {{hash=25bbf4047d900f3760c65b01ee899dba}{%
+           family={Zhang},
+           familyi={Z\bibinitperiod},
+           given={Wei},
+           giveni={W\bibinitperiod}}}%
+        {{hash=f1123641b20bb08088ddac64274eeccf}{%
+           family={Tian},
+           familyi={T\bibinitperiod},
+           given={Yanhong},
+           giveni={Y\bibinitperiod}}}%
+        {{hash=0eceb33a4ee854537c0dc95858bf7593}{%
+           family={Suga},
+           familyi={S\bibinitperiod},
+           given={Tadatomo},
+           giveni={T\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Elsevier BV}%
+      }
+      \strng{namehash}{6b4cb9f9b7d8207bba9682d94501cb45}
+      \strng{fullhash}{71c3221d3f820ea1c1594cd7a95990a0}
+      \strng{bibnamehash}{6b4cb9f9b7d8207bba9682d94501cb45}
+      \strng{authorbibnamehash}{6b4cb9f9b7d8207bba9682d94501cb45}
+      \strng{authornamehash}{6b4cb9f9b7d8207bba9682d94501cb45}
+      \strng{authorfullhash}{71c3221d3f820ea1c1594cd7a95990a0}
+      \field{extraname}{3}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{1005-0302}
+      \field{journaltitle}{Journal of Materials Science amp; Technology}
+      \field{title}{Recycled low-temperature direct bonding of Si/glass and glass/glass chips for detachable micro/nanofluidic devices}
+      \field{volume}{46}
+      \field{year}{2020}
+      \field{pages}{156\bibrangedash 167}
+      \range{pages}{12}
+      \verb{doi}
+      \verb 10.1016/j.jmst.2019.11.034
+      \endverb
+      \verb{urlraw}
+      \verb http://dx.doi.org/10.1016/j.jmst.2019.11.034
+      \endverb
+      \verb{url}
+      \verb http://dx.doi.org/10.1016/j.jmst.2019.11.034
+      \endverb
+    \endentry
+    \entry{takei2010}{article}{}
+      \name{author}{3}{}{%
+        {{hash=313662bb9a6899be0c2312caa03dd387}{%
+           family={Takei},
+           familyi={T\bibinitperiod},
+           given={Ryohei},
+           giveni={R\bibinitperiod}}}%
+        {{hash=3f6be80528d4e329ea2967181359026a}{%
+           family={Yoshida},
+           familyi={Y\bibinitperiod},
+           given={Kohei},
+           giveni={K\bibinitperiod}}}%
+        {{hash=b118d4f85a6b58cbdb3962ef71bdd7d2}{%
+           family={Mizumoto},
+           familyi={M\bibinitperiod},
+           given={Tetsuya},
+           giveni={T\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {IOP Publishing}%
+      }
+      \strng{namehash}{aae9505f2d6663af469eb49564c518c7}
+      \strng{fullhash}{aae9505f2d6663af469eb49564c518c7}
+      \strng{bibnamehash}{aae9505f2d6663af469eb49564c518c7}
+      \strng{authorbibnamehash}{aae9505f2d6663af469eb49564c518c7}
+      \strng{authornamehash}{aae9505f2d6663af469eb49564c518c7}
+      \strng{authorfullhash}{aae9505f2d6663af469eb49564c518c7}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{1347-4065}
+      \field{journaltitle}{Japanese Journal of Applied Physics}
+      \field{month}{8}
+      \field{number}{8R}
+      \field{title}{Effects of Wafer Precleaning and Plasma Irradiation to Wafer Surfaces on Plasma-Assisted Surface-Activated Direct Bonding}
+      \field{volume}{49}
+      \field{year}{2010}
+      \field{pages}{086204}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1143/jjap.49.086204
+      \endverb
+      \verb{urlraw}
+      \verb http://dx.doi.org/10.1143/JJAP.49.086204
+      \endverb
+      \verb{url}
+      \verb http://dx.doi.org/10.1143/JJAP.49.086204
+      \endverb
+    \endentry
   \enddatalist
+  \missing{lee2022}
+  \missing{park2025}
+  \missing{tuliThesis}
 \endrefsection
 \endinput
 

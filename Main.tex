@@ -5,7 +5,7 @@
 % Ocultará temporalmente las 50 imágenes y compilará en SEGUNDOS. 
 % Cuando vayas a exportar el PDF final para entregar, vuélvelo a comentar.
 % =========================================================================
- %\PassOptionsToPackage{draft}{graphicx} 
+ \PassOptionsToPackage{draft}{graphicx} 
 
 \usepackage{fontspec}
 \defaultfontfeatures{Ligatures=TeX}
@@ -274,7 +274,6 @@ FLICE Process; Low-Temperature Bonding
 
 \printbibliography[heading=firstlevel,title=Bibliography]
 \label{sec:biblio}
-\newpage\thispagestyle{empty}
 
 \part{Annex}
 \def\thechapter{\Alph{chapter}}
@@ -282,7 +281,6 @@ FLICE Process; Low-Temperature Bonding
 \renewcommand{\@chapapp}{Appendix}
 \makeatother
 
-\chapter{Recipes in Literature}
 \input{sections/Appendix/Recipes in Literature.tex}
 
 \end{document}

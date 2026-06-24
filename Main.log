@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999995 (TeX Live 2023/Debian) (preloaded format=xelatex 2026.4.1)  23 JUN 2026 17:32
+This is XeTeX, Version 3.141592653-2.6-0.999995 (TeX Live 2023/Debian) (preloaded format=xelatex 2026.4.1)  24 JUN 2026 17:44
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1447,14 +1447,7 @@ File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 LaTeX Font Info:    Trying to load font information for U+msb on input line 171.
  (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
-)
-File: graficos/logos.png Graphic file (type bmp)
-<graficos/logos.png>
-File: graficos/marca_UPV_principal_negro.pdf Graphic file (type pdf)
-<use graficos/marca_UPV_principal_negro.pdf>
-File: graficos/2018_TELECOMVLC.pdf Graphic file (type pdf)
-<use graficos/2018_TELECOMVLC.pdf>
- [4
+) [4
 
 ] [5
 
@@ -1477,6 +1470,11 @@ Overfull \hbox (49.36943pt too wide) in paragraph at lines 45--45
  [][] [][]\TU/TeXGyreTermes(0)/m/n/10.95 Bonding results for chemical procedures with three independent samples: DIW+Piranha+DIW 
  []
 
+
+Overfull \hbox (3.0546pt too wide) in paragraph at lines 49--49
+ [][] [][]\TU/TeXGyreTermes(0)/m/n/10.95 Ranked mechanical strength performance and corresponding interfacial optical con- 
+ []
+
 [10] [11])
 \tf@lof=\write9
 \openout9 = `Main.lof'.
@@ -1497,13 +1495,9 @@ Overfull \hbox (49.36943pt too wide) in paragraph at lines 45--45
 
 ] [0] (./sections/Introduction.tex
 Chapter 1.
-File: Images/herondoor.png Graphic file (type bmp)
-<Images/herondoor.png>
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-File: Images/seismoscope.png Graphic file (type bmp)
-<Images/seismoscope.png>
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
@@ -1514,19 +1508,11 @@ Overfull \hbox (12.58516pt too wide) in paragraph at lines 104--123
 \TU/TeXGyreTermes(0)/m/n/10.95 and $\OT1/cmr/m/n/10.95 1$$[]$ \TU/TeXGyreTermes(0)/m/n/10.95 (Figure []1.4[]) that combine electrical and mechanical components fabricated using integrated-
  []
 
-File: Images/wafer_example.jpg Graphic file (type bmp)
-<Images/wafer_example.jpg>
 [2]
-File: Images/memspic.png Graphic file (type bmp)
-<Images/memspic.png>
-
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[3]
-File: Images/basicvaporcell.png Graphic file (type bmp)
-<Images/basicvaporcell.png>
- [4] [5]
+[3] [4] [5]
 Overfull \hbox (43.92027pt too wide) in paragraph at lines 304--317
 \OT1/cmr/m/n/10.95 9\OML/cmm/m/it/10.95 :\OT1/cmr/m/n/10.95 192 631 770$$[]$ \TU/TeXGyreTermes(0)/m/n/10.95 for the $[]$Cs clock transition that defines the international second, and $\OT1/cmr/m/n/10.95 6\OML/cmm/m/it/10.95 :\OT1/cmr/m/n/10.95 834 682 610$$[]$
  []
@@ -1541,15 +1527,7 @@ Overfull \hbox (4.03282pt too wide) in paragraph at lines 400--409
 []\TU/TeXGyreTermes(0)/m/n/10.95 Among these, optically pumped magnetometers (OPMs) are the most mature vapor-cell sensors [[]14[]].
  []
 
-[7]
-File: Images/cell_parts.png Graphic file (type bmp)
-<Images/cell_parts.png>
-File: Images/NEG_in_lwvc.png Graphic file (type bmp)
-<Images/NEG_in_lwvc.png>
- [8]
-File: Images/atomic_PIC.png Graphic file (type bmp)
-<Images/atomic_PIC.png>
-
+[7] [8]
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
@@ -1558,15 +1536,10 @@ Overfull \hbox (1.34277pt too wide) in paragraph at lines 537--543
 \TU/TeXGyreTermes(0)/m/n/10.95 with external coupling components, offering a robust path toward mass-producible, field-deployable
  []
 
-File: Images/lw_waveguide.png Graphic file (type bmp)
-<Images/lw_waveguide.png>
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 [10]
-File: Images/lwvc_wafer.png Graphic file (type bmp)
-<Images/lwvc_wafer.png>
-
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
@@ -1579,8 +1552,6 @@ Overfull \hbox (5.50737pt too wide) in paragraph at lines 1--19
 \TU/TeXGyreTermes(0)/m/n/10.95 Precision miniaturized sensors have become an increasingly relevant technology over recent decades,
  []
 
-File: Images/lwvc_process.png Graphic file (type bmp)
-<Images/lwvc_process.png>
 
 Overfull \hbox (2.06728pt too wide) in paragraph at lines 20--35
 []\TU/TeXGyreTermes(0)/m/n/10.95 A Laser-Written Vapor Cell (LWVC) addresses these limitations by exploiting the three-dimensional
@@ -1590,10 +1561,7 @@ Overfull \hbox (2.06728pt too wide) in paragraph at lines 20--35
 
 LaTeX Warning: Reference `sec:activation' on page 17 undefined on input line 124.
 
-) (./sections/Fabrication Methods/Femtosecond Laser Writing.tex [17] [18]
-File: Images/lwvc_3dmodel.png Graphic file (type bmp)
-<Images/lwvc_3dmodel.png>
-) (./sections/Fabrication Methods/Optical Contact Bonding/Intro Optical Contact Bonding.tex [19]
+) (./sections/Fabrication Methods/Femtosecond Laser Writing.tex [17] [18]) (./sections/Fabrication Methods/Optical Contact Bonding/Intro Optical Contact Bonding.tex [19]
 
 LaTeX Warning: Reference `sec:experimental_contact_bonding' on page 20 undefined on input line 46.
 
@@ -1601,40 +1569,15 @@ LaTeX Warning: Reference `sec:experimental_contact_bonding' on page 20 undefined
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-) (./sections/Fabrication Methods/Optical Contact Bonding/Chemical Treatment.tex [21]
-File: Images/piranha_cairo_acid.png Graphic file (type bmp)
-<Images/piranha_cairo_acid.png>
-File: Images/activatedsurf.png Graphic file (type bmp)
-<Images/activatedsurf.png>
- [22]
-File: Images/zetapot.png Graphic file (type bmp)
-<Images/zetapot.png>
- [23] [24]) (./sections/Fabrication Methods/Optical Contact Bonding/Plasma-Activated Bonding.tex
-File: Images/plasma_activation.png Graphic file (type bmp)
-<Images/plasma_activation.png>
-
+) (./sections/Fabrication Methods/Optical Contact Bonding/Chemical Treatment.tex [21] [22] [23] [24]) (./sections/Fabrication Methods/Optical Contact Bonding/Plasma-Activated Bonding.tex
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 [25]
-File: Images/plasmatime.png Graphic file (type bmp)
-<Images/plasmatime.png>
-
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[26]) (./sections/Fabrication Methods/Optical Contact Bonding/Annealing.tex [27]
-File: Images/annealingtemp.png Graphic file (type bmp)
-<Images/annealingtemp.png>
- [28]
-File: Images/annealing_time.png Graphic file (type bmp)
-<Images/annealing_time.png>
-) (./sections/Fabrication Methods/Optical Contact Bonding/Pressure.tex [29]
-File: Images/pressure.png Graphic file (type bmp)
-<Images/pressure.png>
-File: Images/chucks.png Graphic file (type bmp)
-<Images/chucks.png>
-
+[26]) (./sections/Fabrication Methods/Optical Contact Bonding/Annealing.tex [27] [28]) (./sections/Fabrication Methods/Optical Contact Bonding/Pressure.tex [29]
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
@@ -1642,58 +1585,11 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 Chapter 3.
 (./sections/Characterization and Quality Control/Introduction.tex [33
 
-]) (./sections/Characterization and Quality Control/Surface inspection using an AFM.tex
-File: Images/AFM_tip.JPG Graphic file (type bmp)
-<Images/AFM_tip.JPG>
- [34]
-File: Images/Sample1_2D_compressed.pdf Graphic file (type pdf)
-<use Images/Sample1_2D_compressed.pdf>
-File: Images/Sample2_2D_compressed.pdf Graphic file (type pdf)
-<use Images/Sample2_2D_compressed.pdf>
-File: Images/Sample3_2D_compressed.pdf Graphic file (type pdf)
-<use Images/Sample3_2D_compressed.pdf>
-File: Images/Sample1_3D.pdf Graphic file (type pdf)
-<use Images/Sample1_3D.pdf>
-File: Images/Sample2_3D.pdf Graphic file (type pdf)
-<use Images/Sample2_3D.pdf>
-File: Images/Sample3_3D.pdf Graphic file (type pdf)
-<use Images/Sample3_3D.pdf>
-File: Images/Sample1_dist.pdf Graphic file (type pdf)
-<use Images/Sample1_dist.pdf>
-File: Images/Sample2_dist.pdf Graphic file (type pdf)
-<use Images/Sample2_dist.pdf>
-File: Images/Sample3_dist.pdf Graphic file (type pdf)
-<use Images/Sample3_dist.pdf>
-) (./sections/Characterization and Quality Control/Contact Angle.tex [35] [36]
-File: Images/Contact_angle.png Graphic file (type bmp)
-<Images/Contact_angle.png>
- [37]
-File: Images/Surface_tension.png Graphic file (type bmp)
-<Images/Surface_tension.png>
-) (./sections/Characterization and Quality Control/Visual Inspection.tex
-File: Images/Disks/Raw/rca_piranha.png Graphic file (type bmp)
-<Images/Disks/Raw/rca_piranha.png>
-File: Images/Disks/Raw/rca_piranha3.png Graphic file (type bmp)
-<Images/Disks/Raw/rca_piranha3.png>
-
+]) (./sections/Characterization and Quality Control/Surface inspection using an AFM.tex [34]) (./sections/Characterization and Quality Control/Contact Angle.tex [35] [36] [37]) (./sections/Characterization and Quality Control/Visual Inspection.tex
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-) (./sections/Characterization and Quality Control/Strength Tests.tex [38]
-File: Images/razor_test.png Graphic file (type bmp)
-<Images/razor_test.png>
-File: Images/razor_realpic.jpeg Graphic file (type bmp)
-<Images/razor_realpic.jpeg>
- [39] [40]
-File: Images/razor_atm.png Graphic file (type bmp)
-<Images/razor_atm.png>
- [41]
-File: Images/tensile_test.jpeg Graphic file (type bmp)
-<Images/tensile_test.jpeg>
- [42] [43]) (./sections/Characterization and Quality Control/Leak Tests Using Spectroscopy.tex
-File: Images/D1 & D2.png Graphic file (type bmp)
-<Images/D1 & D2.png>
- [44])
+) (./sections/Characterization and Quality Control/Strength Tests.tex [38] [39] [40] [41] [42] [43]) (./sections/Characterization and Quality Control/Leak Tests Using Spectroscopy.tex [44])
 Overfull \hbox (5.38327pt too wide) in paragraph at lines 112--266
 \TU/TeXGyreTermes(0)/m/n/10.95 parison with benchmarks from the literature: the 707-day vacuum integrity demonstrated by Artusio-
  []
@@ -1702,89 +1598,131 @@ Overfull \hbox (5.38327pt too wide) in paragraph at lines 112--266
 Chapter 4.
 (./sections/Experiments and Applications/Intro.tex) (./sections/Experiments and Applications/Optical Contact Bonding Experiment.tex [47
 
-]
-File: Images/chemical_hood.jpeg Graphic file (type bmp)
-<Images/chemical_hood.jpeg>
-File: Images/plasmapurple.png Graphic file (type bmp)
-<Images/plasmapurple.png>
- [48] [49] [50]
-File: Images/n2drying.png Graphic file (type bmp)
-<Images/n2drying.png>
-File: Images/bonder.png Graphic file (type bmp)
-<Images/bonder.png>
-File: Images/Disks/Raw/ethanol.png Graphic file (type bmp)
-<Images/Disks/Raw/ethanol.png>
-File: Images/Disks/Processed/ethanol.png Graphic file (type bmp)
-<Images/Disks/Processed/ethanol.png>
-File: Images/Disks/Raw/ethanol2.png Graphic file (type bmp)
-<Images/Disks/Raw/ethanol2.png>
-File: Images/Disks/Processed/ethanol2.png Graphic file (type bmp)
-<Images/Disks/Processed/ethanol2.png>
-File: Images/Disks/Raw/piranha_plasma.png Graphic file (type bmp)
-<Images/Disks/Raw/piranha_plasma.png>
-File: Images/Disks/Processed/piranha_plasma.png Graphic file (type bmp)
-<Images/Disks/Processed/piranha_plasma.png>
-File: Images/Disks/Raw/piranha_plasma2.png Graphic file (type bmp)
-<Images/Disks/Raw/piranha_plasma2.png>
-File: Images/Disks/Processed/piranha_plasma2.png Graphic file (type bmp)
-<Images/Disks/Processed/piranha_plasma2.png>
-File: Images/Disks/Raw/piranha.png Graphic file (type bmp)
-<Images/Disks/Raw/piranha.png>
-File: Images/Disks/Processed/piranha.png Graphic file (type bmp)
-<Images/Disks/Processed/piranha.png>
-File: Images/Disks/Raw/piranha2.png Graphic file (type bmp)
-<Images/Disks/Raw/piranha2.png>
-File: Images/Disks/Processed/piranha2.png Graphic file (type bmp)
-<Images/Disks/Processed/piranha2.png>
-File: Images/Disks/Raw/piranha3.png Graphic file (type bmp)
-<Images/Disks/Raw/piranha3.png>
-File: Images/Disks/Processed/piranha3.png Graphic file (type bmp)
-<Images/Disks/Processed/piranha3.png>
-File: Images/Disks/Raw/rca_piranha.png Graphic file (type bmp)
-<Images/Disks/Raw/rca_piranha.png>
-File: Images/Disks/Processed/rca_piranha.png Graphic file (type bmp)
-<Images/Disks/Processed/rca_piranha.png>
-File: Images/Disks/Raw/rca_piranha2.png Graphic file (type bmp)
-<Images/Disks/Raw/rca_piranha2.png>
-File: Images/Disks/Processed/rca_piranha2.png Graphic file (type bmp)
-<Images/Disks/Processed/rca_piranha2.png>
-File: Images/Disks/Raw/rca_piranha3.png Graphic file (type bmp)
-<Images/Disks/Raw/rca_piranha3.png>
-File: Images/Disks/Processed/rca_piranha3.png Graphic file (type bmp)
-<Images/Disks/Processed/rca_piranha3.png>
-File: Images/Disks/Raw/plasma5.png Graphic file (type bmp)
-<Images/Disks/Raw/plasma5.png>
-File: Images/Disks/Processed/plasma5.png Graphic file (type bmp)
-<Images/Disks/Processed/plasma5.png>
-File: Images/placeholder.png Graphic file (type bmp)
-<Images/placeholder.png>
-File: Images/placeholder.png Graphic file (type bmp)
-<Images/placeholder.png>
-File: Images/placeholder.png Graphic file (type bmp)
-<Images/placeholder.png>
-File: Images/placeholder.png Graphic file (type bmp)
-<Images/placeholder.png>
-File: Images/Disks/Raw/plasma10.png Graphic file (type bmp)
-<Images/Disks/Raw/plasma10.png>
-File: Images/Disks/Processed/plasma10.png Graphic file (type bmp)
-<Images/Disks/Processed/plasma10.png>
-File: Images/Disks/Raw/plasma10_2.png Graphic file (type bmp)
-<Images/Disks/Raw/plasma10_2.png>
-File: Images/Disks/Processed/plasma10_2.png Graphic file (type bmp)
-<Images/Disks/Processed/plasma10_2.png>
- [51]
-File: Images/tensile_half.png Graphic file (type bmp)
-<Images/tensile_half.png>
-File: Images/tensile_ready.png Graphic file (type bmp)
-<Images/tensile_ready.png>
-File: Images/placeholder.png Graphic file (type bmp)
-<Images/placeholder.png>
-) (./sections/Experiments and Applications/Train Application.tex [52] [53] [54] [55]
-File: Images/deansopm.png Graphic file (type bmp)
-<Images/deansopm.png>
- [56]
-File: Images/wickenopm.png Graphic file (type bmp)
-<Images/wickenopm.png>
+] [48] [49] [50] [51] [52] [53] [54] [55]
+Overfull \hbox (2.13716pt too wide) in paragraph at lines 487--513
+ [][] 
+ []
 
+[56] [57]) (./sections/Experiments and Applications/Train Application.tex [58]
 Overfull \hbox (5.96362pt too wide) in paragraph at lines 62--88
-\TU/TeXGyreTe
+\TU/TeXGyreTermes(0)/m/n/10.95 When microfabricated into advanced architectures such as LWVCs, OPMs can achieve ultra-compact
+ []
+
+
+Overfull \hbox (0.16747pt too wide) in paragraph at lines 62--88
+\TU/TeXGyreTermes(0)/m/n/10.95 (SQUIDs), these miniaturized atomic sensors enable highly portable operations and scalable, multi-
+ []
+
+[59]
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[60] [61] [62] [63] [64] [65] [66] [67] [68] [69] [70] [71] [72]) (./sections/Experiments and Applications/Magnetometry Experiment 1.tex [73]
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[74]
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+) [75] [76]
+Chapter 5.
+[77
+
+] [78
+
+]
+Overfull \hbox (27.0177pt too wide) in paragraph at lines 275--275
+[]\TU/TeXGyreTermes(0)/m/n/10.95 D. V. Rogers. \TU/TeXGyreTermes(0)/m/it/10.95 A diagram that shows the Zhang Heng seismoscope\TU/TeXGyreTermes(0)/m/n/10.95 . \TU/TeXGyreTermes(0)/m/sc/10.95 url\TU/TeXGyreTermes(0)/m/n/10.95 : []$[][][][][] [] [] [] [][][][][][][][][][][] []
+ []
+
+[79] [80]
+Overfull \hbox (10.70496pt too wide) in paragraph at lines 275--275
+[]\TU/TeXGyreTermes(0)/m/n/10.95 Sara Lo Turco, Andrea Di Donato, and Luigino Criante. “Scattering effects of glass-embedded
+ []
+
+
+Overfull \hbox (0.94754pt too wide) in paragraph at lines 275--275
+\TU/TeXGyreTermes(0)/m/n/10.95 microstructures by roughness controlled fs-laser micromachining”. In: \TU/TeXGyreTermes(0)/m/it/10.95 Journal of Microme-
+ []
+
+
+Overfull \hbox (7.4564pt too wide) in paragraph at lines 275--275
+\TU/TeXGyreTermes(0)/m/it/10.95 view of Materials Science \TU/TeXGyreTermes(0)/m/n/10.95 28 (1998), pp. 215–241. \TU/TeXGyreTermes(0)/m/sc/10.95 url\TU/TeXGyreTermes(0)/m/n/10.95 : []$[][][][][] [] [] [] [][][] [] [][][][][][][][][][][][][][][] []
+ []
+
+[81]
+Overfull \hbox (2.2506pt too wide) in paragraph at lines 275--275
+[]\TU/TeXGyreTermes(0)/m/n/10.95 Rolf Brückner. “Properties and structure of vitreous silica. I”. In: \TU/TeXGyreTermes(0)/m/it/10.95 Journal of Non-Crystalline
+ []
+
+[82]
+Overfull \hbox (36.8288pt too wide) in paragraph at lines 275--275
+\TU/TeXGyreTermes(0)/m/it/10.95 Precision Products\TU/TeXGyreTermes(0)/m/n/10.95 . CRC Press, Oct. 2018. \TU/TeXGyreTermes(0)/m/sc/10.95 isbn\TU/TeXGyreTermes(0)/m/n/10.95 : 9781482289992. \TU/TeXGyreTermes(0)/m/sc/10.95 doi\TU/TeXGyreTermes(0)/m/n/10.95 : []$[][] [] [][][][] [] [][][][][][][][][][][][][]$[].
+ []
+
+
+Overfull \hbox (38.89746pt too wide) in paragraph at lines 275--275
+\TU/TeXGyreTermes(0)/m/n/10.95 Silicon Wafers”. In: \TU/TeXGyreTermes(0)/m/it/10.95 Particles on Surfaces 2\TU/TeXGyreTermes(0)/m/n/10.95 . Springer US, 1989, pp. 297–306. \TU/TeXGyreTermes(0)/m/sc/10.95 isbn\TU/TeXGyreTermes(0)/m/n/10.95 : 9781461305316.
+ []
+
+[83] [84]
+Overfull \hbox (2.82265pt too wide) in paragraph at lines 275--275
+\TU/TeXGyreTermes(0)/m/n/10.95 Wetting Phenomena”. In: 2004. \TU/TeXGyreTermes(0)/m/sc/10.95 url\TU/TeXGyreTermes(0)/m/n/10.95 : []$[][][][][] [] [] [] [][][] [] [][][][][][][][][][][][][][][] [] [][][] [] [][][][][][][][] []
+ []
+
+
+Overfull \hbox (20.89204pt too wide) in paragraph at lines 275--275
+[]\TU/TeXGyreTermes(0)/m/n/10.95 S. Mack (Max-Planck-Institut). “Eine vergleichende Untersuchung der physikalisch-chemischen
+ []
+
+
+Overfull \hbox (4.08202pt too wide) in paragraph at lines 275--275
+[]\TU/TeXGyreTermes(0)/m/n/10.95 B Muller and A Stoffel. “Tensile strength characterization of low-temperature fusion-bonded
+ []
+
+
+Overfull \hbox (17.6672pt too wide) in paragraph at lines 275--275
+\TU/TeXGyreTermes(0)/m/it/10.95 tions, Third Edition\TU/TeXGyreTermes(0)/m/n/10.95 . CRC Press, 2005. \TU/TeXGyreTermes(0)/m/sc/10.95 isbn\TU/TeXGyreTermes(0)/m/n/10.95 : 9780429125676. \TU/TeXGyreTermes(0)/m/sc/10.95 doi\TU/TeXGyreTermes(0)/m/n/10.95 : []$[][] [] [][][][] [] [][][][][][][][][][][][][]$[].
+ []
+
+
+Overfull \hbox (3.748pt too wide) in paragraph at lines 275--275
+\TU/TeXGyreTermes(0)/m/it/10.95 Materials Science Letters \TU/TeXGyreTermes(0)/m/n/10.95 20.18 (2001), pp. 1667–1670. \TU/TeXGyreTermes(0)/m/sc/10.95 doi\TU/TeXGyreTermes(0)/m/n/10.95 : []$[][] [] [][][][] [] [] [] [][][][][][][][][][][][][]$[]. 
+ []
+
+[85] [86]
+Overfull \hbox (35.73663pt too wide) in paragraph at lines 275--275
+[]\TU/TeXGyreTermes(0)/m/n/10.95 D Tulli, D Janner, and V Pruneri. “Room temperature direct bonding of LiNbO<sub>3</sub>crystal
+ []
+
+[87] [88
+
+] [89] [90] (./sections/Appendix/Recipes in Literature.tex [91]) (./Main.aux)
+ ***********
+LaTeX2e <2023-11-01> patch level 1
+L3 programming layer <2024-01-22>
+ ***********
+
+
+LaTeX Warning: There were undefined references.
+
+Package rerunfilecheck Info: File `Main.out' has not changed.
+(rerunfilecheck)             Checksum: 6B63491FCE6DBD24920772F425428D7D;10913.
+Package logreq Info: Writing requests to 'Main.run.xml'.
+\openout1 = `Main.run.xml'.
+
+ ) 
+Here is how much of TeX's memory you used:
+ 47913 strings out of 474878
+ 1001713 string characters out of 5762517
+ 1951627 words of memory out of 5000000
+ 69064 multiletter control sequences out of 15000+600000
+ 566673 words of font info for 113 fonts, out of 8000000 for 9000
+ 1348 hyphenation exceptions out of 8191
+ 96i,15n,96p,2389b,5524s stack positions out of 10000i,1000n,20000p,200000b,200000s
+
+Output written on Main.pdf (108 pages).
