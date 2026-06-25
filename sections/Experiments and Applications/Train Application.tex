@@ -26,8 +26,8 @@ Once the atoms are prepared, the second stage involves their resonant
 excitation by means of an alternating radio-frequency magnetic field 
 ($B_{\mathrm{RF}}$) applied perpendicularly to the baseline field. When 
 the frequency of this radio-frequency field matches the natural precession 
-frequency of the atoms—known as the Larmor frequency ($\omega_L = \gamma B_{\mathrm{tot}}$, 
-where $\gamma$ is the gyromagnetic ratio)—it drives a coherent transition in 
+frequency of the atoms ---known as the Larmor frequency ($\omega_L = \gamma B_{\mathrm{tot}}$, 
+where $\gamma$ is the gyromagnetic ratio)--- it drives a coherent transition in 
 the atomic spins, forcing them to rotate synchronously in circles. 
 
 Finally, the third stage consists of the optical interrogation and electronic 
@@ -87,7 +87,6 @@ miniaturized atomic sensors enable highly portable operations and scalable,
 multi-channel array configurations.
 \subsection{Application Scenario: Railway Track Corrosion}
 \label{sec:corrosion_scenario}
-\textbf{POSAR FOTOS DE MES CALITAT}
 Building upon these non-destructive capabilities, this section introduces a
 novel industrial application designed to leverage the extreme precision of
 atomic magnetometry. The primary objective is to deploy an OPM integrated
@@ -184,7 +183,7 @@ framework forms part of an ongoing project at QSENSATO Srl.\ and reflects
 a diagnostic system that is currently in its development phase. Operating via
 the \textit{AC/DC Module}\footnote{It is, indeed, a long way to the top if
 you wanna rock and roll.} and utilizing the \textit{Magnetic Fields} physics
-interface in a frequency-domain formulation, the framework compares a
+interface in a frequency-domain formulation for efficiency, the framework compares a
 baseline healthy rail against a defective track profile containing a
 localized corrosion zone of variable depth at the rail foot.
 
@@ -241,8 +240,8 @@ frequency-dependent dynamic meshing strategy capable of adjusting to the
 changing skin depth ($\delta$) of the system. A general overview of the
 entire computational mesh is displayed in Figure~\ref{fig:mesh_composite}a.
 As a starting point for the discretization, the regions where skin effect
-attenuation is absent---namely the surrounding air and the infinite element
-domains---allow for a more relaxed meshing approach. In these zones, a
+attenuation is absent ---namely the surrounding air and the infinite element
+domains--- allow for a more relaxed meshing approach. In these zones, a
 standard free triangular mesh is implemented with loose geometric
 constraints, keeping the element sizes comfortably bounded between
 \SI{0.1}{\centi\meter} and \SI{1}{\centi\meter}. This ensures a
@@ -324,7 +323,7 @@ candidate sensor position above the mechanical clearance line:
 
 \begin{enumerate}
     \item \textbf{Dynamic range boundary:} The total field $B_{\mathrm{tot}}$
-    must not exceed the QuSpin linear operating range of
+    must not exceed the linear operating range of
     $\SI{150000}{\nano\tesla}$ to prevent sensor saturation.
 
     \item \textbf{Sensitivity boundary:} The differential field between
@@ -354,9 +353,9 @@ the sensitivity plot that validates the feasibility of the proposed concept.
 As a first step, the total magnetic field distribution was evaluated at a
 representative excitation frequency of \SI{50}{\hertz} to characterize
 the baseline field environment at the OPM position. High-resolution close-ups
-at the two critical regions of the rail profile---the top head near the
+at the two critical regions of the rail profile ---the top head near the
 excitation coils (Figure~\ref{fig:closeup_top}) and the bottom foot where
-the corrosion is embedded (Figure~\ref{fig:closeup_bottom})---illustrate
+the corrosion is embedded (Figure~\ref{fig:closeup_bottom})--- illustrate
 how the magnetic flux is spatially structured across the rail
 cross-section under realistic operating conditions.
 
@@ -467,7 +466,7 @@ rail cross-section and reaches the foot where the corrosion is located; at
 higher frequencies, field penetration becomes increasingly confined to the
 surface layers. This frequency balance is a critical design constraint: while
 lower frequencies allow the field to reach the corrosion zone, higher
-frequencies produce weaker eddy currents overall, thereby reducing the
+frequencies produce strogner eddy currents, thereby increasing the
 magnitude of the secondary field and, consequently, of the detectable
 perturbation $|\Delta B|$. The excitation frequency must therefore be
 carefully chosen to balance field penetration depth against induction
@@ -525,7 +524,7 @@ rail head, its amplitude has decreased by several orders of magnitude. The
 central challenge of the proposed diagnostic system therefore reduces to a
 single quantitative question: does this residual signal, evaluated at the
 sensor position, remain above the \SI{3}{\pico\tesla} noise floor of the
-QuSpin OPM? This question is addressed in the following paragraphs.
+OPM? This question is addressed in the following paragraphs.
 
 \begin{figure}[htbp]
 \centering
@@ -540,7 +539,7 @@ QuSpin OPM? This question is addressed in the following paragraphs.
 \paragraph{Optimal sensor and coil configuration.}
 The preceding results establish that a measurable differential signal
 exists in the vicinity of the defect, but they do not yet guarantee that
-the signal can be detected by the QuSpin OPM under realistic operating
+the signal can be detected by the OPM under realistic operating
 conditions. Translating the differential field maps into a concrete
 experimental configuration requires satisfying the two operational
 constraints simultaneously: the total field at the sensor must remain
@@ -556,12 +555,12 @@ position was found to provide a good balance between excitation power and
 sensor protection: it is close enough to the coil that the primary field
 remains strong enough to induce a detectable perturbation at the rail foot,
 yet far enough that the total field at the sensor stays just below the upper
-boundary of the QuSpin operating range, as will be discussed in the
+boundary of the operating range, as will be discussed in the
 following paragraph.
 
 \begin{figure}[htbp]
 \centering
-\includegraphics[width=0.65\textwidth]{Images/placeholder.png}
+\includegraphics[width=0.65\textwidth]{Images/COMSOL/cutpoint.png}
 \caption{Schematic representation of the selected sensor placement. The
   OPM is located at a horizontal standoff of \SI{7}{\centi\meter} from
   the excitation coil, above the mechanical clearance line of the rail
@@ -572,7 +571,7 @@ following paragraph.
 This position was selected in conjunction with a coil configuration of
 \SI{0.5}{\ampere} and 200 turns, which produces a primary field strong
 enough to induce a detectable perturbation at the rail foot while keeping
-the total field at the sensor location within the QuSpin dynamic range.
+the total field at the sensor location within the dynamic range.
 
 \paragraph{Sensitivity analysis and feasibility demonstration.}
 With the experimental configuration fixed, the final and most critical
@@ -585,10 +584,10 @@ diagnostic system is physically realizable.
 
 \begin{figure}[htbp]
 \centering
-\includegraphics[width=0.85\textwidth]{Images/placeholder.png}
+\includegraphics[width=\textwidth]{Images/COMSOL/sensitivityplot.png}
 \caption{Sensitivity plot of the differential field magnitude $|\Delta B(f)|$
   as a function of excitation frequency for corrosion defects of varying
-  lateral size. The dashed black line indicates the QuSpin noise floor
+  lateral size. The dashed black line indicates the noise floor
   (\SI{3}{\pico\tesla}). The shaded grey region marks the sensor's linear
   operating range ($B_{\mathrm{tot}} \leq \SI{150000}{\nano\tesla}$). The
   dashed orange line reports the total field magnitude $B_{\mathrm{tot}}$

@@ -5402,6 +5402,55 @@
       \verb https://doi.org/10.5281/zenodo.20704403
       \endverb
     \endentry
+    \entry{tulli2011}{article}{}
+      \name{author}{3}{}{%
+        {{hash=a0d8b8e542adaea995dc188caa9d4585}{%
+           family={Tulli},
+           familyi={T\bibinitperiod},
+           given={D},
+           giveni={D\bibinitperiod}}}%
+        {{hash=8e16cb0acf3c81e404bdc46231db6bd1}{%
+           family={Janner},
+           familyi={J\bibinitperiod},
+           given={D},
+           giveni={D\bibinitperiod}}}%
+        {{hash=107b766f95fc93ef09d6f2af2318decb}{%
+           family={Pruneri},
+           familyi={P\bibinitperiod},
+           given={V},
+           giveni={V\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {IOP Publishing}%
+      }
+      \strng{namehash}{9e901ecd0ff68bbeb9971db217fc760f}
+      \strng{fullhash}{9e901ecd0ff68bbeb9971db217fc760f}
+      \strng{bibnamehash}{9e901ecd0ff68bbeb9971db217fc760f}
+      \strng{authorbibnamehash}{9e901ecd0ff68bbeb9971db217fc760f}
+      \strng{authornamehash}{9e901ecd0ff68bbeb9971db217fc760f}
+      \strng{authorfullhash}{9e901ecd0ff68bbeb9971db217fc760f}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{1361-6439}
+      \field{journaltitle}{Journal of Micromechanics and Microengineering}
+      \field{number}{8}
+      \field{title}{Room temperature direct bonding of LiNbO<sub>3</sub>crystal layers and its application to high-voltage optical sensing}
+      \field{volume}{21}
+      \field{year}{2011}
+      \field{pages}{085025}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1088/0960-1317/21/8/085025
+      \endverb
+      \verb{urlraw}
+      \verb http://dx.doi.org/10.1088/0960-1317/21/8/085025
+      \endverb
+      \verb{url}
+      \verb http://dx.doi.org/10.1088/0960-1317/21/8/085025
+      \endverb
+    \endentry
     \entry{wang2020}{article}{}
       \name{author}{8}{}{%
         {{hash=47f64381ad069e88d82016d4c642356d}{%
@@ -5526,10 +5575,151 @@
       \verb http://dx.doi.org/10.1143/JJAP.49.086204
       \endverb
     \endentry
+    \entry{lee2022}{article}{}
+      \name{author}{10}{}{%
+        {{hash=0a04959f37b4479d957b05e3a4e4972a}{%
+           family={Lee},
+           familyi={L\bibinitperiod},
+           given={Youngseok},
+           giveni={Y\bibinitperiod}}}%
+        {{hash=5d633ae8fcc8c9a8cab50f43254292f8}{%
+           family={You},
+           familyi={Y\bibinitperiod},
+           given={Yebin},
+           giveni={Y\bibinitperiod}}}%
+        {{hash=9e8432e13b9479efb0440876895f88f7}{%
+           family={Cho},
+           familyi={C\bibinitperiod},
+           given={Chulhee},
+           giveni={C\bibinitperiod}}}%
+        {{hash=b8e48e3a33ba83a9be1ad83feb99c377}{%
+           family={Kim},
+           familyi={K\bibinitperiod},
+           given={Sijun},
+           giveni={S\bibinitperiod}}}%
+        {{hash=8234354034b94663dbd7cf3d7638cce6}{%
+           family={Lee},
+           familyi={L\bibinitperiod},
+           given={Jangjae},
+           giveni={J\bibinitperiod}}}%
+        {{hash=aad2bac3a26c033a84e607ff3fbac19c}{%
+           family={Kim},
+           familyi={K\bibinitperiod},
+           given={Minyoung},
+           giveni={M\bibinitperiod}}}%
+        {{hash=f19757853cca51dae76ddea59723a340}{%
+           family={Lee},
+           familyi={L\bibinitperiod},
+           given={Hanglim},
+           giveni={H\bibinitperiod}}}%
+        {{hash=04178032a9e09da4ed25fdcc0d0c3459}{%
+           family={You},
+           familyi={Y\bibinitperiod},
+           given={Youngjun},
+           giveni={Y\bibinitperiod}}}%
+        {{hash=6c92817e16e1fd08aa8e70887d67a0a7}{%
+           family={Kim},
+           familyi={K\bibinitperiod},
+           given={Kyungman},
+           giveni={K\bibinitperiod}}}%
+        {{hash=ea78a11b8c51a68c2df86c6a5d08ac40}{%
+           family={You},
+           familyi={Y\bibinitperiod},
+           given={ShinJae},
+           giveni={S\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {MDPI AG}%
+      }
+      \strng{namehash}{89c26bf07edd0b5a1814fde935cccc3b}
+      \strng{fullhash}{c24f4be64300ed8be0fc1c0dd842a496}
+      \strng{bibnamehash}{89c26bf07edd0b5a1814fde935cccc3b}
+      \strng{authorbibnamehash}{89c26bf07edd0b5a1814fde935cccc3b}
+      \strng{authornamehash}{89c26bf07edd0b5a1814fde935cccc3b}
+      \strng{authorfullhash}{c24f4be64300ed8be0fc1c0dd842a496}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{2072-666X}
+      \field{journaltitle}{Micromachines}
+      \field{month}{10}
+      \field{number}{11}
+      \field{title}{Comprehensive Assessments in Bonding Energy of Plasma Assisted Si-SiO2 Direct Wafer Bonding after Low Temperature Rapid Thermal Annealing}
+      \field{volume}{13}
+      \field{year}{2022}
+      \field{pages}{1856}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.3390/mi13111856
+      \endverb
+      \verb{urlraw}
+      \verb http://dx.doi.org/10.3390/mi13111856
+      \endverb
+      \verb{url}
+      \verb http://dx.doi.org/10.3390/mi13111856
+      \endverb
+    \endentry
+    \entry{park2025}{article}{}
+      \name{author}{5}{}{%
+        {{hash=9be19977ef3587661aeb731c047fd6df}{%
+           family={Park},
+           familyi={P\bibinitperiod},
+           given={Sung-Min},
+           giveni={S\bibinithyphendelim M\bibinitperiod}}}%
+        {{hash=009201107b59433b225e294259ada9e2}{%
+           family={Jung},
+           familyi={J\bibinitperiod},
+           given={Sang\bibnamedelima Hyun},
+           giveni={S\bibinitperiod\bibinitdelim H\bibinitperiod}}}%
+        {{hash=c9d4676001547fcc8f57bb70a0d55d2f}{%
+           family={Kim},
+           familyi={K\bibinitperiod},
+           given={Joong-Heon},
+           giveni={J\bibinithyphendelim H\bibinitperiod}}}%
+        {{hash=bee6391261be2e0023c743b92e4a9b5e}{%
+           family={Shin},
+           familyi={S\bibinitperiod},
+           given={Seung\bibnamedelima Heon},
+           giveni={S\bibinitperiod\bibinitdelim H\bibinitperiod}}}%
+        {{hash=adb32e833bd4215f9d28779664f80e14}{%
+           family={Lee},
+           familyi={L\bibinitperiod},
+           given={Jaejin},
+           giveni={J\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Elsevier BV}%
+      }
+      \strng{namehash}{65e81c6c2fd8b4ce525b1a863982c280}
+      \strng{fullhash}{9951858fd020ffd624e7213d913faf24}
+      \strng{bibnamehash}{65e81c6c2fd8b4ce525b1a863982c280}
+      \strng{authorbibnamehash}{65e81c6c2fd8b4ce525b1a863982c280}
+      \strng{authornamehash}{65e81c6c2fd8b4ce525b1a863982c280}
+      \strng{authorfullhash}{9951858fd020ffd624e7213d913faf24}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{0038-1101}
+      \field{journaltitle}{Solid-State Electronics}
+      \field{month}{12}
+      \field{title}{Comparative effects of plasma treatments on SiO2 surface and bonding performance for wafer and hybrid bonding}
+      \field{volume}{230}
+      \field{year}{2025}
+      \field{pages}{109246}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1016/j.sse.2025.109246
+      \endverb
+      \verb{urlraw}
+      \verb http://dx.doi.org/10.1016/j.sse.2025.109246
+      \endverb
+      \verb{url}
+      \verb http://dx.doi.org/10.1016/j.sse.2025.109246
+      \endverb
+    \endentry
   \enddatalist
-  \missing{lee2022}
-  \missing{park2025}
-  \missing{tuliThesis}
 \endrefsection
 \endinput
 

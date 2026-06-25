@@ -1,10 +1,8 @@
 \section{Experimental Investigation of Optical Contact Bonding}
 \label{sec:experimental_optical_contact_bonding}
-\textbf{TABLE UNFINISHED}
 Section~\ref{sec:optical_contact_bonding} established the theoretical foundations, 
 governing criteria, and idealized surface quality requirements of optical contact bonding, this 
-section shifts focus to its
-practical implementation. To evaluate the feasibility and reliability of
+section shifts focus to its practical implementation. To evaluate the feasibility and reliability of
 the sealing process under non-ideal conditions, a series of optical
 contact bonding experiments were conducted at the Chemistry Department of
 the University of Bari (UniBa), Italy. The samples utilized for these tests
@@ -29,6 +27,7 @@ preventing the spontaneous propagation of the bonding wave.
 
 Several cleaning and activation protocols were evaluated to mitigate this
 environmental limitation and determine the most robust preparation strategy.
+
 \paragraph{Ethanol and DIW Procedure.}
 The initial trial consisted of a simple, rapid soaking sequence using
 ethanol followed by a deionized water (DIW) rinse (\ce{Ethanol} + \ce{DIW}).
@@ -37,6 +36,7 @@ seconds. Out of the pairs prepared with this rudimentary method, two
 successfully bonded. Following this initial test, all subsequent procedures
 were strictly performed under a chemical hood utilizing an ultrasonic cleaner
 to ensure proper contamination removal (Figure~\ref{fig:hood_setup}).
+
 \begin{figure}[htbp]
     \centering
     \includegraphics[width=\linewidth]{Images/chemical_hood.jpeg}
@@ -44,6 +44,7 @@ to ensure proper contamination removal (Figure~\ref{fig:hood_setup}).
     ultrasonic cleaner utilized for the controlled cleaning protocols.}
     \label{fig:hood_setup}
 \end{figure}
+
 \paragraph{Plasma-Only Procedure.}
 A physical activation protocol relied exclusively on oxygen plasma. The
 disks were subjected to a quick initial pre-wash using acetone followed
@@ -55,11 +56,11 @@ Preliminary trials utilizing shorter plasma exposure durations, starting from
 adhesion. Consequently, 5 minutes was identified as the minimum operational 
 threshold required for sufficient surface activation under the specific 
 pressure, power, and gas dynamics of the utilized system. To evaluate the 
-influence of exposure duration beyond this hardware threshold on the bonding 
-kinematics, a parametric optimization sweep was established with configurations 
-at 5, 6, 8, and 10 minutes. A single sample pair was processed for each of the 
-5-minute, 6-minute, and 8-minute exposure windows, while two independent pairs 
+influence of exposure duration beyond this threshold, a parametric optimization sweep was established with configurations 
+at 5, 8, and 10 minutes. A single sample pair was processed for each of the 
+5-minute and 8-minute exposure windows, while two independent pairs 
 were treated using the 10-minute exposure time.
+
 \begin{figure}[htbp]
     \centering
     \includegraphics[width=\linewidth]{Images/plasmapurple.png}
@@ -68,6 +69,7 @@ were treated using the 10-minute exposure time.
     interior of the vacuum chamber during the surface modification process.}
     \label{fig:plasma_treatment}
 \end{figure}
+
 \paragraph{DIW, Piranha, and DIW Procedure.}
 A wet-chemical activation approach was tested using a heated acid bath
 (\ce{DIW} + \ce{Piranha} + \ce{DIW}). The disks were first soaked in DIW for
@@ -78,7 +80,8 @@ the disks were soaked in DIW for 5 minutes to eliminate any acidic residues
 and were extensively dried using a high-pressure \ce{N2} gun
 (Figure~\ref{fig:n2_gun}). Three independent samples were prepared using this
 protocol to carefully verify reproducibility outside a cleanroom.
-\paragraph{Sequential DIW, RCA-1, DIW, Piranha, and DIW Procedure.}
+
+\paragraph{DIW, RCA-1, DIW, Piranha, and DIW Procedure.}
 A multi-step chemical protocol was evaluated to leverage both particle
 removal and strong oxidation (\ce{DIW} + \ce{RCA-1} + \ce{DIW} + \ce{Piranha}
 + \ce{DIW}). The disks were rinsed with DIW and immersed in an RCA-1 solution
@@ -87,7 +90,8 @@ samples were treated with a piranha solution for \SI{10}{\minute} at
 \SI{70}{\celsius} to further hydroxylate the surface. Finally, after a
 thorough 5-minute DIW rinse to remove acid traces, the disks were dried using
 the high-pressure \ce{N2} gun. Three samples were successfully processed.
-\paragraph{Sequential DIW, Piranha, DIW, and Plasma Procedure.}
+
+\paragraph{DIW, Piranha, DIW, and Plasma Procedure.}
 The final protocol integrated both chemical and physical activation methods
 (\ce{DIW} + \ce{Piranha} + \ce{DIW} + \ce{Plasma}). The disks underwent an
 initial DIW rinse, followed by the 20-minute piranha treatment and subsequent
@@ -105,8 +109,8 @@ the spontaneous bonding wave.
 
 In standard optical contact bonding, a high-temperature annealing step is
 usually performed to convert the weak hydrogen bonds into strong, permanent
-covalent siloxane bridges. However, whenever the bonded disks were placed in
-the available oven for annealing, complete debonding was observed after a few
+covalent bonds. However, whenever the bonded disks were placed in
+the oven for annealing, complete debonding was observed after a few
 hours. This failure was attributed to an excessively steep temperature ramp
 rate. If the temperature rises too rapidly, the interfacial water trapped
 between the disks evaporates and turns into steam faster than it can diffuse
@@ -141,7 +145,7 @@ for several days.
 To quantify the efficacy of the different surface treatments despite the
 non-cleanroom environment, the bonded samples were optically inspected and
 analyzed using the Fiji (ImageJ) software suite. By processing the raw optical
-photographs into high-contrast binary maps, the precise percentage of the
+photographs into high-contrast binary maps, the aproximate percentage of the
 successfully bonded area versus the void area was calculated.
 
 Figure~\ref{fig:bonding_results_2samples} presents the side-by-side raw and
@@ -321,7 +325,7 @@ variation sweep conducted for the oxygen plasma treatments.
 
 \begin{figure}[htbp]
     \centering
-    % --- LINE 1: 5' S1 and 6' S1 (Raw + Fiji) ---
+    % --- LINE 1: 5' S1 and 8' S1 (Raw + Fiji) ---
     \begin{subfigure}{0.23\linewidth}
         \centering
         \includegraphics[width=\linewidth]{Images/Disks/Raw/plasma5.png}
@@ -334,20 +338,6 @@ variation sweep conducted for the oxygen plasma treatments.
     \end{subfigure}\hfill
     \begin{subfigure}{0.23\linewidth}
         \centering
-        \includegraphics[width=\linewidth]{Images/Disks/Raw/plasma6.png}
-        \caption{6' S1 Raw}
-    \end{subfigure}\hfill
-    \begin{subfigure}{0.23\linewidth}
-        \centering
-        \includegraphics[width=\linewidth]{Images/Disks/Processed/plasma6.png}
-        \caption{6' S1 Fiji}
-    \end{subfigure}
-    
-    \vspace{0.5em}
-    
-    % --- LINE 2: 8' S1 and 10' S1 (Raw + Fiji) ---
-    \begin{subfigure}{0.23\linewidth}
-        \centering
         \includegraphics[width=\linewidth]{Images/Disks/Raw/plasma8.png}
         \caption{8' S1 Raw}
     \end{subfigure}\hfill
@@ -355,7 +345,11 @@ variation sweep conducted for the oxygen plasma treatments.
         \centering
         \includegraphics[width=\linewidth]{Images/Disks/Processed/plasma8.png}
         \caption{8' S1 Fiji}
-    \end{subfigure}\hfill
+    \end{subfigure}
+    
+    \vspace{0.5em}
+    
+    % --- LINE 2: 10' S1 and 10' S2 (Raw + Fiji) ---
     \begin{subfigure}{0.23\linewidth}
         \centering
         \includegraphics[width=\linewidth]{Images/Disks/Raw/plasma10.png}
@@ -365,17 +359,12 @@ variation sweep conducted for the oxygen plasma treatments.
         \centering
         \includegraphics[width=\linewidth]{Images/Disks/Processed/plasma10.png}
         \caption{10' S1 Fiji}
-    \end{subfigure}
-    
-    \vspace{0.5em}
-    
-    % --- LINE 3: 10' S2 (Raw + Fiji Centered) ---
+    \end{subfigure}\hfill
     \begin{subfigure}{0.23\linewidth}
         \centering
         \includegraphics[width=\linewidth]{Images/Disks/Raw/plasma10_2.png}
         \caption{10' S2 Raw}
-    \end{subfigure}
-    \hspace{1em}
+    \end{subfigure}\hfill
     \begin{subfigure}{0.23\linewidth}
         \centering
         \includegraphics[width=\linewidth]{Images/Disks/Processed/plasma10_2.png}
@@ -383,7 +372,7 @@ variation sweep conducted for the oxygen plasma treatments.
     \end{subfigure}
     
     \caption{Optical inspection maps for the Plasma-Only activation time 
-    sweep, showing the interface quality across the 5, 6, 8, and 10-minute 
+    sweep, showing the interface quality across the 5, 8, and 10-minute 
     exposure configurations.}
     \label{fig:bonding_results_plasma}
 \end{figure}
@@ -397,11 +386,11 @@ as previously explained in Section~\ref{sec:bonding_strength_tensile}.
 
 To prepare the experimental setup, the bonded fused silica disks were first
 rigidly attached to custom-designed 3D-printed plastic fixtures using a
-high-strength adhesive layer (see Figure~\ref{fig:3d_fixture}). 
+high-strength adhesive (see Figure~\ref{fig:3d_fixture}). 
 This structural adhesive integration ensures a
 uniform transfer of the tensile load across the entire area of the substrates
 without causing premature edge de-adhesion. This setup is illustrated in 
-Figure~\ref{fig:tensile_setup}
+Figure~\ref{fig:tensile_setup}.
 
 \begin{figure}[htbp]
     \centering
@@ -450,20 +439,11 @@ Figure~\ref{fig:tensile_setup}
 The tensile loading process continued until mechanical failure occurred, at
 which point the optical contact bond fractured and the disks separated. The
 dynamometer automatically captured and registered the peak normal force at the
-exact moment of debonding. This ultimate tensile force was subsequently
-converted into its corresponding maximum supported pressure values by dividing
-the recorded peak load by the effective bonded area calculated from the prior
-optical analysis.
-
-The mechanical performance of the bonded interfaces was quantified by converting 
+exact moment of debonding. The mechanical performance of the bonded interfaces was quantified by converting 
 the ultimate tensile strength (recorded in Newtons) into peak supported 
-pressures. For comparative accuracy, two distinct stress metrics were computed 
-based on the geometry of the substrates: the total pressure ($P_{\text{total}}$), 
-evaluated over the entire cross-sectional area of the fused silica disk 
-($A_{\text{total}} = \SI{7.065}{\centi\meter\squared}$), and the partial pressure 
-($P_{\text{partial}}$), calculated by distributing the pulling load strictly across 
-the effective bonded area fraction extracted via binarization. All pressure 
-values are reported in kilopascals (kPa) to optimize numerical readability.
+pressures by dividing it over the entire cross-sectional area of the fused silica disk 
+($A_{\text{total}} = \SI{7.065}{\centi\meter\squared}$). All pressure 
+values are reported in kilopascals (kPa).
 
 Notably, samples Ethanol + DIW (S2), Plasma Only 10' (S1), and RCA-1 + 
 Piranha (S1) exhibited a measured supported pressure of zero due to 
@@ -472,114 +452,184 @@ tensile load during handling or mounting. This early debonding is likely
 attributed to either a critically low interfacial bonding energy or the 
 inadvertent infiltration of the structural adhesive into the disk 
 interface during the fixture assembly process.
-\section{Results and Discussion}
-Table~\ref{tab:tensile_results} summarizes the complete experimental matrix, 
-correlating the activation protocols with their corresponding geometric and 
-mechanical thresholds.
+\subsection{Results and Discussion}
+\label{sec:results_discussion}
 
+Table~\ref{tab:tensile_results} summarizes the complete experimental matrix,
+correlating the activation protocols with their corresponding geometric and
+mechanical thresholds.
 \begin{table}[htbp]
     \centering
     \caption{Correlation between the surface activation procedure, the
     effective bonded area, and the mechanical supported pressures (in kPa)
-    calculated over both the total disk area (\SI{7.065}{\centi\meter\squared})
-    and the effective bonded area.}
+    calculated over both the total disk area (\SI{7.065}{\centi\meter\squared}).}
     \label{tab:tensile_results}
     \begin{tabular}{lccc}
         \toprule
-        \textbf{Procedure \& Sample ID} & \textbf{Bonded} & \textbf{Total} &
-        \textbf{Partial} \\
+        \textbf{Procedure \& Sample ID} & \textbf{Bonded} & \textbf{Total} 
+        \\
                                         & \textbf{Area (\%)} &
-        \textbf{Pressure (kPa)} & \textbf{Pressure (kPa)} \\
+        \textbf{Pressure (kPa)}  \\
         \midrule
-        Ethanol + DIW (S1)                & 2.0  & 24.6  & 1231.4 \\
-        Ethanol + DIW (S2)                & 43.0 & 0.0   & 0.0    \\
-        Plasma Only 5' (S1)               & 22.0 & 16.7  & 75.9   \\
-        Plasma Only 6' (S1)               & 83.0 & [PLACEHOLDER] &
-        [PLACEHOLDER] \\
-        Plasma Only 8' (S1)               & 55.0 & [PLACEHOLDER] &
-        [PLACEHOLDER] \\
-        Plasma Only 10' (S1)              & 1.0  & 0.0   & 0.0    \\
-        Plasma Only 10' (S2)              & 3.0  & 0.7   & 23.6   \\
-        DIW + Piranha + DIW (S1)          & 73.0 & 52.4  & 71.7   \\
-        DIW + Piranha + DIW (S2)          & 77.0 & 15.4  & 20.0   \\
-        DIW + Piranha + DIW (S3)          & 82.0 & 75.0  & 91.5   \\
-        DIW + Piranha + DIW + Plasma (S1) & 34.0 & 99.2  & 291.8  \\
-        DIW + Piranha + DIW + Plasma (S2) & 72.0 & 55.6  & 77.3   \\
-        RCA-1 + Piranha (S1)              & 0.5  & 0.0   & 0.0    \\
-        RCA-1 + Piranha (S2)              & 4.0  & 13.9  & 346.8  \\
-        RCA-1 + Piranha (S3)              & 1.5  & 7.6   & 509.6  \\
+        Ethanol + DIW (S1)                & 2.0  & 24.6   \\
+        Ethanol + DIW (S2)                & 43.0 & 0.0      \\
+        Plasma Only 5' (S1)               & 22.0 & 16.7    \\
+        Plasma Only 8' (S1)               & 55.0 & 50.0  \\
+        Plasma Only 10' (S1)              & 1.0  & 0.0      \\
+        Plasma Only 10' (S2)              & 3.0  & 0.7     \\
+        DIW + Piranha + DIW (S1)          & 73.0 & 52.4     \\
+        DIW + Piranha + DIW (S2)          & 77.0 & 15.4     \\
+        DIW + Piranha + DIW (S3)          & 82.0 & 75.0    \\
+        DIW + Piranha + DIW + Plasma (S1) & 34.0 & 99.2  \\
+        DIW + Piranha + DIW + Plasma (S2) & 72.0 & 55.6    \\
+        RCA-1 + Piranha (S1)              & 0.5  & 0.0      \\
+        RCA-1 + Piranha (S2)              & 4.0  & 13.9    \\
+        RCA-1 + Piranha (S3)              & 1.5  & 7.6    \\
         \bottomrule
     \end{tabular}
 \end{table}
-Additionally to the tabulated data, graphical representations were generated to facilitate an 
-in-depth comparative analysis of each treatment's performance. Figure~\ref{fig:bar_plots}a presents 
-a bar plot of the optical contact area distribution (\%). The total breaking 
-pressure (kPa) as a function of the surface modification procedure is displayed in 
+
+Additionally to the tabulated data, graphical representations were generated
+to facilitate an in-depth comparative analysis of each treatment's
+performance. Figure~\ref{fig:bar_plots}a presents a bar plot of the optical
+contact area distribution ($\%$). The total breaking pressure (kPa) as a
+function of the surface modification procedure is displayed in
 Figure~\ref{fig:bar_plots}b.
+
 \begin{figure}[htbp]
-    \centering
-    \begin{subfigure}[b]{0.48\textwidth}
-        \centering
-        \includegraphics[width=\textwidth]{Images/bar_total_pressure.png}
-        \caption{Total Pressure (kPa)}
-    \end{subfigure}
-    \hfill
-    \begin{subfigure}[b]{0.48\textwidth}
-        \centering
-        \includegraphics[width=\textwidth]{Images/bar_bonded_area.png}
-        \caption{Bonded Area (\%)}
-    \end{subfigure}
-    \caption{Ranked mechanical strength performance and corresponding interfacial 
-    optical contact distribution for the evaluated surface modification methods. 
-    Bars indicate the group mean, vertical error bars represent the min-max range, 
-    and individual data points represent unique experimental samples. 
-    Samples exhibiting premature failure were excluded from the mean computation.}
-    \label{fig:bar_plots}
+\centering
+\begin{subfigure}[b]{0.48\textwidth}
+\centering
+\includegraphics[width=\textwidth]{Images/bar_total_pressure.png}
+\caption{Total Pressure (kPa)}
+\end{subfigure}
+\hfill
+\begin{subfigure}[b]{0.48\textwidth}
+\centering
+\includegraphics[width=\textwidth]{Images/bar_bonded_area.png}
+\caption{Bonded Area ($\%$)}
+\end{subfigure}
+\caption{Ranked mechanical strength performance and corresponding
+interfacial optical contact distribution for the evaluated surface
+modification methods. Bars indicate the group mean, vertical error bars
+represent the min-max range, and individual data points represent unique
+experimental samples. Samples exhibiting premature failure were excluded
+from the mean computation. The evaluated procedures are labeled on the
+x-axis as follows: (i) 10' Plasma [$n=2$], (ii) RCA-1 + Piranha [$n=3$],
+(iii) 5' Plasma [$n=1$], (iv) Ethanol + DIW [$n=2$],
+(v) DIW + Piranha [$n=3$], (vi) 8' Plasma [$n=1$], and
+(vii) DIW + Piranha + DIW + Plasma [$n=2$].}
+\label{fig:bar_plots}
 \end{figure}
 
-To evaluate the relationship 
-between these metrics, the total pressure was plotted against the percentage of bonded area 
-(Figure \ref{fig:scatter}). Statistical analysis of this interaction yielded a moderate positive 
-correlation (Pearson's $r = 0.55$).
+To evaluate the relationship between these metrics, the total pressure was
+plotted against the percentage of bonded area (Figure~\ref{fig:scatter}).
+The calculated
+Pearson correlation coefficient ($r = 0.55$) reveals a moderate positive
+relationship.
+Although this trend suggests that larger bonded areas generally correspond to
+higher mechanical strength, the substantial dispersion observed 
+indicates that bond strength cannot be explained
+solely by the extent of the optically bonded interface
+and highlights the presence of additional factors that
+strongly influence the final mechanical performance. 
 \begin{figure}[htbp]
-    \centering
-    \includegraphics[width=0.8\textwidth]{Images/scatter_bonded_vs_total_pressure.png}
-    \caption{Correlation analysis between the effective bonded area (\%) and the ultimate 
-    total pressure (kPa). A moderate positive correlation is observed (Pearson's $r = 0.55$).}
-    \label{fig:scatter}
+\centering
+\includegraphics[width=0.8\textwidth]{Images/scatter_bonded_vs_total_pressure.png}
+\caption{Correlation analysis between the effective bonded area ($\%$) and
+the total pressure (kPa). A moderate positive correlation is observed
+(Pearson's $r = 0.55$).}
+\label{fig:scatter}
 \end{figure}
-Although this trend suggests that higher optical contact area corresponds to higher mechanical 
-strength, significant variability in the experimental data is evident. This dispersion is primarily 
-attributable to the limited sample size per procedure and the absence of a cleanroom environment, 
-which increases susceptibility to micro-particle contamination. Furthermore, it must be considered 
-that both the visual inspection technique for the bonded area and the tensile test possess inherent 
-margins of error; particularly, the tensile test is highly sensitive to slight misalignments that 
-can trigger premature failure due to stress concentration.
 
-Based on the general analysis of the results, the following preliminary conclusions can be drawn:
+At this stage, it is important to emphasize the limitations of the present
+experimental campaign. The number of samples evaluated for each procedure was
+small ($n=1$ to $3$), limiting the statistical significance of
+the observed trends. Furthermore, all experiments were conducted outside a
+cleanroom environment, introducing significant variability due to airborne
+particle contamination and uncontrolled handling conditions. Additional
+uncertainty is associated with the bonded-area estimation method, which
+relies on visual inspection and image processing, as well as with the
+tensile testing procedure itself, which is sensitive to fixture alignment,
+adhesive infiltration, and stress concentration effects. Consequently, the
+following observations should be regarded as preliminary indications rather
+than definitive conclusions.
 
-\begin{itemize}
-    \item Procedures based on \textbf{Piranha} cleaning and its sequential combination 
-    (\textbf{Piranha + Plasma}) proved to be the most robust methods, achieving the best 
-    trade-offs between optical contact area and mechanical resistance.
-    \item Interestingly, the addition of the RCA-1 step (\textbf{RCA-1 + Piranha}) did not yield 
-    improvement. This phenomenon may have a dual origin: the combined chemical aggressiveness might 
-    be inducing excessive surface roughness that prevents intimate nanometric contact, or the increased 
-    complexity of the procedure drastically raises the probability of environmental contamination outside a cleanroom.
-    \item It was demonstrated that direct bonding is physically possible using only basic cleaning 
-    with \textbf{Ethanol and Deionized Water (DIW)}. However, the obtained bonding energies are notably 
-    low, confirming the critical need for chemical activation methods to maximize surface hydrophilicity.
-    \item Regarding plasma-only treatments, data suggest an optimal exposure window. 
-    The 5-minute treatment appeared to yield better mechanical results than the 10-minute one, 
-    suggesting that prolonged exposures might be over-etching the surface and weakening the 
-    superficial bond network. 
-    \textbf{[NOTE: Results from the tensile test for 6-minute and 8-minute plasma samples are still pending. 
-    This conclusion should be updated once these data are incorporated. FALTARIA TAME ACLARIR QUE NUMERO
-    DE PROCEDIMENT CORERSPON A CADA CAS]}
-\end{itemize}
+Despite these limitations, several noteworthy trends emerge from the data.
+The plasma-only treatments reveal a strong dependence on exposure time. The
+10-minute plasma treatment (procedure (i)) consistently produced very low
+bonded areas and negligible mechanical strength. This behaviour suggests
+that excessive plasma exposure may be detrimental to the bonding process.
+Although no surface roughness measurements were performed, one possible
+explanation is that such prolonged plasma treatment causes over-etching of the
+fused silica surface, increasing its roughness and preventing intimate
+atomic-scale contact between the substrates.
 
-Finally, it is imperative to highlight a methodological limitation of the present study: the thermal 
-annealing step was not performed. In standard direct bonding processes, this stage is essential for the 
-condensation of silanol groups (Si-OH) and the subsequent formation of strong covalent bonds (Si-O-Si) across 
-the interface. Consequently, the results presented here represent the mechanical resistance of the pre-bond at 
-room temperature (governed primarily by Van der Waals forces and hydrogen bonding).
+In contrast, the 5-minute plasma treatment (procedure (iii)) achieved
+substantially better results, suggesting that shorter exposure times provide
+sufficient surface activation while preserving surface smoothness. The
+single sample processed using an 8-minute plasma treatment (procedure (vi))
+exhibited an even larger bonded area and higher supported pressure. While no
+statistically significant conclusion can be drawn from a single specimen,
+this result suggests that the optimum plasma activation window may lie
+between 5 and 10 minutes.
+
+Among the chemical cleaning methods, the DIW + Piranha + DIW procedure
+(procedure (v)) demonstrated the most consistent overall performance. All
+three samples achieved bonded areas between approximately 73$\%$ and 82$\%$,
+indicating that the piranha treatment is highly effective at removing
+contaminants and generating hydrophilic silica surfaces. Although the
+supported pressure values displayed some variability, this protocol
+consistently produced extensive optical contact while maintaining a
+relatively simple workflow. For this reason, it represents one of the most
+robust procedures evaluated during the experimental campaign.
+
+The combined DIW + Piranha + DIW + Plasma treatment (procedure (vii))
+yielded the highest average mechanical performance and the maximum supported
+pressure measured during the study (\SI{99.2}{\kilo\pascal}). These results
+suggest that combining the strong cleaning and hydroxylation capabilities of
+piranha solution with the additional surface activation provided by oxygen
+plasma constitutes a highly effective strategy for preparing fused silica
+surfaces for direct bonding.
+
+Conversely, the RCA-1 + Piranha protocol (procedure (ii)) produced some of
+the poorest overall results. Two complementary explanations may account for
+this behaviour. First, the combined chemical aggressiveness of the RCA-1 and
+Piranha treatments may increase the surface roughness, preventing
+intimate contact. Second, the increased complexity and duration of the
+process substantially increase handling time outside a cleanroom
+environment, creating additional opportunities for particulate
+contamination to become trapped at the bonding interface. The present data
+do not allow these effects to be separated, but both mechanisms are
+consistent with the observed degradation in performance.
+
+Interestingly, the simple Ethanol + DIW procedure (procedure (iv)) achieved
+moderate mechanical performance despite its simplicity. Although the
+resulting bonded areas remained relatively small, the reduced handling time
+and limited number of process steps may constitute an advantage in
+non-cleanroom environments. In such conditions, every additional transfer,
+rinsing, or drying operation increases the probability of contamination
+reaching the interface. Therefore, the unexpectedly reasonable performance
+of this protocol may partially stem from its operational simplicity rather
+than from its cleaning effectiveness alone.
+
+Overall, the results suggest that successful optical contact bonding outside
+a cleanroom environment is feasible, but highly sensitive to both surface
+preparation and contamination control. Within the limitations of the present
+study, Piranha-based cleaning protocols appear to provide the most
+favourable compromise between process simplicity, bonded area, and
+mechanical strength. More broadly, the results suggest that outside a
+cleanroom environment, process simplicity may be nearly as important as
+cleaning aggressiveness, since every additional processing step introduces
+new opportunities for contamination to become trapped at the bonding
+interface.
+
+Finally, it is important to highlight a methodological limitation of the
+present study: the thermal annealing step was not successfully implemented.
+In standard direct bonding processes, annealing promotes the condensation of
+silanol groups (\ce{Si-OH}) and the formation of strong covalent siloxane
+bonds (\ce{Si-O-Si}) across the interface. Consequently, the results
+presented here characterize only the room-temperature pre-bond state,
+governed primarily by hydrogen bonding and van der Waals interactions. The
+ultimate bond strength achievable after a properly controlled annealing
+cycle is therefore expected to be substantially higher.

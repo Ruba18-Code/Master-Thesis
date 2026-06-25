@@ -63,8 +63,8 @@ thermometer~\cite{middleton1966}.
 
 The Industrial Revolution (18th--19th centuries) demanded more
 diverse and sophisticated monitoring tools, and it was during this
-era that the concept of transduction---translating a physical
-phenomenon into an actionable, measurable output---became firmly
+era that the concept of transduction ---translating a physical
+phenomenon into an actionable, measurable output--- became firmly
 established. Essential analytical tools such as the barometer,
 litmus paper, the Davy safety lamp, and early mechanical
 thermostats were developed to ensure industrial safety and process
@@ -310,9 +310,9 @@ readily available for the primary $D_1$ and $D_2$ transitions of
 both elements, greatly simplifying the optical setup. Both species
 produce a stable vapor at moderate temperatures between 80 and
 130~$^\circ$C, enabling sealed glass cells without complex vacuum
-pumps. Their ground-state hyperfine splittings---\SI{9.192631770}{GHz}
+pumps. Their ground-state hyperfine splittings ---\SI{9.192631770}{GHz}
 for the $^{133}$Cs clock transition that defines the international
-second, and \SI{6.834682610}{GHz} for $^{87}$Rb~\cite{ginges2017}---lie
+second, and \SI{6.834682610}{GHz} for $^{87}$Rb~\cite{ginges2017}--- lie
 in a range directly accessible by standard microwave electronics.
 
 % - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
@@ -344,8 +344,8 @@ total averaging time~$\tau$ give
 \begin{equation}
     \delta F_\text{min} = \frac{\hbar}{\mu\,\sqrt{N\,T_2\,\tau}}.
 \end{equation}
-In practice, technical noise---laser intensity fluctuations,
-frequency drift, imperfect magnetic shielding---usually dominates
+In practice, technical noise ---laser intensity fluctuations,
+frequency drift, imperfect magnetic shielding--- usually dominates
 over quantum projection noise in real devices, and minimising these
 sources remains the primary engineering challenge.
 
@@ -403,7 +403,7 @@ laser light aligns the atomic spins, and their Larmor precession
 in an external field is read out optically. OPMs operating in the
 spin-exchange relaxation-free (SERF) regime suppress the
 line-broadening caused by spin-exchange collisions, enabling
-sensitivities below $1\,\text{fT}/\sqrt{\text{Hz}}$---matching
+sensitivities below $1\,\text{fT}/\sqrt{\text{Hz}}$ ---matching
 superconducting SQUIDs without any cryogenic infrastructure. This
 regime is detailed further in Section~\ref{sec:opm}.
 
@@ -422,13 +422,13 @@ increasing size, weight, and power.
 
 Despite these remarkable capabilities, all of the above sensor
 types share a common bottleneck: the vapor cell itself. Existing
-fabrication technologies---primarily silicon MEMS with anodic
-bonding, or photolithographic glass cells---impose planar
+fabrication technologies ---primarily silicon MEMS with anodic
+bonding, or photolithographic glass cells--- impose planar
 geometries, limit optical access, constrain the choice of
 sealing process, and are incompatible with organic anti-relaxation
 coatings. They also restrict integration with photonic components
 to hybrid, off-chip architectures. Addressing these limitations
-requires a fundamentally different manufacturing approach---one
+requires a fundamentally different manufacturing approach ---one
 that combines the geometric freedom of femtosecond laser writing
 with the precision of glass microfabrication. This is the
 starting point for the technology that is the focus of this
@@ -473,7 +473,7 @@ Upon completion of the chemical etching phase, a non-evaporable getter (NEG) dis
 is positioned within the reservoir chamber (Figure~\ref{fig:lwvc_neg}), and the cell is 
 hermetically sealed via optical contact bonding (Section~\ref{sec:optical_contact_bonding}). 
 The NEG material exhibits a critical dual functionality: when locally activated by a laser beam 
-post-sealing, it releases pure alkali-metal vapor—typically $^{87}$Rb or $^{133}$Cs—while 
+post-sealing, it releases pure alkali-metal vapor ---typically $^{87}$Rb or $^{133}$Cs--- while 
 simultaneously serving as a passive getter pump that regulates the internal nitrogen (\ce{N2}) 
 buffer gas pressure~\cite{lucivero2022}. This approach completely eliminates the requirement 
 for cumbersome external vacuum infrastructure. A recent study validated this versatility by 
@@ -560,8 +560,8 @@ substrate, breaking free from the planarity constraints of photolithographic MEM
 As described above, this enables direct co-integration of atomic channels, optical waveguides, 
 and PICs, thereby eliminating the efficiency losses and alignment tolerances typical of hybrid 
 bonding schemes~\cite{lucivero2022}. Furthermore, this geometric flexibility enables a minimal 
-stand-off distance, as the sensing channels can be positioned less than \SI{1}{\milli\meter}—and 
-potentially just a few tens of micrometers—below the outer surface of the substrate~\cite{lucivero2022,zanoni2024}. 
+stand-off distance, as the sensing channels can be positioned less than \SI{1}{\milli\meter} ---and 
+potentially just a few tens of micrometers--- below the outer surface of the substrate~\cite{lucivero2022,zanoni2024}. 
 Because the magnetic or electric field from a localized source decays rapidly with distance, 
 this structural proximity is vital for detecting signals from micro-scale targets, such as single 
 neurons, microfluidic NMR samples, or individual magnetic nanoparticles.
@@ -571,7 +571,7 @@ with anti-relaxation coatings. Because optical contact bonding does not require 
 temperatures characteristic of anodic bonding in MEMS, the inner walls of LWVCs are fully 
 compatible with organic anti-relaxation coatings such as paraffin or alkene-based films. These 
 coatings allow alkali atoms to undergo thousands of wall collisions without depolarizing, pushing 
-the coherence time toward the second scale~\cite{lucivero2022}—a performance regime entirely 
+the coherence time toward the second scale~\cite{lucivero2022} ---a performance regime entirely 
 inaccessible to standard MEMS cells. This internal cell environment is further enhanced by 
 passive buffer gas control without external equipment. Specifically, the integrated NEG dispensers 
 enable post-sealing tuning of the internal \ce{N2} pressure without any external vacuum infrastructure. 
@@ -582,8 +582,8 @@ bottleneck of conventional MEMS cells~\cite{lucivero2022}.
 Finally, these performance capabilities are supported by excellent wafer-level fabrication and 
 scalability. Because femtosecond laser writing is a software-controlled, maskless direct-write 
 process, multiple LWVC devices can be inscribed sequentially or in parallel across a single 
-large-format fused-silica wafer. All subsequent steps—including HF etching, getter insertion, 
-optical contact bonding, and laser activation—are likewise compatible with wafer-scale batch 
+large-format fused-silica wafer. All subsequent steps ---including HF etching, getter insertion, 
+optical contact bonding, and laser activation--- are likewise compatible with wafer-scale batch 
 processing, as is well-established for the broader FLICE platform~\cite{corrielli2021}. As shown 
 in Figure~\ref{fig:lwvc_wafer}, this approach enables tens to hundreds of identical devices 
 per substrate, dramatically reducing per-unit cost and establishing a viable route to mass 
@@ -637,6 +637,6 @@ investigates and optimizes the optical contact bonding sealing process
 (Section~\ref{sec:optical_contact_bonding}) and characterizes the FLICE fabrication pipeline 
 (Section~\ref{sec:flice}). It then establishes a systematic quality-control methodology that 
 encompasses substrate surface roughness and topography, hermeticity, bonding strength, and 
-surface energy measurements—all prerequisites for reliable cell assembly. Finally, it demonstrates 
+surface energy measurements--- all prerequisites for reliable cell assembly. Finally, it demonstrates 
 practical applications in precision magnetometry, including ZFR spectroscopy and optically pumped 
 magnetometer implementations enabled by the unique micro-channel geometry of LWVCs.
