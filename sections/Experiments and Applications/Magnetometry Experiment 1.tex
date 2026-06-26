@@ -1,5 +1,6 @@
+\FloatBarrier
 \section{Zero-Field Resonance Experiments on Vapor Cells} 
-
+\label{sec:zfrexp}
  In this experiment, performed at the facilities of the Physics  
  Department at the \textit{Politecnico di Bari} (POLIBA) in Bari,  
  Italy, the goal was to demonstrate the capacity of vapor cells to  
@@ -16,7 +17,7 @@
      \omega_L = \gamma B 
  \end{equation} 
  where $\gamma$ is the gyromagnetic ratio  
- ($2\pi \times 3.5\,\mathrm{kHz/G}$ for $^{133}$Cs). This precession  
+ ($2\pi \times 35\,\mathrm{MHz/T}$ for $^{133}$Cs \cite{gyrocs}). This precession  
  modulates the projection of the atomic spin along the probe beam  
  direction, causing periodic variations in the optical absorption and  
  thus in the transmitted light intensity detected by the photodiode.  
@@ -36,11 +37,22 @@
  polarization is maintained along the pump axis, minimizing  
  absorption and producing a transmission maximum. 
 
- Following the theoretical framework described in \cite{lucivero2022}, the steady-state electron spin polarization component along the quantization axis ($z$) in the presence of a transverse magnetic field $B_x$ can be modeled analytically as:
+ Following the theoretical framework described in \cite{lucivero2022}, the steady-state electron spin 
+ polarization component along the quantization axis ($z$) in the presence of a transverse magnetic 
+ field $B_x$ can be modeled analytically as:
  \begin{equation}
      P_z = \frac{s R / \Gamma}{\gamma^2 B_x^2 / \Gamma^2 + 1} = \frac{P_z^0 \Delta B_x^2}{B_x^2 + \Delta B_x^2}
  \end{equation}
- where $P_z^0 = sR/\Gamma$ represents the equilibrium spin polarization at zero field. In this expression, $s = -\sin\theta\hat{z}$ is the photon spin determined by the orientation angle $\theta$ of the quarter-wave plate optical axis relative to the initial linear polarization, and $R = \sigma(\nu)\Phi$ denotes the optical pumping rate, which is a product of the absorption cross-section $\sigma(\nu)$ and the photon flux $\Phi$. The parameter $\Gamma = R + \Gamma_{dk} = 1/\tau$ defines the total relaxation rate, combining the optical pumping contribution with the relaxation rate in the dark ($\Gamma_{dk}$), where $\tau$ corresponds to the spin coherence lifetime. Consequently, the half-width at half-maximum (HWHM) of the resonance line shape is expressed directly as $\Delta B_x = \Gamma / \gamma$.
+ where $P_z^0 = sR/\Gamma$ represents the equilibrium spin polarization at zero field. In this 
+ expression, $s = -\sin\theta\hat{z}$ is the photon spin determined by the orientation 
+ angle $\theta$ of the quarter-wave plate optical axis relative to the initial linear 
+ polarization, and $R = \sigma(\nu)\Phi$ denotes the optical pumping rate, which is a 
+ product of the absorption cross-section $\sigma(\nu)$ and the photon flux $\Phi$. 
+ The parameter $\Gamma = R + \Gamma_{dk} = 1/\tau$ defines the total relaxation rate, 
+ combining the optical pumping contribution with the relaxation rate in the dark 
+ ($\Gamma_{dk}$), where $\tau$ corresponds to the spin coherence lifetime. Consequently, 
+ the half-width at half-maximum (HWHM) of the resonance line shape is expressed directly 
+ as $\Delta B_x = \Gamma / \gamma$.
 
  By analyzing the Lorentzian profile, properties of the vapor cell  
  such as the spin coherence lifetime $\tau$ can be determined. The  
@@ -55,7 +67,7 @@
 
  A Twinleaf vapor cell filled with cesium and nitrogen as a buffer  
  gas was placed inside a magnetic shield to isolate it from  
- background fields, including Earth's magnetic field. A laser tuned  
+ background fields, as seen in Figure~\ref{fig:twinleafcell}. A laser tuned  
  to the D1 transition of Cs ($\lambda = \SI{895}{\nano\meter}$) was  
  directed into the cell. A half-wave plate (\gls{HWP}) and a  
  polarizing beam splitter (\gls{PBS}) were used to control the  
@@ -63,6 +75,13 @@
  before the magnetic shield converted the beam to circular  
  polarization. 
 
+  \begin{figure}[h] 
+ \centering 
+ \includegraphics[width=0.6\textwidth]{Images/twinleaf_cell.png} 
+ \caption{Experimental setup. The Twinleaf vapor cell was placed inside the magnetic shield
+ and fixed using a 3D-printed mount.} 
+ \label{fig:twinleafcell} 
+ \end{figure} 
  Inside the magnetic shield, coils generate an alternating magnetic  
  field ramp ($B_x = B_0 + \alpha t$) along the beam axis (X-axis).  
  This time-dependent field produces a time-dependent absorption  
@@ -75,7 +94,7 @@
  \begin{figure}[h] 
  \centering 
  \includegraphics[width=\textwidth]{Images/magnetic_setup.png} 
- \caption{Experimental setup used to detect the ground-state Hanle  
+ \caption{Experimental setup used to detect the ZFR  
      resonance in a cesium vapor cell.} 
  \label{fig:magnetic_setup} 
  \end{figure} 
@@ -132,7 +151,7 @@
  zero-field condition away from $B_x = 0$. 
 
  Applying Eq.~\eqref{eq:tau} with  
- $\gamma = 2\pi \times 3.5\,\mathrm{kHz/G} =  
+ $\gamma = 2\pi \times 35\,\mathrm{MHz/T} =  
  2\pi \times 0.035\,\mathrm{Hz/nT}$ and  
  $\Delta B_\text{FWHM} = \SI{5908.9}{\nano\tesla}$ yields a spin  
  coherence lifetime of: 

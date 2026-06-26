@@ -3995,63 +3995,6 @@
       \field{pages}{061602}
       \range{pages}{1}
     \endentry
-    \entry{maurice2017}{article}{}
-      \name{author}{6}{}{%
-        {{hash=ec1de6e1eb5e286f8bb009fbe923dd2b}{%
-           family={Maurice},
-           familyi={M\bibinitperiod},
-           given={V.},
-           giveni={V\bibinitperiod}}}%
-        {{hash=90e35cd7ed7c5a4f64f60197cab43fe4}{%
-           family={Gorecki},
-           familyi={G\bibinitperiod},
-           given={C.},
-           giveni={C\bibinitperiod}}}%
-        {{hash=9e157fc1807373bf67f3e341f29c651c}{%
-           family={Boudot},
-           familyi={B\bibinitperiod},
-           given={R.},
-           giveni={R\bibinitperiod}}}%
-        {{hash=fd0f4d3cb6266e67c7b8d478be8664d0}{%
-           family={Beugnot},
-           familyi={B\bibinitperiod},
-           given={J.\bibnamedelimi C.},
-           giveni={J\bibinitperiod\bibinitdelim C\bibinitperiod}}}%
-        {{hash=5d0a3c97b45ce5fadac945a81a243ef5}{%
-           family={Labachelerie},
-           familyi={L\bibinitperiod},
-           given={M.},
-           giveni={M\bibinitperiod},
-           prefix={de},
-           prefixi={d\bibinitperiod}}}%
-        {{hash=52d4b30da3b051b55b594f84090395cb}{%
-           family={Passilly},
-           familyi={P\bibinitperiod},
-           given={N.},
-           giveni={N\bibinitperiod}}}%
-      }
-      \list{publisher}{1}{%
-        {AIP Publishing}%
-      }
-      \strng{namehash}{e15513304e26fdf9eb252ab67b9ece50}
-      \strng{fullhash}{8993ee36719881a91ee8d6c159f329c6}
-      \strng{bibnamehash}{e15513304e26fdf9eb252ab67b9ece50}
-      \strng{authorbibnamehash}{e15513304e26fdf9eb252ab67b9ece50}
-      \strng{authornamehash}{e15513304e26fdf9eb252ab67b9ece50}
-      \strng{authorfullhash}{8993ee36719881a91ee8d6c159f329c6}
-      \field{extraname}{1}
-      \field{sortinit}{2}
-      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{Applied Physics Letters}
-      \field{number}{16}
-      \field{title}{Microfabricated vapor cells for miniature atomic clocks based on post-sealing activated cesium dispensers}
-      \field{volume}{110}
-      \field{year}{2017}
-      \field{pages}{164103}
-      \range{pages}{1}
-    \endentry
     \entry{wiki_afm_tip}{misc}{}
       \name{author}{1}{}{%
         {{hash=517a0017d2c165148315fcaeb7e9cf0c}{%
@@ -4908,7 +4851,6 @@
       \strng{authorbibnamehash}{f6831baeb022bb8369a49e623c771e60}
       \strng{authornamehash}{f6831baeb022bb8369a49e623c771e60}
       \strng{authorfullhash}{56112a7737eee498d5940c43b3afe551}
-      \field{extraname}{2}
       \field{sortinit}{2}
       \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{labelnamesource}{author}
@@ -5402,6 +5344,28 @@
       \verb https://doi.org/10.5281/zenodo.20704403
       \endverb
     \endentry
+    \entry{gyrocs}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=5100f3740600366c3255fc351eea7537}{%
+           family={Herb},
+           familyi={H\bibinitperiod},
+           given={Konstantin},
+           giveni={K\bibinitperiod}}}%
+      }
+      \strng{namehash}{5100f3740600366c3255fc351eea7537}
+      \strng{fullhash}{5100f3740600366c3255fc351eea7537}
+      \strng{bibnamehash}{5100f3740600366c3255fc351eea7537}
+      \strng{authorbibnamehash}{5100f3740600366c3255fc351eea7537}
+      \strng{authornamehash}{5100f3740600366c3255fc351eea7537}
+      \strng{authorfullhash}{5100f3740600366c3255fc351eea7537}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{\url{https://www.kherb.io/docs/nmr_table.html}}
+      \field{title}{Konstantin's gyromagnetic ratio table}
+      \field{year}{2025}
+    \endentry
     \entry{tulli2011}{article}{}
       \name{author}{3}{}{%
         {{hash=a0d8b8e542adaea995dc188caa9d4585}{%
@@ -5552,8 +5516,8 @@
       \strng{authorbibnamehash}{aae9505f2d6663af469eb49564c518c7}
       \strng{authornamehash}{aae9505f2d6663af469eb49564c518c7}
       \strng{authorfullhash}{aae9505f2d6663af469eb49564c518c7}
-      \field{sortinit}{3}
-      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{issn}{1347-4065}
@@ -5637,8 +5601,8 @@
       \strng{authorbibnamehash}{89c26bf07edd0b5a1814fde935cccc3b}
       \strng{authornamehash}{89c26bf07edd0b5a1814fde935cccc3b}
       \strng{authorfullhash}{c24f4be64300ed8be0fc1c0dd842a496}
-      \field{sortinit}{3}
-      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{issn}{2072-666X}
@@ -5697,8 +5661,8 @@
       \strng{authorbibnamehash}{65e81c6c2fd8b4ce525b1a863982c280}
       \strng{authornamehash}{65e81c6c2fd8b4ce525b1a863982c280}
       \strng{authorfullhash}{9951858fd020ffd624e7213d913faf24}
-      \field{sortinit}{3}
-      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{issn}{0038-1101}

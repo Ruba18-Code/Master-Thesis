@@ -1,3 +1,4 @@
+\FloatBarrier
 \section{Corrosion Inspection for Railway Tracks}
 \label{sec:opm}
 \label{sec:applications}
@@ -120,7 +121,7 @@ scanning assemblies \cite{quspin}.
     Vector sensitivity (optional) & $<0.1\,\mathrm{nT}/\sqrt{\mathrm{Hz}}$ \\
     Bandwidth & $500\,\mathrm{Hz}$ \\
     Data rate & $1000\,\mathrm{samples/s}$ \\
-    Dynamic range & $1000$--$150{,}000\,\mathrm{nT}$ \\
+    Dynamic range & $1000$--$150000\,\mathrm{nT}$ \\
     Deadzone & Axial only, $<\pm7^\circ$ cone about Earth's field \\
     Heading error & $<3\,\mathrm{nT}$ (uncompensated) \\
     Max.\ gradient field & $300\,\mathrm{nT/cm}$ \\
@@ -324,7 +325,7 @@ candidate sensor position above the mechanical clearance line:
 \begin{enumerate}
     \item \textbf{Dynamic range boundary:} The total field $B_{\mathrm{tot}}$
     must not exceed the linear operating range of
-    $\SI{150000}{\nano\tesla}$ to prevent sensor saturation.
+    $\SI{150}{\micro\tesla}$ to prevent sensor saturation.
 
     \item \textbf{Sensitivity boundary:} The differential field between
     healthy and corroded states must satisfy $\Delta B =
@@ -584,7 +585,7 @@ diagnostic system is physically realizable.
 
 \begin{figure}[htbp]
 \centering
-\includegraphics[width=\textwidth]{Images/COMSOL/sensitivityplot.png}
+\includegraphics[width=0.9\textwidth]{Images/COMSOL/sensitivityplot.png}
 \caption{Sensitivity plot of the differential field magnitude $|\Delta B(f)|$
   as a function of excitation frequency for corrosion defects of varying
   lateral size. The dashed black line indicates the noise floor
