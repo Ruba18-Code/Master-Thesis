@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999995 (TeX Live 2023/Debian) (preloaded format=xelatex 2026.4.1)  26 JUN 2026 12:12
+This is XeTeX, Version 3.141592653-2.6-0.999995 (TeX Live 2023/Debian) (preloaded format=xelatex 2026.4.1)  26 JUN 2026 16:07
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1256,7 +1256,7 @@ Package biblatex Warning: 'babel/polyglossia' detected but 'csquotes' missing.
 
 \@quotelevel=\count536
 \@quotereset=\count537
-No file Main.aux.
+(./Main.aux)
 \openout1 = `Main.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 51.
@@ -1269,7 +1269,7 @@ LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 51.
 LaTeX Font Info:    ... okay on input line 51.
 LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 51.
 LaTeX Font Info:    Trying to load font information for TS1+cmr on input line 51.
-(/usr/share/texlive/texmf-dist/tex/latex/base/ts1cmr.fd
+ (/usr/share/texlive/texmf-dist/tex/latex/base/ts1cmr.fd
 File: ts1cmr.fd 2023/04/13 v2.5m Standard LaTeX font definitions
 )
 LaTeX Font Info:    ... okay on input line 51.
@@ -1367,18 +1367,6 @@ File: translations-basic-dictionary-english.trsl (english translation file `tran
 )
 Package translations Info: loading dictionary `translations-basic-dictionary' for `english'. on input line 51.
  (./Main.glsdefs)
-Runaway argument?
-{name={QWP},sort={QWP},type={main},first={QWP},firstplural={QWPs},tex\ETC.
-/home/ruben/Escritorio/Master-Thesis/Main.tex:51: File ended while scanning use of \glsdefs@newdocentry.
-<inserted text> 
-                \par 
-l.51 \begin{document}
-                     
-I suspect you have forgotten a `}', causing me
-to read past where you wanted me to stop.
-I'll try to recover; but if the error is serious,
-you'd better type `E' or `X' now and fix your file.
-
 *geometry* driver: auto-detecting
 *geometry* detected driver: xetex
 *geometry* verbose mode - [ preamble ] result:
@@ -1425,22 +1413,19 @@ Package biblatex Info: Automatic encoding selection.
 \openout6 = `Main.bcf'.
 
 Package biblatex Info: Trying to load bibliographic data...
-Package biblatex Info: ... file 'Main.bbl' not found.
-
-No file Main.bbl.
+Package biblatex Info: ... file 'Main.bbl' found.
+ (./Main.bbl)
 Package biblatex Info: Reference section=0 on input line 51.
 Package biblatex Info: Reference segment=0 on input line 51.
 Package hyperref Info: Link coloring OFF on input line 51.
+ (./Main.out) (./Main.out)
 \@outlinefile=\write7
 \openout7 = `Main.out'.
 
 
-Package hyperref Warning: Rerun to get /PageLabels entry.
-
-
 Package chemgreek Info: Activating mapping `fontspec' on line 51.
 
-[1
+ [1
 
 \openout4 = `Main.ist'.
 
@@ -1473,99 +1458,65 @@ File: graficos/2018_TELECOMVLC.pdf Graphic file (type pdf)
 
 ] [5
 
-]
-No file Main.toc.
+] (./Main.toc [6])
 \tf@toc=\write8
 \openout8 = `Main.toc'.
 
-[6]
-No file Main.lof.
+ [7] (./Main.lof
+Overfull \hbox (7.14902pt too wide) in paragraph at lines 10--10
+ [][] [][]\TU/TeXGyreTermes(0)/m/n/10.95 Optical micrograph of a fabricated LWVC showing its internal architecture: (a) reser- 
+ []
+
+[8] [9]
+Overfull \hbox (89.49664pt too wide) in paragraph at lines 44--44
+ [][] [][]\TU/TeXGyreTermes(0)/m/n/10.95 Bonding results for procedures with two samples: Ethanol+DIW (top) and DIW+Piranha+DIW+Plasma 
+ []
+
+
+Overfull \hbox (49.36943pt too wide) in paragraph at lines 45--45
+ [][] [][]\TU/TeXGyreTermes(0)/m/n/10.95 Bonding results for chemical procedures with three independent samples: DIW+Piranha+DIW 
+ []
+
+
+Overfull \hbox (3.0546pt too wide) in paragraph at lines 49--49
+ [][] [][]\TU/TeXGyreTermes(0)/m/n/10.95 Ranked mechanical strength performance and corresponding interfacial optical con- 
+ []
+
+[10] [11])
 \tf@lof=\write9
 \openout9 = `Main.lof'.
 
-[7]
-No file Main.lot.
+ [12] (./Main.lot)
 \tf@lot=\write10
 \openout10 = `Main.lot'.
 
-[8] (./siglas.tex
+ [13] (./siglas.tex
 \@gls@deffile=\write11
 \openout11 = `Main.glsdefs'.
 
- (./Main.gls)) [-2
+ (./Main.gls [14
 
-] [-1] [0] (./sections/Introduction.tex
+])) [-2
+
+] [-1
+
+] [0] (./sections/Introduction.tex
 Chapter 1.
-
-LaTeX Warning: Citation 'javaid2021' on page 1 undefined on input line 12.
-
-
-LaTeX Warning: Reference `fig:herondoor' on page 1 undefined on input line 21.
-
-
-LaTeX Warning: Reference `fig:seismoscope' on page 1 undefined on input line 24.
-
 File: Images/herondoor.png Graphic file (type bmp)
 <Images/herondoor.png>
-
-LaTeX Warning: Citation 'herondoor' on page 1 undefined on input line 35.
-
-
-LaTeX Warning: Citation 'herondoor' on page 1 undefined on input line 35.
-
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 File: Images/seismoscope.png Graphic file (type bmp)
 <Images/seismoscope.png>
 
-LaTeX Warning: Citation 'seismoscope' on page 1 undefined on input line 47.
-
-
-LaTeX Warning: Citation 'seismoscope' on page 1 undefined on input line 47.
-
-
 LaTeX Warning: `h' float specifier changed to `ht'.
-
-
-LaTeX Warning: Citation 'pirzada2023' on page 1 undefined on input line 56.
-
-
-LaTeX Warning: Citation 'middleton1966' on page 1 undefined on input line 61.
-
-
-LaTeX Warning: Citation 'pirzada2023' on page 1 undefined on input line 70.
-
-
-LaTeX Warning: Citation 'duncan1947' on page 1 undefined on input line 70.
-
-
-LaTeX Warning: Citation 'curie1880' on page 1 undefined on input line 79.
-
-
-LaTeX Warning: Citation 'bardeen1948' on page 1 undefined on input line 83.
-
-
-LaTeX Warning: Citation 'kilby1976' on page 1 undefined on input line 90.
 
 [1
 
 ]
-
-LaTeX Warning: Reference `fig:scaleofthings' on page 2 undefined on input line 105.
-
-
-LaTeX Warning: Citation 'memshandbook' on page 2 undefined on input line 108.
-
-
-LaTeX Warning: Reference `fig:wafer_example' on page 2 undefined on input line 119.
-
-
-LaTeX Warning: Citation 'petersen1982' on page 2 undefined on input line 121.
-
-
-Overfull \hbox (9.84766pt too wide) in paragraph at lines 103--122
-\TU/TeXGyreTermes(0)/m/n/10.95 and $\OT1/cmr/m/n/10.95 1$$[]$ \TU/TeXGyreTermes(0)/m/n/10.95 (Figure []) that combine electrical and mechanical components fabricated using integrated-
+Overfull \hbox (12.58516pt too wide) in paragraph at lines 103--122
+\TU/TeXGyreTermes(0)/m/n/10.95 and $\OT1/cmr/m/n/10.95 1$$[]$ \TU/TeXGyreTermes(0)/m/n/10.95 (Figure []1.4[]) that combine electrical and mechanical components fabricated using integrated-
  []
 
 File: Images/wafer_example.jpg Graphic file (type bmp)
@@ -1575,944 +1526,110 @@ File: Images/memspic.png Graphic file (type bmp)
 <Images/memspic.png>
 
 
-LaTeX Warning: Citation 'birkholz2013' on page 3 undefined on input line 138.
-
-
-LaTeX Warning: Citation 'birkholz2013' on page 3 undefined on input line 138.
-
-
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-
-LaTeX Warning: Citation 'petersen1982' on page 3 undefined on input line 144.
-
-
-LaTeX Warning: Citation 'kitching2011' on page 3 undefined on input line 160.
-
-
-LaTeX Warning: Citation 'brown2025' on page 3 undefined on input line 160.
-
-
-Overfull \hbox (13.28555pt too wide) in paragraph at lines 156--165
-\TU/TeXGyreTermes(0)/m/n/10.95 reproducible, and sharply defined energy levels of atoms to measure physical quantities [[],
- []
-
 [3]
-
-LaTeX Warning: Reference `fig:basicvaporcell' on page 4 undefined on input line 168.
-
 File: Images/basicvaporcell.png Graphic file (type bmp)
 <Images/basicvaporcell.png>
-
-LaTeX Warning: Citation 'brown2025' on page 4 undefined on input line 181.
-
-
-LaTeX Warning: Citation 'brown2025' on page 4 undefined on input line 181.
-
-
-LaTeX Warning: Citation 'kitching2011' on page 4 undefined on input line 192.
-
-[4]
-
-LaTeX Warning: Citation 'brown2025' on page 5 undefined on input line 203.
-
-
-LaTeX Warning: Citation 'lucivero2022' on page 5 undefined on input line 210.
-
-
-LaTeX Warning: Citation 'lucivero2022' on page 5 undefined on input line 220.
-
-
-LaTeX Warning: Citation 'lucivero2022' on page 5 undefined on input line 229.
-
-
-LaTeX Warning: Citation 'kitching2011' on page 5 undefined on input line 245.
-
-
-LaTeX Warning: Citation 'brown2025' on page 5 undefined on input line 259.
-
-[5]
-
-LaTeX Warning: Citation 'brown2025' on page 6 undefined on input line 286.
-
-
-LaTeX Warning: Citation 'brown2025' on page 6 undefined on input line 304.
-
-
-LaTeX Warning: Citation 'foot2005' on page 6 undefined on input line 307.
-
-
-LaTeX Warning: Citation 'ginges2017' on page 6 undefined on input line 314.
-
-
-Overfull \hbox (1.8099pt too wide) in paragraph at lines 303--316
-\TU/TeXGyreTermes(0)/m/n/10.95 The vast majority of practical atomic sensors use rubidium ($[]$Rb) and cesium ($[]$Cs) [[]].
- []
-
-
-LaTeX Warning: Citation 'kitching2011' on page 6 undefined on input line 323.
-
-
-LaTeX Warning: Citation 'brown2025' on page 6 undefined on input line 323.
-
-
-Overfull \hbox (13.51552pt too wide) in paragraph at lines 322--328
-\TU/TeXGyreTermes(0)/m/n/10.95 The fundamental noise floor of any atomic sensor arises from quantum projection noise [[],
- []
-
-
+ [4] [5]
 Overfull \hbox (24.53853pt too wide) in paragraph at lines 345--350
 \TU/TeXGyreTermes(0)/m/n/10.95 In practice, technical noise —laser intensity fluctuations, frequency drift, imperfect magnetic shielding—
  []
 
 [6]
-
-LaTeX Warning: Reference `tab:sensor_types' on page 7 undefined on input line 356.
-
-
-LaTeX Warning: Citation 'kitching2011' on page 7 undefined on input line 359.
-
-
-LaTeX Warning: Citation 'brown2025' on page 7 undefined on input line 359.
-
-
-Overfull \hbox (7.51122pt too wide) in paragraph at lines 356--360
-\TU/TeXGyreTermes(0)/m/n/10.95 their quantum-noise-limited sensitivities for centimeter-scale platforms [[], []]. 
- []
-
-
-LaTeX Warning: Citation 'brown2025' on page 7 undefined on input line 368.
-
-
-LaTeX Warning: Citation 'brown2025' on page 7 undefined on input line 368.
-
-
-LaTeX Warning: Citation 'kitching2011' on page 7 undefined on input line 400.
-
-
-LaTeX Warning: Reference `sec:opm' on page 7 undefined on input line 407.
-
-
-Overfull \hbox (53.15451pt too wide) in paragraph at lines 399--408
-[]\TU/TeXGyreTermes(0)/m/n/10.95 Among these, optically pumped magnetometers (OPMs) are the most mature vapor-cell sensors [[]].
+Overfull \hbox (4.03282pt too wide) in paragraph at lines 399--408
+[]\TU/TeXGyreTermes(0)/m/n/10.95 Among these, optically pumped magnetometers (OPMs) are the most mature vapor-cell sensors [[]13[]].
  []
 
 [7]
-
-LaTeX Warning: Citation 'lucivero2022' on page 8 undefined on input line 441.
-
-
-LaTeX Warning: Citation 'qsensato_web' on page 8 undefined on input line 441.
-
-
-LaTeX Warning: Reference `sec:flice' on page 8 undefined on input line 451.
-
 File: Images/cell_parts.png Graphic file (type bmp)
 <Images/cell_parts.png>
-
-LaTeX Warning: Reference `sec:optical_contact_bonding' on page 8 undefined on input line 473.
-
-
-LaTeX Warning: Citation 'lucivero2022' on page 8 undefined on input line 477.
-
-
-LaTeX Warning: Citation 'dyer2023' on page 8 undefined on input line 480.
-
-[8]
-
-LaTeX Warning: Reference `fig:atomic_pic' on page 9 undefined on input line 498.
-
+ [8]
+File: Images/lwvc_wafer.png Graphic file (type bmp)
+<Images/lwvc_wafer.png>
+ [9]
 File: Images/atomic_PIC.png Graphic file (type bmp)
 <Images/atomic_PIC.png>
-
-LaTeX Warning: Citation 'qsensato_web' on page 9 undefined on input line 515.
-
-
-LaTeX Warning: Citation 'qsensato_web' on page 9 undefined on input line 515.
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-
-LaTeX Warning: Reference `fig:lw_waveguide' on page 9 undefined on input line 524.
-
-
-Overfull \hbox (1.34277pt too wide) in paragraph at lines 526--532
-\TU/TeXGyreTermes(0)/m/n/10.95 with external coupling components, offering a robust path toward mass-producible, field-deployable
- []
-
 File: Images/lw_waveguide.png Graphic file (type bmp)
 <Images/lw_waveguide.png>
 
-LaTeX Warning: Citation 'qsensato_web' on page 9 undefined on input line 539.
-
-
-LaTeX Warning: Citation 'qsensato_web' on page 9 undefined on input line 539.
-
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
+[10]) [11] [12
 
-LaTeX Warning: Citation 'lucivero2022' on page 9 undefined on input line 551.
-
-
-LaTeX Warning: Citation 'lucivero2022' on page 9 undefined on input line 553.
-
-
-LaTeX Warning: Citation 'zanoni2024' on page 9 undefined on input line 553.
-
-
-Overfull \hbox (40.36853pt too wide) in paragraph at lines 546--557
-\TU/TeXGyreTermes(0)/m/n/10.95 eliminating the efficiency losses and alignment tolerances typical of hybrid bonding schemes [[]].
- []
-
-[9]
-
-LaTeX Warning: Citation 'lucivero2022' on page 10 undefined on input line 563.
-
-
-LaTeX Warning: Citation 'lucivero2022' on page 10 undefined on input line 569.
-
-
-LaTeX Warning: Citation 'corrielli2021' on page 10 undefined on input line 576.
-
-
-LaTeX Warning: Reference `fig:lwvc_wafer' on page 10 undefined on input line 577.
-
-[10]
-File: Images/lwvc_wafer.png Graphic file (type bmp)
-<Images/lwvc_wafer.png>
-
-
-LaTeX Warning: Citation 'qsensato_web' on page 11 undefined on input line 587.
-
-
-LaTeX Warning: Citation 'qsensato_web' on page 11 undefined on input line 587.
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-
-LaTeX Warning: Citation 'lucivero2022' on page 11 undefined on input line 599.
-
-
-LaTeX Warning: Reference `sec:zfrexp' on page 11 undefined on input line 603.
-
-
-LaTeX Warning: Citation 'zanoni2024' on page 11 undefined on input line 603.
-
-
-LaTeX Warning: Citation 'zanoni2024' on page 11 undefined on input line 610.
-
-
-LaTeX Warning: Citation 'zanoni2024' on page 11 undefined on input line 615.
-
-[11]
-
-LaTeX Warning: Reference `sec:applications' on page 12 undefined on input line 618.
-
-
-LaTeX Warning: Reference `sec:optical_contact_bonding' on page 12 undefined on input line 626.
-
-
-LaTeX Warning: Reference `sec:flice' on page 12 undefined on input line 627.
-
-) [12]
+]
 Chapter 2.
 (./sections/Fabrication Methods/Introduction.tex
-
-LaTeX Warning: Citation 'lucivero2022' on page 13 undefined on input line 4.
-
-
-LaTeX Warning: Citation 'lucivero2022' on page 13 undefined on input line 14.
-
-
-LaTeX Warning: Citation 'cutler2020' on page 13 undefined on input line 19.
-
-
 Overfull \hbox (5.50737pt too wide) in paragraph at lines 2--20
 \TU/TeXGyreTermes(0)/m/n/10.95 Precision miniaturized sensors have become an increasingly relevant technology over recent decades,
  []
 
-
-LaTeX Warning: Citation 'lucivero2022' on page 13 undefined on input line 24.
-
-
-LaTeX Warning: Reference `fig:lwvc_fabrication' on page 13 undefined on input line 25.
-
 File: Images/lwvc_process.png Graphic file (type bmp)
 <Images/lwvc_process.png>
-
-LaTeX Warning: Citation 'lucivero2022' on page 13 undefined on input line 33.
-
-
-LaTeX Warning: Citation 'lucivero2022' on page 13 undefined on input line 33.
-
 
 Overfull \hbox (2.06728pt too wide) in paragraph at lines 21--36
 []\TU/TeXGyreTermes(0)/m/n/10.95 A Laser-Written Vapor Cell (LWVC) addresses these limitations by exploiting the three-dimensional
  []
 
-
-LaTeX Warning: Citation 'lucivero2022' on page 13 undefined on input line 39.
-
-
-LaTeX Warning: Reference `sec:flice' on page 13 undefined on input line 52.
-
-[13
-
-]
-
-LaTeX Warning: Citation 'lucivero2022' on page 14 undefined on input line 56.
-
-
-LaTeX Warning: Citation 'lucivero2022' on page 14 undefined on input line 65.
-
-
-LaTeX Warning: Citation 'lucivero2022' on page 14 undefined on input line 71.
-
-
-LaTeX Warning: Citation 'paschotta2023' on page 14 undefined on input line 85.
-
-
-LaTeX Warning: Citation 'wallis1974' on page 14 undefined on input line 90.
-
-[14]
-
-LaTeX Warning: Citation 'wlodarczyk2019' on page 15 undefined on input line 93.
-
-
-LaTeX Warning: Citation 'knapkiewicz2018' on page 15 undefined on input line 98.
-
-
-LaTeX Warning: Citation 'bachman2001' on page 15 undefined on input line 101.
-
-
-LaTeX Warning: Citation 'karlen2018' on page 15 undefined on input line 103.
-
-
-LaTeX Warning: Citation 'wallis1974' on page 15 undefined on input line 104.
-
-
-LaTeX Warning: Citation 'wang2025' on page 15 undefined on input line 106.
-
-
-LaTeX Warning: Citation 'gosele2006' on page 15 undefined on input line 109.
-
-
-LaTeX Warning: Reference `sec:optical_contact_bonding' on page 15 undefined on input line 113.
-
-
-LaTeX Warning: Citation 'lucivero2022' on page 15 undefined on input line 118.
-
-
-LaTeX Warning: Reference `sec:neg_dispenser' on page 15 undefined on input line 125.
-
-) (./sections/Fabrication Methods/Femtosecond Laser Writing.tex
-
-LaTeX Warning: Citation 'gattass2008' on page 15 undefined on input line 10.
-
-
-LaTeX Warning: Citation 'gattass2008' on page 15 undefined on input line 14.
-
-
-LaTeX Warning: Citation 'osellame2012' on page 15 undefined on input line 20.
-
-[15]
-
-LaTeX Warning: Citation 'gattass2008' on page 16 undefined on input line 34.
-
-
-LaTeX Warning: Citation 'gattass2008' on page 16 undefined on input line 44.
-
-
-LaTeX Warning: Citation 'osellame2012' on page 16 undefined on input line 44.
-
-
-LaTeX Warning: Citation 'corrielli2021' on page 16 undefined on input line 51.
-
-
-LaTeX Warning: Citation 'sugioka2005' on page 16 undefined on input line 60.
-
-
-LaTeX Warning: Citation 'osellame2011' on page 16 undefined on input line 60.
-
-
-LaTeX Warning: Citation 'bhardwaj2006' on page 16 undefined on input line 65.
-
-
-LaTeX Warning: Citation 'osellame2012' on page 16 undefined on input line 72.
-
-[16]
-
-LaTeX Warning: Citation 'lucivero2022' on page 17 undefined on input line 81.
-
-
-LaTeX Warning: Citation 'lucivero2022' on page 17 undefined on input line 84.
-
-
-LaTeX Warning: Citation 'lucivero2022' on page 17 undefined on input line 88.
-
-
-LaTeX Warning: Citation 'lucivero2022' on page 17 undefined on input line 94.
-
-
-LaTeX Warning: Reference `fig:lwvc3dmodel' on page 17 undefined on input line 95.
-
+[13] [14]) (./sections/Fabrication Methods/Femtosecond Laser Writing.tex [15] [16]
 File: Images/lwvc_3dmodel.png Graphic file (type bmp)
 <Images/lwvc_3dmodel.png>
+) (./sections/Fabrication Methods/Optical Contact Bonding/Intro Optical Contact Bonding.tex [17] [18]
 
-LaTeX Warning: Citation 'lucivero2022' on page 17 undefined on input line 106.
+LaTeX Warning: `h' float specifier changed to `ht'.
 
-
-LaTeX Warning: Citation 'lucivero2022' on page 17 undefined on input line 106.
-
-
-LaTeX Warning: Citation 'lucivero2022' on page 17 undefined on input line 113.
-
-
-LaTeX Warning: Citation 'turco2017' on page 17 undefined on input line 118.
-
-
-LaTeX Warning: Citation 'sala2021' on page 17 undefined on input line 120.
-
-
-LaTeX Warning: Citation 'lucivero2022' on page 17 undefined on input line 130.
-
-
-LaTeX Warning: Citation 'corrielli2021' on page 17 undefined on input line 130.
-
-) (./sections/Fabrication Methods/Optical Contact Bonding/Intro Optical Contact Bonding.tex [17]
-
-LaTeX Warning: Citation 'rammhandbook' on page 18 undefined on input line 6.
-
-
-LaTeX Warning: Citation 'art2025' on page 18 undefined on input line 10.
-
-
-LaTeX Warning: Citation 'haisma1994' on page 18 undefined on input line 16.
-
-
-LaTeX Warning: Citation 'turner2006' on page 18 undefined on input line 21.
-
-
-LaTeX Warning: Citation 'gosele1998' on page 18 undefined on input line 21.
-
-
-LaTeX Warning: Citation 'possl1999' on page 18 undefined on input line 21.
-
-
-LaTeX Warning: Citation 'turner2006' on page 18 undefined on input line 31.
-
-
-LaTeX Warning: Citation 'gosele1998' on page 18 undefined on input line 31.
-
-
-LaTeX Warning: Citation 'rammhandbook' on page 18 undefined on input line 33.
-
-
-LaTeX Warning: Citation 'kalk2014' on page 18 undefined on input line 36.
-
-
-LaTeX Warning: Citation 'li2013' on page 18 undefined on input line 44.
-
-
-LaTeX Warning: Reference `sec:optexp' on page 18 undefined on input line 46.
-
-[18]
-
-LaTeX Warning: Citation 'brueckner1970' on page 19 undefined on input line 58.
-
-
-LaTeX Warning: Citation 'malitson1965' on page 19 undefined on input line 64.
-
-
-LaTeX Warning: Citation 'ye2016' on page 19 undefined on input line 67.
-
-
-LaTeX Warning: Citation 'brueckner1970' on page 19 undefined on input line 69.
-
-
-LaTeX Warning: Citation 'meissner2002' on page 19 undefined on input line 72.
-
-
-LaTeX Warning: Citation 'schott_borofloat' on page 19 undefined on input line 77.
-
-
-LaTeX Warning: Citation 'possl1999' on page 19 undefined on input line 77.
-
-
-LaTeX Warning: Citation 'okada1984' on page 19 undefined on input line 78.
-
-
-LaTeX Warning: Citation 'gosele2006' on page 19 undefined on input line 80.
-
-
-LaTeX Warning: Citation 'schott_borofloat' on page 19 undefined on input line 82.
-
-
-Overfull \hbox (30.36299pt too wide) in paragraph at lines 74--85
-\TU/TeXGyreTermes(0)/m/n/10.95 have gained widespread adoption in MEMS fabrication and vacuum cell manufacturing [[],
- []
-
-
-LaTeX Warning: Citation 'yang2023' on page 19 undefined on input line 88.
-
-
-LaTeX Warning: Citation 'carle2023' on page 19 undefined on input line 90.
-
-
-LaTeX Warning: Citation 'dellis2016' on page 19 undefined on input line 90.
-
-
-LaTeX Warning: Citation 'jedamzik2014' on page 19 undefined on input line 93.
-
-
-Overfull \hbox (26.03867pt too wide) in paragraph at lines 86--94
-\TU/TeXGyreTermes(0)/m/n/10.95 Aluminosilicate glasses offer higher mechanical strength, improved thermal shock resistance [[]],
- []
-
-
-LaTeX Warning: Reference `eq:bonding_criterion' on page 19 undefined on input line 95.
-
-
-LaTeX Warning: Reference `tab:surface_requirements' on page 19 undefined on input line 97.
-
-
-LaTeX Warning: Citation 'gosele2006' on page 19 undefined on input line 102.
-
-
-LaTeX Warning: Reference `eq:bonding_criterion' on page 19 undefined on input line 105.
-
-
-LaTeX Warning: Citation 'miki2003' on page 19 undefined on input line 107.
-
-
-LaTeX Warning: Reference `eq:bonding_criterion' on page 19 undefined on input line 113.
-
-
-LaTeX Warning: Citation 'kalk2014' on page 19 undefined on input line 115.
-
-
-LaTeX Warning: Citation 'turner2002' on page 19 undefined on input line 115.
-
-
-LaTeX Warning: Citation 'du2022' on page 19 undefined on input line 119.
-
-
-LaTeX Warning: Reference `sec:optexp' on page 19 undefined on input line 123.
-
-[19]
-
-LaTeX Warning: Citation 'gosele2006' on page 20 undefined on input line 133.
-
-
-LaTeX Warning: Citation 'gosele2006' on page 20 undefined on input line 134.
-
-
-LaTeX Warning: Citation 'gosele2006' on page 20 undefined on input line 135.
-
-
-LaTeX Warning: Citation 'kalk2014' on page 20 undefined on input line 136.
-
-
-LaTeX Warning: Citation 'du2022' on page 20 undefined on input line 137.
-
-
-LaTeX Warning: Citation 'du2022' on page 20 undefined on input line 138.
-
-) (./sections/Fabrication Methods/Optical Contact Bonding/Chemical Treatment.tex
-
-LaTeX Warning: Citation 'kissinger1990' on page 20 undefined on input line 10.
-
-
-LaTeX Warning: Citation 'acetone_art' on page 20 undefined on input line 19.
-
-
-LaTeX Warning: Citation 'donovan2018' on page 20 undefined on input line 36.
-
-
-LaTeX Warning: Reference `fig:cairoacid' on page 20 undefined on input line 37.
-
-
-LaTeX Warning: Citation 'kern1993' on page 20 undefined on input line 40.
-
-
-LaTeX Warning: Reference `fig:activatedsurf' on page 20 undefined on input line 48.
-
+) (./sections/Fabrication Methods/Optical Contact Bonding/Chemical Treatment.tex [19]
 File: Images/piranha_cairo_acid.png Graphic file (type bmp)
 <Images/piranha_cairo_acid.png>
-
-LaTeX Warning: Citation 'caro2017' on page 20 undefined on input line 53.
-
-
-LaTeX Warning: Citation 'caro2017' on page 20 undefined on input line 53.
-
 File: Images/activatedsurf.png Graphic file (type bmp)
 <Images/activatedsurf.png>
-
-LaTeX Warning: Citation 'kern1993' on page 20 undefined on input line 60.
-
-
-LaTeX Warning: Citation 'kern1993' on page 20 undefined on input line 60.
-
-
-Underfull \hbox (badness 2486) in paragraph at lines 60--60
-[]\TU/TeXGyreTermes(0)/b/n/10.95 Figure 2.4: |Schematic representation of a hydroxylated/hydrophilic surface. From
- []
-
-[20]
-
-LaTeX Warning: Citation 'kern1970' on page 21 undefined on input line 66.
-
-
-LaTeX Warning: Citation 'kern1993' on page 21 undefined on input line 73.
-
-
-LaTeX Warning: Reference `fig:zetapot' on page 21 undefined on input line 81.
-
-
-LaTeX Warning: Citation 'kern1993' on page 21 undefined on input line 84.
-
-
-LaTeX Warning: Citation 'kern1993' on page 21 undefined on input line 89.
-
+ [20]
 File: Images/zetapot.png Graphic file (type bmp)
 <Images/zetapot.png>
 
-LaTeX Warning: Citation 'lin2012' on page 21 undefined on input line 95.
-
-
-LaTeX Warning: Citation 'lin2012' on page 21 undefined on input line 95.
-
-[21]
-
-LaTeX Warning: Citation 'kern1970' on page 22 undefined on input line 107.
-
-
-LaTeX Warning: Citation 'kern1993' on page 22 undefined on input line 107.
-
-
-LaTeX Warning: Citation 'menon1989' on page 22 undefined on input line 118.
-
-
-LaTeX Warning: Citation 'zhuravlev2000' on page 22 undefined on input line 127.
-
-
-LaTeX Warning: Citation 'kissinger1990' on page 22 undefined on input line 129.
-
-[22]
-
-LaTeX Warning: Citation 'stengl1989' on page 23 undefined on input line 142.
-
-
-LaTeX Warning: Citation 'eichler2008' on page 23 undefined on input line 142.
-
-
-LaTeX Warning: Citation 'stengl1989' on page 23 undefined on input line 155.
-
-
-LaTeX Warning: Citation 'zhuravlev2000' on page 23 undefined on input line 155.
-
-
-Overfull \hbox (21.11122pt too wide) in paragraph at lines 151--159
-\TU/TeXGyreTermes(0)/m/n/10.95 which in turn is limited by the silanol density present at the time of contact [[], []].
- []
-
-
-LaTeX Warning: Citation 'zhuravlev2000' on page 23 undefined on input line 166.
-
-
-LaTeX Warning: Citation 'gosele2006' on page 23 undefined on input line 170.
-
-
-LaTeX Warning: Citation 'possl1999' on page 23 undefined on input line 170.
-
-
-LaTeX Warning: Reference `sec:plasma' on page 23 undefined on input line 171.
-
-) (./sections/Fabrication Methods/Optical Contact Bonding/Plasma-Activated Bonding.tex
-
-LaTeX Warning: Citation 'rammhandbook' on page 23 undefined on input line 10.
-
-
-LaTeX Warning: Citation 'masteika2014' on page 23 undefined on input line 10.
-
-
-LaTeX Warning: Citation 'suniphd' on page 23 undefined on input line 10.
-
-
-LaTeX Warning: Reference `fig:plasma_act' on page 23 undefined on input line 12.
-
-File: Images/plasma_activation.png Graphic file (type bmp)
-<Images/plasma_activation.png>
-
-LaTeX Warning: Citation 'yu2023' on page 23 undefined on input line 21.
-
-
-LaTeX Warning: Citation 'yu2023' on page 23 undefined on input line 21.
-
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-
-LaTeX Warning: Citation 'cho2001' on page 23 undefined on input line 27.
-
-
-LaTeX Warning: Citation 'tuli2012' on page 23 undefined on input line 27.
-
-
-LaTeX Warning: Citation 'gosele1998' on page 23 undefined on input line 34.
-
-
-LaTeX Warning: Citation 'possl1999' on page 23 undefined on input line 34.
-
-
-LaTeX Warning: Citation 'amirfeiz2000' on page 23 undefined on input line 39.
-
-
-LaTeX Warning: Citation 'suni2002' on page 23 undefined on input line 39.
-
-[23]
-
-LaTeX Warning: Citation 'suniphd' on page 24 undefined on input line 47.
-
-
-LaTeX Warning: Citation 'tuli2012' on page 24 undefined on input line 47.
-
-
-LaTeX Warning: Citation 'masteika2014' on page 24 undefined on input line 53.
-
-
-LaTeX Warning: Citation 'suniphd' on page 24 undefined on input line 53.
-
-
-LaTeX Warning: Citation 'rammhandbook' on page 24 undefined on input line 58.
-
-
-LaTeX Warning: Reference `fig:plasmatime' on page 24 undefined on input line 62.
-
+[21] [22]) (./sections/Fabrication Methods/Optical Contact Bonding/Plasma-Activated Bonding.tex
+File: Images/plasma_activation.png Graphic file (type bmp)
+<Images/plasma_activation.png>
+ [23]
 File: Images/plasmatime.png Graphic file (type bmp)
 <Images/plasmatime.png>
 
-LaTeX Warning: Citation 'li2013' on page 24 undefined on input line 72.
 
+LaTeX Warning: `h' float specifier changed to `ht'.
 
-LaTeX Warning: Citation 'li2013' on page 24 undefined on input line 72.
+) (./sections/Fabrication Methods/Optical Contact Bonding/Annealing.tex [24] [25]
+File: Images/annealingtemp.png Graphic file (type bmp)
+<Images/annealingtemp.png>
+File: Images/annealing_time.png Graphic file (type bmp)
+<Images/annealing_time.png>
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[24]
-
-LaTeX Warning: Citation 'neumann2021' on page 25 undefined on input line 82.
-
-
-LaTeX Warning: Citation 'yu2023' on page 25 undefined on input line 88.
-
-
-LaTeX Warning: Citation 'eichler2008' on page 25 undefined on input line 94.
-
-
-LaTeX Warning: Citation 'yu2023' on page 25 undefined on input line 94.
-
-) (./sections/Fabrication Methods/Optical Contact Bonding/Annealing.tex
-
-LaTeX Warning: Citation 'kissinger1990' on page 25 undefined on input line 5.
-
-
-LaTeX Warning: Citation 'rammhandbook' on page 25 undefined on input line 16.
-
-[25]
-
-LaTeX Warning: Citation 'yoder2018' on page 26 undefined on input line 26.
-
-
-LaTeX Warning: Citation 'rammhandbook' on page 26 undefined on input line 31.
-
-
-LaTeX Warning: Citation 'li2013' on page 26 undefined on input line 39.
-
-
-LaTeX Warning: Citation 'cho2001' on page 26 undefined on input line 44.
-
-
-LaTeX Warning: Reference `fig:annealingtemp' on page 26 undefined on input line 46.
-
-File: Images/annealingtemp.png Graphic file (type bmp)
-<Images/annealingtemp.png>
-
-LaTeX Warning: Citation 'li2013' on page 26 undefined on input line 51.
-
-
-LaTeX Warning: Citation 'li2013' on page 26 undefined on input line 51.
-
-
-LaTeX Warning: Citation 'cho2001' on page 26 undefined on input line 57.
-
-[26]
-
-LaTeX Warning: Citation 'cho2001' on page 27 undefined on input line 65.
-
-
-LaTeX Warning: Citation 'yu2023' on page 27 undefined on input line 65.
-
-
-LaTeX Warning: Citation 'li2013' on page 27 undefined on input line 65.
-
-
-LaTeX Warning: Citation 'possl1999' on page 27 undefined on input line 65.
-
-
-LaTeX Warning: Citation 'trinh2022' on page 27 undefined on input line 65.
-
-
-LaTeX Warning: Reference `fig:annealing_time' on page 27 undefined on input line 66.
-
-File: Images/annealing_time.png Graphic file (type bmp)
-<Images/annealing_time.png>
-
-LaTeX Warning: Citation 'cho2001' on page 27 undefined on input line 73.
-
-
-LaTeX Warning: Citation 'cho2001' on page 27 undefined on input line 73.
-
-) (./sections/Fabrication Methods/Optical Contact Bonding/Pressure.tex
-
-LaTeX Warning: Citation 'mai2015' on page 27 undefined on input line 6.
-
-
-LaTeX Warning: Citation 'trinh2022' on page 27 undefined on input line 6.
-
-
-LaTeX Warning: Reference `fig:pressure' on page 27 undefined on input line 7.
-
-
-LaTeX Warning: Citation 'turner2006' on page 27 undefined on input line 10.
-
-
-LaTeX Warning: Citation 'kalk2014' on page 27 undefined on input line 10.
-
-
-LaTeX Warning: Citation 'turner2006' on page 27 undefined on input line 15.
-
-
-LaTeX Warning: Citation 'turner2002' on page 27 undefined on input line 15.
-
-
-LaTeX Warning: Citation 'miki2003' on page 27 undefined on input line 22.
-
-
-LaTeX Warning: Citation 'takagi1998' on page 27 undefined on input line 22.
-
-
-LaTeX Warning: Citation 'rammhandbook' on page 27 undefined on input line 30.
-
-
-LaTeX Warning: Citation 'gosele1998' on page 27 undefined on input line 30.
-
-[27]
-
-LaTeX Warning: Citation 'trinh2022' on page 28 undefined on input line 36.
-
-
-LaTeX Warning: Citation 'bain2022' on page 28 undefined on input line 40.
-
-
-LaTeX Warning: Citation 'wang2014' on page 28 undefined on input line 40.
-
-
-LaTeX Warning: Citation 'birckigt2021' on page 28 undefined on input line 43.
-
+) (./sections/Fabrication Methods/Optical Contact Bonding/Pressure.tex [26] [27]
 File: Images/pressure.png Graphic file (type bmp)
 <Images/pressure.png>
-
-LaTeX Warning: Citation 'mai2015' on page 28 undefined on input line 50.
-
-
-LaTeX Warning: Citation 'mai2015' on page 28 undefined on input line 50.
-
-
-LaTeX Warning: Citation 'birckigt2021' on page 28 undefined on input line 58.
-
-
-LaTeX Warning: Reference `fig:chucks' on page 28 undefined on input line 61.
-
-[28]
 File: Images/chucks.png Graphic file (type bmp)
 <Images/chucks.png>
 
 
-LaTeX Warning: Citation 'birckigt2021' on page 29 undefined on input line 76.
-
-
-LaTeX Warning: Citation 'birckigt2021' on page 29 undefined on input line 76.
-
-) (./sections/Fabrication Methods/NEG.tex
-
-LaTeX Warning: Reference `fig:lwvc_neg' on page 29 undefined on input line 6.
-
-
-LaTeX Warning: Citation 'lucivero2022' on page 29 undefined on input line 10.
-
-File: Images/NEG_in_lwvc.png Graphic file (type bmp)
-<Images/NEG_in_lwvc.png>
-
-LaTeX Warning: Citation 'scherer2012' on page 29 undefined on input line 27.
-
-
-LaTeX Warning: Citation 'scherer2012' on page 29 undefined on input line 29.
-
-
-Overfull \hbox (9.94257pt too wide) in paragraph at lines 3--32
-\TU/TeXGyreTermes(0)/m/n/10.95 tion below $\OT1/cmr/m/n/10.95 6$$[]$ \TU/TeXGyreTermes(0)/m/n/10.95 to avoid trapping reactive oxygen species within the internal cavities [[]].
- []
-
-
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-
-LaTeX Warning: Citation 'knapkiewicz2018' on page 29 undefined on input line 40.
-
-
-LaTeX Warning: Citation 'lucivero2022' on page 29 undefined on input line 43.
-
-
-LaTeX Warning: Citation 'lucivero2022' on page 29 undefined on input line 48.
-
-
-LaTeX Warning: Citation 'scherer2012' on page 29 undefined on input line 53.
-
-[29]) [30]
+) (./sections/Fabrication Methods/NEG.tex
+File: Images/NEG_in_lwvc.png Graphic file (type bmp)
+<Images/NEG_in_lwvc.png>
+ [28] [29]) [30]
 Chapter 3.
 (./sections/Characterization and Quality Control/Introduction.tex [31
 
 ]) (./sections/Characterization and Quality Control/Surface inspection using an AFM.tex
 File: Images/AFM_tip.JPG Graphic file (type bmp)
 <Images/AFM_tip.JPG>
-
-
-LaTeX Warning: Citation 'wiki_afm_tip' on page 32 undefined on input line 16.
-
-
-LaTeX Warning: Citation 'wiki_afm_tip' on page 32 undefined on input line 16.
-
-
-LaTeX Warning: Reference `fig:AFM_image2D' on page 32 undefined on input line 32.
-
-
-LaTeX Warning: Reference `fig:AFM_image3D' on page 32 undefined on input line 33.
-
-
-LaTeX Warning: Reference `fig:roughness_dist' on page 32 undefined on input line 34.
-
-
-LaTeX Warning: Reference `tab:afm' on page 32 undefined on input line 36.
-
-
-LaTeX Warning: Citation 'ISO' on page 32 undefined on input line 37.
-
-[32]
+ [32]
 File: Images/Sample1_2D_compressed.pdf Graphic file (type pdf)
 <use Images/Sample1_2D_compressed.pdf>
 File: Images/Sample2_2D_compressed.pdf Graphic file (type pdf)
@@ -2531,331 +1648,54 @@ File: Images/Sample2_dist.pdf Graphic file (type pdf)
 <use Images/Sample2_dist.pdf>
 File: Images/Sample3_dist.pdf Graphic file (type pdf)
 <use Images/Sample3_dist.pdf>
-) (./sections/Characterization and Quality Control/Contact Angle.tex
-
-LaTeX Warning: Citation 'gosele2006' on page 33 undefined on input line 5.
-
-
-LaTeX Warning: Citation 'possl1999' on page 33 undefined on input line 5.
-
-[33] [34]
-
-LaTeX Warning: Reference `fig:contact_angle_definition' on page 35 undefined on input line 12.
-
-
-LaTeX Warning: Citation 'degennes2004' on page 35 undefined on input line 13.
-
-
-Overfull \hbox (6.8129pt too wide) in paragraph at lines 9--15
-\TU/TeXGyreTermes(0)/m/n/10.95 trated in Figure []. At mechanical equilibrium, the angle satisfies Young’s equation [[]]: 
- []
-
-
-LaTeX Warning: Citation 'degennes2004' on page 35 undefined on input line 24.
-
+) (./sections/Characterization and Quality Control/Contact Angle.tex [33] [34]
 File: Images/Contact_angle.png Graphic file (type bmp)
 <Images/Contact_angle.png>
-
-LaTeX Warning: Reference `eq:young' on page 35 undefined on input line 38.
-
-
-LaTeX Warning: Citation 'wikicontact' on page 35 undefined on input line 38.
-
-
-LaTeX Warning: Reference `eq:young' on page 35 undefined on input line 38.
-
-
-LaTeX Warning: Citation 'wikicontact' on page 35 undefined on input line 38.
-
-
-LaTeX Warning: Citation 'zhuravlev2000' on page 35 undefined on input line 45.
-
-[35]
+ [35]
 File: Images/Surface_tension.png Graphic file (type bmp)
 <Images/Surface_tension.png>
-
-
-LaTeX Warning: Citation 'wikicontacts' on page 36 undefined on input line 64.
-
-
-LaTeX Warning: Citation 'wikicontacts' on page 36 undefined on input line 64.
-
-
-LaTeX Warning: Citation 'gosele2006' on page 36 undefined on input line 75.
-
-
-LaTeX Warning: Citation 'possl1999' on page 36 undefined on input line 75.
-
 ) (./sections/Characterization and Quality Control/Visual Inspection.tex
-
-LaTeX Warning: Citation 'pasternak2018' on page 36 undefined on input line 18.
-
-
-LaTeX Warning: Citation 'rammhandbook' on page 36 undefined on input line 18.
-
-
-LaTeX Warning: Reference `fig:newtonrings' on page 36 undefined on input line 19.
-
-
-LaTeX Warning: Citation 'masteika2014' on page 36 undefined on input line 28.
-
 File: Images/Disks/Raw/rca_piranha.png Graphic file (type bmp)
 <Images/Disks/Raw/rca_piranha.png>
 File: Images/Disks/Raw/rca_piranha3.png Graphic file (type bmp)
 <Images/Disks/Raw/rca_piranha3.png>
 
+
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 ) (./sections/Characterization and Quality Control/Strength Tests.tex [36]
-
-LaTeX Warning: Citation 'takeuchi2022' on page 37 undefined on input line 13.
-
-
-LaTeX Warning: Citation 'takeuchi2022' on page 37 undefined on input line 15.
-
-
-LaTeX Warning: Reference `fig:razor_test' on page 37 undefined on input line 16.
-
-
-LaTeX Warning: Reference `fig:razor_realpic' on page 37 undefined on input line 17.
-
 File: Images/razor_test.png Graphic file (type bmp)
 <Images/razor_test.png>
-
-LaTeX Warning: Citation 'mack1997' on page 37 undefined on input line 27.
-
-
-LaTeX Warning: Citation 'mack1997' on page 37 undefined on input line 27.
-
 File: Images/razor_realpic.jpeg Graphic file (type bmp)
 <Images/razor_realpic.jpeg>
-
-LaTeX Warning: Citation 'gabriel2006' on page 37 undefined on input line 35.
-
-
-LaTeX Warning: Citation 'gabriel2006' on page 37 undefined on input line 35.
-
-
-LaTeX Warning: Citation 'takeuchi2022' on page 37 undefined on input line 42.
-
-[37] [38]
-
-LaTeX Warning: Citation 'takeuchi2022' on page 39 undefined on input line 64.
-
-
-LaTeX Warning: Citation 'fournel2015' on page 39 undefined on input line 70.
-
-
-LaTeX Warning: Citation 'fournel2015' on page 39 undefined on input line 78.
-
-
-LaTeX Warning: Citation 'takeuchi2022' on page 39 undefined on input line 80.
-
+ [37] [38]
 File: Images/razor_atm.png Graphic file (type bmp)
 <Images/razor_atm.png>
-
-LaTeX Warning: Citation 'takeuchi2022' on page 39 undefined on input line 92.
-
-
-LaTeX Warning: Citation 'takeuchi2022' on page 39 undefined on input line 92.
-
-
-LaTeX Warning: Reference `fig:water_stress_corrosion' on page 39 undefined on input line 96.
-
-
-LaTeX Warning: Citation 'takeuchi2022' on page 39 undefined on input line 101.
-
-
-LaTeX Warning: Citation 'takeuchi2022' on page 39 undefined on input line 108.
-
-
-LaTeX Warning: Citation 'fournel2015' on page 39 undefined on input line 110.
-
-
-Overfull \hbox (3.03186pt too wide) in paragraph at lines 103--113
-\TU/TeXGyreTermes(0)/m/n/10.95 ing the evaluation of bond energies exceeding 2–$\OT1/cmr/m/n/10.95 3$$[] [][]$ \TU/TeXGyreTermes(0)/m/n/10.95 for silicon-based materials [[]].
- []
-
-
-LaTeX Warning: Reference `fig:tensile_test' on page 39 undefined on input line 124.
-
-
-LaTeX Warning: Citation 'wasmer2007' on page 39 undefined on input line 124.
-
-
-LaTeX Warning: Citation 'muller1991' on page 39 undefined on input line 124.
-
-[39]
+ [39]
 File: Images/tensile_test.jpeg Graphic file (type bmp)
 <Images/tensile_test.jpeg>
-
-
-LaTeX Warning: Citation 'gosele2006' on page 40 undefined on input line 131.
-
-
-LaTeX Warning: Citation 'gosele2006' on page 40 undefined on input line 131.
-
-
-LaTeX Warning: Citation 'wasmer2007' on page 40 undefined on input line 139.
-
-
-LaTeX Warning: Citation 'gosele2006' on page 40 undefined on input line 139.
-
-
-LaTeX Warning: Citation 'anderson2005' on page 40 undefined on input line 152.
-
-
-LaTeX Warning: Citation 'wasmer2007' on page 40 undefined on input line 158.
-
-
-LaTeX Warning: Citation 'boniecki2001' on page 40 undefined on input line 158.
-
-
-LaTeX Warning: Citation 'gosele2006' on page 40 undefined on input line 160.
-
-[40]
-
-LaTeX Warning: Reference `eq:stress_intensity' on page 41 undefined on input line 168.
-
-
-LaTeX Warning: Reference `eq:fracture_toughness' on page 41 undefined on input line 168.
-
-
-LaTeX Warning: Citation 'muller1991' on page 41 undefined on input line 182.
-
-
-LaTeX Warning: Citation 'muller1991' on page 41 undefined on input line 186.
-
-
-LaTeX Warning: Citation 'gosele2006' on page 41 undefined on input line 186.
-
-
-LaTeX Warning: Citation 'wasmer2007' on page 41 undefined on input line 188.
-
-
-LaTeX Warning: Citation 'muller1991' on page 41 undefined on input line 191.
-
-[41]) (./sections/Characterization and Quality Control/Leak Tests Using Spectroscopy.tex
-
-LaTeX Warning: Citation 'pitz2009' on page 42 undefined on input line 7.
-
-
-LaTeX Warning: Citation 'pitz2010' on page 42 undefined on input line 7.
-
-
-LaTeX Warning: Citation 'andalkar2002' on page 42 undefined on input line 7.
-
-
-LaTeX Warning: Citation 'pitz2014' on page 42 undefined on input line 7.
-
-
-LaTeX Warning: Citation 'shi2019' on page 42 undefined on input line 7.
-
-
-LaTeX Warning: Reference `fig:energy_levels' on page 42 undefined on input line 22.
-
+ [40]) (./sections/Characterization and Quality Control/Leak Tests Using Spectroscopy.tex [41]
 File: Images/D1 & D2.png Graphic file (type bmp)
 <Images/D1 & D2.png>
-
-LaTeX Warning: Citation 'shi2019' on page 42 undefined on input line 27.
-
-
-LaTeX Warning: Citation 'shi2019' on page 42 undefined on input line 27.
-
-[42]
-
-LaTeX Warning: Citation 'pitz2009' on page 43 undefined on input line 57.
-
-
-LaTeX Warning: Citation 'pitz2010' on page 43 undefined on input line 57.
-
-
-LaTeX Warning: Citation 'andalkar2002' on page 43 undefined on input line 57.
-
-
-LaTeX Warning: Citation 'pitz2014' on page 43 undefined on input line 57.
-
-
-LaTeX Warning: Citation 'shi2019' on page 43 undefined on input line 57.
-
-
-LaTeX Warning: Citation 'pitz2009' on page 43 undefined on input line 66.
-
-
-LaTeX Warning: Citation 'maurice2022' on page 43 undefined on input line 72.
-
-
-LaTeX Warning: Citation 'pitz2009' on page 43 undefined on input line 82.
-
-
-LaTeX Warning: Reference `eq:delta' on page 43 undefined on input line 94.
-
-
-LaTeX Warning: Reference `eq:gamma' on page 43 undefined on input line 94.
-
-
-LaTeX Warning: Reference `eq:gammascale' on page 43 undefined on input line 96.
-
-
-LaTeX Warning: Reference `eq:gamma' on page 43 undefined on input line 107.
-
-[43]
-
-LaTeX Warning: Citation 'art2025' on page 44 undefined on input line 119.
-
-
-LaTeX Warning: Citation 'kobtsev2019' on page 44 undefined on input line 122.
-
-)
+ [42])
 Overfull \hbox (5.38327pt too wide) in paragraph at lines 112--246
 \TU/TeXGyreTermes(0)/m/n/10.95 parison with benchmarks from the literature: the 707-day vacuum integrity demonstrated by Artusio-
  []
 
-[44]
-Chapter 4.
-(./sections/Experiments and Applications/Intro.tex) (./sections/Experiments and Applications/Optical Contact Bonding Experiment.tex
-
-LaTeX Warning: Reference `sec:optical_contact_bonding' on page 45 undefined on input line 4.
-
-
-LaTeX Warning: Reference `tab:annex_bonding_log' on page 45 undefined on input line 14.
-
-[45
+[43] [44
 
 ]
-
-LaTeX Warning: Reference `fig:hood_setup' on page 46 undefined on input line 39.
-
+Chapter 4.
+(./sections/Experiments and Applications/Intro.tex) (./sections/Experiments and Applications/Optical Contact Bonding Experiment.tex [45]
 File: Images/chemical_hood.jpeg Graphic file (type bmp)
 <Images/chemical_hood.jpeg>
-
-LaTeX Warning: Reference `fig:plasma_treatment' on page 46 undefined on input line 54.
-
-[46]
 File: Images/plasmapurple.png Graphic file (type bmp)
 <Images/plasmapurple.png>
-
-
-LaTeX Warning: Reference `fig:n2_gun' on page 47 undefined on input line 82.
-
-[47]
-
-LaTeX Warning: Reference `fig:holding_piece' on page 48 undefined on input line 107.
-
+ [46] [47]
 File: Images/n2drying.png Graphic file (type bmp)
 <Images/n2drying.png>
 File: Images/bonder.png Graphic file (type bmp)
 <Images/bonder.png>
-[48]
-
-LaTeX Warning: Reference `fig:bonding_results_2samples' on page 49 undefined on input line 152.
-
-
-LaTeX Warning: Reference `fig:bonding_results_3samples' on page 49 undefined on input line 154.
-
-
-LaTeX Warning: Reference `fig:bonding_results_plasma' on page 49 undefined on input line 156.
-
 File: Images/Disks/Raw/ethanol.png Graphic file (type bmp)
 <Images/Disks/Raw/ethanol.png>
 File: Images/Disks/Processed/ethanol.png Graphic file (type bmp)
@@ -2894,4 +1734,234 @@ File: Images/Disks/Processed/rca_piranha2.png Graphic file (type bmp)
 <Images/Disks/Processed/rca_piranha2.png>
 File: Images/Disks/Raw/rca_piranha3.png Graphic file (type bmp)
 <Images/Disks/Raw/rca_piranha3.png>
-File: Images/Disks/Proce
+File: Images/Disks/Processed/rca_piranha3.png Graphic file (type bmp)
+<Images/Disks/Processed/rca_piranha3.png>
+File: Images/Disks/Raw/plasma5.png Graphic file (type bmp)
+<Images/Disks/Raw/plasma5.png>
+File: Images/Disks/Processed/plasma5.png Graphic file (type bmp)
+<Images/Disks/Processed/plasma5.png>
+File: Images/Disks/Raw/plasma8.png Graphic file (type bmp)
+<Images/Disks/Raw/plasma8.png>
+File: Images/Disks/Processed/plasma8.png Graphic file (type bmp)
+<Images/Disks/Processed/plasma8.png>
+File: Images/Disks/Raw/plasma10.png Graphic file (type bmp)
+<Images/Disks/Raw/plasma10.png>
+File: Images/Disks/Processed/plasma10.png Graphic file (type bmp)
+<Images/Disks/Processed/plasma10.png>
+File: Images/Disks/Raw/plasma10_2.png Graphic file (type bmp)
+<Images/Disks/Raw/plasma10_2.png>
+File: Images/Disks/Processed/plasma10_2.png Graphic file (type bmp)
+<Images/Disks/Processed/plasma10_2.png>
+ [48] [49] [50]
+File: Images/tensile_half.png Graphic file (type bmp)
+<Images/tensile_half.png>
+File: Images/tensile_ready.png Graphic file (type bmp)
+<Images/tensile_ready.png>
+File: Images/tensile_before.png Graphic file (type bmp)
+<Images/tensile_before.png>
+File: Images/tensile_after.png Graphic file (type bmp)
+<Images/tensile_after.png>
+ [51] [52]
+File: Images/bar_total_pressure.png Graphic file (type bmp)
+<Images/bar_total_pressure.png>
+File: Images/bar_bonded_area.png Graphic file (type bmp)
+<Images/bar_bonded_area.png>
+File: Images/scatter_bonded_vs_total_pressure.png Graphic file (type bmp)
+<Images/scatter_bonded_vs_total_pressure.png>
+ [53] [54] [55]) (./sections/Experiments and Applications/Train Application.tex
+File: Images/deansopm.png Graphic file (type bmp)
+<Images/deansopm.png>
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+File: Images/wickenopm.png Graphic file (type bmp)
+<Images/wickenopm.png>
+
+Overfull \hbox (5.96362pt too wide) in paragraph at lines 62--88
+\TU/TeXGyreTermes(0)/m/n/10.95 When microfabricated into advanced architectures such as LWVCs, OPMs can achieve ultra-compact
+ []
+
+
+Overfull \hbox (0.16747pt too wide) in paragraph at lines 62--88
+\TU/TeXGyreTermes(0)/m/n/10.95 (SQUIDs), these miniaturized atomic sensors enable highly portable operations and scalable, multi-
+ []
+
+[56]
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[57] [58] [59]
+File: Images/COMSOL/simulationsetup.png Graphic file (type bmp)
+<Images/COMSOL/simulationsetup.png>
+ [60]
+File: Images/COMSOL/generalmesh.png Graphic file (type bmp)
+<Images/COMSOL/generalmesh.png>
+File: Images/COMSOL/topmesh.png Graphic file (type bmp)
+<Images/COMSOL/topmesh.png>
+File: Images/COMSOL/bottommesh.png Graphic file (type bmp)
+<Images/COMSOL/bottommesh.png>
+File: Images/COMSOL/corrosionmesh.png Graphic file (type bmp)
+<Images/COMSOL/corrosionmesh.png>
+ [61]
+File: Images/COMSOL/totalBcoil.png Graphic file (type bmp)
+<Images/COMSOL/totalBcoil.png>
+File: Images/COMSOL/totalBclamps.png Graphic file (type bmp)
+<Images/COMSOL/totalBclamps.png>
+File: Images/COMSOL/totalBclampssmall.png Graphic file (type bmp)
+<Images/COMSOL/totalBclampssmall.png>
+File: Images/COMSOL/totalBclampscorr.png Graphic file (type bmp)
+<Images/COMSOL/totalBclampscorr.png>
+File: Images/COMSOL/totalBclampsbig.png Graphic file (type bmp)
+<Images/COMSOL/totalBclampsbig.png>
+File: Images/COMSOL/totalBhealthylowf1.png Graphic file (type bmp)
+<Images/COMSOL/totalBhealthylowf1.png>
+File: Images/COMSOL/totalBlowf1.png Graphic file (type bmp)
+<Images/COMSOL/totalBlowf1.png>
+ [62] [63] [64]
+File: Images/COMSOL/totalBlowf.png Graphic file (type bmp)
+<Images/COMSOL/totalBlowf.png>
+File: Images/COMSOL/totalBmidf.png Graphic file (type bmp)
+<Images/COMSOL/totalBmidf.png>
+File: Images/COMSOL/totalBhighf.png Graphic file (type bmp)
+<Images/COMSOL/totalBhighf.png>
+ [65] [66]
+File: Images/COMSOL/diffB.png Graphic file (type bmp)
+<Images/COMSOL/diffB.png>
+ [67]
+File: Images/COMSOL/cutpoint.png Graphic file (type bmp)
+<Images/COMSOL/cutpoint.png>
+File: Images/COMSOL/sensitivityplot.png Graphic file (type bmp)
+<Images/COMSOL/sensitivityplot.png>
+ [68] [69]) (./sections/Experiments and Applications/Magnetometry Experiment 1.tex [70]
+File: Images/twinleaf_cell.png Graphic file (type bmp)
+<Images/twinleaf_cell.png>
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+File: Images/magnetic_setup.png Graphic file (type bmp)
+<Images/magnetic_setup.png>
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+File: Images/magnetic_exp_Yvar.pdf Graphic file (type pdf)
+<use Images/magnetic_exp_Yvar.pdf>
+File: Images/magnetic_exp_Zvar.pdf Graphic file (type pdf)
+<use Images/magnetic_exp_Zvar.pdf>
+File: Images/magnetic_exp_YZvar.pdf Graphic file (type pdf)
+<use Images/magnetic_exp_YZvar.pdf>
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[71]
+File: Images/Fit_00Y_45Z.pdf Graphic file (type pdf)
+<use Images/Fit_00Y_45Z.pdf>
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+) (./sections/Conclusion.tex [72] [73] [74]
+Chapter 5.
+[75
+
+
+]) [76]
+Overfull \hbox (27.0177pt too wide) in paragraph at lines 255--255
+[]\TU/TeXGyreTermes(0)/m/n/10.95 D. V. Rogers. \TU/TeXGyreTermes(0)/m/it/10.95 A diagram that shows the Zhang Heng seismoscope\TU/TeXGyreTermes(0)/m/n/10.95 . \TU/TeXGyreTermes(0)/m/sc/10.95 url\TU/TeXGyreTermes(0)/m/n/10.95 : []$[][][][][] [] [] [] [][][][][][][][][][][] []
+ []
+
+[77
+
+] [78]
+Overfull \hbox (10.70496pt too wide) in paragraph at lines 255--255
+[]\TU/TeXGyreTermes(0)/m/n/10.95 Sara Lo Turco, Andrea Di Donato, and Luigino Criante. “Scattering effects of glass-embedded
+ []
+
+
+Overfull \hbox (0.94754pt too wide) in paragraph at lines 255--255
+\TU/TeXGyreTermes(0)/m/n/10.95 microstructures by roughness controlled fs-laser micromachining”. In: \TU/TeXGyreTermes(0)/m/it/10.95 Journal of Microme-
+ []
+
+
+Overfull \hbox (7.4564pt too wide) in paragraph at lines 255--255
+\TU/TeXGyreTermes(0)/m/it/10.95 view of Materials Science \TU/TeXGyreTermes(0)/m/n/10.95 28 (1998), pp. 215–241. \TU/TeXGyreTermes(0)/m/sc/10.95 url\TU/TeXGyreTermes(0)/m/n/10.95 : []$[][][][][] [] [] [] [][][] [] [][][][][][][][][][][][][][][] []
+ []
+
+[79]
+Overfull \hbox (2.2506pt too wide) in paragraph at lines 255--255
+[]\TU/TeXGyreTermes(0)/m/n/10.95 Rolf Brückner. “Properties and structure of vitreous silica. I”. In: \TU/TeXGyreTermes(0)/m/it/10.95 Journal of Non-Crystalline
+ []
+
+[80]
+Overfull \hbox (36.8288pt too wide) in paragraph at lines 255--255
+\TU/TeXGyreTermes(0)/m/it/10.95 Precision Products\TU/TeXGyreTermes(0)/m/n/10.95 . CRC Press, Oct. 2018. \TU/TeXGyreTermes(0)/m/sc/10.95 isbn\TU/TeXGyreTermes(0)/m/n/10.95 : 9781482289992. \TU/TeXGyreTermes(0)/m/sc/10.95 doi\TU/TeXGyreTermes(0)/m/n/10.95 : []$[][] [] [][][][] [] [][][][][][][][][][][][][]$[].
+ []
+
+
+Overfull \hbox (38.89746pt too wide) in paragraph at lines 255--255
+\TU/TeXGyreTermes(0)/m/n/10.95 Silicon Wafers”. In: \TU/TeXGyreTermes(0)/m/it/10.95 Particles on Surfaces 2\TU/TeXGyreTermes(0)/m/n/10.95 . Springer US, 1989, pp. 297–306. \TU/TeXGyreTermes(0)/m/sc/10.95 isbn\TU/TeXGyreTermes(0)/m/n/10.95 : 9781461305316.
+ []
+
+[81] [82]
+Overfull \hbox (2.82265pt too wide) in paragraph at lines 255--255
+\TU/TeXGyreTermes(0)/m/n/10.95 Wetting Phenomena”. In: 2004. \TU/TeXGyreTermes(0)/m/sc/10.95 url\TU/TeXGyreTermes(0)/m/n/10.95 : []$[][][][][] [] [] [] [][][] [] [][][][][][][][][][][][][][][] [] [][][] [] [][][][][][][][] []
+ []
+
+
+Overfull \hbox (20.89204pt too wide) in paragraph at lines 255--255
+[]\TU/TeXGyreTermes(0)/m/n/10.95 S. Mack (Max-Planck-Institut). “Eine vergleichende Untersuchung der physikalisch-chemischen
+ []
+
+
+Overfull \hbox (4.08202pt too wide) in paragraph at lines 255--255
+[]\TU/TeXGyreTermes(0)/m/n/10.95 B Muller and A Stoffel. “Tensile strength characterization of low-temperature fusion-bonded
+ []
+
+
+Overfull \hbox (17.6672pt too wide) in paragraph at lines 255--255
+\TU/TeXGyreTermes(0)/m/it/10.95 tions, Third Edition\TU/TeXGyreTermes(0)/m/n/10.95 . CRC Press, 2005. \TU/TeXGyreTermes(0)/m/sc/10.95 isbn\TU/TeXGyreTermes(0)/m/n/10.95 : 9780429125676. \TU/TeXGyreTermes(0)/m/sc/10.95 doi\TU/TeXGyreTermes(0)/m/n/10.95 : []$[][] [] [][][][] [] [][][][][][][][][][][][][]$[].
+ []
+
+
+Overfull \hbox (3.748pt too wide) in paragraph at lines 255--255
+\TU/TeXGyreTermes(0)/m/it/10.95 Materials Science Letters \TU/TeXGyreTermes(0)/m/n/10.95 20.18 (2001), pp. 1667–1670. \TU/TeXGyreTermes(0)/m/sc/10.95 doi\TU/TeXGyreTermes(0)/m/n/10.95 : []$[][] [] [][][][] [] [] [] [][][][][][][][][][][][][]$[]. 
+ []
+
+[83] [84]
+Overfull \hbox (35.73663pt too wide) in paragraph at lines 255--255
+[]\TU/TeXGyreTermes(0)/m/n/10.95 D Tulli, D Janner, and V Pruneri. “Room temperature direct bonding of LiNbO<sub>3</sub>crystal
+ []
+
+[85] [86
+
+] [87] [88] (./sections/Appendix/Recipes in Literature.tex [89]) (./Main.aux)
+ ***********
+LaTeX2e <2023-11-01> patch level 1
+L3 programming layer <2024-01-22>
+ ***********
+
+
+LaTeX Warning: There were undefined references.
+
+Package rerunfilecheck Info: File `Main.out' has not changed.
+(rerunfilecheck)             Checksum: 76E724284BE32111F02B036A435D6DCE;11216.
+
+Package biblatex Warning: Please (re)run Biber on the file:
+(biblatex)                Main
+(biblatex)                and rerun LaTeX afterwards.
+
+Package logreq Info: Writing requests to 'Main.run.xml'.
+\openout1 = `Main.run.xml'.
+
+ ) 
+Here is how much of TeX's memory you used:
+ 48059 strings out of 474878
+ 1005634 string characters out of 5762517
+ 1952627 words of memory out of 5000000
+ 69206 multiletter control sequences out of 15000+600000
+ 566673 words of font info for 113 fonts, out of 8000000 for 9000
+ 1348 hyphenation exceptions out of 8191
+ 96i,15n,96p,2389b,5524s stack positions out of 10000i,1000n,20000p,200000b,200000s
+
+Output written on Main.pdf (106 pages).

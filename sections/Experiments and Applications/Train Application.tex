@@ -1,7 +1,6 @@
 \FloatBarrier
 \section{Corrosion Inspection for Railway Tracks}
 \label{sec:opm}
-\label{sec:applications}
 A new generation of highly sensitive and precise magnetic sensors based on 
 vapor cells has recently transitioned from development to the commercial 
 stage. These devices, known as \textit{Optically Pumped Magnetometers} (OPMs), 
@@ -116,15 +115,11 @@ scanning assemblies \cite{quspin}.
     \hline
     \textbf{Parameter} & \textbf{Value} \\
     \hline
-    Sensor type & Pulsed laser-pumped Rb, free induction decay \\
+    Sensor type & Pulsed laser-pumped $^{87}$Rb \\
     Scalar sensitivity & $<3\,\mathrm{pT}/\sqrt{\mathrm{Hz}}$ \\
-    Vector sensitivity (optional) & $<0.1\,\mathrm{nT}/\sqrt{\mathrm{Hz}}$ \\
     Bandwidth & $500\,\mathrm{Hz}$ \\
     Data rate & $1000\,\mathrm{samples/s}$ \\
     Dynamic range & $1000$--$150000\,\mathrm{nT}$ \\
-    Deadzone & Axial only, $<\pm7^\circ$ cone about Earth's field \\
-    Heading error & $<3\,\mathrm{nT}$ (uncompensated) \\
-    Max.\ gradient field & $300\,\mathrm{nT/cm}$ \\
     Operating temperature & $-15$ to $+55\,^\circ\mathrm{C}$ \\
     Sensor head size & $17.7\times19.8\times35.8\,\mathrm{mm}$ \\
     Sensor head mass & $12\,\mathrm{g}$ \\
@@ -183,7 +178,7 @@ Multiphysics. Developed as a preliminary proof of concept, this numerical
 framework forms part of an ongoing project at QSENSATO Srl.\ and reflects
 a diagnostic system that is currently in its development phase. Operating via
 the \textit{AC/DC Module}\footnote{It is, indeed, a long way to the top if
-you wanna rock and roll.} and utilizing the \textit{Magnetic Fields} physics
+you wanna Rock and Roll...} and utilizing the \textit{Magnetic Fields} physics
 interface in a frequency-domain formulation for efficiency, the framework compares a
 baseline healthy rail against a defective track profile containing a
 localized corrosion zone of variable depth at the rail foot.
@@ -477,21 +472,21 @@ across the full frequency spectrum is available as supplementary material
 animation (GIF) in \cite{railgif}.
 \begin{figure}[htbp]
 \centering
-\begin{subfigure}[b]{0.48\textwidth}
+\begin{subfigure}[b]{0.4\textwidth}
     \centering
     \includegraphics[width=\textwidth]{Images/COMSOL/totalBlowf.png}
     \caption{\SI{1}{\hertz}}
     \label{fig:freq_1}
 \end{subfigure}
 \\ \vspace{1em}
-\begin{subfigure}[b]{0.48\textwidth}
+\begin{subfigure}[b]{0.4\textwidth}
     \centering
     \includegraphics[width=\textwidth]{Images/COMSOL/totalBmidf.png}
     \caption{\SI{15}{\hertz}}
     \label{fig:freq_15}
 \end{subfigure}
 \hfill
-\begin{subfigure}[b]{0.48\textwidth}
+\begin{subfigure}[b]{0.4\textwidth}
     \centering
     \includegraphics[width=\textwidth]{Images/COMSOL/totalBhighf.png}
     \caption{\SI{100}{\hertz}}

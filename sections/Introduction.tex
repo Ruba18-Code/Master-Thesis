@@ -435,25 +435,29 @@ thesis.
 
 \section{Laser-Written Vapor Cells (LWVCs)}
 \label{sec:lwvcs}
+
 Laser-Written Vapor Cells (LWVCs) represent a novel generation of chip-scale atomic devices 
 designed to overcome the aforementioned technological constraints by directly inscribing 
 arbitrary three-dimensional cavities into commercial fused-silica substrates. Originally 
 introduced by Lucivero et al.\ and patented by the Italian company \mbox{QSENSATO~Srl}~\cite{lucivero2022,qsensato_web}, 
 LWVCs combine the 3D structuring freedom of femtosecond laser micromachining with the 
-excellent optical quality and chemical inertness of fused silica. Consequently, these 
-monolithic substrates provide a versatile platform that simultaneously accommodates 
-photonic integration, sub-millimeter stand-off sensing, anti-relaxation coatings, and 
-wafer-level mass production.
+excellent optical quality and chemical inertness of fused silica.
+
 \subsection{Fabrication Principle}
 \label{sec:lwvc_fabrication}
-The fabrication of LWVCs is fundamentally based on the FLICE technique (Femtosecond Laser 
-Irradiation followed by Chemical Etching), which is described in extensive detail in 
-Section~\ref{sec:flice}. The procedure consists of two sequential steps. First, a tightly 
-focused femtosecond laser beam locally alters the molecular structure of the bulk glass, 
-inducing self-oriented nanogratings that render the irradiated volume highly susceptible 
-to chemical agents. The substrate is subsequently immersed in a hydrofluoric acid (HF) 
-solution, which selectively etches the laser-modified regions. This maskless process carves 
-out optical sensing channels, micro-strainers, and reservoir chambers with micrometer-scale 
+
+The fabrication of LWVCs relies on two core techniques, each described in detail in the 
+following chapter. First, the FLICE process (Femtosecond Laser Irradiation followed by 
+Chemical Etching) inscribes arbitrary buried cavities ---optical sensing channels, 
+micro-strainers, and reservoir chambers--- directly inside the monolithic substrate 
+(Section~\ref{sec:flice}), as shown in Figure~\ref{fig:lwvc_anatomy}. Second, once a 
+non-evaporable getter (NEG) dispenser pill is placed in the reservoir, the cell is 
+hermetically sealed via optical contact bonding 
+(Section~\ref{sec:optical_contact_bonding}). Post-sealing, a focused laser beam activates 
+the NEG through the transparent substrate, releasing alkali-metal vapor ---typically 
+$^{87}$Rb or $^{133}$Cs--- while simultaneously regulating the internal nitrogen (\ce{N2}) 
+buffer gas pressure~\cite{lucivero2022}, with a demonstrated tuning resolution as fine as 
+\SI{1}{Torr}~\cite{dyer2023}.
 
 \begin{figure}[h]
     \centering
@@ -466,42 +470,63 @@ out optical sensing channels, micro-strainers, and reservoir chambers with micro
         overall size of the cell is \SI{5}{\milli\meter}$\times$\SI{10}{\milli\meter},
         and the size of the microchannels is in the micrometer range.}
     \label{fig:lwvc_anatomy}
-\end{figure} 
+\end{figure}
 
-Upon completion of the chemical etching phase, a non-evaporable getter (NEG) dispenser pill 
-is positioned within the reservoir chamber, and the cell is 
-hermetically sealed via optical contact bonding (Section~\ref{sec:optical_contact_bonding}). 
-The NEG material exhibits a critical dual functionality: when locally activated by a laser beam 
-post-sealing, it releases pure alkali-metal vapor ---typically $^{87}$Rb or $^{133}$Cs--- while 
-simultaneously serving as a passive getter pump that regulates the internal nitrogen (\ce{N2}) 
-buffer gas pressure~\cite{lucivero2022}. This approach completely eliminates the requirement 
-for cumbersome external vacuum infrastructure. A recent study validated this versatility by 
-demonstrating buffer-gas pressure tuning with a resolution as low as \SI{1}{Torr} using cesium 
-dispensers~\cite{dyer2023}, confirming the reliability of the process across diverse target 
-pressures and atomic species.
-
-\subsection{Key Advantages and Photonic Circuit Integration}
+\subsection{Key Advantages over Conventional MEMS Cells}
 \label{sec:lwvc_advantages}
+
+This fabrication strategy yields four structural and operational benefits that are 
+unattainable with conventional photolithographic MEMS vapor cells.
+
+\textbf{True 3D monolithic integration.} The FLICE technique inscribes fully buried, 
+arbitrarily shaped cavities in three dimensions within a single substrate, breaking free 
+from the planarity constraints of photolithographic MEMS. This geometric freedom 
+enables a minimal stand-off distance: sensing channels can be positioned less than 
+\SI{1}{\milli\meter} ---and potentially just a few tens of micrometers--- below the 
+outer surface~\cite{lucivero2022,zanoni2024}, which is vital for detecting rapidly 
+decaying fields from micro-scale targets such as single neurons or individual magnetic 
+nanoparticles.
+
+\textbf{Compatibility with anti-relaxation coatings.} Because optical contact bonding 
+operates near room temperature ---unlike the elevated temperatures required by anodic 
+bonding--- the inner walls of LWVCs are fully compatible with organic anti-relaxation 
+coatings such as paraffin or alkene-based films. These coatings push the spin coherence 
+time toward the second scale~\cite{lucivero2022}, a performance regime entirely 
+inaccessible to standard MEMS cells.
+
+\textbf{Passive buffer gas control.} The integrated NEG dispensers enable post-sealing 
+tuning of the internal \ce{N2} pressure without any external vacuum infrastructure, 
+eliminating a key fabrication bottleneck of conventional MEMS cells~\cite{lucivero2022}.
+
+\textbf{Wafer-level scalability.} Because femtosecond laser writing is a 
+software-controlled, maskless direct-write process, all fabrication steps ---FLICE, 
+HF etching, getter insertion, bonding, and laser activation--- are compatible with 
+wafer-scale batch processing~\cite{corrielli2021}, enabling tens to hundreds of identical 
+devices per substrate, as shown in Figure~\ref{fig:lwvc_wafer}.
+
+\begin{figure}[h]
+    \centering
+    \includegraphics[width=0.55\linewidth]{Images/lwvc_wafer.png}
+    \caption{Wafer-scale fabrication of LWVCs: multiple devices inscribed simultaneously in a 
+    single fused-silica substrate by QSENSATO~Srl. All subsequent etching, filling, and bonding 
+    steps are performed at the wafer level, enabling cost-effective batch production of chip-scale 
+    quantum sensors. Image courtesy of QSENSATO~Srl~\cite{qsensato_web}.}
+    \label{fig:lwvc_wafer}
+\end{figure}
+
+\subsection{Photonic Circuit Integration}
 \label{sec:lwvc_pic}
-% - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 
-The LWVC architecture offers a suite of critical and complementary advantages unparalleled by 
-competing technologies. Chief among these architectural assets is its intrinsic compatibility 
-and versatility for integration with Photonic Integrated Circuits (PICs). Merging atomic 
-vapors with integrated photonics establishes a path toward chip-scale atomic clocks, magnetometers, 
-and quantum memories with significantly reduced footprints. Within the LWVC platform, this photonic 
-interfacing can be realized through two primary methodologies: a hybrid approach mediated by 
-dedicated waveguide couplers, or a fully monolithic approach where the optical routing channels 
-are directly written inside the host substrate via laser processing.
-
-The first route involves a hybrid architecture where the vapor cell interfaces with external 
-photonic networks, a concept illustrated in Figure~\ref{fig:atomic_pic}. In this configuration, 
-the device operates as an atomic-photonic chip joined by structural coupling elements. The 
-underlying mechanism relies on the local activation of the NEG dispenser located in the reservoir 
-chamber (a). Once activated, the alkali vapor diffuses through the microstrainer conduit (b) into 
-the parallel sensing chambers (c). To probe the atomic ensemble, an integrated waveguide 
-coupler (d) provides the necessary optical interface to connect the internal sensing volume with 
-an external photonic waveguide or optical fiber network (e).
+A further consequence of the monolithic 3D architecture is its intrinsic compatibility 
+with Photonic Integrated Circuits (PICs), establishing a path toward chip-scale atomic 
+clocks, magnetometers, and quantum memories with significantly reduced footprints. Two 
+integration routes are possible. In the hybrid approach, a dedicated waveguide coupler 
+connects the sensing volume to an external photonic waveguide or fiber network, as 
+illustrated in Figure~\ref{fig:atomic_pic}. In the fully monolithic approach, the same 
+femtosecond laser locally modifies the refractive index of the surrounding bulk glass to 
+write optical waveguides directly adjacent to the atomic channels 
+(Figure~\ref{fig:lw_waveguide}), routing probe and pump beams to the vapor volume 
+on-chip and eliminating mode-matching losses and alignment tolerances entirely.
 
 \begin{figure}[h]
     \centering
@@ -516,20 +541,6 @@ an external photonic waveguide or optical fiber network (e).
     \label{fig:atomic_pic}
 \end{figure}
 
-The second, more advanced route completely bypasses external coupling interfaces by exploiting 
-the full 3D capabilities of the FLICE platform. Since the host material is a monolithic fused-silica 
-substrate, the same femtosecond laser used to define the fluidic cavities can be configured to 
-locally modify the refractive index of the surrounding bulk glass. This enables the fabrication of 
-buried, three-dimensional optical waveguides directly within the cell structure, as shown in 
-Figure~\ref{fig:lw_waveguide}.
-
-By laser-writing the optical waveguides adjacent to the atomic sensing channels, probe beams and 
-optical pumping fields can be routed directly to the vapor volume without intermediate bonding 
-stages, subsequently collecting the transmitted light on-chip. This total monolithic co-integration 
-circumvents the mode-matching losses and stringent mechanical alignment tolerances associated with 
-external coupling components, offering a robust path toward mass-producible, field-deployable 
-quantum sensors.
-
 \begin{figure}[h]
     \centering
     \includegraphics[width=\linewidth]{Images/lw_waveguide.png}
@@ -539,93 +550,45 @@ quantum sensors.
     Adapted from QSENSATO Srl \cite{qsensato_web}.}
     \label{fig:lw_waveguide}
 \end{figure}
-Beyond its advanced photonic routing capabilities, the unique material properties and design 
-degrees of freedom of the LWVC architecture yield several structural and operational benefits 
-over traditional photolithographic microelectromechanical systems (MEMS) vapor cells. 
 
-Primarily, the FLICE technique allows for a true monolithic 3D integration by inscribing 
-fully buried, arbitrarily shaped cavities in three dimensions within a single monolithic 
-substrate, breaking free from the planarity constraints of photolithographic MEMS fabrication. 
-As described above, this enables direct co-integration of atomic channels, optical waveguides, 
-and PICs, thereby eliminating the efficiency losses and alignment tolerances typical of hybrid 
-bonding schemes~\cite{lucivero2022}. Furthermore, this geometric flexibility enables a minimal 
-stand-off distance, as the sensing channels can be positioned less than \SI{1}{\milli\meter} ---and 
-potentially just a few tens of micrometers--- below the outer surface of the substrate~\cite{lucivero2022,zanoni2024}. 
-Because the magnetic or electric field from a localized source decays rapidly with distance, 
-this structural proximity is vital for detecting signals from micro-scale targets, such as single 
-neurons, microfluidic NMR samples, or individual magnetic nanoparticles.
-
-In addition to these spatial layout advantages, the sealing process offers critical compatibility 
-with anti-relaxation coatings. Because optical contact bonding does not require the elevated 
-temperatures characteristic of anodic bonding in MEMS, the inner walls of LWVCs are fully 
-compatible with organic anti-relaxation coatings such as paraffin or alkene-based films. These 
-coatings allow alkali atoms to undergo thousands of wall collisions without depolarizing, pushing 
-the coherence time toward the second scale~\cite{lucivero2022} ---a performance regime entirely 
-inaccessible to standard MEMS cells. This internal cell environment is further enhanced by 
-passive buffer gas control without external equipment. Specifically, the integrated NEG dispensers 
-enable post-sealing tuning of the internal \ce{N2} pressure without any external vacuum infrastructure. 
-By controlling the activation duration or pre-loading a fixed fraction of an ungetterable noble 
-gas, a wide range of target pressures can be reached passively, eliminating a key fabrication 
-bottleneck of conventional MEMS cells~\cite{lucivero2022}.
-
-Finally, these performance capabilities are supported by excellent wafer-level fabrication and 
-scalability. Because femtosecond laser writing is a software-controlled, maskless direct-write 
-process, multiple LWVC devices can be inscribed sequentially or in parallel across a single 
-large-format fused-silica wafer. All subsequent steps ---including HF etching, getter insertion, 
-optical contact bonding, and laser activation--- are likewise compatible with wafer-scale batch 
-processing, as is well-established for the broader FLICE platform~\cite{corrielli2021}. As shown 
-in Figure~\ref{fig:lwvc_wafer}, this approach enables tens to hundreds of identical devices 
-per substrate, dramatically reducing per-unit cost and establishing a viable route to mass 
-production of chip-scale quantum sensors.
-
-\begin{figure}[h]
-    \centering
-    \includegraphics[width=0.55\linewidth]{Images/lwvc_wafer.png}
-    \caption{Wafer-scale fabrication of LWVCs: multiple devices inscribed simultaneously in a 
-    single fused-silica substrate by QSENSATO~Srl. All subsequent etching, filling, and bonding 
-    steps are performed at the wafer level, enabling cost-effective batch production of chip-scale 
-    quantum sensors. Image courtesy of QSENSATO~Srl~\cite{qsensato_web}.}
-    \label{fig:lwvc_wafer}
-\end{figure}
-
-% - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 \subsection{State of the Art and Performance}
 \label{sec:lwvc_state}
-% - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 
 The rapid maturation of the LWVC platform is best appreciated by comparing its consecutive 
 published generations. The first devices featured \mbox{$1\,\text{mm} \times 1\,\text{mm}$} 
 sensing channels (9.5~mm long) and demonstrated proof-of-principle sub-Doppler saturated 
-absorption spectroscopy and single-beam optical magnetometry with rubidium vapor~\cite{lucivero2022}. 
-The second generation scaled the channels down to $500~\si{\micro\meter} \times 500~\si{\micro\meter}$ 
-in cross-section, added $0.75~\text{amg}$ of \ce{N2} buffer gas to simultaneously suppress 
-wall-collision relaxation and eliminate radiation trapping, and demonstrated zero-field resonance 
-(ZFR) magnetometry (Section~\ref{sec:zfrexp}) in a sensing volume of only $2.25~\text{mm}^3$~\cite{zanoni2024}. 
-The resulting magnetic sensitivity of $\approx 1\,\text{pT}\,\text{Hz}^{-1/2}$ at 10~Hz places 
-LWVCs at the forefront of compact, high-resolution magnetometry, proving competitive with 
-significantly larger vapor-cell platforms.
+absorption spectroscopy and single-beam optical magnetometry with rubidium 
+vapor~\cite{lucivero2022}. The second generation scaled the channels down to 
+$500~\si{\micro\meter} \times 500~\si{\micro\meter}$ in cross-section, added 
+$0.75~\text{amg}$ of \ce{N2} buffer gas to simultaneously suppress wall-collision 
+relaxation and eliminate radiation trapping, and demonstrated zero-field resonance 
+(ZFR) magnetometry (Section~\ref{sec:zfrexp}) in a sensing volume of only 
+$2.25~\text{mm}^3$~\cite{zanoni2024}. The resulting magnetic sensitivity of 
+$\approx 1\,\text{pT}\,\text{Hz}^{-1/2}$ at 10~Hz places LWVCs at the forefront of 
+compact, high-resolution magnetometry, proving competitive with significantly larger 
+vapor-cell platforms.
 
-This performance remains far from the fundamental limit. Atomic-shot-noise calculations project 
-a sensitivity floor of $\approx 18\,\text{fT}\,\text{Hz}^{-1/2}$ at the optimal buffer gas density 
-of 7.1~amg~\cite{zanoni2024}, indicating that the current performance is constrained by 
-technical noise rather than atomic physics, and that more than two orders of magnitude of 
-improvement remain accessible as the technology matures. Regarding operating temperature, the 
-present devices run at 90–100~$^\circ$C to sustain sufficient Rb vapor pressure; for applications 
-involving biological samples, this thermal load can be mitigated by substituting Rb with 
-$^{133}$Cs or metastable helium, both of which operate at lower temperatures~\cite{zanoni2024}.
+This performance remains far from the fundamental limit. Atomic-shot-noise calculations 
+project a sensitivity floor of $\approx 18\,\text{fT}\,\text{Hz}^{-1/2}$ at the optimal 
+buffer gas density of 7.1~amg~\cite{zanoni2024}, indicating more than two orders of 
+magnitude of improvement remain accessible as the technology matures. Regarding operating 
+temperature, the present devices run at 90--100~$^\circ$C to sustain sufficient $^{87}$Rb 
+vapor pressure; for applications involving biological samples, this thermal load can be 
+mitigated by substituting $^{87}$Rb with $^{133}$Cs or metastable helium, both of which 
+operate at lower temperatures~\cite{zanoni2024}.
 
-Beyond precision magnetometry, the monolithic LWVC geometry opens new sensing paradigms that 
-are explored in Section~\ref{sec:applications}: microfluidic zero-to-ultralow-field NMR, 
-portable biomagnetic diagnostics, detection of magnetic nanoparticles and magnetotactic 
-bacteria, and Rydberg-atom electrometry.
+Beyond precision magnetometry, the monolithic LWVC geometry opens new sensing paradigms 
+that are explored in Section~\ref{chap:applications}.
 
 \medskip\noindent
 \textbf{Scope of this thesis.} This work covers the full development cycle of LWVCs at 
 QSENSATO~Srl. Starting from a thorough review of the underlying fabrication physics, it 
-investigates and optimizes the optical contact bonding sealing process 
-(Section~\ref{sec:optical_contact_bonding}) and characterizes the FLICE fabrication pipeline 
-(Section~\ref{sec:flice}). It then establishes a systematic quality-control methodology that 
-encompasses substrate surface roughness and topography, hermeticity, bonding strength, and 
-surface energy measurements--- all prerequisites for reliable cell assembly. Finally, it demonstrates 
-practical applications in precision magnetometry, including ZFR spectroscopy and optically pumped 
-magnetometer implementations enabled by the unique micro-channel geometry of LWVCs.
+investigates the FLICE fabrication pipeline 
+(Section~\ref{sec:flice}). After that, the optical contact bonding sealing process 
+(Sections \ref{sec:optical_contact_bonding} and \ref{sec:optexp}) is analyzed. It then 
+establishes a systematic quality-control methodology that encompasses substrate surface 
+roughness and topography, hermeticity, bonding strength, and surface energy 
+measurements --- all prerequisites for reliable cell assembly 
+(Section~\ref{chap:qualitycontrol}). Finally, it demonstrates practical applications in 
+precision magnetometry, including corrosion inspection (Section~\ref{sec:opm}) and 
+Zero-Field Resonance experiments (Section~\ref{sec:zfrexp}).

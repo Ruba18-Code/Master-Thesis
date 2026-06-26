@@ -1,0 +1,73 @@
+\babel@toc {english}{}\relax 
+\thispagestyle {empty}
+\pagestyle {empty}
+\thispagestyle {empty}
+\contentsline {part}{I\hspace {1em}Thesis}{-1}{part.1}%
+\contentsline {chapter}{\numberline {1}Introduction and Motivation}{1}{chapter.1.1}%
+\contentsline {section}{\numberline {1.1}Historical Evolution}{1}{section.1.1.1}%
+\contentsline {section}{\numberline {1.2}Microelectromechanical Systems (MEMS)}{2}{section.1.1.2}%
+\contentsline {section}{\numberline {1.3}Atomic Sensors}{3}{section.1.1.3}%
+\contentsline {subsection}{\numberline {1.3.1}Vapor Cell Implementation}{4}{subsection.1.1.3.1}%
+\contentsline {subsection}{\numberline {1.3.2}Measurement Principle}{5}{subsection.1.1.3.2}%
+\contentsline {subsection}{\numberline {1.3.3}Advantages of Atomic Sensors}{6}{subsection.1.1.3.3}%
+\contentsline {subsection}{\numberline {1.3.4}Choice of Atomic Species}{6}{subsection.1.1.3.4}%
+\contentsline {subsection}{\numberline {1.3.5}Quantum Noise and the Standard Quantum Limit}{6}{subsection.1.1.3.5}%
+\contentsline {subsection}{\numberline {1.3.6}Types of Atomic Sensors and Achievable Sensitivities}{7}{subsection.1.1.3.6}%
+\contentsline {section}{\numberline {1.4}Laser-Written Vapor Cells (LWVCs)}{7}{section.1.1.4}%
+\contentsline {subsection}{\numberline {1.4.1}Fabrication Principle}{8}{subsection.1.1.4.1}%
+\contentsline {subsection}{\numberline {1.4.2}Key Advantages over Conventional MEMS Cells}{8}{subsection.1.1.4.2}%
+\contentsline {subsection}{\numberline {1.4.3}Photonic Circuit Integration}{9}{subsection.1.1.4.3}%
+\contentsline {subsection}{\numberline {1.4.4}State of the Art and Performance}{10}{subsection.1.1.4.4}%
+\contentsline {chapter}{\numberline {2}Fabrication Methods}{13}{chapter.1.2}%
+\contentsline {section}{\numberline {2.1}Femtosecond Laser Micromachining}{15}{section.1.2.1}%
+\contentsline {subsection}{\numberline {2.1.1}Femtosecond Laser Writing}{16}{subsection.1.2.1.1}%
+\contentsline {subsection}{\numberline {2.1.2}The FLICE Technique}{16}{subsection.1.2.1.2}%
+\contentsline {subsection}{\numberline {2.1.3}Application to Laser-Written Vapor Cells}{17}{subsection.1.2.1.3}%
+\contentsline {section}{\numberline {2.2}Optical Contact Bonding}{18}{section.1.2.2}%
+\contentsline {subsection}{\numberline {2.2.1}Types of Glasses \& Quality Requirements}{18}{subsection.1.2.2.1}%
+\contentsline {subsection}{\numberline {2.2.2}Chemical Treatment}{20}{subsection.1.2.2.2}%
+\contentsline {paragraph}{Solvents.}{20}{section*.24}%
+\contentsline {paragraph}{Piranha Solution ($\mathrm {H_2SO_4}$:$\mathrm {H_2O_2}$, 3:1).}{20}{section*.25}%
+\contentsline {paragraph}{RCA-1 ($\mathrm {NH_4OH}$:$\mathrm {H_2O_2}$:$\mathrm {H_2O}$, 1:1:5 at $70\text {--}80\,^\circ \mathrm {C}$).}{21}{section*.28}%
+\contentsline {paragraph}{RCA-2 ($\mathrm {HCl}$:$\mathrm {H_2O_2}$:$\mathrm {H_2O}$, 1:1:6 at $70\,^\circ \mathrm {C}$).}{22}{section*.30}%
+\contentsline {paragraph}{Ultrasonic Agitation.}{22}{section*.31}%
+\contentsline {subsection}{\numberline {2.2.3}Plasma Treatment}{23}{subsection.1.2.2.3}%
+\contentsline {subsection}{\numberline {2.2.4}Thermal Treatment}{25}{subsection.1.2.2.4}%
+\contentsline {subsection}{\numberline {2.2.5}Pressure Treatment}{27}{subsection.1.2.2.5}%
+\contentsline {section}{\numberline {2.3}Alkali Vapor Dispensing and Non-Evaporable Gas Gettering}{28}{section.1.2.3}%
+\contentsline {chapter}{\numberline {3}Characterization and Quality Control}{31}{chapter.1.3}%
+\contentsline {section}{\numberline {3.1}Surface inspection using an Atomic Force Microscope}{32}{section.1.3.1}%
+\contentsline {section}{\numberline {3.2}Contact Angle Measurement}{35}{section.1.3.2}%
+\contentsline {section}{\numberline {3.3}Visual Inspection}{36}{section.1.3.3}%
+\contentsline {section}{\numberline {3.4}Bonding Characterization Techniques}{37}{section.1.3.4}%
+\contentsline {subsection}{\numberline {3.4.1}Bonding Energy Test}{37}{subsection.1.3.4.1}%
+\contentsline {subsection}{\numberline {3.4.2}Bonding Strength Test}{40}{subsection.1.3.4.2}%
+\contentsline {section}{\numberline {3.5}Leak Tests using Spectroscopy}{42}{section.1.3.5}%
+\contentsline {subsection}{\numberline {3.5.1}Experimental Proposal}{43}{subsection.1.3.5.1}%
+\contentsline {chapter}{\numberline {4}Experiments \& Applications}{45}{chapter.1.4}%
+\contentsline {section}{\numberline {4.1}Experimental Investigation of Optical Contact Bonding}{45}{section.1.4.1}%
+\contentsline {subsection}{\numberline {4.1.1}Cleaning Protocols and Surface Activation}{46}{subsection.1.4.1.1}%
+\contentsline {paragraph}{Ethanol and DIW Procedure.}{46}{section*.55}%
+\contentsline {paragraph}{Plasma-Only Procedure.}{46}{section*.57}%
+\contentsline {paragraph}{DIW, Piranha, and DIW Procedure.}{46}{section*.59}%
+\contentsline {paragraph}{DIW, RCA-1, DIW, Piranha, and DIW Procedure.}{48}{section*.60}%
+\contentsline {paragraph}{DIW, Piranha, DIW, and Plasma Procedure.}{48}{section*.61}%
+\contentsline {subsection}{\numberline {4.1.2}Contacting and Curing}{48}{subsection.1.4.1.2}%
+\contentsline {subsection}{\numberline {4.1.3}Bonded Area Analysis}{48}{subsection.1.4.1.3}%
+\contentsline {subsection}{\numberline {4.1.4}Tensile Testing}{51}{subsection.1.4.1.4}%
+\contentsline {subsection}{\numberline {4.1.5}Results and Discussion}{53}{subsection.1.4.1.5}%
+\contentsline {section}{\numberline {4.2}Corrosion Inspection for Railway Tracks}{56}{section.1.4.2}%
+\contentsline {subsection}{\numberline {4.2.1}Application Scenario: Railway Track Corrosion}{57}{subsection.1.4.2.1}%
+\contentsline {subsection}{\numberline {4.2.2}Finite-Element Simulation}{59}{subsection.1.4.2.2}%
+\contentsline {subsection}{\numberline {4.2.3}Results and Analysis}{62}{subsection.1.4.2.3}%
+\contentsline {paragraph}{Field distribution at the sensor location.}{62}{section*.76}%
+\contentsline {paragraph}{Influence of excitation frequency on field penetration.}{65}{section*.81}%
+\contentsline {paragraph}{Differential field mapping.}{67}{section*.83}%
+\contentsline {paragraph}{Optimal sensor and coil configuration.}{67}{section*.85}%
+\contentsline {paragraph}{Sensitivity analysis and feasibility demonstration.}{68}{section*.87}%
+\contentsline {section}{\numberline {4.3}Zero-Field Resonance Experiments on Vapor Cells}{70}{section.1.4.3}%
+\contentsline {subsection}{\numberline {4.3.1}Experimental Setup}{71}{subsection.1.4.3.1}%
+\contentsline {subsection}{\numberline {4.3.2}Results and Analysis}{71}{subsection.1.4.3.2}%
+\contentsline {chapter}{\numberline {5}Conclusions and Future Outlook}{75}{chapter.1.5}%
+\contentsline {chapter}{Bibliography}{77}{chapter*.93}%
+\contentsline {part}{II\hspace {1em}Annex}{87}{part.2}%
