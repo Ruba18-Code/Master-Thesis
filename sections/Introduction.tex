@@ -123,7 +123,7 @@ deployment~\cite{petersen1982}.
     \caption{Example of a batch-fabricated semiconductor wafer.
     Parallel manufacturing yields hundreds of identical
     micro-devices simultaneously, significantly lowering per-unit
-    production costs.}
+    production costs. From \cite{fotowafer}}
     \label{fig:wafer_example}
 \end{figure}
 
@@ -150,7 +150,7 @@ and precision metrology.
 \label{sec:atomic_sensors}
 % ----------------------------------------------------------------
 
-The demand for ever-more-precise and stable measurements has
+The demand for even more precise and stable measurements has
 driven the development of quantum sensors based on atomic
 spectroscopy. Atom-based quantum sensors exploit the highly
 stable, reproducible, and sharply defined energy levels of atoms
@@ -172,19 +172,15 @@ quantum limits.
     \includegraphics[width=0.80\linewidth]{Images/basicvaporcell.png}
     \caption{Essential elements of an atom-based sensor: a laser
     light source, an atomic vapor cell, and a photodiode detector.
-    A resonant beam passes through the cell; the transmitted (or
+    A beam passes through the cell; the transmitted (or
     fluorescent) light carries information about the atomic quantum
     state and the physical quantity of interest.
     Adapted from~\protect\cite{brown2025}.}
     \label{fig:basicvaporcell}
 \end{figure}
-
-% - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 \subsection{Vapor Cell Implementation}
 \label{sec:vapor_cell}
-% - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
-
-The most common and compact implementation of an atomic sensor is
+One of the most common and compact implementations of an atomic sensor is
 the vapor cell: a sealed glass container filled with an
 alkali-metal gas~\cite{kitching2011}. A laser beam tuned to one
 of the optical transitions of the atoms passes through the cell,
@@ -193,6 +189,18 @@ fluorescence. This straightforward setup allows precise control
 and readout of atomic quantum states while keeping the device
 small and portable.
 
+Depending on the specific sensing modality ---such as atomic clocks, 
+spectroscopy, or magnetometry--- the laser light can manipulate 
+different atomic properties, ranging from the excitation of 
+populations across internal electronic energy levels to the transfer 
+of angular momentum. In configurations that rely on the latter, 
+this interaction drives a process known as \textit{optical pumping}, 
+which polarizes the collective atomic spin states. In either case, 
+the overall performance is typically tied to how effectively 
+these laser-prepared quantum states can be preserved against 
+environmental decoherence, which arises from both intrinsic 
+spin-exchange collisions between alkali atoms and interactions with 
+the physical boundaries of the container. 
 Inside the cell, alkali atoms move rapidly due to thermal energy
 and constantly collide with the walls, depolarising their spin
 states. To extend the spin coherence time~$T_2$ beyond the
@@ -233,27 +241,29 @@ paraffin or alkene-based films. These coatings allow atoms to
 bounce off the walls thousands of times without losing their spin
 state, pushing~$T_2$ toward the second scale.
 
-% - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 \subsection{Measurement Principle}
 \label{sec:measurement_principle}
-% - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+Fundamentally, atomic sensors rely on monitoring how the discrete quantum 
+states of atoms ---such as their internal energy levels or spin 
+orientations--- are perturbed by the environment~\cite{kitching2011}. 
+When an atom interacts with an external field or physical quantity, this 
+interaction either shifts its specific electronic or hyperfine energy 
+levels, or lifts the degeneracy of its magnetic sublevels (Zeeman states). 
+By precisely measuring these energy splits or the resulting spin dynamics, 
+the properties of the perturbation can be accurately determined. 
+The measurement cycle typically follows three steps:
 
-All atomic sensors are fundamentally based on measuring the energy
-difference between discrete atomic states~\cite{kitching2011}.
-When an atom interacts with an external field its energy levels
-shift, and this shift can be precisely measured to determine the
-field strength. The measurement cycle follows three steps:
 \begin{enumerate}
     \item \textbf{State preparation.}
-          Circularly polarised laser light transfers angular
-          momentum to the atoms via optical pumping, aligning
-          their spins along the beam axis and establishing a
-          well-defined initial state on the Bloch sphere.
+          By utilizing light-matter interactions, the system is initialized 
+          into a well-defined initial quantum state. This configuration 
+          establishes the necessary baseline population distribution or collective 
+          spin orientation required for the specific sensing task.
     \item \textbf{State evolution.}
           The prepared state evolves under the total Hamiltonian
           $\hat{H} = \hat{H}_0 + \hat{H}_\text{int}$, where
           $\hat{H}_\text{int}$ encodes the interaction with the
-          field being measured~\cite{brown2025}. The quantum
+          field or quantity being measured~\cite{brown2025}. The quantum
           state accumulates a phase
           \begin{equation}
               \phi_\text{int} = \frac{1}{\hbar}
@@ -262,7 +272,7 @@ field strength. The measurement cycle follows three steps:
               \label{eq:phase}
           \end{equation}
           where $\mu$ is the coupling parameter, $F$ the field
-          strength, and $T$ the interaction time. For a
+          strength (or physical quantity), and $T$ the interaction time. For a
           magnetometer, $F = B$ and $\mu$ is the magnetic
           moment; for an inertial sensor, $F = \Omega$ and
           $\mu$ is the angular momentum.
@@ -272,7 +282,6 @@ field strength. The measurement cycle follows three steps:
           of a probe beam, which encodes $\phi_\text{int}$
           and~$F$.
 \end{enumerate}
-
 % - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 \subsection{Advantages of Atomic Sensors}
 \label{sec:advantages}
@@ -344,11 +353,8 @@ In practice, technical noise ---laser intensity fluctuations,
 frequency drift, imperfect magnetic shielding--- usually dominates
 over quantum projection noise in real devices, and minimising these
 sources remains the primary engineering challenge.
-
-% - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 \subsection{Types of Atomic Sensors and Achievable Sensitivities}
 \label{sec:sensor_types}
-% - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 
 Table~\ref{tab:sensor_types} summarises the principal categories
 of atomic sensors, their operating mechanisms, and their
@@ -393,42 +399,45 @@ platforms~\cite{kitching2011,brown2025}.
     \end{tabular}
 \end{table}
 
-Among these, optically pumped magnetometers (OPMs) are the most
-mature vapor-cell sensors~\cite{kitching2011}. Circularly polarised
-laser light aligns the atomic spins, and their Larmor precession
-in an external field is read out optically. OPMs operating in the
-spin-exchange relaxation-free (SERF) regime suppress the
-line-broadening caused by spin-exchange collisions, enabling
-sensitivities below $1\,\text{fT}/\sqrt{\text{Hz}}$ ---matching
-superconducting SQUIDs without any cryogenic infrastructure. This
-regime is detailed further in Section~\ref{sec:opm}.
+Among these, atomic clocks and optically pumped magnetometers (OPMs) 
+represent the most mature vapor-cell technologies~\cite{kitching2011}. 
+While clocks track time by locking a local oscillator to invariant 
+hyperfine transitions, OPMs utilize circularly polarised laser light 
+to align atomic spins, reading out their Larmor precession in an external 
+magnetic field. OPMs operating in the spin-exchange relaxation-free 
+regime suppress the line-broadening caused by spin-exchange collisions. 
+This allows them to overcome technical noise floors and approach their 
+fundamental quantum projection noise limits, enabling experimental 
+sensitivities below $1\,\text{fT}/\sqrt{\text{Hz}}$ ---matching 
+superconducting \gls{SQUIDs} without any cryogenic infrastructure. This regime 
+is detailed further in Section~\ref{sec:opm}.
 
-Rydberg-atom sensors exploit electrons excited to very high
-principal quantum numbers, which creates giant electric dipole
-moments. A multi-laser excitation scheme establishes
-Electromagnetically Induced Transparency (EIT) between the ground
-state and the Rydberg level; any external electric field shifts
-the Rydberg states, disrupts the coherence, and maps the field
-onto macroscopic changes in light transmission. Sensitivities of
-$10~\mu\text{V}\,\text{cm}^{-1}$ or better are
-achievable. Light-pulse atom interferometers, by contrast, offer
-the highest performance for inertial sensing, but require
-laser-cooled atoms and complex high-vacuum chambers, greatly
-increasing size, weight, and power.
+More recent modalities exploit different physical mechanisms to target 
+other quantities. Rydberg-atom sensors, for instance, utilize electrons 
+excited to very high principal quantum numbers, which creates giant electric 
+dipole moments. A multi-laser excitation scheme establishes 
+Electromagnetically Induced Transparency (EIT) between the ground state 
+and the Rydberg level; any external electric field shifts the Rydberg 
+states via the Stark effect, disrupts the coherence, and maps the field 
+onto macroscopic changes in light transmission. Although their ultimate 
+theoretical QPN limit lies in the pV~$\text{cm}^{-1}$ regime, practical 
+experimental sensitivities of $10~\mu\text{V}\,\text{cm}^{-1}$ or better 
+are currently achievable. Light-pulse atom interferometers (LPAIs), by 
+contrast, offer the highest performance for inertial sensing through 
+matter-wave interference, but require laser-cooled atoms and complex 
+high-vacuum chambers, greatly increasing size, weight, and power (SWaP).
 
-Despite these remarkable capabilities, all of the above sensor
-types share a common bottleneck: the vapor cell itself. Existing
-fabrication technologies ---primarily silicon MEMS with anodic
-bonding, or photolithographic glass cells--- impose planar
-geometries, limit optical access, constrain the choice of
-sealing process, and are incompatible with organic anti-relaxation
-coatings. They also restrict integration with photonic components
-to hybrid, off-chip architectures. Addressing these limitations
-requires a fundamentally different manufacturing approach ---one
-that combines the geometric freedom of femtosecond laser writing
-with the precision of glass microfabrication. This is the
-starting point for the technology that is the focus of this
-thesis.
+Despite these remarkable capabilities, vapor-cell-based sensors share a common 
+bottleneck: the encapsulation cell itself. Existing fabrication 
+technologies ---primarily silicon MEMS with anodic bonding, or 
+photolithographic glass cells--- impose planar geometries, limit optical 
+access, constrain the choice of sealing process, and are incompatible 
+with organic anti-relaxation coatings. They also restrict integration 
+with photonic components to hybrid, off-chip architectures. Addressing 
+these limitations requires a fundamentally different manufacturing approach 
+---one that combines the geometric freedom of femtosecond laser writing 
+with the precision of glass microfabrication. This is the starting point 
+for the technology that is the focus of this thesis, the Laser-Written Vapor Cell.
 
 \section{Laser-Written Vapor Cells (LWVCs)}
 \label{sec:lwvcs}

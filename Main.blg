@@ -1,0 +1,35 @@
+[0] Config.pm:307> INFO - This is Biber 2.19
+[0] Config.pm:310> INFO - Logfile is 'Main.blg'
+[50] biber:340> INFO - === mar jul  7, 2026, 11:54:13
+[61] Biber.pm:419> INFO - Reading 'Main.bcf'
+[144] Biber.pm:979> INFO - Found 121 citekeys in bib section 0
+[153] Biber.pm:4419> INFO - Processing section 0
+[160] Biber.pm:4610> INFO - Looking for bibtex file 'referencias.bib' for section 0
+[164] bibtex.pm:1713> INFO - LaTeX decoding ...
+[253] bibtex.pm:1519> INFO - Found BibTeX data source 'referencias.bib'
+[902] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[902] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[902] Biber.pm:4239> INFO - Sorting list 'none/global//global/global' of type 'entry' with template 'none' and locale 'en-US'
+[902] Biber.pm:4245> INFO - No sort tailoring available for locale 'en-US'
+[950] bbl.pm:660> INFO - Writing 'Main.bbl' with encoding 'UTF-8'
+[990] bbl.pm:763> INFO - Output to Main.bbl
+[991] Biber.pm:131> WARN - Duplicate entry key: 'knapkiewicz2018' in file 'referencias.bib', skipping ...
+[991] Biber.pm:131> WARN - legacy month field 'Nov' in entry 'turner2006' is not an integer - this will probably not sort properly.
+[991] Biber.pm:131> WARN - legacy month field 'Nov' in entry 'miki2003' is not an integer - this will probably not sort properly.
+[991] Biber.pm:131> WARN - legacy month field 'Dec' in entry 'turner2002' is not an integer - this will probably not sort properly.
+[991] Biber.pm:131> WARN - legacy month field 'July' in entry 'takagi1998' is not an integer - this will probably not sort properly.
+[991] Biber.pm:131> WARN - BibTeX subsystem: /tmp/biber_tmp_fMlF/f1acd60b6c57e7ae00f56d747b2cd459_12034.utf8, line 27, warning: undefined macro "July"
+[991] Biber.pm:131> WARN - BibTeX subsystem: /tmp/biber_tmp_fMlF/f1acd60b6c57e7ae00f56d747b2cd459_12034.utf8, line 103, warning: undefined macro "Sept"
+[991] Biber.pm:131> WARN - BibTeX subsystem: /tmp/biber_tmp_fMlF/f1acd60b6c57e7ae00f56d747b2cd459_12034.utf8, line 163, warning: undefined macro "July"
+[991] Biber.pm:131> WARN - BibTeX subsystem: /tmp/biber_tmp_fMlF/f1acd60b6c57e7ae00f56d747b2cd459_12034.utf8, line 304, warning: undefined macro "June"
+[991] Biber.pm:131> WARN - BibTeX subsystem: /tmp/biber_tmp_fMlF/f1acd60b6c57e7ae00f56d747b2cd459_12034.utf8, line 391, warning: undefined macro "June"
+[991] Biber.pm:131> WARN - BibTeX subsystem: /tmp/biber_tmp_fMlF/f1acd60b6c57e7ae00f56d747b2cd459_12034.utf8, line 453, warning: undefined macro "July"
+[991] Biber.pm:131> WARN - BibTeX subsystem: /tmp/biber_tmp_fMlF/f1acd60b6c57e7ae00f56d747b2cd459_12034.utf8, line 484, warning: undefined macro "Sept"
+[991] Biber.pm:131> WARN - BibTeX subsystem: /tmp/biber_tmp_fMlF/f1acd60b6c57e7ae00f56d747b2cd459_12034.utf8, line 635, warning: undefined macro "June"
+[991] Biber.pm:131> WARN - BibTeX subsystem: /tmp/biber_tmp_fMlF/f1acd60b6c57e7ae00f56d747b2cd459_12034.utf8, line 748, warning: undefined macro "July"
+[991] Biber.pm:131> WARN - BibTeX subsystem: /tmp/biber_tmp_fMlF/f1acd60b6c57e7ae00f56d747b2cd459_12034.utf8, line 880, warning: undefined macro "June"
+[991] Biber.pm:131> WARN - BibTeX subsystem: /tmp/biber_tmp_fMlF/f1acd60b6c57e7ae00f56d747b2cd459_12034.utf8, line 1107, warning: 84 characters of junk seen at toplevel
+[991] Biber.pm:131> WARN - BibTeX subsystem: /tmp/biber_tmp_fMlF/f1acd60b6c57e7ae00f56d747b2cd459_12034.utf8, line 1256, warning: undefined macro "Sept"
+[991] Biber.pm:131> WARN - BibTeX subsystem: /tmp/biber_tmp_fMlF/f1acd60b6c57e7ae00f56d747b2cd459_12034.utf8, line 1271, warning: undefined macro "Sept"
+[991] Biber.pm:131> WARN - BibTeX subsystem: /tmp/biber_tmp_fMlF/f1acd60b6c57e7ae00f56d747b2cd459_12034.utf8, line 1344, warning: undefined macro "June"
+[991] Biber.pm:133> INFO - WARNINGS: 19

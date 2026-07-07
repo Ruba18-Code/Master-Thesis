@@ -261,4 +261,244 @@ text={QWP},%
 plural={QWPs},%
 description={Quarter Wave Plate},%
 descriptionplural={Quarter Wave Plate},%
-symbol={\relax 
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={},%
+longplural={},%
+short={},%
+shortplural={},%
+counter={page},%
+parent={},%
+%
+}%
+
+\glsdefs@newdocentry{HWP}%
+{%
+name={HWP},%
+sort={HWP},%
+type={main},%
+first={HWP},%
+firstplural={HWPs},%
+text={HWP},%
+plural={HWPs},%
+description={Half Wave Plate},%
+descriptionplural={Half Wave Plate},%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={},%
+longplural={},%
+short={},%
+shortplural={},%
+counter={page},%
+parent={},%
+%
+}%
+
+\glsdefs@newdocentry{PBS}%
+{%
+name={PBS},%
+sort={PBS},%
+type={main},%
+first={PBS},%
+firstplural={PBSs},%
+text={PBS},%
+plural={PBSs},%
+description={Polarizing Beam Splitter},%
+descriptionplural={Polarizing Beam Splitter},%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={},%
+longplural={},%
+short={},%
+shortplural={},%
+counter={page},%
+parent={},%
+%
+}%
+
+\glsdefs@newdocentry{FWHM}%
+{%
+name={FWHM},%
+sort={FWHM},%
+type={main},%
+first={FWHM},%
+firstplural={FWHMs},%
+text={FWHM},%
+plural={FWHMs},%
+description={Full Width Half Maximum},%
+descriptionplural={Full Width Half Maximum},%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={},%
+longplural={},%
+short={},%
+shortplural={},%
+counter={page},%
+parent={},%
+%
+}%
+
+\glsdefs@newdocentry{FEM}%
+{%
+name={FEM},%
+sort={FEM},%
+type={main},%
+first={FEM},%
+firstplural={FEMs},%
+text={FEM},%
+plural={FEMs},%
+description={Finite-element method},%
+descriptionplural={Finite-element method},%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={},%
+longplural={},%
+short={},%
+shortplural={},%
+counter={page},%
+parent={},%
+%
+}%
+
+\glsdefs@newdocentry{LPAI}%
+{%
+name={LPAI},%
+sort={LPAI},%
+type={main},%
+first={LPAI},%
+firstplural={LPAIs},%
+text={LPAI},%
+plural={LPAIs},%
+description={Light-pulse Atom Interferometer},%
+descriptionplural={Light-pulse Atom Interferometer},%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={},%
+longplural={},%
+short={},%
+shortplural={},%
+counter={page},%
+parent={},%
+%
+}%
+
+\glsdefs@newdocentry{OPM}%
+{%
+name={OPM},%
+sort={OPM},%
+type={main},%
+first={OPM},%
+firstplural={OPMs},%
+text={OPM},%
+plural={OPMs},%
+description={Optically Pumped Magnetometer},%
+descriptionplural={Optically Pumped Magnetometer},%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={},%
+longplural={},%
+short={},%
+shortplural={},%
+counter={page},%
+parent={},%
+%
+}%
+
+\glsdefs@newdocentry{WCA}%
+{%
+name={WCA},%
+sort={WCA},%
+type={main},%
+first={WCA},%
+firstplural={WCAs},%
+text={WCA},%
+plural={WCAs},%
+description={Water Contact Angle},%
+descriptionplural={Water Contact Angle},%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={},%
+longplural={},%
+short={},%
+shortplural={},%
+counter={page},%
+parent={},%
+%
+}%
+
+\glsdefs@newdocentry{SQUIDs}%
+{%
+name={SQUIDs},%
+sort={SQUIDs},%
+type={main},%
+first={SQUIDs},%
+firstplural={SQUIDss},%
+text={SQUIDs},%
+plural={SQUIDss},%
+description={Superconducting Quantum Interference Devices},%
+descriptionplural={Superconducting Quantum Interference Devices},%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={},%
+longplural={},%
+short={},%
+shortplural={},%
+counter={page},%
+parent={},%
+%
+}%
+
