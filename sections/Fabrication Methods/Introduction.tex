@@ -74,42 +74,46 @@ coatings and internal components.
 
 Bonding glass and crystal presents unique engineering challenges due to the 
 material's non-porous nature, extreme smoothness, and high surface energy. In 
-industrial applications, selecting the right adhesive or process is critical for 
-ensuring optical clarity, structural integrity, and durability against environmental 
-factors. Some of the most common glass bonding methods are:
-\begin{itemize}
-    \item \textbf{UV-Curing Adhesives:} These are one-component resins that remain 
-    liquid until exposed to specific wavelengths of ultraviolet light. Upon UV 
-    exposure, a rapid polymerization process begins. This method offers strong, 
-    precise, and optically transparent joints, since the refractive index of the 
-    adhesive can be tuned to match that of the substrate \cite{paschotta2023}.
-    \item \textbf{Anodic Bonding:} The substrates are heated to 
-    $300^{\circ}\text{C}$--$500^{\circ}\text{C}$ while a high voltage 
-    ($\approx 1~\text{kV}$) is applied. Ions in the glass migrate, creating a 
-    space-charge region that generates a strong electrostatic attraction, resulting 
-    in a permanent chemical bond \cite{wallis1974}.
-    \item \textbf{Laser Microwelding:} A focused laser locally melts and fuses the 
-    glass substrates at the interface, creating a bond without the need for 
-    intermediate adhesive layers or high global temperatures \cite{wlodarczyk2019}.
-\end{itemize}
-While these methods are widely used, they present specific challenges in the context 
-of \gls{MEMS} and vapor cell manufacturing. Adhesives at the bonding interface can migrate 
-into the sealed cavity and contaminate the gas, critically affecting the performance 
-of high-precision devices such as atomic clocks \cite{knapkiewicz2018}. Furthermore, 
-adhesives may overheat upon interaction with high-power lasers during subsequent 
-processing or operation steps, inducing mechanical stress, birefringence, thermal 
-expansion, and crack formation \cite{bachman2001}. Adhesive-based bonds also 
-typically fail to meet the hermeticity standards required for demanding applications 
-\cite{karlen2018}. Adhesive-free methods such as anodic bonding, while achieving 
-excellent hermeticity, require elevated global temperatures \cite{wallis1974}, which 
-increases the risk of thermally induced stress and renders them incompatible with 
-temperature-sensitive optical coatings \cite{wang2025}.
+industrial applications, several established methods are traditionally deployed to 
+ensure structural integrity and optical clarity. For instance, UV-curing adhesives 
+utilize one-component resins that polymerize rapidly upon ultraviolet exposure, 
+offering precise and optically transparent joints since their refractive index can 
+be matched to the substrate \cite{paschotta2023}. Alternatively, traditional 
+anodic bonding eliminates intermediate layers by heating the substrates to 
+$300^{\circ}\text{C}$--$500^{\circ}\text{C}$ while applying a high voltage 
+($\approx 1~\text{kV}$), which drives ion migration and generates a powerful 
+electrostatic attraction to form a permanent chemical bond \cite{wallis1974}. More 
+recently, laser microwelding has been introduced to locally melt and fuse glass 
+interfaces using a focused beam, achieving a bond without high global temperatures 
+or additional adhesives \cite{wlodarczyk2019}.
 
-A modern solution that can address all of these challenges simultaneously is 
-\textit{Optical Contact Bonding} \cite{gosele2006}, which achieves a hermetic, 
-adhesive-free joint at room temperature through van der Waals and hydrogen-bond 
-interactions between two ultra-flat, clean surfaces. This method is fully compatible 
-with the FLICE-based LWVC fabrication process and is discussed in detail in 
+Each of these traditional approaches, however, presents distinct trade-offs in the 
+context of \gls{MEMS} and vapor cell manufacturing. Adhesive-based bonding remains 
+highly problematic for high-precision atomic devices due to resin outgassing and 
+subsequent alkali vapor contamination \cite{knapkiewicz2018}, as well as poor 
+long-term hermeticity \cite{karlen2018}. To circumvent chemical contamination, 
+adhesive-free alternatives like anodic bonding achieve excellent hermeticity, but 
+their reliance on elevated global temperatures induces severe thermal stress and 
+renders them incompatible with temperature-sensitive optical or anti-relaxation 
+coatings \cite{wang2025}. 
+
+To overcome these limitations, advanced techniques such as femtosecond laser 
+welding ---an evolution of standard laser microwelding \cite{wlodarczyk2019}--- 
+and \textit{Optical Contact Bonding} \cite{gosele2006} have emerged as the most viable modern, 
+adhesive-free paradigms for glass microfabrication. While femtosecond laser 
+welding successfully 
+eliminates global heating by fusing the interfaces through highly localized absorption, 
+it demands meticulous management of intense thermal gradients to mitigate residual 
+stress or micro-cracking along the weld track. Alternatively, 
+Optical Contact Bonding achieves a hermetic joint entirely at room temperature through 
+intermolecular van der Waals and hydrogen-bond interactions between two ultra-flat, 
+clean surfaces. 
+
+While both modern techniques represent powerful 
+solutions for vapor-cell encapsulation, this thesis focuses specifically on the 
+development and optimization of the Optical Contact Bonding approach. This 
+room-temperature method is fully compatible with the FLICE-based LWVC fabrication 
+process and is discussed in comprehensive detail in 
 Section~\ref{sec:optical_contact_bonding}.
 \subsection*{Step 4: Getter Activation}
 In the final step, the sealed cell is exposed to a focused laser beam directed at the 

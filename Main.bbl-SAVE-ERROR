@@ -1134,25 +1134,6 @@
       \verb http://dx.doi.org/10.3390/mi9080405
       \endverb
     \endentry
-    \entry{bachman2001}{article}{}
-      \name{author}{1}{}{%
-        {{hash=eb6d80b8d6ac0e4af512406c36e6cb39}{%
-           family={Bachman},
-           familyi={B\bibinitperiod}}}%
-      }
-      \strng{namehash}{eb6d80b8d6ac0e4af512406c36e6cb39}
-      \strng{fullhash}{eb6d80b8d6ac0e4af512406c36e6cb39}
-      \strng{bibnamehash}{eb6d80b8d6ac0e4af512406c36e6cb39}
-      \strng{authorbibnamehash}{eb6d80b8d6ac0e4af512406c36e6cb39}
-      \strng{authornamehash}{eb6d80b8d6ac0e4af512406c36e6cb39}
-      \strng{authorfullhash}{eb6d80b8d6ac0e4af512406c36e6cb39}
-      \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{title}{Controlling Stress in Bonded Optics}
-      \field{year}{2001}
-    \endentry
     \entry{karlen2018}{thesis}{}
       \name{author}{1}{}{%
         {{hash=4d375e6a14705be231ca16ed141e554c}{%
@@ -1549,56 +1530,6 @@
       \endverb
       \verb{url}
       \verb http://dx.doi.org/10.1103/PhysRevLett.96.057404
-      \endverb
-    \endentry
-    \entry{turco2017}{article}{}
-      \name{author}{3}{}{%
-        {{hash=f135a48947eb5f81159a7f92313499ad}{%
-           family={Lo\bibnamedelima Turco},
-           familyi={L\bibinitperiod\bibinitdelim T\bibinitperiod},
-           given={Sara},
-           giveni={S\bibinitperiod}}}%
-        {{hash=c8eb32a433524f6449b49dfd5f213adf}{%
-           family={Di\bibnamedelima Donato},
-           familyi={D\bibinitperiod\bibinitdelim D\bibinitperiod},
-           given={Andrea},
-           giveni={A\bibinitperiod}}}%
-        {{hash=c214dd6590f9700f5c1661e5016be47e}{%
-           family={Criante},
-           familyi={C\bibinitperiod},
-           given={Luigino},
-           giveni={L\bibinitperiod}}}%
-      }
-      \list{publisher}{1}{%
-        {IOP Publishing}%
-      }
-      \strng{namehash}{91a138953e67f8450c4999133965a7fb}
-      \strng{fullhash}{91a138953e67f8450c4999133965a7fb}
-      \strng{bibnamehash}{91a138953e67f8450c4999133965a7fb}
-      \strng{authorbibnamehash}{91a138953e67f8450c4999133965a7fb}
-      \strng{authornamehash}{91a138953e67f8450c4999133965a7fb}
-      \strng{authorfullhash}{91a138953e67f8450c4999133965a7fb}
-      \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{issn}{1361-6439}
-      \field{journaltitle}{Journal of Micromechanics and Microengineering}
-      \field{month}{4}
-      \field{number}{6}
-      \field{title}{Scattering effects of glass-embedded microstructures by roughness controlled fs-laser micromachining}
-      \field{volume}{27}
-      \field{year}{2017}
-      \field{pages}{065007}
-      \range{pages}{1}
-      \verb{doi}
-      \verb 10.1088/1361-6439/aa6b3b
-      \endverb
-      \verb{urlraw}
-      \verb http://dx.doi.org/10.1088/1361-6439/aa6b3b
-      \endverb
-      \verb{url}
-      \verb http://dx.doi.org/10.1088/1361-6439/aa6b3b
       \endverb
     \endentry
     \entry{sala2021}{article}{}
@@ -3666,8 +3597,8 @@
       \strng{authorbibnamehash}{c73db8c15fc82231e9b78892aff732dc}
       \strng{authornamehash}{c73db8c15fc82231e9b78892aff732dc}
       \strng{authorfullhash}{50e30c5da9b1d2ddf698cda1e9673499}
-      \field{sortinit}{2}
-      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{issn}{2072-666X}
@@ -3716,8 +3647,8 @@
       \strng{authorbibnamehash}{b4817539e1445023ce662c45ff07fc40}
       \strng{authornamehash}{b4817539e1445023ce662c45ff07fc40}
       \strng{authorfullhash}{b4817539e1445023ce662c45ff07fc40}
-      \field{sortinit}{2}
-      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{issn}{2046-2069}

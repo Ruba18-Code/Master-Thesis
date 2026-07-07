@@ -11,7 +11,7 @@
 \glossentry{FLW}{\glossaryentrynumbers{\relax 
 		\setentrycounter[]{page}\glsnumberformat{16}}}%
 \glossentry{FWHM}{\glossaryentrynumbers{\relax 
-		\setentrycounter[]{page}\glsnumberformat{71}}}\glsgroupskip
+		\setentrycounter[]{page}\glsnumberformat{70}}}\glsgroupskip
 \glsgroupheading{H}\relax \glsresetentrylist %
 \glossentry{HWP}{\glossaryentrynumbers{\relax 
 		\setentrycounter[]{page}\glsnumberformat{71}}}\glsgroupskip
@@ -35,6 +35,8 @@
 \glossentry{PBS}{\glossaryentrynumbers{\relax 
 		\setentrycounter[]{page}\glsnumberformat{71}}}\glsgroupskip
 \glsgroupheading{Q}\relax \glsresetentrylist %
+\glossentry{QPN}{\glossaryentrynumbers{\relax 
+		\setentrycounter[]{page}\glsnumberformat{7}}}%
 \glossentry{QWP}{\glossaryentrynumbers{\relax 
 		\setentrycounter[]{page}\glsnumberformat{71}}}\glsgroupskip
 \glsgroupheading{R}\relax \glsresetentrylist %

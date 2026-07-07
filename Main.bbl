@@ -1134,25 +1134,6 @@
       \verb http://dx.doi.org/10.3390/mi9080405
       \endverb
     \endentry
-    \entry{bachman2001}{article}{}
-      \name{author}{1}{}{%
-        {{hash=eb6d80b8d6ac0e4af512406c36e6cb39}{%
-           family={Bachman},
-           familyi={B\bibinitperiod}}}%
-      }
-      \strng{namehash}{eb6d80b8d6ac0e4af512406c36e6cb39}
-      \strng{fullhash}{eb6d80b8d6ac0e4af512406c36e6cb39}
-      \strng{bibnamehash}{eb6d80b8d6ac0e4af512406c36e6cb39}
-      \strng{authorbibnamehash}{eb6d80b8d6ac0e4af512406c36e6cb39}
-      \strng{authornamehash}{eb6d80b8d6ac0e4af512406c36e6cb39}
-      \strng{authorfullhash}{eb6d80b8d6ac0e4af512406c36e6cb39}
-      \field{sortinit}{6}
-      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{title}{Controlling Stress in Bonded Optics}
-      \field{year}{2001}
-    \endentry
     \entry{karlen2018}{thesis}{}
       \name{author}{1}{}{%
         {{hash=4d375e6a14705be231ca16ed141e554c}{%
@@ -1167,8 +1148,8 @@
       \strng{authorbibnamehash}{4d375e6a14705be231ca16ed141e554c}
       \strng{authornamehash}{4d375e6a14705be231ca16ed141e554c}
       \strng{authorfullhash}{4d375e6a14705be231ca16ed141e554c}
-      \field{sortinit}{7}
-      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
+      \field{sortinit}{6}
+      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{month}{12}
@@ -1417,8 +1398,8 @@
       \strng{authorbibnamehash}{3efa52e1a6b1fe4739655ddb2300d02c}
       \strng{authornamehash}{3efa52e1a6b1fe4739655ddb2300d02c}
       \strng{authorfullhash}{3efa52e1a6b1fe4739655ddb2300d02c}
-      \field{sortinit}{8}
-      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
+      \field{sortinit}{7}
+      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{issn}{1432-0630}
@@ -1468,8 +1449,8 @@
       \strng{authorbibnamehash}{066cbd1ff829ca12fd9009f268eecd3c}
       \strng{authornamehash}{066cbd1ff829ca12fd9009f268eecd3c}
       \strng{authorfullhash}{a896691cf2be5b23ce116dcd401d34f1}
-      \field{sortinit}{8}
-      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
+      \field{sortinit}{7}
+      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Laser {and} Photonics Reviews}
@@ -1551,56 +1532,6 @@
       \verb http://dx.doi.org/10.1103/PhysRevLett.96.057404
       \endverb
     \endentry
-    \entry{turco2017}{article}{}
-      \name{author}{3}{}{%
-        {{hash=f135a48947eb5f81159a7f92313499ad}{%
-           family={Lo\bibnamedelima Turco},
-           familyi={L\bibinitperiod\bibinitdelim T\bibinitperiod},
-           given={Sara},
-           giveni={S\bibinitperiod}}}%
-        {{hash=c8eb32a433524f6449b49dfd5f213adf}{%
-           family={Di\bibnamedelima Donato},
-           familyi={D\bibinitperiod\bibinitdelim D\bibinitperiod},
-           given={Andrea},
-           giveni={A\bibinitperiod}}}%
-        {{hash=c214dd6590f9700f5c1661e5016be47e}{%
-           family={Criante},
-           familyi={C\bibinitperiod},
-           given={Luigino},
-           giveni={L\bibinitperiod}}}%
-      }
-      \list{publisher}{1}{%
-        {IOP Publishing}%
-      }
-      \strng{namehash}{91a138953e67f8450c4999133965a7fb}
-      \strng{fullhash}{91a138953e67f8450c4999133965a7fb}
-      \strng{bibnamehash}{91a138953e67f8450c4999133965a7fb}
-      \strng{authorbibnamehash}{91a138953e67f8450c4999133965a7fb}
-      \strng{authornamehash}{91a138953e67f8450c4999133965a7fb}
-      \strng{authorfullhash}{91a138953e67f8450c4999133965a7fb}
-      \field{sortinit}{9}
-      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{issn}{1361-6439}
-      \field{journaltitle}{Journal of Micromechanics and Microengineering}
-      \field{month}{4}
-      \field{number}{6}
-      \field{title}{Scattering effects of glass-embedded microstructures by roughness controlled fs-laser micromachining}
-      \field{volume}{27}
-      \field{year}{2017}
-      \field{pages}{065007}
-      \range{pages}{1}
-      \verb{doi}
-      \verb 10.1088/1361-6439/aa6b3b
-      \endverb
-      \verb{urlraw}
-      \verb http://dx.doi.org/10.1088/1361-6439/aa6b3b
-      \endverb
-      \verb{url}
-      \verb http://dx.doi.org/10.1088/1361-6439/aa6b3b
-      \endverb
-    \endentry
     \entry{sala2021}{article}{}
       \name{author}{5}{}{%
         {{hash=eb9da37d007eeae92e2023f4c187b772}{%
@@ -1638,8 +1569,8 @@
       \strng{authorbibnamehash}{19a4656a1a13b745802b8acd10669115}
       \strng{authornamehash}{19a4656a1a13b745802b8acd10669115}
       \strng{authorfullhash}{d21f1086e41a45f147380e06c703aae7}
-      \field{sortinit}{9}
-      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
+      \field{sortinit}{8}
+      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{issn}{2072-666X}
@@ -1665,8 +1596,8 @@
       \list{publisher}{1}{%
         {Wiley}%
       }
-      \field{sortinit}{9}
-      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
+      \field{sortinit}{8}
+      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
       \field{labeltitlesource}{title}
       \field{isbn}{9783527644223}
       \field{month}{1}
@@ -1974,8 +1905,8 @@
       \strng{authorbibnamehash}{5c0e543ff81351d9ef1062e531c55eb5}
       \strng{authornamehash}{5c0e543ff81351d9ef1062e531c55eb5}
       \strng{authorfullhash}{e2375134cced19bdeba46a8cc89a6f12}
-      \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{sortinit}{9}
+      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{issn}{1938-6737}
@@ -2029,8 +1960,8 @@
       \strng{authorbibnamehash}{8e3fb5f2c10fc37a4e5efe24bcd69b97}
       \strng{authornamehash}{8e3fb5f2c10fc37a4e5efe24bcd69b97}
       \strng{authorfullhash}{50f0b707757374472e49510402e9d80e}
-      \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{sortinit}{9}
+      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{issn}{1869-196X}
@@ -2069,8 +2000,8 @@
       \strng{authorbibnamehash}{617170be0bd13f0fb607ca1fafc9b785}
       \strng{authornamehash}{617170be0bd13f0fb607ca1fafc9b785}
       \strng{authorfullhash}{617170be0bd13f0fb607ca1fafc9b785}
-      \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{sortinit}{9}
+      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Journal of Non-Crystalline Solids}
@@ -2095,8 +2026,8 @@
       \strng{authorbibnamehash}{d716d2891fb3a2d0b755cf6045db39ec}
       \strng{authornamehash}{d716d2891fb3a2d0b755cf6045db39ec}
       \strng{authorfullhash}{d716d2891fb3a2d0b755cf6045db39ec}
-      \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{sortinit}{9}
+      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Journal of the Optical Society of America}
@@ -2170,8 +2101,8 @@
       \strng{authorbibnamehash}{450d7c946c4d33c798e22c78787004f1}
       \strng{authornamehash}{450d7c946c4d33c798e22c78787004f1}
       \strng{authorfullhash}{a0d88dac3a677b34559becd080bc1bc4}
-      \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{sortinit}{9}
+      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{issn}{2045-2322}
@@ -4142,8 +4073,8 @@
       \strng{authorbibnamehash}{f266651667b50b3fd491c98cec367c55}
       \strng{authornamehash}{f266651667b50b3fd491c98cec367c55}
       \strng{authorfullhash}{f266651667b50b3fd491c98cec367c55}
-      \field{sortinit}{2}
-      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{howpublished}{Wikimedia Commons}
@@ -4169,8 +4100,8 @@
       \strng{authorbibnamehash}{3498f236e759b9888574b9d89a5db7dd}
       \strng{authornamehash}{3498f236e759b9888574b9d89a5db7dd}
       \strng{authorfullhash}{3498f236e759b9888574b9d89a5db7dd}
-      \field{sortinit}{2}
-      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{RSC Advances}

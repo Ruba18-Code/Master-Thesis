@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999995 (TeX Live 2023/Debian) (preloaded format=xelatex 2026.4.1)  7 JUL 2026 11:55
+This is XeTeX, Version 3.141592653-2.6-0.999995 (TeX Live 2023/Debian) (preloaded format=xelatex 2026.4.1)  7 JUL 2026 18:04
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1532,12 +1532,12 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 File: Images/basicvaporcell.png Graphic file (type bmp)
 <Images/basicvaporcell.png>
  [4]
-Overfull \hbox (15.78946pt too wide) in paragraph at lines 192--209
+Overfull \hbox (15.78946pt too wide) in paragraph at lines 191--208
 []\TU/TeXGyreTermes(0)/m/n/10.95 Depending on the specific sensing modality —such as atomic clocks, spectroscopy, or magnetometry—
  []
 
 [5] [6]
-Overfull \hbox (24.53853pt too wide) in paragraph at lines 351--356
+Overfull \hbox (24.53853pt too wide) in paragraph at lines 350--355
 \TU/TeXGyreTermes(0)/m/n/10.95 In practice, technical noise —laser intensity fluctuations, frequency drift, imperfect magnetic shielding—
  []
 
@@ -1842,15 +1842,12 @@ File: Images/COMSOL/cutpoint.png Graphic file (type bmp)
 <Images/COMSOL/cutpoint.png>
 File: Images/COMSOL/sensitivityplot.png Graphic file (type bmp)
 <Images/COMSOL/sensitivityplot.png>
- [68] [69]) (./sections/Experiments and Applications/Magnetometry Experiment 1.tex [70]
+ [68]) (./sections/Experiments and Applications/Magnetometry Experiment 1.tex [69] [70]
 File: Images/twinleaf_cell.png Graphic file (type bmp)
 <Images/twinleaf_cell.png>
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
 File: Images/magnetic_setup.png Graphic file (type bmp)
 <Images/magnetic_setup.png>
+
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
@@ -1870,12 +1867,12 @@ File: Images/Fit_00Y_45Z.pdf Graphic file (type pdf)
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-) (./sections/Conclusion.tex [72] [73] [74]
+) (./sections/Conclusion.tex [72] [73] [74
+
+
+]
 Chapter 5.
-[75
-
-
-]) [76]
+[75]) [76]
 Overfull \hbox (27.0177pt too wide) in paragraph at lines 266--266
 []\TU/TeXGyreTermes(0)/m/n/10.95 D. V. Rogers. \TU/TeXGyreTermes(0)/m/it/10.95 A diagram that shows the Zhang Heng seismoscope\TU/TeXGyreTermes(0)/m/n/10.95 . \TU/TeXGyreTermes(0)/m/sc/10.95 url\TU/TeXGyreTermes(0)/m/n/10.95 : []$[][][][][] [] [] [] [][][][][][][][][][][] []
  []
@@ -1888,16 +1885,6 @@ Overfull \hbox (42.25162pt too wide) in paragraph at lines 266--266
 [77
 
 ] [78]
-Overfull \hbox (10.70496pt too wide) in paragraph at lines 266--266
-[]\TU/TeXGyreTermes(0)/m/n/10.95 Sara Lo Turco, Andrea Di Donato, and Luigino Criante. “Scattering effects of glass-embedded
- []
-
-
-Overfull \hbox (0.94754pt too wide) in paragraph at lines 266--266
-\TU/TeXGyreTermes(0)/m/n/10.95 microstructures by roughness controlled fs-laser micromachining”. In: \TU/TeXGyreTermes(0)/m/it/10.95 Journal of Microme-
- []
-
-
 Overfull \hbox (7.4564pt too wide) in paragraph at lines 266--266
 \TU/TeXGyreTermes(0)/m/it/10.95 view of Materials Science \TU/TeXGyreTermes(0)/m/n/10.95 28 (1998), pp. 215–241. \TU/TeXGyreTermes(0)/m/sc/10.95 url\TU/TeXGyreTermes(0)/m/n/10.95 : []$[][][][][] [] [] [] [][][] [] [][][][][][][][][][][][][][][] []
  []
@@ -1970,10 +1957,10 @@ Package logreq Info: Writing requests to 'Main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 48092 strings out of 474878
- 1006277 string characters out of 5762517
+ 48114 strings out of 474878
+ 1006391 string characters out of 5762517
  1952627 words of memory out of 5000000
- 69239 multiletter control sequences out of 15000+600000
+ 69261 multiletter control sequences out of 15000+600000
  566673 words of font info for 113 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  96i,15n,96p,2389b,5524s stack positions out of 10000i,1000n,20000p,200000b,200000s

@@ -151,8 +151,7 @@ and precision metrology.
 % ----------------------------------------------------------------
 
 The demand for even more precise and stable measurements has
-driven the development of quantum sensors based on atomic
-spectroscopy. Atom-based quantum sensors exploit the highly
+driven the development of quantum sensors. Atom-based quantum sensors exploit the highly
 stable, reproducible, and sharply defined energy levels of atoms
 to measure physical quantities~\cite{kitching2011,brown2025}. In
 their basic form, these sensors prepare a specific quantum state
@@ -326,7 +325,7 @@ in a range directly accessible by standard microwave electronics.
 % - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 
 The fundamental noise floor of any atomic sensor arises from
-quantum projection noise~\cite{kitching2011,brown2025}: each
+quantum projection noise (QPN)~\cite{kitching2011,brown2025}: each
 measurement collapses an atom into a definite energy eigenstate
 according to quantum probability, introducing unavoidable
 shot-to-shot randomness. For $N$ independent atoms with
@@ -420,9 +419,9 @@ Electromagnetically Induced Transparency (EIT) between the ground state
 and the Rydberg level; any external electric field shifts the Rydberg 
 states via the Stark effect, disrupts the coherence, and maps the field 
 onto macroscopic changes in light transmission. Although their ultimate 
-theoretical QPN limit lies in the pV~$\text{cm}^{-1}$ regime, practical 
+theoretical \gls{QPN} limit lies in the pV~$\text{cm}^{-1}$ regime, practical 
 experimental sensitivities of $10~\mu\text{V}\,\text{cm}^{-1}$ or better 
-are currently achievable. Light-pulse atom interferometers (LPAIs), by 
+are currently achievable. Light-pulse atom interferometers (\gls{LPAI}s), by 
 contrast, offer the highest performance for inertial sensing through 
 matter-wave interference, but require laser-cooled atoms and complex 
 high-vacuum chambers, greatly increasing size, weight, and power (SWaP).
@@ -437,7 +436,7 @@ with photonic components to hybrid, off-chip architectures. Addressing
 these limitations requires a fundamentally different manufacturing approach 
 ---one that combines the geometric freedom of femtosecond laser writing 
 with the precision of glass microfabrication. This is the starting point 
-for the technology that is the focus of this thesis, the Laser-Written Vapor Cell.
+for the technology that is the focus of this thesis: the Laser-Written Vapor Cell.
 
 \section{Laser-Written Vapor Cells (LWVCs)}
 \label{sec:lwvcs}
@@ -536,7 +535,7 @@ on-chip and eliminating mode-matching losses and alignment tolerances entirely.
 
 \begin{figure}[h]
     \centering
-    \includegraphics[width=\linewidth]{Images/atomic_PIC.png}
+    \includegraphics[width=0.9\linewidth]{Images/atomic_PIC.png}
     \caption{Conceptual illustration of an Atomic-Photonic Integrated Circuit. 
     The hybrid device couples a Laser-Written Vapor Cell 
     to external optical components via dedicated interfaces. The working principle is as follows: 
@@ -549,7 +548,7 @@ on-chip and eliminating mode-matching losses and alignment tolerances entirely.
 
 \begin{figure}[h]
     \centering
-    \includegraphics[width=\linewidth]{Images/lw_waveguide.png}
+    \includegraphics[width=0.9\linewidth]{Images/lw_waveguide.png}
     \caption{Conceptual rendering of a femtosecond laser-written waveguide network embedded within 
     a monolithic glass substrate. This maskless technique enables the direct 3D routing of light, 
     establishing a technological foundation for fully monolithic atomic-photonic integration. 
