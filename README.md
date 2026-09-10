@@ -24,16 +24,5 @@ The primary objective of this work is to advance chip-scale optical and quantum 
 ### 🔬 Key Focus Areas
 
 * ⚙️ **Design & Microfabrication:** Microchannel creation in glass substrates using Femtosecond Laser-Assisted Etching (FLICE).
-* 🧪 **Experimental Characterization:** Optical spectroscopy, vapor density measurement, and long-term hermeticity testing.
-* ⚛️ **Quantum Applications:** Miniaturized frequency standards, quantum sensing, and integrated photonics platforms.
-
----
-
-### 📂 Repository Structure
-
-```text
-.
-├── Images/              # Experimental diagrams, wafer photos, and plots
-├── Data/                # Raw characterization and spectroscopy data
-├── Src/                 # LaTeX source files (.tex, .bib, custom packages)
-└── Master_Thesis.pdf    # Main compiled thesis document
+* 🧪 **Experimental Characterization:** Quality control, Optical spectroscopy, magnetometry, and long-term hermeticity testing.
+* ⚛️ **Quantum Applications:** Quantum sensing, and integrated photonics platforms.
