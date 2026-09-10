@@ -15,7 +15,7 @@
 
 ### 📌 Overview & Abstract
 
-This repository contains the full Master's Thesis documentation, experimental protocols, and research results focused on the development of integrated atomic vapor cells fabricated via **femtosecond laser micromachining** and thermal bonding techniques.
+This repository contains the full Master's Thesis documentation, experimental protocols, and research results focused on the development of integrated atomic vapor cells fabricated via **femtosecond laser micromachining** and bonding techniques.
 
 The primary objective of this work is to advance chip-scale optical and quantum devices—such as atomic clocks, magnetometers, and quantum memories—by integrating alkali vapor cells directly into photonic circuits.
 
@@ -23,7 +23,7 @@ The primary objective of this work is to advance chip-scale optical and quantum 
 
 ### 🔬 Key Focus Areas
 
-* ⚙️ **Design & Microfabrication:** Microchannel creation in glass substrates using Femtosecond Laser-Assisted Etching (FLAE).
+* ⚙️ **Design & Microfabrication:** Microchannel creation in glass substrates using Femtosecond Laser-Assisted Etching (FLICE).
 * 🧪 **Experimental Characterization:** Optical spectroscopy, vapor density measurement, and long-term hermeticity testing.
 * ⚛️ **Quantum Applications:** Miniaturized frequency standards, quantum sensing, and integrated photonics platforms.
 
